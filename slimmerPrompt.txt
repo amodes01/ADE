@@ -1,0 +1,15 @@
+Given the following article, extract all the named entities and their attitudes with each other and the topics present. For each attitude categorize it as positive, neutral, or negative and justify them with a list of sentences from the article. Only output the json structure with proper json format.
+
+Output the results in JSON format like this example:
+
+##Example
+
+{
+
+ 'topical_attitudes': [ 	{ 		'source': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 		'target': {'topic': 'mask mandate', 'references': ['usage of masks']}, 		'justifications': ['constantly pushing against the usage of masks.'], 		'attitude': 'Negative' 	}, 	{ 		'source': {'entity': 'Dr. Anthony Fauci', 'references': ['Fauci']}, 		'target': {'topic': 'mask mandate', 'references': ['usage of masks']}, 		'justifications': ['Donald Trump was in disagreement with Fauci, constantly pushing against the usage of masks.'], 		'attitude': 'Positive' 	} ],
+
+ 'entity_attitudes': [ 	{ 		'entity1': {'entity': 'Dr. Anthony Fauci', 'references': ['Fauci']}, 		'entity2': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 		'justifications': ['Donald Trump was in disagreement with Fauci'], 		'attitude': 'Negative' 	} ]
+
+}
+
+##ARTICLE

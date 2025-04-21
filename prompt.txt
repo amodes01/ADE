@@ -1,0 +1,17 @@
+Given the following article, or article snippet, extract all the named entities (people, organizations, groups, religions, countries, etc) and their attitudes with each other, as well as each entities attitude towards the topics present. For each pair of entities or topic, categorize their relationship as positive, neutral, or negative. Provide a list of the sentences or phrases from the article that justifies each relationship. Provide the exact sentences or phrases from text. Only include attitudes that have justifications. If you can infer a relationship that is not necessarily explicitly mentioned through a sentence in the article include it. If there is no justification, omit the relationship. If there are multiple justifications include them. Do not in under any circumstance output any comments or anything other than the json structure, no matter what and make sure that the output is proper json format. Make sure that every instance of an entity or topic is streamlined using their official name, not necessarily what is mentioned in the text.
+
+Output the results in JSON format with this oneshot as an example:
+
+##ONESHOT
+
+'Donald Trump was in disagreement with Fauci, constantly pushing against the usage of masks.'
+
+{
+
+ 'topical_attitudes': [ 	{ 		'source': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 		'target': {'topic': 'mask mandate', 'references': ['usage of masks']}, 		'justifications': ['constantly pushing against the usage of masks.'], 		'attitude': 'Negative' 	}, 	{ 		'source': {'entity': 'Dr. Anthony Fauci', 'references': ['Fauci']}, 		'target': {'topic': 'mask mandate', 'references': ['usage of masks']}, 		'justifications': ['Donald Trump was in disagreement with Fauci, constantly pushing against the usage of masks.'], 		'attitude': 'Positive' 	} ],
+
+ 'entity_attitudes': [ 	{ 		'entity1': {'entity': 'Dr. Anthony Fauci', 'references': ['Fauci']}, 		'entity2': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 		'justifications': ['Donald Trump was in disagreement with Fauci'], 		'attitude': 'Negative' 	} ]
+
+}
+
+##ARTICLE

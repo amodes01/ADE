@@ -1,0 +1,70 @@
+1. News_Corpus_Collector:
+Dependencies: keybert, newspaper3k
+Parameters: Output_Dir, Start_Date, End_Date, keywords, actor1/2 country
+Input: GDELT API
+Output: dumps, html, articles, pre_processed
+
+2. Gpt_Communicator:
+Dependencies: requests, API key
+Parameters: Output_Dir, prompt_file
+Input: pre_processed articles
+Output: gpt_results folder (contains the json structured responses)
+
+3. Gpt_Authenticator
+Dependencies: None
+Parameters: Output_Dir
+Input: gpt_results
+Output: gpt_results_authenticated folder (fixes responses and keeps only the valid structured responses)
+
+4. Gpt_To_Noun_Phrases:
+Dependencies: json
+Parameters: Output_Dir
+Input: gpt_results_authenticated
+Output: gpt_noun_phrases (identical structure to polar's noun phrases)
+
+5. Gpt_To_Attitude:
+Dependencies: json, pickle
+Parameters: Output_Dir
+Input: gpt_results_authenticated
+Output: gpt_attitudes (identical structure to polar's attitudes)
+
+6. Topic_Identifier:
+Dependencies:  torch, numpy, nltk, transformers, Nvidia CPU
+Parameters: Output_Dir, chunk_size (5000), threshold(0.80)
+Input: gpt_noun_phrases
+Output: gpt_topics.json.gz file
+
+7. SAGGenerator:
+Dependencies:  numpy, matplotlib, itertools, networkx
+Parameters: Output_Dir, figsize, bin_category_mapping, minimum_frequency, verbose
+Input: gpt_attitudes folder
+Output: gpt_polarization folder
+
+8. Fellowship_Extractor:
+Dependencies:  numpy, pandas, gzip, scipy, pickle, java, gurobi
+Parameters: Output_Dir, n_iter, resolution, merg_iter, jar_path, verbose
+Input: gpt_polarization folder
+Output: gpt_polarization/ fellowships.json
+
+9. Dipole_Generatior:
+Dependencies:  numpy, pandas, gzip, scipy, pickle, java, gurobi
+Parameters: Output_Dir, f_g_thr, n_r_thr
+Input: gpt_polarization folder + fellowships.json
+Output: gpt_polarization/dipoles.pckl
+
+10. Topic_Attitude_Calculator:
+Dependencies:  numpy, pandas, gzip, scipy, pickle, java, gurobi
+Parameters: Output_Dir, entity_filter_list, merge_dict
+Input: gpt_polarization folder + gpt_topics.json.gz + gpt_noun_phrases
+ 
+Load_Sentiment_Attitudes:
+
+get_polarization_topics:
+Input: Dipoles
+Returns: Dipole info + dictionary
+
+get_topic_attitudes:
+Parameters: aggr_func = numpy.mean
+Output: gpt_polarization/attitudes.pckl
+
+
