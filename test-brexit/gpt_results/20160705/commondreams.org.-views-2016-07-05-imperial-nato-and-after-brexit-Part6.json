@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "imperialism", "references": ["imperialism"] },
+      "justifications": [
+        "The challenge we face is to respond to NATO's imperialism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Deep Cuts Commission", "references": ["Deep Cuts Commission"] },
+      "target": { "topic": "military buildup", "references": ["military buildup", "military tensions"] },
+      "justifications": [
+        "Giving priority to U.S.-Russian negotiations to restrain and address the intense military buildup and military tensions in the Baltic area."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Deep Cuts Commission", "references": ["Deep Cuts Commission"] },
+      "target": { "topic": "nuclear weapons modernization", "references": ["nuclear weapons modernization"] },
+      "justifications": [
+        "And, while the Commission calls for restraint in nuclear weapons modernization, clearly our goal should be an end to the development and deployment of these omnicidal weapons."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Common Security", "references": ["Common Security"] },
+      "target": { "topic": "dialogue", "references": ["negotiation", "dialogue", "cooperation"] },
+      "justifications": [
+        "\"Common security means negotiation, dialogue and cooperation; it implies peaceful resolution of conflicts. Security can be achieved only by a joint effort or not at all.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Common Security", "references": ["Common Security"] },
+      "target": { "topic": "military incidents", "references": ["military incidents"] },
+      "justifications": [
+        "Prevent[ing] dangerous military incidents by establishing specific rules of conduct."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Common Security", "references": ["Common Security"] },
+      "target": { "topic": "nuclear risk reduction", "references": ["nuclear risk reduction measures"] },
+      "justifications": [
+        "Revive dialogue on nuclear risk reduction measures."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Poland", "references": ["Poland"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "Neither Poland and Russia nor Washington and Moscow will be living in harmony any time soon."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Washington", "references": ["Washington"] },
+      "entity2": { "entity": "Moscow", "references": ["Moscow"] },
+      "justifications": [
+        "Neither Poland and Russia nor Washington and Moscow will be living in harmony any time soon."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "U.S.", "references": ["U.S."] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "Giving priority to U.S.-Russian negotiations to restrain and address the intense military buildup and military tensions in the Baltic area."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Swedish Prime Minister Palme", "references": ["Swedish Prime Minister Palme"] },
+      "entity2": { "entity": "U.S.", "references": ["U.S."] },
+      "justifications": [
+        "Swedish Prime Minister Palme brought together leading U.S., European and Soviet figures to explore ways to step back from the brink."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Swedish Prime Minister Palme", "references": ["Swedish Prime Minister Palme"] },
+      "entity2": { "entity": "Soviet figures", "references": ["Soviet figures"] },
+      "justifications": [
+        "Swedish Prime Minister Palme brought together leading U.S., European and Soviet figures to explore ways to step back from the brink."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Reiner Braun", "references": ["Reiner Braun"] },
+      "entity2": { "entity": "Common Security", "references": ["Common Security"] },
+      "justifications": [
+        "As Reiner Braun explained, it requires that \"the interests of others are seen as legitimate and have to be taken into account in [one's] decision making process...Common security means negotiation, dialogue and cooperation; it implies peaceful resolution of conflicts. Security can be achieved only by a joint effort or not at all.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

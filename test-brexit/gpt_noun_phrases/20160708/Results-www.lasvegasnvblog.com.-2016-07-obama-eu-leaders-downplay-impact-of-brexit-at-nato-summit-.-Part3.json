@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "growing anti-tourism sentiments",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "anti-tourism sentiments",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "anti-tourism sentiments",
+                "types": [],
+                "wikid": "anti-tourism sentiments",
+                "dbpedia": "anti-tourism sentiments"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tourism industry",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tourism industry"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "anti-tourism sentiments -> tourism industry": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "growing anti-tourism sentiments and environmental concerns",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "environmental concerns",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "environmental concerns",
+                "types": [],
+                "wikid": "environmental concerns",
+                "dbpedia": "environmental concerns"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tourism industry",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tourism industry"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "environmental concerns -> tourism industry": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "concerns over safety, health and security of guests and crew",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silversea Cruises",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silversea Cruises",
+                "types": [],
+                "wikid": "Silversea Cruises",
+                "dbpedia": "Silversea Cruises"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "tourism industry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "tourism industry",
+                "types": [],
+                "wikid": "tourism industry",
+                "dbpedia": "tourism industry"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Silversea Cruises -> tourism industry": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

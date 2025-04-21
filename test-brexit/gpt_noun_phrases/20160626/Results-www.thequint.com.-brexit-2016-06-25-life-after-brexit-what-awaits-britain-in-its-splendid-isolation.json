@@ -1,0 +1,101 @@
+[
+    {
+        "sentence": "the British people voted to shut the door on Europe and retreated into their little island.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British people",
+                "types": [],
+                "wikid": "British people",
+                "dbpedia": "British people"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British people -> Europe": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British people -> Brexit": [
+                -1.0
+            ],
+            "British people -> Europe": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The moon has finally set on the British empire.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British people",
+                "types": [],
+                "wikid": "British people",
+                "dbpedia": "British people"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British Empire",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British Empire",
+                "types": [],
+                "wikid": "British Empire",
+                "dbpedia": "British Empire"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British people -> British Empire": [
+                -1.0
+            ],
+            "British Empire -> British people": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

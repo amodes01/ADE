@@ -1,0 +1,68 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK economy", "references": ["UK's economy"] },
+      "justifications": [
+        "The surprising move by the UK, one of the world's largest economies, has created a lot of uncertainty regarding the future of the country as well as the EU, resulting in a severe volatility in the stock markets.",
+        "we expect the UK's GDP to decline by 2.5%-3.5% by 2020, ceteris paribus."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK air travel", "references": ["UK air travel", "UK air passengers"] },
+      "justifications": [
+        "Thus, UK air passengers are likely to drop by 3%-5% by 2020.",
+        "the Brexit is likely to result in the weakening of the pound with respect to other currencies.",
+        "A weaker pound is expected to make outbound trips for UK passengers more expensive."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "US Airlines", "references": ["US Airlines"] },
+      "justifications": [
+        "Thus, US Airlines which have exposure to the UK markets, will face a dip in their revenue over the long term.",
+        "the Brexit is expected to result in a slowdown in the UK's economy, which will indirectly cause a depreciation of its currency, the pound."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "entity2": { "entity": "European Union", "references": ["European Union", "EU"] },
+      "justifications": [
+        "Contrary to market expectations, the United Kingdom surprisingly voted in favor of leaving the European Union through a referendum on 23rd June 2016."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "entity2": { "entity": "US Airlines", "references": ["US Airlines"] },
+      "justifications": [
+        "The worst loser was American Airlines, whose stock dropped almost 11% in a single trading day, as the airline is believed to have maximum exposure to the UK air travel market.",
+        "The major reason behind this perspective is that the demand for outbound flights from the UK to the US will decline due to weakening of the pound because of slower economic growth in the country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "S&P 500", "references": ["S&P 500"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "justifications": [
+        "S&P 500 downgraded the UK's credit rating to AA, from AAA causing further fluctuation in the currency's exchange rate."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "American Airlines", "references": ["American Airlines"] },
+      "entity2": { "entity": "British Airways", "references": ["British Airways"] },
+      "justifications": [
+        "According to market estimates, the world's largest airline (by traffic) has over 6% capacity that is directly related to the UK markets, owing to its partnership with British Airways."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "James Paul", "references": ["James Paul"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The much-ballyhooed British exit (Brexit) from the 28-member European Union (EU) is likely to have political ramifications at the United Nations - both in the short and the long term."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Barbara Crossette", "references": ["Barbara Crossette"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "As for Northern Ireland, she said, this might speed up a move to be united with the Irish Republic - or, much less likely, with Scotland. Both voted heavily against Brexit."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "James Paul", "references": ["James Paul"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "justifications": [
+        "The Brits, now in splendid isolation, will find their UN perch rather lonely."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "James Paul", "references": ["James Paul"] },
+      "entity2": { "entity": "European Union", "references": ["European Union", "EU"] },
+      "justifications": [
+        "The European Union has become a powerful force at the UN over the past five years and all EU member diplomats closely coordinate with one another, in intense daily rounds of meetings at the EU Mission."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Barbara Crossette", "references": ["Barbara Crossette"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "justifications": [
+        "The 'little Englanders' do not seem to have a problem with the UN, which indeed they might cling to, as proof that the country still matters."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Barbara Crossette", "references": ["Barbara Crossette"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom", "UK"] },
+      "justifications": [
+        "Yes, it has been a big player at the UN - with a good foreign service and record in training diplomats - and I do not see that changing, at least in the near future."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Barbara Crossette", "references": ["Barbara Crossette"] },
+      "entity2": { "entity": "France", "references": ["France"] },
+      "justifications": [
+        "After all, France remains in the P5 with far less global influence."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

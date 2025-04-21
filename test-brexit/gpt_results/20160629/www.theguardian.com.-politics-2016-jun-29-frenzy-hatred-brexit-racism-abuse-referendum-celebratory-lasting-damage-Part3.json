@@ -1,0 +1,82 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Tell Mama", "references": ["Tell Mama"]},
+      "target": {"topic": "anti-Muslim hatred", "references": ["anti-Muslim hatred"]},
+      "justifications": [
+        "Tell Mama's annual report, released on Wednesday, states that anti-Muslim hatred reported to them rose by a staggering 326% in 2015."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hope Not Hate", "references": ["Hope Not Hate"]},
+      "target": {"topic": "far-right extremism", "references": ["far-right extremism"]},
+      "justifications": [
+        "Hope Not Hate points out that it has been arguing for some time that far-right extremism is not getting the attention it deserves."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit-inspired racism", "references": ["Brexit-inspired racism"]},
+      "target": {"topic": "slurs based on ethnicity", "references": ["slurs are focused on ethnicity over religion"]},
+      "justifications": [
+        "Yet the Brexit-inspired racism seems slightly different in that slurs are focused on ethnicity over religion."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Lauren Stonebanks", "references": ["Lauren Stonebanks"]},
+      "entity2": {"entity": "the woman who shouted at her", "references": ["the woman shouted"]},
+      "justifications": [
+        "Lauren Stonebanks, 36, was on a bus on Monday when she says a woman shouted: 'Get your passport, you are fucking going home.'",
+        "As I got off the bus, the woman started making threatening gestures, like punching gestures. It made me feel absolutely terrified."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Saima", "references": ["Saima"]},
+      "entity2": {"entity": "the man ranting about making Britain great again", "references": ["man in his mid to late 30s ranting in the street about 'making Britain great again'"]},
+      "justifications": [
+        "A British-born Saima, 46, was shopping for her elderly mother when she, too, experienced her first brush with racism.",
+        "'There was a man in his mid to late 30s ranting in the street about 'making Britain great again'. I looked over and he pointed at me, saying: 'People like you will be out of here soon.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Anna Rahman", "references": ["Anna Rahman"]},
+      "entity2": {"entity": "racism", "references": ["racism"]},
+      "justifications": [
+        "Anna Rahman, a psychiatrist, posted on Facebook: 'The first time I heard the word 'Paki', I was five and people were pelting eggs and stones at our windows.'",
+        "My father told me no one had the right to make me feel I did not belong here, telling me: 'You are as British as the Queen.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Woolley", "references": ["Woolley"]},
+      "entity2": {"entity": "racism", "references": ["hate crimes", "racism"]},
+      "justifications": [
+        "Woolley is clear, as is Tell Mama, that hate crimes have never gone away."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tell Mama", "references": ["Tell Mama"]},
+      "entity2": {"entity": "racism", "references": ["hate crimes", "racism"]},
+      "justifications": [
+        "Tell Mama's annual report, released on Wednesday, states that anti-Muslim hatred reported to them rose by a staggering 326% in 2015."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sima Kotecha", "references": ["Sima Kotecha"]},
+      "entity2": {"entity": "the leave voter", "references": ["leave voter"]},
+      "justifications": [
+        "BBC journalist Sima Kotecha interviewed a leave voter in her home town of Basingstoke who used the word 'Paki'.",
+        "Afterwards, she tweeted: 'Have not heard that word here since the 80s!'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

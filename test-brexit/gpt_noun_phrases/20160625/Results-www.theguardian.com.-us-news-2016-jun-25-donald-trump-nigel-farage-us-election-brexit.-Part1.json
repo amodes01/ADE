@@ -1,0 +1,198 @@
+[
+    {
+        "sentence": "Trump thinks Mexico is sending rapists to the US.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the UK, this rallying figure is the Polish plumber, a man who has travelled from Warsaw to Wolverhampton with just one thing on his mind: fixing toilets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Other Trump grievances include Washington bureaucrats making terrible deals.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Washington bureaucrats",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Washington bureaucrats"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Washington bureaucrats": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For Farage, substitute Washington with Brussels and China with Brussels and countries around the world with Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brussels bureaucrats",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brussels bureaucrats"
+                ]
+            },
+            {
+                "ngram": "China",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "China"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brussels bureaucrats": [
+                -1.0
+            ],
+            "Nigel Farage -> China": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Other Trump grievances include China wreaking havoc with the US economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "China",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "China"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> China": [
+                -1.0
+            ]
+        }
+    }
+]

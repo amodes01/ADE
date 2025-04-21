@@ -1,0 +1,47 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Donald Trump", "references": ["Trump"] },
+      "target": { "topic": "nationalism", "references": ["nationalism"] },
+      "justifications": [
+        "nationalism will continue to be a powerful political tool, and it's clear Trump will embrace the theme through the November election, seeing Brexit as fuel."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Trump"] },
+      "target": { "topic": "borders", "references": ["borders"] },
+      "justifications": [
+        "\"People want to see borders. They do not necessarily want people pouring into their country that they do not know who they are and where they came from. They have no idea.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Trump"] },
+      "target": { "topic": "immigration", "references": ["people pouring into their country"] },
+      "justifications": [
+        "\"People want to see borders. They do not necessarily want people pouring into their country that they do not know who they are and where they came from. They have no idea.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Trump"] },
+      "target": { "topic": "America first", "references": ["America first"] },
+      "justifications": [
+        "\"Americans, Americans,\\\" he said. \\\"The people that we love.\\\"  \\\"Americans,\\\" he continued. \\\"America first. Make our country great again.\\\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Trump will embrace the theme through the November election, seeing Brexit as fuel."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

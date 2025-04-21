@@ -1,0 +1,274 @@
+[
+    {
+        "sentence": "While uncertainty lingers over the UK's future following the historic Brexit decision, more and more British people are looking as far afield as Australia in search of a better life.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "immigration to Australia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "immigration to Australia",
+                "types": [],
+                "wikid": "immigration to Australia",
+                "dbpedia": "immigration to Australia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "immigration to Australia -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Professor Withers said British nationals were still eligible to apply to migrate to Australia despite the Brexit decision and would enhance Australia's economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "immigration to Australia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "immigration to Australia",
+                "types": [],
+                "wikid": "immigration to Australia",
+                "dbpedia": "immigration to Australia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Professor Glenn Withers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Professor Glenn Withers",
+                "types": [],
+                "wikid": "Professor Glenn Withers",
+                "dbpedia": "Professor Glenn Withers"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Professor Glenn Withers -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "immigration to Australia -> UK economy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Currently the UK's migration policy discriminates against skilled workers from outside the EU including places like Australia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK migration policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK migration policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> UK migration policy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It would be an ironic swipe to Boris Johnson who wants to take back control of our borders if people left the UK for Australia and also after he campaigned that he wanted to make it easier for non-EU migrants to study and work in the UK if it left the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Professor Glenn Withers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Professor Glenn Withers",
+                "types": [],
+                "wikid": "Professor Glenn Withers",
+                "dbpedia": "Professor Glenn Withers"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Professor Glenn Withers -> Boris Johnson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "It would be an ironic swipe to Boris Johnson who wants to take back control of our borders if people left the UK for Australia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "He campaigned that he wanted to make it easier for non-EU migrants to study and work in the UK if it left the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "non-EU migrants",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "non-EU migrants",
+                "types": [],
+                "wikid": "non-EU migrants",
+                "dbpedia": "non-EU migrants"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> non-EU migrants": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Since the seismic turn of events this week there have been calls for referendums by right-wing groups in France, Italy, the Netherlands and Denmark.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "right-wing groups in France, Italy, the Netherlands and Denmark",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "right-wing groups in France, Italy, the Netherlands and Denmark",
+                "types": [],
+                "wikid": "right-wing groups in France, Italy, the Netherlands and Denmark",
+                "dbpedia": "right-wing groups in France, Italy, the Netherlands and Denmark"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "right-wing groups in France, Italy, the Netherlands and Denmark -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

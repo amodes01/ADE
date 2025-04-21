@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "KaloBios", "references": ["KaloBios"] },
+      "target": { "topic": "Chapter 11 bankruptcy", "references": ["Chapter 11 bankruptcy"] },
+      "justifications": [
+        "KaloBios wasn't afraid to stick it to Shkreli either, claiming that the company has risen from the ashes… to move forward as a successful, positive leader in our industry."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "KaloBios", "references": ["KaloBios"] },
+      "target": { "topic": "Martin Shkreli", "references": ["Shkreli"] },
+      "justifications": [
+        "new shares diluted Shkreli's former 47 percent stake in the company to 14 percent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Simply Fashion Stores", "references": ["Simply Fashion Stores"] },
+      "target": { "topic": "Chapter 11 bankruptcy", "references": ["Chapter 11"] },
+      "justifications": [
+        "Simply Fashion will be on the hook for all secured claims and between 1 and 2 percent of the $15 million in unsecured claims on its assets."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Simply Fashion Stores", "references": ["Simply Fashion Stores"] },
+      "target": { "topic": "liquidation", "references": ["liquidation"] },
+      "justifications": [
+        "\"Liquidation sales and turning off the lights at each of the stores took at most two-and-a-half months.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Staples", "references": ["Staples"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "it appears as if Brexit fallout is just ramping up in the retail sector."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Staples", "references": ["Staples"] },
+      "target": { "topic": "failed merger with Office Depot", "references": ["failed merger with Office Depot"] },
+      "justifications": [
+        "Staples' still-uncertain future following its failed merger with Office Depot is causing some executives to wonder whether the equally volatile situation in the post-EU U.K. is worth the retailer's time."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Tekserve", "references": ["Tekserve"] },
+      "target": { "topic": "retail business closure", "references": ["shuttering its West 23rd Street store"] },
+      "justifications": [
+        "Tekserve CEO Jerry Gepner disclosed that the company will be shuttering its West 23rd Street store after 29 years in business."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "KaloBios", "references": ["KaloBios"] },
+      "entity2": { "entity": "Martin Shkreli", "references": ["Shkreli"] },
+      "justifications": [
+        "new shares diluted Shkreli's former 47 percent stake in the company to 14 percent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Simply Fashion Stores", "references": ["Simply Fashion Stores"] },
+      "entity2": { "entity": "creditors", "references": ["creditors"] },
+      "justifications": [
+        "It might not be the plan creditors hoped for, but the shaky brick-and-mortar retail market seems to suggest that they should gladly take a dollar today instead of two tomorrow."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Staples", "references": ["Staples"] },
+      "entity2": { "entity": "Office Depot", "references": ["Office Depot"] },
+      "justifications": [
+        "Staples' still-uncertain future following its failed merger with Office Depot."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

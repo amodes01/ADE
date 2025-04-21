@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "working class conditions", "references": ["the working class", "the lives of these people", "working conditions", "their living and working conditions"]},
+      "justifications": [
+        "China resents the oblivion of a part of their population: the working class",
+        "Their living and working conditions are just shocking!"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chinese citizens from Tier 1 cities", "references": ["people from Tier 1 cities"]},
+      "target": {"topic": "working class conditions", "references": ["the lives of these people", "working conditions", "their living and working conditions"]},
+      "justifications": [
+        "A lot of people were extremely touched by this documentary and felt a lot of empathy towards the workers.",
+        "especially people from Tier 1 cities who cannot believe that this is still happening in 2016"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chinese citizens from Tier 1 cities", "references": ["people from Tier 1 cities"]},
+      "target": {"topic": "government action", "references": ["calling on the government to act and help these people"]},
+      "justifications": [
+        "calling on the government to act and help these people"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "documentary", "references": ["The HotPost of the week", "the documentary"]},
+      "target": {"topic": "awareness of working class conditions", "references": ["It’s about the lives of these people", "The documentary is very emotional", "the documentary was very useful"]},
+      "justifications": [
+        "The documentary is very emotional and shows the gap between the modern and digital forward-thinking Tier 1 Chinese cities and this other China in the countryside.",
+        "the documentary was very useful, by showing the plight of these workers and generating engagement"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "China", "references": ["China"]},
+      "entity2": {"entity": "working class", "references": ["the working class"]},
+      "justifications": [
+        "China resents the oblivion of a part of their population: the working class"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Chinese citizens from Tier 1 cities", "references": ["people from Tier 1 cities"]},
+      "entity2": {"entity": "working class", "references": ["the working class"]},
+      "justifications": [
+        "A lot of people were extremely touched by this documentary and felt a lot of empathy towards the workers."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Chinese citizens from Tier 1 cities", "references": ["people from Tier 1 cities"]},
+      "entity2": {"entity": "documentary", "references": ["The HotPost of the week", "the documentary"]},
+      "justifications": [
+        "A lot of people were extremely touched by this documentary"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

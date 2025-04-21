@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jamie Dimon", "references": ["Jamie Dimon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Jamie Dimon has a message for Brexit Britain: There is nothing wrong with changing your mind.",
+        "Dimon said before the June 23 referendum he thought Brexit would be a 'terrible deal for the British economy.'",
+        "Dimon is not the only one suggesting Britain could still reverse course."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Asked by an Italian newspaper how the European Union should now respond to the vote, Dimon said it must work together to address its weaknesses.",
+        "Europeans should say: look, there are rational complaints, we are going to fix them for all of Europeans, not for Britain alone, but for everyone else."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit reversal", "references": ["reverse Brexit"]},
+      "justifications": [
+        "Maybe you can even reverse Brexit."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jamie Dimon", "references": ["Jamie Dimon"]},
+      "entity2": {"entity": "Brexit campaigners", "references": ["leading Brexit campaigners"]},
+      "justifications": [
+        "Some voters have already said they regret their decision, especially after leading Brexit campaigners back-pedaled on a number of pledges they made."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jamie Dimon", "references": ["Jamie Dimon"]},
+      "entity2": {"entity": "JPMorgan", "references": ["JPMorgan"]},
+      "justifications": [
+        "Dimon was one of many Wall Street executives who supported Britain staying in the EU.",
+        "JP Morgan has 16,000 staff in Britain, but may have to move some employees out of the country because of Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "entity2": {"entity": "JPMorgan", "references": ["JPMorgan"]},
+      "justifications": [
+        "On Thursday, Goldman Sachs (GS), JPMorgan, Morgan Stanley (MS) and Bank of America (BAC) issued a joint statement, promising to work with the U.K. to help London 'retain its position as the leading international financial center.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "London banks will pay the 'price' of Brexit"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

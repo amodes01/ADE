@@ -1,0 +1,123 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "UBS", "references": ["UBS"] },
+      "target": { "topic": "gold market", "references": ["gold", "gold's macro narrative"] },
+      "justifications": [
+        "\"Gold macro story more compelling than ever, trumpets UBS research from 5 July.\"",
+        "\"We think gold has entered a new phase.\"",
+        "\"We continue to expect US real rates to fall from here and ultimately for equilibrium real rates to settle lower and have limited upside. These factors justify strategic gold allocations across different types of investors and we expect this trend to continue.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UBS", "references": ["UBS"] },
+      "target": { "topic": "Brexit", "references": ["Brexit", "UK's vote to leave the EU"] },
+      "justifications": [
+        "\"The UK's vote to leave the EU further underpins gold's macro narrative, reinforcing the themes of further dovish shifts in monetary policies, consequently lower yields, and heightened uncertainty.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Credit Suisse", "references": ["Credit Suisse"] },
+      "target": { "topic": "gold market", "references": ["gold"] },
+      "justifications": [
+        "\"Gold still gets the headline billing following the Brexit result, but Credit Suisse almost seems embarrassed as to how straightforward a call that is.\"",
+        "\"In our view, gold is the easy-to-see winner in the near term given last week's Brexit vote which has clearly heightened political and economic uncertainty.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Credit Suisse", "references": ["Credit Suisse"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Gold still gets the headline billing following the Brexit result, but Credit Suisse almost seems embarrassed as to how straightforward a call that is.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Credit Suisse", "references": ["Credit Suisse"] },
+      "target": { "topic": "iron ore", "references": ["iron ore"] },
+      "justifications": [
+        "\"Iron ore is a market which is likely to remain depressed according to the Credit Suisse number crunchers, but which could be at least relatively balanced in 2016 and early 2017, allowing for some short-term easing of the pressure.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Credit Suisse", "references": ["Credit Suisse"] },
+      "target": { "topic": "zinc", "references": ["zinc"] },
+      "justifications": [
+        "\"Lundin (TSE:LUN) and Boliden (TSE:BLS) are backed on the basis that there will likely be a 'major supply crunch' in zinc.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Switzerland is not in the European Union and is a frequent holder of referendums.",
+        "The Swiss are quietly comfortable outside of the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "There is no such rhetoric from the Swiss side of the newly strengthening European fences."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "target": { "topic": "UK's exit from the EU", "references": ["UK's vote to leave the EU"] },
+      "justifications": [
+        "The Swiss are quietly comfortable outside of the European Union and on the whole - and in the most neutral way possible - happy to see another major player in the global financial system joining their ranks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "John Bolton", "references": ["John Bolton"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The Brits have taken their country back, argued John Bolton, the former US ambassador to the UN on American television last week.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Switzerland is not in the European Union and is a frequent holder of referendums.",
+        "The Swiss are quietly comfortable outside of the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "There is no such rhetoric from the Swiss side of the newly strengthening European fences."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Switzerland", "references": ["Swiss", "Switzerland"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "The Swiss are quietly comfortable outside of the European Union and on the whole - and in the most neutral way possible - happy to see another major player in the global financial system joining their ranks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Bolton", "references": ["John Bolton"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The Brits have taken their country back, argued John Bolton, the former US ambassador to the UN on American television last week.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

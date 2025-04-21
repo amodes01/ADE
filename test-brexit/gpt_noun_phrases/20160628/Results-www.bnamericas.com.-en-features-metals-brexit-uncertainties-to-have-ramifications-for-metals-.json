@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "We use the projects database extensively and found it very useful.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mark Wainwright",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mark Wainwright",
+                "types": [],
+                "wikid": "Mark Wainwright",
+                "dbpedia": "Mark Wainwright"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "projects database",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "projects database"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mark Wainwright -> projects database": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We also value the interactions with the BNamericas team in terms of their intimate knowledge of the markets in region.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mark Wainwright",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mark Wainwright",
+                "types": [],
+                "wikid": "Mark Wainwright",
+                "dbpedia": "Mark Wainwright"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "BNamericas",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "BNamericas",
+                "types": [],
+                "wikid": "BNamericas",
+                "dbpedia": "BNamericas"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "market knowledge",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "market knowledge"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mark Wainwright -> BNamericas": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mark Wainwright -> market knowledge": [
+                1.0
+            ]
+        }
+    }
+]

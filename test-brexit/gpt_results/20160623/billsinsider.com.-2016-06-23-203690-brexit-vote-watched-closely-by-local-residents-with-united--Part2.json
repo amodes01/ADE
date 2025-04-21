@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Instabank", "references": ["Instabank"]},
+      "target": {"topic": "loan types", "references": ["forbrukslån", "billån", "fleksibelt lån"]},
+      "justifications": [
+        "Utvalget av produkter gjør at Instabank er nesten for en vanlig nettbasert sparebank å regne.",
+        "I tillegg tilbyr Instabank et relativt billig billån uten sikkerhet."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Optin Bank", "references": ["Optin Bank"]},
+      "target": {"topic": "loan types", "references": ["små lån", "store lån", "forbrukslån"]},
+      "justifications": [
+        "Optin Bank tilbyr små og store lån, lån til refinansiering, samt sparekonto med konkurransedyktige innskuddsrenter."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Instabank", "references": ["Instabank"]},
+      "target": {"topic": "interest rates", "references": ["rentebetingelser"]},
+      "justifications": [
+        "Sparekontoene de tilbyr har gode rentebetingelser."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Optin Bank", "references": ["Optin Bank"]},
+      "target": {"topic": "interest rates", "references": ["rentene"]},
+      "justifications": [
+        "Optin Bank tilbyr små og store lån, lån til refinansiering, samt sparekonto med konkurransedyktige innskuddsrenter."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Instabank", "references": ["Instabank"]},
+      "target": {"topic": "flexible loans", "references": ["fleksibelt lån"]},
+      "justifications": [
+        "Hos Instabank kan du altså velge mellom vanlig forbrukslån med inntil 5 år nedbetaling, eller fleksibelt lån."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Optin Bank", "references": ["Optin Bank"]},
+      "target": {"topic": "loan flexibility", "references": ["fleksibilitet"]},
+      "justifications": [
+        "Optin Bank tilbyr små og store lån, lån til refinansiering."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Instabank", "references": ["Instabank"]},
+      "entity2": {"entity": "Optin Bank", "references": ["Optin Bank"]},
+      "justifications": [
+        "Instabank er relativt ny på markedet for usikrede forbrukslån.",
+        "Optin Bank er en av de nyeste norske bankene på markedet for forbrukslån uten sikkerhet."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

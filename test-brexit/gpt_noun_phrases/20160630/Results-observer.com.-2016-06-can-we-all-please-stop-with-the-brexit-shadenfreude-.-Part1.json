@@ -1,0 +1,308 @@
+[
+    {
+        "sentence": "CNN called it 'The biggest step backwards since WWII'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CNN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CNN",
+                "types": [],
+                "wikid": "CNN",
+                "dbpedia": "CNN"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Breitbart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Breitbart",
+                "types": [],
+                "wikid": "Breitbart",
+                "dbpedia": "Breitbart"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "CNN -> Breitbart": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "CNN -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Vox said it was 'Trumpism, without Trump' and all just 'fueled by irrational xenophobia.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vox",
+                "types": [],
+                "wikid": "Vox",
+                "dbpedia": "Vox"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Breitbart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Breitbart",
+                "types": [],
+                "wikid": "Breitbart",
+                "dbpedia": "Breitbart"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Vox -> Breitbart": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Vox -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Breitbart cheered that it 'Signals the end of the New World Order'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Breitbart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Breitbart",
+                "types": [],
+                "wikid": "Breitbart",
+                "dbpedia": "Breitbart"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Breitbart -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump himself held a press conference in Scotland claiming this was Britain 'Taking their country back'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Jeremy Corbyn, is a well-known critic of the EU: he's said he's 'concerned about the way the European Union is increasingly operating as a free market across Europe: tearing up the social chapter, damaging the working class and workers in Europe'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Corbyn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Corbyn",
+                "types": [],
+                "wikid": "Jeremy Corbyn",
+                "dbpedia": "Jeremy Corbyn"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jeremy Corbyn -> EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He supported the Remain camp in the end, but he may as well have campaigned for Leave: his support was so tepid that fellow Labour party leaders are resigning their posts in protest and 172 voted against him in a no confidence vote Wednesday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Corbyn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Corbyn",
+                "types": [],
+                "wikid": "Jeremy Corbyn",
+                "dbpedia": "Jeremy Corbyn"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Remain campaign",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Remain campaign"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jeremy Corbyn -> Remain campaign": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "fellow Labour party leaders are resigning their posts in protest and 172 voted against him in a no confidence vote Wednesday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Corbyn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Corbyn",
+                "types": [],
+                "wikid": "Jeremy Corbyn",
+                "dbpedia": "Jeremy Corbyn"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Labour party leaders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Labour party leaders",
+                "types": [],
+                "wikid": "Labour party leaders",
+                "dbpedia": "Labour party leaders"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jeremy Corbyn -> Labour party leaders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Among conservatives, the leadership was split, with Boris Johnson officially leading the Leave campaign and Prime Minister David Cameron putting his job on the line for Remain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

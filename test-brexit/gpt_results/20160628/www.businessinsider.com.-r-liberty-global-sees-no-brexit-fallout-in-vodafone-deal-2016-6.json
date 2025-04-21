@@ -1,0 +1,43 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["does not expect Brexit to derail its Dutch joint-venture with British Vodafone"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "target": { "topic": "European market", "references": ["interest in Europe"] },
+      "justifications": ["it has not reduced our appetite or interest in Europe"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "target": { "topic": "UK market", "references": ["UK is a relatively large part of our business"] },
+      "justifications": ["UK is a relatively large part of our business"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "target": { "topic": "Brexit impact", "references": ["Brexit"] },
+      "justifications": ["It has no immediate impact on our business"],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "entity2": { "entity": "Vodafone", "references": ["Vodafone"] },
+      "justifications": ["The deal with Vodafone is already agreed, seeking only a regulatory approval"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "EU regulators", "references": ["EU regulators"] },
+      "entity2": { "entity": "U.S. Liberty Global", "references": ["U.S. Liberty Global"] },
+      "justifications": ["It is being reviewed by EU regulators and their review should not be impacted by Brexit"],
+      "attitude": "Neutral"
+    }
+  ]
+}

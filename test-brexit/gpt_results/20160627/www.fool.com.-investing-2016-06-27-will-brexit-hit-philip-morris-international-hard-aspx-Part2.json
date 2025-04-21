@@ -1,0 +1,35 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit situation"]
+      },
+      "justifications": [
+        "Until the Brexit situation gets clearer, investors in Philip Morris need to be prepared for continued volatility in the company's share price."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "U.S.-based tobacco stocks",
+        "references": ["U.S.-based tobacco stocks"]
+      },
+      "justifications": [
+        "U.S.-based tobacco stocks on Friday as a safe haven because of their lack of international exposure and solid dividend income."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

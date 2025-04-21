@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Bitcoin", "references": ["Bitcoin"] },
+      "target": { "topic": "governance", "references": ["governance"] },
+      "justifications": ["the lack of sound governance mechanisms has been one of the major obstacles to virtual currencies achieving their earlier promise."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ethereum", "references": ["Ethereum"] },
+      "target": { "topic": "governance", "references": ["governance"] },
+      "justifications": ["the lack of sound governance mechanisms has been one of the major obstacles to virtual currencies achieving their earlier promise."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bitcoin", "references": ["Bitcoin"] },
+      "target": { "topic": "financial services innovation", "references": ["financial services innovation"] },
+      "justifications": ["Others just want the damn thing to work so they can make alt-finance innovations on top of it."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Ethereum", "references": ["Ethereum"] },
+      "target": { "topic": "financial services innovation", "references": ["financial services innovation"] },
+      "justifications": ["Others just want the damn thing to work so they can make alt-finance innovations on top of it."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Bitcoin", "references": ["Bitcoin"] },
+      "target": { "topic": "libertarian agenda", "references": ["libertarian agenda"] },
+      "justifications": ["For some, virtual currency schemes, like bitcoin and Ethereum, are ways to pursue a libertarian agenda that eliminates central authorities."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Ethereum", "references": ["Ethereum"] },
+      "target": { "topic": "libertarian agenda", "references": ["libertarian agenda"] },
+      "justifications": ["For some, virtual currency schemes, like bitcoin and Ethereum, are ways to pursue a libertarian agenda that eliminates central authorities."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Vitalik Buterin", "references": ["Vitalik Buterin"] },
+      "entity2": { "entity": "Ethereum community", "references": ["Ethereum", "Ethereum community"] },
+      "justifications": ["Some, including the founder and leader, the brilliant Vitalik Buterin, wanted to reverse the diversion and had a way to do it."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Bitcoin miners", "references": ["bitcoin miners"] },
+      "entity2": { "entity": "Ethereum miners", "references": ["Ethereum miners"] },
+      "justifications": ["A majority vote by the miners also determines, in effect, how Ethereum will deal with the DAO"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Bitcoin miners", "references": ["bitcoin miners"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": ["As it turns out they are located in China, as described by Nathaniel Popper recently in The New York Times."],
+      "attitude": "Neutral"
+    }
+  ]
+}

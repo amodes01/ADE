@@ -1,0 +1,220 @@
+[
+    {
+        "sentence": "Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "startup banks and financial firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "startup banks and financial firms",
+                "types": [],
+                "wikid": "startup banks and financial firms",
+                "dbpedia": "startup banks and financial firms"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "investment in Britain",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "investment in Britain"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "startup banks and financial firms -> Britain": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "startup banks and financial firms -> investment in Britain": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain, consulting firm PwC said on Friday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "PwC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "PwC",
+                "types": [],
+                "wikid": "PwC",
+                "dbpedia": "PwC"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "startup banks and financial firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "startup banks and financial firms",
+                "types": [],
+                "wikid": "startup banks and financial firms",
+                "dbpedia": "startup banks and financial firms"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "investment in Britain",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "investment in Britain"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "PwC -> startup banks and financial firms": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "PwC -> investment in Britain": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "These investment plans will be a boost for Britain's financial services sector.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "investment in Britain",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "investment in Britain"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Britain -> investment in Britain": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "in the aftermath of Britain's vote to leave the European Union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Britain -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Goldman Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Goldman Sachs",
+                "types": [],
+                "wikid": "Goldman Sachs",
+                "dbpedia": "Goldman Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Morgan Stanley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Morgan Stanley",
+                "types": [],
+                "wikid": "Morgan Stanley",
+                "dbpedia": "Morgan Stanley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Goldman Sachs -> Morgan Stanley": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Goldman Sachs -> Brexit": [
+                -1.0
+            ],
+            "Morgan Stanley -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

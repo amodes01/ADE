@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "Ryan is the heart and soul of crony capitalism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ryan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ryan",
+                "types": [],
+                "wikid": "Ryan",
+                "dbpedia": "Ryan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "crony capitalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "crony capitalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Ryan -> crony capitalism": [
+                1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "sentence": "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican voters",
+                "types": [],
+                "wikid": "Republican voters",
+                "dbpedia": "Republican voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "American elites",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "American elites",
+                "types": [],
+                "wikid": "American elites",
+                "dbpedia": "American elites"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "elite political order",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "elite political order"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Republican voters -> American elites": [
+                -1.0
+            ],
+            "Donald Trump -> American elites": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Republican voters -> elite political order": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "just as British voters questioned the established European order",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European order",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European order",
+                "types": [],
+                "wikid": "European order",
+                "dbpedia": "European order"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European order",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European order"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British voters -> European order": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British voters -> European order": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,239 @@
+[
+    {
+        "sentence": "Obama said the undercurrents of economic anxiety that led to Brexit must be addressed.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ],
+            "Barack Obama -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Tusk insisted the British vote would not be a precursor to further splits within Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Tusk",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Tusk",
+                "types": [],
+                "wikid": "Donald Tusk",
+                "dbpedia": "Donald Tusk"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Tusk -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama spoke after a meeting with the presidents of the European Commission and the European Council.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Commission",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Commission",
+                "types": [],
+                "wikid": "European Commission",
+                "dbpedia": "European Commission"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Council",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Council",
+                "types": [],
+                "wikid": "European Council",
+                "dbpedia": "European Council"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> European Commission": [
+                -1.0
+            ],
+            "Barack Obama -> European Council": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Obama was expected to speak face-to-face with his closest allies, including outgoing U.K. Prime Minister David Cameron.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Obama was expected to speak face-to-face with his closest allies, including German Chancellor Angela Merkel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Angela Merkel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Angela Merkel",
+                "types": [],
+                "wikid": "Angela Merkel",
+                "dbpedia": "Angela Merkel"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Angela Merkel": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Tusk said loud and clear, you will not see on the screen the words 'To be continued.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Tusk",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Tusk",
+                "types": [],
+                "wikid": "Donald Tusk",
+                "dbpedia": "Donald Tusk"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Tusk -> Brexit supporters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "NATO", "references": ["NATO"]},
+      "target": {"topic": "French defection", "references": ["French defection"]},
+      "justifications": ["the French 'defection' forced a move of the alliance's command center as well as the withdrawal of NATO forces from France."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "NATO", "references": ["NATO"]},
+      "target": {"topic": "NATO's effectiveness", "references": ["NATO's effectiveness"]},
+      "justifications": ["it is important to note that this move had little impact on NATO's effectiveness, as it did not encourage Soviet aggression."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "NATO", "references": ["NATO"]},
+      "target": {"topic": "economic disruption", "references": ["globalization and related economic disruption"]},
+      "justifications": ["there are those who rail against globalization and related economic disruption, which will certainly put a strain on institutions that rely on international cooperation like the EU and NATO."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "EU", "references": ["EU"]},
+      "target": {"topic": "economic integration", "references": ["European economic integration"]},
+      "justifications": ["The EU does have a defense component, but it has primarily been focused on European economic integration."],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["While France was one of the founding members of NATO in 1949, it did drop out of the alliance's integrated military command in 1966 under Charles de Gaulle."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["Later, in 2009, the French returned to the integrated military command."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["the British have been among the stoutest supporters of the alliance ever since its formation."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "Europeans", "references": ["fellow Europeans"]},
+      "justifications": ["The British have shown much more willingness to work with NATO, a transatlantic group, than with their fellow Europeans in the absence of the United States."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": ["The British have shown much more willingness to work with NATO, a transatlantic group, than with their fellow Europeans in the absence of the United States."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Michael Spirtas", "references": ["Michael Spirtas"]},
+      "entity2": {"entity": "RAND Corporation", "references": ["RAND Corporation"]},
+      "justifications": ["Michael Spirtas is a senior political scientist at the nonprofit, nonpartisan RAND Corporation."],
+      "attitude": "Neutral"
+    }
+  ]
+}

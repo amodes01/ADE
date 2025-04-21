@@ -1,0 +1,246 @@
+[
+    {
+        "sentence": "\"Trump is right. Right-wing nationalist movements, fueled by anger toward political elites and mistrust of immigration - and primarily backed by white voters - are gaining more and more momentum on the continent.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nationalist movements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nationalist movements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> nationalist movements": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Mounk pegs economic stagnation among lower- and middle-class whites as a main driver for nationalism's rise around the globe.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "nationalist movements",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "nationalist movements",
+                "types": [],
+                "wikid": "nationalist movements",
+                "dbpedia": "nationalist movements"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic stagnation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic stagnation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "nationalist movements -> economic stagnation": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Add to that mix an immigration and refugee crisis tied to Syria's civil war, which has flooded European countries, especially, with scores of migrants looking for jobs, social-services protections and housing.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "nationalist movements",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "nationalist movements",
+                "types": [],
+                "wikid": "nationalist movements",
+                "dbpedia": "nationalist movements"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "nationalist movements -> immigration crisis": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"People feel, quite rightly, that they have no real control over political systems - that the political class does what it wants and it sort of ignores ordinary people.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "elite ruling classes",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "elite ruling classes",
+                "types": [],
+                "wikid": "elite ruling classes",
+                "dbpedia": "elite ruling classes"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political class",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political class"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "elite ruling classes -> political class": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Trump has sounded similar calls throughout his campaign.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Nigel Farage": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"This is not a unique phenomenon to the United States, and 2016 is not a short moment that will pass, says Yascha Mounk...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yascha Mounk",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yascha Mounk",
+                "types": [],
+                "wikid": "Yascha Mounk",
+                "dbpedia": "Yascha Mounk"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Yascha Mounk": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"While the feeling has largely gone mainstream in recent years - both of those quotes could have been said by Vermont Sen. Bernie Sanders...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bernie Sanders",
+                "types": [],
+                "wikid": "Bernie Sanders",
+                "dbpedia": "Bernie Sanders"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Bernie Sanders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

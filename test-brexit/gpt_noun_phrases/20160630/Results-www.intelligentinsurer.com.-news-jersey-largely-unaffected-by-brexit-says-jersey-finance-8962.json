@@ -1,0 +1,38 @@
+[
+    {
+        "sentence": "please email Elliot Field at efield@newtonmedia.co.uk or Adrian Tapping at atapping@newtonmedia.co.uk",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Elliot Field",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Elliot Field",
+                "types": [],
+                "wikid": "Elliot Field",
+                "dbpedia": "Elliot Field"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Adrian Tapping",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Adrian Tapping",
+                "types": [],
+                "wikid": "Adrian Tapping",
+                "dbpedia": "Adrian Tapping"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Elliot Field -> Adrian Tapping": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

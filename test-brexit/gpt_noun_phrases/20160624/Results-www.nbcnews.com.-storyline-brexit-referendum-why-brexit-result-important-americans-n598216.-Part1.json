@@ -1,0 +1,302 @@
+[
+    {
+        "sentence": "Janet Yellen said earlier this month that a British exit from the EU could have consequences in turn for the U.S. economic outlook.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Federal Reserve Chair Janet Yellen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Federal Reserve Chair Janet Yellen",
+                "types": [],
+                "wikid": "Federal Reserve Chair Janet Yellen",
+                "dbpedia": "Federal Reserve Chair Janet Yellen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Federal Reserve Chair Janet Yellen -> British government": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Federal Reserve Chair Janet Yellen -> British exit from the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The IMF said in an April report, 'A U.K. exit from Europe's single market would also likely disrupt and reduce mutual trade and financial flows, curtailing key benefits from economic cooperation and integration.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "IMF",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "IMF",
+                "types": [],
+                "wikid": "IMF",
+                "dbpedia": "IMF"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "IMF -> British exit from the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The U.K.'s Treasury itself reported that its analysis showed the nation 'would be permanently poorer' if it left the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "IMF",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "IMF",
+                "types": [],
+                "wikid": "IMF",
+                "dbpedia": "IMF"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic consequences of British exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic consequences of British exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British government -> IMF": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British government -> economic consequences of British exit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Nationalist groups across Europe will be watching the referendum closely to see if they can use the results into their advantage.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nationalist groups across Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nationalist groups across Europe",
+                "types": [],
+                "wikid": "Nationalist groups across Europe",
+                "dbpedia": "Nationalist groups across Europe"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nationalist groups across Europe -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Nationalist groups across Europe -> British exit from the EU": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "So since the leave camp won, many of those companies could see drastically reduced profits.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. corporations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. corporations",
+                "types": [],
+                "wikid": "U.S. corporations",
+                "dbpedia": "U.S. corporations"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British government -> U.S. corporations": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. corporations -> British exit from the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In terms of trade, the bloc easily topped the U.S. and China in both imports and exports. So a slowdown there would mean a global slowdown. One that could last months - if not years.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic slowdown",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic slowdown"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> economic slowdown": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The general thinking is that many international corporations, notably those based in the U.S. and China, invest in U.K. operations partly so they can readily access the free-trade corridors the U.K. enjoys with the rest of the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. corporations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. corporations",
+                "types": [],
+                "wikid": "U.S. corporations",
+                "dbpedia": "U.S. corporations"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> U.S. corporations": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

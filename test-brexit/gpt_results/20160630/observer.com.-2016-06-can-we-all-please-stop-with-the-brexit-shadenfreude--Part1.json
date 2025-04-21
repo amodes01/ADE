@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "CNN", "references": ["CNN"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["CNN called it 'The biggest step backwards since WWII'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Vox", "references": ["Vox"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Vox said it was 'Trumpism, without Trump' and all just 'fueled by irrational xenophobia.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Breitbart", "references": ["Breitbart"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Breitbart cheered that it 'Signals the end of the New World Order'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Trump himself held a press conference in Scotland claiming this was Britain 'Taking their country back'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "target": {"topic": "EU", "references": ["European Union"]},
+      "justifications": ["Jeremy Corbyn, is a well-known critic of the EU: he's said he's 'concerned about the way the European Union is increasingly operating as a free market across Europe: tearing up the social chapter, damaging the working class and workers in Europe'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "target": {"topic": "Remain campaign", "references": ["Remain camp"]},
+      "justifications": ["He supported the Remain camp in the end, but he may as well have campaigned for Leave: his support was so tepid that fellow Labour party leaders are resigning their posts in protest and 172 voted against him in a no confidence vote Wednesday."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "CNN", "references": ["CNN"]},
+      "entity2": {"entity": "Breitbart", "references": ["Breitbart"]},
+      "justifications": ["CNN called it 'The biggest step backwards since WWII'", "Breitbart cheered that it 'Signals the end of the New World Order'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Vox", "references": ["Vox"]},
+      "entity2": {"entity": "Breitbart", "references": ["Breitbart"]},
+      "justifications": ["Vox said it was 'Trumpism, without Trump' and all just 'fueled by irrational xenophobia.'", "Breitbart cheered that it 'Signals the end of the New World Order'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Labour party leaders", "references": ["Labour party leaders"]},
+      "justifications": ["fellow Labour party leaders are resigning their posts in protest and 172 voted against him in a no confidence vote Wednesday."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Among conservatives, the leadership was split, with Boris Johnson officially leading the Leave campaign and Prime Minister David Cameron putting his job on the line for Remain."],
+      "attitude": "Negative"
+    }
+  ]
+}

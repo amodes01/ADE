@@ -1,0 +1,356 @@
+[
+    {
+        "sentence": "The campaign to get the U.K. to leave the EU (also known as the 'Leave' campaign) was spearheaded by the right-wing, populist UK Independence Party, or UKIP.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party",
+                "types": [],
+                "wikid": "UK Independence Party",
+                "dbpedia": "UK Independence Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK Independence Party -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Nigel Farage - the UKIP leader ... is the man who should take a significant chunk of the credit for us having this referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "UKIP has spent the past 10 years 'focusing, obsessively, on the threat from immigrants, from both inside the EU and out.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party",
+                "types": [],
+                "wikid": "UK Independence Party",
+                "dbpedia": "UK Independence Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK Independence Party -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Areeq Chowdhury ... said last week that it's 'important we remember that this is a referendum that has only been made possible due to a long, hard-fought campaign by those on the far-right and political movements ridden with allegations of bigotry, xenophobia, and racism.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Areeq Chowdhury",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Areeq Chowdhury",
+                "types": [],
+                "wikid": "Areeq Chowdhury",
+                "dbpedia": "Areeq Chowdhury"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Areeq Chowdhury -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Nigel Farage ... is the man who should take a significant chunk of the credit for us having this referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Areeq Chowdhury",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Areeq Chowdhury",
+                "types": [],
+                "wikid": "Areeq Chowdhury",
+                "dbpedia": "Areeq Chowdhury"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Nigel Farage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Nigel Farage"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Areeq Chowdhury -> Nigel Farage": [
+                -1.0,
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Areeq Chowdhury -> Nigel Farage": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Anyusha Rose points to the Leave campaign as evidence that in the U.K., 'racism is no longer racism - it's legitimate opinion.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Anyusha Rose",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Anyusha Rose",
+                "types": [],
+                "wikid": "Anyusha Rose",
+                "dbpedia": "Anyusha Rose"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party",
+                "types": [],
+                "wikid": "UK Independence Party",
+                "dbpedia": "UK Independence Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK Independence Party -> Anyusha Rose": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Anyusha Rose -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Beauchamp says, 'Over the course of the past 20 years, the percentage of Britons ranking 'immigration/race relations' as among the country's most important issues has gone from near zero percent to about 45 percent.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Zack Beauchamp",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Zack Beauchamp",
+                "types": [],
+                "wikid": "Zack Beauchamp",
+                "dbpedia": "Zack Beauchamp"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party",
+                "types": [],
+                "wikid": "UK Independence Party",
+                "dbpedia": "UK Independence Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Zack Beauchamp -> UK Independence Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Zack Beauchamp -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Timothy B. Lee, at Vox, argues that there are compelling reasons that British voters might have",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Timothy B. Lee",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Timothy B. Lee",
+                "types": [],
+                "wikid": "Timothy B. Lee",
+                "dbpedia": "Timothy B. Lee"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Timothy B. Lee -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Nigel Farage - the UKIP leader",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party",
+                "types": [],
+                "wikid": "UK Independence Party",
+                "dbpedia": "UK Independence Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "UK Independence Party -> Nigel Farage": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

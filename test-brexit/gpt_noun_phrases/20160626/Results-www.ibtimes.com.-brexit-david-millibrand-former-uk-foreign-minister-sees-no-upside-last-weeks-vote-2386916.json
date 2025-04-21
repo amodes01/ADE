@@ -1,0 +1,212 @@
+[
+    {
+        "sentence": "\"This referendum was really an up-or-down vote for the European institution, which is undervalued.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Millibrand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Millibrand",
+                "types": [],
+                "wikid": "David Millibrand",
+                "dbpedia": "David Millibrand"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "David Millibrand -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I'm upbeat about Brexit, adding it's exciting to see Western civilization realize that the direction we are going is not a good direction.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sen. Bob Corker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sen. Bob Corker",
+                "types": [],
+                "wikid": "Sen. Bob Corker",
+                "dbpedia": "Sen. Bob Corker"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sen. Bob Corker -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"What ordinary people are saying is give us an economy that works for all of us and not just the people on top, and I think to a significant degree that's what this Brexit vote was all about.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sen. Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sen. Bernie Sanders",
+                "types": [],
+                "wikid": "Sen. Bernie Sanders",
+                "dbpedia": "Sen. Bernie Sanders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sen. Bernie Sanders -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"When [Russian President] Vladimir Putin is cheering, you know you have got a problem in the international system.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Millibrand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Millibrand",
+                "types": [],
+                "wikid": "David Millibrand",
+                "dbpedia": "David Millibrand"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vladimir Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vladimir Putin",
+                "types": [],
+                "wikid": "Vladimir Putin",
+                "dbpedia": "Vladimir Putin"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Millibrand -> Vladimir Putin": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"The great danger now is that while the friendship will stay between the U.K. and U.S., the partnership does not have the same kind of influence or drive.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Millibrand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Millibrand",
+                "types": [],
+                "wikid": "David Millibrand",
+                "dbpedia": "David Millibrand"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Millibrand -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"I think the vote will draw America and Britain closer.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sen. Bob Corker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sen. Bob Corker",
+                "types": [],
+                "wikid": "Sen. Bob Corker",
+                "dbpedia": "Sen. Bob Corker"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Sen. Bob Corker -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

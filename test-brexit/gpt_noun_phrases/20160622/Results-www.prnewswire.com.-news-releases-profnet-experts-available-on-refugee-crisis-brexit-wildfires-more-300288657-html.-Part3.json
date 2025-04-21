@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "Experts from OPENForum, Wall Street Journal Custom Studios, T Brand Studio at New York Times , and Contently share their insight: http://prn.to/1tm688B",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "experts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "experts",
+                "types": [],
+                "wikid": "experts",
+                "dbpedia": "experts"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "content marketing writing",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "content marketing writing"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "experts -> content marketing writing": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Want to make more money with your content marketing writing? Experts from OPENForum, Wall Street Journal Custom Studios, T Brand Studio at New York Times , and Contently share their insight: http://prn.to/1tm688B",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "experts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "experts",
+                "types": [],
+                "wikid": "experts",
+                "dbpedia": "experts"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "money in content marketing",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "money in content marketing"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "experts -> money in content marketing": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Democratic and Republication conventions are around the corner, and the world will be watching closely to see what shakes out of Philadelphia and Cleveland.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Democratic Party -> Republican Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["How accommodating will the EU be to Britain?"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "target": {"topic": "EU-UK relations", "references": ["relationships with the EU", "EU"]},
+      "justifications": ["While there will be no immediate change in the United Kingdom's relationships"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "target": {"topic": "Brexit consequences", "references": ["Brexit", "Brexit mistake"]},
+      "justifications": ["If Britain has problems and [a Brexit] is shown to have been mistake"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "target": {"topic": "EU-UK negotiations", "references": ["negotiations with Brussels", "EU"]},
+      "justifications": ["Morningstar wondered how the EU would react."]
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "Britain"]},
+      "entity2": {"entity": "EU", "references": ["EU", "Brussels"]},
+      "justifications": ["Morningstar wondered how the EU would react."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "Britain"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["the United Kingdom's commitment to NATO to spend two percent of its GDP on defense"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "Britain"]},
+      "entity2": {"entity": "United States", "references": ["US"]},
+      "justifications": ["the close cooperation between US and British agencies and armed services will be unaffected by a Brexit"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom", "Britain"]},
+      "justifications": ["Britain has been such a staunch ally working with us even within the EU"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Morningstar", "references": ["Morningstar"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom", "Britain"]},
+      "justifications": ["Europe is our strongest partner in dealing with global issues"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "entity2": {"entity": "Ashish Kumar Sen", "references": ["Ashish Kumar Sen"]},
+      "justifications": ["Related Experts: Ashish Kumar Sen and Richard L. Morningstar"]
+      "attitude": "Neutral"
+    }
+  ]
+}

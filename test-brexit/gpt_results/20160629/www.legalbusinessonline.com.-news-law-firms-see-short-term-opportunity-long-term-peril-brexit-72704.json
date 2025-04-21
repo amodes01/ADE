@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Lucinda Low", "references": ["Lucinda Low"]},
+      "target": {"topic": "Brexit impact on law firms", "references": ["overall impact of Brexit on the profession"]},
+      "justifications": ["Lucinda Low...said she thinks the overall impact of Brexit on the profession is likely to be negative."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Lucinda Low", "references": ["Lucinda Low"]},
+      "target": {"topic": "Brexit impact on law firms", "references": ["Brexit"]},
+      "justifications": ["Lucinda Low...said she thinks the overall impact of Brexit on the profession is likely to be negative."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tony Williams", "references": ["Tony Williams"]},
+      "target": {"topic": "Brexit impact on law firms", "references": ["Brexit"]},
+      "justifications": ["Williams said he thinks any advisory work Brexit produces in the short-term would be outweighed by the loss of work in M&A and other areas."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tony Williams", "references": ["Tony Williams"]},
+      "target": {"topic": "Brexit impact on law firms", "references": ["long period of uncertainty"]},
+      "justifications": ["Williams said the long period of uncertainty was bound to make international companies eyeing British investments think twice."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tony Williams", "references": ["Tony Williams"]},
+      "target": {"topic": "Brexit impact on law firms", "references": ["Brexit"]},
+      "justifications": ["Williams said he thinks any advisory work Brexit produces in the short-term would be outweighed by the loss of work in M&A and other areas."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Lucinda Low", "references": ["Lucinda Low"]},
+      "entity2": {"entity": "Tony Williams", "references": ["Tony Williams"]},
+      "justifications": ["Williams said he thinks any advisory work Brexit produces in the short-term would be outweighed by the loss of work in M&A and other areas.", "Lucinda Low...said she thinks the overall impact of Brexit on the profession is likely to be negative."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Christian Leathley", "references": ["Christian Leathley"]},
+      "entity2": {"entity": "Tony Williams", "references": ["Tony Williams"]},
+      "justifications": ["Leathley...said there were still few clear answers.", "Williams said he thinks any advisory work Brexit produces in the short-term would be outweighed by the loss of work in M&A and other areas."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Christian Leathley", "references": ["Christian Leathley"]},
+      "entity2": {"entity": "Lucinda Low", "references": ["Lucinda Low"]},
+      "justifications": ["Lucinda Low...said she thinks the overall impact of Brexit on the profession is likely to be negative.", "Leathley...said there were still few clear answers."],
+      "attitude": "Neutral"
+    }
+  ]
+}

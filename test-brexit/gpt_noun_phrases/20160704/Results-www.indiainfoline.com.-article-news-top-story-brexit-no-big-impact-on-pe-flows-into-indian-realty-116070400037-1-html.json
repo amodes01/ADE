@@ -1,0 +1,104 @@
+[
+    {
+        "sentence": "The bank's asset quality improved significantly",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "bank",
+                "types": [],
+                "wikid": "bank",
+                "dbpedia": "bank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "asset quality",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "asset quality"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "bank -> asset quality": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Gross NPA down to 1.37% from 1.70%",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "bank",
+                "types": [],
+                "wikid": "bank",
+                "dbpedia": "bank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Gross NPA",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Gross NPA"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "bank -> Gross NPA": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Net NPA down to 0.46% from 0.99% year on year",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "bank",
+                "types": [],
+                "wikid": "bank",
+                "dbpedia": "bank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Net NPA",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Net NPA"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "bank -> Net NPA": [
+                1.0
+            ]
+        }
+    }
+]

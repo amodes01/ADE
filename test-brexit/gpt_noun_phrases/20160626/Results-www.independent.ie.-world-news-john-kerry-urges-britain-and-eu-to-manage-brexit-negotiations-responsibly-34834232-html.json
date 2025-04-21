@@ -1,0 +1,114 @@
+[
+    {
+        "sentence": "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kerry",
+                "types": [],
+                "wikid": "John Kerry",
+                "dbpedia": "John Kerry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "John Kerry -> Britain": [
+                -1.0
+            ],
+            "John Kerry -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Kerry -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He emphasised the importance of thoughtful cooperation at a time of economic uncertainty and fears about crumbling European unity.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kerry",
+                "types": [],
+                "wikid": "John Kerry",
+                "dbpedia": "John Kerry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European unity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European unity"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "John Kerry -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Kerry -> European unity": [
+                1.0
+            ]
+        }
+    }
+]

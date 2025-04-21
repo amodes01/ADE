@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "Donald Trump appreciate the Brexit vote"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "The Washington Post",
+        "references": ["The Washington Post"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "An article in The Washington Post suggested that Britons had gotten busy searching the EU on Google"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "The Washington Post",
+        "references": ["The Washington Post"]
+      },
+      "entity2": {
+        "entity": "Brexit voters",
+        "references": ["Brexit voters"]
+      },
+      "justifications": [
+        "An article in The Washington Post suggested that Britons had gotten busy searching the EU on Google"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "The Washington Post",
+        "references": ["The Washington Post"]
+      },
+      "entity2": {
+        "entity": "Brexit supporters",
+        "references": ["Brexit vote", "Leave camps"]
+      },
+      "justifications": [
+        "An article in The Washington Post suggested that Britons had gotten busy searching the EU on Google"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "entity2": {
+        "entity": "Brexit vote",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Scotland went to remain"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Wales",
+        "references": ["Wales"]
+      },
+      "entity2": {
+        "entity": "Brexit vote",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Wales did not"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": ["Northern Ireland"]
+      },
+      "entity2": {
+        "entity": "Brexit vote",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Northern Ireland, in wishing to remain"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": ["Northern Ireland"]
+      },
+      "entity2": {
+        "entity": "Republic of Ireland",
+        "references": ["Republic of Ireland"]
+      },
+      "justifications": [
+        "Northern Ireland... will be seeking options for closer collaboration with the Republic of Ireland"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

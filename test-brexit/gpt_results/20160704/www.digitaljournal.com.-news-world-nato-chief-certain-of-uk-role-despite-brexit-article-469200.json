@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Stoltenberg stressed several times that the Brexit vote did not change Britain's relationship with NATO."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["NATO and the EU are essential and unique partners and we have to work even closer together."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["EU foreign policy chief Federica Mogherini issued a policy paper calling on the EU to do more in its own defence while also stressing cooperation with NATO."]
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["David Cameron and the UK government have clearly stated that they will continue as a committed ally."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["I am certain that a new government in the UK will continue that line."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Brexit will change the relationship between the UK and the EU but it will not change the UK's position inside NATO."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["This is important because the UK is a major provider of security in Europe and provider of security for the NATO alliance."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Federica Mogherini", "references": ["Federica Mogherini"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["EU foreign policy chief Federica Mogherini issued a policy paper calling on the EU to do more in its own defence while also stressing cooperation with NATO."]
+      "attitude": "Positive"
+    }
+  ]
+}

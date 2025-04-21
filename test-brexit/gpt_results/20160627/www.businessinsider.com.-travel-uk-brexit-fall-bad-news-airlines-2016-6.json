@@ -1,0 +1,141 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "International Air Transport Association", "references": ["International Air Transport Association", "IATA"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote", "Britain's exit"]},
+      "justifications": [
+        "Freight and regulation bodies will also be affected by Britain's exit.",
+        "It's uncertain if this will be positive or negative for Britain, according to IATA."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "American Airlines", "references": ["American Airlines"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "American Airlines fell 10.8%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Airlines", "references": ["United"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "United tumbled 9.1%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Delta Air Lines", "references": ["Delta"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "Delta slid 8.1%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "S&P 500", "references": ["S&P 500"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "The S&P 500, in comparison, lost 3.6%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "target": {"topic": "US airline stocks", "references": ["airlines in the US market"]},
+      "justifications": [
+        "Investors should focus on airlines in the US market if they want to put money in the sector."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "target": {"topic": "Southwest Airlines", "references": ["Southwest"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "target": {"topic": "Spirit Airlines", "references": ["Spirit Airlines"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "target": {"topic": "JetBlue Airways", "references": ["Jet Blue"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "American Airlines", "references": ["American Airlines"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "American Airlines fell 10.8%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United Airlines", "references": ["United"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "United tumbled 9.1%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Delta Air Lines", "references": ["Delta"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "Because of the vote, many airline stocks fell on Friday.",
+        "Delta slid 8.1%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "S&P 500", "references": ["S&P 500"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "The S&P 500, in comparison, lost 3.6%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "entity2": {"entity": "Southwest Airlines", "references": ["Southwest"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "entity2": {"entity": "Spirit Airlines", "references": ["Spirit Airlines"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Michael Linenberg", "references": ["Michael Linenberg"]},
+      "entity2": {"entity": "JetBlue Airways", "references": ["Jet Blue"]},
+      "justifications": [
+        "We continue to favor domestic names such as Southwest, Spirit Airlines, and Jet Blue."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

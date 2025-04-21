@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "GBP value", "references": ["the British pound", "GBP"] },
+      "justifications": [
+        "Brexit weakened the British pound on a structural level."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "U.S. dollar value", "references": ["the U.S. dollar", "USD"] },
+      "justifications": [
+        "the GBP has weakened due to higher interest rates and fear of a recession, while the U.S. dollar has strengthened."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "interest rates", "references": ["interest rates"] },
+      "target": { "topic": "GBP value", "references": ["the British pound", "GBP"] },
+      "justifications": [
+        "the GBP has weakened due to higher interest rates"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "interest rates", "references": ["interest rates"] },
+      "target": { "topic": "U.S. dollar value", "references": ["the U.S. dollar", "USD"] },
+      "justifications": [
+        "the U.S. dollar has strengthened"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Trussonomics", "references": ["Trussonomics"] },
+      "target": { "topic": "GBP value", "references": ["the British pound", "GBP"] },
+      "justifications": [
+        "Lack of market confidence in both the government of then-U.K. Prime Minister Liz Truss and Trussonomics further weakened the pound."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Jeremy Hunt", "references": ["Jeremy Hunt"] },
+      "target": { "topic": "GBP value", "references": ["the British pound", "GBP"] },
+      "justifications": [
+        "The jettisoning of the Truss tax cuts by Jeremy Hunt, the current Chancellor of the Exchequer, seems to have stabilized markets and consequentially halted the decline of the pound."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Liz Truss", "references": ["Liz Truss"] },
+      "entity2": { "entity": "Jeremy Hunt", "references": ["Jeremy Hunt"] },
+      "justifications": [
+        "The jettisoning of the Truss tax cuts by Jeremy Hunt"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bank of England", "references": ["Bank of England"] },
+      "entity2": { "entity": "U.S. dollar", "references": ["U.S. dollar"] },
+      "justifications": [
+        "the Bank of England, which issues the currency, has played an active role in international economic developments."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

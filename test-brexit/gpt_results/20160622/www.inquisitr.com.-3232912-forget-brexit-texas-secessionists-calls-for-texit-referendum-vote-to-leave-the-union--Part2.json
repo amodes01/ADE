@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Texans",
+        "references": ["Texans"]
+      },
+      "target": {
+        "topic": "Texit vote",
+        "references": ["Texit vote"]
+      },
+      "justifications": [
+        "Should Texans be allowed a Texit vote to decide whether to stay in the union?"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Texans",
+        "references": ["Texans"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "referendum, just like the British have done in the UK."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Texans",
+        "references": ["Texans"]
+      },
+      "entity2": {
+        "entity": "Texas Republican Convention",
+        "references": ["Texas Republican Convention"]
+      },
+      "justifications": [
+        "the issue was brought up at the Texas Republican Convention."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

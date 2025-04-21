@@ -1,0 +1,110 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "direct democracy", "references": ["direct democracy"]},
+      "justifications": [
+        "A big drawback of direct democracy is that those who want change - no matter its validity - are much more fired up than those who want to maintain the status quo."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "ballot initiatives", "references": ["ballot initiatives"]},
+      "justifications": [
+        "Rather than being the curb on elites that they were supposed to be, ballot initiatives have become a tool of special interests."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "state finances", "references": ["California's finances"]},
+      "justifications": [
+        "Proposition 13 ended up centralizing California's finances, shifting them from local to state government."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "credit rating", "references": ["credit rating"]},
+      "justifications": [
+        "California experienced a precipitous decline in its credit rating."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "government by referendum", "references": ["government by referendum"]},
+      "justifications": [
+        "Jerry Brown's multiterm experience with government by referendum... has allowed him get a handle on the state's finances."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Switzerland", "references": ["Switzerland"]},
+      "target": {"topic": "direct democracy", "references": ["direct democracy"]},
+      "justifications": [
+        "Direct democracy does have a shining example of efficacy, and that is Switzerland."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "direct democracy", "references": ["direct democracy"]},
+      "justifications": [
+        "many more of the 'Changers' go to the polls, as was perhaps the case in the Brexit vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "direct democracy", "references": ["direct democracy"]},
+      "target": {"topic": "status quo", "references": ["status quo"]},
+      "justifications": [
+        "many more of the 'Changers' go to the polls, as was perhaps the case in the Brexit vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "direct democracy", "references": ["direct democracy"]},
+      "target": {"topic": "checks and balances", "references": ["checks and balances"]},
+      "justifications": [
+        "I know it sounds horribly anachronistic, but checks and balances, branches of government, and slow, messy and deliberate governance actually have their place."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jerry Brown", "references": ["Jerry Brown"]},
+      "entity2": {"entity": "California", "references": ["California"]},
+      "justifications": [
+        "Jerry Brown's multiterm experience with government by referendum... has allowed him get a handle on the state's finances."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Arnold Schwarzenegger", "references": ["Arnold Schwarzenegger"]},
+      "entity2": {"entity": "California", "references": ["California"]},
+      "justifications": [
+        "Say what you will about Jerry Brown (twice!), Arnold Schwarzenegger and Pete Wilson, but it ain't all the governors' fault."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Pete Wilson", "references": ["Pete Wilson"]},
+      "entity2": {"entity": "California", "references": ["California"]},
+      "justifications": [
+        "Say what you will about Jerry Brown (twice!), Arnold Schwarzenegger and Pete Wilson, but it ain't all the governors' fault."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Munger", "references": ["Munger"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": [
+        "Munger: Trump's behavior represents 'a form of sickness'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

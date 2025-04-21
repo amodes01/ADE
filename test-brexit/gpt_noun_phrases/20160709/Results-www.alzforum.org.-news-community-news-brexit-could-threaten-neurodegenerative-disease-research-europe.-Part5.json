@@ -1,0 +1,495 @@
+[
+    {
+        "sentence": "the U.K. will lose the influence it currently wields in Brussels to set EU policy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.K. -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.K. -> EU policy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Vicky Ford, credits U.K. votes with reducing bureaucracy in EU funding and regulations",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vicky Ford",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vicky Ford",
+                "types": [],
+                "wikid": "Vicky Ford",
+                "dbpedia": "Vicky Ford"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU regulations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU regulations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Vicky Ford -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Vicky Ford -> EU regulations": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit might saddle the U.K. with a kind of 'taxation without representation' in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.K. -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Some analysts believe the U.K. is more likely to follow the Switzerland model, which would give it greater freedom from EU rules.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU rules",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU rules"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.K. -> Switzerland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Switzerland -> EU rules": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the U.K. would pay to access the EU market and, since the fee is based on gross domestic product and population, might not see savings.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU market access",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU market access"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.K. -> EU market access": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A 2014 Swiss referendum that favored caps on immigration violated EU agreements and resulted in the country being temporarily shut out of Horizon 2020 and other EU funding programs.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Horizon 2020 access",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Horizon 2020 access"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.K. -> Switzerland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Switzerland -> Horizon 2020 access": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The same scenario could occur in the U.K. if politicians insist on closing borders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Horizon 2020 access",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Horizon 2020 access"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.K. -> Horizon 2020 access": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"British scientists must now work hard to urge policymakers to promote continued scientific collaborations and advise on how to move ahead\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British scientists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British scientists",
+                "types": [],
+                "wikid": "British scientists",
+                "dbpedia": "British scientists"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Graeme Reid",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Graeme Reid",
+                "types": [],
+                "wikid": "Graeme Reid",
+                "dbpedia": "Graeme Reid"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "science collaboration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "science collaboration"
+                ]
+            },
+            {
+                "ngram": "scientific collaboration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "scientific collaboration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British scientists -> U.K.": [
+                1.0
+            ],
+            "Graeme Reid -> U.K.": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British scientists -> science collaboration": [
+                1.0
+            ],
+            "Graeme Reid -> scientific collaboration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The science in the U.K. is the best of Europe. It would be a big loss if the U.K. steps away from its responsibility and engagements.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "De Strooper",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "De Strooper",
+                "types": [],
+                "wikid": "De Strooper",
+                "dbpedia": "De Strooper"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "scientific contribution",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "scientific contribution"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "De Strooper -> U.K.": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "De Strooper -> scientific contribution": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Switzerland later negotiated for limited access, but this arrangement is up for review this year and may be suspended if the Swiss implement immigration quotas.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "U.K. -> Switzerland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The same scenario could occur in the U.K. if politicians insist on closing borders, Galsworthy warned.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Galsworthy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Galsworthy",
+                "types": [],
+                "wikid": "Galsworthy",
+                "dbpedia": "Galsworthy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Galsworthy -> U.K.": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

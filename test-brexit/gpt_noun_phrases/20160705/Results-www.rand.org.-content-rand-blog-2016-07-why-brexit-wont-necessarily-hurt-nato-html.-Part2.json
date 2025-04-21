@@ -1,0 +1,332 @@
+[
+    {
+        "sentence": "the French 'defection' forced a move of the alliance's command center as well as the withdrawal of NATO forces from France.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "French defection",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "French defection"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> French defection": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "it is important to note that this move had little impact on NATO's effectiveness, as it did not encourage Soviet aggression.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO's effectiveness",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO's effectiveness"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> NATO's effectiveness": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "there are those who rail against globalization and related economic disruption, which will certainly put a strain on institutions that rely on international cooperation like the EU and NATO.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic disruption",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic disruption"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> economic disruption": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU does have a defense component, but it has primarily been focused on European economic integration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> economic integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "While France was one of the founding members of NATO in 1949, it did drop out of the alliance's integrated military command in 1966 under Charles de Gaulle.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "France -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Later, in 2009, the French returned to the integrated military command.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "France -> NATO": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the British have been among the stoutest supporters of the alliance ever since its formation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British",
+                "types": [],
+                "wikid": "British",
+                "dbpedia": "British"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British -> NATO": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The British have shown much more willingness to work with NATO, a transatlantic group, than with their fellow Europeans in the absence of the United States.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British",
+                "types": [],
+                "wikid": "British",
+                "dbpedia": "British"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europeans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europeans",
+                "types": [],
+                "wikid": "Europeans",
+                "dbpedia": "Europeans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British -> Europeans": [
+                -1.0
+            ],
+            "British -> United States": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Michael Spirtas is a senior political scientist at the nonprofit, nonpartisan RAND Corporation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Spirtas",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Spirtas",
+                "types": [],
+                "wikid": "Michael Spirtas",
+                "dbpedia": "Michael Spirtas"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "RAND Corporation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "RAND Corporation",
+                "types": [],
+                "wikid": "RAND Corporation",
+                "dbpedia": "RAND Corporation"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Michael Spirtas -> RAND Corporation": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

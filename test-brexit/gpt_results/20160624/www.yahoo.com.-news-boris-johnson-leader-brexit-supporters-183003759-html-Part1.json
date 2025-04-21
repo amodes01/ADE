@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "Brexit", "references": ["voters' decision in favor of Brexit"] },
+      "justifications": ["Johnson hailed voters' decision in favor of Brexit."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": ["Johnson said it is time to take back control from a European Union that has become too opaque and not accountable enough to the people it is meant to serve."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "United Kingdom", "references": ["United Kingdom"] },
+      "justifications": ["Johnson said that the United Kingdom will remain united and European, despite the Brexit vote."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "American Influence on Brexit", "references": ["United States", "Obama's opposition to Brexit"] },
+      "justifications": ["Johnson criticized the United States' stance on Brexit, calling it hypocritical."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": ["Johnson paid tribute to Cameron, calling him \"brave\" and \"one of the most extraordinary politicians of our age.\""],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "President Barack Obama", "references": ["President Obama"] },
+      "justifications": ["Johnson criticized President Obama's opposition to Brexit in an essay, calling it incoherent and hypocritical."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicholas Soames", "references": ["Nicholas Soames"] },
+      "entity2": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "justifications": ["Nicholas Soames condemned Johnson's essay as \"appalling\" and \"totally wrong on almost everything.\""],
+      "attitude": "Negative"
+    }
+  ]
+}

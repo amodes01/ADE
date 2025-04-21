@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Michael Gove",
+        "references": ["Michael Gove"]
+      },
+      "target": {
+        "topic": "Albania-Ukraine model",
+        "references": ["Albania-Ukraine model"]
+      },
+      "justifications": [
+        "Michael Gove has pointed to the Albania-Ukraine model as the way forward."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Olli Rehn",
+        "references": ["Olli Rehn"]
+      },
+      "target": {
+        "topic": "UK's future trade agreements",
+        "references": ["Leave side would want an agreement that would put the UK 'permanently on the substitutes bench'"]
+      },
+      "justifications": [
+        "Olli Rehn, who negotiated such pacts as EU enlargement commissioner, said he was 'surprised' the Leave side would want an agreement that would put the UK 'permanently on the substitutes bench'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Peter Sutherland",
+        "references": ["Peter Sutherland"]
+      },
+      "target": {
+        "topic": "UK's ability to negotiate its own trade agreements",
+        "references": ["This, judging from my long experience of trade negotiations, is highly unlikely."]
+      },
+      "justifications": [
+        "Peter Sutherland, first Director General of the World Trade Organisation: 'This, judging from my long experience of trade negotiations, is highly unlikely.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "target": {
+        "topic": "UK's ability to negotiate its own trade agreements",
+        "references": ["Boris Johnson argues that the UK could quickly negotiate its own set of trade agreements to compensate."]
+      },
+      "justifications": [
+        "Boris Johnson argues that the UK could quickly negotiate its own set of trade agreements to compensate."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "target": {
+        "topic": "EU trade agreements",
+        "references": ["EU trade agreements apply in the territory of its member states but if we leave the EU, we will no longer benefit from those agreements"]
+      },
+      "justifications": [
+        "EU trade agreements apply in the territory of its member states but if we leave the EU, we will no longer benefit from those agreements, including the 22 the EU has made with the UK's Commonwealth partners."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Michael Gove",
+        "references": ["Michael Gove"]
+      },
+      "entity2": {
+        "entity": "Olli Rehn",
+        "references": ["Olli Rehn"]
+      },
+      "justifications": [
+        "Michael Gove clearly does not understand the Stabilisation and Association Agreements in the Western Balkans."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Olli Rehn",
+        "references": ["Olli Rehn"]
+      },
+      "entity2": {
+        "entity": "Michael Gove",
+        "references": ["Michael Gove"]
+      },
+      "justifications": [
+        "Olli Rehn, who negotiated such pacts as EU enlargement commissioner, said he was 'surprised' the Leave side would want an agreement that would put the UK 'permanently on the substitutes bench'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Peter Sutherland",
+        "references": ["Peter Sutherland"]
+      },
+      "justifications": [
+        "Peter Sutherland, first Director General of the World Trade Organisation: 'This, judging from my long experience of trade negotiations, is highly unlikely.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Peter Sutherland",
+        "references": ["Peter Sutherland"]
+      },
+      "entity2": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "justifications": [
+        "Peter Sutherland, first Director General of the World Trade Organisation: 'This, judging from my long experience of trade negotiations, is highly unlikely.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

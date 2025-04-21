@@ -1,0 +1,168 @@
+[
+    {
+        "sentence": "Mr. Obama acknowledged that much of the upheaval gripping American voters -- an angst that is propelling the campaign of Donald J. Trump, the presumptive Republican presidential nominee -- is driven by fear of technology-driven globalization.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mr. Trump has exploited such fears, Mr. Obama told National Public Radio in December, calling them 'justified, but just misdirected.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We are better off in a world in which we are trading, and networking, and communicating and sharing ideas,\" Mr. Obama said before a panel discussion with Mark Zuckerberg.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mark Zuckerberg",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mark Zuckerberg",
+                "types": [],
+                "wikid": "Mark Zuckerberg",
+                "dbpedia": "Mark Zuckerberg"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "interconnectivity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "interconnectivity"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mark Zuckerberg -> Barack Obama": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> interconnectivity": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "confronting a crisis in Europe fueled in part by the refugees attempting to flee the Middle East.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "refugees",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "refugees"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> refugees": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "U.S. President Trump",
+        "references": ["U.S. President Trump"]
+      },
+      "target": {
+        "topic": "2019 G-7 summit",
+        "references": ["2019 G-7 summit"]
+      },
+      "justifications": [
+        "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "French President Emmanuel Macron",
+        "references": ["French President Emmanuel Macron"]
+      },
+      "target": {
+        "topic": "2019 G-7 summit",
+        "references": ["2019 G-7 summit"]
+      },
+      "justifications": [
+        "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "U.S. President Trump",
+        "references": ["U.S. President Trump"]
+      },
+      "entity2": {
+        "entity": "French President Emmanuel Macron",
+        "references": ["French President Emmanuel Macron"]
+      },
+      "justifications": [
+        "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

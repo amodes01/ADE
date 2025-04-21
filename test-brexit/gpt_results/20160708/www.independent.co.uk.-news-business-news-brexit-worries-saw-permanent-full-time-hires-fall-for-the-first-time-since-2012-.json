@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Kevin Green", "references": ["Kevin Green"]},
+      "target": {"topic": "uncertainty around the EU referendum", "references": ["uncertainty during the run-up to the referendum"]},
+      "justifications": ["Kevin Green, REC chief executive, said uncertainty during the run-up to the referendum saw many employers suspend permanent hiring and instead bring in temporary, contractor or interim staff to hedge against potential changes to their growth prospects."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Kevin Green", "references": ["Kevin Green"]},
+      "target": {"topic": "economic impact of Brexit", "references": ["impact of the vote to leave the EU"]},
+      "justifications": ["Kevin Green said that the UK should stay part of the single market and retain access to skills across the EU to ensure the continued health of the country's labour market and the economy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Kevin Green", "references": ["Kevin Green"]},
+      "target": {"topic": "clear and calm leadership", "references": ["clear and calm leadership"]},
+      "justifications": ["The best thing for business right now is clear and calm leadership and as much clarity as possible on what the post-EU future will look like, he added."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Kevin Green", "references": ["Kevin Green"]},
+      "entity2": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "justifications": ["Kevin Green said that the UK should stay part of the single market and retain access to skills across the EU to ensure the continued health of the country's labour market and the economy."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Kevin Green", "references": ["Kevin Green"]},
+      "entity2": {"entity": "Brian Kropp", "references": ["Brian Kropp"]},
+      "justifications": ["Brian Kropp, HR practice leader at CEB, said that the 47 per cent drop in job openings compared to last year was far outside the normal fluctuations seen by the company, which tend to be between 5 and 10 per cent."],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "nationalism", "references": ["nationalist movements", "populist turn"] },
+      "target": { "topic": "economic stagnation", "references": ["economic stagnation among lower- and middle-class whites"] },
+      "justifications": [
+        "Mounk pegs economic stagnation among lower- and middle-class whites as a main driver for nationalism's rise around the globe.",
+        "You have a socially descending middle class that has not had real gains in the standard of living in 30 years."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "nationalism", "references": ["nationalist movements", "populist turn"] },
+      "target": { "topic": "immigration crisis", "references": ["immigration and refugee crisis tied to Syria's civil war"] },
+      "justifications": [
+        "Add to that mix an immigration and refugee crisis tied to Syria's civil war, which has flooded European countries, especially, with scores of migrants looking for jobs, social-services protections and housing."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom"] },
+      "justifications": [
+        "When Donald Trump arrived in Scotland Friday morning, hours after the United Kingdom voted to leave the European Union, the presumptive Republican presidential nominee was quick to draw parallels between the U.K.'s political earthquake, and his own campaign for president.",
+        "\"People want to take their country back,\" Trump said, \"They want to have independence, in a sense.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Trump is right. Right-wing nationalist movements, fueled by anger toward political elites and mistrust of immigration - and primarily backed by white voters - are gaining more and more momentum on the continent."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Yascha Mounk", "references": ["Yascha Mounk"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Trump"] },
+      "justifications": [
+        "This is a real populist turn that has been happening for the last 15 or 20 years."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Yascha Mounk", "references": ["Yascha Mounk"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Right-wing nationalist movements, fueled by anger toward political elites and mistrust of immigration - and primarily backed by white voters - are gaining more and more momentum on the continent."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"This will be a victory for the real people, a victory for the ordinary people,\" he said early Friday morning when it was clear the Leave campaign had won the referendum."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

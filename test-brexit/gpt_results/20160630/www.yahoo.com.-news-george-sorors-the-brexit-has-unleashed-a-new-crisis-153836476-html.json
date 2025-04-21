@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "George Soros", "references": ["George Soros"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Soros warns the Brexit has 'unleashed' a new crisis"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "George Soros", "references": ["George Soros"]},
+      "target": {"topic": "hard landing in China", "references": ["hard landing in China"]},
+      "justifications": ["He says that a hard landing in China is 'practically unavoidable'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "George Soros", "references": ["George Soros"]},
+      "target": {"topic": "European banking system", "references": ["European banking system"]},
+      "justifications": ["a broken European banking system will now be 'severely tested'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Securian Financial Group", "references": ["Securian Financial Group"]},
+      "target": {"topic": "millennial investing confidence", "references": ["millennials are 'very knowledgeable about investments'"]},
+      "justifications": ["the survey also revealed 16% of millennials would sell when the market falls"],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hertz", "references": ["Hertz"]},
+      "entity2": {"entity": "Lyft", "references": ["Lyft"]},
+      "justifications": ["Hertz is partnering with both Uber and Lyft"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Hertz", "references": ["Hertz"]},
+      "entity2": {"entity": "Uber", "references": ["Uber"]},
+      "justifications": ["Hertz is partnering with both Uber and Lyft"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Hertz", "references": ["Hertz"]},
+      "entity2": {"entity": "Uber", "references": ["Uber"]},
+      "justifications": ["The rental car company will supply drivers in the US with cars and build on pilot programs it's put in place in Las Vegas and Denver"],
+      "attitude": "Positive"
+    }
+  ]
+}

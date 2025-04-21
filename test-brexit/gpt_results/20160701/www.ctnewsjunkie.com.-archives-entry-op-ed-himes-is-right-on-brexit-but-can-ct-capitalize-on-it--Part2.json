@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "target": {"topic": "economic competitiveness of Connecticut", "references": ["Connecticut's leaders", "state more competitive", "economically competitive"]},
+      "justifications": [
+        "\"But Connecticut is not well prepared. It is so consumed with the budget crisis that it is hard to find enough attention to make it more economically competitive.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "target": {"topic": "economic competitiveness of Connecticut", "references": ["Connecticut could capture some significant growth opportunities, if it were prepared"]},
+      "justifications": [
+        "\"Connecticut could capture some significant growth opportunities, if it were prepared.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "target": {"topic": "short-term appeal of U.S. for European managers", "references": ["U.S. is a better place from which to operate, at least in the short run"]},
+      "justifications": [
+        "\"there are [European] managers that may well decide that the U.S. is a better place from which to operate, at least in the short run.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "entity2": {"entity": "Connecticut's leaders", "references": ["Connecticut's leaders"]},
+      "justifications": [
+        "\"But Connecticut is not well prepared. It is so consumed with the budget crisis that it is hard to find enough attention to make it more economically competitive.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "entity2": {"entity": "Connecticut", "references": ["Connecticut"]},
+      "justifications": [
+        "\"But Connecticut is not well prepared. It is so consumed with the budget crisis that it is hard to find enough attention to make it more economically competitive.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Fred Carstensen", "references": ["Fred Carstensen"]},
+      "entity2": {"entity": "Stamford Chamber of Commerce", "references": ["Stamford Chamber of Commerce"]},
+      "justifications": [
+        "\"Stamford is the biggest international trade center between New York and Boston.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Terry Cowgill", "references": ["Terry Cowgill"]},
+      "entity2": {"entity": "Connecticut's leaders", "references": ["Connecticut's leaders"]},
+      "justifications": [
+        "\"Failure begets failure. And until Connecticut's leaders can find a way to make our state more competitive and attractive to new businesses, they will mostly stay away unless we bribe them with special deals.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Terry Cowgill", "references": ["Terry Cowgill"]},
+      "entity2": {"entity": "Connecticut", "references": ["Connecticut"]},
+      "justifications": [
+        "\"Failure begets failure. And until Connecticut's leaders can find a way to make our state more competitive and attractive to new businesses, they will mostly stay away unless we bribe them with special deals.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Terry Cowgill", "references": ["Terry Cowgill"]},
+      "entity2": {"entity": "Grexit", "references": ["Grexit"]},
+      "justifications": [
+        "\"Perhaps Greenwich and other parts of Fairfield County want to exit the state. I know some hedge fund managers who would gladly vote for the Grexit.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

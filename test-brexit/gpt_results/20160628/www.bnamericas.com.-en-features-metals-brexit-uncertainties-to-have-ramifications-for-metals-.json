@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Mark Wainwright", "references": ["Mark Wainwright"] },
+      "target": { "topic": "projects database", "references": ["projects database"] },
+      "justifications": ["We use the projects database extensively and found it very useful."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Mark Wainwright", "references": ["Mark Wainwright"] },
+      "target": { "topic": "market knowledge", "references": ["intimate knowledge of the markets in region"] },
+      "justifications": ["We also value the interactions with the BNamericas team in terms of their intimate knowledge of the markets in region."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mark Wainwright", "references": ["Mark Wainwright"] },
+      "entity2": { "entity": "BNamericas", "references": ["BNamericas"] },
+      "justifications": ["We also value the interactions with the BNamericas team in terms of their intimate knowledge of the markets in region."],
+      "attitude": "Positive"
+    }
+  ]
+}

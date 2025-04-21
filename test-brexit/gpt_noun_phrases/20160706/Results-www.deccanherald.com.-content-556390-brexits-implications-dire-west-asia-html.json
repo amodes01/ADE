@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "Brexit is a disaster because it will have damaging unexpected consequences for W Asia and the world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "implications for West Asia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "implications for West Asia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> implications for West Asia": [
+                -1.0
+            ]
+        }
+    }
+]

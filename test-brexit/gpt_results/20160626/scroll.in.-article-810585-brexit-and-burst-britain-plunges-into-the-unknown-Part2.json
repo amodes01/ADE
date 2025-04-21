@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union membership", "references": ["EU"]},
+      "justifications": [
+        "A Britain unmoored from the continent is a less obvious top-tier partner for the United States.",
+        "Brexit does not revoke Britain's NATO membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "For China, the UK is a gateway to investments in Europe and a financial hub for internationalizing the renminbi.",
+        "The 'golden decade' in UK-China relations promised by Chancellor of the Exchequer George Osborne is likely to be stillborn as Britain severs its access to the European single market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Russia under Vladimir Putin is pursuing a concerted strategy of dividing the West.",
+        "The fracturing of European and transatlantic solidarity risked by Brexit creates further openings for Russia to unpick the binding post-Cold War settlement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "America", "references": ["America"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Leaders in both America and China, the reigning superpower and the rising one, publicly urged Britain to stay in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "EU integration", "references": ["European fiscal union", "more integrated eurozone"]},
+      "justifications": [
+        "Some on the continent actually supported Brexit as a way-station to a European fiscal union in a smaller but more integrated eurozone."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British government", "references": ["Britain"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "A Britain unmoored from the continent is a less obvious top-tier partner for the United States.",
+        "Brexit does not revoke Britain's NATO membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "China", "references": ["China"]},
+      "entity2": {"entity": "Britain", "references": ["UK"]},
+      "justifications": [
+        "For China, the UK is a gateway to investments in Europe and a financial hub for internationalizing the renminbi.",
+        "The 'golden decade' in UK-China relations promised by Chancellor of the Exchequer George Osborne is likely to be stillborn as Britain severs its access to the European single market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "Russia under Vladimir Putin is pursuing a concerted strategy of dividing the West.",
+        "The fracturing of European and transatlantic solidarity risked by Brexit creates further openings for Russia to unpick the binding post-Cold War settlement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": [
+        "Britain is America's closest ally in the EU.",
+        "The 'special relationship' between Washington and London has amplified the power and influence of both within European councils and in the wider world."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "Britain is America's closest ally in the EU.",
+        "The 'special relationship' between Washington and London has amplified the power and influence of both within European councils and in the wider world."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

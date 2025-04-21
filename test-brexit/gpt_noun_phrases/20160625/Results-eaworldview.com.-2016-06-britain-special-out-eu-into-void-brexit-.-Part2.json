@@ -1,0 +1,176 @@
+[
+    {
+        "sentence": "Even the Brexit campaigners admitted that Exit would inevitably be painful in the 'short term'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit campaign",
+                "types": [],
+                "wikid": "Brexit campaign",
+                "dbpedia": "Brexit campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "short term economic impact",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "short term economic impact"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit campaign -> short term economic impact": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The NHS faces intense financial pressures and the best way to address those pressures is through a growing economy and increased tax revenues. The financial uncertainties introduced by the Leave vote look very unlikely to generate that growth, in the short-term at least.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NHS funding",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NHS funding",
+                "types": [],
+                "wikid": "NHS funding",
+                "dbpedia": "NHS funding"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NHS funding -> Brexit vote": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "However, people opposed to NHS marketization would be na\u00efve to see this as an EU-led agenda, when so much of the opening up of the NHS to market competition has come from the policies of recent Westminster governments.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NHS marketization",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NHS marketization",
+                "types": [],
+                "wikid": "NHS marketization",
+                "dbpedia": "NHS marketization"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NHS marketization -> EU policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The former leader of the Liberal Democrats, Paddy Ashdown, captured the moment in four words after the BBC declared victory for the Leave campaign in Britain's EU referendum: God help our country.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Paddy Ashdown",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Paddy Ashdown",
+                "types": [],
+                "wikid": "Paddy Ashdown",
+                "dbpedia": "Paddy Ashdown"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit campaigners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit campaigners",
+                "types": [],
+                "wikid": "Brexit campaigners",
+                "dbpedia": "Brexit campaigners"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Paddy Ashdown -> Brexit campaigners": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Even the UK Independence party leader Nigel Farage said, soon after the result was announced, that it was 'a mistake' to make that claim.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> Leave campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "Naughty Cat worries we will be on the outside looking in, missing influence we once had #CatsAgainstBrexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Blackwood",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Blackwood",
+                "types": [],
+                "wikid": "Nicola Blackwood",
+                "dbpedia": "Nicola Blackwood"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Maria Caulfield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Maria Caulfield",
+                "types": [],
+                "wikid": "Maria Caulfield",
+                "dbpedia": "Maria Caulfield"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nicola Blackwood -> Maria Caulfield": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Nicola Blackwood -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "My cat is praying for #Brexit #CatsForBrexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Maria Caulfield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Maria Caulfield",
+                "types": [],
+                "wikid": "Maria Caulfield",
+                "dbpedia": "Maria Caulfield"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Maria Caulfield -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We are voting in. Are you sure? In. Or out? Definitely in. In, okay. Do not shut the door. #CatsAgainstBrexit #fickle",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "GFDavies",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "GFDavies",
+                "types": [],
+                "wikid": "GFDavies",
+                "dbpedia": "GFDavies"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "GFDavies -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

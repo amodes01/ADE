@@ -1,0 +1,160 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Osborne hopes to use the New York visit to present the referendum vote as a \"golden opportunity\" for US investors to forge an even stronger relationship with Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "target": {
+        "topic": "economic challenges",
+        "references": ["economic challenges"]
+      },
+      "justifications": [
+        "While Britain's decision to leave the EU clearly presents economic challenges, we now have to do everything we can to make the UK the most attractive place in the world to do business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "target": {
+        "topic": "corporation tax",
+        "references": ["cut the corporation tax rate to 15% or lower"]
+      },
+      "justifications": [
+        "The chancellor has already pledged to cut the corporation tax rate to 15% or lower in a bid to boost the country's attractiveness to foreign firms."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "entity2": {
+        "entity": "US investors",
+        "references": ["US investors"]
+      },
+      "justifications": [
+        "Osborne hopes to use the New York visit to present the referendum vote as a \"golden opportunity\" for US investors to forge an even stronger relationship with Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "While Britain's decision to leave the EU clearly presents economic challenges."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["US", "United States"]
+      },
+      "justifications": [
+        "Britain and the US have been at the forefront of open trade in the last 200 years and pursuing a stronger relationship with our biggest trading partners is now a top priority."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": ["China"]
+      },
+      "justifications": [
+        "Last week the chancellor met Chinese officials in London, including ambassador Liu Xiaoming, for talks about future trade relations ahead of the G20 finance ministers' meeting in Chengdu later this month."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Sajid Javid",
+        "references": ["Sajid Javid"]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": ["China"]
+      },
+      "justifications": [
+        "The business secretary, Sajid Javid, is also making overtures to major economies about potential trade deals, travelling to India last week for preliminary talks with government officials."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Sajid Javid",
+        "references": ["Sajid Javid"]
+      },
+      "entity2": {
+        "entity": "India",
+        "references": ["India"]
+      },
+      "justifications": [
+        "The business secretary, Sajid Javid, is also making overtures to major economies about potential trade deals, travelling to India last week for preliminary talks with government officials."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jack Lew",
+        "references": ["Jack Lew"]
+      },
+      "entity2": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "justifications": [
+        "He will also welcome the US treasury secretary, Jack Lew, to London this week."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Liu Xiaoming",
+        "references": ["Liu Xiaoming"]
+      },
+      "entity2": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "justifications": [
+        "Last week the chancellor met Chinese officials in London, including ambassador Liu Xiaoming, for talks about future trade relations ahead of the G20 finance ministers' meeting in Chengdu later this month."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

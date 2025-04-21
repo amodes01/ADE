@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "United Kingdom",
+        "references": ["United Kingdom", "UK"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["UK voted to leave the European Union", "Brexit"]
+      },
+      "justifications": [
+        "On June 23, the United Kingdom (UK) voted to leave the European Union (EU) in a non-binding advisory referendum"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "It is likely that the UK would prioritise trade negotiations with Uganda, which could even benefit Uganda and other EAC members"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Despite pressure from some EU countries, it is unlikely that exit negotiations will begin until a new UK government is firmly in place"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "United Kingdom",
+        "references": ["United Kingdom", "UK"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union", "EU"]
+      },
+      "justifications": [
+        "On June 23, the United Kingdom (UK) voted to leave the European Union (EU)"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "entity2": {
+        "entity": "Tanzania",
+        "references": ["Tanzania"]
+      },
+      "justifications": [
+        "Uganda officially announced its choice for the Tanzania route for its crude oil, in preference to the Mombasa or Lamu routes in Kenya"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "entity2": {
+        "entity": "Kenya",
+        "references": ["Kenya"]
+      },
+      "justifications": [
+        "Uganda officially announced its choice for the Tanzania route for its crude oil, in preference to the Mombasa or Lamu routes in Kenya"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "entity2": {
+        "entity": "Total E&P",
+        "references": ["Total E&P"]
+      },
+      "justifications": [
+        "Total E&P is prepared to spend the US$4 billion (UGX:13 trillion) to fund construction of this pipeline"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Uganda",
+        "references": ["Uganda"]
+      },
+      "entity2": {
+        "entity": "Bank of Uganda",
+        "references": ["Bank of Uganda"]
+      },
+      "justifications": [
+        "Ugandan markets were relatively stable, following the 'Brexit' vote, Bank of Uganda immediately resorted to selling off dollars to intervene in the market and stabilise the economy"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

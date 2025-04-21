@@ -1,0 +1,111 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["British vote to leave the European Union"]},
+      "target": {"topic": "European Union", "references": ["EU", "Brussels authority"]},
+      "justifications": [
+        "The absurdly exaggerated reaction to the British vote to leave the European Union demonstrates the complacency and incompetence of the governing elites in Britain and Western Europe.",
+        "In Britain, the special flourish is the anti-democratic nature of the Brussels authority that intrudes more and more constantly into the lives of average people."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "American political class", "references": ["American political class"]},
+      "target": {"topic": "political discontent", "references": ["public discontent", "angry and fearful at job losses"]},
+      "justifications": [
+        "The similarities between the levels of public discontent in the United Kingdom and the United States are that the countries are angry and fearful at job losses to unfair trade agreements."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "American political class", "references": ["American political class"]},
+      "target": {"topic": "immigration", "references": ["unwise and illegal immigration"]},
+      "justifications": [
+        "The similarities between the levels of public discontent in the United Kingdom and the United States are that the countries are angry and fearful... at unwise and illegal immigration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brussels authority", "references": ["Brussels authority"]},
+      "target": {"topic": "British public", "references": ["the British"]},
+      "justifications": [
+        "This imposition has grated steadily on the British, from the display of bananas in supermarkets to the (one-size-fits-all) size of condoms."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "European Court of Justice", "references": ["European Court of Justice"]},
+      "target": {"topic": "British sovereignty", "references": ["revocability of the decisions of the highest courts of the United Kingdom"]},
+      "justifications": [
+        "to the revocability of the decisions of the highest courts of the United Kingdom by the European Court of Justice in Luxembourg."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "U.S. military", "references": ["armed forces"]},
+      "target": {"topic": "Middle Eastern wars", "references": ["decades of costly Middle Eastern wars"]},
+      "justifications": [
+        "decades of costly Middle Eastern wars that have been expertly and bravely conducted by the armed forces"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "U.S. foreign policy", "references": ["U.S. foreign policy"]},
+      "target": {"topic": "foreign policy", "references": ["feckless foreign policy", "bellicosity", "appeasement"]},
+      "justifications": [
+        "a feckless foreign policy that has waffled between bellicosity (George W. Bush) and appeasement (Barack Obama)."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brussels bureaucracy", "references": ["Brussels bureaucracy"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "The Brussels bureaucracy, though there are representative groups within it of all 27 member nationalities"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Bernie Sanders", "references": ["Bernie Sanders"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "There is some analogy with the comeuppance given the American political class by the fighting bulls of left, centre and right: Bernie Sanders, Donald Trump and Ted Cruz."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "George W. Bush", "references": ["George W. Bush"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "justifications": [
+        "a feckless foreign policy that has waffled between bellicosity (George W. Bush) and appeasement (Barack Obama)."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "French", "references": ["French"]},
+      "entity2": {"entity": "Dutch", "references": ["Dutch"]},
+      "justifications": [
+        "countries that have spent their national lives trying to equivocate between the larger Western European powers, especially the French, Germans and British."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Dutch", "references": ["Dutch"]},
+      "entity2": {"entity": "German", "references": ["Germans"]},
+      "justifications": [
+        "countries that have spent their national lives trying to equivocate between the larger Western European powers, especially the French, Germans and British."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Dutch", "references": ["Dutch"]},
+      "entity2": {"entity": "British", "references": ["British"]},
+      "justifications": [
+        "countries that have spent their national lives trying to equivocate between the larger Western European powers, especially the French, Germans and British."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

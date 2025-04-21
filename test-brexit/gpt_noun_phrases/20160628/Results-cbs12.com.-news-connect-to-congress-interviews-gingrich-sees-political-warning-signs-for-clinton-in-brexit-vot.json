@@ -1,0 +1,358 @@
+[
+    {
+        "sentence": "The vote by the British public to leave the European Union last week suggests presumptive Democratic presidential nominee Hillary Clinton is out of step with public sentiment, former House Speaker Newt Gingrich said Monday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Newt Gingrich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Newt Gingrich",
+                "types": [],
+                "wikid": "Newt Gingrich",
+                "dbpedia": "Newt Gingrich"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Newt Gingrich -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Newt Gingrich -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The vote by the British public to leave the European Union last week suggests presumptive Democratic presidential nominee Hillary Clinton is out of step with public sentiment.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That trend has fueled outsiders and nationalist candidates like presumptive Republican nominee Donald Trump and damaged more traditional politicians.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "If Trump is seen as the agent of change and Clinton as the candidate of the status quo, that could be 'devastating' for her, given the current mood of the public.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "status quo",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "status quo"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> status quo": [
+                -1.0
+            ],
+            "Donald Trump -> status quo": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Former Rep. Patrick Kennedy, who was appearing with Gingrich to promote , said the U.S. political system was intended to provide freedom while also protecting the people from destructive impulses that can lead to chaos or even genocide.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Patrick Kennedy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Patrick Kennedy",
+                "types": [],
+                "wikid": "Patrick Kennedy",
+                "dbpedia": "Patrick Kennedy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Newt Gingrich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Newt Gingrich",
+                "types": [],
+                "wikid": "Newt Gingrich",
+                "dbpedia": "Newt Gingrich"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "freedom and protection from chaos",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "freedom and protection from chaos"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Patrick Kennedy -> Newt Gingrich": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Patrick Kennedy -> freedom and protection from chaos": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Gingrich predicted questions about foreign donations to the Clinton Foundation while Hillary was secretary of state and other ethical concerns will continue to hound her campaign throughout the race.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Newt Gingrich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Newt Gingrich",
+                "types": [],
+                "wikid": "Newt Gingrich",
+                "dbpedia": "Newt Gingrich"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "foreign donations to the Clinton Foundation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "foreign donations to the Clinton Foundation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Newt Gingrich -> foreign donations to the Clinton Foundation": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He also considered how Clinton's husband, the 42nd president, will handle being the first male First Spouse in the White House.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bill Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bill Clinton",
+                "types": [],
+                "wikid": "Bill Clinton",
+                "dbpedia": "Bill Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "First Spouse",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "First Spouse"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bill Clinton -> First Spouse": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I am less worried about Bill Clinton as First Spouse than Donald Trump as president.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Patrick Kennedy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Patrick Kennedy",
+                "types": [],
+                "wikid": "Patrick Kennedy",
+                "dbpedia": "Patrick Kennedy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Donald Trump as president",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Donald Trump as president"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Patrick Kennedy -> Donald Trump as president": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Gingrich, who is often mentioned as a potential vice presidential candidate, did not offer a definitive answer when asked if he would agree to be Trump's running mate.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Newt Gingrich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Newt Gingrich",
+                "types": [],
+                "wikid": "Newt Gingrich",
+                "dbpedia": "Newt Gingrich"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Newt Gingrich -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

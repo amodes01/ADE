@@ -1,0 +1,121 @@
+[
+    {
+        "sentence": "Euroskeptic MP Priti Patel thinks the opposite is true, citing the common Vote Leave platform that bilateral relations with countries beyond the E.U. would improve if there is a vote to leave.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Priti Patel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Priti Patel",
+                "types": [],
+                "wikid": "Priti Patel",
+                "dbpedia": "Priti Patel"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Priti Patel -> European Union membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "has been very clear that Britain amplifies its influence by being a member of the European Union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Umunna",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Umunna",
+                "types": [],
+                "wikid": "Umunna",
+                "dbpedia": "Umunna"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Priti Patel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Priti Patel",
+                "types": [],
+                "wikid": "Priti Patel",
+                "dbpedia": "Priti Patel"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Umunna -> Priti Patel": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Umunna -> European Union membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Priti Patel thinks the opposite is true",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Priti Patel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Priti Patel",
+                "types": [],
+                "wikid": "Priti Patel",
+                "dbpedia": "Priti Patel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Umunna",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Umunna",
+                "types": [],
+                "wikid": "Umunna",
+                "dbpedia": "Umunna"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Priti Patel -> Umunna": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "open EU borders", "references": ["open EU borders"]},
+      "justifications": ["it is utterly crucial that we in the UK call for controls on damaging open borders to be the key condition for our future relationship with the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["it is utterly crucial that we in the UK call for controls on damaging open borders to be the key condition for our future relationship with the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU countries", "references": ["EU countries"]},
+      "target": {"topic": "open EU borders", "references": ["open EU borders"]},
+      "justifications": ["this will also resonate with the concerns of the populations of the other 27 EU countries, all of whom want to take back control of their economies to enable their local communities to flourish."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe's extreme right", "references": ["Europe's extreme right"]},
+      "target": {"topic": "globalisation", "references": ["globalisation's open borders emphasis"]},
+      "justifications": ["It is this that has acted as such an ominous 1930s-style recruiting sergeant for Europe's extreme right."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Giles Fraser", "references": ["Giles Fraser"]},
+      "target": {"topic": "capitalism", "references": ["capitalism"]},
+      "justifications": ["The idea that capitalism can be tamed by one country the size of Britain is a fantasy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Giles Fraser", "references": ["Giles Fraser"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Brexit is only coherent as a political project if you are a rightwing deregulator."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Giles Fraser", "references": ["Giles Fraser"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["The EU was one of our few opportunities to tame the beast."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Huw Brodie", "references": ["Huw Brodie"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Brexit is only coherent as a political project if you are a rightwing deregulator."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Huw Brodie", "references": ["Huw Brodie"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["Abandoning globalisation for protectionism would undermine action on climate change; regional blocs would compete with each other, and focus on energy security by prioritising access to fossil fuel reserves."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Felicity Lawrence", "references": ["Felicity Lawrence"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["Congratulations to her for setting out the progressive answer: a strong social framework that stops the low-wage, long-hours, no-regulation culture that predominates in so much of our labour market and others across Europe."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Felicity Lawrence", "references": ["Felicity Lawrence"]},
+      "target": {"topic": "New Labour", "references": ["New Labour"]},
+      "justifications": ["That requires a break from the naive, Panglossian view of globalisation promoted by New Labour."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Giles Fraser", "references": ["Giles Fraser"]},
+      "target": {"topic": "English nationalism", "references": ["English nationalism"]},
+      "justifications": ["The left must not kid itself that there is a progressive bolthole for English nationalism. There is not."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK", "references": ["UK"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["it is utterly crucial that we in the UK call for controls on damaging open borders to be the key condition for our future relationship with the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Giles Fraser", "references": ["Giles Fraser"]},
+      "entity2": {"entity": "Huw Brodie", "references": ["Huw Brodie"]},
+      "justifications": ["Giles Fraser (Labour is partly to blame for the racists' capture of the EU debate, 1 July) is so well-meaning, and so mistaken."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Felicity Lawrence", "references": ["Felicity Lawrence"]},
+      "entity2": {"entity": "New Labour", "references": ["New Labour"]},
+      "justifications": ["That requires a break from the naive, Panglossian view of globalisation promoted by New Labour."],
+      "attitude": "Negative"
+    }
+  ]
+}

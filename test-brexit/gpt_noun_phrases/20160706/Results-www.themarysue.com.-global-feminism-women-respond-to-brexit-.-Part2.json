@@ -1,0 +1,427 @@
+[
+    {
+        "sentence": "the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Women for Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Women for Brexit",
+                "types": [],
+                "wikid": "Women for Brexit",
+                "dbpedia": "Women for Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Women's Rights",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Women's Rights"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Women for Brexit -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Women for Brexit -> Women's Rights": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Britain has long been the champion of women's rights",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Women's Rights",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Women's Rights"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> Women's Rights": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Apparently, before the EU created rules around this, the UK only had laws for race and gender discrimination",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU Laws",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU Laws"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> EU Laws": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the decision to leave the EU means that all the protections that were fought for so hard to improve the lives of women in the workplace are now up in the air",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "moves towards equality are always the most in danger at times of economic crisis, which is exactly what this move to leave the EU will be bringing to the UK",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dr. Roberta Guerrina",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dr. Roberta Guerrina",
+                "types": [],
+                "wikid": "Dr. Roberta Guerrina",
+                "dbpedia": "Dr. Roberta Guerrina"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Dr. Roberta Guerrina -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Equality is something that governments promote in times of economic prosperity, but seems to be acceptable collateral damage at points of crises",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dr. Roberta Guerrina",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dr. Roberta Guerrina",
+                "types": [],
+                "wikid": "Dr. Roberta Guerrina",
+                "dbpedia": "Dr. Roberta Guerrina"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Equality",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Equality"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Dr. Roberta Guerrina -> Equality": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Social justice, gender equality and equal pay have taken a significant set back due to austerity",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dr. Roberta Guerrina",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dr. Roberta Guerrina",
+                "types": [],
+                "wikid": "Dr. Roberta Guerrina",
+                "dbpedia": "Dr. Roberta Guerrina"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Austerity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Austerity"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Dr. Roberta Guerrina -> Austerity": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "wrote about her fears for the most marginalized among the UK's citizens in a piece for Time Magazine called \"The British People Have Been Suckered\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Laurie Penny",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Laurie Penny",
+                "types": [],
+                "wikid": "Laurie Penny",
+                "dbpedia": "Laurie Penny"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Laurie Penny -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "No, not everyone who voted \"leave\" is a swivel-eyed bigot. But the people who are largely voted that way, and the many gentler citizens who did the same now have to live with the fact that they have helped to empower the worst impulses of the angriest, most desperate people in this country at a time when racism is the only recognized outlet for working-class rage",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Laurie Penny",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Laurie Penny",
+                "types": [],
+                "wikid": "Laurie Penny",
+                "dbpedia": "Laurie Penny"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Laurie Penny -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "racism is the only recognized outlet for working-class rage",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Laurie Penny",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Laurie Penny",
+                "types": [],
+                "wikid": "Laurie Penny",
+                "dbpedia": "Laurie Penny"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Racism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Racism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Laurie Penny -> Racism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "this vote has ushered in a very uncertain time for women",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Laurie Penny",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Laurie Penny",
+                "types": [],
+                "wikid": "Laurie Penny",
+                "dbpedia": "Laurie Penny"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Laurie Penny -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the people who are largely voted that way, and the many gentler citizens who did the same now have to live with the fact that they have helped to empower the worst impulses of the angriest, most desperate people in this country",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Laurie Penny",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Laurie Penny",
+                "types": [],
+                "wikid": "Laurie Penny",
+                "dbpedia": "Laurie Penny"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit Voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit Voters",
+                "types": [],
+                "wikid": "Brexit Voters",
+                "dbpedia": "Brexit Voters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Laurie Penny -> Brexit Voters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

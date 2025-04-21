@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "Heather Conley, Europe director of the Center for Strategic and International Studies, puts the fear over immigration at the epicenter of both movements.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As a result, many Brexit supporters blame their woes on the influx of immigrants in the U.K. in recent years and on the EU policies that require 'freedom of movement' among member states.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the U.S., meanwhile, Trump's statements about Mexicans and Muslims have been denounced in many quarters as racist.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump campaign",
+                "types": [],
+                "wikid": "Trump campaign",
+                "dbpedia": "Trump campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump campaign -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They are generally opposed to globalization and free trade.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump campaign",
+                "types": [],
+                "wikid": "Trump campaign",
+                "dbpedia": "Trump campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> globalization": [
+                -1.0
+            ],
+            "Trump campaign -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That twinned sentiment highlights the parallels between the Trump and Brexit campaigns.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Brexit supporters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The demographics of Brexit voters are remarkably similar to the demographics of Trump voters.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump supporters",
+                "types": [],
+                "wikid": "Trump supporters",
+                "dbpedia": "Trump supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit supporters -> Trump supporters": [
+                1.0
+            ],
+            "Trump supporters -> Brexit supporters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Opponents of Nigel Farage, a leader of the 'Leave' camp, have described his campaign as xenophobic and hateful.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "opponents of Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "opponents of Nigel Farage",
+                "types": [],
+                "wikid": "opponents of Nigel Farage",
+                "dbpedia": "opponents of Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> opponents of Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Meanwhile, board member Arabella Arkwright recently resigned from her position after retweeting anti-Muslim rhetoric on social media.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Arabella Arkwright",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Arabella Arkwright",
+                "types": [],
+                "wikid": "Arabella Arkwright",
+                "dbpedia": "Arabella Arkwright"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "anti-Muslim rhetoric",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "anti-Muslim rhetoric",
+                "types": [],
+                "wikid": "anti-Muslim rhetoric",
+                "dbpedia": "anti-Muslim rhetoric"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Arabella Arkwright -> anti-Muslim rhetoric": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Trump's statements about Mexicans and Muslims have been denounced in many quarters as racist, including by presumptive Democratic nominee Hillary Clinton.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

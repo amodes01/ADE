@@ -1,0 +1,84 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "populist movements", "references": ["populist movements"]},
+      "justifications": ["The rise of populist movements in the U.S. and in Europe is no doubt important. Neither Donald Trump nor the campaign for Brexit is intelligible without taking account of that populism."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "sovereignty", "references": ["repatriation of sovereignty"]},
+      "justifications": ["It is primarily about what Dan Hannan has called 'the repatriation of sovereignty' from the EU to Britain."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "sovereignty", "references": ["repatriation of sovereignty"]},
+      "justifications": ["It is primarily about what Dan Hannan has called 'the repatriation of sovereignty' from the EU to Britain."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave partisans", "Leave"]},
+      "target": {"topic": "Brexit implementation", "references": ["implementation of Brexit"]},
+      "justifications": ["Fortunately, prominent Leave partisans like Douglas Carswell, William Cash, Dan Hannan, and David Campbell Bannerman are onto the scheme and are responding vigorously."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Remain campaign", "references": ["Remainers"]},
+      "target": {"topic": "Brexit implementation", "references": ["implementation of Brexit"]},
+      "justifications": ["The smug redoubts of the Remainers are determined to do everything they can to frustrate the will of the British people."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit implementation", "references": ["implementation of Brexit"]},
+      "justifications": ["The EU has employed with success [the strategy to ignore or overturn a vote]."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Neither Donald Trump nor the campaign for Brexit is intelligible without taking account of that populism."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "justifications": ["It is a bit of negative rhetorical filigree that people like Joe Klein deploy to smear the pro-Brexit campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "entity2": {"entity": "Brexit campaign", "references": ["pro-Brexit campaign"]},
+      "justifications": ["People like Joe Klein deploy to smear the pro-Brexit campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Douglas Carswell", "references": ["Douglas Carswell"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Douglas Carswell, UKIP MP for Clacton, echoed the charge: 'Project Fear is giving way to Project Backsliding,' he said."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "William Cash", "references": ["William Cash"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Douglas Carswell, UKIP MP for Clacton, echoed the charge: 'Project Fear is giving way to Project Backsliding,' he said."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Dan Hannan", "references": ["Dan Hannan"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["It is primarily about what Dan Hannan has called 'the repatriation of sovereignty' from the EU to Britain."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Campbell Bannerman", "references": ["David Campbell Bannerman"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["I fear the civil service has become an agency of the EU," said Bannerman, a conservative, eurosceptic MEP."],
+      "attitude": "Negative"
+    }
+  ]
+}

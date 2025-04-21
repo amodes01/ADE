@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "refugee crisis", "references": ["refugee crisis"] },
+      "target": { "topic": "EU foreign policy", "references": ["EU foreign policy"] },
+      "justifications": [
+        "The refugee crisis and the EU's relationship with Turkey; security and terrorist threats to Europe; the Ukraine crisis and the EU's relationship with Russia; EU-US relations, including on Middle East policy and trade; and the UK referendum."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "EU foreign policy", "references": ["EU foreign policy"] },
+      "target": { "topic": "refugee crisis", "references": ["refugee crisis"] },
+      "justifications": [
+        "Most of the parties focus primarily on domestic issues, and some lack fully developed foreign policy positions... They are driven towards this by the impact of the refugee crisis across the EU."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Angela Merkel", "references": ["Angela Merkel"] },
+      "entity2": { "entity": "refugee crisis", "references": ["refugee crisis"] },
+      "justifications": [
+        "Angela Merkel's 'refugees welcome' policy does not appear to attract the criticism that might have been expected."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Germany's AfD", "references": ["Germany's AfD"] },
+      "entity2": { "entity": "refugee crisis", "references": ["refugee crisis"] },
+      "justifications": [
+        "Most of the parties focus primarily on domestic issues, and some lack fully developed foreign policy positions - for example, different representatives of Germany's AfD gave different answers on foreign policy."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "France's Front National", "references": ["France's Front National"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "From France's Front National... was founded with the aim of taking the UK out of the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britain's UKIP", "references": ["Britain's UKIP"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "From... Britain's UKIP, which was founded with the aim of taking the UK out of the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Portugal's Left Bloc", "references": ["Portugal's Left Bloc"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Portugal's Left Bloc and Spain's Podemos, which advocate for EU reform."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Spain's Podemos", "references": ["Spain's Podemos"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Portugal's Left Bloc and Spain's Podemos, which advocate for EU reform."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Switzerland", "references": ["Switzerland"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "A sense of the need to 're-democratise' policymaking nationally and across the EU is common to almost all these parties, with Switzerland often held up as an example."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Syriza", "references": ["Syriza"] },
+      "entity2": { "entity": "Greece", "references": ["Greece"] },
+      "justifications": [
+        "Some, such as Law and Justice in Poland, and Syriza and the Independent Greeks in Greece, are serving in current coalition governments."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Independent Greeks", "references": ["Independent Greeks"] },
+      "entity2": { "entity": "Greece", "references": ["Greece"] },
+      "justifications": [
+        "Some, such as Law and Justice in Poland, and Syriza and the Independent Greeks in Greece, are serving in current coalition governments."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Golden Dawn", "references": ["Golden Dawn"] },
+      "entity2": { "entity": "Greece", "references": ["Greece"] },
+      "justifications": [
+        "The parties we have included are not exclusively of the right or the left, ranging from the Communist Party in France and socialist Die Linke in Germany, through to far-right groups such as Golden Dawn in Greece."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Lega Nord", "references": ["Lega Nord"] },
+      "entity2": { "entity": "Italy", "references": ["Italy"] },
+      "justifications": [
+        "The parties we have included are not exclusively of the right or the left, ranging from the Communist Party in France and socialist Die Linke in Germany, through to far-right groups such as Golden Dawn in Greece, Lega Nord in Italy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jobbik", "references": ["Jobbik"] },
+      "entity2": { "entity": "Hungary", "references": ["Hungary"] },
+      "justifications": [
+        "The parties we have included are not exclusively of the right or the left, ranging from the Communist Party in France and socialist Die Linke in Germany, through to far-right groups such as Golden Dawn in Greece, Lega Nord in Italy, and Jobbik in Hungary."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Law and Justice", "references": ["Law and Justice"] },
+      "entity2": { "entity": "Poland", "references": ["Poland"] },
+      "justifications": [
+        "Some challenge the establishment from the sidelines, and some, such as Law and Justice in Poland, and Syriza and the Independent Greeks in Greece, are serving in current coalition governments."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Sinn Féin", "references": ["Sinn Féin"] },
+      "entity2": { "entity": "Ireland", "references": ["Ireland"] },
+      "justifications": [
+        "The youngest, ALFA, was formed in Germany in July 2015 as a breakaway from anti-immigrant party Alternative für Deutschland (AfD), while the oldest, Ireland's Sinn Féin, was founded in 1905."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

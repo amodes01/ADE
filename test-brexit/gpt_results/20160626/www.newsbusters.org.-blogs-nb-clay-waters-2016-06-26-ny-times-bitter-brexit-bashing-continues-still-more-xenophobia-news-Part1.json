@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "The European Union has not done a good job of explaining its purpose -- it's too opaque, too bureaucratic, too confusing -- and its slow handling of the debt crisis, especially in Greece, where it acted fast so French and German banks could cut their losses, but left Greece asphyxiated, had devastating consequences for all."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "open xenophobia", "references": ["open xenophobia"] },
+      "justifications": [
+        "For Donadio, it wasn't national sovereignty, distrust of unelected bureaucrats, or any abstract idea of freedom that had spurred British citizens to vote Leave, but 'open xenophobia.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "transnational optimism", "references": ["transnational optimism"] },
+      "justifications": [
+        "For me and others of my generation, this vote was about more than Britain's relationship with Europe. It signaled the definitive end of the era of transnational optimism in which I came of age."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "national sovereignty", "references": ["national sovereignty"] },
+      "justifications": [
+        "For Donadio, it wasn't national sovereignty, distrust of unelected bureaucrats, or any abstract idea of freedom that had spurred British citizens to vote Leave."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "nationalism", "references": ["nationalism"] },
+      "justifications": [
+        "The right appeals to nationalism and the left does not."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "interconnectedness", "references": ["interconnectedness"] },
+      "justifications": [
+        "Back then, we believed that interconnectedness was a strength."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "human rights law", "references": ["human rights law"] },
+      "justifications": [
+        "People wanted to study human rights law."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Rachel Donadio", "references": ["Rachel Donadio"] },
+      "entity2": { "entity": "Leave voters", "references": ["Leave voters"] },
+      "justifications": [
+        "For Donadio, it wasn't national sovereignty, distrust of unelected bureaucrats, or any abstract idea of freedom that had spurred British citizens to vote Leave, but 'open xenophobia.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rachel Donadio", "references": ["Rachel Donadio"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "The European Union has not done a good job of explaining its purpose -- it's too opaque, too bureaucratic, too confusing -- and its slow handling of the debt crisis, especially in Greece, where it acted fast so French and German banks could cut their losses, but left Greece asphyxiated, had devastating consequences for all."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "Brexit voters", "references": ["voters of Britain"] },
+      "justifications": [
+        "Julie Hirschfeld Davis and Mark Landler sadly revealed just how much the voters of Britain have disappointed President Obama."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "Leave voters", "references": ["Leave voters"] },
+      "justifications": [
+        "The Times painted Leave voters as insular and narrow-minded, in contrast to Obama's sunny cosmopolitanism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "open interconnected societies", "references": ["open, interconnected societies"] },
+      "justifications": [
+        "The 'Brexit' vote runs counter to Mr. Obama's vision of open, interconnected societies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "British citizens", "references": ["British citizens"] },
+      "justifications": [
+        "Julie Hirschfeld Davis and Mark Landler sadly revealed just how much the voters of Britain have disappointed President Obama."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Yanis Varoufakis", "references": ["Yanis Varoufakis"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "The Democracy in Europe movement, begun this year by the leftist Yanis Varoufakis, a polarizing former Greek finance minister, hits some of the same notes as Nigel Farage's right-wing U.K. Independence Party, criticizing Europe as antidemocratic and less than transparent."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

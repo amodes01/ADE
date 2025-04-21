@@ -1,0 +1,374 @@
+[
+    {
+        "sentence": "Russia's actions in Ukraine had eroded mutual trust",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Russia's actions in Ukraine",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Russia's actions in Ukraine"
+                ]
+            },
+            {
+                "ngram": "Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Russia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> Russia's actions in Ukraine": [
+                -1.0
+            ],
+            "Germany -> Russia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "NATO does not want a new Cold War. The Cold War is history and should remain history.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Russia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> Russia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the alliance should balance deterrence and dialogue with Moscow",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "deterrence and dialogue",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "deterrence and dialogue"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> deterrence and dialogue": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "NATO due to declare has reached an initial operating level",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Ballistic Missile Defence system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Ballistic Missile Defence system"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> Ballistic Missile Defence system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Russia says that once the system becomes fully operational in 2018, it will undercut its strategic nuclear deterrent",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Ballistic Missile Defence system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Ballistic Missile Defence system"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Russia -> Ballistic Missile Defence system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama was due to meet British Prime Minister David Cameron, who is set to resign over the Brexit vote",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Obama -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "talks between US President Barack Obama, attending his last NATO summit, EU President Donald Tusk",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Tusk",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Tusk",
+                "types": [],
+                "wikid": "Donald Tusk",
+                "dbpedia": "Donald Tusk"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Obama -> Donald Tusk": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "talks between US President Barack Obama, attending his last NATO summit, EU President Donald Tusk and European Commission chief Jean-Claude Juncker",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean-Claude Juncker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean-Claude Juncker",
+                "types": [],
+                "wikid": "Jean-Claude Juncker",
+                "dbpedia": "Jean-Claude Juncker"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Obama -> Jean-Claude Juncker": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "This may be the most important moment for our transatlantic alliance since the end of the Cold War, Obama wrote in the Financial Times",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Obama -> Barack Obama": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Obama said he was also confident that the UK and the EU will be able to agree on an orderly transition to a new relationship",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Obama -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

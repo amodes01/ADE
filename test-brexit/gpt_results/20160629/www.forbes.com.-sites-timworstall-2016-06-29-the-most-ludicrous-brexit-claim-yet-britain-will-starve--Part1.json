@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "UK food production",
+        "references": ["UK food production", "dependency on EU"]
+      },
+      "justifications": [
+        "The UK is heavily dependent on other EU member states for food.",
+        "UK food production is below 60% of consumption and particularly reliant on imports for fruit and many vegetables."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "EU subsidies and tariff exemptions",
+        "references": ["E.U. subsidies and tariff exemptions"]
+      },
+      "justifications": [
+        "When the E.U. subsidies and tariff exemptions are gone, the odds are that plant foods will become more expensive."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "food prices in the UK",
+        "references": ["food prices", "plant foods becoming more expensive"]
+      },
+      "justifications": [
+        "When the E.U. subsidies and tariff exemptions are gone, the odds are that plant foods will become more expensive."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "British public health",
+        "references": ["question of health"]
+      },
+      "justifications": [
+        "Lang sees this as a question of health as much as economics."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "UK's dependency on EU",
+        "references": ["dependency on EU"]
+      },
+      "justifications": [
+        "Supporters of Brexit have not once addressed the UK's dependency on EU producers and suppliers."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Lang",
+        "references": ["Lang"]
+      },
+      "entity2": {
+        "entity": "Victoria Schoen",
+        "references": ["Victoria Schoen"]
+      },
+      "justifications": [
+        "In April, Lang co-authored-with Victoria Schoen-a \"briefing paper\" on the far-reaching impact of Brexit on British food."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Lang",
+        "references": ["Lang"]
+      },
+      "entity2": {
+        "entity": "The New Yorker",
+        "references": ["The New Yorker"]
+      },
+      "justifications": [
+        "But this food and Brexit idea has turned up somewhere generally thought to be respectable - the New Yorker no less."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit supporters",
+        "references": ["Supporters of Brexit"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Supporters of Brexit have not once addressed the UK's dependency on EU producers and suppliers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The UK is heavily dependent on other EU member states for food.",
+        "UK food production is below 60% of consumption and particularly reliant on imports for fruit and many vegetables."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

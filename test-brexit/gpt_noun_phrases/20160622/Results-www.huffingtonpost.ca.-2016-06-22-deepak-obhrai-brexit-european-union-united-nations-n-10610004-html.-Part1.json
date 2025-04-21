@@ -1,0 +1,232 @@
+[
+    {
+        "sentence": "Canada lost the Security Council seat because of that.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Deepak Obhrai",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Deepak Obhrai",
+                "types": [],
+                "wikid": "Deepak Obhrai",
+                "dbpedia": "Deepak Obhrai"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Deepak Obhrai -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Deepak Obhrai -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Britain's exit from the EU will help small countries like Canada.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Deepak Obhrai",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Deepak Obhrai",
+                "types": [],
+                "wikid": "Deepak Obhrai",
+                "dbpedia": "Deepak Obhrai"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Britain's exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Britain's exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Deepak Obhrai -> Britain": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Deepak Obhrai -> Britain's exit from the EU": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the Conservatives' foreign policy - from decreasing African aid, to staunchly supporting Israel, to a lack of engagement on climate change and peacekeeping operations - had been unpopular with the international community.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Paul Heinbecker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Paul Heinbecker",
+                "types": [],
+                "wikid": "Paul Heinbecker",
+                "dbpedia": "Paul Heinbecker"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Conservative Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Conservative Party",
+                "types": [],
+                "wikid": "Conservative Party",
+                "dbpedia": "Conservative Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Conservative foreign policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Conservative foreign policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Paul Heinbecker -> Conservative Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Paul Heinbecker -> Conservative foreign policy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the lamentable result was a reflection of things that Canada has done or not done that a majority of nations disapprove of.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yves Fortier",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yves Fortier",
+                "types": [],
+                "wikid": "Yves Fortier",
+                "dbpedia": "Yves Fortier"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Canada's international standing",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Canada's international standing"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Yves Fortier -> Canada": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Yves Fortier -> Canada's international standing": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It can only be interpreted as a slight to Canada by the international community.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yves Fortier",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yves Fortier",
+                "types": [],
+                "wikid": "Yves Fortier",
+                "dbpedia": "Yves Fortier"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Canada's international standing",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Canada's international standing"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Yves Fortier -> Canada's international standing": [
+                -1.0
+            ]
+        }
+    }
+]

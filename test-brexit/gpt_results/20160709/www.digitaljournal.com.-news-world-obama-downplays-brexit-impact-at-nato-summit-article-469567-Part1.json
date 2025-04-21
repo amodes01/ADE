@@ -1,0 +1,120 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "NATO leaders united Saturday behind a policy of deterrence and dialogue with Russia",
+        "The united message is that defence and dialogue are what our relationship is based on."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Cold War situation", "references": ["Cold-War style stand-off"]},
+      "justifications": [
+        "there have been calls from countries like France and Germany to avoid a Cold-War style stand-off"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "French President Francois Hollande has appeared to offer more of an olive branch to Moscow, saying on Friday Russia was neither adversary or threat but a partner."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "France and Germany, which have strong political and economic ties to Russia, have played a leading role in efforts to solve the Ukraine conflict"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "The United States and European Union have both imposed sanctions on Moscow over the Ukraine crisis"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "The United States and European Union have both imposed sanctions on Moscow over the Ukraine crisis"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Lithuanian President Dalia Grybauskaite", "references": ["Lithuanian President Dalia Grybauskaite"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Lithuanian President Dalia Grybauskaite, a sharp critic of Putin, said a stronger NATO would be better able to talk to Russia."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "NATO leaders united Saturday behind a policy of deterrence and dialogue with Russia",
+        "The united message is that defence and dialogue are what our relationship is based on."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "NATO is keen to downplay any divisions, but there have been calls from countries like France and Germany to avoid a Cold-War style stand-off"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["Francois Hollande"]},
+      "entity2": {"entity": "Vladimir Putin", "references": ["Putin"]},
+      "justifications": [
+        "French President Francois Hollande has appeared to offer more of an olive branch to Moscow, saying on Friday Russia was neither adversary or threat but a partner."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Germany", "references": ["Germany"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "France and Germany, which have strong political and economic ties to Russia, have played a leading role in efforts to solve the Ukraine conflict"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "The United States and European Union have both imposed sanctions on Moscow over the Ukraine crisis"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["European Union"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "The United States and European Union have both imposed sanctions on Moscow over the Ukraine crisis"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Lithuanian President Dalia Grybauskaite", "references": ["Lithuanian President Dalia Grybauskaite"]},
+      "entity2": {"entity": "Vladimir Putin", "references": ["Putin"]},
+      "justifications": [
+        "Lithuanian President Dalia Grybauskaite, a sharp critic of Putin, said a stronger NATO would be better able to talk to Russia."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

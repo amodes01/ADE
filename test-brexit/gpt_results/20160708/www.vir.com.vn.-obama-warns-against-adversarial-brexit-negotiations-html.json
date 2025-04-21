@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "European integration", "references": ["European integration"] },
+      "justifications": [
+        "\"Even as we face the difficulties of this moment we cannot lose sight of the extraordinary achievement that European integration continues to be,\" he said, praising the bloc's shared values of democracy and peace."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Obama said that despite the problems posed by Brexit, European integration was crucial and the United States had a major interest in its continued success."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "entity2": { "entity": "Donald Tusk", "references": ["Donald Tusk"] },
+      "justifications": [
+        "Obama said after meeting European Council head Donald Tusk and European Commission chief Jean-Claude Juncker at a NATO summit dominated by Britain's post-EU future."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "entity2": { "entity": "Jean-Claude Juncker", "references": ["Jean-Claude Juncker"] },
+      "justifications": [
+        "Obama said after meeting European Council head Donald Tusk and European Commission chief Jean-Claude Juncker at a NATO summit dominated by Britain's post-EU future."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["Juncker"] },
+      "entity2": { "entity": "Donald Tusk", "references": ["Tusk"] },
+      "justifications": [
+        "Juncker, who has expressed dismay at the delay and pressed hardest for the talks to start as quickly as possible, said they would not be hostile."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["Juncker"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Juncker, who has expressed dismay at the delay and pressed hardest for the talks to start as quickly as possible, said they would not be hostile."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Donald Tusk", "references": ["Tusk"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Tusk said the \"political consequences of Brexit may be very serious\" and stressed that \"maintaining the closest relations is equally important\"."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "entity2": { "entity": "Barack Obama", "references": ["Obama"] },
+      "justifications": [
+        "British Prime Minister David Cameron, who is to meet Obama during the summit, stepped down last month after losing the Brexit referendum."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

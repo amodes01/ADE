@@ -1,0 +1,300 @@
+[
+    {
+        "sentence": "The crucial lesson to draw from the Brexit vote is that a democracy can drive itself off a cliff given the right stew of propaganda, resentment, economic uncertainty, and political corruption.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump's campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump's campaign",
+                "types": [],
+                "wikid": "Trump's campaign",
+                "dbpedia": "Trump's campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump's presidency",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump's presidency",
+                "types": [],
+                "wikid": "Trump's presidency",
+                "dbpedia": "Trump's presidency"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democracy"
+                ]
+            },
+            {
+                "ngram": "political corruption",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political corruption"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump's campaign -> democracy": [
+                -1.0
+            ],
+            "Trump's presidency -> political corruption": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "At this point it's about blowing up a broken system, not about the candidate himself.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump's campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump's campaign",
+                "types": [],
+                "wikid": "Trump's campaign",
+                "dbpedia": "Trump's campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political system"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump's campaign -> political system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "This is what Johnson and Farage did in Britain and it's what Trump has been doing since he launched his presidential campaign.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Johnson",
+                "types": [],
+                "wikid": "Johnson",
+                "dbpedia": "Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Farage",
+                "types": [],
+                "wikid": "Farage",
+                "dbpedia": "Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> Brexit": [
+                -1.0
+            ],
+            "Trump -> Johnson": [
+                -1.0
+            ],
+            "Trump -> Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "British voters failed to ask this question, and millions of Trump supporters have as well.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> British voters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "It's terrifying that millions of Americans are so blinkered by bigotry and hate that they do not even care that Trump is openly conning them.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump supporters",
+                "types": [],
+                "wikid": "Trump supporters",
+                "dbpedia": "Trump supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> Trump supporters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Were Trump to win in November, his response would likely mirror his British counterparts.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump's victory",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump's victory",
+                "types": [],
+                "wikid": "Trump's victory",
+                "dbpedia": "Trump's victory"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> Trump's victory": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the best thing that could happen to him would be to lose the election, blame it on a rigged process, and then create a new media business with the audience he's cultivated",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump's media business",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump's media business",
+                "types": [],
+                "wikid": "Trump's media business",
+                "dbpedia": "Trump's media business"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> Trump's media business": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

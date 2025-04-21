@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit referendum", "references": ["vote to leave", "Brexit campaign", "vote to leave"] },
+      "target": { "topic": "immigration", "references": ["immigration", "flood of migrant workers"] },
+      "justifications": [
+        "The 'leave' campaign has played on those fears, arguing - with little supporting evidence - that Turkey will soon join the European Union and intensify the flood of migrant workers arriving on British shores under the bloc's free-movement rules."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit referendum", "references": ["vote to leave", "Brexit campaign", "vote to leave"] },
+      "target": { "topic": "Project Fear", "references": ["Project Fear"] },
+      "justifications": [
+        "It has also dismissed warnings from independent experts as part of an elitist plot, what it terms 'Project Fear.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit referendum", "references": ["remain side", "remain side"] },
+      "target": { "topic": "Brexit referendum", "references": ["leave campaign"] },
+      "justifications": [
+        "The 'remain' side has returned fire in recent days."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit referendum", "references": ["leave campaign"] },
+      "target": { "topic": "Brexit referendum", "references": ["remain side"] },
+      "justifications": [
+        "The 'leave' campaign has played on those fears."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "David Cameron", "references": ["Cameron"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "When Cameron promised a referendum in January 2013, he had hoped the vote would put to rest a debate over Europe that has bedeviled Britain for decades."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "David Cameron", "references": ["Cameron"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "Instead, the campaign appears only to have made those divisions worse."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Johnson"] },
+      "entity2": { "entity": "Michael Gove", "references": ["Gove"] },
+      "justifications": [
+        "Two of the top Brexit campaigners - Johnson and Justice Secretary Michael Gove - have invoked provocative Nazi comparisons."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Johnson"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "Johnson has suggested that E.U. ambitions mirror those of Hitler's Germany."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Gove"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "Gove has painted Brexit critics as akin to Nazi propagandists who sought to discredit Albert Einstein."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "President Obama has weighed in strongly for the 'remain' side, saying he thinks Britain is a more valuable ally from within the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "All of Britain's E.U. allies have said they, too, want Britain to stay."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "To illustrate the point, European landmarks from Paris to Warsaw have been bathed in the colors of the Union Jack this week, along with the message 'Vote Remain.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Matteo Renzi", "references": ["Italian Prime Minister Matteo Renzi"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "In an op-ed in Britain's Guardian newspaper Wednesday morning, Italian Prime Minister Matteo Renzi wrote that a vote to leave would be 'the wrong choice.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Scottish leaders", "references": ["Scottish leaders"] },
+      "entity2": { "entity": "Brexit referendum", "references": ["referendum", "vote to leave", "Brexit campaign"] },
+      "justifications": [
+        "Scottish leaders say that if Britain votes to leave the European Union against the will of the pro-European Scots, they will renew their push for independence just two years after losing a referendum vote."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

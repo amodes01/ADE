@@ -1,0 +1,129 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Irish economy", "references": ["Ireland's economy", "Ireland"] },
+      "justifications": [
+        "Ireland, with the fastest-growing economy in Europe, is considered more vulnerable than anyone else in the EU to Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK economy", "references": ["Britain"] },
+      "justifications": [
+        "The mood in Britain itself is dour.",
+        "In a special post-referendum survey published on Friday, market research company GfK said consumer confidence fell 8 points to -9 in the aftermath of the June 23 vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Irish exports", "references": ["Irish exports"] },
+      "justifications": [
+        "Putting UK-dependent Irish exporters like the Nolans into an exchange rate-induced bind.",
+        "If it fails to recover, the impact could be significant."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK-Ireland trade", "references": ["trade with the United Kingdom"] },
+      "justifications": [
+        "Especially the one in ten workers whose jobs directly relate to trade with the United Kingdom."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Irish GDP growth", "references": ["Irish GDP growth"] },
+      "justifications": [
+        "The department has estimated an average rate of 0.82 over the next six years would cut Irish GDP growth by an average of 0.8 percent a year."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Irish businesses", "references": ["firms", "businesses"] },
+      "justifications": [
+        "Firms expressed concern that Brexit would lead to a slowdown."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Sterling exchange rate", "references": ["sterling", "exchange rate"] },
+      "target": { "topic": "Irish exports", "references": ["Irish exports"] },
+      "justifications": [
+        "Sending the value of sterling plunging as much as 13 percent and putting UK-dependent Irish exporters like the Nolans into an exchange rate-induced bind.",
+        "The exchange rate was more favourable at 0.78 pounds to the euro when Ireland's finance department made its most recent projections but is now 9 percent lower at 0.85."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Sterling exchange rate", "references": ["sterling", "exchange rate"] },
+      "target": { "topic": "Irish ice cream market", "references": ["premium ice cream market"] },
+      "justifications": [
+        "If it keeps going down the wrong way, it makes that market a place where it becomes very challenging to operate in."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brian Nolan", "references": ["Brian Nolan"] },
+      "entity2": { "entity": "Rachel Nolan", "references": ["Rachel Nolan"] },
+      "justifications": [
+        "Brian Nolan, 35, who left a career in finance to work with his wife to turn avocados and coconuts into Nobo ice cream."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Brian Nolan", "references": ["Brian Nolan"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The scary part at the moment is the currency."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rachel Nolan", "references": ["Rachel Nolan"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The scary part at the moment is the currency."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Brian Nolan", "references": ["Brian Nolan"] },
+      "entity2": { "entity": "UK", "references": ["Britain"] },
+      "justifications": [
+        "Fourteen times larger than Ireland, Britain accounts for 16 percent of its exports."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Cloud90", "references": ["Cloud90"] },
+      "entity2": { "entity": "UK", "references": ["London", "insurance company in London"] },
+      "justifications": [
+        "The week of the vote we went into a very large insurance company in London with a very innovative product they agreed to pilot."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Cloud90", "references": ["Cloud90"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "We are counting on this, we were planning all our expansion to come from the UK and now we do not know where we are."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicola Byrne", "references": ["Nicola Byrne"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "We are counting on this, we were planning all our expansion to come from the UK and now we do not know where we are."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

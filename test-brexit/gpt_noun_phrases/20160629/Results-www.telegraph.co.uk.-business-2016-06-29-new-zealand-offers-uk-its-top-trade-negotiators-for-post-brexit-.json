@@ -1,0 +1,128 @@
+[
+    {
+        "sentence": "Wellington's olive branch came alongside an offer to discuss a trade agreement with the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "New Zealand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "New Zealand",
+                "types": [],
+                "wikid": "New Zealand",
+                "dbpedia": "New Zealand"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade agreement with the UK",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade agreement with the UK"
+                ]
+            },
+            {
+                "ngram": "trade agreement with New Zealand",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade agreement with New Zealand"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "New Zealand -> trade agreement with the UK": [
+                1.0
+            ],
+            "United Kingdom -> trade agreement with New Zealand": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "which would help Britain get out of the starting blocks and begin replacing the trade access lost as a result of the Brexit vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "New Zealand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "New Zealand",
+                "types": [],
+                "wikid": "New Zealand",
+                "dbpedia": "New Zealand"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "New Zealand -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "New Zealand has offered its top trade negotiators to the United Kingdom, relieving the British civil service",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "New Zealand",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "New Zealand",
+                "types": [],
+                "wikid": "New Zealand",
+                "dbpedia": "New Zealand"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "New Zealand -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

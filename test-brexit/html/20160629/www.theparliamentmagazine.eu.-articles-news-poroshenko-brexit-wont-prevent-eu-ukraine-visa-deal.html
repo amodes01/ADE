@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head><!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.inmobi.com'
+    .concat('/choice/', '1C3fJ9awG115y', '/', host, '/choice.js?tag_version=V3');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+ 
+  firstScript.parentNode.insertBefore(element, firstScript);
+ 
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+ 
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+ 
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+ 
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+ 
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+ 
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+ 
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V3' });
+        }
+        queue.push(args);
+      }
+    }
+ 
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+ 
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+ 
+      var payload = json.__tcfapiCall;
+ 
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+ 
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+ 
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+ 
+  makeStub();
+ 
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+ 
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+ 
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) --><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="language" content="en" /><meta name="generator" content="Isle Interactive Ltd" /><meta name="designer" content="Isle Interactive Ltd" /><meta name="viewport" content="initial-scale=1.0, width=device-width" /><meta name="format-detection" content="telephone=no" /><meta name="application-name" content="The Parliament Magazine" /><meta name="msapplication-TileColor" content="#ffffff" /><meta name="msapplication-config" content="/_img/_favicons/browserconfig.xml" /><meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="14 days" /><link rel="apple-touch-icon" sizes="180x180" href="/_img/_favicons/apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="/_img/_favicons/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="/_img/_favicons/favicon-16x16.png" /><link rel="manifest" href="/_img/_favicons/manifest.json" /><link rel="mask-icon" href="/_img/_favicons/safari-pinned-tab.svg" color="#231f20" /><link rel="shortcut icon" href="/favicon.ico" /><link rel="stylesheet" href="/_styles/core2.css?v14" media="screen" /><link rel="stylesheet" href="/_styles/layout2.css?v26" media="screen" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+    <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;family=Roboto+Condensed:wght@700&amp;display=swap" rel="stylesheet" />-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&amp;family=Open+Sans:wght@400;700&amp;family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>!window.jQuery && document.write('<script src="/_scripts/jquery.js"><\/script>')</script>
+    <script src="/_scripts/modernizr.js"></script>
+    <script src="/_scripts/core.js?11"></script>
+    <script src="/_scripts/plugins.js?2a"></script>
+
+    
+    <!-- ADVERTISING - START -->
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+    </script>
+
+    <script>
+    // define variables to hold gpt slot objects
+    var gptSlots = [];
+    var slot1,slot2,slot3,slot4,slot5,slot6,slot7;
+  googletag.cmd.push(function() {
+
+        headerMapping = googletag.sizeMapping().
+  			addSize([0, 0], [1, 1]).
+  			addSize([320, 0], [[320, 50], [320, 100]]).
+  			addSize([801, 0], [[468, 60], [728, 90]]).
+  			addSize([1201, 0], [[970, 90], [970, 250], [728, 90]]).
+  			build();
+
+        lmpuMapping = googletag.sizeMapping().		
+  			addSize([0, 0], [1, 1]).
+  			addSize([300, 0], [300, 250]).
+  			addSize([801, 0], [[300, 600], [300, 250]]).
+  			addSize([1201, 0], [[300, 1050], [300, 600], [300, 250]]).
+  			build();
+
+        rmpuMapping = googletag.sizeMapping().		
+  			addSize([0, 0], [1, 1]).
+  			addSize([300, 0], [300, 250]).
+  			addSize([801, 0], [[300, 600], [300, 250]]).
+  			build();
+        
+          inartMapping = googletag.sizeMapping().		
+  			addSize([0, 0], [1, 1]).
+  			addSize([300, 0], [300, 250]).
+  			build();
+
+        skinMapping = googletag.sizeMapping().
+  			addSize([1201, 0], [1, 1]).
+  			build();
+
+    slot1 = googletag.defineSlot('/1048162/pm/news-article_header', [[320, 50], [970, 250], [970, 90], [320, 100], [1, 1], [728, 90]], 'div-gpt-ad-1608230013890-0').defineSizeMapping(headerMapping).setTargeting('lazyload').addService(googletag.pubads());
+    slot2 = googletag.defineSlot('/1048162/pm/news-article_left-side-top', [[300, 600], [300, 250]], 'div-gpt-ad-1608230013890-1').defineSizeMapping(rmpuMapping).setTargeting('lazyload').addService(googletag.pubads());
+    slot3 = googletag.defineSlot('/1048162/pm/news-article_right-side-top', [300, 250], 'div-gpt-ad-1608230013890-2').setTargeting('lazyload').addService(googletag.pubads());
+    slot4 = googletag.defineSlot('/1048162/pm/news-article_right-side-bot', [[300, 1050], [300, 600], [300, 250]], 'div-gpt-ad-1608230013890-3').defineSizeMapping(lmpuMapping).setTargeting('lazyload').addService(googletag.pubads());
+    slot5 = googletag.defineSlot('/1048162/pm/news-article_teads', [1, 1], 'div-gpt-ad-1608230013890-4').setTargeting('lazyload').addService(googletag.pubads());
+    slot6 = googletag.defineSlot('/1048162/pm/news-article_inarticle', [[1, 1], [300, 250]], 'div-gpt-ad-1608230013890-5').defineSizeMapping(inartMapping).setTargeting('lazyload').addService(googletag.pubads());
+    slot7 = googletag.defineSlot('/1048162/pm/news-article_skin', [1, 1], 'div-gpt-ad-1608230013890-6').defineSizeMapping(skinMapping).setTargeting('lazyload').addService(googletag.pubads());
+    googletag.defineSlot('/1048162/pm/news-article_pixel-1', [1, 1], 'div-gpt-ad-1608230013890-7').setTargeting('lazyload').addService(googletag.pubads());
+    googletag.defineSlot('/1048162/pm/news-article_pixel-2', [1, 1], 'div-gpt-ad-1608230013890-8').setTargeting('lazyload').addService(googletag.pubads());
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.pubads().enableLazyLoad({
+        fetchMarginPercent: 200,
+        renderMarginPercent: 100,
+        mobileScaling: 2.0
+    });
+    googletag.enableServices();googletag.pubads().setTargeting("environment","production");
+googletag.pubads().setTargeting("articletype","News & Analysis");
+ gptSlots.push(slot1, slot2, slot3, slot4, slot5, slot6, slot7);
+    });
+    </script>
+    <!-- ADVERTISING - END -->
+    
+    
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WHDKTSQ');</script>
+	<!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1690315']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img06.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script><script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script><!-- Poool Tracking -->
+<script id="poool-engage" src="https://assets.poool.fr/engage.min.js" async></script>
+        <script>
+            const script = document.getElementById('poool-engage');
+            script.addEventListener('load', function() {
+                Engage.init('B7H7E-5SALK-J1YCN-ZNZ63')
+                .autoCreate();
+            });
+</script>
+<!-- Poool Tracking End--><script src="https://cdn.p-n.io/pushly-sdk.min.js?domain_key=W6PndT8I8jSyIKDSivrEQYBdUvzu4EXy4W82" async></script>
+<script>
+  window.PushlySDK = window.PushlySDK || [];
+  function pushly() { window.PushlySDK.push(arguments) }
+  pushly('load', {
+    domainKey: 'W6PndT8I8jSyIKDSivrEQYBdUvzu4EXy4W82',
+    sw: '/assets/pushly/pushly-sdk-worker.js'
+  });
+</script>
+<link rel="canonical" href="https://www.theparliamentmagazine.eu/news/article/poroshenko-brexit-wont-prevent-euukraine-visa-deal" />
+<meta property="og:site_name" content="The Parliament Magazine" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:title" content="Poroshenko: Brexit won't prevent EU-Ukraine visa deal" />
+<meta property="og:description" content="Ukrainian President Petro Poroshenko has warned that the Brexit result could cause 'delays' in the introduction of visa free travel between the EU ..." />
+<meta property="og:url" content="https://www.theparliamentmagazine.eu/news/article/poroshenko-brexit-wont-prevent-euukraine-visa-deal" />
+<meta property="og:image" content="https://www.theparliamentmagazine.eu/siteimg/share/ugc-1/fullnews/news/18822/18004_original.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-29 15:20:36" />
+<meta property="article:modified_time" content="2020-06-29 15:20:36" />
+<meta name="Description" content="Ukrainian President Petro Poroshenko has warned that the Brexit result could cause &quot;delays&quot; in the introduction of visa free travel between the EU and..." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@parlimag" />
+<meta name="twitter:url" content="https://www.theparliamentmagazine.eu/news/article/poroshenko-brexit-wont-prevent-euukraine-visa-deal" />
+<meta name="twitter:title" content="Poroshenko: Brexit won&#39;t prevent EU-Ukraine visa deal" />
+<meta name="twitter:description" content="Ukrainian President Petro Poroshenko has warned that the Brexit result could cause &quot;delays&quot; in the introduction of visa free travel between the EU and Ukraine." />
+<meta name="twitter:image" content="https://www.theparliamentmagazine.eu/siteimg/share/ugc-1/fullnews/news/18822/18004_original.jpg?v1" />
+<title>
+	Poroshenko: Brexit won't prevent EU-Ukraine visa deal
+</title></head>
+<body >
+    
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHDKTSQ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+    <form method="post" action="/news/article/poroshenko-brexit-wont-prevent-euukraine-visa-deal" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5Njg1MzgzMTcPZBYCZg9kFgRmD2QWCAIeD2QWBAIBDxYCHgRUZXh0BfcYdmFyIHNsb3QxLHNsb3QyLHNsb3QzLHNsb3Q0LHNsb3Q1LHNsb3Q2LHNsb3Q3OwogIGdvb2dsZXRhZy5jbWQucHVzaChmdW5jdGlvbigpIHsKCiAgICAgICAgaGVhZGVyTWFwcGluZyA9IGdvb2dsZXRhZy5zaXplTWFwcGluZygpLgogIAkJCWFkZFNpemUoWzAsIDBdLCBbMSwgMV0pLgogIAkJCWFkZFNpemUoWzMyMCwgMF0sIFtbMzIwLCA1MF0sIFszMjAsIDEwMF1dKS4KICAJCQlhZGRTaXplKFs4MDEsIDBdLCBbWzQ2OCwgNjBdLCBbNzI4LCA5MF1dKS4KICAJCQlhZGRTaXplKFsxMjAxLCAwXSwgW1s5NzAsIDkwXSwgWzk3MCwgMjUwXSwgWzcyOCwgOTBdXSkuCiAgCQkJYnVpbGQoKTsKCiAgICAgICAgbG1wdU1hcHBpbmcgPSBnb29nbGV0YWcuc2l6ZU1hcHBpbmcoKS4JCQogIAkJCWFkZFNpemUoWzAsIDBdLCBbMSwgMV0pLgogIAkJCWFkZFNpemUoWzMwMCwgMF0sIFszMDAsIDI1MF0pLgogIAkJCWFkZFNpemUoWzgwMSwgMF0sIFtbMzAwLCA2MDBdLCBbMzAwLCAyNTBdXSkuCiAgCQkJYWRkU2l6ZShbMTIwMSwgMF0sIFtbMzAwLCAxMDUwXSwgWzMwMCwgNjAwXSwgWzMwMCwgMjUwXV0pLgogIAkJCWJ1aWxkKCk7CgogICAgICAgIHJtcHVNYXBwaW5nID0gZ29vZ2xldGFnLnNpemVNYXBwaW5nKCkuCQkKICAJCQlhZGRTaXplKFswLCAwXSwgWzEsIDFdKS4KICAJCQlhZGRTaXplKFszMDAsIDBdLCBbMzAwLCAyNTBdKS4KICAJCQlhZGRTaXplKFs4MDEsIDBdLCBbWzMwMCwgNjAwXSwgWzMwMCwgMjUwXV0pLgogIAkJCWJ1aWxkKCk7CiAgICAgICAgCiAgICAgICAgICBpbmFydE1hcHBpbmcgPSBnb29nbGV0YWcuc2l6ZU1hcHBpbmcoKS4JCQogIAkJCWFkZFNpemUoWzAsIDBdLCBbMSwgMV0pLgogIAkJCWFkZFNpemUoWzMwMCwgMF0sIFszMDAsIDI1MF0pLgogIAkJCWJ1aWxkKCk7CgogICAgICAgIHNraW5NYXBwaW5nID0gZ29vZ2xldGFnLnNpemVNYXBwaW5nKCkuCiAgCQkJYWRkU2l6ZShbMTIwMSwgMF0sIFsxLCAxXSkuCiAgCQkJYnVpbGQoKTsKCiAgICBzbG90MSA9IGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfaGVhZGVyJywgW1szMjAsIDUwXSwgWzk3MCwgMjUwXSwgWzk3MCwgOTBdLCBbMzIwLCAxMDBdLCBbMSwgMV0sIFs3MjgsIDkwXV0sICdkaXYtZ3B0LWFkLTE2MDgyMzAwMTM4OTAtMCcpLmRlZmluZVNpemVNYXBwaW5nKGhlYWRlck1hcHBpbmcpLnNldFRhcmdldGluZygnbGF6eWxvYWQnKS5hZGRTZXJ2aWNlKGdvb2dsZXRhZy5wdWJhZHMoKSk7CiAgICBzbG90MiA9IGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfbGVmdC1zaWRlLXRvcCcsIFtbMzAwLCA2MDBdLCBbMzAwLCAyNTBdXSwgJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC0xJykuZGVmaW5lU2l6ZU1hcHBpbmcocm1wdU1hcHBpbmcpLnNldFRhcmdldGluZygnbGF6eWxvYWQnKS5hZGRTZXJ2aWNlKGdvb2dsZXRhZy5wdWJhZHMoKSk7CiAgICBzbG90MyA9IGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfcmlnaHQtc2lkZS10b3AnLCBbMzAwLCAyNTBdLCAnZGl2LWdwdC1hZC0xNjA4MjMwMDEzODkwLTInKS5zZXRUYXJnZXRpbmcoJ2xhenlsb2FkJykuYWRkU2VydmljZShnb29nbGV0YWcucHViYWRzKCkpOwogICAgc2xvdDQgPSBnb29nbGV0YWcuZGVmaW5lU2xvdCgnLzEwNDgxNjIvcG0vbmV3cy1hcnRpY2xlX3JpZ2h0LXNpZGUtYm90JywgW1szMDAsIDEwNTBdLCBbMzAwLCA2MDBdLCBbMzAwLCAyNTBdXSwgJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC0zJykuZGVmaW5lU2l6ZU1hcHBpbmcobG1wdU1hcHBpbmcpLnNldFRhcmdldGluZygnbGF6eWxvYWQnKS5hZGRTZXJ2aWNlKGdvb2dsZXRhZy5wdWJhZHMoKSk7CiAgICBzbG90NSA9IGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfdGVhZHMnLCBbMSwgMV0sICdkaXYtZ3B0LWFkLTE2MDgyMzAwMTM4OTAtNCcpLnNldFRhcmdldGluZygnbGF6eWxvYWQnKS5hZGRTZXJ2aWNlKGdvb2dsZXRhZy5wdWJhZHMoKSk7CiAgICBzbG90NiA9IGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfaW5hcnRpY2xlJywgW1sxLCAxXSwgWzMwMCwgMjUwXV0sICdkaXYtZ3B0LWFkLTE2MDgyMzAwMTM4OTAtNScpLmRlZmluZVNpemVNYXBwaW5nKGluYXJ0TWFwcGluZykuc2V0VGFyZ2V0aW5nKCdsYXp5bG9hZCcpLmFkZFNlcnZpY2UoZ29vZ2xldGFnLnB1YmFkcygpKTsKICAgIHNsb3Q3ID0gZ29vZ2xldGFnLmRlZmluZVNsb3QoJy8xMDQ4MTYyL3BtL25ld3MtYXJ0aWNsZV9za2luJywgWzEsIDFdLCAnZGl2LWdwdC1hZC0xNjA4MjMwMDEzODkwLTYnKS5kZWZpbmVTaXplTWFwcGluZyhza2luTWFwcGluZykuc2V0VGFyZ2V0aW5nKCdsYXp5bG9hZCcpLmFkZFNlcnZpY2UoZ29vZ2xldGFnLnB1YmFkcygpKTsKICAgIGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfcGl4ZWwtMScsIFsxLCAxXSwgJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC03Jykuc2V0VGFyZ2V0aW5nKCdsYXp5bG9hZCcpLmFkZFNlcnZpY2UoZ29vZ2xldGFnLnB1YmFkcygpKTsKICAgIGdvb2dsZXRhZy5kZWZpbmVTbG90KCcvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfcGl4ZWwtMicsIFsxLCAxXSwgJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC04Jykuc2V0VGFyZ2V0aW5nKCdsYXp5bG9hZCcpLmFkZFNlcnZpY2UoZ29vZ2xldGFnLnB1YmFkcygpKTsKICAgIGdvb2dsZXRhZy5wdWJhZHMoKS5kaXNhYmxlSW5pdGlhbExvYWQoKTsKICAgIGdvb2dsZXRhZy5wdWJhZHMoKS5lbmFibGVTaW5nbGVSZXF1ZXN0KCk7CiAgICBnb29nbGV0YWcucHViYWRzKCkuY29sbGFwc2VFbXB0eURpdnMoKTsKICAgIGdvb2dsZXRhZy5wdWJhZHMoKS5lbmFibGVMYXp5TG9hZCh7CiAgICAgICAgZmV0Y2hNYXJnaW5QZXJjZW50OiAyMDAsCiAgICAgICAgcmVuZGVyTWFyZ2luUGVyY2VudDogMTAwLAogICAgICAgIG1vYmlsZVNjYWxpbmc6IDIuMAogICAgfSk7CiAgICBnb29nbGV0YWcuZW5hYmxlU2VydmljZXMoKTtnb29nbGV0YWcucHViYWRzKCkuc2V0VGFyZ2V0aW5nKCJlbnZpcm9ubWVudCIsInByb2R1Y3Rpb24iKTsNCmdvb2dsZXRhZy5wdWJhZHMoKS5zZXRUYXJnZXRpbmcoImFydGljbGV0eXBlIiwiTmV3cyAmIEFuYWx5c2lzIik7DQpkAgIPFgIfAAVAIGdwdFNsb3RzLnB1c2goc2xvdDEsIHNsb3QyLCBzbG90Mywgc2xvdDQsIHNsb3Q1LCBzbG90Niwgc2xvdDcpO2QCIg8WAh8ABYYBDQo8bGluayByZWw9ImNhbm9uaWNhbCIgaHJlZj0iaHR0cHM6Ly93d3cudGhlcGFybGlhbWVudG1hZ2F6aW5lLmV1L25ld3MvYXJ0aWNsZS9wb3Jvc2hlbmtvLWJyZXhpdC13b250LXByZXZlbnQtZXV1a3JhaW5lLXZpc2EtZGVhbCIgLz5kAiMPFgIfAAWlBw0KPG1ldGEgcHJvcGVydHk9Im9nOnNpdGVfbmFtZSIgY29udGVudD0iVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiIC8+DQo8bWV0YSBwcm9wZXJ0eT0ib2c6bG9jYWxlIiBjb250ZW50PSJlbl9HQiIgLz4NCjxtZXRhIHByb3BlcnR5PSJvZzp0aXRsZSIgY29udGVudD0iUG9yb3NoZW5rbzogQnJleGl0IHdvbid0IHByZXZlbnQgRVUtVWtyYWluZSB2aXNhIGRlYWwiIC8+DQo8bWV0YSBwcm9wZXJ0eT0ib2c6ZGVzY3JpcHRpb24iIGNvbnRlbnQ9IlVrcmFpbmlhbiBQcmVzaWRlbnQgUGV0cm8gUG9yb3NoZW5rbyBoYXMgd2FybmVkIHRoYXQgdGhlIEJyZXhpdCByZXN1bHQgY291bGQgY2F1c2UgJ2RlbGF5cycgaW4gdGhlIGludHJvZHVjdGlvbiBvZiB2aXNhIGZyZWUgdHJhdmVsIGJldHdlZW4gdGhlIEVVIC4uLiIgLz4NCjxtZXRhIHByb3BlcnR5PSJvZzp1cmwiIGNvbnRlbnQ9Imh0dHBzOi8vd3d3LnRoZXBhcmxpYW1lbnRtYWdhemluZS5ldS9uZXdzL2FydGljbGUvcG9yb3NoZW5rby1icmV4aXQtd29udC1wcmV2ZW50LWV1dWtyYWluZS12aXNhLWRlYWwiIC8+DQo8bWV0YSBwcm9wZXJ0eT0ib2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHBzOi8vd3d3LnRoZXBhcmxpYW1lbnRtYWdhemluZS5ldS9zaXRlaW1nL3NoYXJlL3VnYy0xL2Z1bGxuZXdzL25ld3MvMTg4MjIvMTgwMDRfb3JpZ2luYWwuanBnIiAvPg0KPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlOnR5cGUiIGNvbnRlbnQ9ImltYWdlL2pwZWciIC8+DQo8bWV0YSBwcm9wZXJ0eT0ib2c6dHlwZSIgY29udGVudD0iYXJ0aWNsZSIgLz4NCjxtZXRhIHByb3BlcnR5PSJhcnRpY2xlOnB1Ymxpc2hlZF90aW1lIiBjb250ZW50PSIyMDIwLTA2LTI5IDE1OjIwOjM2IiAvPg0KPG1ldGEgcHJvcGVydHk9ImFydGljbGU6bW9kaWZpZWRfdGltZSIgY29udGVudD0iMjAyMC0wNi0yOSAxNToyMDozNiIgLz4NCmQCJA8WAh4HY29udGVudAWZAVVrcmFpbmlhbiBQcmVzaWRlbnQgUGV0cm8gUG9yb3NoZW5rbyBoYXMgd2FybmVkIHRoYXQgdGhlIEJyZXhpdCByZXN1bHQgY291bGQgY2F1c2UgImRlbGF5cyIgaW4gdGhlIGludHJvZHVjdGlvbiBvZiB2aXNhIGZyZWUgdHJhdmVsIGJldHdlZW4gdGhlIEVVIGFuZC4uLmQCAhBkZBYGAgEPZBYCZg9kFgwCAQ9kFgICAQ8WAh8ABcUBPCEtLSAvMTA0ODE2Mi9wbS9uZXdzLWFydGljbGVfaGVhZGVyIC0tPgo8ZGl2IGlkPSdkaXYtZ3B0LWFkLTE2MDgyMzAwMTM4OTAtMCc+CiAgPHNjcmlwdD4KICAgIGdvb2dsZXRhZy5jbWQucHVzaChmdW5jdGlvbigpIHsgZ29vZ2xldGFnLmRpc3BsYXkoJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC0wJyk7IH0pOwogIDwvc2NyaXB0Pgo8L2Rpdj5kAgMPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgJmDxYCHwAF8gI8ZGl2IGNsYXNzPSJwcm9tby10ZXh0Ij4NCiAgIDxwIGNsYXNzPSJvc3dhbGQiPlN1YnNjcmliZSB0byBUaGUgUGFybGlhbWVudDwvcD4NCiAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnRwZ3JvdXBzaG9wLmNvbS9zdG9yZS9wcm9kdWN0cyx0aGUtcGFybGlhbWVudF8yMS5odG0iIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iYnRuIGJ0bi0tZGFyayBidG4tLXhzbWFsbCIgPlN1YnNjcmliZSBub3c8L2E+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9InByb21vLWltZyI+DQogIDxpbWcgYWx0PSJTdWJzY3JpYmUgbm93IiBzcmM9Ii91Z2MtMS91cGxvYWRzL3BhZ2VibG9ja3MvODE5NS8wZmE4ZjcxN2JlMzZjOTU1Y2Y2OThiZDQ1ZjI5ZDkwNC5wbmciPg0KPC9kaXY+ZAIFDxYCHwAF8Q08dWw+PGxpPjxhIGhyZWY9Ii9haS10aGUtZXUuaHRtIiB0aXRsZT0iQUkgJmFtcDsgdGhlIEVVIj48c3Bhbj5UaGUgYWdlIG9mIEFJPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvZXUtaW5zdGl0dXRpb25zLmh0bSIgdGl0bGU9IkVVIEluc3RpdHV0aW9ucyI+PHNwYW4+RVUgSW5zdGl0dXRpb25zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvZm9yZWlnbi1hbmQtc2VjdXJpdHktcG9saWN5Lmh0bSIgdGl0bGU9IkZvcmVpZ24gJmFtcDsgU2VjdXJpdHkgUG9saWN5Ij48c3Bhbj5Gb3JlaWduICYgU2VjdXJpdHkgUG9saWN5PC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvZWNvbm9taWNzLmh0bSIgdGl0bGU9IkVjb25vbWljcyI+PHNwYW4+RWNvbm9taWNzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvdGVjaG5vbG9neS5odG0iIHRpdGxlPSJUZWNobm9sb2d5Ij48c3Bhbj5UZWNobm9sb2d5PC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvZW5lcmd5LWFuZC1lbnZpcm9ubWVudC5odG0iIHRpdGxlPSJFbmVyZ3kgJmFtcDsgRW52aXJvbm1lbnQiPjxzcGFuPkVuZXJneSAmIEVudmlyb25tZW50PC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvY3VsdHVyZS1hbmQtYXJ0cy5odG0iIHRpdGxlPSJDdWx0dXJlICZhbXA7IEFydHMiPjxzcGFuPkN1bHR1cmUgJiBBcnRzPC9zcGFuPjwvYT48L2xpPjxsaSBjbGFzcz0ibmF2RGlzYWJsZUNsaWNrIG5hdk1vYlRvZ2dsZSBsaUhhc0NoaWxkcmVuIj48YSBocmVmPSIvbW9yZS5odG0iIHRpdGxlPSJNb3JlIj48c3Bhbj5Nb3JlPC9zcGFuPjwvYT48dWw+PGxpPjxhIGhyZWY9Ii9tb3JlL2Fib3V0LXVzLmh0bSIgdGl0bGU9IkFib3V0IFRoZSBQYXJsaWFtZW50IE1hZ2F6aW5lICB8IFRoZSBQYXJsaWFtZW50IE1hZ2F6aW5lIj48c3Bhbj5BYm91dDwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21hZ2F6aW5lLmh0bSIgdGl0bGU9IlByaW50IG1hZ2F6aW5lIj48c3Bhbj5QcmludCBtYWdhemluZTwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21vcmUvbmV3c2xldHRlci1yZWdpc3RyYXRpb24uaHRtIiB0aXRsZT0iTmV3c2xldHRlcnMgJmFtcDsgUmVnaXN0cmF0aW9uICB8IFRoZSBQYXJsaWFtZW50IE1hZ2F6aW5lIj48c3Bhbj5OZXdzbGV0dGVyPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwczovL2V2ZW50cy50aGVwYXJsaWFtZW50bWFnYXppbmUuZXUvIiB0aXRsZT0iRXZlbnRzIj48c3Bhbj5FdmVudHM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9tb3JlL3RyYWluaW5nLmh0bSIgdGl0bGU9IlByb2Zlc3Npb25hbCBEZXZlbG9wbWVudCBUcmFpbmluZyI+PHNwYW4+VHJhaW5pbmc8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9tb3JlL2NvbW1lcmNpYWwtb3Bwb3J0dW5pdGllcy5odG0iIHRpdGxlPSJDb21tZXJjaWFsIE9wcG9ydHVuaXRpZXMgIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPkNvbW1lcmNpYWwgT3Bwb3J0dW5pdGllczwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21lbWJlcnMvZGlyZWN0b3J5Lmh0bSIgdGl0bGU9Ik1lbWJlcnMgRGlyZWN0b3J5Ij48c3Bhbj5NZW1iZXJzIERpcmVjdG9yeTwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21vcmUvZWRpdG9yaWFsLWNhbGVuZGFyLmh0bSIgdGl0bGU9IkVkaXRvcmlhbCBDYWxlbmRhciB8IFRoZSBQYXJsaWFtZW50IE1hZ2F6aW5lIj48c3Bhbj5FZGl0b3JpYWwgQ2FsZW5kYXI8L3NwYW4+PC9hPjwvbGk+PC91bD48L2xpPjwvdWw+ZAIHDxYCHgdWaXNpYmxlZxYCAgEPFgIfAAXzAzx1bD48bGkgY2xhc3M9Im5vU3ViIj48YSBocmVmPSIvbmV3cy5odG0iIHRpdGxlPSJOZXdzIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPk5ld3MgYW5hbHlzaXM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9mZWF0dXJlcy5odG0iIHRpdGxlPSJGZWF0dXJlcyI+PHNwYW4+RmVhdHVyZTwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL3EtYS5odG0iIHRpdGxlPSJRK0EiPjxzcGFuPlErQTwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL29waW5pb24uaHRtIiB0aXRsZT0iT3BpbmlvbiB8IFRoZSBQYXJsaWFtZW50IE1hZ2F6aW5lIj48c3Bhbj5PcGluaW9uPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvbW9yZS9uZXdzbGV0dGVyLXJlZ2lzdHJhdGlvbi5odG0iIHRpdGxlPSJOZXdzbGV0dGVycyAmYW1wOyBSZWdpc3RyYXRpb24gIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPk5ld3NsZXR0ZXI8L3NwYW4+PC9hPjwvbGk+PC91bD5kAgkPFgIfAAXxDTx1bD48bGk+PGEgaHJlZj0iL2FpLXRoZS1ldS5odG0iIHRpdGxlPSJBSSAmYW1wOyB0aGUgRVUiPjxzcGFuPlRoZSBhZ2Ugb2YgQUk8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9ldS1pbnN0aXR1dGlvbnMuaHRtIiB0aXRsZT0iRVUgSW5zdGl0dXRpb25zIj48c3Bhbj5FVSBJbnN0aXR1dGlvbnM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9mb3JlaWduLWFuZC1zZWN1cml0eS1wb2xpY3kuaHRtIiB0aXRsZT0iRm9yZWlnbiAmYW1wOyBTZWN1cml0eSBQb2xpY3kiPjxzcGFuPkZvcmVpZ24gJiBTZWN1cml0eSBQb2xpY3k8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lY29ub21pY3MuaHRtIiB0aXRsZT0iRWNvbm9taWNzIj48c3Bhbj5FY29ub21pY3M8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii90ZWNobm9sb2d5Lmh0bSIgdGl0bGU9IlRlY2hub2xvZ3kiPjxzcGFuPlRlY2hub2xvZ3k8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbmVyZ3ktYW5kLWVudmlyb25tZW50Lmh0bSIgdGl0bGU9IkVuZXJneSAmYW1wOyBFbnZpcm9ubWVudCI+PHNwYW4+RW5lcmd5ICYgRW52aXJvbm1lbnQ8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9jdWx0dXJlLWFuZC1hcnRzLmh0bSIgdGl0bGU9IkN1bHR1cmUgJmFtcDsgQXJ0cyI+PHNwYW4+Q3VsdHVyZSAmIEFydHM8L3NwYW4+PC9hPjwvbGk+PGxpIGNsYXNzPSJuYXZEaXNhYmxlQ2xpY2sgbmF2TW9iVG9nZ2xlIGxpSGFzQ2hpbGRyZW4iPjxhIGhyZWY9Ii9tb3JlLmh0bSIgdGl0bGU9Ik1vcmUiPjxzcGFuPk1vcmU8L3NwYW4+PC9hPjx1bD48bGk+PGEgaHJlZj0iL21vcmUvYWJvdXQtdXMuaHRtIiB0aXRsZT0iQWJvdXQgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUgIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPkFib3V0PC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvbWFnYXppbmUuaHRtIiB0aXRsZT0iUHJpbnQgbWFnYXppbmUiPjxzcGFuPlByaW50IG1hZ2F6aW5lPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvbW9yZS9uZXdzbGV0dGVyLXJlZ2lzdHJhdGlvbi5odG0iIHRpdGxlPSJOZXdzbGV0dGVycyAmYW1wOyBSZWdpc3RyYXRpb24gIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPk5ld3NsZXR0ZXI8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHBzOi8vZXZlbnRzLnRoZXBhcmxpYW1lbnRtYWdhemluZS5ldS8iIHRpdGxlPSJFdmVudHMiPjxzcGFuPkV2ZW50czwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21vcmUvdHJhaW5pbmcuaHRtIiB0aXRsZT0iUHJvZmVzc2lvbmFsIERldmVsb3BtZW50IFRyYWluaW5nIj48c3Bhbj5UcmFpbmluZzwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iL21vcmUvY29tbWVyY2lhbC1vcHBvcnR1bml0aWVzLmh0bSIgdGl0bGU9IkNvbW1lcmNpYWwgT3Bwb3J0dW5pdGllcyAgfCBUaGUgUGFybGlhbWVudCBNYWdhemluZSI+PHNwYW4+Q29tbWVyY2lhbCBPcHBvcnR1bml0aWVzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvbWVtYmVycy9kaXJlY3RvcnkuaHRtIiB0aXRsZT0iTWVtYmVycyBEaXJlY3RvcnkiPjxzcGFuPk1lbWJlcnMgRGlyZWN0b3J5PC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSIvbW9yZS9lZGl0b3JpYWwtY2FsZW5kYXIuaHRtIiB0aXRsZT0iRWRpdG9yaWFsIENhbGVuZGFyIHwgVGhlIFBhcmxpYW1lbnQgTWFnYXppbmUiPjxzcGFuPkVkaXRvcmlhbCBDYWxlbmRhcjwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PC91bD5kAgsPZBYCAgEPD2QWAh4LcGxhY2Vob2xkZXIFD0VudGVyIGtleXdvcmQvc2QCAw9kFgICAw9kFgJmD2QWAgICD2QWAmYPZBYKZg9kFgJmDxYCHwAF0wENCjxzY3JpcHQ+DQogICB3aW5kb3cuZGF0YUxheWVyID0gd2luZG93LmRhdGFMYXllciB8fCBbXTsNCiAgIHdpbmRvdy5kYXRhTGF5ZXIucHVzaCh7DQogICAgICAgIkFydGljbGVUeXBlIjpbeyJuYW1lIjoiTmV3cyAmIEFuYWx5c2lzIiwgImlkIiA6MX1dLA0KICAgICAgICJDYXRlZ29yeSI6W10sDQogICAgICAgIlRhZ2dpbmciOltdDQogICB9KTsNCjwvc2NyaXB0Pg0KZAICD2QWAmYPFgIfAAXDCjxkaXYgY2xhc3M9ImF2LXRpdGxlIj4NCiAgICA8aDE+UG9yb3NoZW5rbzogQnJleGl0IHdvbid0IHByZXZlbnQgRVUtVWtyYWluZSB2aXNhIGRlYWw8L2gxPg0KICAgPGRpdiBjbGFzcz0iYXYtc3RhbmRGaXJzdCBwbGF5ZmFpciI+VWtyYWluaWFuIFByZXNpZGVudCBQZXRybyBQb3Jvc2hlbmtvIGhhcyB3YXJuZWQgdGhhdCB0aGUgQnJleGl0IHJlc3VsdCBjb3VsZCBjYXVzZSAiZGVsYXlzIiBpbiB0aGUgaW50cm9kdWN0aW9uIG9mIHZpc2EgZnJlZSB0cmF2ZWwgYmV0d2VlbiB0aGUgRVUgYW5kIFVrcmFpbmUuPC9kaXY+IA0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9ImF2LWltYWdlIj4NCiAgICA8ZGl2IGNsYXNzPSJhdi1tYWluLWltZyI+DQogICAgICAgIDxpbWcgY2xhc3M9Imxhenlsb2FkIiBkYXRhLXNyYz0iL3NpdGVpbWcvbmV3cy1tYWluL3VnYy0xL2Z1bGxuZXdzL25ld3MvMTg4MjIvMTgwMDRfb3JpZ2luYWwuanBnIj4NCiAgICA8L2Rpdj4NCiAgICA8ZGl2IGNsYXNzPSJpbWctY2FwdGlvbiI+PHA+PHN0cm9uZz5Va3JhaW5pYW4gUHJlc2lkZW50IFBldHJvIFBvcm9zaGVua28mbmJzcDthbmQgRXVyb3BlYW4gUGFybGlhbWVudCBQcmVzaWRlbnQgTWFydGluIFNjaHVseiB8IDxlbT5QaG90byBjcmVkaXQ6IEV1cm9wZWFuIFBhcmxpYW1lbnQgYXVkaW92aXN1YWw8L2VtPjwvc3Ryb25nPjwvcD4NCg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iYXYtYXV0aG9yIj4NCiAgICA8ZGl2IGNsYXNzPSJhdi1hdXRoSW1nIj4NCiAgICAgICAgIDxhIGhyZWY9Ii9uZXdzL2F1dGhvci9tYXJ0aW4tYmFua3MiPg0KICAgICAgICAgICA8aW1nIGRhdGEtc3JjPSIvc2l0ZWltZy9hdXRob3JpbWcvdWdjLTEvZnVsbG5ld3MvYXV0aG9yLzBfb3JpZ2luYWwuZ2lmIiBjbGFzcz0ibGF6eWxvYWQiIGFsdD0iTWFydGluIEJhbmtzIj4gDQogICAgICAgICA8L2E+DQogICAgPC9kaXY+DQogICAgPGRpdiBjbGFzcz0iYXYtYXV0aEluZm8iPg0KDQogICAgICAgIDxwIGNsYXNzPSJhdi1hdXRoTmFtZSI+DQogICAgICAgICAgIEJ5IA0KICAgICAgICANCiAgICAgICAgICAgPGEgaHJlZj0iL25ld3MvYXV0aG9yL21hcnRpbi1iYW5rcyI+TWFydGluIEJhbmtzPC9hPg0KICAgICAgICANCiAgICAgICAgDQogICAgICAgIDwvcD4NCg0KDQoNCjxwIGNsYXNzPSJhdi1hdXRoQmlvIj5NYXJ0aW4gQmFua3MgaXMgYSBzZW5pb3IgcmVwb3J0ZXIgYXQgdGhlIFBhcmxpYW1lbnQgTWFnYXppbmU8L3A+DQoNCiAgICAgICAgPHAgY2xhc3M9ImF2LWRhdGUiPjI5IEp1biAyMDE2PC9wPg0KDQoNCg0KICAgIDwvZGl2Pg0KDQoNCg0KPC9kaXY+DQoNCg0KPGRpdiBjbGFzcz0iYXYtbWFpbiI+DQoNCmQCBA8WAh8ABe8lPGRpdiBjbGFzcz0iYXYtc2hhcmUtYm90dG9tIGNsZWFyRml4IHNoYXJlLWJ1dHRvbnMtd3JhcCI+DQogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJpY29uIGljb24tLXJpZ2h0LWFycm93Ij5TaGFyZSB0aGlzIHBhZ2U8L3NwYW4+DQoNCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic2hhcmUtYnV0dG9ucyI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ic2hhcmUtYnV0dG9uLWl0ZW0gc2hhcmUtYnV0dG9uLWl0ZW0tLXR3aXR0ZXIiDQogICAgICAgICAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8veC5jb20vaW50ZW50L3R3ZWV0P3RleHQ9UG9yb3NoZW5rbyUzYStCcmV4aXQrd29uJTI3dCtwcmV2ZW50K0VVLVVrcmFpbmUrdmlzYStkZWFsJmFtcDt1cmw9aHR0cHM6Ly93d3cudGhlcGFybGlhbWVudG1hZ2F6aW5lLmV1JTJmbmV3cyUyZmFydGljbGUlMmZwb3Jvc2hlbmtvLWJyZXhpdC13b250LXByZXZlbnQtZXV1a3JhaW5lLXZpc2EtZGVhbCIgdGFyZ2V0PSJfYmxhbmsiDQogICAgICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIiIGFyaWEtbGFiZWw9IiI+DQogICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAxNCAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIiPjxwYXRoIGQ9Ik0xMS4wMjYgMGgyLjE0Nkw4LjQ4MyA1LjA4MyAxNCAxMkg5LjY4TDYuMjk2IDcuODA1IDIuNDI1IDEySC4yNzZsNS4wMTctNS40MzdMMCAwaDQuNDNsMy4wNTggMy44MzRMMTEuMDI2IDBabS0uNzU0IDEwLjc4MWgxLjE5TDMuNzgzIDEuMTU1SDIuNTA3bDcuNzY1IDkuNjI2WiIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6bm9uemVybyIvPjwvc3ZnPg0KICAgICAgICAgICAgICAgIDwvYT4NCjxhIGNsYXNzPSJzaGFyZS1idXR0b24taXRlbSBzaGFyZS1idXR0b24taXRlbS0td2hhdHNhcHAiDQogICAgICAgICAgICAgICAgICAgIGhyZWY9IndoYXRzYXBwOi8vc2VuZD90ZXh0PVBvcm9zaGVua28lM2ErQnJleGl0K3dvbiUyN3QrcHJldmVudCtFVS1Va3JhaW5lK3Zpc2ErZGVhbCUyMGh0dHBzOi8vd3d3LnRoZXBhcmxpYW1lbnRtYWdhemluZS5ldSUyZm5ld3MlMmZhcnRpY2xlJTJmcG9yb3NoZW5rby1icmV4aXQtd29udC1wcmV2ZW50LWV1dWtyYWluZS12aXNhLWRlYWwiIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIg0KICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSIiPg0KICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZD0iTTIwLjEgMy45QzE3LjkgMS43IDE1IC41IDEyIC41IDUuOC41LjcgNS42LjcgMTEuOWMwIDIgLjUgMy45IDEuNSA1LjZMLjYgMjMuNGw2LTEuNmMxLjYuOSAzLjUgMS4zIDUuNCAxLjMgNi4zIDAgMTEuNC01LjEgMTEuNC0xMS40LS4xLTIuOC0xLjItNS43LTMuMy03Ljh6TTEyIDIxLjRjLTEuNyAwLTMuMy0uNS00LjgtMS4zbC0uNC0uMi0zLjUgMSAxLTMuNEw0IDE3Yy0xLTEuNS0xLjQtMy4yLTEuNC01LjEgMC01LjIgNC4yLTkuNCA5LjQtOS40IDIuNSAwIDQuOSAxIDYuNyAyLjggMS44IDEuOCAyLjggNC4yIDIuOCA2LjctLjEgNS4yLTQuMyA5LjQtOS41IDkuNHptNS4xLTcuMWMtLjMtLjEtMS43LS45LTEuOS0xLS4zLS4xLS41LS4xLS43LjEtLjIuMy0uOCAxLS45IDEuMS0uMi4yLS4zLjItLjYuMXMtMS4yLS41LTIuMy0xLjRjLS45LS44LTEuNC0xLjctMS42LTItLjItLjMgMC0uNS4xLS42cy4zLS4zLjQtLjVjLjItLjEuMy0uMy40LS41LjEtLjIgMC0uNCAwLS41QzEwIDkgOS4zIDcuNiA5IDdjLS4xLS40LS40LS4zLS41LS4zaC0uNnMtLjQuMS0uNy4zYy0uMy4zLTEgMS0xIDIuNHMxIDIuOCAxLjEgM2MuMS4yIDIgMy4xIDQuOSA0LjMuNy4zIDEuMi41IDEuNi42LjcuMiAxLjMuMiAxLjguMS42LS4xIDEuNy0uNyAxLjktMS4zLjItLjcuMi0xLjIuMi0xLjMtLjEtLjMtLjMtLjQtLjYtLjV6IiAvPg0KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICA8L2E+DQo8YSBjbGFzcz0ic2hhcmUtYnV0dG9uLWl0ZW0gc2hhcmUtYnV0dG9uLWl0ZW0tLWxpbmtlZGluIg0KICAgICAgICAgICAgICAgICAgICBocmVmPSJodHRwczovL3d3dy5saW5rZWRpbi5jb20vc2hhcmVBcnRpY2xlP21pbmk9dHJ1ZSZhbXA7dXJsPWh0dHBzOi8vd3d3LnRoZXBhcmxpYW1lbnRtYWdhemluZS5ldSUyZm5ld3MlMmZhcnRpY2xlJTJmcG9yb3NoZW5rby1icmV4aXQtd29udC1wcmV2ZW50LWV1dWtyYWluZS12aXNhLWRlYWwmYW1wO3RpdGxlPVBvcm9zaGVua28lM2ErQnJleGl0K3dvbiUyN3QrcHJldmVudCtFVS1Va3JhaW5lK3Zpc2ErZGVhbCZhbXA7c3VtbWFyeT1Qb3Jvc2hlbmtvJTNhK0JyZXhpdCt3b24lMjd0K3ByZXZlbnQrRVUtVWtyYWluZSt2aXNhK2RlYWwmYW1wO3NvdXJjZT1odHRwczovL3d3dy50aGVwYXJsaWFtZW50bWFnYXppbmUuZXUlMmZuZXdzJTJmYXJ0aWNsZSUyZnBvcm9zaGVua28tYnJleGl0LXdvbnQtcHJldmVudC1ldXVrcmFpbmUtdmlzYS1kZWFsIg0KICAgICAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciIgYXJpYS1sYWJlbD0iIj4NCiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQ9Ik02LjUgMjEuNWgtNXYtMTNoNXYxM3pNNCA2LjVDMi41IDYuNSAxLjUgNS4zIDEuNSA0czEtMi40IDIuNS0yLjRjMS42IDAgMi41IDEgMi42IDIuNSAwIDEuNC0xIDIuNS0yLjYgMi41em0xMS41IDZjLTEgMC0yIDEtMiAydjdoLTV2LTEzaDVWMTBzMS42LTEuNSA0LTEuNWMzIDAgNSAyLjIgNSA2LjN2Ni43aC01di03YzAtMS0xLTItMi0yeiIgLz4NCiAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgPC9hPg0KPGEgY2xhc3M9InNoYXJlLWJ1dHRvbi1pdGVtIHNoYXJlLWJ1dHRvbi1pdGVtLS1lbWFpbCINCiAgICAgICAgICAgICAgICAgICAgaHJlZj0ibWFpbHRvOj9zdWJqZWN0PVBvcm9zaGVua28lM2ErQnJleGl0K3dvbiUyN3QrcHJldmVudCtFVS1Va3JhaW5lK3Zpc2ErZGVhbCZhbXA7Ym9keT1odHRwczovL3d3dy50aGVwYXJsaWFtZW50bWFnYXppbmUuZXUlMmZuZXdzJTJmYXJ0aWNsZSUyZnBvcm9zaGVua28tYnJleGl0LXdvbnQtcHJldmVudC1ldXVrcmFpbmUtdmlzYS1kZWFsIiB0YXJnZXQ9Il9zZWxmIiByZWw9Im5vb3BlbmVyIg0KICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSIiPg0KICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZD0iTTIyIDRIMkMuOSA0IDAgNC45IDAgNnYxMmMwIDEuMS45IDIgMiAyaDIwYzEuMSAwIDItLjkgMi0yVjZjMC0xLjEtLjktMi0yLTJ6TTcuMjUgMTQuNDNsLTMuNSAyYy0uMDguMDUtLjE3LjA3LS4yNS4wNy0uMTcgMC0uMzQtLjEtLjQzLS4yNS0uMTQtLjI0LS4wNi0uNTUuMTgtLjY4bDMuNS0yYy4yNC0uMTQuNTUtLjA2LjY4LjE4LjE0LjI0LjA2LjU1LS4xOC42OHptNC43NS4wN2MtLjEgMC0uMi0uMDMtLjI3LS4wOGwtOC41LTUuNWMtLjIzLS4xNS0uMy0uNDYtLjE1LS43LjE1LS4yMi40Ni0uMy43LS4xNEwxMiAxMy40bDguMjMtNS4zMmMuMjMtLjE1LjU0LS4wOC43LjE1LjE0LjIzLjA3LjU0LS4xNi43bC04LjUgNS41Yy0uMDguMDQtLjE3LjA3LS4yNy4wN3ptOC45MyAxLjc1Yy0uMS4xNi0uMjYuMjUtLjQzLjI1LS4wOCAwLS4xNy0uMDItLjI1LS4wN2wtMy41LTJjLS4yNC0uMTMtLjMyLS40NC0uMTgtLjY4cy40NC0uMzIuNjgtLjE4bDMuNSAyYy4yNC4xMy4zMi40NC4xOC42OHoiIC8+DQogICAgICAgICAgICAgICAgICAgIDwvc3ZnPg0KICAgICAgICAgICAgICAgIDwvYT4NCjxhIGNsYXNzPSJzaGFyZS1idXR0b24taXRlbSBzaGFyZS1idXR0b24taXRlbS0tZmFjZWJvb2siDQogICAgICAgICAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8vZmFjZWJvb2suY29tL3NoYXJlci9zaGFyZXIucGhwP3U9aHR0cHM6Ly93d3cudGhlcGFybGlhbWVudG1hZ2F6aW5lLmV1JTJmbmV3cyUyZmFydGljbGUlMmZwb3Jvc2hlbmtvLWJyZXhpdC13b250LXByZXZlbnQtZXV1a3JhaW5lLXZpc2EtZGVhbCIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiDQogICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9IiI+DQogICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggIGQ9Ik0xOC43NyA3LjQ2SDE0LjV2LTEuOWMwLS45LjYtMS4xIDEtMS4xaDNWLjVoLTQuMzNDMTAuMjQuNSA5LjUgMy40NCA5LjUgNS4zMnYyLjE1aC0zdjRoM3YxMmg1di0xMmgzLjg1bC40Mi00eiIgLz4NCiAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8L2Rpdj5kAgUPFgIfAAXeFjxociAvPg0KPHA+SGUgd2FzIHNwZWFraW5nIGFmdGVyIGEgbWluaSBzdW1taXQgYmV0d2VlbiB0aGUgdHdvIHNpZGVzIGluIEJydXNzZWxzIG9uIE1vbmRheS48L3A+DQoNCjxwPkFmdGVyIHRoZSBpbmZvcm1hbCB0YWxrcywgUG9yb3NoZW5rbyBzYWlkLCAiV2UgaGF2ZSBkaXNjdXNzZWQgYSBzZXJpZXMgb2YgaW1wb3J0YW50IGlzc3VlcyBhbmQgY29vcmRpbmF0ZWQgb3VyIGFjdGlvbnMgb24gdGhlIHZpc2EtZnJlZSByZWdpbWUuIFdlIGV4cGVjdCBmb3JtYWwgcHJvY2VkdXJlcyB0byBiZSBjb21wbGV0ZWQgYnkgc3VtbWVyIGhvbGlkYXlzIGluIHRoZSBVa3JhaW5lIFBhcmxpYW1lbnQuIjwvcD4NCg0KPHA+QWNjb3JkaW5nIHRvIFBvcm9zaGVua28sIHRoZXJlIGFyZSBubyBvYnN0YWNsZXMgZm9yIHRoZSBjb250aW51YXRpb24gb2Ygd29yayBhaW1lZCBhdCB0aGUgaW50cm9kdWN0aW9uIG9mIHRoZSB2aXNhLWZyZWUgcmVnaW1lLjwvcD4NCg0KDQo8cD4iSSBzZWUgbm8gZGlmZmljdWx0aWVzLiBUaGVyZSBhcmUgb2JqZWN0aXZlIGRpZmZpY3VsdGllcyBjYXVzZWQgYnkgQnJleGl0LCBidXQgdGhleSB3aWxsIGxlYWQgb25seSB0byBwb3N0cG9uZW1lbnQgZm9yIGRheXMsIHBlcmhhcHMgd2Vla3MsIiBoZSBub3RlZC48L3A+DQoNCjxwPkFsc28gdGFraW5nIHBhcnQgaW4gdGhlIG9uZSBkYXkgdGFsa3Mgd2VyZSB0aGUgUHJlc2lkZW50IG9mIHRoZSBFdXJvcGVhbiBDb3VuY2lsIERvbmFsZCBUdXNrLCBQcmVzaWRlbnQgb2YgdGhlIEV1cm9wZWFuIENvbW1pc3Npb24gSmVhbi1DbGF1ZGUgSnVuY2tlciBhbmQgUHJlc2lkZW50IG9mIHRoZSBFdXJvcGVhbiBQYXJsaWFtZW50IE1hcnRpbiBTY2h1bHouJm5ic3A7PC9wPg0KDQo8cD5UaGUgdHdvIHNpZGVzIG1vc3RseSBkaXNjdXNzZWQgdGhlIGFib2xpdGlvbiBvZiB0aGUgdmlzYSByZWdpbWUgd2l0aCB0aGUgU2NoZW5nZW4gY291bnRyaWVzIGZvciBVa3JhaW5pYW4gY2l0aXplbnMuPC9wPg0KDQo8cD5IZSBzYWlkIHRoZSBwYXJ0aWVzIGFsc28gcmVhY2hlZCBhbiBhZ3JlZW1lbnQgb24gdGhlIHByb3Zpc2lvbiBvZiBtYWNyby1maW5hbmNpYWwgYWlkIHRvIFVrcmFpbmUgYW5kIHdhcyBob3BlZnVsIHRoYXQgdGhlIGdpdmVuIGlzc3VlIHdvdWxkIGJlIHJlc29sdmVkIHNob3J0bHkuPC9wPg0KDQo8cD4iQWZ0ZXIgdGhlIElNRiBtYWtlcyBhIGRlY2lzaW9uIHRvIGFsbG9jYXRlIGFub3RoZXIgdHJhbmNoZSB0byBVa3JhaW5lLCB0aGUgRVUgd2lsbCBwcm92aWRlIG1hY3JvLWZpbmFuY2lhbCBhaWQgdG8gVWtyYWluZSB0b2dldGhlciB3aXRoIGxvYW4gZ3VhcmFudGVlcyBmcm9tIHRoZSBVbml0ZWQgU3RhdGVzLCIgUG9yb3NoZW5rbyBzYWlkLjwvcD4NCg0KPHA+QWNjb3JkaW5nIHRvIHRoZSBVa3JhaW5pYW4gUHJlc2lkZW50LCB0aGUgRVUgbGVhZGVyc2hpcCBoYXMgcHJhaXNlZCB0aGUgZWZmb3J0cyBvZiB0aGUgVWtyYWluaWFuIGF1dGhvcml0aWVzIGFpbWVkIGF0IHRoZSBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgY29uc3RpdHV0aW9uYWwgcmVmb3JtLCBhbnRpLWNvcnJ1cHRpb24gbGVnaXNsYXRpb24sIGRlcmVndWxhdGlvbiByZWZvcm0gYW5kIGVsZWN0aW9uIG9mIG5ldyBQcm9zZWN1dG9yIEdlbmVyYWwuPC9wPg0KDQo8cD4iVGhlIG1lZXRpbmcgd2FzIGhlbGQgaW4gYSBmcmllbmRseSBhdG1vc3BoZXJlIGFuZCB3ZSBhcmUgZ3JhdGVmdWwgZm9yIGEgY29uc2lzdGVudCBhbmQgZmlybSBwb3NpdGlvbiBvZiBvdXIgRXVyb3BlYW4gcGFydG5lcnMgaW4gc3VjaCBhIGRpZmZpY3VsdCB0aW1lIGZvciBib3RoIFVrcmFpbmUgYW5kIHRoZSBFVSwiIGhlIHNhaWQuPC9wPg0KDQo8cD5Qb3Jvc2hlbmtvIGFsc28gaGFkIGEgc2VwYXJhdGUgbWVldGluZyB3aXRoIFNjaHVsei48L3A+DQoNCjxwPlRoZSBwYXJ0aWVzIHNoYXJlZCB2aWV3cyByZWdhcmRpbmcgdGhlIHJlc3VsdHMgb2YgdGhlIFVLIHJlZmVyZW5kdW0gb24gRVUgbWVtYmVyc2hpcCBhbmQgaXRzIGluZmx1ZW5jZSBvbiBVa3JhaW5lLUVVIHJlbGF0aW9ucy48L3A+DQoNCjxwPlBvcm9zaGVua28gZXhwcmVzc2VkIGhvcGUgdGhhdCBjdXJyZW50IGludGVybmFsIGRpZmZpY3VsdGllcyB3b3VsZCBub3QgZm9jdXMgdGhlIEVVJ3MgYXR0ZW50aW9uIHNvbGVseSBvbiBpdHMgb3duIHByb2JsZW1zLiZuYnNwOzwvcD4NCg0KPHA+SGUgd2FzIGhvcGVmdWwgdGhleSB3b3VsZCBiZWNvbWUgYSAic3RpbXVsdXMiIGZvciB0aGUgc2VhcmNoIGZvciBuZXcgc3VjY2Vzc2Z1bCBFdXJvcGVhbiBpbnRlZ3JhdGlvbiBwcm9qZWN0cy4mbmJzcDs8L3A+DQoNCjxwPiJBbmQgVWtyYWluZSBjYW4gYmVjb21lIHN1Y2ggYSBwcm9qZWN0LCIgaGUgc2FpZC48L3A+DQoNCjxwPlNjaHVseiBzYWlkIHRoYXQgdGhlIGludGVybmFsIHByb2NlZHVyZXMgcmVsYXRlZCB0byB0aGUgVUsgbGVhdmluZyB0aGUgRVUgd291bGQgbm90IGFmZmVjdCByZWFkaW5lc3Mgb2YgdGhlIEV1cm9wZWFuIFBhcmxpYW1lbnQgdG8gaW50cm9kdWNlIHRoZSB2aXNhLWZyZWUgcmVnaW1lIGZvciBVa3JhaW5pYW4gY2l0aXplbnMuPC9wPg0KDQo8cD4mbmJzcDs8L3A+DQo8ZGl2IGNsYXNzPSJtaWRhcnRpY2xlLWFkcyI+DQo8IS0tLS0tLS0tLS0tLS0tLS0tIFNjcm9sbEFkIFRhZyAtLS0tLS0tLS0tLS0tLS0tLT4gPGRpdiBpZD0iYWRzdWl0ZVNjcm9sbEFkIj48L2Rpdj4NCjxkaXYgY2xhc3M9ImNvbC0tYWQgY29sLS1hZC1pbkFydGljbGUiPg0KPGRpdiBpZD0nZGl2LWdwdC1hZC0xNjA4MjMwMDEzODkwLTUnPg0KICA8c2NyaXB0Pg0KICAgIGdvb2dsZXRhZy5jbWQucHVzaChmdW5jdGlvbigpIHsgZ29vZ2xldGFnLmRpc3BsYXkoJ2Rpdi1ncHQtYWQtMTYwODIzMDAxMzg5MC01Jyk7IH0pOw0KICA8L3NjcmlwdD4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCmQCCg8WAh8AZWQCBQ9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg8WAh8ABb0GPGRpdiBjbGFzcz0iaDMiPkEgbW9udGhseSBtYWdhemluZSBwYWNrZWQgd2l0aCB0aW1lbHkgZmVhdHVyZXMsIG5ld3MgYW5hbHlzZXMgYW5kIG9waW5pb24gYXJ0aWNsZXMgb24gRVUgcG9saWN5LjwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZ0ci1zdWJzIj4NCiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9ImNsZWFyRml4IiBocmVmPSJodHRwczovL3d3dy50cGdyb3Vwc2hvcC5jb20vc3RvcmUvcHJvZHVjdHMsdGhlLXBhcmxpYW1lbnRfMjEuaHRtIiB0YXJnZXQ9Il9ibGFuayI+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmdHJzLWltZyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBjbGFzcz0ibGF6eWxvYWQiIGRhdGEtc3JjPSIvdWdjLTEvdXBsb2Fkcy9wYWdlYmxvY2tzLzgxOTgvNjE5MWQwNzQ0NjU1MGEzZjAwNDZhZjZiZWYyOWFiZjYucG5nIiBhbHQ9IlN1YnNjcmliZSIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmdHJzLXRleHQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+U3Vic2NyaWJlIHRvIFRoZSBQYXJsaWFtZW50PC9zdHJvbmc+PC9wPg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+PHNwYW4gY2xhc3M9ImJ0biBidG4tLXllbGxvdyBidG4tLXhzbWFsbCI+U3Vic2NyaWJlIG5vdzwvc3Bhbj48L3A+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgIDwvZGl2PmRkurmrXUF0Fmb1gg1AXWe3YBH8QFeUQpBC9HmKDVHsf60=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=Z6H9xMIlvyL3CntSP0RUQ2RoiZrPLCPNLqj1SwZk_bp3I663kp8bWldCSTkypXZQ5VmtzuTMW06WuULwL-0MnQDq-PJzyWq4-5wHJgsW2cY1&amp;t=638563308220000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=YH05l78KeK8eaVTwL8OCmqH87AJXyqNFsxb8JSr2dYTx3O90_kf_o6FS1UiSoMyPht7mB9LYkgHwxs-jdGdHETIdCvPQTjTuKYxdazco3-mxkoijuLVKxa-EQzUpHfvY6dKy15qZB2xH7B9LNA56fZ-1J-PcrlL0MXoP-iI98tQ1&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mk5b-_CofLPrVExdUD7Fe-eWGk5yCsU42S2HuBk7P_NWXJxFr7tN5PWSXRbIgU8NtU3vnHY17uqPzRdbJs3O6ISdP63yANjFZJcjpYadBFZjmIATiT6w9srdNRraKhmG2pwem0LYLalC_pYN8agQGh9zhvBE8hIIZ4IIX9Eg-V4Wg1efJTmVm-btScZBxwVY0&amp;t=ffffffffc820c398" type="text/javascript"></script>        
+        
+
+<header>
+    <noscript>
+        <div class="msg msgError nojavascript">
+            <p>
+                This site requires JavaScript for certain functions and interactions to work. Please turn on JavaScript
+                for the best possible experience.</p>
+        </div>
+    </noscript>
+
+    
+        <div class="hdr-ad">
+            <div class="row--ad">
+            <!-- /1048162/pm/news-article_header -->
+<div id='div-gpt-ad-1608230013890-0'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-0'); });
+  </script>
+</div>
+            </div>
+        </div>
+       
+
+    <div class="hdr-top">
+        <!--<div class="hdr-pDods">
+            <a href="http://www.dodsgroup.com/" target="_blank">Part of the DODS Group
+                <span>
+                    <img src="/_img/icons/dods_icon_white.svg"
+                        alt="DODS Group Logo">
+                </span>
+            </a>
+        </div>-->
+        <div class="hdr-topRight">
+            <div  class="hdr-register">
+                <a href="/more/newsletter-registration.htm" class="hdr-reg">Register for our newsletter</a>
+            </div>
+            <div class="burger">
+                <div class="hamburger">
+                    <span></span>
+                </div>
+                <div class="b-label">Menu</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hdr-main">
+        <div class="hdr-social">
+            <a href="http://www.facebook.com/TheParliamentMagazine/" target="_blank" class="icon icon--facebook"></a>
+            <a href="https://x.com/parlimag" target="_blank" class="icon icon--x">
+                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 462.799"><path fill-rule="nonzero" d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/the-parliament-magazine/" target="_blank" class="icon icon--linkedIn"></a>
+            <a href="https://www.instagram.com/theparliamentmagazineeu/" target="_blank" class="icon icon--instagram"></a>
+        </div>
+        <a href="/" class="logo hideText">The Parliament Magazine</a>
+        <div  class="hdr-promo">
+            <div class="promo-text">
+   <p class="oswald">Subscribe to The Parliament</p>
+   <a href="https://www.tpgroupshop.com/store/products,the-parliament_21.htm" target="_blank" class="btn btn--dark btn--xsmall" >Subscribe now</a>
+</div>
+<div class="promo-img">
+  <img alt="Subscribe now" src="/ugc-1/uploads/pageblocks/8195/0fa8f717be36c955cf698bd45f29d904.png">
+</div>
+
+
+        </div>
+    </div>
+
+    <div class="hdr-nav">
+
+        <div class="nav-main">
+            <nav class="menu">
+                <ul><li><a href="/ai-the-eu.htm" title="AI &amp; the EU"><span>The age of AI</span></a></li><li><a href="/eu-institutions.htm" title="EU Institutions"><span>EU Institutions</span></a></li><li><a href="/foreign-and-security-policy.htm" title="Foreign &amp; Security Policy"><span>Foreign & Security Policy</span></a></li><li><a href="/economics.htm" title="Economics"><span>Economics</span></a></li><li><a href="/technology.htm" title="Technology"><span>Technology</span></a></li><li><a href="/energy-and-environment.htm" title="Energy &amp; Environment"><span>Energy & Environment</span></a></li><li><a href="/culture-and-arts.htm" title="Culture &amp; Arts"><span>Culture & Arts</span></a></li><li class="navDisableClick navMobToggle liHasChildren"><a href="/more.htm" title="More"><span>More</span></a><ul><li><a href="/more/about-us.htm" title="About The Parliament Magazine  | The Parliament Magazine"><span>About</span></a></li><li><a href="/magazine.htm" title="Print magazine"><span>Print magazine</span></a></li><li><a href="/more/newsletter-registration.htm" title="Newsletters &amp; Registration  | The Parliament Magazine"><span>Newsletter</span></a></li><li><a href="https://events.theparliamentmagazine.eu/" title="Events"><span>Events</span></a></li><li><a href="/more/training.htm" title="Professional Development Training"><span>Training</span></a></li><li><a href="/more/commercial-opportunities.htm" title="Commercial Opportunities  | The Parliament Magazine"><span>Commercial Opportunities</span></a></li><li><a href="/members/directory.htm" title="Members Directory"><span>Members Directory</span></a></li><li><a href="/more/editorial-calendar.htm" title="Editorial Calendar | The Parliament Magazine"><span>Editorial Calendar</span></a></li></ul></li></ul>
+            </nav>
+            <div class="nav-search icon icon--search"><span>Search</span></div>
+        </div>
+
+        
+            <div class="nav-sub">
+                <nav class="greedy-nav">
+                    <ul><li class="noSub"><a href="/news.htm" title="News | The Parliament Magazine"><span>News analysis</span></a></li><li><a href="/features.htm" title="Features"><span>Feature</span></a></li><li><a href="/q-a.htm" title="Q+A"><span>Q+A</span></a></li><li><a href="/opinion.htm" title="Opinion | The Parliament Magazine"><span>Opinion</span></a></li><li><a href="/more/newsletter-registration.htm" title="Newsletters &amp; Registration  | The Parliament Magazine"><span>Newsletter</span></a></li></ul>
+                    <ul class="hidden-links hidden"></ul>
+                    <div class="gn-more">
+                        <span class="icon icon--minusSlim">More</span>
+                    </div>
+                </nav>
+            </div>
+        
+
+        <div class="nav-bottom">
+            <div class="nav-social">
+                <p>Follow us:</p>
+                <a href="https://x.com/parlimag" target="_blank" class="icon icon--x">
+                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 462.799"><path fill-rule="nonzero" d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/></svg>
+                </a>
+                <a href="https://www.facebook.com/PoliticsHomeUK/" target="_blank" class="icon icon--facebook"></a>
+                <a href="https://www.linkedin.com/company/the-parliament-magazine/" target="_blank" class="icon icon--linkedIn"></a>
+                <a href="https://www.instagram.com/theparliamentmagazineeu/" target="_blank" class="icon icon--instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<div class="sticky-header clearFix">
+    <a class="logo-sticky" href="/">
+        <img src="/_img/logo_the_parliament_white.svg" />
+    </a>
+    <nav class="sticky-nav">
+        <ul><li><a href="/ai-the-eu.htm" title="AI &amp; the EU"><span>The age of AI</span></a></li><li><a href="/eu-institutions.htm" title="EU Institutions"><span>EU Institutions</span></a></li><li><a href="/foreign-and-security-policy.htm" title="Foreign &amp; Security Policy"><span>Foreign & Security Policy</span></a></li><li><a href="/economics.htm" title="Economics"><span>Economics</span></a></li><li><a href="/technology.htm" title="Technology"><span>Technology</span></a></li><li><a href="/energy-and-environment.htm" title="Energy &amp; Environment"><span>Energy & Environment</span></a></li><li><a href="/culture-and-arts.htm" title="Culture &amp; Arts"><span>Culture & Arts</span></a></li><li class="navDisableClick navMobToggle liHasChildren"><a href="/more.htm" title="More"><span>More</span></a><ul><li><a href="/more/about-us.htm" title="About The Parliament Magazine  | The Parliament Magazine"><span>About</span></a></li><li><a href="/magazine.htm" title="Print magazine"><span>Print magazine</span></a></li><li><a href="/more/newsletter-registration.htm" title="Newsletters &amp; Registration  | The Parliament Magazine"><span>Newsletter</span></a></li><li><a href="https://events.theparliamentmagazine.eu/" title="Events"><span>Events</span></a></li><li><a href="/more/training.htm" title="Professional Development Training"><span>Training</span></a></li><li><a href="/more/commercial-opportunities.htm" title="Commercial Opportunities  | The Parliament Magazine"><span>Commercial Opportunities</span></a></li><li><a href="/members/directory.htm" title="Members Directory"><span>Members Directory</span></a></li><li><a href="/more/editorial-calendar.htm" title="Editorial Calendar | The Parliament Magazine"><span>Editorial Calendar</span></a></li></ul></li></ul>
+    </nav>
+    <div class="sticky-srch"></div>
+    <div class="burger">
+        <div class="hamburger">
+            <span></span>
+        </div>
+    </div>
+</div>
+
+<div class="search-overlay">
+    <div id="hdr_pnlSearch" class="hdr-searchBar" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;hdr_btnSearch&#39;)">
+	
+        <input name="ctl00$hdr$txtSearch" type="text" id="hdr_txtSearch" class="text sb-keyword" placeholder="Enter keyword/s" />
+        <input type="submit" name="ctl00$hdr$btnSearch" value="Search" id="hdr_btnSearch" class="btn btn--medium sb-btn" />
+    
+</div>
+    <span class="search-close icon icon--close"></span>
+</div>
+        
+    
+    
+
+<main>
+    <div class="template template--1col ">
+        
+
+
+        
+        <div class="main-content">
+            <div class="container">
+                
+<script>
+   window.dataLayer = window.dataLayer || [];
+   window.dataLayer.push({
+       "ArticleType":[{"name":"News & Analysis", "id" :1}],
+       "Category":[],
+       "Tagging":[]
+   });
+</script>
+
+
+
+
+
+
+<div class="article-view  article-view--legacy">
+    <div class="av-inner">
+        <div class="av-title">
+    <h1>Poroshenko: Brexit won't prevent EU-Ukraine visa deal</h1>
+   <div class="av-standFirst playfair">Ukrainian President Petro Poroshenko has warned that the Brexit result could cause "delays" in the introduction of visa free travel between the EU and Ukraine.</div> 
+</div>
+
+<div class="av-image">
+    <div class="av-main-img">
+        <img class="lazyload" data-src="/siteimg/news-main/ugc-1/fullnews/news/18822/18004_original.jpg">
+    </div>
+    <div class="img-caption"><p><strong>Ukrainian President Petro Poroshenko&nbsp;and European Parliament President Martin Schulz | <em>Photo credit: European Parliament audiovisual</em></strong></p>
+
+</div>
+</div>
+
+<div class="av-author">
+    <div class="av-authImg">
+         <a href="/news/author/martin-banks">
+           <img data-src="/siteimg/authorimg/ugc-1/fullnews/author/0_original.gif" class="lazyload" alt="Martin Banks"> 
+         </a>
+    </div>
+    <div class="av-authInfo">
+
+        <p class="av-authName">
+           By 
+        
+           <a href="/news/author/martin-banks">Martin Banks</a>
+        
+        
+        </p>
+
+
+
+<p class="av-authBio">Martin Banks is a senior reporter at the Parliament Magazine</p>
+
+        <p class="av-date">29 Jun 2016</p>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+<div class="av-main">
+
+
+
+        
+            
+
+            <!-- <div class="av-standFirst playfair">
+                
+            </div> -->
+
+            <div class="av-share-bottom clearFix share-buttons-wrap">
+                    <span class="icon icon--right-arrow">Share this page</span>
+
+                    <div class="share-buttons">
+                        <a class="share-button-item share-button-item--twitter"
+                    href="https://x.com/intent/tweet?text=Poroshenko%3a+Brexit+won%27t+prevent+EU-Ukraine+visa+deal&amp;url=https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal" target="_blank"
+                    rel="noopener" aria-label="">
+                     <svg viewBox="0 0 14 12" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"><path d="M11.026 0h2.146L8.483 5.083 14 12H9.68L6.296 7.805 2.425 12H.276l5.017-5.437L0 0h4.43l3.058 3.834L11.026 0Zm-.754 10.781h1.19L3.783 1.155H2.507l7.765 9.626Z" style="fill:#fff;fill-rule:nonzero"/></svg>
+                </a>
+<a class="share-button-item share-button-item--whatsapp"
+                    href="whatsapp://send?text=Poroshenko%3a+Brexit+won%27t+prevent+EU-Ukraine+visa+deal%20https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal" target="_blank" rel="noopener"
+                    aria-label="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" />
+                    </svg>
+                </a>
+<a class="share-button-item share-button-item--linkedin"
+                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal&amp;title=Poroshenko%3a+Brexit+won%27t+prevent+EU-Ukraine+visa+deal&amp;summary=Poroshenko%3a+Brexit+won%27t+prevent+EU-Ukraine+visa+deal&amp;source=https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal"
+                    target="_blank" rel="noopener" aria-label="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z" />
+                    </svg>
+                </a>
+<a class="share-button-item share-button-item--email"
+                    href="mailto:?subject=Poroshenko%3a+Brexit+won%27t+prevent+EU-Ukraine+visa+deal&amp;body=https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal" target="_self" rel="noopener"
+                    aria-label="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+                    </svg>
+                </a>
+<a class="share-button-item share-button-item--facebook"
+                    href="https://facebook.com/sharer/sharer.php?u=https://www.theparliamentmagazine.eu%2fnews%2farticle%2fporoshenko-brexit-wont-prevent-euukraine-visa-deal" target="_blank" rel="noopener"
+                    aria-label="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path  d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" />
+                    </svg>
+                </a>
+                    </div>
+                </div>
+
+
+            <hr />
+<p>He was speaking after a mini summit between the two sides in Brussels on Monday.</p>
+
+<p>After the informal talks, Poroshenko said, "We have discussed a series of important issues and coordinated our actions on the visa-free regime. We expect formal procedures to be completed by summer holidays in the Ukraine Parliament."</p>
+
+<p>According to Poroshenko, there are no obstacles for the continuation of work aimed at the introduction of the visa-free regime.</p>
+
+
+<p>"I see no difficulties. There are objective difficulties caused by Brexit, but they will lead only to postponement for days, perhaps weeks," he noted.</p>
+
+<p>Also taking part in the one day talks were the President of the European Council Donald Tusk, President of the European Commission Jean-Claude Juncker and President of the European Parliament Martin Schulz.&nbsp;</p>
+
+<p>The two sides mostly discussed the abolition of the visa regime with the Schengen countries for Ukrainian citizens.</p>
+
+<p>He said the parties also reached an agreement on the provision of macro-financial aid to Ukraine and was hopeful that the given issue would be resolved shortly.</p>
+
+<p>"After the IMF makes a decision to allocate another tranche to Ukraine, the EU will provide macro-financial aid to Ukraine together with loan guarantees from the United States," Poroshenko said.</p>
+
+<p>According to the Ukrainian President, the EU leadership has praised the efforts of the Ukrainian authorities aimed at the implementation of the constitutional reform, anti-corruption legislation, deregulation reform and election of new Prosecutor General.</p>
+
+<p>"The meeting was held in a friendly atmosphere and we are grateful for a consistent and firm position of our European partners in such a difficult time for both Ukraine and the EU," he said.</p>
+
+<p>Poroshenko also had a separate meeting with Schulz.</p>
+
+<p>The parties shared views regarding the results of the UK referendum on EU membership and its influence on Ukraine-EU relations.</p>
+
+<p>Poroshenko expressed hope that current internal difficulties would not focus the EU's attention solely on its own problems.&nbsp;</p>
+
+<p>He was hopeful they would become a "stimulus" for the search for new successful European integration projects.&nbsp;</p>
+
+<p>"And Ukraine can become such a project," he said.</p>
+
+<p>Schulz said that the internal procedures related to the UK leaving the EU would not affect readiness of the European Parliament to introduce the visa-free regime for Ukrainian citizens.</p>
+
+<p>&nbsp;</p>
+<div class="midarticle-ads">
+<!----------------- ScrollAd Tag -----------------> <div id="adsuiteScrollAd"></div>
+<div class="col--ad col--ad-inArticle">
+<div id='div-gpt-ad-1608230013890-5'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-5'); });
+  </script>
+</div>
+</div>
+</div>
+
+
+            <div class="hide js-newsview-related">
+                <div class="av-related">
+                    <div class="avr-title">
+                        <span class="avr-cat">Related</span>
+                    </div>
+                    <div class="news-item news-item--related">     
+    <div class="ni-image">
+        <a href="/news/article/national-interests-derail-eu-train-travels-full-potential">
+            <img class="lazyload"  data-src="/siteimg/list-x-four/ugc-1/fullnews/news/24799/24524_original.jpg">
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-meta">
+            <span class="ni-date">31 Oct</span>
+            <span class="ni-cat"><a href="/eu-institutions.htm">EU Institutions</a></span>
+        </div>
+        <div class="ni-title h3">
+            <a href="/news/article/national-interests-derail-eu-train-travels-full-potential">National interests derail EU train travel's full potential</a>
+        </div>               
+        <div class="ni-author">by <a href="/news/author/eloise-hardy">Eloise Hardy</a></div>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+
+            <div class="av-most-recent">
+   <p>Read the most recent articles written by <b>Martin Banks</b> - <a href="/news/article/can-the-eus-new-ai-regulation-become-another-european-success-story">New EU regulations on AI seek to ban mass and indiscriminate surveillance</a> </p>
+</div>
+
+
+
+            
+                
+
+
+
+    </div>
+    <div class="av-rc">
+
+
+        
+
+        <div class="col-ad">
+           <!-- /1048162/pm/news-article_right-side-top -->
+            <div id='div-gpt-ad-1608230013890-2' class="peu-ad">
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-2'); });
+                </script>
+            </div>
+       </div>
+
+        <div class="news-title">
+            <span class="nt-cat h6">Related articles</span>
+        </div>
+        <div class="news-list  news-list--sqThumb news-list--sqThumb--members">
+            <div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/eu-expansion-how-close-are-the-nine-candidate-states-to-membership">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24534/24523_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/eu-expansion-how-close-are-the-nine-candidate-states-to-membership">The Commission's annual Enlargement Package: How close are candidate states to EU membership?</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">30 Oct</span>
+            <span class="ni-author">by <a href="/news/author/julia-kaiser">Julia Kaiser</a></span>
+        </div>                        
+    </div>
+</div><div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/an-election-without-a-farright-surge-social-democrats-looks-strong-in-lithuania">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24788/24522_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/an-election-without-a-farright-surge-social-democrats-looks-strong-in-lithuania">An election without a far-right surge: Social Democrats look strong in Lithuania</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">29 Oct</span>
+            <span class="ni-author">by <a href="/news/author/julia-kaiser">Julia Kaiser</a></span>
+        </div>                        
+    </div>
+</div><div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/oped-ukraine-chooses-the-eu-but-many-challenges-remain">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24798/24521_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/oped-ukraine-chooses-the-eu-but-many-challenges-remain">Op-ed: Ukraine chooses the EU, but many challenges remain</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">29 Oct</span>
+            <span class="ni-author">by <a href="/news/author/halyna-yanchenko">Halyna Yanchenko</a></span>
+        </div>                        
+    </div>
+</div><div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/the-eu-scrambles-to-secure-critical-minerals-for-its-green-transition">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24797/24520_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/the-eu-scrambles-to-secure-critical-minerals-for-its-green-transition">The EU scrambles to secure critical minerals for its green transition</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">28 Oct</span>
+            <span class="ni-author">by <a href="/news/author/roos-doll">Roos Döll</a></span>
+        </div>                        
+    </div>
+</div><div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/can-bulgaria-break-its-political-stalemate">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24796/24519_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/can-bulgaria-break-its-political-stalemate">Can Bulgaria break its political stalemate?</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">25 Oct</span>
+            <span class="ni-author">by <a href="/news/author/eloise-hardy">Eloise Hardy</a></span>
+        </div>                        
+    </div>
+</div><div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/oped-why-europes-ai-development-needs-a-cern-moment">
+            <img data-src="/siteimg/news-memb/ugc-1/fullnews/news/24793/24517_original.jpg" class=" lazyload" alt="Alt">
+
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-title">
+            <a href="/news/article/oped-why-europes-ai-development-needs-a-cern-moment">Op-ed: Why EU's AI development needs a CERN moment</a>
+        </div>
+            <div class="ni-meta">
+            <span class="ni-date">23 Oct</span>
+            <span class="ni-author">by <a href="https://icfg.eu/about/our-team/">Max Reddel</a></span>
+        </div>                        
+    </div>
+</div>
+
+
+            
+        </div>
+        
+        <!--
+        <div class="news-list news-list--dianomi">
+            <script type="text/javascript" id="dianomi_context_script" src="https://www.dianomi.com/js/contextfeed.js"></script>
+            <div class="dianomi_context" data-dianomi-context-id="1343"></div>
+        </div>
+        -->
+        
+        <div class="col-ad">
+            <!-- /1048162/pm/news-article_right-side-bot -->
+            <div id='div-gpt-ad-1608230013890-3' class="peu-ad">
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-3'); });
+                </script>
+            </div>
+        </div>
+
+    </div>
+    <div class="av-lc">
+
+        
+            
+        <div class="col-ad">
+            <!-- /1048162/pm/news-article_left-side-top -->
+            <div id='div-gpt-ad-1608230013890-1' class="peu-ad">
+                <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-1'); });
+                </script>
+            </div>
+        </div>
+
+
+        <div class="col-next">
+            <div class="news-title news-title--next">
+                <span class="nt-cat h6">Read Next:</span>
+            </div>
+            <div class="news-list news-list--readNext">
+                <div class="news-item">
+    <div class="ni-image">
+        <a href="/news/article/georgias-contested-election-puts-eu-dreams-further-out-of-reach">
+            <img  data-src="/siteimg/list-x-four/ugc-1/fullnews/news/24800/24525_original.jpg" class="  lazyload">
+        </a>
+    </div>
+    <div class="ni-content">
+        <div class="ni-meta"><span class="ni-cat"><a href="/foreign-and-security-policy.htm">Foreign & Security Policy</a></span></div>
+        <div class="ni-title h6 sans">
+            <a href="/news/article/georgias-contested-election-puts-eu-dreams-further-out-of-reach">Georgia's contested election puts EU dreams further out of reach</a>
+        </div>
+        
+         <div class="ni-meta">
+            <span class="ni-author">by  <a href="/news/author/federico-baccini">Federico Baccini</a></span>
+        </div>
+        
+    </div>
+</div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+
+<div class="avantisDiv"></div>
+
+<!-- /1048162/pm/news-article_teads -->
+<div id='div-gpt-ad-1608230013890-4'>
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-4'); });
+    </script>
+ </div>
+            </div>
+        </div>
+    </div>
+</main>
+    
+        
+        
+
+<footer>
+    <div class="container">
+        <div class="ftr-col ftr-col--left clearFix">
+
+            <div class="ftr-subsWrap">
+                <div class="h3">A monthly magazine packed with timely features, news analyses and opinion articles on EU policy.</div>
+                <div class="ftr-subs">
+                    <a class="clearFix" href="https://www.tpgroupshop.com/store/products,the-parliament_21.htm" target="_blank">
+                        <div class="ftrs-img">
+                            <img class="lazyload" data-src="/ugc-1/uploads/pageblocks/8198/6191d07446550a3f0046af6bef29abf6.png" alt="Subscribe" >
+                        </div>
+                        <div class="ftrs-text">
+                            <p><strong>Subscribe to The Parliament</strong></p>
+
+                            <p><span class="btn btn--yellow btn--xsmall">Subscribe now</span></p>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div class="ftr-social">
+                <div class="h3 nato">Follow us</div>
+                <a href="http://www.twitter.com/parlimag" target="_blank" class="icon icon--x">
+                  <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 462.799"><path fill-rule="nonzero" d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/the-parliament-magazine/" target="_blank" class="icon icon--linkedIn"></a>
+            </div>
+
+            <div class="ftr-copyWrap">
+                <p>Registered in England & Wales under No. 07291783</p>
+                <p>&copy; Political Holdings Limited <script>document.write(new Date().getFullYear());</script></p>
+
+            </div>
+        </div>
+        <div class="ftr-col ftr-col--right clearFix flx flx--wr">
+            <!-- 
+              <div class="ftr-subcol ftr-subcol--1">
+                <div class="h5 sans">Quick Links</div>
+                <ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/news.htm">News</a></li>
+	<li><a href="/opinion.htm">Opinion</a></li>
+	<li><a href="/interviews.htm">Interviews</a></li>
+	<li><a href="/pm-plus.htm">PM+</a></li>
+	<li><a href="/pm-plus.htm">Policy</a></li>
+	<li><a href="/magazine.htm">Magazine</a></li>
+	<li><a href="/events.htm">Events</a></li>
+	<li><a href="/more/commercial-opportunities.htm">Commercial Opportunities</a></li>
+</ul>
+
+                <span class="icon icon--chevDown"></span>
+            </div> 
+            -->
+            <div class="ftr-subcol  ftr-subcol--1">
+                <div class="h5 sans">Services</div>
+                <ul>
+	<li><a href="https://www.totalpolitics.com/media/" target="_blank">Media</a></li>
+	<li><a href="https://www.totalpolitics.com/events/" target="_blank">Events</a></li>
+	<li><a href="https://www.totalpolitics.com/training/" target="_blank">Training</a></li>
+</ul>
+
+                <span class="icon icon--chevDown"></span>
+            </div>
+            <div class="ftr-subcol ftr-subcol--1">
+                <div class="h5 sans">Media & Publishing</div>
+                <ul>
+	<li><a href="https://www.politicshome.com/" target="_blank">PoliticsHome</a></li>
+	<li><a href="http://www.holyrood.com" target="_blank">Holyrood</a></li>
+	<li><a href="https://www.civilserviceworld.com/" target="_blank">Civil Service World</a></li>
+	<li><a href="https://www.politicshome.com/thehouse" target="_blank">The House Magazine</a></li>
+	<li><a href="http://www.publictechnology.net/" target="_blank">PublicTechnology</a></li>
+	<li><a href="http://www.trainingjournal.com" target="_blank">Training Journal</a></li>
+	<li><a href="https://www.tpgroupshop.com/" target="_blank">Subscribe to Total Politics media titles</a></li>
+</ul>
+
+                <span class="icon icon--chevDown"></span>
+            </div>
+			<div class="ftr-subcol ftr-subcol--1 ftr-subcol--last">
+                <div class="h5 sans">About Us</div>
+                <ul>
+	<li><a href="https://www.totalpolitics.com/" target="_blank">Total Politics Group</a></li>
+	<li><a href="https://www.totalpolitics.com/docs/privacy-policy.pdf" target="_blank">Privacy Policy</a></li>
+	<li><a href="https://www.totalpolitics.com/docs/Website_Terms_and_Conditions_of_Use.pdf" target="_blank">Terms &amp;&nbsp;Conditions</a></li>
+</ul>
+
+
+                <span class="icon icon--chevDown"></span>
+            </div>
+            <!--<div class="ftr-subcol ftr-subcol--1">
+                <div class="h5 sans">Dods Events</div>
+                
+                <span class="icon icon--chevDown"></span>
+            </div>-->
+            <!--<div class="ftr-subcol ftr-subcol--1 ftr-subcol--last">
+                <div class="h5 sans">Partnership Events</div>
+                
+                <span class="icon icon--chevDown"></span>
+            </div>-->
+        </div>
+    </div>
+</footer>
+
+<!--Skin Ad Unit-->
+<!-- /1048162/pm/news-article_skin -->
+<div id='div-gpt-ad-1608230013890-6'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-6'); });
+  </script>
+</div>
+
+<!-- /1048162/pm/news-article_pixel-1 -->
+<div id='div-gpt-ad-1608230013890-7'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-7'); });
+  </script>
+</div>
+
+<!-- /1048162/pm/news-article_pixel-2 -->
+<div id='div-gpt-ad-1608230013890-8'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608230013890-8'); });
+  </script>
+</div>
+
+
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ajax', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2383253-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-2383253-1');
+</script>
+
+<!-- Hotjar Tracking Code for https://www.theparliamentmagazine.eu/ --><script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1499290,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script type="text/javascript"> _linkedin_partner_id = "1282260"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(){var
+ s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+ s.parentNode.insertBefore(b, s);})(); </script><noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1282260&fmt=gif"
+ /> </noscript>
+
+<!-- Quantcast Consent Handlers -->
+<script async type="text/javascript">
+    function dodsCheckQuantCast () {
+        if (typeof(window.__tcfapi) !== 'function') {
+            setTimeout(function () { dodsCheckQuantCast(); }, 250);
+        }
+        else {
+            __tcfapi('getTCData', 2, function(tcData, success) { 
+                if (!success || tcData.cmpStatus != "loaded") {
+                    setTimeout(function () { dodsCheckQuantCast(); }, 250);
+                }
+                else {
+                    __tcfapi('addEventListener', 2, function(tcData, success) { 
+                        if (success) {
+                            dodsGetVendorConsents(tcData);
+                        }
+                    });
+                }
+            });
+        }
+    }
+    dodsCheckQuantCast();
+
+    function dodsGetVendorConsents(tcData) {
+
+        // Google GDPR checks
+        console.log('Google GDPR checks', tcData.eventStatus, tcData.gdprApplies);
+        if(tcData.eventStatus === 'tcloaded' || tcData.eventStatus === 'useractioncomplete') {
+            if (!tcData.gdprApplies) {
+                console.log('GDPR does not apply');
+                // Do nothing as all ads allowed
+            }
+            else {
+                console.log('GDPR applies');
+
+                // GDPR applies
+                // Purpose 1 refers to the storage and/or access of information on a device.
+                var hasDeviceStorageAndAccessConsent = tcData.purpose.consents[1] || false;
+
+                // Google Requires Consent for Purpose 1
+                console.log('Storage consent', hasDeviceStorageAndAccessConsent);
+                if (hasDeviceStorageAndAccessConsent) {
+                    var hasGoogleAdvertisingProductsConsent = tcData.vendor.consents[755] || false; // Google Advertising (IAB Vendor ID 755)
+
+                    console.log('Google consent', hasGoogleAdvertisingProductsConsent);
+                    if (hasGoogleAdvertisingProductsConsent) {
+                        var hasPersonalizedProfileConsent = tcData.purpose.consents[3] || false;
+                        var hasPersonalizedAdsConsent = tcData.purpose.consents[4] || false;
+
+                        // Check if have add personalization consent Purpose 3 and 4
+                        console.log('Google personalization consent', hasPersonalizedAdsConsent, hasPersonalizedProfileConsent);
+                        if( hasPersonalizedAdsConsent && hasPersonalizedProfileConsent ) {
+                            // Set request non-personalized ads to false. (do nothing as default)
+                        }
+                        else {
+                            // Set request non-personalized ads to true.
+                            googletag.cmd.push(function() {
+                                googletag.pubads().setRequestNonPersonalizedAds(1);
+                            });
+                        }
+                    }
+                }
+            }
+            
+            // Refresh the ads after the consent has been configured
+            googletag.cmd.push(function() {
+                googletag.pubads().refresh();
+            });
+        }
+    }
+
+</script>
+
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+</div></form>
+
+    
+
+
+<form id="Form_Eloqua" method="post" action="https://s438870623.t.eloqua.com/e/f2">
+    <input type="hidden" name="elqCustomerGUID" value="">
+    <input type="hidden" name="elqCookieWrite" value="0">
+</form>
+
+
+<script type='text/javascript'>
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '438870623']);
+    _elqQ.push(['elqTrackPageView']);
+
+    (function () {
+        function a() {
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = !0;
+            b.src = "//img.en25.com/i/elqCfg.min.js";
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(b, a)
+        }
+        window.addEventListener ? window.addEventListener("DOMContentLoaded", a, !1) : window.attachEvent && window.attachEvent("onload", a)
+    })();
+</script>
+
+
+<script type='text/javascript'><!--//
+    var timerId = null, timeout = 5;
+//--></script>
+
+<script type='text/javascript'><!--//
+    function WaitUntilCustomerGUIDIsRetrieved() {
+        if (!!(timerId)) {
+            if (timeout == 0) {
+                return;
+            }
+
+            if (typeof this.GetElqCustomerGUID === 'function') {
+                $('input[name="elqCustomerGUID"]').val(GetElqCustomerGUID());
+                return;
+            }
+            timeout -= 1;
+        }
+        timerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
+        return;
+    }
+    window.onload = WaitUntilCustomerGUIDIsRetrieved;
+
+    _elqQ.push(['elqGetCustomerGUID']);
+//--></script>
+
+    
+</body>
+</html>

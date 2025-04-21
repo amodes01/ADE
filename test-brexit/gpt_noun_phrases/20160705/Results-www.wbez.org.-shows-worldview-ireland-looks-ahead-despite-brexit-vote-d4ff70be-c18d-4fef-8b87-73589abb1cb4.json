@@ -1,0 +1,210 @@
+[
+    {
+        "sentence": "Since the United Kingdom voted to leave the European Union last month",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United Kingdom -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Now that the UK has voted to leave the EU over fears of migration",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Republic of Ireland -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "some Irish politicians are calling for a united Ireland",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Irish reunification",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Irish reunification"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Republic of Ireland -> Irish reunification": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The border was a point of conflict for decades before the 1998's Good Friday peace agreement which opened the border between the countries",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Good Friday Agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Good Friday Agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Republic of Ireland -> Good Friday Agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Now that the UK has voted to leave the EU over fears of migration, the contentious border needs to be revisited",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United Kingdom -> Republic of Ireland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "he was involved in Irish immigration issues in the United States",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Billy Lawless Sr.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Billy Lawless Sr.",
+                "types": [],
+                "wikid": "Billy Lawless Sr.",
+                "dbpedia": "Billy Lawless Sr."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Irish-American",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Irish-American",
+                "types": [],
+                "wikid": "Irish-American",
+                "dbpedia": "Irish-American"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Billy Lawless Sr. -> Irish-American": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

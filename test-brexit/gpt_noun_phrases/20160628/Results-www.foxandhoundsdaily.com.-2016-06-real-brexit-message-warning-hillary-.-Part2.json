@@ -1,0 +1,338 @@
+[
+    {
+        "sentence": "Hillary Clinton is running exactly the campaign that the \"Remain\" side ran; predicting horrible things if the country left, trying to win by scaring people.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign in Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign in Britain",
+                "types": [],
+                "wikid": "Remain campaign in Britain",
+                "dbpedia": "Remain campaign in Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hillary Clinton -> Remain campaign in Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Brexit": [
+                -1.0
+            ],
+            "Democratic Party -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Amazingly, Clinton has adopted as the new theme of her campaign the vacuous phrase \"Stronger Together,\" which was the theme of the losing Remain campaign in Britain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Stronger Together",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Stronger Together"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Stronger Together": [
+                -1.0
+            ],
+            "Democratic Party -> Stronger Together": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mitt Romney won 206 Electoral Votes in 2012. If Donald Trump can win Romney's states and five \"Rust Belt\" states: Pennsylvania, Ohio, Wisconsin, Michigan and Minnesota, he will be the next president.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mitt Romney",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mitt Romney",
+                "types": [],
+                "wikid": "Mitt Romney",
+                "dbpedia": "Mitt Romney"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Rust Belt states",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Rust Belt states"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> Mitt Romney": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mitt Romney -> Rust Belt states": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "If Donald Trump can win Romney's states and five \"Rust Belt\" states: Pennsylvania, Ohio, Wisconsin, Michigan and Minnesota, he will be the next president.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Rust Belt states",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Rust Belt states"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Rust Belt states": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "If the Democrats do not respond to the very real angst of these people who feel left behind, they will deserve to lose and they will lose.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "residual resentment in America",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "residual resentment in America"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Democratic Party -> residual resentment in America": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton's strength, and the Democratic Party's strength, is in coastal America, the parts of America that are like wealthy London.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Democratic Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Just yelling racism and xenophobia, as liberals seem wont to do since last Thursday, will not do.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Democratic Party -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mitt Romney won 206 Electoral Votes in 2012.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democratic Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democratic Party",
+                "types": [],
+                "wikid": "Democratic Party",
+                "dbpedia": "Democratic Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mitt Romney",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mitt Romney",
+                "types": [],
+                "wikid": "Mitt Romney",
+                "dbpedia": "Mitt Romney"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Democratic Party -> Mitt Romney": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

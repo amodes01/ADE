@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "European funds", "references": ["European funds"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote", "Brexit"] },
+      "justifications": [
+        "Rattled by the political and economic risks over Britain's Brexit vote"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "European funds", "references": ["European funds"] },
+      "target": { "topic": "Brexit volatility", "references": ["Brexit volatility"] },
+      "justifications": [
+        "We expect a risk-off attitude in financial markets to continue as investors digest the potential impact of the Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "European funds", "references": ["European funds"] },
+      "target": { "topic": "geopolitical risks", "references": ["geopolitical risks"] },
+      "justifications": [
+        "We expect a risk-off attitude in financial markets to continue as investors digest the potential impact of the Brexit and as the geopolitical risks remain high"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Matteo Germano", "references": ["Matteo Germano"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "We expect a risk-off attitude in financial markets to continue as investors digest the potential impact of the Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nadege Dufosse", "references": ["Nadege Dufosse"] },
+      "target": { "topic": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "the possibility of a win for Donald Trump in U.S. presidential elections seen by nearly all respondents as negative for markets"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nadege Dufosse", "references": ["Nadege Dufosse"] },
+      "target": { "topic": "U.S. economy", "references": ["impact on US business and economy"] },
+      "justifications": [
+        "Concerning the impact on US business and economy it is more difficult to assess now but in our first estimates it is more a risk than an opportunity"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "European funds", "references": ["European funds"] },
+      "target": { "topic": "UK bonds", "references": ["UK bonds"] },
+      "justifications": [
+        "funds slashed their exposure to UK bonds to 2.1 percent from 2.7 percent"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "European funds", "references": ["European funds"] },
+      "target": { "topic": "emerging European debt", "references": ["emerging European debt"] },
+      "justifications": [
+        "also reducing holdings in emerging European debt, reflecting the region's vulnerability to Brexit"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "European funds", "references": ["European funds"] },
+      "entity2": { "entity": "Pioneer Investments", "references": ["Pioneer Investments"] },
+      "justifications": [
+        "We expect a risk-off attitude in financial markets to continue as investors digest the potential impact of the Brexit"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Nadege Dufosse", "references": ["Nadege Dufosse"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "the possibility of a win for Donald Trump in U.S. presidential elections seen by nearly all respondents as negative for markets"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

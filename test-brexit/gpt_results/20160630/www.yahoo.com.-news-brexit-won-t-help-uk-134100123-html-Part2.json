@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "tax haven strategy", "references": ["tax haven strategy"]},
+      "justifications": ["the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Iceland's prime minister", "references": ["Iceland's prime minister"]},
+      "justifications": ["Iceland's prime minister to resign"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Meinzer", "references": ["Meinzer"]},
+      "justifications": ["The time has never been worse to run a tax haven strategy, says Meinzer."],
+      "attitude": "Negative"
+    }
+  ]
+}

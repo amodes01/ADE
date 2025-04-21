@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "This site was set up with the sole purpose of stealing your personal data.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "website",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "website",
+                "types": [],
+                "wikid": "website",
+                "dbpedia": "website"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "personal data theft",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "personal data theft"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "website -> personal data theft": [
+                -1.0
+            ]
+        }
+    }
+]

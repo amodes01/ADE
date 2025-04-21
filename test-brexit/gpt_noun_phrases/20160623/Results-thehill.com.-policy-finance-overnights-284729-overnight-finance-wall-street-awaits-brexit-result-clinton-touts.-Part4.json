@@ -1,0 +1,197 @@
+[
+    {
+        "sentence": "Voters in four battleground states... expressed positive views about the U.S. expanding trade",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "swing-state voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "swing-state voters",
+                "types": [],
+                "wikid": "swing-state voters",
+                "dbpedia": "swing-state voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "swing-state voters -> trade expansion": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Democrats are particularly supportive, 66 to 25 percent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democrats",
+                "types": [],
+                "wikid": "Democrats",
+                "dbpedia": "Democrats"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Democrats -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Democrats -> trade expansion": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hillary Clinton... call for major changes to the nation's global commercial outreach.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "swing-state voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "swing-state voters",
+                "types": [],
+                "wikid": "swing-state voters",
+                "dbpedia": "swing-state voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "swing-state voters -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> trade expansion": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Donald Trump... call for major changes to the nation's global commercial outreach.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "swing-state voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "swing-state voters",
+                "types": [],
+                "wikid": "swing-state voters",
+                "dbpedia": "swing-state voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democrats",
+                "types": [],
+                "wikid": "Democrats",
+                "dbpedia": "Democrats"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "swing-state voters -> Donald Trump": [
+                -1.0
+            ],
+            "Democrats -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> trade expansion": [
+                -1.0
+            ]
+        }
+    }
+]

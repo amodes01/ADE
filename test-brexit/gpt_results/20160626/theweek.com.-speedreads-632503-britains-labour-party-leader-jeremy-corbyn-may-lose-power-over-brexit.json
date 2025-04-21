@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["With Alexander, Corbyn's opponents argue his failure to prevent Brexit bodes poorly for attempts to reclaim power in Parliament."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Hilary Benn", "references": ["Hilary Benn"]},
+      "justifications": ["Corbyn fired Hilary Benn, his shadow foreign secretary, Saturday evening."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Heidi Alexander", "references": ["Heidi Alexander"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Corbyn"]},
+      "justifications": ["I do not believe you have the capacity to shape the answers our country is demanding, and I believe that if we are to form the next government, a change of leadership is essential."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Labour Party", "references": ["Labour Party"]},
+      "justifications": ["Labour Party leader Jeremy Corbyn, who supported remaining in the EU, may lose his position of power as well."],
+      "attitude": "Negative"
+    }
+  ]
+}

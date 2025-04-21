@@ -1,0 +1,100 @@
+[
+    {
+        "sentence": "Let us hope we can at least have an angry populace election in 2016.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Author",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Author",
+                "types": [],
+                "wikid": "Author",
+                "dbpedia": "Author"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Author -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Author -> Trump's policies": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We gained independence from Britain over far less serious Abuses and Usurpations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Author",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Author",
+                "types": [],
+                "wikid": "Author",
+                "dbpedia": "Author"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tyrannical centralized leftist government",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tyrannical centralized leftist government"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Author -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Author -> tyrannical centralized leftist government": [
+                -1.0
+            ]
+        }
+    }
+]

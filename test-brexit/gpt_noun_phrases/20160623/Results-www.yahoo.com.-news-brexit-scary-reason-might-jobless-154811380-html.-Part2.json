@@ -1,0 +1,134 @@
+[
+    {
+        "sentence": "British voters are rolling the dice on a future that extends far beyond U.K. borders",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British voters -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That future includes the prices people around the globe pay at the grocery store, the cost of their debt, the performance of their retirement accounts, and yes - their job opportunities.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "global economy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "global economy",
+                "types": [],
+                "wikid": "global economy",
+                "dbpedia": "global economy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British voters -> global economy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British voters -> global economy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "But the nationalist anger driving the vote? That is not going anywhere.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "nationalist anger",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "nationalist anger",
+                "types": [],
+                "wikid": "nationalist anger",
+                "dbpedia": "nationalist anger"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nationalist anger",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nationalist anger"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British voters -> nationalist anger": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British voters -> nationalist anger": [
+                -1.0
+            ]
+        }
+    }
+]

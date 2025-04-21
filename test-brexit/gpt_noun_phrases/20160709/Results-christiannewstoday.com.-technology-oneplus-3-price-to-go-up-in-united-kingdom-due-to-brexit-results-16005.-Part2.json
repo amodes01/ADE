@@ -1,0 +1,97 @@
+[
+    {
+        "sentence": "Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate, by agreeing to recognize non-Orthodox conversions to Judaism performed partially in Israel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Orthodox Rabbinate",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Orthodox Rabbinate",
+                "types": [],
+                "wikid": "Orthodox Rabbinate",
+                "dbpedia": "Orthodox Rabbinate"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Supreme Court of Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Supreme Court of Israel",
+                "types": [],
+                "wikid": "Supreme Court of Israel",
+                "dbpedia": "Supreme Court of Israel"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "non-Orthodox conversions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "non-Orthodox conversions"
+                ]
+            },
+            {
+                "ngram": "Orthodox Rabbinate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Orthodox Rabbinate"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Orthodox Rabbinate -> non-Orthodox conversions": [
+                -1.0
+            ],
+            "Supreme Court of Israel -> non-Orthodox conversions": [
+                1.0
+            ],
+            "Supreme Court of Israel -> Orthodox Rabbinate": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Orthodox Rabbinate",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Orthodox Rabbinate",
+                "types": [],
+                "wikid": "Orthodox Rabbinate",
+                "dbpedia": "Orthodox Rabbinate"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Supreme Court of Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Supreme Court of Israel",
+                "types": [],
+                "wikid": "Supreme Court of Israel",
+                "dbpedia": "Supreme Court of Israel"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Orthodox Rabbinate -> Supreme Court of Israel": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

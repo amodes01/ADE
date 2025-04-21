@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "He urged the Canadian government to ensure justice",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "unnamed individual",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "unnamed individual",
+                "types": [],
+                "wikid": "unnamed individual",
+                "dbpedia": "unnamed individual"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "justice",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "justice"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "unnamed individual -> justice": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He urged the Canadian government to uphold the rule of law",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "unnamed individual",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "unnamed individual",
+                "types": [],
+                "wikid": "unnamed individual",
+                "dbpedia": "unnamed individual"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "rule of law",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "rule of law"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "unnamed individual -> rule of law": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He urged the Canadian government to ensure justice and uphold the rule of law",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "unnamed individual",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "unnamed individual",
+                "types": [],
+                "wikid": "unnamed individual",
+                "dbpedia": "unnamed individual"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canadian government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canadian government",
+                "types": [],
+                "wikid": "Canadian government",
+                "dbpedia": "Canadian government"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "unnamed individual -> Canadian government": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

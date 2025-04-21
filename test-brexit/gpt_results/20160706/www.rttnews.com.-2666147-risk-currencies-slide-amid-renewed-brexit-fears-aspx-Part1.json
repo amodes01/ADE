@@ -1,0 +1,91 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "economic and financial fallout",
+        "references": ["economic and financial fallout of Britain leaving the European Union"]
+      },
+      "justifications": [
+        "Worries about the economic and financial fallout of Britain leaving the European Union have gripped financial again."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "Britain leaving the European Union",
+        "references": ["Britain leaving the European Union"]
+      },
+      "justifications": [
+        "Worries about the economic and financial fallout of Britain leaving the European Union have gripped financial again."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Nigeria",
+        "references": ["Nigeria"]
+      },
+      "entity2": {
+        "entity": "oil industry",
+        "references": ["oil industry"]
+      },
+      "justifications": [
+        "Nigeria's oil industry recovered partially from militant attacks"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Iran",
+        "references": ["Iran"]
+      },
+      "entity2": {
+        "entity": "Gulf members",
+        "references": ["Gulf members"]
+      },
+      "justifications": [
+        "Iran and Gulf members are boosting supplies"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Iran",
+        "references": ["Iran"]
+      },
+      "entity2": {
+        "entity": "oil industry",
+        "references": ["oil industry"]
+      },
+      "justifications": [
+        "Iran and Gulf members are boosting supplies, leading to oversupply concerns."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Gulf members",
+        "references": ["Gulf members"]
+      },
+      "entity2": {
+        "entity": "oil industry",
+        "references": ["oil industry"]
+      },
+      "justifications": [
+        "Iran and Gulf members are boosting supplies, leading to oversupply concerns."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+[
+    {
+        "sentence": "Britain's most powerful family - its royal family - has taken a neutral stance on one of the most controversial topics in UK history: the Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's departure from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's departure from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> UK's departure from the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "So does this officially neutral stance mean the royals must sit idly as they watch their country fall to economic and political uncertainty?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic and political uncertainty",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic and political uncertainty"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic and political uncertainty": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "David Cameron traveled to Buckingham Palace to resign to the Queen in person.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "House of Windsor",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "House of Windsor",
+                "types": [],
+                "wikid": "House of Windsor",
+                "dbpedia": "House of Windsor"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Prime Minister David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Prime Minister David Cameron",
+                "types": [],
+                "wikid": "UK Prime Minister David Cameron",
+                "dbpedia": "UK Prime Minister David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "House of Windsor -> UK Prime Minister David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In 1986 The Sunday Telegraph wrote a scathing editorial in response to reports that the queen was worried about then-prime minister Margaret Thatcher's opposition to sanctions against South Africa.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Queen Elizabeth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Queen Elizabeth",
+                "types": [],
+                "wikid": "Queen Elizabeth",
+                "dbpedia": "Queen Elizabeth"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Margaret Thatcher",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Margaret Thatcher",
+                "types": [],
+                "wikid": "Margaret Thatcher",
+                "dbpedia": "Margaret Thatcher"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Queen Elizabeth -> Margaret Thatcher": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "After the referendum for Scottish independence back in 2014, Cameron let it slip to then-New York mayor Michael Bloomberg that the queen 'purred down the line' when he called her to report that Scotland would indeed be staying in the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Queen Elizabeth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Queen Elizabeth",
+                "types": [],
+                "wikid": "Queen Elizabeth",
+                "dbpedia": "Queen Elizabeth"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Bloomberg",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Bloomberg",
+                "types": [],
+                "wikid": "Michael Bloomberg",
+                "dbpedia": "Michael Bloomberg"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Queen Elizabeth -> Michael Bloomberg": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In February, Prince William gave a speech to British diplomats at the Foreign Office in London saying, 'In an increasingly turbulent world, our ability to unite in common action with other nations is essential.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prince William",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prince William",
+                "types": [],
+                "wikid": "Prince William",
+                "dbpedia": "Prince William"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Prince William -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Kensington Palace immediately clarified with this statement: 'This speech was not about Europe. He does not mention the word Europe once.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prince William",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prince William",
+                "types": [],
+                "wikid": "Prince William",
+                "dbpedia": "Prince William"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kensington Palace",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kensington Palace",
+                "types": [],
+                "wikid": "Kensington Palace",
+                "dbpedia": "Kensington Palace"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Prince William -> Kensington Palace": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Approval ratings for the British Monarchy range between 65% and 80%, and their 'keep calm and carry on' attitude could set an example for the rest of the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British Monarchy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British Monarchy",
+                "types": [],
+                "wikid": "British Monarchy",
+                "dbpedia": "British Monarchy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British Monarchy -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In that case, the UK may have another referendum, as British Republicans have demanded a vote to end the monarchy in the case of her death.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British Republicans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British Republicans",
+                "types": [],
+                "wikid": "British Republicans",
+                "dbpedia": "British Republicans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Queen Elizabeth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Queen Elizabeth",
+                "types": [],
+                "wikid": "Queen Elizabeth",
+                "dbpedia": "Queen Elizabeth"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British Republicans -> Queen Elizabeth": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

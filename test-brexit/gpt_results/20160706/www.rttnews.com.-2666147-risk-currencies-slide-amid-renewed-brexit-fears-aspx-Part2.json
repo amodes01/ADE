@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "U.S. dollar", "references": ["U.S. dollar"]},
+      "target": {"topic": "safe haven currencies", "references": ["safe haven currencies"]},
+      "justifications": ["safe haven currencies such as the U.S. dollar and the yen rose against their major counterparts."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "yen", "references": ["yen"]},
+      "target": {"topic": "safe haven currencies", "references": ["safe haven currencies"]},
+      "justifications": ["safe haven currencies such as the U.S. dollar and the yen rose against their major counterparts."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "factory orders", "references": ["German factory orders for May"]},
+      "justifications": ["German factory orders for May is due to be released in the pre-European session at 2:00 am ET."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "construction PMI data", "references": ["Germany's construction PMI data for June"]},
+      "justifications": ["Markit is slated to release Germany's construction PMI data for June later in the day."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Federal Reserve", "references": ["Federal Reserve"]},
+      "target": {"topic": "monetary policy", "references": ["monetary policy"]},
+      "justifications": ["Federal Reserve Governor Daniel Tarullo is expected to speak about financial regulation and monetary policy at the Wall Street Journal Breakfast Conversation in Washington DC."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Guy Debelle", "references": ["Reserve Bank of Australia Assistant Governor Guy Debelle"]},
+      "entity2": {"entity": "Luis Linde", "references": ["Bank of Spain Governor Luis Linde"]},
+      "justifications": ["Reserve Bank of Australia Assistant Governor Guy Debelle is expected to speak about the FX Code of Conduct at a Thomson Reuters event in Sydney.", "Bank of Spain Governor Luis Linde will deliver a speech titled \"Stability premise for recovery,\" organized by the College of Civil Engineering, Channels and Ports, the Roads Foundation and the Menendez Pelayo International University in Madrid."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mario Draghi", "references": ["European Central Bank President Mario Draghi"]},
+      "entity2": {"entity": "ECB board members", "references": ["other ECB board members"]},
+      "justifications": ["European Central Bank President Mario Draghi along with other ECB board members will deliver opening remarks at the 8th ECB Statistics Conference, in Frankfurt."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "William Dudley", "references": ["Federal Reserve Bank of New York President William Dudley"]},
+      "entity2": {"entity": "Binghamton University researchers", "references": ["Binghamton University researchers"]},
+      "justifications": ["Federal Reserve Bank of New York President William Dudley will meet with Binghamton University researchers and Southern Tier Regional Economic Development Council members to discuss economic development projects."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "William Dudley", "references": ["Federal Reserve Bank of New York President William Dudley"]},
+      "entity2": {"entity": "Southern Tier Regional Economic Development Council members", "references": ["Southern Tier Regional Economic Development Council members"]},
+      "justifications": ["Federal Reserve Bank of New York President William Dudley will meet with Binghamton University researchers and Southern Tier Regional Economic Development Council members to discuss economic development projects."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Daniel Tarullo", "references": ["Federal Reserve Governor Daniel Tarullo"]},
+      "entity2": {"entity": "Wall Street Journal", "references": ["Wall Street Journal"]},
+      "justifications": ["Federal Reserve Governor Daniel Tarullo is expected to speak about financial regulation and monetary policy at the Wall Street Journal Breakfast Conversation in Washington DC, via satellite."],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Peter Westmacott", "references": ["Peter Westmacott"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["outcome of the so-called Brexit referendum"]},
+      "justifications": [
+        "Peter Westmacott, a former British ambassador to the United States, described the outcome of the so-called Brexit referendum on June 23 as an \"earthquake.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Natalie Nougayrede", "references": ["Natalie Nougayrede"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["outcome of the so-called Brexit referendum"]},
+      "justifications": [
+        "\"It would be a serious mistake to think that this is one isolated demonstration of rejection of the European project,\" she said.",
+        "\"There are forces at work on the continent that will benefit from this vote. They are already making that very, very clear,\" she added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "target": {"topic": "European integration", "references": ["deepening integration"]},
+      "justifications": [
+        "\"Any idea of rushing into further integration, at this point anyway, is not going to help.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Natalie Nougayrede", "references": ["Natalie Nougayrede"]},
+      "target": {"topic": "European integration", "references": ["deepening integration"]},
+      "justifications": [
+        "\"It would be delusional to start thinking about deepening integration,\" she said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "target": {"topic": "European Union", "references": ["the EU"]},
+      "justifications": [
+        "\"This has to be a wake-up call to the EU,\" he said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "target": {"topic": "EU transparency", "references": ["transparency"]},
+      "justifications": [
+        "The EU and Brussels have to work with the member states to develop more transparency, to develop more confidence among the citizenry of these states."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "target": {"topic": "EU bureaucratic approach", "references": ["overly technocratic and bureaucratic"]},
+      "justifications": [
+        "The EU and Brussels have to work with the member states to develop more transparency, to develop more confidence among the citizenry of these states. But at the end of the day that is only going to happen if the EU comes up with the right policies and does not come across as overly technocratic and bureaucratic."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Peter Westmacott", "references": ["Peter Westmacott"]},
+      "target": {"topic": "EU institutions", "references": ["institutions of the European Union"]},
+      "justifications": [
+        "Westmacott said the Leave campaign had resorted to a campaign of misinformation, including baseless warnings about Turkey being on the brink of joining the EU, which would flood the United Kingdom with Turkish immigrants."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Peter Westmacott", "references": ["Peter Westmacott"]},
+      "entity2": {"entity": "Natalie Nougayrede", "references": ["Natalie Nougayrede"]},
+      "justifications": [
+        "Peter Westmacott, a former British ambassador to the United States, described the outcome of the so-called Brexit referendum on June 23 as an \"earthquake.\"",
+        "\"It would be a serious mistake to think that this is one isolated demonstration of rejection of the European project,\" she said."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Natalie Nougayrede", "references": ["Natalie Nougayrede"]},
+      "entity2": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "justifications": [
+        "\"It would be a serious mistake to think that this is one isolated demonstration of rejection of the European project,\" she said.",
+        "\"Any idea of rushing into further integration, at this point anyway, is not going to help.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Peter Westmacott", "references": ["Peter Westmacott"]},
+      "entity2": {"entity": "Richard L. Morningstar", "references": ["Richard L. Morningstar"]},
+      "justifications": [
+        "Westmacott said the Leave campaign had resorted to a campaign of misinformation, including baseless warnings about Turkey being on the brink of joining the EU, which would flood the United Kingdom with Turkish immigrants.",
+        "\"This has to be a wake-up call to the EU,\" he said."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Peter Westmacott", "references": ["Peter Westmacott"]},
+      "entity2": {"entity": "Natalie Nougayrede", "references": ["Natalie Nougayrede"]},
+      "justifications": [
+        "Peter Westmacott, a former British ambassador to the United States, described the outcome of the so-called Brexit referendum on June 23 as an \"earthquake.\"",
+        "\"It would be a serious mistake to think that this is one isolated demonstration of rejection of the European project,\" she said."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+    {
+        "sentence": "Farage, who with UKIP had campaigned for years to leave the EU, told reporters today that his \"political ambition has been achieved\" and that he was looking forward to returning to ordinary life.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Farage knows that in the USA, France and Britain, the population is rejecting rapid ethnic change, Judah says.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ben Judah",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ben Judah",
+                "types": [],
+                "wikid": "Ben Judah",
+                "dbpedia": "Ben Judah"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Ben Judah -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Even within his own party, he remains a highly controversial figure.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "A decade ago, Cameron described UKIP as \"a bunch of fruitcakes and loonies and closet racists, mostly.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "When Farage's decision was made public today, Douglas Carswell, UKIP's only member of parliament, made no comment except to tweet a smiling emoticon in dark glasses.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Douglas Carswell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Douglas Carswell",
+                "types": [],
+                "wikid": "Douglas Carswell",
+                "dbpedia": "Douglas Carswell"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> Douglas Carswell": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,297 @@
+[
+    {
+        "sentence": "the Brexit result is a catastrophe",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "winemaker and importer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "winemaker and importer",
+                "types": [],
+                "wikid": "winemaker and importer",
+                "dbpedia": "winemaker and importer"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "winemaker and importer -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "any arrangements that are agreed between the EU and the UK following Brexit would be worse than the conditions for trade than they have now",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean-Claude Piris",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean-Claude Piris",
+                "types": [],
+                "wikid": "Jean-Claude Piris",
+                "dbpedia": "Jean-Claude Piris"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jean-Claude Piris -> Brexit agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the arrangements which are in place between the EU and both Switzerland and Norway... would not be acceptable to the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean-Claude Piris",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean-Claude Piris",
+                "types": [],
+                "wikid": "Jean-Claude Piris",
+                "dbpedia": "Jean-Claude Piris"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland and Norway",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland and Norway",
+                "types": [],
+                "wikid": "Switzerland and Norway",
+                "dbpedia": "Switzerland and Norway"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU-UK trade arrangements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU-UK trade arrangements"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Jean-Claude Piris -> Switzerland and Norway": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jean-Claude Piris -> EU-UK trade arrangements": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "an agreement would be reached which would make EU wine competitive in the UK",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean-Claude Piris",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean-Claude Piris",
+                "types": [],
+                "wikid": "Jean-Claude Piris",
+                "dbpedia": "Jean-Claude Piris"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU wine exports to the UK",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU wine exports to the UK"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jean-Claude Piris -> EU wine exports to the UK": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "in the short term our UK business could quickly become untenable well before Brexit happens",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "winemaker and importer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "winemaker and importer",
+                "types": [],
+                "wikid": "winemaker and importer",
+                "dbpedia": "winemaker and importer"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "winemaker and importer -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the EU cannot negotiate the terms of trade with a third state until it becomes a third state",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean-Claude Piris",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean-Claude Piris",
+                "types": [],
+                "wikid": "Jean-Claude Piris",
+                "dbpedia": "Jean-Claude Piris"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jean-Claude Piris -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "he referred to the EU arrangement agreed with Canada in February 2016, the 'Comprehensive Economic and Trade Agreement between the EU and Canada' (known as CETA) as the type of arrangement that could be put in place with the UK",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> Canada": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Therefore, technically the two years will be used to determine the legal arrangements for making the split",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

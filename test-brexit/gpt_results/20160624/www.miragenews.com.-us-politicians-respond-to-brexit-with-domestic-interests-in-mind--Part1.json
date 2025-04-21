@@ -1,0 +1,216 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "Though he would have preferred the UK to stay in the European Union, on Friday President Barack Obama released a statement saying he respects the decision of the British people."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "\"The people of the United Kingdom have spoken, and we respect their decision.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "US-EU relationship",
+        "references": ["relationship with the European Union"]
+      },
+      "justifications": [
+        "President Obama also assured those in the European Union, which the president said has done \"so much\" to promote stability and economic growth, that the bloc's relationship with the US will remain unchanged."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "Trump, who was on a business trip to Scotland at the time, said it was a \"great thing\" that the people of the UK have \"taken back their country.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "Hillary Clinton, who is presumed to be Trump's Democratic rival in the presidential race, had initially urged Britons to stay in the EU, but released a statement saying she \"respect[s] the choice the people of the United Kingdom have made.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "economic uncertainty",
+        "references": ["economic uncertainty"]
+      },
+      "justifications": [
+        "Predicting that there could be \"economic uncertainty\" created by the move, Clinton said that the first ask for Americans is to make sure any such downturn \"does not hurt working families\" back home."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "Trump's leadership",
+        "references": ["calm, steady, experienced leadership"]
+      },
+      "justifications": [
+        "\"This time of uncertainty only underscores the need for calm, steady, experienced leadership in the White House to protect Americans' pocketbooks and livelihoods, to support our friends and allies, to stand up to our adversaries, and to defend our interests.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "\"I think it's a decision for the British people but I have concerns.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["withdrawal from the European Union"]
+      },
+      "justifications": [
+        "\"I have concerns you know when we think back over the last 100 years and the horrible wars, the kind of blood that was shed\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": ["people of the United Kingdom"]
+      },
+      "justifications": [
+        "President Obama released a statement saying he respects the decision of the British people."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "President Obama also assured those in the European Union, which the president said has done \"so much\" to promote stability and economic growth, that the bloc's relationship with the US will remain unchanged."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": ["people of the UK"]
+      },
+      "justifications": [
+        "Trump said it was a \"great thing\" that the people of the UK have \"taken back their country.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Hillary Clinton, who is presumed to be Trump's Democratic rival in the presidential race, had initially urged Britons to stay in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "\"This time of uncertainty only underscores the need for calm, steady, experienced leadership in the White House to protect Americans' pocketbooks and livelihoods, to support our friends and allies, to stand up to our adversaries, and to defend our interests.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": ["British people"]
+      },
+      "justifications": [
+        "\"I think it's a decision for the British people but I have concerns.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "Does it continue to be a politics that is generally outwardly focused, focused on an open global economy and opportunity and optimism?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "future of politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "future of politics",
+                "types": [],
+                "wikid": "future of politics",
+                "dbpedia": "future of politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "open global economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "open global economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "future of politics -> open global economy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Or is it one that is nationalistic and more inward looking and more about closing countries off?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "future of politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "future of politics",
+                "types": [],
+                "wikid": "future of politics",
+                "dbpedia": "future of politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nationalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nationalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "future of politics -> nationalism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Wright says the stakes for the future economic cooperation among countries are high.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wright",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wright",
+                "types": [],
+                "wikid": "Wright",
+                "dbpedia": "Wright"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Institution",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Institution",
+                "types": [],
+                "wikid": "Institution",
+                "dbpedia": "Institution"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Wright -> Institution": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

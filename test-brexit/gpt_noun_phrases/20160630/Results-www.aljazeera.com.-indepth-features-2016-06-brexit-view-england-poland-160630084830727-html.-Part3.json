@@ -1,0 +1,309 @@
+[
+    {
+        "sentence": "There was no post-Brexit plan set up.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jurate Matulioniene",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jurate Matulioniene",
+                "types": [],
+                "wikid": "Jurate Matulioniene",
+                "dbpedia": "Jurate Matulioniene"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Egle Matulionyte",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Egle Matulionyte",
+                "types": [],
+                "wikid": "Egle Matulionyte",
+                "dbpedia": "Egle Matulionyte"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "post-Brexit plan",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "post-Brexit plan"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jurate Matulioniene -> post-Brexit plan": [
+                -1.0
+            ],
+            "Egle Matulionyte -> post-Brexit plan": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "One of Boston's few residents who voted to remain in the EU, Wakefield says the Polish community, who helped to revive this once empty church, has been badly affected.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Wakefield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Wakefield",
+                "types": [],
+                "wikid": "John Wakefield",
+                "dbpedia": "John Wakefield"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "John Wakefield -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Wakefield says the Polish community, who helped to revive this once empty church, has been badly affected.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Wakefield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Wakefield",
+                "types": [],
+                "wikid": "John Wakefield",
+                "dbpedia": "John Wakefield"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Polish community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Polish community",
+                "types": [],
+                "wikid": "Polish community",
+                "dbpedia": "Polish community"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Polish community",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Polish community"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "John Wakefield -> Polish community": [
+                -1.0
+            ],
+            "Polish community -> John Wakefield": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Wakefield -> Polish community": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They were all very emotional and just bewildered, not because anything legal had changed but they were feeling that England was saying you are not welcome.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Polish community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Polish community",
+                "types": [],
+                "wikid": "Polish community",
+                "dbpedia": "Polish community"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Polish community -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They were feeling that England was saying you are not welcome.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Polish community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Polish community",
+                "types": [],
+                "wikid": "Polish community",
+                "dbpedia": "Polish community"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "England",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "England"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Polish community -> England": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Polish community -> England": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "To be an immigrant is not an easy situation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Stanislaw Kowalski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Stanislaw Kowalski",
+                "types": [],
+                "wikid": "Stanislaw Kowalski",
+                "dbpedia": "Stanislaw Kowalski"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigrants",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigrants"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Stanislaw Kowalski -> immigrants": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He hopes that the wider Boston community finds \"peace, cooperation and respecting differences\".",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Stanislaw Kowalski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Stanislaw Kowalski",
+                "types": [],
+                "wikid": "Stanislaw Kowalski",
+                "dbpedia": "Stanislaw Kowalski"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "peace",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "peace"
+                ]
+            },
+            {
+                "ngram": "cooperation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "cooperation"
+                ]
+            },
+            {
+                "ngram": "respecting differences",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "respecting differences"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Stanislaw Kowalski -> peace": [
+                1.0
+            ],
+            "Stanislaw Kowalski -> cooperation": [
+                1.0
+            ],
+            "Stanislaw Kowalski -> respecting differences": [
+                1.0
+            ]
+        }
+    }
+]

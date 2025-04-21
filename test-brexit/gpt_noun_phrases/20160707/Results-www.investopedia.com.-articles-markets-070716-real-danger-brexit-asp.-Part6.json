@@ -1,0 +1,539 @@
+[
+    {
+        "sentence": "May said the U.K. and EU 'can do so much better' than a CETA-style trade agreement since they were beginning from the 'unprecedented position' of sharing a body of rules and regulations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CETA-style trade agreement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CETA-style trade agreement",
+                "types": [],
+                "wikid": "CETA-style trade agreement",
+                "dbpedia": "CETA-style trade agreement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.K. and EU trade agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.K. and EU trade agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "CETA-style trade agreement -> U.K. and EU trade agreement": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "May said the U.K. and EU 'can do so much better' than a CETA-style trade agreement.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K. and EU trade agreement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K. and EU trade agreement",
+                "types": [],
+                "wikid": "U.K. and EU trade agreement",
+                "dbpedia": "U.K. and EU trade agreement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "May",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "May",
+                "types": [],
+                "wikid": "May",
+                "dbpedia": "May"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CETA-style trade agreement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CETA-style trade agreement",
+                "types": [],
+                "wikid": "CETA-style trade agreement",
+                "dbpedia": "CETA-style trade agreement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "CETA-style trade agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "CETA-style trade agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "May -> EU": [
+                1.0
+            ],
+            "May -> CETA-style trade agreement": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.K. and EU trade agreement -> CETA-style trade agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Monique Ebell, formerly of the National Institute of Economic and Social Research, stressed that even with an agreement in place, non-tariff barriers were likely to be a significant drag on Britain's trade with the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "non-tariff barriers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "non-tariff barriers",
+                "types": [],
+                "wikid": "non-tariff barriers",
+                "dbpedia": "non-tariff barriers"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Monique Ebell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Monique Ebell",
+                "types": [],
+                "wikid": "Monique Ebell",
+                "dbpedia": "Monique Ebell"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K. and EU trade agreement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K. and EU trade agreement",
+                "types": [],
+                "wikid": "U.K. and EU trade agreement",
+                "dbpedia": "U.K. and EU trade agreement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.K. and EU trade agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.K. and EU trade agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Monique Ebell -> U.K. and EU trade agreement": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "non-tariff barriers -> U.K. and EU trade agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Free trade deals also struggle to rein in non-tariff barriers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "free trade deals",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "free trade deals",
+                "types": [],
+                "wikid": "free trade deals",
+                "dbpedia": "free trade deals"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Monique Ebell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Monique Ebell",
+                "types": [],
+                "wikid": "Monique Ebell",
+                "dbpedia": "Monique Ebell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.K. and EU trade agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.K. and EU trade agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Monique Ebell -> free trade deals": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "free trade deals -> U.K. and EU trade agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "If Britain and the EU were not able to agree their relationship, they would have had to revert to WTO terms.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "WTO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "WTO",
+                "types": [],
+                "wikid": "WTO",
+                "dbpedia": "WTO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.K. and EU trade agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.K. and EU trade agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "WTO -> U.K. and EU trade agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "But for certain industries, the EU's external tariff would have hit hard: Britain exports 78.6% of the cars it manufactures, and 60% of these go to Europe. The EU levies 10% tariffs on imported cars.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "WTO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "WTO",
+                "types": [],
+                "wikid": "WTO",
+                "dbpedia": "WTO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Britain's trade with the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Britain's trade with the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "WTO -> Britain's trade with the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In July 2017, U.K. Secretary of State for International Trade Liam Fox said, 'People talk about the WTO as if it would be the end of the world.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Liam Fox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Liam Fox",
+                "types": [],
+                "wikid": "Liam Fox",
+                "dbpedia": "Liam Fox"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "WTO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "WTO",
+                "types": [],
+                "wikid": "WTO",
+                "dbpedia": "WTO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Liam Fox -> WTO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Fox wanted to roll the terms of existing EU trade deals over into new agreements.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Liam Fox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Liam Fox",
+                "types": [],
+                "wikid": "Liam Fox",
+                "dbpedia": "Liam Fox"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K. trade relationships",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K. trade relationships",
+                "types": [],
+                "wikid": "U.K. trade relationships",
+                "dbpedia": "U.K. trade relationships"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Liam Fox -> U.K. trade relationships": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Fox said his trade office... turned away some developing countries looking to negotiate free trade deals because it lacked the capacity to negotiate.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fox",
+                "types": [],
+                "wikid": "Fox",
+                "dbpedia": "Fox"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Developing countries",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Developing countries",
+                "types": [],
+                "wikid": "Developing countries",
+                "dbpedia": "Developing countries"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Fox -> Developing countries": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "But for certain industries, the EU's external tariff would have hit hard: Britain exports 78.6% of the cars it manufactures, and 60% of these go to Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The EU levies 10% tariffs on imported cars.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Companies in the U.S. across a wide variety of sectors have made large investments in the U.K. over many years. The U.S. hires a lot of Brits, making U.S. companies one of the U.K.'s largest job markets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "U.S. -> U.K.": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The output of U.S. affiliates in the United Kingdom was $129.3 billion in 2021.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "U.S. -> U.K.": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "sentence": "Where their views go against establishment EU thinking",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "challenger parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "challenger parties",
+                "types": [],
+                "wikid": "challenger parties",
+                "dbpedia": "challenger parties"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "establishment EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "establishment EU",
+                "types": [],
+                "wikid": "establishment EU",
+                "dbpedia": "establishment EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "establishment EU thinking",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "establishment EU thinking"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "challenger parties -> establishment EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "challenger parties -> establishment EU thinking": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the consultation role of the parliament on international agreements provides a tool for them to shape policy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "challenger parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "challenger parties",
+                "types": [],
+                "wikid": "challenger parties",
+                "dbpedia": "challenger parties"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "parliament",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "parliament",
+                "types": [],
+                "wikid": "parliament",
+                "dbpedia": "parliament"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "parliament's consultation role",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "parliament's consultation role"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "challenger parties -> parliament": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "challenger parties -> parliament's consultation role": [
+                1.0
+            ]
+        }
+    }
+]

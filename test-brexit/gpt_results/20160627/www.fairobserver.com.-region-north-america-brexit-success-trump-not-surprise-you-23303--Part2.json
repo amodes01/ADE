@@ -1,0 +1,143 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "migrant and refugee intake", "references": ["over a million migrants and refugees in 2015", "asylum applications", "migrants and refugees"]},
+      "justifications": [
+        "The decision to Brexit comes at a time when European nations have accepted over a million migrants and refugees in 2015 alone.",
+        "In 2015, Germany, an EU nation, received over 400,000 asylum applications."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Islamic State (IS)", "references": ["Islamic State (IS)"]},
+      "target": {"topic": "Paris attacks", "references": ["November 2015 Paris attacks"]},
+      "justifications": [
+        "the Islamic State (IS) claimed responsibility"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Islamic State (IS)", "references": ["Islamic State (IS)"]},
+      "target": {"topic": "Brussels bombings", "references": ["March 2016 bombings in Brussels"]},
+      "justifications": [
+        "the location of the European Parliament"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "George Orwell", "references": ["George Orwell"]},
+      "target": {"topic": "xenophobia", "references": ["the famous 'insularity' and 'xenophobia' of the English"]},
+      "justifications": [
+        "the writer in 1941 wrote of 'the famous 'insularity' and 'xenophobia' of the English'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "George Orwell", "references": ["George Orwell"]},
+      "target": {"topic": "working class", "references": ["working class"]},
+      "justifications": [
+        "particularly of the 'working class.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western elites", "references": ["Western elites"]},
+      "target": {"topic": "secular, liberal democratic world order", "references": ["secular, liberal democratic world order"]},
+      "justifications": [
+        "the secular, liberal democratic world order that Western elites created in the 20th century."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "economic inequality", "references": ["growing economic inequality"]},
+      "justifications": [
+        "the success of the Brexit campaign...are born of greater social and economic narratives."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump campaign", "references": ["Trump campaign"]},
+      "target": {"topic": "economic inequality", "references": ["growing economic inequality"]},
+      "justifications": [
+        "the success of the Trump campaign...are born of greater social and economic narratives."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western elders", "references": ["Western elders"]},
+      "target": {"topic": "fear of the 'other'", "references": ["fear of the 'other'"]},
+      "justifications": [
+        "fear of the 'other'...insularity and fear have proved intoxicating for elders longing for an idealized past."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western elders", "references": ["Western elders"]},
+      "target": {"topic": "insularity", "references": ["insularity"]},
+      "justifications": [
+        "insularity and fear have proved intoxicating for elders longing for an idealized past."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western elders", "references": ["Western elders"]},
+      "target": {"topic": "liberal democracy", "references": ["liberal democracy"]},
+      "justifications": [
+        "The onus then falls on the young to maintain faith in equality and toleration to ensure that liberal democracy remains a political reality."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western elites", "references": ["Western elites"]},
+      "target": {"topic": "liberal democracy", "references": ["liberal democracy"]},
+      "justifications": [
+        "the secular, liberal democratic world order that Western elites created in the 20th century."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "young people", "references": ["young"]},
+      "target": {"topic": "liberal democracy", "references": ["liberal democracy"]},
+      "justifications": [
+        "The onus then falls on the young to maintain faith in equality and toleration to ensure that liberal democracy remains a political reality."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": [
+        "In 2015, Germany, an EU nation, received over 400,000 asylum applications."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Islamic State (IS)", "references": ["Islamic State (IS)"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": [
+        "for which the Islamic State (IS) claimed responsibility, and the 2015-16 New Year's Eve sexual assaults in Germany"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Western elites", "references": ["Western elites"]},
+      "entity2": {"entity": "working class", "references": ["working class"]},
+      "justifications": [
+        "The famous 'insularity' and 'xenophobia' of the English, particularly of the 'working class.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Western elites", "references": ["Western elites"]},
+      "entity2": {"entity": "Western elders", "references": ["Western elders"]},
+      "justifications": [
+        "the secular, liberal democratic world order that Western elites created in the 20th century."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

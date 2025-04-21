@@ -1,0 +1,238 @@
+[
+    {
+        "sentence": "His anger is targeted at big banks and corporations rather than Chinese and Mexican trade negotiators",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Senator Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Senator Bernie Sanders",
+                "types": [],
+                "wikid": "Senator Bernie Sanders",
+                "dbpedia": "Senator Bernie Sanders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "big banks and corporations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "big banks and corporations"
+                ]
+            },
+            {
+                "ngram": "Chinese and Mexican trade negotiators",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Chinese and Mexican trade negotiators"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Senator Bernie Sanders -> big banks and corporations": [
+                -1.0
+            ],
+            "Senator Bernie Sanders -> Chinese and Mexican trade negotiators": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Candidate Clinton has responded to these challenges by talking down trade and withdrawing support for the Transpacific Partnership",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Transpacific Partnership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Transpacific Partnership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Transpacific Partnership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "an enormous trade agreement that Barack Obama considers a crucial part of his legacy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Transpacific Partnership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Transpacific Partnership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hillary Clinton -> Barack Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Transpacific Partnership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump's argument that a new president must \"make America great again\" won him the Republican Party nomination",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Clinton's forceful and persistent rival for the Democratic Party nomination",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Senator Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Senator Bernie Sanders",
+                "types": [],
+                "wikid": "Senator Bernie Sanders",
+                "dbpedia": "Senator Bernie Sanders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Senator Bernie Sanders -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Ian Bremmer is president of Eurasia Group",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ian Bremmer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ian Bremmer",
+                "types": [],
+                "wikid": "Ian Bremmer",
+                "dbpedia": "Ian Bremmer"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eurasia Group",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eurasia Group",
+                "types": [],
+                "wikid": "Eurasia Group",
+                "dbpedia": "Eurasia Group"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ian Bremmer -> Eurasia Group": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

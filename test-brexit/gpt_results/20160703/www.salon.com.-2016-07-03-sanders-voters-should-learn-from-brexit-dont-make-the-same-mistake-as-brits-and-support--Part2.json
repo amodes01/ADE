@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Clinton", "references": ["Clinton"]},
+      "target": {"topic": "economic issues", "references": ["major economic issues facing this country"]},
+      "justifications": ["Clinton, for all of her faults, has offered proposals that would demonstrably improve the lives of working class Americans."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "economic issues", "references": ["major economic issues facing this country"]},
+      "justifications": ["Trump has aligned his policies with those of the wealthy classes of which he is such a conspicuous part."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Clinton", "references": ["Clinton"]},
+      "target": {"topic": "mass incarceration", "references": ["era of mass incarceration"]},
+      "justifications": ["Clinton is put as ending the era of mass incarceration."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "mass incarceration", "references": ["era of mass incarceration"]},
+      "justifications": ["Trump has barely addressed or not at all addressed mass incarceration."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Clinton", "references": ["Clinton"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["Each and every time the two candidates part ways, it is because Trump has aligned his policies with those of the wealthy classes of which he is such a conspicuous part.", "Clinton, for all of her faults, has offered proposals that would demonstrably improve the lives of working class Americans."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Clinton", "references": ["Clinton"]},
+      "entity2": {"entity": "Sanders", "references": ["Sanders"]},
+      "justifications": ["as Sanders demonstrated with his campaign, the Democratic Party establishment is deeply flawed"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Clinton", "references": ["Clinton"]},
+      "justifications": ["Trump has aligned his policies with those of the wealthy classes of which he is such a conspicuous part.", "Clinton, for all of her faults, has offered proposals that would demonstrably improve the lives of working class Americans."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Clinton", "references": ["Clinton"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["Clinton does not support bigotry and Trump does"],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Emmanuel Lumineau", "references": ["Emmanuel Lumineau"]},
+      "target": {"topic": "Brexit", "references": ["Britain decided to leave the European Union"]},
+      "justifications": ["Lumineau said he would move to Paris from London and take about 10 employees at his financial startup with him.", "His customers operate under European rules and so must he.", "We need to be inside."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jamie Dimon", "references": ["Jamie Dimon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["Dimon warned his staff in a memo Friday that, in months to come, we may need to make changes to our European legal entity structure and the location of some roles.", "Dimon had said before the vote that up to a quarter of JPMorgan's 16,000 employees in Britain might need to relocate."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Juergen Maier", "references": ["Juergen Maier"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Maier said it might need to rethink its investment plans.", "He predicted others would do the same, at least until they can judge the impact of Brexit."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "British property companies", "references": ["Shares of British property companies"]},
+      "justifications": ["Shares of British property companies plunged Friday on fears that the Brexit vote will cause a recession and deflate London's real estate boom."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "London's real estate boom", "references": ["deflate London's real estate boom"]},
+      "justifications": ["Shares of British property companies plunged Friday on fears that the Brexit vote will cause a recession and deflate London's real estate boom."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European trade relationship", "references": ["Negotiations on a post-Brexit trade relationship"]},
+      "justifications": ["Negotiations on a post-Brexit trade relationship are likely to be messy and take years."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European political instability", "references": ["Europe could be in for serious political instability"]},
+      "justifications": ["Europe could be in for serious political instability as right-wing parties in France, Finland and other countries try to ride Britain's coattails out of the union."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "British tourism", "references": ["tourism industry by making Britain a cheaper place to visit"]},
+      "justifications": ["The plunging pound will help the tourism industry by making Britain a cheaper place to visit."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "British exports", "references": ["BMW Mini automobiles and other products manufactured in Britain will be less expensive for people paying in euros and other foreign currencies."]},
+      "justifications": ["BMW Mini automobiles and other products manufactured in Britain will be less expensive for people paying in euros and other foreign currencies. That could be good for exports."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "British free market", "references": ["Britain could also be free to follow its free market instincts without interference from Brussels."]},
+      "justifications": ["If the 'leave' forces are correct, that would make the country a magnet for companies seeking to escape the regulatory corset of mainland Europe."]
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Emmanuel Lumineau", "references": ["Emmanuel Lumineau"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Lumineau said he would move to Paris from London and take about 10 employees at his financial startup with him.", "His customers operate under European rules and so must he.", "We need to be inside."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jamie Dimon", "references": ["Jamie Dimon"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Dimon warned his staff in a memo Friday that, in months to come, we may need to make changes to our European legal entity structure and the location of some roles.", "Dimon had said before the vote that up to a quarter of JPMorgan's 16,000 employees in Britain might need to relocate."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Juergen Maier", "references": ["Juergen Maier"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Maier said it might need to rethink its investment plans.", "He predicted others would do the same, at least until they can judge the impact of Brexit."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Siemens", "references": ["Siemens"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Maier said it might need to rethink its investment plans.", "He predicted others would do the same, at least until they can judge the impact of Brexit."]
+      "attitude": "Negative"
+    }
+  ]
+}

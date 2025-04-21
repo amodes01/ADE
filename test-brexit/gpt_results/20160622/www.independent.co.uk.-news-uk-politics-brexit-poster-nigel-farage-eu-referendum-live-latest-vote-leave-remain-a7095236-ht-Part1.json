@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "EU referendum", "references": ["EU referendum"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Sign up to our free Brexit and beyond email for the latest headlines on what Brexit is meaning for the UK"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "EU referendum", "references": ["EU referendum"] },
+      "target": { "topic": "EU", "references": ["EU"] },
+      "justifications": ["Mr Farage accused Brussels of usurping control and sovereignty from the UK, and imposing EU law which \"is supreme\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK independence", "references": ["UK's \"Independence Day\""] },
+      "justifications": ["Vote with your heart, vote with your soul, vote with pride in this country and its people and together we can make tomorrow our Independence Day"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "justifications": ["The SNP leader Nicola Sturgeon described the poster as \"disgusting\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "Bonnie Greer", "references": ["Bonnie Greer"] },
+      "justifications": ["American playwright Bonnie Greer, who has famously clashed with Mr Farage in the past, compared him to Nazi military leader Herman Goering"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "George Osborne", "references": ["George Osborne"] },
+      "justifications": ["George Osborne, the Chancellor, described it \"disgusting and vile\" and said it had \"echoes of literature used in the 1930s\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "UKIP", "references": ["Ukip"] },
+      "justifications": ["The poster Mr Farage unveiled showed refugees on the Slovenian border - part of Europe's passport-free Schengen area"],
+      "attitude": "Neutral"
+    }
+  ]
+}

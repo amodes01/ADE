@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "Deputy Secretary of State Antony Blinken said that the U.S. would help to ensure the UK exit, expected to take about two years, goes smoothly.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> UK exit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For sure, Blinken said, \"it's going to be a complicated process.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> UK exit": [
+                -1.0
+            ]
+        }
+    }
+]

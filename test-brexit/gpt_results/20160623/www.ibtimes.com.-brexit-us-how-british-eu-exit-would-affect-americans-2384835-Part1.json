@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "U.S. real estate market", "references": ["U.S. market"] },
+      "justifications": ["The implication of Brexit taking place is that it is looking good for the U.S. market."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "U.S. companies", "references": ["Companies in a variety of sectors"] },
+      "justifications": ["Companies in a variety of sectors would feel the burden of a Brexit, in the short or the long term - or both - that might be reflected in slumping revenues, stock prices and corporate earnings."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "currency and trade risks", "references": ["might destabilize the country, affect currencies, change the trading relationship with the rest of the continent"] },
+      "justifications": ["Everything going on with this Brexit vote is concerning to us, that it might destabilize the country, affect currencies, change the trading relationship with the rest of the continent."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Investment Fund", "references": ["European Investment Fund"] },
+      "justifications": ["The European Investment Fund put 24.8 million British pounds toward the commercialization of scientific inventions, including new medicines."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Edward Mermelstein", "references": ["Edward Mermelstein"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The possibility that the U.K. might abandon the European Union has exacerbated the trend."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Aaron Klein", "references": ["Aaron Klein"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Brexit would lead to a global fall in equity prices."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "DJ Nordquist", "references": ["DJ Nordquist"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Brexit would lead to a global fall in equity prices."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Eric Ottaway", "references": ["Eric Ottaway"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Everything going on with this Brexit vote is concerning to us, that it might destabilize the country, affect currencies, change the trading relationship with the rest of the continent."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Roger Perlmutter", "references": ["Roger Perlmutter"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Roger Perlmutter, the head of research and development at Merck, a pharmaceutical company headquartered in New Jersey, has warned if the U.K. withdraws from the EU, its scientists in Britain might struggle as they had benefited from EU grants."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Merck", "references": ["Merck"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Roger Perlmutter, the head of research and development at Merck, a pharmaceutical company headquartered in New Jersey, has warned if the U.K. withdraws from the EU, its scientists in Britain might struggle as they had benefited from EU grants."]
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "European equity markets", "references": ["European equity markets"] },
+      "justifications": [
+        "Health, safety and even some traditional 'sin stocks' have already shown signs of weathering Brexit-related storms in European equity markets over the past week.",
+        "The flight to safety in the aftermath of last week's Brexit vote is sending investors scurrying back into healthcare and consumer-related stocks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "UK", "references": ["UK"] },
+      "justifications": [
+        "Stocks such as AstraZeneca PLC, Diageo PLC and British American Tobacco PLC are up between 7 percent and 11 percent since last Thursday's close.",
+        "They have led the broader market's recovery after more than $3 trillion was knocked off the value of global stocks in the two-day selloff that followed Britain's unexpected decision to leave the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "UK stock market", "references": ["FTSE 100"] },
+      "justifications": [
+        "The rally in bluechip healthcare and food and beverage stocks has even pushed the UK's FTSE 100 to less than a percent below its pre-Brexit level."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Eric Moore", "references": ["Eric Moore"] },
+      "entity2": { "entity": "Miton Income Fund", "references": ["Miton Income Fund"] },
+      "justifications": [
+        "\"There are three things at work but I think the first is the reach for dollar earnings, said Eric Moore, who runs the Miton Income Fund from London.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Eric Moore", "references": ["Eric Moore"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"In a world where GDP is probably slowing everywhere, irrespective of Brexit, there is just more uncertainty, said Moore.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Goldman Sachs, which slashed its economic forecasts for the UK and Europe after the vote, now expects earnings in 2016 for the Stoxx 600 to contract 5 percent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "defensive sectors", "references": ["food, beverage and tobacco", "healthcare shares"] },
+      "justifications": [
+        "Goldman warns against broad-based buying and recommends investors stick with food, beverage and tobacco and healthcare shares."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

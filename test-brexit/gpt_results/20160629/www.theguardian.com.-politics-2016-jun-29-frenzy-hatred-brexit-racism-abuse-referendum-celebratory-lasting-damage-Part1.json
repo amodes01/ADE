@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Lakshmi D'Souza",
+        "references": ["Lakshmi D'Souza"]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": ["Brexit", "EU referendum"]
+      },
+      "justifications": [
+        "D'Souza says that she fears the referendum has unleashed \"a frenzy of hatred\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "hate-crime action plan",
+        "references": ["hate-crime action plan"]
+      },
+      "justifications": [
+        "Asked about the rise in hate crimes during PMQs on Wednesday, David Cameron said the government would be publishing a hate-crime action plan."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Lakshmi D'Souza",
+        "references": ["Lakshmi D'Souza"]
+      },
+      "entity2": {
+        "entity": "racist individuals",
+        "references": ["a man in the street", "shouting racist abuse"]
+      },
+      "justifications": [
+        "A man in the street was shouting racist abuse at a shopkeeper and passersby."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Lakshmi D'Souza",
+        "references": ["Lakshmi D'Souza"]
+      },
+      "entity2": {
+        "entity": "the Brexit referendum",
+        "references": ["Brexit referendum"]
+      },
+      "justifications": [
+        "D'Souza says that she fears the referendum has unleashed \"a frenzy of hatred\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Colin Goffin",
+        "references": ["Colin Goffin"]
+      },
+      "entity2": {
+        "entity": "the Brexit referendum",
+        "references": ["the results of the referendum"]
+      },
+      "justifications": [
+        "Goffin went to see a Kosovan-born friend, the manager of a car wash, to discuss the vote. In the Norfolk coastal town, 72% had voted to leave."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Colin Goffin",
+        "references": ["Colin Goffin"]
+      },
+      "entity2": {
+        "entity": "racist individuals",
+        "references": ["people were slowing down to laugh at his staff, wave and mouth 'goodbye'"]
+      },
+      "justifications": [
+        "But when he arrived, the abuse against the multinational staff had already begun."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Colin Goffin",
+        "references": ["Colin Goffin"]
+      },
+      "entity2": {
+        "entity": "eastern European workers",
+        "references": ["eastern European workers"]
+      },
+      "justifications": [
+        "Goffin was told about taunts and jeers being directed at eastern European workers by 10am on Friday morning."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Toni",
+        "references": ["Toni"]
+      },
+      "entity2": {
+        "entity": "racist individuals",
+        "references": ["a group of men causing a disturbance", "shouted: 'Why are these bloody immigrants in the same queue as we are?'"]
+      },
+      "justifications": [
+        "Toni had barely touched down in the UK after a weekend in Alicante when he came across a group of men causing a disturbance at passport control."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Toni",
+        "references": ["Toni"]
+      },
+      "entity2": {
+        "entity": "the Brexit referendum",
+        "references": ["the referendum", "vote"]
+      },
+      "justifications": [
+        "Toni said he was shaken by the incident. \"I am questioning whether I should stay - will I be a second-class citizen now?\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Toni",
+        "references": ["Toni"]
+      },
+      "entity2": {
+        "entity": "immigrants",
+        "references": ["bloody immigrants"]
+      },
+      "justifications": [
+        "One of them shouted: 'Why are these bloody immigrants in the same queue as we are?'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

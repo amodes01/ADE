@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Raj Bhala",
+        "references": ["Raj Bhala"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Brexit was the nearly inevitable result of failed political leadership, failed in the sense of making the case -- and the case exists -- that EU membership benefits the UK beyond financial elites in the city of London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Raj Bhala",
+        "references": ["Raj Bhala"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["EU membership"]
+      },
+      "justifications": [
+        "Brexit was the nearly inevitable result of failed political leadership, failed in the sense of making the case -- and the case exists -- that EU membership benefits the UK beyond financial elites in the city of London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Kosali Simon",
+        "references": ["Kosali Simon"]
+      },
+      "target": {
+        "topic": "Obamacare Replacement Plan",
+        "references": ["Obamacare Replacement Announcement"]
+      },
+      "justifications": [
+        "What makes me wonder is what political experts would think of the chance that a replacement plan would be immune to such criticism."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "target": {
+        "topic": "Turkish-Israeli Reconciliation Deal",
+        "references": ["Turkish-Israeli reconciliation deal"]
+      },
+      "justifications": [
+        "Both Turkey and Israel benefit from the deal. Both have desire to limit regional isolation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "target": {
+        "topic": "Gaza Blockade",
+        "references": ["Gaza blockade"]
+      },
+      "justifications": [
+        "The failure to lift Gaza blockade significant."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "entity2": {
+        "entity": "Erdogan",
+        "references": ["Erdogan"]
+      },
+      "justifications": [
+        "The agreement was a bitter pill for Erdogan, who feels strong personal sympathy for Palestinians."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "entity2": {
+        "entity": "Turkey",
+        "references": ["Turkey"]
+      },
+      "justifications": [
+        "For Turkey, this has been particularly acute."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "entity2": {
+        "entity": "Israel",
+        "references": ["Israel"]
+      },
+      "justifications": [
+        "Both Turkey and Israel benefit from the deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Howard Eissenstat",
+        "references": ["Howard Eissenstat"]
+      },
+      "entity2": {
+        "entity": "Erdogan",
+        "references": ["Erdogan"]
+      },
+      "justifications": [
+        "The deal points to fact that Erdogan, who is often framed as an ideologue, is capable of realism."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

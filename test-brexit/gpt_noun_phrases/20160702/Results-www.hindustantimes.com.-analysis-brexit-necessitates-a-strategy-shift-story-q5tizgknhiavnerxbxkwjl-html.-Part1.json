@@ -1,0 +1,468 @@
+[
+    {
+        "sentence": "The Brexit vote was a triple protest: Against surging immigration, City of London bankers, and European Union institutions, in that order.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            },
+            {
+                "ngram": "City of London bankers",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "City of London bankers"
+                ]
+            },
+            {
+                "ngram": "European Union institutions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union institutions"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> immigration": [
+                -1.0
+            ],
+            "Brexit -> City of London bankers": [
+                -1.0
+            ],
+            "Brexit -> European Union institutions": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Leaving the EU will wound the British economy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> British economy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Leaving the EU could well push Scotland to leave the United Kingdom",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> Scottish independence": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "to say nothing of Brexit's ramifications for the future of European integration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Donald Trump's campaign for the US presidency will receive a huge boost, as will other anti-immigrant populist politicians.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-immigrant populism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-immigrant populism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> anti-immigrant populism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the UK, these two powerful political currents - rejection of immigration and class warfare - were joined by the widespread sentiment that EU institutions are dysfunctional.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU institutions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU institutions"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> EU institutions": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A major factor, however, was implicit class warfare.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "class warfare",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "class warfare"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> class warfare": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton's candidacy is heavily financed by Wall Street.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Most or all of the income losses would in any event be borne by the rich, and especially the despised bankers of the City of London.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "City of London bankers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "City of London bankers",
+                "types": [],
+                "wikid": "City of London bankers",
+                "dbpedia": "City of London bankers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> City of London bankers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Americans disdain Wall Street and its greedy and often criminal behaviour at least as much as the British working class disdains the City of London.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wall Street",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wall Street",
+                "types": [],
+                "wikid": "Wall Street",
+                "dbpedia": "Wall Street"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Wall Street": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The possible longer-run knock-on effects in Europe - including likely Scottish independence; possible Catalonian independence; a breakdown of free movement of people in the EU; a surge in anti-immigrant politics (including the possible election of Trump and France's Marine Le Pen) - are enormous.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Marine Le Pen": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Americans disdain Wall Street and its greedy and often criminal behaviour.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Americans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Americans",
+                "types": [],
+                "wikid": "Americans",
+                "dbpedia": "Americans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wall Street",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wall Street",
+                "types": [],
+                "wikid": "Wall Street",
+                "dbpedia": "Wall Street"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Americans -> Wall Street": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

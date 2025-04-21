@@ -1,0 +1,84 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "US", "references": ["US"] },
+      "target": { "topic": "Brexit", "references": ["UK voted to leave the European Union"] },
+      "justifications": ["The US would have preferred a Remain vote in the EU referendum."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "Brexit", "references": ["UK voted to leave the European Union"] },
+      "justifications": ["The US would have preferred a Remain vote in the EU referendum."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "US-UK relations", "references": ["relations with the UK"] },
+      "justifications": ["As long-standing friends of the United Kingdom, the United States respects their decision."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "US-EU relations", "references": ["US wanted to keep growing economic ties with the European Union"] },
+      "justifications": ["The US wanted to keep growing economic ties with the European Union."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "reactionary politics", "references": ["reactionary politicians and demagogues peddling xenophobia, nationalism and isolationism"] },
+      "justifications": ["Mr Biden launched a scathing attack on 'reactionary politicians and demagogues peddling xenophobia, nationalism and isolationism'."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "mass migration", "references": ["mass migration"] },
+      "justifications": ["Mr Biden said mass migration, war, terrorism, infectious diseases, climate change, economic unease and anxiety had given rise to an inevitable human reaction - frustration and anger."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "scapegoating immigrants", "references": ["scapegoat immigrants"] },
+      "justifications": ["Mr Biden said some politicians find it convenient to scapegoat immigrants instead of welcoming them."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "target": { "topic": "American values", "references": ["It is un-American what we have been seeing"] },
+      "justifications": ["Mr Biden criticised those who were intent to divide based on religion or ethnicity, rather than unite."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "entity2": { "entity": "reactionary politicians", "references": ["reactionary politicians and demagogues"] },
+      "justifications": ["Mr Biden launched a scathing attack on 'reactionary politicians and demagogues peddling xenophobia, nationalism and isolationism'."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "entity2": { "entity": "the United Kingdom", "references": ["the United Kingdom"] },
+      "justifications": ["As long-standing friends of the United Kingdom, the United States respects their decision."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": ["The US wanted to keep growing economic ties with the European Union."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "entity2": { "entity": "immigrants", "references": ["immigrants"] },
+      "justifications": ["Mr Biden said some politicians find it convenient to scapegoat immigrants instead of welcoming them."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Biden", "references": ["Joe Biden"] },
+      "entity2": { "entity": "reactionary politicians", "references": ["reactionary politicians"] },
+      "justifications": ["Mr Biden criticised those who were intent to divide based on religion or ethnicity, rather than unite."]
+      "attitude": "Negative"
+    }
+  ]
+}

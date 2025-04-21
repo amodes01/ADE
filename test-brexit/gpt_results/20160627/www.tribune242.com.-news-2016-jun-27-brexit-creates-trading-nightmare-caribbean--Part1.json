@@ -1,0 +1,138 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["British exit", "Brexit"]},
+      "justifications": [
+        "the current mood of the leadership of the EU intensifies.",
+        "They want Britain gone \"as soon as possible\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "Brexit", "references": ["British exit", "Brexit"]},
+      "justifications": [
+        "Once Britain finally leaves, the 12 Caribbean countries will have no structured trade relationship with that country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "EU trade agreements", "references": ["Lomé Convention", "Cotonou Agreement", "Economic Partnership Agreement (EPA)"]},
+      "justifications": [
+        "These relations were formalised successively in the Lomé Convention, the Cotonou Agreement and the Economic Partnership Agreement (EPA)."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "trade with Britain", "references": ["trade with Britain"]},
+      "justifications": [
+        "That scheme fell away once Britain joined the EU and negotiated the extension of some of those preferences to the English-speaking Caribbean by the European body.",
+        "the majority of their exports has been going to the British market."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "trade with Caribbean countries", "references": ["trade with the 12 Caribbean countries"]},
+      "justifications": [
+        "Once Britain finally leaves, the 12 Caribbean countries will have no structured trade relationship with that country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "trade with the EU", "references": ["trade with the EU"]},
+      "justifications": [
+        "the formal trade, aid and investment relations between the 12 Caribbean countries has been with the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "trade with Britain", "references": ["trade with Britain"]},
+      "justifications": [
+        "President Obama had warned during the debate on 'Brexit' that the UK market of 64 million people would not be high on the US agenda."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "trade agreements", "references": ["trade agreements"]},
+      "justifications": [
+        "Its first task will be to negotiate trade terms with the remaining 27 EU members, hitherto its biggest trading partner.",
+        "Britain will have to try to formalise trade agreements with other countries."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "trade with Caribbean countries", "references": ["trade with the 12 small English-speaking Caribbean countries"]},
+      "justifications": [
+        "In any event, a trade agreement with the 12 small English-speaking Caribbean countries (total market of approximately 7 million) will also not be high on Britain's list."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "tourism from Britain", "references": ["British tourists"]},
+      "justifications": [
+        "British tourists comprise a significant number of the annual visitors to the region."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "target": {"topic": "aid from Britain", "references": ["British contribution to official aid and investment"]},
+      "justifications": [
+        "More worryingly, once Britain leaves the EU, there will be several troubling consequences for the 12 Caribbean countries."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "aid to Caribbean countries", "references": ["official aid and investment"]},
+      "justifications": [
+        "It is most unlikely that the 27 EU countries, which had no historical relationship with, or colonial responsibility for, the English-speaking Caribbean, will want to maintain the level of official aid and investment that now exists."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "They want Britain gone \"as soon as possible\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "Once Britain finally leaves, the 12 Caribbean countries will have no structured trade relationship with that country.",
+        "Now that the EU will no longer be representing Britain, the EPA will not cover trade with Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Caribbean countries", "references": ["12 Caribbean countries"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "the formal trade, aid and investment relations between the 12 Caribbean countries has been with the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "President Obama had warned during the debate on 'Brexit' that the UK market of 64 million people would not be high on the US agenda."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

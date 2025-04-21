@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Walgreens Boots Alliance",
+        "references": ["Walgreens Boots Alliance"]
+      },
+      "target": {
+        "topic": "Brexit uncertainty",
+        "references": ["Brexit vote", "Brexit uncertainty"]
+      },
+      "justifications": [
+        "\"The situation, it's very volatile at this time. For sure, the period of uncertainty will be quite long, whatever happens,\\\" said Pessina, adding that it's too soon to know what impact it will have on the chain."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Walgreens Boots Alliance",
+        "references": ["Walgreens Boots Alliance"]
+      },
+      "target": {
+        "topic": "regulatory review",
+        "references": ["regulatory review", "FTC", "antitrust review"]
+      },
+      "justifications": [
+        "\"Our lawyers are telling us that we do not have any negative signal, and so we are operating on the hypothesis that we will do the deal,\\\" he explained."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Walgreens Boots Alliance",
+        "references": ["Walgreens Boots Alliance"]
+      },
+      "target": {
+        "topic": "Rite Aid acquisition",
+        "references": ["pending $9.5 billion acquisition of Rite Aid"]
+      },
+      "justifications": [
+        "\"We are operating on the hypothesis that we will do the deal,\\\" he explained."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Ross Muken",
+        "references": ["Ross Muken"]
+      },
+      "target": {
+        "topic": "Rite Aid acquisition",
+        "references": ["pending $9.5 billion acquisition of Rite Aid"]
+      },
+      "justifications": [
+        "\"There is nothing that has come up so far that would make us believe that [the Rite Aid deal] is not going to close, but it's been very difficult to predict the FTC for some time,\\\" said Muken."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Evercore ISI",
+        "references": ["Evercore ISI"]
+      },
+      "target": {
+        "topic": "Rite Aid acquisition",
+        "references": ["pending $9.5 billion acquisition of Rite Aid"]
+      },
+      "justifications": [
+        "\"There is nothing that has come up so far that would make us believe that [the Rite Aid deal] is not going to close, but it's been very difficult to predict the FTC for some time,\\\" said Muken."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Walgreens Boots Alliance",
+        "references": ["Walgreens Boots Alliance"]
+      },
+      "target": {
+        "topic": "Brexit impact",
+        "references": ["Brexit", "impact"]
+      },
+      "justifications": [
+        "\"We have seen in the stores… very good days, very bad. In a few months, probably, we will be able to say something.\\\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Alex Gourlay",
+        "references": ["Alex Gourlay"]
+      },
+      "target": {
+        "topic": "Brexit uncertainty",
+        "references": ["Brexit uncertainty"]
+      },
+      "justifications": [
+        "\"Historically, Boots has been very solid through difficult times, but it tends to overperform the market during recessions or slowdowns because it's got a very strong beauty business and people still buy into beauty even in tough times,\\\" he said."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Walgreens Boots Alliance",
+        "references": ["Walgreens Boots Alliance"]
+      },
+      "entity2": {
+        "entity": "Rite Aid",
+        "references": ["Rite Aid"]
+      },
+      "justifications": [
+        "\"We are operating on the hypothesis that we will do the deal,\\\" he explained."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Evercore ISI",
+        "references": ["Evercore ISI"]
+      },
+      "entity2": {
+        "entity": "FTC",
+        "references": ["FTC"]
+      },
+      "justifications": [
+        "\"It's been very difficult to predict the FTC for some time,\\\" said Muken."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Alex Gourlay",
+        "references": ["Alex Gourlay"]
+      },
+      "entity2": {
+        "entity": "Brexit uncertainty",
+        "references": ["Brexit uncertainty"]
+      },
+      "justifications": [
+        "\"Historically, Boots has been very solid through difficult times, but it tends to overperform the market during recessions or slowdowns because it's got a very strong beauty business and people still buy into beauty even in tough times,\\\" he said."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

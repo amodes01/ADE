@@ -1,0 +1,3744 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="/_includes/css/header-top.min.css?dt=20210929023940" />
+   <script src="/_includes/js/typeit.js"></script>
+   <script src="/_includes/js/searchtextbox.js"></script>
+    
+    <style>
+        /* #region /css/master.css */
+        /*Modify .pageWidth width property for complete page.*/
+.pageWidth {width: 1000px;}
+
+body { background-color: /*#3e5b84;*/white; font-size: 14px; font-family: Tahoma, Geneva, sans-serif; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+	   /*background-color: #b9b9b9;*/ /*background-color: #004689;*/ /*font-family:Tahoma, Geneva, sans-serif;*/ /*background: url(http://dev.infotel.ca/images/winter30.jpg) no-repeat center center fixed;*/ /*background-color: #eaeaea;*/ }
+
+/*#contest_link { background-image:url(http://dev.infotel.ca/images/bg_img2.png);}*/
+/*backgound img for header*/
+body {
+  /*background: url(http://dev.infotel.ca/images/blank-infonews-rectangle.gif) no-repeat top center fixed;*/
+  /*background: url(http://dev.infotel.ca/images/bg.jpg) no-repeat top center fixed;*/
+  /*background-position: 0px 17px;
+ background-position: 0px 0px;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;*/
+
+/*background: url('http://dev.infotel.ca/images/bg.png') no-repeat top center fixed;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;*/
+}
+
+/*#region Common Tags CSS. Hash UL.LI later*/
+ul, li { margin: 0; padding: 0; }
+img { border-width: 0px; }
+.center { text-align: center; }
+.clear { clear: both; }
+a { text-decoration: none; color: #000; }
+a:hover { text-decoration: underline; color: #000; }
+a:visited { color: #000; }
+.spacer2 { height: 5px; }
+/*#endregion*/
+
+.ghost-text { color: #888 !important; font-size:large;font-style:italic; }
+
+/*Modify width to change overall page width*/
+.wrapper { margin: 0 auto; padding: 8px; background-color: #FFF; border:solid thin #c6c6c6 !important;}
+
+.banner_top { min-height: 90px; margin: 0 0 10px; list-style: none outside none; display: inline-block; padding: 10px 0 0 0; }
+	.banner_top li { list-style: none; float: left; margin-left: 3px; height: 90px; }
+		.banner_top li:first-child { margin-left: 0 !important; }
+
+p.avant_adb_block {
+	display: block;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+/*.header { background-color: #ffe439; }*/
+
+/*
+.header { background-color: #ffffff;}
+.header_top { width: 100%; float:left; min-height: 170px;}
+.header_top.kamloops  {background: url(/images/logos/header-kamloops.png) no-repeat;}
+.header_top.vernon    {background: url(/images/logos/header-vernon.png) no-repeat;}
+.header_top.penticton {background: url(/images/logos/header-penticton.png) no-repeat;}
+.header_top.kelowna   {background: url(/images/logos/header-kelowna.png) no-repeat;}
+*/
+
+.header_logo { width: 300px; float: left; margin-top: 5px; margin-left: 5px; /*height: 53px; -moz-background-size:200px; -o-background-size:200px; background-size:200px; background: url(/images/logo_ie.png) no-repeat; */ }
+.header_top_Content { float: right; margin-top: 0px; margin-right: 5px;}
+.left_ten, .align_right { margin-left: 10px; float: right!important; }
+ul.wide.news.align_right {border-right:0px;}
+/*.header_powered_by {width:250px; text-align:right; font-size:10px;*//*background-color: yellow;*/ /*margin-left:440px; margin-top: 2px; padding: 2px 2px 2px 2px; border-radius: 5px;opacity:0.7;}*/
+/*.header_powered_by
+{width:400px;
+ text-align:left;
+ font-size:16px;
+ color:white;
+ font-weight: bolder;
+ background-color: yellow;
+ margin-left:410px;
+ margin-right:230px;
+ margin-top: 1px;
+ padding: 2px 2px 2px 2px;
+ border-radius: 5px;
+ opacity:0.7;}*/
+/*#region Old CSS for Header Control - NEW CSS Library Below*/
+/*.header_links_list {list-style: none outside none; padding-top: 25px;float: right; font-family: Arial; font-size: 12px;width: 595px;  }
+	.header_links_list li { list-style: none; float: left; margin: 0px; font-size: medium;}
+	.header_links_list li span {color: #FFF; text-decoration: underline;cursor:pointer;}
+		.header_links_list li span:hover { color: #b9090b; }*/
+
+/* iPad [portrait + landscape] */
+/* iPad [portrait only] */
+/*@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation : portrait),
+screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation : portrait)
+{
+	.header_links_list { list-style: none outside none; display: inline-block; padding: 25px 0px 0 40px;margin: 0px; float: right; font-family: Arial; font-size: 12px; }
+}*/
+
+/* iPads (landscape) ----------- */
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+	.header_links_list { list-style: none outside none; display: inline-block; padding: 25px 0px 0 30px; margin: 0px; float: right; font-family: Arial; font-size: 12px; }
+}*/
+
+/*.header_search { float: right; font-family: Tahoma, Geneva, sans-serif;width: 595px; font-size: 17px; color: #FFF; margin-top: 10px; clear: both;-moz-transition-property: all, background-color; -o-transition-property: all, background-color; -webkit-transition-property: all, background-color; transition-property: all, background-color; -moz-transition-duration: 0.3s, 1s; -o-transition-duration: 0.3s, 1s; -webkit-transition-duration: 0.3s, 1s; transition-duration: 0.3s, 1s; }
+	.header_search input[type="text"] { width: 190px; height: 19px; border: #abadb3 solid 1px; padding: 2px; }
+	.header_search input[type="image"] { margin-left: 5px; vertical-align: middle; }
+.header_search_focus { background-color:white;}
+*/
+ /*.header_powered_by {float:right; display:inline-block; font-size:10px; background-color: white; margin-top:2px; padding: 2px 2px 2px 5px; border-radius: 5px;opacity:0.7;}*/
+
+/*#txtBusinessSearch {width: 175px;}*/
+/*.header_mmredirect {color: #000; text-align:right; padding-top: 5px; padding-right: 68px; font-family: Tahoma, Geneva, sans-serif;font-size: 14px;  position: relative;}
+.infotel_websites {width: 125px; float: left; position: absolute; left:250px;}
+.businessCategoriesLink { width: 250px; float: left; padding: 0px 0px 0px 0px; font-size: small; text-align: left; padding-top: 0px; color: #FFF; }
+	.businessCategoriesLink a { color: #FFF; }
+
+.muyhp { width: 210px; float: left; margin-left: 10px; font-size: 12px; padding-top: 0px; color:#FFF; }
+	.muyhp a { color: #FFF;}*/
+/*#endregion*/
+
+/*#region Simplified CSS for Header Right*/
+.header_right { float: right; padding-right: 55px; padding-top:25px; border: 0px; font-size: larger;}
+.header_left { float: right; margin:0 30px 0 20px; padding-top:68px; border: 0px; color:white; text-align:center;}
+.header_quick_links { padding: 0 5px 0 0; list-style: none outside none; font-family: Arial; font-size: small; text-align:right; }
+	.header_quick_links li { display: inline; list-style: none; color: white; }
+		.header_quick_links li:not(:first-child):before { content: " | ";cursor:default; }
+		.header_quick_links li span { text-decoration: none; cursor: pointer; }
+			.header_quick_links li span:hover { color: #B9090B;}
+
+.header_searchBar { font-size: 17px; line-height: 24px; /*color: #000; height: 75px;*/ margin-top: 45px;margin-bottom:7px; border: 0px; }
+    .header_searchBar input[type="text"] {
+        height: 60px;
+        line-height: 25px;
+        border: 0;
+        margin-right: 3px;
+        font-size: 24px;
+        background: url(/images/searchTxt-bg.png) no-repeat transparent -1px 0;
+        width: 430px;
+        padding:0 10px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        /*float: left;
+        padding: 2px;
+        width: 500px;
+        padding-right: 0px;
+        margin-left: 5px;
+        background-image: url(../images/search-bg.png);
+        background-repeat: no-repeat;
+        background-color: transparent;*/
+    }
+	.header_searchBar input[type="image"] {/*margin-left: -71px; padding-top: 1px;*/ padding-right: 1px; float:right;  border: 0px;height: 60px; }
+    .header_searchBar_focus { font-size: 17px; color: #000; line-height: 24px; height: 25px; margin-top: 45px;margin-bottom:5px; border: 0px;  }
+
+    textarea:focus, input:focus{ padding-left: 0px; outline: 0; font-style:italic;  }
+    label[data-break-label] {
+      width: 405px;cursor: text;position: absolute;outline: 0;opacity:0;visibility:hidden;
+      -webkit-transition: all 0.1s ease-out;-moz-transition: all 0.1s ease-out;-o-transition: all 0.1s ease-out;transition: all 0.1s ease-out;
+      -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+      margin: 15px 0 0 14px;
+      font: italic 500 17px/18px Arial;
+      color: #888;
+      overflow:hidden;
+
+    }
+    label[data-break-label].break-label-on {
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+.header_other_links {font-size:small; }
+.header_other_links a,.header_other_links a:hover {color:white !important; }
+
+/*#region Replicated Dell iPad/iPhone CSS Code wrt to new Classes. - Although seems irrelevant */
+/* iPad [portrait + landscape] */
+/* iPad [portrait only] */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation : portrait),
+screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation : portrait)
+{
+    .header_quick_links { padding: 20px 0px 0 40px;}
+}
+
+ul.header_other_links {
+	list-style-type:none;
+}
+
+ul.header_other_links li { display:inline;margin-left:10px; }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+	.header_quick_links { padding: 20px 0px 0 30px; }
+}
+
+/*#endregion*/
+/*#endregion*/
+
+.weather_header { width: 200px; float: left; clear: none; padding: 30px 0 0 10px; font-size: xx-small; }
+.tagline h2 { font-size: 13px; font-style: italic; padding: 0px; margin: 0px; color: black; font-family: Tahoma, Geneva, sans-serif; border-bottom: none; }
+
+
+.bookmark { background-image: url(../images/home.png); background-position: 0px center; background-repeat: no-repeat; padding-left: 25px; padding-right: 10px; float: right; line-height: 47px; clear:none;}
+	.bookmark a { font-family: Tahoma, Geneva, sans-serif; font-size: 18px; color: #000; text-decoration: none; }
+		.bookmark a:hover { color: #0151a2; text-decoration: none;}
+
+/*#region Category Panel CSS*/
+.header_categories { overflow: hidden; min-height: 40px; background: -webkit-linear-gradient(top, rgb(250, 199, 32) 0%, rgb(254, 213, 71) 59%); background: -o-linear-gradient(top, rgb(250, 199, 32) 0%, rgb(254, 213, 71) 59%); background: -ms-linear-gradient(top, rgb(250, 199, 32) 0%, rgb(254, 213, 71) 59%); background: -moz-linear-gradient(top, rgb(250, 199, 32) 0%, rgb(254, 213, 71) 59%); background: linear-gradient(top, rgb(250, 199, 32) 0%, rgb(254, 213, 71) 59%); }
+.red { color: #ff1200; }
+.panelmenu { list-style-type: none; margin: 0px; padding: 0px; padding-right: 2px; padding-bottom: 5px; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; text-align: left; color: #000000; height: 30px; vertical-align: top; clear: none; float: left; }
+	.panelmenu li { cursor: pointer; background-color: #FAC81F; list-style: none; height: 20px; background: url(../images/arrow.png) 0 8px; background-repeat: no-repeat; margin: 7px 5px 0px 10px; padding-left: 20px; float: left; }
+		.panelmenu li a { color: #000; text-decoration: none; }
+			.panelmenu li a:hover { color: #0151a2; text-decoration: none;}
+		.panelmenu li.activePanel { color: #b9090b; }
+.panelmenu_Content { padding: 5px 11px 10px; display: none; background-color: #fac921; clear:both;}
+ul.colList { width: 24.2%; margin: 2px; margin-right: 1px; padding: 0px; padding-bottom: 5px; float: left;  }
+ul.colList li { margin: 0px; background: url(../images/arrow-small.png) 0 8px !important; background-repeat: no-repeat !important; margin-left: 0 !important; padding-left: 10px !important; height: auto !important; list-style: none outside none; }
+	ul.colList li a, ul.colList li a:visited { width: 85.2%; display: inline-block; color: black; padding: 4px 0px; padding-left: 5px; vertical-align: middle; font-size: 14px !important; font-family: Tahoma, Geneva, sans-serif; font-size: 18px; text-decoration: none; }
+	ul.colList li:hover a { display: inline-block; background-color: #E3F1FF; cursor: pointer; border: solid 1px #7da2ce; padding: 3px 0px; padding-left: 5px; border-width: 1px 0px; height: auto !important; color: rgb(1, 81, 162); }
+	ul.colList li.yellow:hover a { display: inline-block; background-color: #FFFFCC; cursor: pointer; border: solid 1px #FCDE64; padding: 3px 0px; padding-left: 5px; border-width: 1px 0px; }
+/*#endregion End Category Panel CSS Code*/
+
+/*#region Menubar Header CSS */
+.activeMenuTab { color: Red !important; }
+
+.header_menu { max-height: 37px; width:99.8%;float:left; font-size: 16px; font-family:Tahoma, Geneva, sans-serif;
+			  /* background-color: #3e5b84 !important;
+			   border: 1px solid #39547a !important;
+			   background-repeat: repeat-x !important;
+			   background-image: linear-gradient(to bottom, #5278ae, #213046) !important;*/
+
+				 background-color: #000000 !important;
+			   border: 1px solid #000000 !important;
+			   background-repeat: repeat-x !important;
+			   background-image: linear-gradient(to bottom, #000000, #000000) !important;
+}
+
+ul.menubar { list-style: none outside none; display: block; float:left; font-family:Tahoma, Geneva, sans-serif; font-size: 13px; }
+	ul.menubar > li { float: left; display: block; padding: 0 5px; margin: 0 3px; }
+		ul.menubar > li > a { display:block; text-align: center; text-decoration: none; color: white; height: 30px; margin-top: 10px; font-family: Tahoma, Geneva, sans-serif; font-size: 15px; }
+		ul.menubar > li:hover {background: -webkit-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%); background: -o-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%); background: -ms-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%); background: -moz-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%); background: linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%); }
+			ul.menubar > li:hover > a { color: white; }
+
+			ul.menubar li:hover > ul.sub_menubar { display: block; }
+		ul.menubar > li > span { float: left; text-align: center; text-decoration: none; color: black; height: 30px; margin-top: 10px; }
+		ul.menubar > li:hover > span { color: white; }
+
+/*#region Sub Menubar list*/
+ul.sub_menubar { /*font-family:Tahoma, Geneva, sans-serif;
+				 list-style: none outside none;
+				 display: none;
+				 clear: both;
+				 position: absolute;
+				 z-index:2500;
+				 margin-top: -3px;
+				 padding: 0px;
+				 margin-left: 0px;
+				 background-color: #3e5b84;
+				 border: 1px solid #39547a;
+	 background-image: -moz-linear-gradient(top, #5278ae, #213046) !important;background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5278ae), to(#213046)) !important;
+	 background-image: -webkit-linear-gradient(top, #5278ae, #213046) !important;background-image: -o-linear-gradient(top, #5278ae, #213046) !important;/*border: #0094ff solid 1px; background-color: #0063ab;*/
+	/*background-image: linear-gradient(to bottom, #5278ae, #213046) !important;background-repeat: repeat-x;*/ /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5278ae', endColorstr='#213046', GradientType=0) !important*//*;*/
+
+	  font-family:Tahoma, Geneva, sans-serif;
+				 list-style: none outside none;
+				 display: none;
+				 clear: both;
+				 position: absolute;
+				 z-index:2500;
+				 margin-top: -3px;
+				 padding: 0px;
+				 margin-left: 0px;
+				 background-color: black;
+				 border: 1px solid black;
+	 background-image: -moz-linear-gradient(top, black, black) !important;background-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black)) !important;
+	 background-image: -webkit-linear-gradient(top, black, black) !important;background-image: -o-linear-gradient(top, black, black) !important;/*border: #0094ff solid 1px; background-color: #0063ab;*/
+	 background-image: linear-gradient(to bottom, black, black) !important;background-repeat: repeat-x; /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5278ae', endColorstr='#213046', GradientType=0) !important*/;
+
+}
+	ul.sub_menubar li { line-height: 20px; padding: 7px 0px; float: none;}
+		ul.sub_menubar li a { padding: 0px 10px; min-width: 120px; display: block; color: #FFF; text-decoration: none; }
+			ul.sub_menubar li a:hover { /*color: #ffe600;*/color: grey; font-size: 16px; text-decoration: none; }
+/*#endregion*/
+
+		ul.sub_menubar li:hover ul.sub_menubar { left: -140px; margin-top: -15px; float: left; }
+	   /*To change the direction of sub-sub menu towards right comment top rule and uncomment the following rule*/
+		/*ul.sub_menubar li:hover ul.sub_menubar { right: 100%; margin-top: -15px; margin-left:-1px }*/
+
+	/**added jan22 by dell-all this code is in addition to original code*/
+	/*ul.sub_menubar  li ul li:first-child a{border-top:solid 5px #fff;}
+	ul.sub_menubar  li ul li:last-child a{border-bottom:solid 5px #fff;}
+		ul.sub_menubar  li ul li a{ border-bottom:solid 1px #f4f4f4; border-right:5px solid #fff; border-left:5px solid #fff; border-radius:0px!important; margin:0px; padding:8px}*/
+	/*Following Block is comment by Imran - Not needed. See note above*/
+	/*ul.sub_menubar li:hover ul ul { display: none; z-index: 3000; }
+	ul.sub_menubar li ul li:hover > ul { display: block; }
+	ul.sub_menubar li ul { position: absolute; display: none; width: 150px; margin-top: -10px; left: -160px; z-index: 3100; }
+	ul.sub_menubar li:hover ul { display: block; }
+	ul.sub_menubar li ul li { display: block; position: relative; border: none; width: 200px; }
+		ul.sub_menubar li ul li ul { display: none; position: absolute; top: -10%; left: -160px; width: 150px; margin-top: 5px; z-index: 3200; }
+			ul.sub_menubar li ul li ul li ul { display: none; position: absolute; top: -10%; left: -160px; width: 150px; z-index: 3300; }
+				ul.sub_menubar li ul li ul li ul li ul { display: none; position: absolute; top: -10%; left: -160px; width: 150px; z-index: 3300; }*/
+	/*end jan 22 addition*/
+/*#endregion End Menubar Header*/
+
+/*Header Books/Active Book*/
+.header_toolbar { max-height: 60px; margin-top: 5px; /*overflow:hidden;*/ float:left; width:100%;position:relative; border: 1px solid transparent; border-top:0px;border-bottom-width:0px; padding-bottom:3px;
+				background: -webkit-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -o-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -ms-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -moz-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+}
+.header_books { list-style: none outside none; padding: 0px; float: left; line-height: 43px; margin: 0; }
+	.header_books > li { float: left; display: inline; margin: 0px 4px 0 5px; }
+		.header_books > li a
+		{ padding: 6px 10px;
+		  font-family: Tahoma, Geneva, sans-serif;
+		  font-size: 12px;
+		  letter-spacing: 1px;
+		  text-decoration: none;
+		  color: white;
+		  border-radius: 4px; /*march 8 change by dell*/
+		 /*background-color: #3e5b84 !important;
+		  border: 1px solid #39547a !important;
+		  background-repeat: repeat-x !important;
+		  background-image: linear-gradient(to bottom, #5278ae, #213046) !important; */
+
+		   background-color: #000000 !important;
+		  border: 1px solid #000000 !important;
+		  background-repeat: repeat-x !important;
+		  background-image: linear-gradient(to bottom, #000000, #000000) !important;
+		}
+		.header_books > li a:hover, .header_books > li a.activeBook {
+			/*march 8 change by dell*/
+			/*background: -o-linear-gradient(top, rgb(255, 236, 118) 0%, rgb(255, 226, 44) 62%, rgb(255, 221, 2) 100%);
+			background: -ms-linear-gradient(top, rgb(255, 236, 118) 0%, rgb(255, 226, 44) 62%, rgb(255, 221, 2) 100%);
+			background: -moz-linear-gradient(top, rgb(255, 236, 118) 0%, rgb(255, 226, 44) 62%, rgb(255, 221, 2) 100%);
+			background: linear-gradient(top, rgb(255, 236, 118) 0%, rgb(255, 226, 44) 62%, rgb(255, 221, 2) 100%);
+				background-color: #FFEC76;
+				box-shadow: 0 2px 0 #F5C916;*/
+				/*color: yellow;*/
+
+				 background: -o-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 62%, rgb(255, 255, 255) 100%);
+			background: -ms-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 62%, rgb(255, 255, 255) 100%);
+			background: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 62%, rgb(255, 255, 255) 100%);
+			background: linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 62%, rgb(255, 255, 255) 100%);
+				/*background-color: #FFEC76;
+				box-shadow: 0 2px 0 #F5C916;*/
+				color: red;
+				text-decoration: none;}
+
+/*Header Date + Social*/
+.header_infobar { float: right;/*width:625px; margin-top: 2px;*/ line-height: 43px; font-family:Tahoma, Geneva, sans-serif; font-size: 12px; color: #3e5b84;}
+	/*.header_infobar td {font-size:medium;}*/
+.social_bar { margin-right: 5px; float: right; margin-left: 40px; }
+	.social_bar img { height: 24px; width: 24px; vertical-align: middle; padding: 0 2px; margin-top: -1px; }
+	.social_bar a { text-decoration: none; }
+
+.social_barmm { margin-right: 5px; float: right; margin-left: 10px; margin-top:0px; }
+	.social_barmm img { height: 24px; width: 24px; vertical-align: middle; padding: 0 2px; margin-top: 10px; }
+	.social_barmm a { text-decoration: none; }
+/*#region Social Icon Menu*/
+.social_bar_menu { right: 0px; padding: 0px 4px; border-radius: 2px; position: absolute; z-index: 50; line-height: initial; margin:3px 4px; }
+	.social_bar_menu > li { float: left; list-style: none; display: inline-block; border: solid 1px transparent;margin-top: 2px; }
+		.social_bar_menu > li:hover { border: solid 1px #DDD; background-color: #FFF; border-radius: 5px 5px 0px 0px; border-bottom: 0px; }
+	.social_bar_menu li:hover > .dropdown-menu { display: block; z-index: -1; }
+	.social_bar_menu .social { display: inline-block; width: 24px; height: 24px; background-position: center center; background-repeat: no-repeat; padding: 4px 5px; }
+    .social_bar_menu .newsletter.social { display: inline-block; width: 72px; height: 24px; background-position: center center; background-repeat: no-repeat; padding: 4px 5px; }
+.dropdown-menu { min-width: 160px; list-style: none; background: #FFF; border: solid 1px #DDD; border-radius: 6px; box-shadow: 0 5px 10px rgba(0, 0, 0, .2); overflow: visible; padding: 4px 0; margin: 0px; border-top-left-radius: 0px; display: none; margin-top: -1px; margin-left: -1px; position: absolute; }
+	.dropdown-menu li { list-style: none; padding: 0 0; margin: 0; line-height: 18px; }
+		.dropdown-menu li > a { display: block; color: #555; text-decoration: none; line-height: 18px; padding: 3px 15px; white-space: nowrap; }
+			.dropdown-menu li > a:hover { background-color: #08C; color: #FFF; cursor: pointer; }
+
+	.dropdown-menu .dropdown-divider { font-size: 1px; border-top: solid 1px #E5E5E5; padding: 0; margin: 3px 0; }
+
+.has-icons li > a { padding-left: 40px; background-position: 8px center; background-repeat: no-repeat; line-height: 24px; }
+
+.social_bar_menu .twitter a { background-image: url(/images/twitter.png); }
+.social_bar_menu .facebook a { background-image: url(/images/facebook.png); }
+.social_bar_menu .linkedin a { background-image: url(/images/linkedin.png); }
+.social_bar_menu .rss a { background-image: url(/images/rss.png); background-size:28px; }
+.social_bar_menu .gplus a {background-image:url(https://ssl.gstatic.com/images/icons/gplus-32.png); background-size:24px;}
+.social_bar_menu .gplus:hover {border-bottom: 1px solid #DDD !important;border-radius: 5px !important;}
+.social_bar_menu .youtube a {background-image: url(/images/youtube.png);}
+.social_bar_menu .instagram a {background-image: url(/images/instagram.png);}
+.social_bar_menu .flipboard a {background-image: url(/images/flipboard.png);}
+/*#endregion*/
+
+.page_content {clear:both; padding-top:5px;display:table;width:100%;}
+.page_content h1 { /*font-family: Georgia, "Times New Roman", Times, serif;*/ font-size: 18px; /*border-bottom: RED solid 1px;*/ margin: 10px !important; margin-bottom: 1px; }
+
+/*#region Weather CSS*/
+@-webkit-keyframes blinker {from { opacity: 1.0; } to { opacity: 0.0; }}
+@-moz-keyframes blinker {from { opacity: 1.0; } to {opacity: 0.0;}}
+@keyframes blinker {from { opacity: 1.0; } to {opacity: 0.0;}}
+
+.css3-blink { -webkit-animation-name: blinker; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0); -webkit-animation-duration: 1s; text-decoration: blink; color: White !important; }
+
+.weatherWarning {font-weight:bold; background-color:Red; font-size:large;text-align:center; padding:5px; }
+.weatherWatch {font-weight:bold; background-color:gray; font-size:large;text-align:center; padding:5px; }
+.weatherSpecial {font-weight:bold; background-color:lightgray; font-size:large;text-align:center; padding:5px; }
+
+.weather_bar { list-style: none outside none; display: inline-block; clear:both;  }
+.weather_bar > li { list-style: none; float: left; padding:0 0px; }
+	.weather_bar > li a { color: black; }
+.weatherTitle { display:block; width: 113px; padding-left:7px; margin-bottom:2px; background-image:url(../images/arrow-small.png); background-repeat:no-repeat; background-position:left center; font-size:12px; }
+.currentWeather { clear:left;}
+.weather_image { display: block; float: left; padding:0 2px 0 3px; }
+	.weather_image > img { width:55px; height:47px; }
+
+.condition {font-size:11px !important; }
+.temp {display:block;float:left; font-size:16px; margin:3px auto; text-align: center;}
+.temp > span { display: block; font-size:11px; }
+.high, .red {color: red; }
+.low { }
+.pop {font-size:x-small !important;}
+.weather_footer {display:block; font-size:x-small;clear:left; }
+	.weather_footer a {color:black;float:right; }
+ /*#endregion Weather CSS*/
+
+/*Footer Area CSS*/
+.footer { margin: 0 auto; padding: 8px; background-color: black; clear:both; }
+.footer_menu { height: 40px; border-bottom: #e0e0e0 solid 1px; }
+.footer_newsbar { clear: both; padding-bottom: /*20px*/ 0px; margin-top: /*9px*/0px; margin-left: 100px;}
+	.footer_newsbar > .social_bar { margin-top: 3px; margin-left:0px; }
+	.footer_newsbar > ul { width: 19%; list-style: none outside none; float: left; margin: 0px; padding: 0px/*10px*/ 0 0 20px; /*font-family: Georgia;*/ font-family: Arial; }
+		.footer_newsbar > ul h4 { margin: 0 0 10px; font-size: /*14px*/16px; /*background-image: url(/images/arrow2.png);*/ background-image: url(/images/arrow-right.png); background-repeat: no-repeat; padding-left: 20px; border-bottom: 0px; color:white;}
+		.footer_newsbar > ul li { /*the font size is new*/font-size: 11px; list-style: none;/*added list style*/ margin-left: 20px; }
+			.footer_newsbar > ul li a { font-size: 11px; /*12px;*/ color: white;  }
+
+.gSearch { clear: both; padding: 0px; float:left; width:275px;border:none; background-color:transparent; }
+.aboutus { font-size: 12px !important; font-weight: bold; margin: auto; padding: 8px; line-height: 30px; margin-bottom:4px; background-color: #EAEAEA; text-align: center; background: -webkit-linear-gradient(top, white 0%, rgb(207, 207, 207) 100%); background: -o-linear-gradient(top, white 0%, rgb(207, 207, 207) 100%); background: -ms-linear-gradient(top, white 0%, rgb(207, 207, 207) 100%); background: -moz-linear-gradient(top, white 0%, rgb(207, 207, 207) 100%); background: linear-gradient(top, white 0%, rgb(207, 207, 207) 100%); }
+.copyright { float: left; }
+.footer_logo { float: right; }
+.footer_links { list-style: none outside none; display: inline-block; padding: 0px; margin: 0px; margin-left: -25px; }
+	.footer_links li { list-style: none; float: left; margin: 0px; }
+		.footer_links li a { color: #000; }
+/*End Footer*/
+
+.tabhold {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	color: #666666;
+	background-color: #ECECEC;
+	padding-top: 7px;
+	padding-right: 6px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #ECECEC;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FBCF1C;
+	border-left-color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+.tabfocus {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding-top: 7px;
+	padding-right: 6px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	border-top-width: 3px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FBCF1C;
+	border-right-color: #FBCF1C;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FBCF1C;
+	text-decoration: none;
+}
+#top_main_slider { float: left; }
+.ad_widgets_top { width: 300px; float: right; }
+.movies_on_ttd { background: url('/images/movie_listings.png') no-repeat; width: 230px; height: 153px; display: block; text-align: center; margin: 0px auto; vertical-align: top; float: left; }
+.movies_on_ttd2 { background: url('/images/movie_listings2.png') no-repeat; width: 300px; height: 250px; display: block; margin-top: 20px; text-align: center; vertical-align: middle; }
+.movies_on_ttd3 { background: url('/images/movie_listings2.png') no-repeat; width: 300px; height: 175px; display: block; margin-top: 5px; text-align: center; vertical-align: middle; padding:30px 0px 0px 25px;}
+#travel_info { vertical-align: top; }
+#imgHoroscope { padding-right: 10px; }
+.styled-select { padding-top: 60px; padding-left: 50px; }
+.error ul { color: #FF0000; padding-left: 20px; }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.header_logo img { width: 275px; height: 90px; padding: 7px 0 0 7px; }
+}
+
+/*back top top css*/
+#back-to-top { position: fixed; bottom: 50px; right: 10px; z-index: 200; }
+	#back-to-top a { text-align: center; text-decoration: none; color: #d1d1d1; display: block; width: 50px; -moz-transition: color 1s; -webkit-transition: color 1s; -o-transition: color 1s; }
+		#back-to-top a:hover { color: #979797; }
+		#back-to-top a span { background: #d1d1d1; border-radius: 6px; display: block; height: 50px; width: 50px; background: #d1d1d1 url(/images/arrow-up.png) no-repeat center center; margin-bottom: 25px; -moz-transition: background 1s; -webkit-transition: background 1s; -o-transition: background 1s; }
+		#back-to-top a:hover span { background: #979797 url(/images/arrow-up.png) no-repeat center center; }
+/*end back to top css*/
+
+@font-face { font-family: 'Glyphicons Halflings'; src: url('https://netdna.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot'); src: url('https://netdna.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+.glyphicon { position: relative; margin-right: 5px; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.UpdatePanelProgress {position: absolute; background-color: #FAFAFA; z-index: 2147483647 !important; opacity: 0.8; overflow: hidden; text-align: center; top: 0; left: 0; height: 100%; width: 100%; padding-top: 20%; }
+
+/*#region iFrame Video Widget*/
+.video-widget {padding: 5px 2px 2px !important;}
+
+.embed-responsive {position: relative; display: block; margin-top: 2px; overflow: hidden;}
+    .embed-responsive iframe {position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0;}
+.embed-responsive-16by9 {padding-bottom: 56.25%;}
+
+.gradient-heading {
+    font-size: 24px;
+    font-family: Arial, Verdana;
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    font-stretch: semi-expanded;
+    word-spacing: 5px;
+    border-bottom: solid 1px #c6c6c6;
+    margin-left: -2px;
+    margin-right: -2px;
+    position: relative;
+    text-shadow: 1px 1px 3px #999;
+}
+    .gradient-heading:after {
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 43%, rgba(255,255,255,0.75) 100%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 43%, rgba(255,255,255,0.75) 100%);
+        background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 43%, rgba(255,255,255,0.75) 100%);
+        background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 43%, rgba(255,255,255,0.75) 100%);
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 43%, rgba(255,255,255,0.75) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+    }
+/*#endregion */
+/*#endregion */
+    </style>
+
+    
+    <style>
+        /* #region /css/main.css */
+        .category_title {
+    margin:3px 0 5px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 38px;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #fbd025 0%, #fff 30%,#fbd129 75%, #FC3 100%);
+    background: -o-linear-gradient(top, #fbd025 0%, #fff 30%,#fbd129 75%, #FC3 100%);
+    background: -ms-linear-gradient(top, #fbd025 0%, #fff 30%,#fbd129 75%, #FC3 100%);
+    background: -moz-linear-gradient(top, #fbd025 0%, #fff 30%,#fbd129 75%, #FC3 100%);
+    background: linear-gradient(top, #fbd025 0%, #fff 30%,#fbd129 75%, #FC3 100%);
+}
+.widgetSpacer {height:5px; }
+.left_col { width: 68.75%; float: left; margin:0 5px;}
+.right_col { width: 30.15%; float: right; overflow: hidden; padding-top:0px;}
+.left_col_bus_results { width: 60.75%; float: left; margin:0 5px;}
+.right_col_bus_results { width: 38.15%; float: right; overflow: hidden; padding-top:0px;}
+.newsitem_trendingnow {font-family:Tahoma, Geneva, sans-serif;text-decoration:none;color:red;font-size: medium;}
+.newsitem_trendingnow h2{font-family:Tahoma, Geneva, sans-serif;text-decoration:none;color:red;font-size: medium;}
+.tabContentMenu { background-color: #ececec; border-bottom: solid 1px #ECECEC; list-style: none; }
+    .tabContentMenu:before, .tabContentMenu:after { content: ""; display: table; clear: both; }
+
+.tabItem { float: left;  text-transform: capitalize; color: #666; background-color: #ECECEC; min-width: 75px; text-align:center; line-height: 27px; padding: 0px 7px; border: 1px solid #FFF; border-top-color: #ECECEC; border-bottom: none; text-decoration: none; cursor: pointer; }
+.tabItem:last-child { border-right-width: 2px; }
+.tabItem:hover { background-color: #ECECEC; }
+.tabItemActive { font-weight: bold; border-top-width: 3px; background-color: #FFF !important; border-right-width: 1px !important;  margin-bottom: -1px; border-left-color: #c6c6c6; }
+
+.header_widget { text-align: center; padding: 10px 0 20px 0; }
+.tabHoroscope .tabImage { float: left; }
+.tabContent,.tabHoroscope { list-style: none; padding: 2px 2px 0 0; margin-top: 5px; }
+    .tabContent li,.tabHoroscope li { border: 1px solid #BBB; background: -webkit-linear-gradient(top, #FEFEFE 0%, #EFEFEF 100%); margin-bottom: 10px; display: table; width: 100%; font-family: Helvetica;}
+        /*.tabContent li:first-child {
+            background: #ffffa3;
+            background: -webkit-linear-gradient(top, #ffffa3 5%, #ffeb71 100%);
+            background: -o-linear-gradient(top, #ffffa3 5%, #ffeb71 100%);
+            background: -ms-linear-gradient(top, #ffffa3 5%, #ffeb71 100%);
+            background: -moz-linear-gradient(top, #ffffa3 5%, #ffeb71 100%);
+            background: linear-gradient(top, #ffffa3 5%, #ffeb71 100%);
+        }*/
+    .news_wrapper{padding: 10px; }
+    .news_wrapper > a:first-child {float: left;/*width:100%;*/}
+.tabContent .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger; /* 16px;*/
+    margin: 0; /* margin:0 0 10px;*/
+    color: black;
+    /*font-weight: bold;*/
+    display: table;
+}
+.heading a {
+font-weight:bold;}
+    .tabContent .tabImage {margin-right: 7px; float: right; margin-left: 3px; padding-top: 2px;text-align: center;min-width:140px;max-width:140px;}
+    .tabHoroscope .tabImage {float: left; }
+        .tabHoroscope .tabImage > img {padding-right:10px; }
+    .tabImage > img:first-child{max-height:120px; max-width:140px;}
+    .preview { margin-left: 151px; margin-right: 3px; }
+        .preview > p:first-child, .noImage > p:first-child {display:inline; }
+    .noImage {margin-right: 3px; }
+    li.more_news { padding: 10px 0px; text-align: center; font-weight:bold; cursor:pointer; margin:auto; background: -webkit-linear-gradient(top, black 0%, black 100%) !important; background-color:black; color:white; border-radius: 5px;width: 225px; font-size:large;}
+    li.more_news:hover {background: -webkit-linear-gradient(top, #C6C6C6 0%, #C6C6C6 100%) !important;color:black; border: 1px solid black; }
+    /*.tabContent .placeHolder { float: right; padding-right: 7px; padding-left: 2px; width: 68px; text-decoration: none !important; }
+    .tabContent .moreLink { float: right; margin-top: -17px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; }*/
+
+.font_ArialBlack12 { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: black; font-size: 12px; }
+.size16 { font-size: 16px; }
+.blue_BoldRight13 { font-size: 13px; font-weight: bold; text-align: right; color: #125495; }
+    .blue_BoldRight13:link { color: #1B3469; }
+    .blue_BoldRight13:hover { text-decoration: underline; }
+
+p.font_ArialBlack12 { margin: 0 0 5px; }
+
+/*Govt. Page*/
+.gov { border: 1px solid #AAA; font-size: 14px; padding: /*1em 1.4em*/ 0px; margin: 1px auto; }
+    .gov a:hover {color:black; }
+    .gov h3, .gov h4 { margin: 0px; }
+    .gov ul { float: left; list-style: none; padding-right: 10px; min-width: 310px; }
+        .gov ul:nth-child(2n) { float: right; }
+        .gov ul li { margin-bottom: 20px; list-style: none; }
+            .gov ul li:first-child { margin-bottom: 8px !important; }
+    .gov .searchInfo { text-align: center; color: #C0341A; font-size: small; margin-top: 10px; }
+    .gov .pdfInfo { text-align: center; margin: 15px auto 5px; font-size: x-small; display: table; }
+        .gov .pdfInfo > * { float: left; }
+        .gov .pdfInfo span { margin-right: 190px; }
+
+       /* Width for details page desktop boostrap */
+  .col-xs-11 { width: 97.66666667%;}
+
+        /* #endregion */
+    </style>
+
+    
+
+    <!--For IE 9 and below when CSS3 is not available-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" href="/css/master_ie.css?dt=20140816020658" /><link rel="stylesheet" type="text/css" href="/css/main_ie.css?dt=16001231040000" />
+    <![endif]-->
+   <link rel="shortcut icon" type="image/x-icon" href="https://infotel.ca/favicon.ico?v=1" />
+
+    
+    <script async>
+        // #region /_includes/js/master.js
+        var activeBook;
+        function Set_Cookie(cname, cvalue) {
+            var d = new Date();
+            d.setTime(d.getTime() + (20 * 365 * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toGMTString();
+            document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+        }
+        function Get_Cookie(check_name) {
+            // first we'll split this cookie up into name/value pairs
+            // note: document.cookie only returns name=value, not the other components
+            var a_all_cookies = document.cookie.split(';');
+            var a_temp_cookie = '';
+            var cookie_name = '';
+            var cookie_value = '';
+            var b_cookie_found = false; // set boolean t/f default f
+
+            for (i = 0; i < a_all_cookies.length; i++) {
+                // now we'll split apart each name=value pair
+                a_temp_cookie = a_all_cookies[i].split('=');
+
+
+                // and trim left/right whitespace while we're at it
+                cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');
+
+                // if the extracted name matches passed check_name
+                if (cookie_name == check_name) {
+                    b_cookie_found = true;
+                    // we need to handle case where cookie has no value but exists (no = sign, that is):
+                    if (a_temp_cookie.length > 1) {
+                        cookie_value = unescape(a_temp_cookie[1].replace(/^\s+|\s+$/g, ''));
+                    }
+                    // note that in cases where cookie is initialized but no value, null is returned
+                    return cookie_value;
+                    break;
+                }
+                a_temp_cookie = null;
+                cookie_name = '';
+            }
+            if (!b_cookie_found) {
+                return null;
+            }
+        }
+        $(document).ready(function () {
+                //alert(Get_Cookie('bookID'));
+                var bookID = Get_Cookie('book-id');
+
+            switch (bookID) {
+                case "1":
+                    activeBook = $('#lnkPenticton');
+                    break;
+                case "2":
+                    activeBook = $('#lnkKamloops');
+                    break;
+                case "3":
+                    activeBook = $('#lnkVernon');
+                    break;
+                case "4":
+                    activeBook = $('#lnkKelowna');
+                    break;
+                default:
+                    activeBook = $('#bookID');  //error without this
+                    break;
+            }
+            activeBook.addClass('activeBook');
+
+
+            $('.ghost-text').each(function () {
+                var input = $(this);
+                var prevValue = input.val();
+                var element = input.prev('label');
+
+                input
+                    .focus(function () {
+                        if (input.val() == prevValue) {
+                            input.val('').removeClass('ghost-text');
+                            element.addClass('break-label-on');
+                        }
+                    })
+                    .keyup(function () {
+                        if (input.val().length == 0) {
+                            element.addClass('break-label-on');
+                        }
+                        else
+                            element.removeClass('break-label-on');
+                    })
+                    .blur(function () {
+                        if (input.val().length === 0) {
+                            input.val(prevValue).addClass('ghost-text');
+                        }
+                            //if data is there do not show label
+                        if (input.val().length > 0) {
+                            element.removeClass('break-label-on');
+                        }
+                        else
+                            element.addClass('break-label-on');
+                    });
+            });
+            SetActiveTab();
+            $('.tabContentMenu').children().not($('.tabItemActive')).each(function (i, content) {
+                $('#' + $(content).attr('for')).hide();
+            });
+            $('.tabItem').click(function (e) {
+                if ($(this).hasClass("tabItemActive")) { //detection for current tab
+                    return
+                }
+                else {
+                    var prevLayer = $(this).parent('ul').children('.tabItemActive');
+                    $('#' + prevLayer.attr('for')).hide();
+                    prevLayer.removeClass('tabItemActive');
+
+                    $(this).addClass('tabItemActive');
+                    $('#' + $(this).attr('for')).show(); //activeLayer
+                }
+            });
+            $('.deviceView').click(function () {
+                Set_Cookie('device', 'mobile');
+                window.location.href = window.location.href;
+            });
+            $('.header_books li a').click(function () {
+                Set_Cookie('book-id', $(this).attr('name').split('book-id')[1]);
+            });
+        });
+
+        function SetActiveTab() {
+            var activeTab = location.pathname.split("/");
+            if (activeTab[1].toLowerCase() == 'search' || activeTab[1].toLowerCase() == 'newsitem')
+                return;
+            if (activeBook.text().toLowerCase() == activeTab[1].toLowerCase()) {
+                $('a[for=Home]').addClass('activeMenuTab');
+                return;
+            }
+
+            //Need these exceptions as some of the links are not of same type and activeTab is exactly 4; or add the last bit of pathname to list which are not highlighted
+            var exceptions = ['advertise-print', 'advertise-online', 'category', 'columnist'];
+            var loc = 1;
+            var forValue = activeTab[loc].toLowerCase();
+
+            var addIndex = activeTab[activeTab.length - 1] === '/' ? 1 : 0;
+
+            //console.log(activeTab.length);
+            //console.log(activeTab[activeTab.length - 1]);
+            var books = $.map($('.header_books li a'), function (n, i) { return $(n).text().toLowerCase() });
+            if (activeTab.length > (4 + addIndex)) {
+                if (activeTab[1].toLowerCase() === 'opinion' && $.inArray(activeTab[2].toLowerCase(), exceptions) > -1)
+                    loc = 3;
+                else
+                    loc = activeTab.length - 1;
+                forValue = unescape(activeTab[loc + addIndex].toLowerCase()).replace(/'/g, "\\'").replace(/"/g, '\\"');
+            } else if ((activeTab.length > (3 + addIndex)) || (activeTab.length == (3 + addIndex) && ($.inArray(activeTab[2].toLowerCase(), books) == -1))) {
+                loc = 2;
+                if (unescape(activeTab[loc].toLowerCase()).indexOf('@') >= 0)
+                    loc = 1;
+                else if (activeTab[3] && $.inArray(activeTab[3].toLowerCase(), exceptions) > -1)
+                    loc = 3;
+                else if (activeTab[1].toLowerCase() === 'opinion' && $.inArray(activeTab[2].toLowerCase(), exceptions) > -1)
+                    loc = 3;
+                forValue = unescape(activeTab[loc].toLowerCase()).replace(/'/g, "\\'").replace(/"/g, '\\"');
+            }
+            $('a[for="' + forValue + '"]').addClass('activeMenuTab');
+            if ($('a[for="' + forValue + '"]').parents('li').length > 0)
+                $('a[for="' + forValue + '"]').parents('li').children('a').addClass('activeMenuTab');
+        }
+
+        function govtBook(book) {
+            window.location.href = '/government/' + book + '/';
+        }
+
+
+        function restaurantBook(book) {
+            window.location.href = '/search/restaurants/' + book + '/';
+        }
+
+        function postalcodeBook(book) {
+            window.location.href = '/postal-codes/' + book + '/';
+        }
+
+        function getDate() {
+            var d = new Date();
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+            var monthname = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+            document.write(weekday[d.getDay()] + " ");
+            document.write(d.getDate() + ". ");
+            document.write(monthname[d.getMonth()] + " ");
+            document.write(d.getFullYear());
+        }
+        $('li[name=tabMenu]').live('click',function (e) {
+            if ($(this).hasClass("activeTab")) { //detection for current tab
+                return;
+            }
+            else {
+                var $layer = $('#' + $(this).attr('for'));
+                var $prevLayer = $('#' + $('.activeTab').attr('for'));
+
+                $(".activeTab").toggleClass('activeTab');
+                $prevLayer.hide();
+                $(this).addClass('activeTab');
+                $layer.show();
+            }
+        });
+        var panel;
+        $('li[name=panelMenu]').live('click', function (e) {
+            if ($(this).attr('class') != 'activePanel') {
+                $('.activePanel').removeClass('activePanel');
+                $(panel).hide();
+            }
+            $(this).toggleClass('activePanel');
+
+            panel = $('#' + $(this).attr('for'));
+            if ($(panel).length > 0)
+                $(panel).slideToggle();
+        });
+
+        function LayerFocus(className) {
+            $('.header_search').toggleClass(className); setTimeout(function () {
+                $('.header_search').toggleClass(className);
+            }, 900);
+        }
+        // #endregion /_includes/js/master.js
+    </script>
+
+    
+    <script async>
+        // #region /_includes/js/swfobject.js
+        var swfobject = function () { var D = "undefined", r = "object", S = "Shockwave Flash", W = "ShockwaveFlash.ShockwaveFlash", q = "application/x-shockwave-flash", R = "SWFObjectExprInst", x = "onreadystatechange", O = window, j = document, t = navigator, T = false, U = [h], o = [], N = [], I = [], l, Q, E, B, J = false, a = false, n, G, m = true, M = function () { var aa = typeof j.getElementById != D && typeof j.getElementsByTagName != D && typeof j.createElement != D, ah = t.userAgent.toLowerCase(), Y = t.platform.toLowerCase(), ae = Y ? /win/.test(Y) : /win/.test(ah), ac = Y ? /mac/.test(Y) : /mac/.test(ah), af = /webkit/.test(ah) ? parseFloat(ah.replace(/^.*webkit\/(\d+(\.\d+)?).*$/, "$1")) : false, X = !+"\v1", ag = [0, 0, 0], ab = null; if (typeof t.plugins != D && typeof t.plugins[S] == r) { ab = t.plugins[S].description; if (ab && !(typeof t.mimeTypes != D && t.mimeTypes[q] && !t.mimeTypes[q].enabledPlugin)) { T = true; X = false; ab = ab.replace(/^.*\s+(\S+\s+\S+$)/, "$1"); ag[0] = parseInt(ab.replace(/^(.*)\..*$/, "$1"), 10); ag[1] = parseInt(ab.replace(/^.*\.(.*)\s.*$/, "$1"), 10); ag[2] = /[a-zA-Z]/.test(ab) ? parseInt(ab.replace(/^.*[a-zA-Z]+(.*)$/, "$1"), 10) : 0 } } else { if (typeof O.ActiveXObject != D) { try { var ad = new ActiveXObject(W); if (ad) { ab = ad.GetVariable("$version"); if (ab) { X = true; ab = ab.split(" ")[1].split(","); ag = [parseInt(ab[0], 10), parseInt(ab[1], 10), parseInt(ab[2], 10)] } } } catch (Z) { } } } return { w3: aa, pv: ag, wk: af, ie: X, win: ae, mac: ac } }(), k = function () { if (!M.w3) { return } if ((typeof j.readyState != D && j.readyState == "complete") || (typeof j.readyState == D && (j.getElementsByTagName("body")[0] || j.body))) { f() } if (!J) { if (typeof j.addEventListener != D) { j.addEventListener("DOMContentLoaded", f, false) } if (M.ie && M.win) { j.attachEvent(x, function () { if (j.readyState == "complete") { j.detachEvent(x, arguments.callee); f() } }); if (O == top) { (function () { if (J) { return } try { j.documentElement.doScroll("left") } catch (X) { setTimeout(arguments.callee, 0); return } f() })() } } if (M.wk) { (function () { if (J) { return } if (!/loaded|complete/.test(j.readyState)) { setTimeout(arguments.callee, 0); return } f() })() } s(f) } }(); function f() { if (J) { return } try { var Z = j.getElementsByTagName("body")[0].appendChild(C("span")); Z.parentNode.removeChild(Z) } catch (aa) { return } J = true; var X = U.length; for (var Y = 0; Y < X; Y++) { U[Y]() } } function K(X) { if (J) { X() } else { U[U.length] = X } } function s(Y) { if (typeof O.addEventListener != D) { O.addEventListener("load", Y, false) } else { if (typeof j.addEventListener != D) { j.addEventListener("load", Y, false) } else { if (typeof O.attachEvent != D) { i(O, "onload", Y) } else { if (typeof O.onload == "function") { var X = O.onload; O.onload = function () { X(); Y() } } else { O.onload = Y } } } } } function h() { if (T) { V() } else { H() } } function V() { var X = j.getElementsByTagName("body")[0]; var aa = C(r); aa.setAttribute("type", q); var Z = X.appendChild(aa); if (Z) { var Y = 0; (function () { if (typeof Z.GetVariable != D) { var ab = Z.GetVariable("$version"); if (ab) { ab = ab.split(" ")[1].split(","); M.pv = [parseInt(ab[0], 10), parseInt(ab[1], 10), parseInt(ab[2], 10)] } } else { if (Y < 10) { Y++; setTimeout(arguments.callee, 10); return } } X.removeChild(aa); Z = null; H() })() } else { H() } } function H() { var ag = o.length; if (ag > 0) { for (var af = 0; af < ag; af++) { var Y = o[af].id; var ab = o[af].callbackFn; var aa = { success: false, id: Y }; if (M.pv[0] > 0) { var ae = c(Y); if (ae) { if (F(o[af].swfVersion) && !(M.wk && M.wk < 312)) { w(Y, true); if (ab) { aa.success = true; aa.ref = z(Y); ab(aa) } } else { if (o[af].expressInstall && A()) { var ai = {}; ai.data = o[af].expressInstall; ai.width = ae.getAttribute("width") || "0"; ai.height = ae.getAttribute("height") || "0"; if (ae.getAttribute("class")) { ai.styleclass = ae.getAttribute("class") } if (ae.getAttribute("align")) { ai.align = ae.getAttribute("align") } var ah = {}; var X = ae.getElementsByTagName("param"); var ac = X.length; for (var ad = 0; ad < ac; ad++) { if (X[ad].getAttribute("name").toLowerCase() != "movie") { ah[X[ad].getAttribute("name")] = X[ad].getAttribute("value") } } P(ai, ah, Y, ab) } else { p(ae); if (ab) { ab(aa) } } } } } else { w(Y, true); if (ab) { var Z = z(Y); if (Z && typeof Z.SetVariable != D) { aa.success = true; aa.ref = Z } ab(aa) } } } } } function z(aa) { var X = null; var Y = c(aa); if (Y && Y.nodeName == "OBJECT") { if (typeof Y.SetVariable != D) { X = Y } else { var Z = Y.getElementsByTagName(r)[0]; if (Z) { X = Z } } } return X } function A() { return !a && F("6.0.65") && (M.win || M.mac) && !(M.wk && M.wk < 312) } function P(aa, ab, X, Z) { a = true; E = Z || null; B = { success: false, id: X }; var ae = c(X); if (ae) { if (ae.nodeName == "OBJECT") { l = g(ae); Q = null } else { l = ae; Q = X } aa.id = R; if (typeof aa.width == D || (!/%$/.test(aa.width) && parseInt(aa.width, 10) < 310)) { aa.width = "310" } if (typeof aa.height == D || (!/%$/.test(aa.height) && parseInt(aa.height, 10) < 137)) { aa.height = "137" } j.title = j.title.slice(0, 47) + " - Flash Player Installation"; var ad = M.ie && M.win ? "ActiveX" : "PlugIn", ac = "MMredirectURL=" + encodeURI(O.location).toString().replace(/&/g, "%26") + "&MMplayerType=" + ad + "&MMdoctitle=" + j.title; if (typeof ab.flashvars != D) { ab.flashvars += "&" + ac } else { ab.flashvars = ac } if (M.ie && M.win && ae.readyState != 4) { var Y = C("div"); X += "SWFObjectNew"; Y.setAttribute("id", X); ae.parentNode.insertBefore(Y, ae); ae.style.display = "none"; (function () { if (ae.readyState == 4) { ae.parentNode.removeChild(ae) } else { setTimeout(arguments.callee, 10) } })() } u(aa, ab, X) } } function p(Y) { if (M.ie && M.win && Y.readyState != 4) { var X = C("div"); Y.parentNode.insertBefore(X, Y); X.parentNode.replaceChild(g(Y), X); Y.style.display = "none"; (function () { if (Y.readyState == 4) { Y.parentNode.removeChild(Y) } else { setTimeout(arguments.callee, 10) } })() } else { Y.parentNode.replaceChild(g(Y), Y) } } function g(ab) { var aa = C("div"); if (M.win && M.ie) { aa.innerHTML = ab.innerHTML } else { var Y = ab.getElementsByTagName(r)[0]; if (Y) { var ad = Y.childNodes; if (ad) { var X = ad.length; for (var Z = 0; Z < X; Z++) { if (!(ad[Z].nodeType == 1 && ad[Z].nodeName == "PARAM") && !(ad[Z].nodeType == 8)) { aa.appendChild(ad[Z].cloneNode(true)) } } } } } return aa } function u(ai, ag, Y) { var X, aa = c(Y); if (M.wk && M.wk < 312) { return X } if (aa) { if (typeof ai.id == D) { ai.id = Y } if (M.ie && M.win) { var ah = ""; for (var ae in ai) { if (ai[ae] != Object.prototype[ae]) { if (ae.toLowerCase() == "data") { ag.movie = ai[ae] } else { if (ae.toLowerCase() == "styleclass") { ah += ' class="' + ai[ae] + '"' } else { if (ae.toLowerCase() != "classid") { ah += " " + ae + '="' + ai[ae] + '"' } } } } } var af = ""; for (var ad in ag) { if (ag[ad] != Object.prototype[ad]) { af += '<param name="' + ad + '" value="' + ag[ad] + '" />' } } aa.outerHTML = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' + ah + ">" + af + "</object>"; N[N.length] = ai.id; X = c(ai.id) } else { var Z = C(r); Z.setAttribute("type", q); for (var ac in ai) { if (ai[ac] != Object.prototype[ac]) { if (ac.toLowerCase() == "styleclass") { Z.setAttribute("class", ai[ac]) } else { if (ac.toLowerCase() != "classid") { Z.setAttribute(ac, ai[ac]) } } } } for (var ab in ag) { if (ag[ab] != Object.prototype[ab] && ab.toLowerCase() != "movie") { e(Z, ab, ag[ab]) } } aa.parentNode.replaceChild(Z, aa); X = Z } } return X } function e(Z, X, Y) { var aa = C("param"); aa.setAttribute("name", X); aa.setAttribute("value", Y); Z.appendChild(aa) } function y(Y) { var X = c(Y); if (X && X.nodeName == "OBJECT") { if (M.ie && M.win) { X.style.display = "none"; (function () { if (X.readyState == 4) { b(Y) } else { setTimeout(arguments.callee, 10) } })() } else { X.parentNode.removeChild(X) } } } function b(Z) { var Y = c(Z); if (Y) { for (var X in Y) { if (typeof Y[X] == "function") { Y[X] = null } } Y.parentNode.removeChild(Y) } } function c(Z) { var X = null; try { X = j.getElementById(Z) } catch (Y) { } return X } function C(X) { return j.createElement(X) } function i(Z, X, Y) { Z.attachEvent(X, Y); I[I.length] = [Z, X, Y] } function F(Z) { var Y = M.pv, X = Z.split("."); X[0] = parseInt(X[0], 10); X[1] = parseInt(X[1], 10) || 0; X[2] = parseInt(X[2], 10) || 0; return (Y[0] > X[0] || (Y[0] == X[0] && Y[1] > X[1]) || (Y[0] == X[0] && Y[1] == X[1] && Y[2] >= X[2])) ? true : false } function v(ac, Y, ad, ab) { if (M.ie && M.mac) { return } var aa = j.getElementsByTagName("head")[0]; if (!aa) { return } var X = (ad && typeof ad == "string") ? ad : "screen"; if (ab) { n = null; G = null } if (!n || G != X) { var Z = C("style"); Z.setAttribute("type", "text/css"); Z.setAttribute("media", X); n = aa.appendChild(Z); if (M.ie && M.win && typeof j.styleSheets != D && j.styleSheets.length > 0) { n = j.styleSheets[j.styleSheets.length - 1] } G = X } if (M.ie && M.win) { if (n && typeof n.addRule == r) { n.addRule(ac, Y) } } else { if (n && typeof j.createTextNode != D) { n.appendChild(j.createTextNode(ac + " {" + Y + "}")) } } } function w(Z, X) { if (!m) { return } var Y = X ? "visible" : "hidden"; if (J && c(Z)) { c(Z).style.visibility = Y } else { v("#" + Z, "visibility:" + Y) } } function L(Y) { var Z = /[\\\"<>\.;]/; var X = Z.exec(Y) != null; return X && typeof encodeURIComponent != D ? encodeURIComponent(Y) : Y } var d = function () { if (M.ie && M.win) { window.attachEvent("onunload", function () { var ac = I.length; for (var ab = 0; ab < ac; ab++) { I[ab][0].detachEvent(I[ab][1], I[ab][2]) } var Z = N.length; for (var aa = 0; aa < Z; aa++) { y(N[aa]) } for (var Y in M) { M[Y] = null } M = null; for (var X in swfobject) { swfobject[X] = null } swfobject = null }) } }(); return { registerObject: function (ab, X, aa, Z) { if (M.w3 && ab && X) { var Y = {}; Y.id = ab; Y.swfVersion = X; Y.expressInstall = aa; Y.callbackFn = Z; o[o.length] = Y; w(ab, false) } else { if (Z) { Z({ success: false, id: ab }) } } }, getObjectById: function (X) { if (M.w3) { return z(X) } }, embedSWF: function (ab, ah, ae, ag, Y, aa, Z, ad, af, ac) { var X = { success: false, id: ah }; if (M.w3 && !(M.wk && M.wk < 312) && ab && ah && ae && ag && Y) { w(ah, false); K(function () { ae += ""; ag += ""; var aj = {}; if (af && typeof af === r) { for (var al in af) { aj[al] = af[al] } } aj.data = ab; aj.width = ae; aj.height = ag; var am = {}; if (ad && typeof ad === r) { for (var ak in ad) { am[ak] = ad[ak] } } if (Z && typeof Z === r) { for (var ai in Z) { if (typeof am.flashvars != D) { am.flashvars += "&" + ai + "=" + Z[ai] } else { am.flashvars = ai + "=" + Z[ai] } } } if (F(Y)) { var an = u(aj, am, ah); if (aj.id == ah) { w(ah, true) } X.success = true; X.ref = an } else { if (aa && A()) { aj.data = aa; P(aj, am, ah, ac); return } else { w(ah, true) } } if (ac) { ac(X) } }) } else { if (ac) { ac(X) } } }, switchOffAutoHideShow: function () { m = false }, ua: M, getFlashPlayerVersion: function () { return { major: M.pv[0], minor: M.pv[1], release: M.pv[2] } }, hasFlashPlayerVersion: F, createSWF: function (Z, Y, X) { if (M.w3) { return u(Z, Y, X) } else { return undefined } }, showExpressInstall: function (Z, aa, X, Y) { if (M.w3 && A()) { P(Z, aa, X, Y) } }, removeSWF: function (X) { if (M.w3) { y(X) } }, createCSS: function (aa, Z, Y, X) { if (M.w3) { v(aa, Z, Y, X) } }, addDomLoadEvent: K, addLoadEvent: s, getQueryParamValue: function (aa) { var Z = j.location.search || j.location.hash; if (Z) { if (/\?/.test(Z)) { Z = Z.split("?")[1] } if (aa == null) { return L(Z) } var Y = Z.split("&"); for (var X = 0; X < Y.length; X++) { if (Y[X].substring(0, Y[X].indexOf("=")) == aa) { return L(Y[X].substring((Y[X].indexOf("=") + 1))) } } } return "" }, expressInstallCallback: function () { if (a) { var X = c(R); if (X && l) { X.parentNode.replaceChild(l, X); if (Q) { w(Q, true); if (M.ie && M.win) { l.style.display = "block" } } if (E) { E(B) } } a = false } } } }();
+        // #endregion /_includes/js/swfobject.js
+    </script>
+
+    
+    <script async>
+        // #region /_includes/js/jquery.autocomplete.js
+        ; (function ($) {
+
+    $.fn.extend({
+        autocompleted: function (urlOrData, options) {
+            var isUrl = typeof urlOrData == "string";
+            options = $.extend({}, $.Autocompleter.defaults, {
+                url: isUrl ? urlOrData : null,
+                data: isUrl ? null : urlOrData,
+                delay: isUrl ? $.Autocompleter.defaults.delay : 10,
+                max: options && !options.scroll ? 10 : 150
+            }, options);
+
+            // if highlight is set to false, replace it with a do-nothing function
+            options.highlight = options.highlight || function (value) { return value; };
+
+            // if the formatMatch option is not specified, then use formatItem for backwards compatibility
+            options.formatMatch = options.formatMatch || options.formatItem;
+
+            return this.each(function () {
+                new $.Autocompleter(this, options);
+            });
+        },
+
+        result: function (handler) {
+            return this.bind("result", handler);
+        },
+
+        search: function (handler) {
+            return this.trigger("search", [handler]);
+        },
+
+        flushCache: function () {
+            return this.trigger("flushCache");
+        },
+
+        setOptions: function (options) {
+            return this.trigger("setOptions", [options]);
+        },
+
+        unautocomplete: function () {
+            return this.trigger("unautocomplete");
+        }
+    });
+
+    $.Autocompleter = function (input, options) {
+        var KEY = {
+            UP: 38,
+            DOWN: 40,
+            DEL: 46,
+            TAB: 9,
+            RETURN: 13,
+            ESC: 27,
+            COMMA: 188,
+            PAGEUP: 33,
+            PAGEDOWN: 34,
+            BACKSPACE: 8
+        };
+
+        // Create $ object for input element
+        var $input = $(input).attr("autocomplete", "off").addClass(options.inputClass);
+        var timeout;
+        var previousValue = "";
+        var cache = $.Autocompleter.Cache(options);
+        var hasFocus = 0;
+        var lastKeyPressCode;
+        var config = {
+            mouseDownOnSelect: false
+        };
+
+        var select = $.Autocompleter.Select(options, input, selectCurrent, config);
+        var blockSubmit;
+
+        // prevent form submit in opera when selecting with return key
+        $.browser.opera && $(input.form).bind("submit.autocomplete", function () {
+            if (blockSubmit) {
+                blockSubmit = false;
+                return false;
+            }
+        });
+
+        // only opera doesn't trigger keydown multiple times while pressed, others don't work with keypress at all
+        $input.bind(($.browser.opera ? "keypress" : "keydown") + ".autocomplete", function (event) {
+            // track last key pressed
+            lastKeyPressCode = event.keyCode;
+            switch (event.keyCode) {
+                case KEY.UP:
+                    event.preventDefault();
+                    if (select.visible()) {
+                        select.prev();
+                    } else {
+                        onChange(0, true);
+                    }
+                    break;
+
+                case KEY.DOWN:
+                    event.preventDefault();
+                    if (select.visible()) {
+                        select.next();
+                    } else {
+                        onChange(0, true);
+                    }
+                    break;
+
+                case KEY.PAGEUP:
+                    event.preventDefault();
+                    if (select.visible()) {
+                        select.pageUp();
+                    } else {
+                        onChange(0, true);
+                    }
+                    break;
+
+                case KEY.PAGEDOWN:
+                    event.preventDefault();
+                    if (select.visible()) {
+                        select.pageDown();
+                    } else {
+                        onChange(0, true);
+                    }
+                    break;
+
+                // matches also semicolon
+                case options.multiple && $.trim(options.multipleSeparator) == "," && KEY.COMMA:
+                case KEY.TAB:
+                case KEY.RETURN:
+                    if (selectCurrent()) {
+                        // stop default to prevent a form submit, Opera needs special handling
+                        event.preventDefault();
+                        blockSubmit = true;
+                        return false;
+                    }
+                    break;
+
+                case KEY.ESC:
+                    select.hide();
+                    break;
+
+                default:
+                    clearTimeout(timeout);
+                    timeout = setTimeout(onChange, options.delay);
+                    break;
+            }
+        }).focus(function () {
+            // track whether the field has focus, we shouldn't process any
+            // results if the field no longer has focus
+            hasFocus++;
+        }).blur(function () {
+            hasFocus = 0;
+            if (!config.mouseDownOnSelect) {
+                hideResults();
+            }
+        }).click(function () {
+            // show select when clicking in a focused field
+            if (hasFocus++ > 1 && !select.visible()) {
+                onChange(0, true);
+            }
+        }).bind("search", function () {
+            // TODO why not just specifying both arguments?
+            var fn = (arguments.length > 1) ? arguments[1] : null;
+            function findValueCallback(q, data) {
+                var result;
+                if (data && data.length) {
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].result.toLowerCase() == q.toLowerCase()) {
+                            result = data[i];
+                            break;
+                        }
+                    }
+                }
+                if (typeof fn == "function") fn(result);
+                else $input.trigger("result", result && [result.data, result.value]);
+            }
+            $.each(trimWords($input.val()), function (i, value) {
+                request(value, findValueCallback, findValueCallback);
+            });
+        }).bind("flushCache", function () {
+            cache.flush();
+        }).bind("setOptions", function () {
+            $.extend(options, arguments[1]);
+            // if we've updated the data, repopulate
+            if ("data" in arguments[1])
+                cache.populate();
+        }).bind("unautocomplete", function () {
+            select.unbind();
+            $input.unbind();
+            $(input.form).unbind(".autocomplete");
+        });
+
+        function selectCurrent() {
+            var selected = select.selected();
+            if (!selected)
+                return false;
+
+            var v = selected.result;
+            previousValue = v;
+
+            if (options.multiple) {
+                var words = trimWords($input.val());
+                if (words.length > 1) {
+                    v = words.slice(0, words.length - 1).join(options.multipleSeparator) + options.multipleSeparator + v;
+                }
+                v += options.multipleSeparator;
+            }
+
+            $input.val(v);
+            hideResultsNow();
+            $input.trigger("result", [selected.data, selected.value]);
+            return true;
+        }
+
+        //i = 0;
+
+        function onChange(crap, skipPrevCheck) {
+           // console.log('change        ----' + i++);
+            if (lastKeyPressCode == KEY.DEL) {
+                select.hide();
+                return;
+            }
+
+            var currentValue = $input.val();
+            if (!skipPrevCheck && currentValue == previousValue)
+                return;
+
+            previousValue = currentValue;
+            currentValue = lastWord(currentValue);
+            if (currentValue.length >= options.minChars) {
+                $input.addClass(options.loadingClass);
+                if (!options.matchCase)
+                    currentValue = currentValue.toLowerCase();
+                request(currentValue, receiveData, hideResultsNow);
+            } else {
+                stopLoading();
+                select.hide();
+            }
+        };
+
+        function trimWords(value) {
+            if (!value) {
+                return [""];
+            }
+
+            //console.log('trimWords ' + value);  no output?
+
+            var words = value.split(options.multipleSeparator);
+            var result = [];
+            $.each(words, function (i, value) {
+                if ($.trim(value))
+                    result[i] = $.trim(value);
+            });
+            return result;
+        }
+
+        function lastWord(value) {
+            if (!options.multiple)
+                return value;
+            var words = trimWords(value);
+            return words[words.length - 1];
+        }
+
+        // fills in the input box w/the first match (assumed to be the best match)
+        // q: the term entered
+        // sValue: the first matching result
+        function autoFill(q, sValue) {
+            // autofill in the complete box w/the first match as long as the user hasn't entered in more data
+            // if the last user key pressed was backspace, don't autofill
+            if (options.autoFill && (lastWord($input.val()).toLowerCase() == q.toLowerCase()) && lastKeyPressCode != KEY.BACKSPACE) {
+                // fill in the value (keep the case the user has typed)
+                $input.val($input.val() + sValue.substring(lastWord(previousValue).length));
+                // select the portion of the value not typed by the user (so the next character will erase)
+                $.Autocompleter.Selection(input, previousValue.length, previousValue.length + sValue.length);
+            }
+        };
+
+        function hideResults() {
+            clearTimeout(timeout);
+            timeout = setTimeout(hideResultsNow, 200);
+        };
+
+        function hideResultsNow() {
+            var wasVisible = select.visible();
+            select.hide();
+            clearTimeout(timeout);
+            stopLoading();
+            if (options.mustMatch) {
+                // call search and run callback
+                $input.search(
+				function (result) {
+				    // if no value found, clear the input box
+				    if (!result) {
+				        if (options.multiple) {
+				            var words = trimWords($input.val()).slice(0, -1);
+				            $input.val(words.join(options.multipleSeparator) + (words.length ? options.multipleSeparator : ""));
+				        }
+				        else
+				            $input.val("");
+				    }
+				}
+			);
+            }
+            if (wasVisible)
+            // position cursor at end of input field
+                $.Autocompleter.Selection(input, input.value.length, input.value.length);
+        };
+
+        function receiveData(q, data) {
+            if (data && data.length && hasFocus) {
+                stopLoading();
+                select.display(data, q);
+                autoFill(q, data[0].value);
+                select.show();
+            } else {
+                hideResultsNow();
+            }
+        };
+
+        function request(term, success, failure) {
+            if (!options.matchCase)
+                term = term.toLowerCase();
+            var data = cache.load(term);
+            // recieve the cached data
+            if (data && data.length) {
+                success(term, data);
+                // if an AJAX url has been supplied, try loading the data now
+            } else if ((typeof options.url == "string") && (options.url.length > 0)) {
+                var extraParams = {
+                    timestamp: +new Date()
+                };
+                $.each(options.extraParams, function (key, param) {
+                    extraParams[key] = typeof param == "function" ? param() : param;
+                });
+
+                $.ajax({
+                    // try to leverage ajaxQueue plugin to abort previous requests
+                    mode: "abort",
+                    // limit abortion to this input
+                    port: "autocomplete" + input.name,
+                    dataType: options.dataType,
+                    url: options.url,
+                    data: $.extend({
+                        q: lastWord(term),
+                        limit: options.max
+                    }, extraParams),
+                    success: function (data) {
+                        var parsed = options.parse && options.parse(data) || parse(data);
+                        cache.add(term, parsed);
+                        success(term, parsed);
+                    }
+                });
+            } else {
+                // if we have a failure, we need to empty the list -- this prevents the the [TAB] key from selecting the last successful match
+                select.emptyList();
+                failure(term);
+            }
+        };
+
+        function parse(data) {
+            var parsed = [];
+            var rows = data.split("\n");
+            for (var i = 0; i < rows.length; i++) {
+                var row = $.trim(rows[i]);
+                if (row) {
+                    row = row.split("|");
+                    parsed[parsed.length] = {
+                        data: row,
+                        value: row[0],
+                        result: options.formatResult && options.formatResult(row, row[0]) || row[0]
+                    };
+                }
+            }
+            return parsed;
+        };
+
+        function stopLoading() {
+            $input.removeClass(options.loadingClass);
+        };
+    };
+
+    $.Autocompleter.defaults = {
+        highlightCaps: true,
+        inputClass: "ac_input",
+        resultsClass: "ac_results",
+        loadingClass: "ac_loading",
+        minChars: 1,
+        delay: 400,
+        matchCase: false,
+        matchSubset: true, //set to false on Dec 13 2013 by BAW
+        matchContains: false,
+        cacheLength: 10,  // was 10
+        max: 10,
+        mustMatch: false,
+        extraParams: {},
+        selectFirst: false, // set to true if you want the enter key to select the first item in the dropdown list by default
+        formatItem: function (row) { return row[0]; },
+        formatMatch: null,
+        autoFill: false,
+        width: 0,
+        multiple: false,
+        multipleSeparator: ", ",
+        //highlight: function (value, term) {
+        //    return value.replace(new RegExp("(?![^&;]+;)(?!<[^<>]*)(" + term.replace(/([\^\$\(\)\[\]\{\}\*\.\+\?\|\\])/gi, "\\$1") + ")(?![^<>]*>)(?![^&;]+;)", "gi"), "<strong>$1</strong>");
+        //},
+        highlight: function (choice, search) {
+            var searchwords = search.split(" ");
+            for (var i = 0; i < searchwords.length; i++) {
+                choice = choice.replace(new RegExp("(?![^&;]+;)(?!<[^<>]*)(" + searchwords[i].replace(/([\^\$\(\)\[\]\{\}\*\.\+\?\|\\])/gi, "\\$1") + ")(?![^<>]*>)(?![^&;]+;)", "gi"), "<strong>$1</strong>");
+            }
+            return choice;
+        },
+        scroll: true,
+        scrollHeight: 180
+    };
+
+    $.Autocompleter.Cache = function (options) {
+        var data = {};
+        var length = 0;
+
+        function matchSubset_original(s, sub) {
+            console.log('matchSubset s=' + s + ' sub=' + sub);
+
+            if (!options.matchCase)
+                s = s.toLowerCase();
+
+            var i = s.indexOf(sub);
+            if (i == -1) return false;
+            return i == 0 || options.matchContains;
+        };
+
+
+        function matchSubset(choice, search) {
+            if (!options.matchCase)
+                choice = choice.toLowerCase();
+
+            var x;
+            var searchwords = search.split(" ");
+            for (var i = 0; i < searchwords.length; i++) {
+                x = choice.indexOf(searchwords[i]);
+                if (x == -1) {
+                   // console.log('matchSubset choice=' + choice + ' search=' + searchwords[i] + ' FALSE ' + x);
+                    return false;
+                }
+            }
+           // console.log('matchSubset choice=' + choice + ' search=' + search + ' TRUE ' + x);
+            return true;
+        };
+
+        function add(q, value) {
+            if (length > options.cacheLength) {
+                flush();
+            }
+
+            if (!data[q]) {
+                length++;
+            }
+
+            data[q] = value;
+        }
+
+        function populate() {
+            if (!options.data) return false;
+            // track the matches
+            var stMatchSets = {},
+			nullData = 0;
+
+            // no url was specified, we need to adjust the cache length to make sure it fits the local data store
+            if (!options.url) options.cacheLength = 1;
+
+            // track all options for minChars = 0
+            stMatchSets[""] = [];
+
+            // loop through the array and create a lookup structure
+            for (var i = 0, ol = options.data.length; i < ol; i++) {
+                var rawValue = options.data[i];
+                // if rawValue is a string, make an array otherwise just reference the array
+                rawValue = (typeof rawValue == "string") ? [rawValue] : rawValue;
+
+                var value = options.formatMatch(rawValue, i + 1, options.data.length);
+                if (value === false)
+                    continue;
+
+                var firstChar = value.charAt(0).toLowerCase();
+                // if no lookup array for this character exists, look it up now
+                if (!stMatchSets[firstChar])
+                    stMatchSets[firstChar] = [];
+
+                // if the match is a string
+                var row = {
+                    value: value,
+                    data: rawValue,
+                    result: options.formatResult && options.formatResult(rawValue) || value
+                };
+
+                // push the current match into the set list
+                stMatchSets[firstChar].push(row);
+
+                // keep track of minChars zero items
+                if (nullData++ < options.max) {
+                    stMatchSets[""].push(row);
+                }
+            };
+
+            // add the data items to the cache
+            $.each(stMatchSets, function (i, value) {
+                // increase the cache size
+                options.cacheLength++;
+                // add to the cache
+                add(i, value);
+            });
+        }
+
+        // populate any existing data
+        setTimeout(populate, 25);
+
+        function flush() {
+            data = {};
+            length = 0;
+        }
+
+        return {
+            flush: flush,
+            add: add,
+            populate: populate,
+            load: function (q) {
+                if (!options.cacheLength || !length)
+                    return null;
+                /*
+                * if dealing w/local data and matchContains than we must make sure
+                * to loop through all the data collections looking for matches
+                */
+
+                if (!options.url && options.matchContains) {
+                    // track all matches
+                    var csub = [];
+                    // loop through all the data grids for matches
+                    for (var k in data) {
+                        // don't search through the stMatchSets[""] (minChars: 0) cache
+                        // this prevents duplicates
+                        if (k.length > 0) {
+                            var c = data[k];
+                            $.each(c, function (i, x) {
+                                // if we've got a match, add it to the array
+                                if (matchSubset(x.value, q)) {
+                                    csub.push(x);
+                                }
+                            });
+                        }
+                    }
+                    return csub;
+                } else
+                // if the exact item exists, use it
+                    if (data[q]) {
+                        return data[q];
+                    } else
+                        if (options.matchSubset) {
+                            for (var i = q.length - 1; i >= options.minChars; i--) {
+                                var c = data[q.substr(0, i)];
+                                if (c) {
+                                    var csub = [];
+                                    $.each(c, function (i, x) {
+                                        if (matchSubset(x.value, q)) {
+                                            csub[csub.length] = x;
+                                        }
+                                    });
+                                    return csub;
+                                }
+                            }
+                        }
+                return null;
+            }
+        };
+    };
+
+    $.Autocompleter.Select = function (options, input, select, config) {
+        var CLASSES = {
+            ACTIVE: "ac_over"
+        };
+
+        var listItems,
+		active = -1,
+		data,
+		term = "",
+		needsInit = true,
+		element,
+		list;
+
+        // Create results
+        function init() {
+            if (!needsInit)
+                return;
+            element = $("<div/>")
+		.hide()
+		.addClass(options.resultsClass)
+		.css("position", "absolute")
+		.appendTo(document.body);
+
+            list = $("<ul/>").appendTo(element).mouseover(function (event) {
+                if (target(event).nodeName && target(event).nodeName.toUpperCase() == 'LI') {
+                    active = $("li", list).removeClass(CLASSES.ACTIVE).index(target(event));
+                    $(target(event)).addClass(CLASSES.ACTIVE);
+                }
+            }).click(function (event) {
+                $(target(event)).addClass(CLASSES.ACTIVE);
+                select();
+                // TODO provide option to avoid setting focus again after selection? useful for cleanup-on-focus
+                input.focus();
+                return false;
+            }).mousedown(function () {
+                config.mouseDownOnSelect = true;
+            }).mouseup(function () {
+                config.mouseDownOnSelect = false;
+            });
+
+            if (options.width > 0)
+                element.css("width", options.width);
+            needsInit = false;
+        }
+
+        function target(event) {
+            var element = event.target;
+            while (element && element.tagName != "LI")
+                element = element.parentNode;
+            // more fun with IE, sometimes event.target is empty, just ignore it then
+            if (!element)
+                return [];
+            return element;
+        }
+
+        function moveSelect(step) {
+            listItems.slice(active, active + 1).removeClass(CLASSES.ACTIVE);
+            movePosition(step);
+            var activeItem = listItems.slice(active, active + 1).addClass(CLASSES.ACTIVE);
+            if (options.scroll) {
+                var offset = 0;
+                listItems.slice(0, active).each(function () {
+                    offset += this.offsetHeight;
+                });
+                if ((offset + activeItem[0].offsetHeight - list.scrollTop()) > list[0].clientHeight) {
+                    list.scrollTop(offset + activeItem[0].offsetHeight - list.innerHeight());
+                } else if (offset < list.scrollTop()) {
+                    list.scrollTop(offset);
+                }
+            }
+        };
+
+        function movePosition(step) {
+            active += step;
+            if (active < 0) {
+                active = listItems.size() - 1;
+            } else if (active >= listItems.size()) {
+                active = 0;
+            }
+        }
+
+        function limitNumberOfItems(available) {
+            return options.max && options.max < available
+			? options.max
+			: available;
+        }
+
+        function fillList() {
+            list.empty();
+            var max = limitNumberOfItems(data.length);
+            for (var i = 0; i < max; i++) {
+                if (!data[i])
+                    continue;
+                var formatted = options.formatItem(data[i].data, i + 1, max, data[i].value, term);
+                if (formatted === false)
+                    continue;
+
+                //alert(options);
+                options;
+
+                var li = null;
+                //if(options.highlightCaps)  //BAW
+                //{
+                //li = $("<li/>").html( options.highlight(formatted, term) ).addClass(i%2 == 0 ? "ac_even" : "ac_odd").addClass(data[i].value.isUpperCase() ? "ac_caps" : null).appendTo(list)[0];
+                //}
+                //else
+                {
+                    li = $("<li/>").html(options.highlight(formatted, term)).addClass(i % 2 == 0 ? "ac_even" : "ac_odd").appendTo(list)[0];
+                }
+                $.data(li, "ac_data", data[i]);
+            }
+            listItems = list.find("li");
+            if (options.selectFirst) {
+                listItems.slice(0, 1).addClass(CLASSES.ACTIVE);
+                active = 0;
+            }
+
+            // apply bgiframe if available
+            if ($.fn.bgiframe)
+                list.bgiframe();
+        }
+
+
+        return {
+            display: function (d, q) {
+                init();
+                data = d;
+                term = q;
+                fillList();
+            },
+
+            next: function () {
+                moveSelect(1);
+            },
+
+            prev: function () {
+                moveSelect(-1);
+            },
+
+            pageUp: function () {
+                if (active != 0 && active - 8 < 0) {
+                    moveSelect(-active);
+                } else {
+                    moveSelect(-8);
+                }
+            },
+
+            pageDown: function () {
+                if (active != listItems.size() - 1 && active + 8 > listItems.size()) {
+                    moveSelect(listItems.size() - 1 - active);
+                } else {
+                    moveSelect(8);
+                }
+            },
+
+            hide: function () {
+                element && element.hide();
+                listItems && listItems.removeClass(CLASSES.ACTIVE);
+                active = -1;
+            },
+
+            visible: function () {
+                return element && element.is(":visible");
+            },
+            current: function () {
+                return this.visible() && (listItems.filter("." + CLASSES.ACTIVE)[0] || options.selectFirst && listItems[0]);
+            },
+            show: function () {
+                var offset = $(input).offset();
+                element.css({
+                    width: typeof options.width == "string" || options.width > 0 ? options.width : $(input).width(),
+                    top: offset.top + input.offsetHeight,
+                    left: offset.left
+                }).show();
+                if (options.scroll) {
+                    list.scrollTop(0);
+                    list.css({
+                        maxHeight: options.scrollHeight,
+                        overflow: 'auto'
+                    });
+
+                    if ($.browser.msie && typeof document.body.style.maxHeight === "undefined") {
+                        var listHeight = 0;
+                        listItems.each(function () {
+                            listHeight += this.offsetHeight;
+                        });
+                        var scrollbarsVisible = listHeight > options.scrollHeight;
+                        list.css('height', scrollbarsVisible ? options.scrollHeight : listHeight);
+                        if (!scrollbarsVisible) {
+                            // IE doesn't recalculate width when scrollbar disappears
+                            listItems.width(list.width() - parseInt(listItems.css("padding-left")) - parseInt(listItems.css("padding-right")));
+                        }
+                    }
+                }
+            },
+
+            selected: function () {
+                var selected = listItems && listItems.filter("." + CLASSES.ACTIVE).removeClass(CLASSES.ACTIVE);
+                return selected && selected.length && $.data(selected[0], "ac_data");
+            },
+            emptyList: function () {
+                list && list.empty();
+            },
+
+            unbind: function () {
+                element && element.remove();
+            }
+        };
+    };
+
+    $.Autocompleter.Selection = function (field, start, end) {
+        if (field.createTextRange) {
+            var selRange = field.createTextRange();
+            selRange.collapse(true);
+            selRange.moveStart("character", start);
+            selRange.moveEnd("character", end);
+            selRange.select();
+        } else if (field.setSelectionRange) {
+            field.setSelectionRange(start, end);
+        } else {
+            if (field.selectionStart) {
+                field.selectionStart = start;
+                field.selectionEnd = end;
+            }
+        }
+        field.focus();
+    };
+
+})(jQuery);
+        // #endregion /_includes/js/jquery.autocomplete.js
+    </script>
+
+    
+    <script async >
+        // #region /_includes/js/_desktop/jquery.dotdotdot-1.5.1.js
+        (function( $ )
+        {
+	        if ( $.fn.dotdotdot )
+	        {
+		        return;
+	        }
+
+	        $.fn.dotdotdot = function( o )
+	        {
+		        if ( this.length == 0 )
+		        {
+			        debug( true, 'No element found for "' + this.selector + '".' );
+			        return this;
+		        }
+		        if ( this.length > 1 )
+		        {
+			        return this.each(
+				        function()
+				        {
+					        $(this).dotdotdot( o );
+				        }
+			        );
+		        }
+
+
+		        var $dot = this;
+
+		        if ( $dot.data( 'dotdotdot' ) )
+		        {
+			        $dot.trigger( 'destroy.dot' );
+		        }
+
+		        $dot.bind_events = function()
+		        {
+			        $dot.bind(
+				        'update.dot',
+				        function( e, c )
+				        {
+					        e.preventDefault();
+					        e.stopPropagation();
+
+					        opts.maxHeight = ( typeof opts.height == 'number' )
+						        ? opts.height
+						        : getTrueInnerHeight( $dot );
+
+					        opts.maxHeight += opts.tolerance;
+
+					        if ( typeof c != 'undefined' )
+					        {
+						        if ( typeof c == 'string' || c instanceof HTMLElement )
+						        {
+					 		        c = $('<div />').append( c ).contents();
+						        }
+						        if ( c instanceof $ )
+						        {
+							        orgContent = c;
+						        }
+					        }
+
+					        $inr = $dot.wrapInner( '<div class="dotdotdot" />' ).children();
+					        $inr.empty()
+						        .append( orgContent.clone( true ) )
+						        .css({
+							        'height'	: 'auto',
+							        'width'		: 'auto',
+							        'border'	: 'none',
+							        'padding'	: 0,
+							        'margin'	: 0
+						        });
+
+					        var after = false,
+						        trunc = false;
+
+					        if ( conf.afterElement )
+					        {
+						        after = conf.afterElement.clone( true );
+						        conf.afterElement.remove();
+					        }
+					        if ( test( $inr, opts ) )
+					        {
+						        if ( opts.wrap == 'children' )
+						        {
+							        trunc = children( $inr, opts, after );
+						        }
+						        else
+						        {
+							        trunc = ellipsis( $inr, $dot, $inr, opts, after );
+						        }
+					        }
+					        $inr.replaceWith( $inr.contents() );
+					        $inr = null;
+
+					        if ( $.isFunction( opts.callback ) )
+					        {
+						        opts.callback.call( $dot[ 0 ], trunc, orgContent );
+					        }
+
+					        conf.isTruncated = trunc;
+					        return trunc;
+				        }
+
+			        ).bind(
+				        'isTruncated.dot',
+				        function( e, fn )
+				        {
+					        e.preventDefault();
+					        e.stopPropagation();
+
+					        if ( typeof fn == 'function' )
+					        {
+						        fn.call( $dot[ 0 ], conf.isTruncated );
+					        }
+					        return conf.isTruncated;
+				        }
+
+			        ).bind(
+				        'originalContent.dot',
+				        function( e, fn )
+				        {
+					        e.preventDefault();
+					        e.stopPropagation();
+
+					        if ( typeof fn == 'function' )
+					        {
+						        fn.call( $dot[ 0 ], orgContent );
+					        }
+					        return orgContent;
+				        }
+
+			        ).bind(
+				        'destroy.dot',
+				        function( e )
+				        {
+					        e.preventDefault();
+					        e.stopPropagation();
+
+					        $dot.unwatch()
+						        .unbind_events()
+						        .empty()
+						        .append( orgContent )
+						        .data( 'dotdotdot', false );
+				        }
+			        );
+			        return $dot;
+		        };	//	/bind_events
+
+		        $dot.unbind_events = function()
+		        {
+			        $dot.unbind('.dot');
+			        return $dot;
+		        };	//	/unbind_events
+
+		        $dot.watch = function()
+		        {
+			        $dot.unwatch();
+			        if ( opts.watch == 'window' )
+			        {
+				        var $window = $(window),
+					        _wWidth = $window.width(),
+					        _wHeight = $window.height();
+
+				        $window.bind(
+					        'resize.dot' + conf.dotId,
+					        function()
+					        {
+						        if ( _wWidth != $window.width() || _wHeight != $window.height() || !opts.windowResizeFix )
+						        {
+							        _wWidth = $window.width();
+							        _wHeight = $window.height();
+
+							        if ( watchInt )
+							        {
+								        clearInterval( watchInt );
+							        }
+							        watchInt = setTimeout(
+								        function()
+								        {
+									        $dot.trigger( 'update.dot' );
+								        }, 10
+							        );
+						        }
+					        }
+				        );
+			        }
+			        else
+			        {
+				        watchOrg = getSizes( $dot );
+				        watchInt = setInterval(
+					        function()
+					        {
+						        var watchNew = getSizes( $dot );
+						        if ( watchOrg.width  != watchNew.width ||
+							         watchOrg.height != watchNew.height )
+						        {
+							        $dot.trigger( 'update.dot' );
+							        watchOrg = getSizes( $dot );
+						        }
+					        }, 100
+				        );
+			        }
+			        return $dot;
+		        };
+		        $dot.unwatch = function()
+		        {
+			        $(window).unbind( 'resize.dot' + conf.dotId );
+			        if ( watchInt )
+			        {
+				        clearInterval( watchInt );
+			        }
+			        return $dot;
+		        };
+
+		        var	orgContent	= $dot.contents(),
+			        opts 		= $.extend( true, {}, $.fn.dotdotdot.defaults, o ),
+			        conf		= {},
+			        watchOrg	= {},
+			        watchInt	= null,
+			        $inr		= null;
+
+		        conf.afterElement	= getElement( opts.after, $dot );
+		        conf.isTruncated	= false;
+		        conf.dotId			= dotId++;
+
+
+		        $dot.data( 'dotdotdot', true )
+			        .bind_events()
+			        .trigger( 'update.dot' );
+
+		        if ( opts.watch )
+		        {
+			        $dot.watch();
+		        }
+
+		        return $dot;
+	        };
+
+
+	        //	public
+	        $.fn.dotdotdot.defaults = {
+		        'ellipsis'	: '... ',
+		        'wrap'		: 'word',
+		        'lastCharacter': {
+			        'remove'		: [ ' ', ',', ';', '.', '!', '?' ],
+			        'noEllipsis'	: []
+		        },
+		        'tolerance'	: 0,
+		        'callback'	: null,
+		        'after'		: null,
+		        'height'	: null,
+		        'watch'		: false,
+		        'windowResizeFix': true,
+		        'debug'		: false
+	        };
+
+
+	        //	private
+	        var dotId = 1;
+
+	        function children( $elem, o, after )
+	        {
+		        var $elements 	= $elem.children(),
+			        isTruncated	= false;
+
+		        $elem.empty();
+
+		        for ( var a = 0, l = $elements.length; a < l; a++ )
+		        {
+			        var $e = $elements.eq( a );
+			        $elem.append( $e );
+			        if ( after )
+			        {
+				        $elem.append( after );
+			        }
+			        if ( test( $elem, o ) )
+			        {
+				        $e.remove();
+				        isTruncated = true;
+				        break;
+			        }
+			        else
+			        {
+				        if ( after )
+				        {
+					        after.remove();
+				        }
+			        }
+		        }
+		        return isTruncated;
+	        }
+	        function ellipsis( $elem, $d, $i, o, after )
+	        {
+		        var $elements 	= $elem.contents(),
+			        isTruncated	= false;
+
+		        $elem.empty();
+
+		        var notx = 'table, thead, tbody, tfoot, tr, col, colgroup, object, embed, param, ol, ul, dl, select, optgroup, option, textarea, script, style';
+		        for ( var a = 0, l = $elements.length; a < l; a++ )
+		        {
+
+			        if ( isTruncated )
+			        {
+				        break;
+			        }
+
+			        var e	= $elements[ a ],
+				        $e	= $(e);
+
+			        if ( typeof e == 'undefined' )
+			        {
+				        continue;
+			        }
+
+			        $elem.append( $e );
+			        if ( after )
+			        {
+				        var func = ( $elem.is( notx ) )
+					        ? 'after'
+					        : 'append';
+				        $elem[ func ]( after );
+			        }
+			        if ( e.nodeType == 3 )
+			        {
+				        if ( test( $i, o ) )
+				        {
+					        isTruncated = ellipsisElement( $e, $d, $i, o, after );
+				        }
+			        }
+			        else
+			        {
+				        isTruncated = ellipsis( $e, $d, $i, o, after );
+			        }
+
+			        if ( !isTruncated )
+			        {
+				        if ( after )
+				        {
+					        after.remove();
+				        }
+			        }
+		        }
+		        return isTruncated;
+	        }
+	        function ellipsisElement( $e, $d, $i, o, after )
+	        {
+		        var isTruncated	= false,
+			        e			= $e[ 0 ];
+
+		        if ( typeof e == 'undefined' )
+		        {
+			        return false;
+		        }
+
+		        var seporator	= ( o.wrap == 'letter' ) ? '' : ' ',
+			        textArr		= getTextContent( e ).split( seporator ),
+			        position 	= -1,
+			        midPos		= -1,
+			        startPos	= 0,
+			        endPos		= textArr.length - 1;
+
+		        while ( startPos <= endPos )
+		        {
+			        var m = Math.floor( ( startPos + endPos ) / 2 );
+			        if ( m == midPos )
+			        {
+				        break;
+			        }
+			        midPos = m;
+
+			        setTextContent( e, textArr.slice( 0, midPos + 1 ).join( seporator ) + o.ellipsis );
+
+			        if ( !test( $i, o ) )
+			        {
+				        position	= midPos;
+				        startPos	= midPos;
+			        }
+			        else
+			        {
+				        endPos		= midPos;
+			        }
+		        }
+
+		        if ( position != -1 )
+		        {
+			        var txt = textArr.slice( 0, position + 1 ).join( seporator );
+			        isTruncated = true;
+
+			        while( $.inArray( txt.slice( -1 ), o.lastCharacter.remove ) > -1 )
+			        {
+				        txt = txt.slice( 0, -1 );
+			        }
+			        if ( $.inArray( txt.slice( -1 ), o.lastCharacter.noEllipsis ) < 0 )
+			        {
+				        txt += o.ellipsis;
+			        }
+			        setTextContent( e, txt );
+		        }
+		        else
+		        {
+			        var $w = $e.parent();
+			        $e.remove();
+			        $n = $w.contents().eq( -1 );
+
+			        isTruncated = ellipsisElement( $n, $d, $i, o, after );
+		        }
+
+		        return isTruncated;
+	        }
+	        function test( $i, o )
+	        {
+		        return $i.innerHeight() > o.maxHeight;
+	        }
+	        function getSizes( $d )
+	        {
+		        return {
+			        'width'	: $d.innerWidth(),
+			        'height': $d.innerHeight()
+		        };
+	        }
+	        function setTextContent( e, content )
+	        {
+		        if ( e.innerText )
+		        {
+			        e.innerText = content;
+		        }
+		        else if ( e.nodeValue )
+		        {
+			        e.nodeValue = content;
+		        }
+		        else if (e.textContent)
+		        {
+			        e.textContent = content;
+		        }
+	        }
+	        function getTextContent( e )
+	        {
+		        if ( e.innerText )
+		        {
+			        return e.innerText;
+		        }
+		        else if ( e.nodeValue )
+		        {
+			        return e.nodeValue;
+		        }
+		        else if ( e.textContent )
+		        {
+			        return e.textContent;
+		        }
+		        else
+		        {
+			        return "";
+		        }
+	        }
+	        function getElement( e, $i )
+	        {
+		        if ( typeof e == 'undefined' )
+		        {
+			        return false;
+		        }
+		        if ( !e )
+		        {
+			        return false;
+		        }
+		        if ( typeof e == 'string' )
+		        {
+			        e = $(e, $i);
+			        return ( e.length )
+				        ? e
+				        : false;
+		        }
+		        if ( typeof e == 'object' )
+		        {
+			        return ( typeof e.jquery == 'undefined' )
+				        ? false
+				        : e;
+		        }
+		        return false;
+	        }
+	        function getTrueInnerHeight( $el )
+	        {
+		        var h = $el.innerHeight(),
+			        a = [ 'paddingTop', 'paddingBottom' ];
+
+		        for ( z = 0, l = a.length; z < l; z++ ) {
+			        var m = parseInt( $el.css( a[ z ] ), 10 );
+			        if ( isNaN( m ) )
+			        {
+				        m = 0;
+			        }
+			        h -= m;
+		        }
+		        return h;
+	        }
+	        function debug( d, m )
+	        {
+		        if ( !d )
+		        {
+			        return false;
+		        }
+		        if ( typeof m == 'string' )
+		        {
+			        m = 'dotdotdot: ' + m;
+		        }
+		        else
+		        {
+			        m = [ 'dotdotdot:', m ];
+		        }
+
+		        if ( window.console && window.console.log )
+		        {
+			        window.console.log( m );
+		        }
+		        return false;
+	        }
+
+
+	        //	override jQuery.html
+	        var _orgHtml = $.fn.html;
+            $.fn.html = function( str ) {
+		        if ( typeof str != 'undefined' )
+		        {
+			        if ( this.data( 'dotdotdot' ) )
+			        {
+				        if ( typeof str != 'function' )
+				        {
+					        return this.trigger( 'update', [ str ] );
+				        }
+			        }
+			        return _orgHtml.call( this, str );
+		        }
+		        return _orgHtml.call( this );
+            };
+
+
+	        //	override jQuery.text
+	        var _orgText = $.fn.text;
+            $.fn.text = function( str ) {
+		        if ( typeof str != 'undefined' )
+		        {
+			        if ( this.data( 'dotdotdot' ) )
+			        {
+				        var temp = $( '<div />' );
+				        temp.text( str );
+				        str = temp.html();
+				        temp.remove();
+				        return this.trigger( 'update', [ str ] );
+			        }
+			        return _orgText.call( this, str );
+		        }
+                return _orgText.call( this );
+            };
+
+
+        })( jQuery );
+        // #endregion /_includes/js/_desktop/jquery.dotdotdot-1.5.1.js
+    </script>
+
+    <style type="text/css">
+        .deviceView {color:#333; }
+    </style>
+    <meta name="robots" content="NOODP"/>
+    <link href="https://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350" rel='canonical'/><meta name="referrer" content="unsafe-url" /><meta property="fb:pages" content="228894400572976" /><meta property="fb:pages" content="158643120943329" /><meta property="fb:pages" content="211771258954153" /><meta property="fb:pages" content="500778163266924" />
+    <link type="text/css" rel="stylesheet" href='/css/homepage.css?dt=20200831012646' />
+    <style type="text/css">
+        #imgTrending { width: 280px; }
+    </style>
+
+    <meta property="fb:app_id" content="532665906827655" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            FB.Event.subscribe('comment.create', SaveComment);
+        });
+    </script>
+
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2023423-4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-2023423-4');
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics new GA4 code added July 21, 2022 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-09CM9GDQ8N"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-09CM9GDQ8N');
+</script>
+
+<!--end new GA4 code -->
+
+    <!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TBVCZ92');</script>
+<!-- End Google Tag Manager -->
+
+    
+<script data-cfasync="false" type="text/javascript">
+    (function (w, d) {
+        var s = d.createElement('script');
+        s.src = '//cdn.adpushup.com/41470/adpushup.js';
+        s.crossOrigin = 'anonymous';
+        s.type = 'text/javascript'; s.async = true;
+        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+        w.adpushup = w.adpushup || { que: [] };
+    })(window, document);
+
+</script>
+
+        
+
+     <!-- Google Tag Manager -->
+
+    
+
+    
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $("#back-to-top").hide();
+              $(function () {
+                  $(window).scroll(function () {
+                      if ($(window).scrollTop() > 100) {
+                          $("#back-to-top").fadeIn(1500);
+                      }
+                      else {
+                          $("#back-to-top").fadeOut(1500);
+                      }
+                  });
+                  //back to top
+                  $("#back-to-top").click(function () {
+                      $('body,html').animate({ scrollTop: 0 }, 1000);
+                      return false;
+                  });
+              });
+          });
+  </script>
+    
+
+<link rel='publisher' href='https://plus.google.com/u/0/100164440738722361146'/>
+<meta Property="og:url" content="https://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350" />
+<meta Property="og:site_name" content="INFOnews" />
+<meta Property="og:type" content="article" />
+<meta Property="og:title" content="ANDERSON: Brexit: goodbye, yellow brick road Part 2" />
+<meta Property="og:description" content="ANDERSON: Brexit: goodbye, yellow brick road Part 2" />
+<meta Property="og:image" content="https://infotel.ca/news/medialibrary/image/mediaitemid19836-3682.jpg" />
+<meta Property="og:image:width" content="206" />
+<meta Property="og:image:height" content="206" />
+
+<title>
+	ANDERSON: Brexit: goodbye, yellow brick road Part 2 | iNFOnews | Thompson-Okanagan's News Source
+</title><meta name="description" content="ANDERSON: Brexit: goodbye, yellow brick road Part 2" /></head>
+<body id="top">
+
+         <div id="newsletter-modal">
+          <script src="/_includes/js/Newsletter-Modal.js"></script>
+          <link href='/_includes/css/Newsletter-Modal.min.css' rel="stylesheet" type="text/css" />
+        <div class="title">
+            Subscribe
+        </div>
+        <p>
+            Would you like to subscribe to our newsletter?
+        </p>
+        <button onclick="CloseModal('#newsletter-modal','newsletter', '//infotel.ca/newsletter',1,90)" class="yes">
+            <span class="label pr-3">Yes</span>
+        </button>
+        <button onclick="CloseModal('#newsletter-modal','newsletter', '',0,90)" class="no">
+            <span class="label pr-3">No</span>
+        </button>
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBVCZ92"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <p id="back-to-top"><a href="#top"><span></span></a></p>
+    
+    <form method="post" action="./it32350" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA4Njg0ODA1NA9kFgJmD2QWBmYPZBYOZg8VAQVodHRwc2QCAQ8WAh4EaHJlZgUzL19pbmNsdWRlcy9jc3MvaGVhZGVyLXRvcC5taW4uY3NzP2R0PTIwMjEwOTI5MDIzOTQwZAIDDxYCHwAFJC9jc3MvbWFzdGVyX2llLmNzcz9kdD0yMDE0MDgxNjAyMDY1OGQCBA8WAh8ABSIvY3NzL21haW5faWUuY3NzP2R0PTE2MDAxMjMxMDQwMDAwZAIFDxUBBWh0dHBzZAIHDxYCHgRUZXh0BYYBCiAgICA8bGluayBocmVmPSJodHRwczovL2luZm90ZWwuY2Evb3Bpbmlvbi9zY290dC1hbmRlcnNvbi9hbmRlcnNvbi1icmV4aXQtZ29vZGJ5ZS15ZWxsb3ctYnJpY2stcm9hZC1wYXJ0LTIvaXQzMjM1MCIgcmVsPSdjYW5vbmljYWwnLz5kAg0PZBYCZg8VASMvY3NzL2hvbWVwYWdlLmNzcz9kdD0yMDIwMDgzMTAxMjY0NmQCAQ9kFgwCAw9kFgICAQ8QZGQWAQIDZAIEDw8WAh4ISW1hZ2VVcmwFHS9pbWFnZXMvd2VhdGhlci8wMy1oZWFkZXIucG5nZGQCBQ8WAh8BBRsgTW9zdGx5IENsb3VkeSZuYnNwOyA2LjjCsENkAgYPDxYCHgdWaXNpYmxlZ2QWTGYPDxYCHgtOYXZpZ2F0ZVVybAUJL2thbWxvb3BzZGQCAQ8PFgIfBAUJL2thbWxvb3BzZGQCAg8PFgIfBAUZL25ld3MvbG9jYWwtbmV3cy9rYW1sb29wc2RkAgMPDxYCHwQFGi9uZXdzL2NvcnJlY3Rpb25zL2thbWxvb3BzZGQCBA8PFgIfBAUXL25ld3Mvb2JpdHVhcnkva2FtbG9vcHNkZAIFDw8WAh8EBRcvbmV3cy9vYml0dWFyeS9rYW1sb29wc2RkAgYPDxYCHwQFFy9uZXdzL3RvcC1uZXdzL2thbWxvb3BzZGQCBw8PFgIfBAUXL25ld3MvY292aWQtMTkva2FtbG9vcHNkZAIIDw8WAh8EBREvd2VhdGhlci9rYW1sb29wc2RkAgkPDxYCHwQFCS9rYW1sb29wc2RkAgoPFgIeC18hSXRlbUNvdW50AgQWCGYPZBYCZg8VAxFidXNpbmVzcy9rYW1sb29wcwhidXNpbmVzcwhCdXNpbmVzc2QCAQ9kFgJmDxUDEGdlbmVyYWwva2FtbG9vcHMHZ2VuZXJhbAdHZW5lcmFsZAICD2QWAmYPFQMPaGVhbHRoL2thbWxvb3BzBmhlYWx0aAZIZWFsdGhkAgMPZBYCZg8VAxFwb2xpdGljcy9rYW1sb29wcwhwb2xpdGljcwhQb2xpdGljc2QCCw8WAh8FAgQWCGYPZBYCZg8VAwxkb24tdGhvbXBzb24MZG9uLXRob21wc29uDERvbiBUaG9tcHNvbmQCAQ9kFgJmDxUDCHNxdWlycmVsCHNxdWlycmVsCFNxdWlycmVsZAICD2QWAmYPFQMVbGV0dGVycy10by10aGUtZWRpdG9yFWxldHRlcnMtdG8tdGhlLWVkaXRvchVMZXR0ZXJzIFRvIFRoZSBFZGl0b3JkAgMPZBYCZg8VAwdqb25lc2llB2pvbmVzaWUHSm9uZXNpZWQCDA8PFgIfBAUdL3Nwb3J0cy9sb2NhbC1zcG9ydHMva2FtbG9vcHNkZAINDw8WAh8EBSMvc3BvcnRzL3Nwb3J0cy10b3Atc3Rvcmllcy9rYW1sb29wc2RkAg4PDxYCHwQFEC9ldmVudHMva2FtbG9vcHNkZAIPDw8WAh8EBRQvZXZlbnRzL2FkZC9rYW1sb29wc2RkAhAPDxYCHwQFEC9ldmVudHMva2FtbG9vcHNkZAIRDw8WAh8EBRYvdGhpbmdzLXRvLWRvL2thbWxvb3BzZGQCEg8PFgIfBAUgL3RoaW5ncy10by1kby9nYWxsZXJpZXMva2FtbG9vcHNkZAITDw8WAh8EBSMvdGhpbmdzLXRvLWRvL2dvbGYtY291cnNlcy9rYW1sb29wc2RkAhQPDxYCHwQFHi90aGluZ3MtdG8tZG8vbXVzZXVtcy9rYW1sb29wc2RkAhUPDxYCHwQFJC90aGluZ3MtdG8tZG8vcGFya3MtYmVhY2hlcy9rYW1sb29wc2RkAhYPDxYCHwQFIi90aGluZ3MtdG8tZG8vc25vdy1zcG9ydHMva2FtbG9vcHNkZAIXDw8WAh8EBTBodHRwczovL2luZm90ZWwuY2EvaW53aW5lL3dpbmVkaXJlY3Rvcnkva2FtbG9vcHNkZAIZDw8WAh8EBRsvc2VhcmNoL2NhdGVnb3JpZXMva2FtbG9vcHNkZAIaDw8WAh8EBRQvZ292ZXJubWVudC9rYW1sb29wc2RkAhsPDxYCHwQFFi9wb3N0YWwtY29kZXMva2FtbG9vcHNkZAIcDw8WBB8BBRBKb2JzIGluIEthbWxvb3BzHwQFKWh0dHBzOi8vY2Euam9vYmxlLm9yZy9qb2JzL0thbWxvb3BzJTJDLUJDZGQCHQ8PFgIfBAUWL2luZm8vQ29udGFjdC9rYW1sb29wc2RkAh4PDxYCHwQFGi9pbmZvX2luZm90ZWxuZXdzL2thbWxvb3BzZGQCHw8PFgIfBAUJL2thbWxvb3BzZGQCIA9kFgJmDw8WAh8BBQpNeSBJbmZvdGVsZGQCIQ8PFgIfBAUJL2thbWxvb3BzZGQCIg8PFgIfBAUIL2tlbG93bmFkZAIjDw8WAh8EBQovcGVudGljdG9uZGQCJA8PFgIfBAUHL3Zlcm5vbmRkAiUPFgIfBQIBFgJmD2QWAmYPFQIfaHR0cHM6Ly90d2l0dGVyLmNvbS9JbmZvTmV3c0thbRFpTkZPbmV3cyBLYW1sb29wc2QCJg8WAh8FAgEWAmYPZBYCZg8VAkhodHRwczovL3d3dy5mYWNlYm9vay5jb20vcGFnZXMvaW5mb25ld3Mta2FtbG9vcHMvMTU4NjQzMTIwOTQzMzI5P2ZyZWY9dHMSIGlORk9uZXdzIEthbWxvb3BzZAIHD2QWEgIBDw8WAh8EBREvaW5mb19pbmZvdGVsbW0vL2RkAgMPDxYCHwQFHy9pbmZvX2luZm90ZWxtbS9hYm91dC1JbmZvVGVsLy9kZAIFDw8WAh8EBRsvaW5mb19pbmZvdGVsbW0vYWR2ZXJ0aXNlLy9kZAIHDw8WAh8EBS8vaW5mb19pbmZvdGVsbW0vZGlzdHJpYnV0aW9uLW9mLXByaW50ZWQtYm9va3MvL2RkAgkPDxYCHwQFHi9pbmZvX2luZm90ZWxtbS90ZXN0aW1vbmlhbHMvL2RkAgsPDxYCHwQFIC9pbmZvX2luZm90ZWxtbS9wcml2YWN5LXBvbGljeS8vZGQCDQ8PFgIfBAUZL2luZm9faW5mb3RlbG1tL3NpdGVtYXAvL2RkAg8PDxYCHwQFGS9pbmZvX2luZm90ZWxtbS9Db250YWN0Ly9kZAIRDw8WAh8EBRYvaW5mb19pbmZvdGVsbW0vaGVscC8vZGQCCA9kFgQCAw9kFgJmDxYCHwUCCBYQZg9kFggCAQ8PFgYfAQVOTWlkZGxlIEVhc3QgbGF0ZXN0OiBJc3JhZWwgZW5kcyBhZ3JlZW1lbnQgd2l0aCBVTiBhZ2VuY3kgcHJvdmlkaW5nIGFpZCBpbiBHYXphHgdUb29sVGlwBU5NaWRkbGUgRWFzdCBsYXRlc3Q6IElzcmFlbCBlbmRzIGFncmVlbWVudCB3aXRoIFVOIGFnZW5jeSBwcm92aWRpbmcgYWlkIGluIEdhemEfBAUxL25ld3NpdGVtL21sLW1pZGVhc3Qtd2Fycy10aGUtbGF0ZXN0L2NwMTM5NTMwOTEwMGRkAgMPDxYCHwRlZGQCBw8WAh8BBXdJc3JhZWwgc2FpZCBNb25kYXkgdGhhdCBpdCBoYXMgdGVybWluYXRlZCB0aGUgYWdyZWVtZW50IGZhY2lsaXRhdGluZyB0aGUgd29yayBvZiB0aGUgVS5OLiBhZ2VuY3kgZm9yIFBhbGVzdGluaWFuIHJlZnVnZWQCCA8VARpOb3ZlbWJlciAwNCwgMjAyNCAxMDo1OCBBTWQCAQ9kFggCAQ8PFgYfAQVJVGhlIExhdGVzdDogVHJ1bXAgcmFsbGllcyBpbiBOb3J0aCBDYXJvbGluYSwgSGFycmlzIGhlYWRzIHRvIFBlbm5zeWx2YW5pYR8GBUlUaGUgTGF0ZXN0OiBUcnVtcCByYWxsaWVzIGluIE5vcnRoIENhcm9saW5hLCBIYXJyaXMgaGVhZHMgdG8gUGVubnN5bHZhbmlhHwQFMi9uZXdzaXRlbS91cy1lbGVjdGlvbi0yMDI0LXRoZS1sYXRlc3QvY3AxNzU1MTM1ODI0ZGQCAw8PFgIfBGVkZAIHDxYCHwEFd1RoZSBwcmVzaWRlbnRpYWwgY2FtcGFpZ24gY29tZXMgZG93biB0byBhIGZpbmFsIHB1c2ggYWNyb3NzIGEgaGFuZGZ1bCBvZiBzdGF0ZXMgb24gdGhlIGV2ZSBvZiBFbGVjdGlvbiBEYXkuICAgICAgIEthbWFsZAIIDxUBGk5vdmVtYmVyIDA0LCAyMDI0IDEwOjQwIEFNZAICD2QWCAIBDw8WBh8BBU5CLkMuIHBvcnQgZW1wbG95ZXJzIHRvIGxhdW5jaCBsb2Nrb3V0IGF0IHRlcm1pbmFscyBhcyBsYWJvdXIgZGlzcnVwdGlvbiBiZWdpbnMfBgVOQi5DLiBwb3J0IGVtcGxveWVycyB0byBsYXVuY2ggbG9ja291dCBhdCB0ZXJtaW5hbHMgYXMgbGFib3VyIGRpc3J1cHRpb24gYmVnaW5zHwQFJS9uZXdzaXRlbS9wb3J0LWRpc3B1dGUtYmMvY3A3OTgxMTA2MTdkZAIDDw8WAh8EZWRkAgcPFgIfAQV2VkFOQ09VVkVSIC0gRW1wbG95ZXJzIGF0IEJyaXRpc2ggQ29sdW1iaWEgcG9ydHMgc2F5IHRoZXkgYXJlIGdvaW5nIGFoZWFkIHdpdGggbG9ja2luZyBvdXQgbW9yZSB0aGFuIDcwMCBmb3JlbWVuIGFjcm9zc2QCCA8VARpOb3ZlbWJlciAwNCwgMjAyNCAxMDoyNyBBTWQCAw9kFggCAQ8PFgYfAQVUJ1RoZSBiZXN0IHRoYXQgd2UgY2FuIGJlJzogSW5kaWdlbm91cyBqdWRnZSBhbmQgVFJDIGNoYWlyIE11cnJheSBTaW5jbGFpciBkaWVzIGF0IDczHwYFXCYjMzk7VGhlIGJlc3QgdGhhdCB3ZSBjYW4gYmUmIzM5OzogSW5kaWdlbm91cyBqdWRnZSBhbmQgVFJDIGNoYWlyIE11cnJheSBTaW5jbGFpciBkaWVzIGF0IDczHwQFKy9uZXdzaXRlbS9vYml0LW11cnJheS1zaW5jbGFpci9jcDEwNTc2NzA5NTBkZAIDDw8WAh8EZWRkAgcPFgIfAQV3V0lOTklQRUcgLSBNdXJyYXkgU2luY2xhaXIsIHdobyB3YXMgYm9ybiB3aGVuIEluZGlnZW5vdXMgcGVvcGxlIGRpZCBub3QgeWV0IGhhdmUgdGhlIHJpZ2h0IHRvIHZvdGUsIGdyZXcgdXAgdG8gYmVjb21lIG9kAggPFQEZTm92ZW1iZXIgMDQsIDIwMjQgOTo0OSBBTWQCBA9kFgoCAQ8PFgYfAQU4T3JhbCBDb25zY2lvdXMgU2VkYXRpb246IEEgU3RyZXNzLUZyZWUgRGVudGFsIEV4cGVyaWVuY2UfBgU4T3JhbCBDb25zY2lvdXMgU2VkYXRpb246IEEgU3RyZXNzLUZyZWUgRGVudGFsIEV4cGVyaWVuY2UfBAVLL3Nwb25zb3JlZC9vcmFsLWNvbnNjaW91cy1zZWRhdGlvbi1hLXN0cmVzcy1mcmVlLWRlbnRhbC1leHBlcmllbmNlL2l0MTA3MDI4ZGQCAw8PFgIfBGVkZAIFDw8WAh8DZ2QWAgIBDw8WAh8EBUsvc3BvbnNvcmVkL29yYWwtY29uc2Npb3VzLXNlZGF0aW9uLWEtc3RyZXNzLWZyZWUtZGVudGFsLWV4cGVyaWVuY2UvaXQxMDcwMjhkFgJmDw8WBh4IQ3NzQ2xhc3MFDHN0b3J5X25hdGl2ZR8BBRFTcG9uc29yZWQgQ29udGVudB4EXyFTQgICZGQCBw8WAh8BBXREZW50YWwgYW54aWV0eSBpcyBhIGNvbW1vbiBjb25jZXJuIGZvciBzb21lIHBhdGllbnRzLCBhbmQgaXQgY2FuIHNvbWV0aW1lcyBwcmV2ZW50IGluZGl2aWR1YWxzIGZyb20gcmVjZWl2aW5nIHRoZSBuZWQCCA8VARlOb3ZlbWJlciAwNCwgMjAyNCA4OjAwIEFNZAIFD2QWCAIBDw8WBh8BBUhEZWZpYW50IGFuZCBjb250cm92ZXJzaWFsOiBLYW1sb29wcyBtYXlvciBkaWdzIGluIHdpdGggaGFsZiBvZiB0ZXJtIGxlZnQfBgVIRGVmaWFudCBhbmQgY29udHJvdmVyc2lhbDogS2FtbG9vcHMgbWF5b3IgZGlncyBpbiB3aXRoIGhhbGYgb2YgdGVybSBsZWZ0HwQFWi9uZXdzaXRlbS9kZWZpYW50LWFuZC1jb250cm92ZXJzaWFsLWthbWxvb3BzLW1heW9yLWRpZ3MtaW4td2l0aC1oYWxmLW9mLXRlcm0tbGVmdC9pdDEwNjk4N2RkAgMPDxYCHwRlZGQCBw8WAh8BBXRUaGVyZSBhcmUgZmV3IHNpZ25zIGluIHRoZSBLYW1sb29wcyBtYXlvciYjMzk7cyBvZmZpY2UgdGhhdCBoZSBzcGVudCB0aW1lIHBlcnNvbmFsaXppbmcgaXQgYXMgUmVpZCBIYW1lci1KYWNrc29uJiMzOWQCCA8VARlOb3ZlbWJlciAwNCwgMjAyNCA3OjAwIEFNZAIGD2QWCgIBDw8WBh8BBVJTdHVkeSBzYXlzIGNpdHkgcG9saWNpZXMgZHJhc3RpY2FsbHkgaW5jcmVhc2UgaG91c2luZyBjb3N0cyBpbiBLYW1sb29wcywgT2thbmFnYW4gHwYFUlN0dWR5IHNheXMgY2l0eSBwb2xpY2llcyBkcmFzdGljYWxseSBpbmNyZWFzZSBob3VzaW5nIGNvc3RzIGluIEthbWxvb3BzLCBPa2FuYWdhbiAfBAVhL2lOaG9tZS9zdHVkeS1zYXlzLWNpdHktcG9saWNpZXMtZHJhc3RpY2FsbHktaW5jcmVhc2UtaG91c2luZy1jb3N0cy1pbi1rYW1sb29wcy1va2FuYWdhbi9pdDEwNzA0NmRkAgMPDxYCHwRlZGQCBQ8PFgIfA2dkFgICAQ8PFgIfBAVhL2lOaG9tZS9zdHVkeS1zYXlzLWNpdHktcG9saWNpZXMtZHJhc3RpY2FsbHktaW5jcmVhc2UtaG91c2luZy1jb3N0cy1pbi1rYW1sb29wcy1va2FuYWdhbi9pdDEwNzA0NmQWAmYPDxYGHwcFE3N0b3J5X25hdGl2ZV9pTmhvbWUfAQUGaU5ob21lHwgCAmRkAgcPFgIfAQV0QSByZXNlYXJjaCBwYXBlciBleHBsb3JlZCBob3cgbXVuaWNpcGFsIGdvdmVybm1lbnQgcG9saWNpZXMgaW5jcmVhc2UgdGhlIGNvc3Qgb2YgaG91c2luZyBpbiBCLkMuLCBhbmQgaXQgc2hvd2VkIHRoYXRkAggPFQEZTm92ZW1iZXIgMDQsIDIwMjQgNzowMCBBTWQCBw9kFggCAQ8PFgYfAQVkUXVpbmN5IEpvbmVzLCBtdXNpYyB0aXRhbiB3aG8gd29ya2VkIHdpdGggZXZlcnlvbmUgZnJvbSBGcmFuayBTaW5hdHJhIHRvIE1pY2hhZWwgSmFja3NvbiwgZGllcyBhdCA5MR8GBWRRdWluY3kgSm9uZXMsIG11c2ljIHRpdGFuIHdobyB3b3JrZWQgd2l0aCBldmVyeW9uZSBmcm9tIEZyYW5rIFNpbmF0cmEgdG8gTWljaGFlbCBKYWNrc29uLCBkaWVzIGF0IDkxHwQFNS9uZXdzaXRlbS9lbnQtb2JpdC1xdWluY3ktam9uZXMtYWJyaWRnZWQvY3AxNDQyNzA2Mjg1ZGQCAw8PFgIfBGVkZAIHDxYCHwEFe1F1aW5jeSBKb25lcywgdGhlIG11bHRpLXRhbGVudGVkIG11c2ljIHRpdGFuIHdob3NlIHZhc3QgbGVnYWN5IHJhbmdlZCBmcm9tIHByb2R1Y2luZyBNaWNoYWVsIEphY2tzb27igJlzIGhpc3RvcmljIOKAnFRocmlsbGQCCA8VARlOb3ZlbWJlciAwNCwgMjAyNCA2OjU5IEFNZAIED2QWBgIBDw8WAh8CBT4vbmV3cy9tZWRpYWxpYnJhcnkvaW1hZ2UvbWVkaWFpdGVtaWQxMDcwNDgtMzk5Ni5wbmc/dz0yNTAmcT05NWRkAgMPFgIfAQUpVFJFTkRJTkcgTk9XOiBEYW5jaW5nIGRvZyBzdGVhbHMgdGhlIHNob3dkAgUPDxYCHwRlZGQCBA8PFgIfA2dkZGQS1N7e+I9FED9lhiojhETVGC3Ui3ozYmqmGTauVagkxw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E60F14AD" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABBu0W4Vhvlpmt7S84zj3uK0F5whXvzjCSSEMbT9HEFttBs73fCNo6ZgiduhxX0RdpofOQZtfzBzNMYTwQFP9ak1Eb94eSUQYpMDuCgZvQEYcdikwmdUr6Lm9SiKMtJSykXBNXKqRiXfbyHmJtnca6u2G7dZYjBjDyrsxyJJT5M/oIlkzZB4o/Wczwuq+ANG2ZKCy0AUzuHef6UCg+MWL1/l6NDYL2QAxjaw0m8N2H9+xPWRW5i54EgmXY08vWbxrQTCP8fElkWjPuGcvhHGYencIn93KMNlex8F3JpN92fegV/ZO8HwBBtQCXsEYABhyykuXZAKcqTLFPKjgHYR4Q51pFR3e2hFHwjWLQwZQYr4Ps1gTFn2K7FvFgiQES+fOSY=" />
+</div>
+        
+        <div class="wrapper pageWidth">
+            <div class="header">
+                <ul class="banner_top">
+                    <li>
+
+
+<script type="text/javascript" src="https://infotel.ca/absolutebm/abm.aspx?z=2"></script>
+
+</li>
+                    <li>
+
+
+<script type="text/javascript" src="https://infotel.ca/absolutebm/abm.aspx?z=9"></script>
+
+</li>
+                </ul>
+
+               <img class="top-region" src="https://infotel.ca/images/logos/kamloops-top.png">
+
+                </img>
+                <div class="top-banner">
+                    <div class="left">
+                        <a href="/kamloops">
+                            <img class="info-news-logo kamloops" src="https://infotel.ca/images/logos/info-news-all.jpg"/> 
+
+                            </img>
+                        </a>
+                    </div>
+
+                    <div class="center">
+                        <img class="buisness-directory-logo" src ="https://infotel.ca/images/logos/BusinessDirectoryText-white.png"/>
+                        <div id="pnlMainSearch" class="searchBar" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;cmdMainSearch&#39;)">
+	
+                            <div id="lyrSearchBox">
+                                <label data-break-label="" for="txtMainSearch" class="break-label-on">Search for businesses in Kamloops, Merritt and Areas</label>
+                                <input name="ctl00$txtMainSearch" type="text" id="txtMainSearch" />
+
+                                         <select name="ctl00$ColorList" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ColorList\&#39;,\&#39;\&#39;)&#39;, 0)" id="ColorList" class="form-control location" style="display:none;">
+		<option value="1"> Penticton, South Okanagan &amp; Similkameen Areas</option>
+		<option value="2"> Kamloops, Merritt and Areas&lt;/ </option>
+		<option value="3">Vernon, Salmon Arm, Revelstoke and Areas </option>
+		<option selected="selected" value="4">Kelowna and Area</option>
+
+	</select>
+
+                                <input type="submit" name="ctl00$cmdMainSearch" value="Search" id="cmdMainSearch" />
+                            </div>
+                           <script type="text/javascript">
+                               $("#txtMainSearch").autocompleted("/_includes/autocomplete/categories/",
+                                   {
+                                    width: 425,
+                                    minChars: 3,
+                                    max: 300,
+                                    matchContains: true,
+                                    extraParams:{bookID: Get_Cookie('book-id')},
+                                    highlightCaps: true
+                                   });
+
+                               $('#txtMainSearch').on('input', function (e)
+                               {
+                                       $('#txtMainSearch').prev('label').removeClass('break-label-on');
+                               });
+                            </script>
+                        
+</div>
+
+                         <div class="news-search">
+                            <a href="/news/search">
+                                <span>Click here to Search All News</span>
+                            </a>s
+                        </div>
+                        <div class="weather">
+                            <a href="/weather/kamloops">
+                                <span class="current-con">Current Conditions</span>
+                            <img id="imgCurrentWeatherConditions" class="weather-image" src="/images/weather/03-header.png" />
+                            </a>
+                            <span class="weather-current">
+                                 Mostly Cloudy&nbsp; 6.8°C
+                            </span>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="right">
+                        <a href="https://infotelmultimedia.ca/">
+                            <img class="itmm-logo" src="https://infotel.ca/images/logos/infotel-multimedia-white-500.png">
+
+                            </img>
+                        </a>
+                    </div>
+                </div>
+                
+<div class="header_menu">
+    <ul id="topnav" class="menubar">
+        <li><a id="lnkHome" for="Home" href="/kamloops">Home</a></li>
+        <li>
+            <a id="lnkNews" for="news" href="/kamloops">News</a>
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+                <li><a id="lnkLocalNews" for="local-news" href="/news/local-news/kamloops">Local News</a></li>
+                
+                <li><a href="/news/bc-news" for="bc-news">BC News</a></li>
+                <li><a href="/news/canada-news" for="canada-news">Canada</a></li>
+                <li><a href="/news/business" for="business">Business</a></li>
+                <li><a id="lnkCorrections" for="corrections" href="/news/corrections/kamloops">Corrections</a></li>
+                
+                
+                <!--<li><a id="HyperLink1" for="obituary" href="/news/obituary/kamloops">Obituaries</a></li>-->
+               
+                
+                <li><a for="top-news" href="/news/top-news/kamloops">Top News</a></li>
+                <li><a href="/news/trending" for="trending">Trending Now</a></li>
+                <li><a href="/world" for="world">World</a></li>
+                <!-- <li><a href="/news/weird-news" for="weird-news">Weird News</a></li> -->
+            </ul>
+            <!--Subnav Ends Here-->
+        </li>
+        <li><a id="lnkCovid19" for="covid19" href="/news/covid-19/kamloops">COVID-19</a></li>
+        <!--
+        <li><a href="/inwine/" for="inwine">iNwine</a></li>
+        <li><a href="/in420/" for="inwine">iN420</a></li>
+        <li><a href="/inhome/" for="inwine">iNhome</a></li
+        -->
+        <!--
+        <li><a href="/inwine/" for="inwine"><img src="https://infotel.ca/images/inwine_small_white.png" height="15" alt="iNwine" /></a></li>
+        <li><a href="/in420/" for="inwine"><img src="https://infotel.ca/images/in420_small_white.png" height="15" alt="iN420"/> </a></li>
+        <li><a href="/inhome/" for="inwine"><img src="https://infotel.ca/images/inhome_small_white.png" height="15" alt="iNhome" /></a></li>
+            -->
+
+        <li><a id="lnkWeather" for="weather" href="/weather/kamloops">Weather</a></li>
+
+        
+        <li>
+            <a id="lnkOpinion" for="opinion" href="/kamloops">Opinion</a>
+            <!--Subnav Starts Here -->
+            <ul class="sub_menubar" >
+                
+                        <li><a href="/opinion/category/business/kamloops" for="business">Business</a></li>
+                    
+                        <li><a href="/opinion/category/general/kamloops" for="general">General</a></li>
+                    
+                        <li><a href="/opinion/category/health/kamloops" for="health">Health</a></li>
+                    
+                        <li><a href="/opinion/category/politics/kamloops" for="politics">Politics</a></li>
+                    
+                 <li><a href="/sponsored/kamloops">Sponsored Content</a></li>
+                <li><a href="/spotlight/kamloops">Business Spotlight</a></li>
+                <li> <span style="color: white; font-weight:bold; font-size:larger;">&nbsp;Columnists</span></li>
+                
+                        <li><a href="/opinion/columnist/don-thompson" for="don-thompson">Don Thompson</a></li>
+                    
+                        <li><a href="/opinion/columnist/squirrel" for="squirrel">Squirrel</a></li>
+                    
+                        <li><a href="/opinion/columnist/letters-to-the-editor" for="letters-to-the-editor">Letters To The Editor</a></li>
+                    
+                        <li><a href="/opinion/columnist/jonesie" for="jonesie">Jonesie</a></li>
+                    
+
+            </ul>
+           <!-- Subnav Ends Here-->
+        </li>
+        
+        <li>
+            <a href="/" for="sports"><span style="font-size:11px;">Sports and <br /> Entertainment</span></a>
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+                <!--<li><a id="lnkLocalSports" for="local-sports" href="/sports/local-sports/kamloops">Local Sports</a></li>-->
+                <!-- <li><a id="lnkSportsTopStories" for="sports-top-stories" href="/sports/sports-top-stories/kamloops">Sports Top Stories</a></li>-->
+                 <li><a href="/sports" for="sports">All Sports</a></li>
+                <li><a href="/sports/cfl" for="cfl">CFL</a></li>
+                <li><a href="/sports/curling" for="curling">Curling</a></li>
+                <li><a href="/sports/figure-skating" for="figure-skating">Figure Skating</a></li>
+                <li><a href="/sports/mlb" for="mlb">MLB</a></li>
+                <li><a href="/sports/nba" for="nba">NBA</a></li>
+                <li><a href="/sports/nfl" for="nfl">NFL</a></li>
+                <li><a href="/sports/nhl" for="nhl">NHL</a></li>
+                <li><a href="/sports/soccer" for="soccer">Soccer</a></li>
+                <li><a href="/entertainment" for="entertainment">Entertainment</a></li>
+                <li><a href="/entertainment/arts" for="arts">Arts & Entertainment</a></li>
+            </ul>
+            <!--Subnav Ends Here-->
+        </li>
+       <li>
+            <!--<a href="/lifestyle" for="lifestyle">Lifestyle</a>-->
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+                <!--<li><a href="/lifestyle/diet-fitness" for="diet-fitness">Diet & Fitness</a></li>-->
+                <!--<li><a href="/lifestyle/food" for="food">Food</a></li>-->
+                <!--<li><a href="/lifestyle/health" for="health">Health</a></li>-->
+                <!--<li><a href="/lifestyle/horoscopes" for="horoscopes">Horoscopes</a></li>-->
+               <!-- <li><a href="/lifestyle/parenting" for="parenting">Parenting</a></li>-->
+               <!-- <li><a href="/lifestyle/travel" for="travel">Travel</a></li>-->
+            </ul>
+            <!--Subnav Ends Here-->
+        </li>
+        <li>
+            <!--<a href="/entertainment" for="entertainment">Entertainment</a>-->
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+               <!--<li><a href="/entertainment/arts" for="arts">Arts & Entertainment</a></li>-->
+                <!--<li><a href="/entertainment/celebrities" for="celebrities">Celebrities</a></li>-->
+                <!--<li><a href="/entertainment/movies" for="movies">Movies</a></li>-->
+                <!--<li><a href="/entertainment/music" for="music">Music</a></li>-->
+                <!--<li><a href="/entertainment/new-releases" for="new-releases">New Releases</a></li>-->
+                <!--<li><a href="/entertainment/tv" for="tv">TV</a></li>-->
+            </ul>
+            <!--Subnav Ends Here-->
+        </li>
+        <li>
+            <a id="lnkEvents" for="events" href="/events/kamloops">Events</a>
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+                <li><a id="lnkAddEvent" for="add" href="/events/add/kamloops">Add an Event</a></li>
+                <li><a id="lnkViewEvents" href="/events/kamloops">View Events</a></li>
+                <li><a id="lnkThingsToDo" for="things-to-do" href="/things-to-do/kamloops"><b style="color: white; font-weight:bold; font-size:larger;">Things To Do</b></a></li>
+            <!--Subnav Starts Here-->
+            <!-- <ul class="sub_menubar"> -->
+                <li><a id="lnkGalleries" for="galleries" href="/things-to-do/galleries/kamloops">Galleries</a></li>
+                <li><a id="lnkGolfCourses" for="golf-courses" href="/things-to-do/golf-courses/kamloops">Golf Courses</a></li>
+                
+                <li><a href="/lifestyle/health" for="health">Health</a></li>
+                <!-- <li><a href="/lifestyle/horoscopes" for="horoscopes">Horoscopes</a></li> -->
+                 <li><a href="/lifestyle" for="lifestyle">Lifestyle</a></li>
+                <li><a id="lnkMuseums" for="museums" href="/things-to-do/museums/kamloops">Museums</a></li>
+                <li><a id="lnkParks" for="parks-beaches" href="/things-to-do/parks-beaches/kamloops">Parks and Beaches</a></li>
+                <li><a id="lnkSnowSport" for="snow-sports" href="/things-to-do/snow-sports/kamloops">Snow Sports</a></li>
+                <li style="display:none;"><a id="lnkWinery" for="winery-tours" href="https://infotel.ca/inwine/winedirectory/kamloops">Wineries</a></li>
+                <li><a href="https://infotel.ca/inwine/winedirectory/" id="inwineDirectoryLinking">Wineries</a></li>
+            <!-- </ul> -->
+            <!--Subnav Ends Here-->
+
+            </ul>
+            <!--Subnav Ends Here-->
+        </li>
+
+          <li>
+            <a href="/wordl/" for="iNwordl">iNwordl</a>
+        </li>
+
+        <li>
+
+            <!-- <a id="lnkBusSearch" for="categories" href="/search/categories/kamloops">Business Directory</a> -->
+
+            <a href="/search/" for="categories">Business Directory</a>
+            <ul class="sub_menubar">
+                
+                <li><a href='/search/restaurants/'>Restaurants</a></li>
+                <li><a id="lnkGov" for="government" href="/government/kamloops">Government</a></li>
+                <li><a id="lnkPostalCodes" for="postal-codes" href="/postal-codes/kamloops">Postal Codes</a></li>
+                <li><a id="lnkJobsIn" href="https://ca.jooble.org/jobs/Kamloops%2C-BC" target="_blank">Jobs in Kamloops</a></li>
+            </ul>
+        </li>
+
+
+<li><a href="/about" for="about-infotel">About</a>
+            <!--Subnav Starts Here-->
+            <ul class="sub_menubar">
+                <li><a href="javascript:void(null);" for="info_infotelmm">Multimedia Division</a>
+                    <ul class="sub_menubar">
+
+
+                        <li><a href="https://www.infotelmultimedia.ca/" for="what-we-offer">What We Offer</a></li>
+
+                            
+                              <!-- <ul class="sub_menubar"> -->
+                                <li><!--<a>Print & Online <br />Directory Rates</a>-->
+                                    <ul class="sub_menubar">
+                                        <!-- <li><a href="/info/what-we-offer/advertise-print/layouts" for="layouts">Layouts</a></li> -->
+                                        <!-- these url's directed at pdf's should work when they are on the live site-->
+                                        <!--<li><a href="/info/what-we-offer/advertise-print/rates/kamloops" target="_blank">Kamloops</a></li>-->
+                                        <!--<li><a href="/info/what-we-offer/advertise-print/rates/kelowna" target="_blank">Kelowna</a></li>-->
+                                        <!--<li><a href="/info/what-we-offer/advertise-print/rates/penticton" target="_blank">Penticton</a></li>-->
+                                        <!--<li><a href="/info/what-we-offer/advertise-print/rates/vernon" target="_blank">Vernon</a></li>-->
+                                        <!--"End PDF Urls (1)"-->
+                                        
+                                        
+                                    </ul>
+                            <!-- </ul> -->
+
+                                
+                                
+
+                                
+                        <li><a href="/create-your-listing" for="create-your-listing">Create your listing</a></li>
+                        <!--<li><a href="/info/help" for="help">...More Info</a></li>-->
+                        
+                        <li><a href="/info/privacy-policy" Target="_blank">Privacy Policy</a></li>
+                        <li><a id="lnkContact" for="contact" href="/info/Contact/kamloops">Contact </a></li>
+
+                    </ul>
+                </li>
+                <li><a href="javascript:void(null);">News Division</a>
+                    <ul class="sub_menubar">
+                         <li><a href="/_includes/pdf/infotel_news_ltd_privacypolicyanddisclaimer.pdf" Target="_blank">Privacy Policy <br/> & Disclaimer</a>
+                         <li><a href="/newsletter" Target="_blank">Sign Up For<br /> Our Newsletter</a>
+                         <li><a href="/info/make-us-your-homepage" Target="_blank">Make Us  <br/> Your Homepage</a></li>
+                         <li><a id="lnkContactNews" for="info_infotelnews" href="/info_infotelnews/kamloops">Contact</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="/info/employment/" for="employment">Career Opportunities</a>-->
+                <!-- <li><a href="/info/sitemap" for="sitemap">Sitemap</a> -->
+
+
+
+            </ul>
+            <!-- sub nav ends here-->
+        </li>
+    <li>
+        <a id="subSites" for="subsites" href="/kamloops">Subsites</a>
+        <ul class="sub_menubar">
+            <li><a href="/inwine/" for="inwine">iNwine</a></li>
+            <li><a href="/in420/" for="in420">iN420</a></li>
+            <li><a href="/inhome/" for="inhome">iNhome</a></li>
+             <li><a href="/inwheels/" for="inwheels">iNwheels</a></li>
+           <!-- <li><a href="/search/" for="insearch">iNsearch</a></li> -->
+        </ul>
+    </li>
+        <li id="pnlAdmin">
+            <a id="lnkAccount" for="my" href="/my">My Infotel</a>
+            <ul class="sub_menubar">
+                
+                
+                <li><a href="/login" for="login">Login</a></li>
+                <li><a href="/register" for="register">Create an Account</a></li>
+                
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<style>
+
+    .header_toolbar { max-height: 60px; margin-top: 5px; /*overflow:hidden;*/
+                float:left; width:100%;position:relative; border: 1px solid transparent; border-top:0px;border-bottom-width:0px; padding-bottom:3px;
+              background: -webkit-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -o-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -ms-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: -moz-linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+			   background: linear-gradient(top, rgb(170, 170, 170) 0%, rgb(255, 255, 255) 100%);
+}
+    .header_subsite
+    {
+        list-style: none outside none;
+        padding: 10px 5px 10px 5px;
+        padding: 0;
+        margin: 0;
+        margin-top: 3px;
+        float: left;
+        width:  100%;
+        background: rgb(153,153,153);
+        background: -moz-linear-gradient(0deg, rgba(153,153,153,1) 0%, rgba(162,162,162,1) 44%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(153,153,153,1) 0%, rgba(162,162,162,1) 44%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(0deg, rgba(153,153,153,1) 0%, rgba(162,162,162,1) 44%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#999999",endColorstr="#ffffff",GradientType=1);
+
+        border-top:    3px solid  white;
+        border-bottom:    1px solid  white;
+    }
+
+    .subsites {
+        list-style: none outside none;
+        display: flex;
+        align-items: center; /* Default */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 2px 0px 2px 0px;
+    }
+
+    .last_subsite {
+        padding-right: 100px;
+    }
+
+    .first_subsite {
+        padding-left: 100px;
+    }
+/*
+    ul.subsites > li:hover > a
+    {
+        background: -webkit-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%);
+        background: -o-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%);
+        background: -ms-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%);
+        background: -moz-linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%);
+        background: linear-gradient(top, rgb(81, 81, 81) 0%, rgb(33, 33, 33) 62%, rgb(5, 6, 6) 100%);
+    }
+    li:hover > img.inwine-img,img.inwine-img:hover
+    {
+        content:url("https://infotel.ca/images/subsites/logos/inwine_w.png?h=20");
+    }
+    li:hover > img.in420-img,img.in420-img:hover
+    {
+        content:url("https://infotel.ca/images/subsites/logos/in420_w.png?h=20");
+    }
+
+    li:hover > img.inhome-img,img.inhome-img:hover
+    {
+        content:url("https://infotel.ca/images/subsites/logos/inhome_w.png?h=20");
+    }
+    */
+</style>
+
+    <div class="header_subsite">
+        <ul class="subsites">
+            <li><a href="/inwine/" for="inwine" class="first_subsite" target="_blank"><img class="inwine-img" src="https://infotel.ca/images/subsites/logos/inwine_b.png" height="30" alt="iNwine"/></a></li>
+            <li><a href="/in420/" for="in420" target="_blank"><img class="in420-img" src="https://infotel.ca/images/subsites/logos/in420_b.png" height="30" alt="iN420"/> </a></li>
+            <li><a href="/inhome/" for="inhome" target="_blank"><img class="inhome-img" src="https://infotel.ca/images/subsites/logos/inhome_b.png" height="30" alt="iNhome" /></a></li>
+			<li><a href="/inwheels/" for="inwheels" target="_blank"><img class="inwheels-img" src="https://infotel.ca/images/subsites/logos/inwheels_b.png" height="30" alt="iNwheels" /></a></li>
+            <li><a href="/search/" for="insearch" target="_blank"><img class="insearch-img" src="https://infotel.ca/images/subsites/logos/insearch-b.png" height="30" alt="iNsearch" /></a></li>
+            <li>
+                <a href="https://infotelmultimedia.ca" for="multimedia" class="last_subsite" target="_blank">
+                    <img src="https://infotel.ca/images/subsites/logos/infotelmultimedia_b.png" height="50" alt="infotel multimedia_w" />
+                </a>
+            </li>
+        </ul>
+        <!--
+        <ul class="multimedia">
+            <li>
+                <a href="https://infotelmultimedia.ca" for="multimedia">
+                    <img src="https://infotel.ca/images/subsites/logos/infotelmultimedia_b.png" height="30" alt="infotel multimedia_w" />
+                </a>
+            </li>
+        </ul> -->
+    </div>
+
+<div class="header_toolbar">
+    <ul class="header_books">
+        <li><a id="lnkKamloops" name="bookID2" href="/kamloops">Kamloops</a></li>
+        <li><a id="lnkKelowna" name="bookID4" href="/kelowna">Kelowna</a></li>
+        <li><a id="lnkPenticton" name="bookID1" href="/penticton">Penticton</a></li>
+        <li><a id="lnkVernon" name="bookID3" href="/vernon">Vernon</a></li>
+    </ul>
+    <div class="header_infobar">
+        <!--
+        <div style=" float:left; margin-right:5px; padding-top:10px;  border:0px none transparent !important;" ><a href="https://infotel.ca/inwine" target="_blank"><img src="https://infotel.ca/images/inwine_small.png" height="20" alt="iNwine" /> </a></div>
+        <div style=" float:left; margin-right:5px; padding-top:10px;  border:0px none transparent !important;" ><a href="https://infotel.ca/inhome" target="_blank"><img src="https://infotel.ca/images/inhome_small.png" height="20" alt="iNhome" /> </a></div>
+        <div style=" float:left; margin-right:5px; padding-top:10px;  border:0px none transparent !important;" ><a href="https://infotel.ca/in420" target="_blank"><img src="https://infotel.ca/images/in420_small.png" height="20" alt="iN420"/> </a></div>
+        -->
+
+
+          <!--
+              <div style=" float:left; margin-right:100px; padding-top:2px;  border:0px none transparent !important;" ><a href="https://infotelmultimedia.ca" target="_blank"><img src="https://infotel.ca/images/infotelmultimedia/itmm-small.jpg" height="35" width="109" alt="iNFOTEL MULTIMEDIA" /> </a></div>
+          -->
+          <div style=" float:left; margin-right:255px; padding-top:2px;  border:0px none transparent !important;" ><a href="/newsletter" target="_blank"><img src="/images/newsletter.png" height="40" width="120" /> </a></div>
+
+
+
+
+        <!-- image named subscribe.png is the the images directory to replace the above image when the contest is done - it says subscribe to our newsletter and can link to infotel.ca/newsletter -->
+       <!--<div style=" float:left; margin-right:0px; padding-top:4px;  border:0px none transparent !important;" ><a href="https://infotel.ca/contest/ipe/kamloops" target="_blank"><img src="/images/contests/ipe-2018.gif" height="40" width="275" /> </a></div>-->
+        
+        
+
+
+            
+
+        <ul class="social_bar_menu">
+            <li class="twitter"><a href="https://twitter.com/infonewskam" target="_blank" class="social"></a>
+                <ul class="dropdown-menu has-icons">
+                    
+                            <li><a href='https://twitter.com/InfoNewsKam' target="_blank">iNFOnews Kamloops</a></li>
+                        
+                    <li class="dropdown-divider"></li>
+                    <li><a href="https://twitter.com/infotelmmedia " target="_blank">iNFOTEL MULTIMEDIA</a></li>
+                </ul>
+            </li>
+            <li class="facebook"><a href="#" target="_blank" class="social"></a>
+                <ul class="dropdown-menu has-icons">
+                    
+                            <li><a href='https://www.facebook.com/pages/infonews-kamloops/158643120943329?fref=ts' target="_blank"> iNFOnews Kamloops</a></li>
+                        
+                    <li class="dropdown-divider"></li>
+                    <li><a href="https://www.facebook.com/pages/InfoTel-Multimedia/185034631539491" target="_blank">iNFOTEL MULTIMEDIA</a></li>
+                </ul>
+            </li>
+            <li class="linkedin"><a href="https://www.linkedin.com/company/infotel-multimedia" target="_blank" class="social"></a>
+                <ul class="dropdown-menu has-icons">
+                    <li><a href=" https://www.linkedin.com/company/infotel-multimedia" target="_blank">iNFOTEL MULTIMEDIA</a></li>
+                </ul>
+            </li>
+            <li class="rss"><a href="/rssfeed/kamloops" target="_blank" class="social"></a>
+                <ul class="dropdown-menu has-icons">
+                    <li><a href="/rssfeed/kamloops" target="_blank">iNFOnews Kamloops</a></li>
+                            <li class="dropdown-divider"></li>
+                    <li><a href="/rssfeed/kelowna" target="_blank">iNFOnews Kelowna</a></li>
+                            <li class="dropdown-divider"></li>
+                    <li><a href="/rssfeed/penticton" target="_blank">iNFOnews Penticton</a></li>
+                            <li class="dropdown-divider"></li>
+                    <li><a href="/rssfeed/vernon" target="_blank">iNFOnews Vernon</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="youtube">
+                <a href="#" target="_blank" class="social"></a>
+                   <ul class="dropdown-menu has-icons">
+                        <li><a href="https://www.youtube.com/channel/UC0TYdxgEoMZXU0u0u049siw" rel="publisher" target="_blank">iNFOnews</a></li>
+                       <li class="dropdown-divider"></li>
+                       <li><a href="https://youtu.be/BskYbjPveCQ" rel="publisher" target="_blank">iNFOnews / iNFOTEL <br /> Commercial</a></li>
+                       <li class="dropdown-divider"></li>
+                    <li><a href="https://youtu.be/5VGp8KUcLyQ" rel="publisher" target="_blank">Bugmaster Pest <br />Control Testimonial</a></li>
+                       <li class="dropdown-divider"></li>
+                    <li><a href="https://youtu.be/ef6bcXmbxiY" rel="publisher" target="_blank">Nice 'N' Clean<br /> Testimonial</a></li>
+                       <li class="dropdown-divider"></li>
+                    </ul>
+
+            </li>
+            <li class="instagram">
+                <a href="https://www.instagram.com/infotelmultimedia/" target="_blank" class="social"></a>
+
+
+            </li>
+
+             <li class="flipboard">
+                <a href="https://flipboard.com/@infonewscanada/infonews-353ab207z/" target="_blank" class="social" style="background-image:url('/images/flipboard.png');"></a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+                
+                <div class="clear"></div>
+            </div>
+            
+    <div id="fb-root"></div>
+    <script type="text/javascript">(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=532665906827655";
+        fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="page_content">
+        <div class="header_widget">
+            
+
+
+<script type="text/javascript" src="https://infotel.ca/absolutebm/abm.aspx?z=54"></script>
+
+
+        </div>
+        
+<link href="/css/font-awesome.min.css" rel="stylesheet" />
+<link href="/css/popover.min.css" rel="stylesheet" />
+<script src="/scripts/popover.min.js"></script>
+<style type="text/css">
+    #pnlNews {
+        padding: 10px;
+        text-align: justify; /*margin-lefcphHeadt: 10px; clear: both; width: 92%;*/
+    }
+
+        #pnlNews a {
+            text-decoration: underline;
+        }
+
+            #pnlNews a:hover {
+                text-decoration: underline;
+            }
+
+            #pnlNews a:visited {
+                text-decoration: underline;
+            }
+
+    .imgCaption, .credit, .photographer {
+        font-size: 8pt;
+        font-style: italic;
+        line-height: 11px;
+    }
+
+    .byLine {
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .headLine h1 {
+        font-size: 16pt;
+        margin-bottom: 0px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        border-bottom: 5px;
+        color: black;
+        /*font-style: italic;*/
+    }
+
+    .headLine h2 {
+        font-size: 16pt;
+        margin-bottom: 0px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        border-bottom: 5px;
+        color: black;
+    }
+
+    #imgPanel * {
+        max-width: 100%;
+    }
+
+    .tagLink {
+        display: inline-block;
+    }
+
+        .tagLink:not(:last-child):after {
+            content: ', ';
+            text-decoration: none;
+            padding-right: 5px;
+        }
+
+    #imgCaption {
+        width: 100%;
+    }
+
+.fa-fw {
+    padding-left:5px;
+    vertical-align:super;
+}
+
+.fa-2x
+{font-size: 1.5em;}
+
+/* code to assure powr.io widget displays*/
+.powrLoaded iframe {
+    visibility: visible !important;
+}
+
+
+</style>
+<script type="text/javascript">
+    var host = 'infotel.ca';
+    //var webserviceURL = already set in ~/_includes/UserControls/LocalNewsLoader.ascx
+    var ajaxSearchResult;
+    var SaveComment = function (comment) {
+        //console.log("SaveComment Functions");
+        //console.log(comment);
+        FB.api('/' + comment.commentID+'?fields=from,message',
+            function (response) {
+                if (response && !response.error) {
+                    FB.api(
+                        '/' + response.from.id +'?fields=id,name,picture{url},link',
+                        function (result) {
+                            if (result && !result.error) {
+                                var input = {
+                                    'url': comment.href,
+                                    'id': comment.commentID,
+                                    'comment': response.message,
+                                    'userinfo': {
+                                        name: result.name,
+                                        url: result.link,
+                                        pic: result.picture.data.url
+                                    }
+                                };
+                                if (ajaxSearchResult) {
+                                    return;
+                                }
+                                ajaxSearchResult = $.ajax({
+                                    type: "POST",
+                                    url: webserviceURL + "/savecomment",
+                                    data: JSON.stringify(input),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    success: function (msg) {
+                                        window.postMessage(msg.d, 'http://' + host);
+                                        ajaxSearchResult = null;
+                                    },
+                                    error: function () {
+                                        ajaxSearchResult = null;
+                                    }
+                                });
+                            }
+                        }
+                    );
+                }
+            }
+        );
+    }
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover({
+            placement: 'right',
+            trigger: 'hover'
+        });
+    });
+</script>
+
+<div class="left_col">
+    <div id="pnlNews" itemscope="" itemtype="http://schema.org/NewsArticle">
+	
+        <meta content="https://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350" itemprop="url" /><meta content="Marshall Jones - Managing Editor" itemprop="editor" /><meta content="https://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350#item-comments" itemprop="discussionUrl" /><meta content="ANDERSON: Brexit: goodbye, yellow brick road Part 2" itemprop="description" />
+         <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_responsive_sharing"></div>
+        <script type="text/javascript">var addthis_config = { "data_track_addressbar": false };</script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515f2773121d21ef"></script>
+        <!-- AddThis Button END -->
+
+        <!-- Headline -->
+        <div class="headLine">
+            <h1 style="font-size:xx-small;">
+                Kamloops News
+            </h1>
+            
+            <h1 itemprop="headline">
+                ANDERSON: Brexit: goodbye, yellow brick road Part 2</h1>
+            
+        </div>
+        <!-- By Line-->
+        <div class="byLine" itemscope itemprop="author" itemtype="http://schema.org/Person">
+            By Scott Anderson
+            <span id="metaAuthor" style="display: none;"></span>
+        </div>
+
+
+
+        <!--
+            <div id="gallery">
+                <hr />
+                
+                <hr />
+            </div> -->
+        <span itemprop="articleBody">
+            <!-- Image -->
+            <div id="imgPanel" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" style="float:left;margin:5px 10px;overflow:hidden;display:block;">
+                <div id="photo" style="float: left; padding: 3px; display: block;">
+                    <a id="lnkImgNews" href="/news/medialibrary/image/orig-mediaitemid19836-3682.jpg" target="_blank"><img id="imgNews" src="/news/medialibrary/image/mediaitemid19836-3682.jpg" /></a>
+                    <div id="imgCaption" itemprop="caption" class="imgCaption" style="max-width:206px;width:206px;"></div>
+                    <div id="imgCredit" itemprop="credit" class="credit">Image Credit: Contributed by author</div>
+                    <div id="imgPhotographer" itemprop="author" class="photographer"></div>
+                </div>
+            <meta content="206" itemprop="height" /><meta content="206" itemprop="width" /></div>
+            <!-- Date Created Story -->
+            <div style="font-size: 8.5pt; font-style: italic; line-height: 10px; margin-top: 4px; padding: 3px 0px;">
+                July 05, 2016 - 10:13 AM<meta itemprop='datePublished' content='2016-07-05T18:13:33Z'/>
+            </div>
+            <!-- Story -->
+            <p>
+	<strong>&#39;THE SAME BACKLASH IS COMING TO NORTH AMERICA&#39;</strong></p>
+<hr />
+<p style="text-align: center;">
+	<span style="font-size:14px;"><strong>OPINION</strong></span></p>
+<hr />
+<p>
+	<em>So goodbye yellow brick road<br />
+	Where the dogs of society howl<br />
+	You can&#39;t plant me in your penthouse<br />
+	I&#39;m going back to my plough<br />
+	...<br />
+	Oh I&#39;ve finally decided my future lies<br />
+	Beyond the yellow brick road</em><br />
+	~ Elton John</p>
+<p>
+	So what went wrong with the European Union?</p>
+<p>
+	As so often happens when everyone is trudging along the same path, swaying to the same tune, confirmation bias set in and rumblings were ignored. In the context of European integration, after decades of producing politicians dedicated to the integration thesis, a self-proving feedback loop developed within European political culture. The mythologies of integration became a granite TRVTH in the minds of the leaders of the western world, with as strong a hold on their political ideations as the mythologies of &quot;Christendom&quot; once had on the minds of early mediaeval elites, or Reformist teachings on the early Modern religious mind. And once that happens, once a set of mythologies becomes a self-evident fact in the minds of its proponents, any opposition to it becomes unfathomable, even despicable.</p>
+<p>
+	And so, when Eurosceptics in Britain and across Europe began to push back with economic, cultural, and national concerns against the integration project, they were simply dismissed as &quot;racists&quot; and &quot;xenophobes&quot; and accused of being members of fringe groups on the wrong side of history. And in fairness, it has to be said that for some people political integration did work. <a href="http://www.nationalreview.com/article/437147/brexit-and-end-international-progressive-inevitability">As David French puts it</a>, &quot;It was a system that worked remarkably well for the international upper class. Men and women dedicated to commerce enjoyed unprecedented access to international markets. Activists dedicated to social justice could engineer their societies without ever truly facing the accountability of the ballot box. The logic of the system was self-proving. It would triumph through the sheer force of its virtue.&quot;</p>
+<p>
+	But each time a new existential crisis loomed, the voices of discontent grew louder.</p>
+<p>
+	Even as the cosmopolitan classes and their young acolytes grew more confident in the rightness of their worldview, they became ever less able to see what so many of their citizens were seeing. The golden highway to European integration had become, to a growing number of people, something of a boggy track to nowhere. Wracked by economic difficulties, crippled by intrusive regulation of everything from the environment to culture, and largely defenceless against the predations of a resurgent Russia, the European Union will probably not last long in its present iteration once the United States pulls out of the role of global hegemon anyway, but now, faced with what amounts to an invasion of mostly male, mostly uneducated immigrants unable and apparently unwilling to assimilate, even the ersatz social fabric of the EU is crumbling. From the point of view of many in Britain and across Europe it would be frankly insane NOT to baulk at the EU in its present state of economic, political, cultural and social disarray. The Eurobromides and shrill accusations of bigotry that once kept the Eurosceptics on the defensive no longer seem to work.</p>
+<p>
+	Brexit is in some ways the beginning of the end of the European Union, and in other ways an anticlimax to an inevitability. The European Union has developed into a political entity run by technocrats attempting to subsume national democracies and cultural mores into a structure that&#39;s politically undemocratic, culturally atomistic, militarily defenceless, administratively unwieldy, and in its soft totalitarianism more reminiscent of the old Austro-Hungarian Empire than the cutting edge 21st century superstate its leaders perceive it to be. It worked, sort of, as an economic union, but as a political union it is as profound a failure as the former Soviet Union.</p>
+<p>
+	And yet even now, in the wake of Brexit, amidst a deluge of Euroscepticism and a dangerous rise in cultural animosities, the enlightened ones are still blind to it. Instead of trying to understand and accommodate the phenomenon sweeping across Europe and the western world, Western political leaders prefer to mock it, like Charles I faced with Parliamentary revolt, secure in the conviction of their own rightness. <a href="http://www.foxbusiness.com/politics/2016/06/25/merkel-calls-for-sober-eu-divorce-talks-with-partner-britain.html">French Foreign Minister Jean-Marc Ayrault epitomised this haughty intransigence when he opined in the wake of Brexit,</a> &quot;We have to give a new sense to Europe otherwise populism will fill the gap.&quot; The problem to him wasn&#39;t the EU itself, but rather the marketing of it that needed fixing. Luxembourg&#39;s <a href="http://www.foxbusiness.com/politics/2016/06/25/merkel-calls-for-sober-eu-divorce-talks-with-partner-britain.html">Foreign Minister Jean Asselborn put it more directly</a>: &quot;I believe you can destroy the European Union with referenda.&quot;</p>
+<p>
+	These glimpses into the intellectual heart of the integration programme underscore an embedded disdain for the will of the people and indeed for democracy itself... if the Brexit vote had been &quot;Remain&quot; they would have heralded it as a triumph of democracy and applauded the wisdom of the people, but God forbid that the great unwashed should have a say if their say is going to be &quot;Piss off.&quot;</p>
+<p>
+	Be prepared. The same backlash is coming to North America. In the United States it&#39;s already here. The enlightened ones will mock it and call its prophets fools and knaves, but it behoves the rest of us to try to understand it. Perhaps even, after much thought, join it?</p>
+<p>
+	<em>&mdash; Scott Anderson is a freelance writer. His academic background is in International Relations, Strategic Studies, Philosophy, and poking progressives with rhetorical sticks until they explode.</em></p>
+
+            <!-- Copyright -->
+            <div id="dvCopyRight" style="text-align: center; display: block; clear: both; padding: 5px;">
+                News from &copy; iNFOnews, 2016
+                <!-- Press Logo-->
+                <div style="clear: both;">
+                    <img id="logoPress" title="iNFOnews" src="/images/news/infotel_news_logo.png" alt="iNFOnews" />
+                </div>
+            <meta content="&amp;copy; iNFOnews" itemprop="copyrightHolder" /><meta content="2016" itemprop="copyrightYear" /></div>
+        </span>
+
+        <!-- Tag -->
+        
+
+        <div style="margin-bottom: 1px; margin-left: 2px;" class="fb-like" data-href='https://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350' data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+
+        <!-- AddThis Button BEGIN -->
+        <!-- <div class="addthis_toolbox addthis_default_style ">
+       <a class="addthis_button_facebook_like"></a>  -->
+        <!-- <a class="addthis_button_tweet"></a>
+        <a class="addthis_button_pinterest_pinit"></a>
+        <a class="addthis_counter addthis_pill_style"></a>
+
+        <!-- </div>  -->
+        <br />
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_responsive_sharing"></div>
+        <!-- AddThis Button END -->
+
+
+        <!-- Comments -->
+        <div id="pnlFacebookComments">
+		
+             <div id='item-comments' class='fb-comments' data-num-posts='5' data-href='http://infotel.ca/opinion/scott-anderson/anderson-brexit-goodbye-yellow-brick-road-part-2/it32350'></div>
+        
+	</div>
+       <div class="spacer"></div>
+        <div class="spacer"></div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_responsive_sharing"></div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515f2773121d21ef"></script>
+        <!-- AddThis Button END -->
+
+        
+<script type="text/javascript">
+    var webserviceURL = "https://infotel.ca/_includes/webservice/ajaxnewsloading.asmx";
+</script>
+<style type="text/css">
+    .category_storyDate { font-size: 8.5pt; font-style: italic; font-weight: normal; display: block; margin-bottom:2px;color: #000; }
+    .widgetMoreNews{margin:10px auto !important;}
+</style>
+<script src='/_includes/js/_desktop/ajaxloaddata.js?dt=20180918024722' type="text/javascript"></script>
+
+
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfMobile" id="hfMobile" value="false" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfCategory" id="hfCategory" value="Local" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfCount" id="hfCount" value="0" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfOrigCount" id="hfOrigCount" value="0" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfRegional" id="hfRegional" value="True" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfBookName" id="hfBookName" value="Kamloops" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfOpinion" id="hfOpinion" />
+<input type="hidden" name="ctl00$cphContent$NewsItemOpinionDetail$ucLocalNewsLoader$hfRSS" id="hfRSS" />
+       
+<ul class='tabContent'>
+    
+    <li id="loadMore" onclick="LoadMoreNews();" class="more_news" style="display:none;">
+        More News ...
+    </li>
+</ul>
+
+
+
+    
+</div>
+
+
+    
+
+    <div class="spacer"></div>
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.txtIntro').dotdotdot();
+    });
+</script>
+
+<ul id="ulFeatured" class="wide news featuredBox ">
+    
+       <!-- <h2>Featured Item</h2>-->
+    
+    
+            <li class="featured">
+                <a id="lnkUrl" title="JONESIE: The lessons of free-range children long forgotten" href="/newsitem/jonesie-the-lessons-of-free-range-children-long-forgotten/it107047"><img id="imgFeatured" src="/news/medialibrary/image/mediaitemid107047-7714.png?w=200&amp;q=95" />
+                    <span>JONESIE: The lessons of free-range children long forgotten</span>
+                </a>
+                
+                <div class="txtIntro">OPINION        When we were kids, we knew every inch of our neighbourhood.       We ran around town till ten minutes before mom got home, which on weekends was often 2 a.m. Bad news for us when she got home early.       We knew every vacant lot,</div>
+            </li>
+        
+</ul>
+
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.txtIntro').dotdotdot();
+    });
+</script>
+
+<ul id="ulFeatured" class="wide news featuredBox align_right iNwine">
+    
+       <!-- <h2>Featured Item</h2>-->
+    
+    
+            <li class="featured">
+                <a id="lnkUrl" title="Popular spots to enjoy ramen in Okanagan, Kamloops" href="/newsitem/popular-spots-to-enjoy-ramen-in-okanagan-kamloops/it106984"><img id="imgFeatured" src="/news/medialibrary/image/hl-mediaitemid106984-3508.png?w=200&amp;q=95" />
+                    <span>Popular spots to enjoy ramen in Okanagan, Kamloops</span>
+                </a>
+                
+                <div class="txtIntro">Fall is here and the weather is turning colder so many are turning to comfort foods in the Okanagan and Kamloops.       A warm, hearty soup is a definite go-to during the chilly seasons and one particular style, ramen, is becoming more and more p</div>
+            </li>
+        
+</ul>
+
+    
+
+
+</div>
+
+        
+        <div class="right_col">
+            
+
+
+<script type="text/javascript" src="https://infotel.ca/absolutebm/abm.aspx?z=55"></script>
+
+
+        
+            
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.story_intro').dotdotdot();
+    });
+</script>
+
+<ul class="news topnews">
+    <a href="/news/top-news/kamloops"><span style="color:red; font-size:large; ">Top News</span></a>
+    
+            <li>               
+                <a id="lnkStory" title="Middle East latest: Israel ends agreement with UN agency providing aid in Gaza" href="/newsitem/ml-mideast-wars-the-latest/cp1395309100">Middle East latest: Israel ends agreement with UN agency providing aid in Gaza</a> 
+
+                
+
+                <div class="story_intro">Israel said Monday that it has terminated the agreement facilitating the work of the U.N. agency for Palestinian refuge</div>
+                <span class="story_date">November 04, 2024 10:58 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="The Latest: Trump rallies in North Carolina, Harris heads to Pennsylvania" href="/newsitem/us-election-2024-the-latest/cp1755135824">The Latest: Trump rallies in North Carolina, Harris heads to Pennsylvania</a> 
+
+                
+
+                <div class="story_intro">The presidential campaign comes down to a final push across a handful of states on the eve of Election Day.       Kamal</div>
+                <span class="story_date">November 04, 2024 10:40 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="B.C. port employers to launch lockout at terminals as labour disruption begins" href="/newsitem/port-dispute-bc/cp798110617">B.C. port employers to launch lockout at terminals as labour disruption begins</a> 
+
+                
+
+                <div class="story_intro">VANCOUVER - Employers at British Columbia ports say they are going ahead with locking out more than 700 foremen across</div>
+                <span class="story_date">November 04, 2024 10:27 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="&amp;#39;The best that we can be&amp;#39;: Indigenous judge and TRC chair Murray Sinclair dies at 73" href="/newsitem/obit-murray-sinclair/cp1057670950">'The best that we can be': Indigenous judge and TRC chair Murray Sinclair dies at 73</a> 
+
+                
+
+                <div class="story_intro">WINNIPEG - Murray Sinclair, who was born when Indigenous people did not yet have the right to vote, grew up to become o</div>
+                <span class="story_date">November 04, 2024 9:49 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="Oral Conscious Sedation: A Stress-Free Dental Experience" href="/sponsored/oral-conscious-sedation-a-stress-free-dental-experience/it107028">Oral Conscious Sedation: A Stress-Free Dental Experience</a> 
+
+                <div id="pnlSpecialized">
+	
+                    <a id="hlSpecialized" href="/sponsored/oral-conscious-sedation-a-stress-free-dental-experience/it107028"><span id="lblSpecialized" class="story_native">Sponsored Content</span></a>
+                
+</div>
+
+                <div class="story_intro">Dental anxiety is a common concern for some patients, and it can sometimes prevent individuals from receiving the ne</div>
+                <span class="story_date">November 04, 2024 8:00 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="Defiant and controversial: Kamloops mayor digs in with half of term left" href="/newsitem/defiant-and-controversial-kamloops-mayor-digs-in-with-half-of-term-left/it106987">Defiant and controversial: Kamloops mayor digs in with half of term left</a> 
+
+                
+
+                <div class="story_intro">There are few signs in the Kamloops mayor&#39;s office that he spent time personalizing it as Reid Hamer-Jackson&#39</div>
+                <span class="story_date">November 04, 2024 7:00 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="Study says city policies drastically increase housing costs in Kamloops, Okanagan " href="/iNhome/study-says-city-policies-drastically-increase-housing-costs-in-kamloops-okanagan/it107046">Study says city policies drastically increase housing costs in Kamloops, Okanagan </a> 
+
+                <div id="pnlSpecialized">
+	
+                    <a id="hlSpecialized" href="/iNhome/study-says-city-policies-drastically-increase-housing-costs-in-kamloops-okanagan/it107046"><span id="lblSpecialized" class="story_native_iNhome">iNhome</span></a>
+                
+</div>
+
+                <div class="story_intro">A research paper explored how municipal government policies increase the cost of housing in B.C., and it showed that</div>
+                <span class="story_date">November 04, 2024 7:00 AM</span>
+            </li>
+        
+            <li>               
+                <a id="lnkStory" title="Quincy Jones, music titan who worked with everyone from Frank Sinatra to Michael Jackson, dies at 91" href="/newsitem/ent-obit-quincy-jones-abridged/cp1442706285">Quincy Jones, music titan who worked with everyone from Frank Sinatra to Michael Jackson, dies at 91</a> 
+
+                
+
+                <div class="story_intro">Quincy Jones, the multi-talented music titan whose vast legacy ranged from producing Michael Jackson’s historic “Thrill</div>
+                <span class="story_date">November 04, 2024 6:59 AM</span>
+            </li>
+            
+</ul>
+
+            <div class="spacer2"></div>
+            
+
+ 
+<div class="news">
+    <a href="/news/trending">
+        <h2>Trending Now</h2>
+    </a>
+    <a href="/news/trending" style="display:block; text-align:center;">
+        <img id="imgTrending" class="margin_v20" src="/news/medialibrary/image/mediaitemid107048-3996.png?w=250&amp;q=95" style="width:233px;" />
+    </a>
+    <span>
+        <a href="/news/trending">TRENDING NOW: Dancing dog steals the show</a>
+        
+    </span>
+</div>
+
+            <div class="spacer2"></div>
+        </div>
+    </div>
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style ">
+        <a class="addthis_button_facebook_like"></a>
+        <a class="addthis_button_tweet"></a>
+        <a class="addthis_button_pinterest_pinit"></a>
+        <a class="addthis_counter addthis_pill_style"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = { "data_track_addressbar": false };</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515f2773121d21ef"></script>
+    <!-- AddThis Button END -->
+
+            
+        </div>
+    
+<script src="/WebResource.axd?d=9CUsqrLJy8z1fEwWD3KIHPdzXzhSE-K_jHM4mJmXobtOL0CdAi_y9LEW2BgJVUHB3ZCtGfdZveDoyJVLcmnUj4HmmEEDFunlVydQzUnYhnw1&amp;t=638610619965203766" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+$('.more_news').show();//]]>
+</script>
+</form>
+
+
+    <div class="footer pageWidth">
+       
+        <div class="footer_newsbar">
+            
+
+<ul>
+    <li><h4>Kamloops</h4></li>
+    <li><ul><strong><a href="/kamloops">Home</a></strong></ul></li>
+   <li><ul><strong>News</strong>
+        <li><a href="/news/local-news/kamloops">Local</a></li>
+        <li><a href="/news/bc-news">BC</a></li>
+        <li><a href="/news/business">Business</a></li>
+        <li><a href="/news/canada-news">Canada</a></li>
+        <li><a href="/news/corrections">Corrections</a></li>
+        <li><a href="/news/fyi">FYI</a></li>
+        <li><a href="/news/top-news">Top News</a></li>
+        <li><a href="/news/trending">Trending Now</a></li>
+        <li><a href="/news/world-news">World</a></li>
+        <li><a href="/news/weird-news">Weird</a></li>
+        </ul></li>
+   <li><ul><strong><a href="/weather/kamloops">Kamloops Weather</a></strong></ul></li>
+    <li><ul><strong>Things to Do</strong>
+        <li><a href="/things-to-do/galleries/kamloops">Galleries</a></li>
+        <li><a href="/things-to-do/golf-courses/kamloops">Golf Courses</a></li>
+        <li><a href="/things-to-do/museums/kamloops">Museums</a></li>
+        <li><a href="/things-to-do/parks-beaches/kamloops">Parks & Beaches</a></li>
+        <li><a href="/things-to-do/snow-sports/kamloops">Snow Sports</a></li>
+        <li><a href="/things-to-do/winery-tours/kamloops">Wineries</a></li>
+        </ul></li>
+   
+    <li><ul><strong>Sports</strong>
+        <li><a href="/sports/cfl">CFL</a></li>
+        <li><a href="/sports/curling">Curling</a></li>
+        <li><a href="/sports/figure-skating">Figure Skating</a></li>
+        <li><a href="/sports/mlb">MLB</a></li>
+        <li><a href="/sports/nba">NBA</a></li>
+        <li><a href="/sports/nfl">NFL</a></li>
+        <li><a href="/sports/nhl">NHL</a></li>
+        <li><a href="/sports/soccer">Soccer</a></li>
+        </ul></li>
+    <li><ul><strong>Lifestyle</strong>
+        <li><a href="/lifestyle/diet-fitness">Diet & Fitness</a></li>
+        <li><a href="/lifestyle/food">Food</a></li>
+        <li><a href="/lifestyle/health">Health</a></li>
+        <li><a href="/lifestyle/horoscopes">Horoscopes</a></li>
+        <li><a href="/lifestyle/parenting">Parenting</a></li>
+        <li><a href="/lifestyle/travel">Travel</a></li>
+        </ul></li>
+    <li><ul><strong>Entertainment</strong>
+        <li><a href="/entertainment/books">Books</a></li>
+        <li><a href="/entertainment/celebrities">Celebrities</a></li>
+        <li><a href="/entertainment/movies">Movies</a></li>
+        <li><a href="/entertainment/music">Music</a></li>
+        <li><a href="/entertainment/tv">TV</a></li>
+        </ul></li>
+    <li><ul><strong><a href="/events/kamloops">Events</a></strong></ul></li>
+    <li><ul><strong><a href="/search/categories/kamloops">Business Search</a></strong>
+        <li>People Search</li>
+        <li>Reverse Lookup</li>
+        <li><a href="/search/restaurants/Kamloops-Merritt-and-Areas">Restaurants</a></li>
+        <li><a href="/government/Kamloops">Government Listings</a></li>
+        <li><a href="/postal-codes/Kamloops">Postal Codes</a></li>
+        </ul></li>
+
+</ul>
+<ul>
+    <li><h4>Kelowna</h4></li>
+    <li><strong><a href="/kelowna">Home</a></strong></li>
+    <li><ul><strong>News</strong>
+        <li><a href="/news/local-news/kelowna">Local</a></li>
+        <li><a href="/news/bc-news">BC</a></li>
+        <li><a href="/news/business">Business</a></li>
+        <li><a href="/news/canada-news">Canada</a></li>
+        <li><a href="/news/corrections">Corrections</a></li>
+        <li><a href="/news/fyi">FYI</a></li>
+        <li><a href="/news/top-news">Top News</a></li>
+        <li><a href="/news/trending">Trending Now</a></li>
+        <li><a href="/news/world-news">World</a></li>
+        <li><a href="/news/weird-news">Weird</a></li>
+        </ul></li>
+   <li><ul><strong><a href="/weather/kelowna">Kelowna Weather</a></strong></ul></li>
+    <li><ul><strong>Things to Do</strong>
+        <li><a href="/things-to-do/galleries/kelowna">Galleries</a></li>
+        <li><a href="/things-to-do/golf-courses/kelowna">Golf Courses</a></li>
+        <li><a href="/things-to-do/museums/kelowna">Museums</a></li>
+        <li><a href="/things-to-do/parks-beaches/kelowna">Parks & Beaches</a></li>
+        <li><a href="/things-to-do/snow-sports/kelowna">Snow Sports</a></li>
+        <li><a href="/things-to-do/winery-tours/kelowna">Wineries</a></li>
+        </ul></li>
+    
+    <li><ul><strong>Sports</strong>
+        <li><a href="/sports/cfl">CFL</a></li>
+        <li><a href="/sports/curling">Curling</a></li>
+        <li><a href="/sports/figure-skating">Figure Skating</a></li>
+        <li><a href="/sports/mlb">MLB</a></li>
+        <li><a href="/sports/nba">NBA</a></li>
+        <li><a href="/sports/cfl">NFL</a></li>
+        <li><a href="/sports/nhl">NHL</a></li>
+        <li><a href="/sports/soccer">Soccer</a></li>
+        </ul></li>
+    <li><ul><strong>Lifestyle</strong>
+        <li><a href="/lifestyle/diet-fitness">Diet & Fitness</a></li>
+        <li><a href="/lifestyle/food">Food</a></li>
+        <li><a href="/lifestyle/health">Health</a></li>
+        <li><a href="/lifestyle/horoscopes">Horoscopes</a></li>
+        <li><a href="/lifestyle/parenting">Parenting</a></li>
+        <li><a href="/lifestyle/travel">Travel</a></li>
+        </ul></li>
+    <li><ul><strong>Entertainment</strong>
+        <li><a href="/entertainment/books">Books</a></li>
+        <li><a href="/entertainment/celebrities">Celebrities</a></li>
+        <li><a href="/entertainment/movies">Movies</a></li>
+        <li><a href="/entertainment/music">Music</a></li>     
+        <li><a href="/entertainment/tv">TV</a></li>
+        </ul></li>
+    <li><ul><strong><a href="/events/kelowna">Events</a></strong></ul></li>
+    <li><ul><strong><a href="/search/categories/kelowna">Business Search</a></strong>
+        <li>People Search</li>
+        <li>Reverse Lookup</li>
+        <li><a href="/search/restaurants/Kelowna-and-Area">Restaurants</a></li>
+        <li><a href="/government/kelowna">Government Listings</a></li>
+        <li><a href="/postal-codes/kelowna">Postal Codes</a></li>
+        </ul></li>
+    
+</ul>
+<ul>
+    <li><h4>Penticton</h4></li>
+    <li><strong><a href="/penticton">Home</a></strong></li>
+   <li><ul><strong>News</strong>
+        <li><a href="/news/local-news/penticton">Local</a></li>
+        <li><a href="/news/bc-news">BC</a></li>
+        <li><a href="/news/business">Business</a></li>
+        <li><a href="/news/canada-news">Canada</a></li>
+        <li><a href="/news/corrections">Corrections</a></li>
+        <li><a href="/news/fyi">FYI</a></li>
+        <li><a href="/news/top-news">Top News</a></li>
+        <li><a href="/news/trending">Trending Now</a></li>
+        <li><a href="/news/world-news">World</a></li>
+        <li><a href="/news/weird-news">Weird</a></li>
+        </ul></li>
+   <li><ul><strong><a href="/weather/penticton">Penticton Weather</a></strong></ul></li>
+    <li><ul><strong>Things to Do</strong>
+        <li><a href="/things-to-do/galleries/penticton">Galleries</a></li>
+        <li><a href="/things-to-do/golf-courses/penticton">Golf Courses</a></li>
+        <li><a href="/things-to-do/museums/penticton">Museums</a></li>
+        <li><a href="/things-to-do/parks-beaches/penticton">Parks & Beaches</a></li>
+        <li><a href="/things-to-do/snow-sports/penticton">Snow Sports</a></li>
+        <li><a href="/things-to-do/winery-tours/penticton">Wineries</a></li>
+        </ul></li>
+   
+    <li><ul><strong>Sports</strong>
+        <li><a href="/sports/cfl">CFL</a></li>
+        <li><a href="/sports/curling">Curling</a></li>
+        <li><a href="/sports/figure-skating">Figure Skating</a></li>
+        <li><a href="/sports/mlb">MLB</a></li>
+        <li><a href="/sports/nba">NBA</a></li>
+        <li><a href="/sports/cfl">NFL</a></li>
+        <li><a href="/sports/nhl">NHL</a></li>
+        <li><a href="/sports/soccer">Soccer</a></li>
+        </ul></li>
+    <li><ul><strong>Lifestyle</strong>
+        <li><a href="/lifestyle/diet-fitness">Diet & Fitness</a></li>
+        <li><a href="/lifestyle/food">Food</a></li>
+        <li><a href="/lifestyle/health">Health</a></li>
+        <li><a href="/lifestyle/horoscopes">Horoscopes</a></li>
+        <li><a href="/lifestyle/parenting">Parenting</a></li>
+        <li><a href="/lifestyle/travel">Travel</a></li>
+        </ul></li>
+    <li><ul><strong>Entertainment</strong>
+        <li><a href="/entertainment/books">Books</a></li>
+        <li><a href="/entertainment/celebrities">Celebrities</a></li>
+        <li><a href="/entertainment/movies">Movies</a></li>
+        <li><a href="/entertainment/music">Music</a></li>
+      
+        <li><a href="/entertainment/tv">TV</a></li>
+        </ul></li>
+    <li><ul><strong><a href="/events/penticton">Events</a></strong></ul></li>
+    <li><ul><strong><a href="/search/categories/penticton">Business Search</a></strong>
+        <li>People Search</li>
+        <li>Reverse Lookup</li>
+        <li><a href="/search/restaurants/Penticton-South-Okanagan-and-Similkameen-Areas">Restaurants</a></li>
+        <li><a href="/government/penticton">Government Listings</a></li>
+        <li><a href="/postal-codes/penticton">Postal Codes</a></li>
+        </ul></li>
+
+</ul>
+<ul>
+    <li><h4>Vernon</h4></li>
+    <li><strong><a href="/vernon">Home</a></strong></li>
+   <li><ul><strong>News</strong>
+        <li><a href="/news/local-news/vernon">Local</a></li>
+        <li><a href="/news/bc-news">BC</a></li>
+        <li><a href="/news/business">Business</a></li>
+        <li><a href="/news/canada-news">Canada</a></li>
+        <li><a href="/news/corrections">Corrections</a></li>
+        <li><a href="/news/fyi">FYI</a></li>
+        <li><a href="/news/top-news">Top News</a></li>
+        <li><a href="/news/trending">Trending Now</a></li>
+        <li><a href="/news/world-news">World</a></li>
+        <li><a href="/news/weird-news">Weird</a></li>
+        </ul></li>
+   <li><ul><strong><a href="/weather/vernon">Vernon Weather</a></strong></ul></li>
+    <li><ul><strong>Things to Do</strong>
+        <li><a href="/things-to-do/galleries/vernon">Galleries</a></li>
+        <li><a href="/things-to-do/golf-courses/vernon">Golf Courses</a></li>
+        <li><a href="/things-to-do/museums/vernon">Museums</a></li>
+        <li><a href="/things-to-do/parks-beaches/vernon">Parks & Beaches</a></li>
+        <li><a href="/things-to-do/snow-sports/vernon">Snow Sports</a></li>
+        <li><a href="/things-to-do/winery-tours/vernon">Wineries</a></li>
+        </ul></li>    
+    <li><ul><strong>Sports</strong>
+        <li><a href="/sports/cfl">CFL</a></li>
+        <li><a href="/sports/curling">Curling</a></li>
+        <li><a href="/sports/figure-skating">Figure Skating</a></li>
+        <li><a href="/sports/mlb">MLB</a></li>
+        <li><a href="/sports/nba">NBA</a></li>
+        <li><a href="/sports/cfl">NFL</a></li>
+        <li><a href="/sports/nhl">NHL</a></li>
+        <li><a href="/sports/soccer">Soccer</a></li>
+        </ul></li>
+    <li><ul><strong>Lifestyle</strong>
+        <li><a href="/lifestyle/diet-fitness">Diet & Fitness</a></li>
+        <li><a href="/lifestyle/food">Food</a></li>
+        <li><a href="/lifestyle/health">Health</a></li>
+        <li><a href="/lifestyle/horoscopes">Horoscopes</a></li>
+        <li><a href="/lifestyle/parenting">Parenting</a></li>
+        <li><a href="/lifestyle/travel">Travel</a></li>
+        </ul></li>
+    <li><ul><strong>Entertainment</strong>
+        <li><a href="/entertainment/books">Books</a></li>
+        <li><a href="/entertainment/celebrities">Celebrities</a></li>
+        <li><a href="/entertainment/movies">Movies</a></li>
+        <li><a href="/entertainment/music">Music</a></li>
+       
+        <li><a href="/entertainment/tv">TV</a></li>
+        </ul></li>
+    <li><ul><strong><a href="/events/vernon">Events</a></strong></ul></li>
+    <li><ul><strong><a href="/search/categories/vernon">Business Search</a></strong>
+        <li>People Search</li>
+        <li>Reverse Lookup</li>
+        <li><a href="/search/restaurants/Vernon-Salmon-Arm-Revelstoke-and-Areas">Restaurants</a></li>
+        <li><a href="/government/vernon">Government Listings</a></li>
+        <li><a href="/postal-codes/vernon">Postal Codes</a></li>
+        </ul></li>
+    
+</ul>
+    
+
+            
+            <div class="clear"></div>
+        </div>
+
+    </div>
+    <div class="aboutus pageWidth">
+        <div class="copyright">&copy;
+            
+            <span id="litCopyright">2024 InfoTel News Ltd</span>
+        </div>
+        
+        <ul class="footer_links">
+            <li><a href="/info/contact/kamloops/" class="arialfooter12link">Contact iNFOTEL MULTIMEDIA</a> |&nbsp;</li>
+            <li><a href="/info_infotelnews/kamloops/" class="arialfooter12link">Contact iNFOnews</a> |&nbsp;</li>
+            <li><a href="/info_infotelnews/kamloops/" class="arialfooter12link">Submit News Tips</a> |&nbsp;</li>
+            <li><a href="/_includes/pdf/INFOTEL_NEWS_LTD_PrivacyPolicyandDisclaimer.pdf" target="_blank" class="arialfooter12link">Privacy Policy & Disclaimer</a> |&nbsp;</li>
+            <li><a href="/info/sitemap/kamloops/" class="arialfooter12link">Sitemap |&nbsp;</a></li>
+            <li><a href="/newsletter/" class="arialfooter12link">Newsletter Signup</a></li>
+        </ul>
+       
+        <div id="desktop_mobile" style="text-align:center; margin:5px auto -5px; font-weight:normal; border-top:1px solid #CCC; font-size:90%;color:#666">
+            View Site in: Desktop |
+            <a id="hlMobile" class="deviceView" href="javascript:void(0);">Mobile</a>
+        </div>
+    </div>
+</body>
+</html>
+

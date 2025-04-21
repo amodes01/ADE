@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The Caribbean has known for over a year that the referendum on 'Brexit' was coming."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "target": {"topic": "EU-EPA", "references": ["EU-EPA"]},
+      "justifications": ["EU-EPA is the only such formal comprehensive arrangement that Caribbean countries have with any other country or region of the world.", "It is vital to maintain as much of it as possible."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "target": {"topic": "Commonwealth Free Trade Agreement", "references": ["Commonwealth Free Trade Agreement"]},
+      "justifications": ["As for the notion that Commonwealth countries could fashion a Commonwealth Free Trade Agreement (FTA) under which they could give preferences to each other to expand intra-Commonwealth trade, while this is technically possible to make it compliant with World Trade Organisation rules, it is enormously difficult from a legal, administrative and even political standpoint."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "target": {"topic": "Commonwealth trade", "references": ["Commonwealth trade"]},
+      "justifications": ["The 36 Commonwealth small states, including the 12 in the Caribbean, enjoy only a tiny share of Commonwealth exports."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "target": {"topic": "trade with Britain", "references": ["trade with Britain"]},
+      "justifications": ["Other options have to be explored by the Caribbean countries for dealing with the twin-problem of no formal trade relationship with Britain."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "Commonwealth trade", "references": ["Commonwealth trade"]},
+      "justifications": ["Britain's earnings from exports to the Commonwealth, is not huge, representing only 9.76 per cent of its total exports in 2014."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "trade with the EU", "references": ["merchandise exports to the EU"]},
+      "justifications": ["its merchandise exports to the EU represented a hefty 45 per cent of its total exports."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "Commonwealth Free Trade Agreement", "references": ["Commonwealth Free Trade Agreement"]},
+      "justifications": ["For instance, Cyprus and Malta would have to leave the EU customs union."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["But, that idea, rooted in Empire, is not only impractical, it would not reap for Britain the trade rewards it derives from the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Commonwealth", "references": ["Commonwealth"]},
+      "target": {"topic": "Commonwealth trade", "references": ["Commonwealth trade"]},
+      "justifications": ["In 2014, the six countries accounted for 84 per cent of all Commonwealth exports; 47 countries combined, including South Africa and Nigeria made up only 16 per cent."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Commonwealth small states", "references": ["36 Commonwealth small states"]},
+      "target": {"topic": "Commonwealth trade", "references": ["Commonwealth trade"]},
+      "justifications": ["The 36 Commonwealth small states, including the 12 in the Caribbean, enjoy only a tiny share of Commonwealth exports."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Other options have to be explored by the Caribbean countries for dealing with the twin-problem of no formal trade relationship with Britain."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["EU-EPA is the only such formal comprehensive arrangement that Caribbean countries have with any other country or region of the world."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "entity2": {"entity": "Commonwealth countries", "references": ["Commonwealth countries"]},
+      "justifications": ["The 36 Commonwealth small states, including the 12 in the Caribbean, enjoy only a tiny share of Commonwealth exports."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sir Ronald Sanders", "references": ["Sir Ronald Sanders"]},
+      "entity2": {"entity": "Caribbean countries", "references": ["Caribbean countries"]},
+      "justifications": ["Sir Ronald Sanders is Antigua and Barbuda's Ambassador to the United States and has served as Ambassador to the European Union, the World Trade Organisation and High Commissioner to the United Kingdom."]
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+[
+    {
+        "sentence": "The fate of the global economy and peace itself are said to be at risk, along with the ability of the United States to deal with Russia, Islamic terrorism and other problems while undercut by a weakened EU and a UK turned inward as it undergoes a decade-long process of unwinding its European ties.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "U.S. policy did not cause the current shambles, but it contributed mightily to it through the single-minded pursuit of an approach to Europe that rejected any alternative to integration along the lines propounded in Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU itself is badly weakened, devoid of the sense of purpose that motivated its founders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ],
+            "European Union -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A new basis must be found for relations between the United States and the UK, which, unless action is taken, will find itself with less access to the American market and fewer avenues of cooperation with the American people than those enjoyed by countries geographically and culturally more distant and far less central to U.S. interests.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> European Union": [
+                -1.0
+            ],
+            "United States -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As he wrote in his memoirs, he was skeptical of Jean Monnet's 'fanatical zeal for supranational points of view.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dean Acheson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dean Acheson",
+                "types": [],
+                "wikid": "Dean Acheson",
+                "dbpedia": "Dean Acheson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jean Monnet",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jean Monnet",
+                "types": [],
+                "wikid": "Jean Monnet",
+                "dbpedia": "Jean Monnet"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Dean Acheson -> Jean Monnet": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

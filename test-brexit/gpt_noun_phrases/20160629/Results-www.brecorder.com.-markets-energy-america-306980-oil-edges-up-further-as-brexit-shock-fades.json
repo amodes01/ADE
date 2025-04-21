@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "OPEC+ to delay by a month plans to increase output",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OPEC+",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OPEC+",
+                "types": [],
+                "wikid": "OPEC+",
+                "dbpedia": "OPEC+"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "oil output increase",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "oil output increase"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "OPEC+ -> oil output increase": [
+                -1.0
+            ]
+        }
+    }
+]

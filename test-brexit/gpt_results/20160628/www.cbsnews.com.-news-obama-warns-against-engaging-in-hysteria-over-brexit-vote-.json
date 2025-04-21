@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"I think that the best way to think about this is, a pause button has been pressed on the project of full European integration.\"",
+        "\"I do not anticipate that there is going to be major cataclysmic changes as a consequence of this.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "Trans-Atlantic alliance", "references": ["Trans-Atlantic alliance"]},
+      "justifications": [
+        "\"That's not what's happening.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": [
+        "\"as if somehow NATO's gone and the Trans-Atlantic alliance is dissolving...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "\"The U.S. would continue to maintain close relationships with Great Britain and the European Union.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "President Obama", "references": ["President Obama"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Great Britain"]},
+      "justifications": [
+        "\"The U.S. would continue to maintain close relationships with Great Britain and the European Union.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "President Obama", "references": ["President Obama"]},
+      "entity2": {"entity": "Norway", "references": ["Norway"]},
+      "justifications": [
+        "\"Norway is one of our closest allies, they align themselves on almost every issue with Europe and us.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["Prime Minister David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"Prime Minister David Cameron announcing that he plans to resign within three months.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

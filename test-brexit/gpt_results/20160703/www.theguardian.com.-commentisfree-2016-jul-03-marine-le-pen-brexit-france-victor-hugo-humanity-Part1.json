@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "She beamed at the cameras, and lavished praise on the British people for standing up to the 'totalitarian EU, that prison of people'.",
+        "Frexit is next, she roared."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "target": { "topic": "European Union", "references": ["EU", "European Union"] },
+      "justifications": [
+        "lavished praise on the British people for standing up to the 'totalitarian EU, that prison of people'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jacques Julliard", "references": ["Jacques Julliard"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"This could be a new beginning for Europe,\" wrote columnist Jacques Julliard."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Jacques Julliard", "references": ["Jacques Julliard"] },
+      "target": { "topic": "European Union", "references": ["EU", "European Union"] },
+      "justifications": [
+        "\"This could be a new beginning for Europe,\" wrote columnist Jacques Julliard."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Nicolas Sarkozy", "references": ["Nicolas Sarkozy"] },
+      "target": { "topic": "2017 presidential elections", "references": ["2017 presidential elections"] },
+      "justifications": [
+        "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "François Hollande", "references": ["François Hollande"] },
+      "target": { "topic": "2017 presidential elections", "references": ["2017 presidential elections"] },
+      "justifications": [
+        "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "target": { "entity": "François Hollande", "references": ["François Hollande"] },
+      "justifications": [
+        "In the New York Times, Le Pen pointed out that in 2005 both France and the Netherlands had rejected the European constitution by referendum, and yet the European commission had chosen to ignore the people's will with the help or complicity of the French government - at its own peril, she added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "target": { "entity": "Nicolas Sarkozy", "references": ["Nicolas Sarkozy"] },
+      "justifications": [
+        "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections, despite polls showing the French do not want to have anything to do with them ever again."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jacques Delors", "references": ["Jacques Delors"] },
+      "target": { "topic": "European Union", "references": ["EU", "European Union"] },
+      "justifications": [
+        "Former European commission president Jacques Delors thought that a common currency would naturally and organically foster a political union and fiscal harmonisation, but this was not to be."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "target": { "entity": "European commission", "references": ["European commission"] },
+      "justifications": [
+        "In the New York Times, Le Pen pointed out that in 2005 both France and the Netherlands had rejected the European constitution by referendum, and yet the European commission had chosen to ignore the people's will with the help or complicity of the French government - at its own peril, she added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "European Union", "references": ["EU", "European Union"] },
+      "justifications": [
+        "Many in France point the finger at Britain, which, they argue, has hindered the natural European process for four decades by constantly opting out of measures it did not like, while pushing for neoliberal and austerity policies, thus creating a monster."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "entity2": { "entity": "François Hollande", "references": ["François Hollande"] },
+      "justifications": [
+        "Le Pen pointed out that in 2005 both France and the Netherlands had rejected the European constitution by referendum, and yet the European commission had chosen to ignore the people's will with the help or complicity of the French government - at its own peril, she added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "entity2": { "entity": "Nicolas Sarkozy", "references": ["Nicolas Sarkozy"] },
+      "justifications": [
+        "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections, despite polls showing the French do not want to have anything to do with them ever again."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jacques Delors", "references": ["Jacques Delors"] },
+      "entity2": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "justifications": [
+        "Former European commission president Jacques Delors thought that a common currency would naturally and organically foster a political union and fiscal harmonisation, but this was not to be."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

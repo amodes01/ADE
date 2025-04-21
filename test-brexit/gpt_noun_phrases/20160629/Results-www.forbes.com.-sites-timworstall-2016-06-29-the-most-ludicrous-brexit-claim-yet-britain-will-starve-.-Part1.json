@@ -1,0 +1,273 @@
+[
+    {
+        "sentence": "The UK is heavily dependent on other EU member states for food.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK food production",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK food production"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> UK food production": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "When the E.U. subsidies and tariff exemptions are gone, the odds are that plant foods will become more expensive.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU subsidies and tariff exemptions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU subsidies and tariff exemptions"
+                ]
+            },
+            {
+                "ngram": "food prices in the UK",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "food prices in the UK"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> EU subsidies and tariff exemptions": [
+                -1.0
+            ],
+            "Brexit -> food prices in the UK": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Lang sees this as a question of health as much as economics.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British public health",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British public health"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> British public health": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Supporters of Brexit have not once addressed the UK's dependency on EU producers and suppliers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's dependency on EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's dependency on EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit supporters -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> UK's dependency on EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In April, Lang co-authored-with Victoria Schoen-a \"briefing paper\" on the far-reaching impact of Brexit on British food.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lang",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lang",
+                "types": [],
+                "wikid": "Lang",
+                "dbpedia": "Lang"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Victoria Schoen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Victoria Schoen",
+                "types": [],
+                "wikid": "Victoria Schoen",
+                "dbpedia": "Victoria Schoen"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Lang -> Victoria Schoen": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "But this food and Brexit idea has turned up somewhere generally thought to be respectable - the New Yorker no less.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lang",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lang",
+                "types": [],
+                "wikid": "Lang",
+                "dbpedia": "Lang"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The New Yorker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The New Yorker",
+                "types": [],
+                "wikid": "The New Yorker",
+                "dbpedia": "The New Yorker"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Lang -> The New Yorker": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

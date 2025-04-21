@@ -1,0 +1,267 @@
+[
+    {
+        "sentence": "A Britain unmoored from the continent is a less obvious top-tier partner for the United States.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British government -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For China, the UK is a gateway to investments in Europe and a financial hub for internationalizing the renminbi.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "China -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "China -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Russia under Vladimir Putin is pursuing a concerted strategy of dividing the West.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Russia -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Russia -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Leaders in both America and China, the reigning superpower and the rising one, publicly urged Britain to stay in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "America",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "America",
+                "types": [],
+                "wikid": "America",
+                "dbpedia": "America"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "America -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Some on the continent actually supported Brexit as a way-station to a European fiscal union in a smaller but more integrated eurozone.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "China -> EU integration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Britain is America's closest ally in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Britain -> United States": [
+                1.0
+            ],
+            "United States -> Britain": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

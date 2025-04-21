@@ -1,0 +1,298 @@
+[
+    {
+        "sentence": "The EU can and should retain a hard line against Russia's aggression on the continent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russian Federation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russian Federation",
+                "types": [],
+                "wikid": "Russian Federation",
+                "dbpedia": "Russian Federation"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "sanctions against Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "sanctions against Russia"
+                ]
+            },
+            {
+                "ngram": "EU's stance on Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU's stance on Russia"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "European Union -> Russian Federation": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "European Union -> sanctions against Russia": [
+                1.0
+            ],
+            "Russian Federation -> EU's stance on Russia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Blaming Brexit for a softening stance on Russia is exactly the sort of thing a group of nations with deep business interests in Russia and little stomach for continuing to stand up to aggressive behavior might do.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russian Federation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russian Federation",
+                "types": [],
+                "wikid": "Russian Federation",
+                "dbpedia": "Russian Federation"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Russian Federation -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU will close ranks and seek ever more political integration-all the while blaming Brexit for problems of its own making.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> political integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UK's decision should be a stark wake-up call.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United Kingdom -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For the UK, the special relationship has a chance to grow stronger post-Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "post-Brexit relationship with the US",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "post-Brexit relationship with the US"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United Kingdom -> post-Brexit relationship with the US": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For the UK, the special relationship has a chance to grow stronger post-Brexit. That would certainly mark Brexit a loss for Putin's regime.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russian Federation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russian Federation",
+                "types": [],
+                "wikid": "Russian Federation",
+                "dbpedia": "Russian Federation"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Russian Federation -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Russian Federation -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UK's voice was more often than not drowned out, overruled and ignored in EU institutions.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "European Union -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

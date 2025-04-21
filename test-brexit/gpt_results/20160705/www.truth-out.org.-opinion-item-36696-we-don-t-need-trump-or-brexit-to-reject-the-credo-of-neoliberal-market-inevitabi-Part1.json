@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Margaret Thatcher", "references": ["Margaret Thatcher"]},
+      "target": {"topic": "neoliberal capitalist order", "references": ["global neoliberal capitalist order"]},
+      "justifications": ["Thatcher's vision for this new order was predicated on the market-as-god economic philosophy she had distilled from the work of Austrian School economists such as Friedrich Hayek and her own fundamentalist Christian worldview."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "neoliberal capitalist order", "references": ["global neoliberal capitalist order"]},
+      "justifications": ["disgraced British Prime Minister David Cameron maintained his devotion to TINA right up to the moment of Brexit."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Margaret Thatcher", "references": ["Margaret Thatcher"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Thatcher's TINA credo of capitalist inevitability."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["David Cameron maintained his devotion to TINA right up to the moment of Brexit."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "populist revolt", "references": ["populist revolt"]},
+      "target": {"topic": "democratic reform", "references": ["much-needed democratic reform"]},
+      "justifications": ["If this historical undercurrent is ignored, populist revolt will not produce much-needed democratic reform."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "populist revolt", "references": ["populist revolt"]},
+      "target": {"topic": "fascistic nationalist demagogues", "references": ["fascistic nationalist demagogues"]},
+      "justifications": ["populist revolt will instead be exploited by fascistic nationalist demagogues."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Margaret Thatcher", "references": ["Margaret Thatcher"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["disgraced British Prime Minister David Cameron maintained his devotion to TINA right up to the moment of Brexit."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Margaret Thatcher", "references": ["Margaret Thatcher"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Thatcher's vision for this new order was predicated on the market-as-god economic philosophy she had distilled from the work of Austrian School economists such as Friedrich Hayek."]
+      "attitude": "Neutral"
+    }
+  ]
+}

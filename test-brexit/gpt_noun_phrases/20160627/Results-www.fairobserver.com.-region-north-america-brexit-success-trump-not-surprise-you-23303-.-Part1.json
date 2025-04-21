@@ -1,0 +1,228 @@
+[
+    {
+        "sentence": "The global economic crisis has greatly contributed to the rise of far-right politics in the West manifesting itself in outcomes such as Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "rise of far-right politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "rise of far-right politics",
+                "types": [],
+                "wikid": "rise of far-right politics",
+                "dbpedia": "rise of far-right politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "rise of far-right politics",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "rise of far-right politics"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> rise of far-right politics": [
+                1.0
+            ],
+            "rise of far-right politics -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US national security",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US national security",
+                "types": [],
+                "wikid": "US national security",
+                "dbpedia": "US national security"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "American right",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "American right",
+                "types": [],
+                "wikid": "American right",
+                "dbpedia": "American right"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "refugees from the Middle East",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "refugees from the Middle East",
+                "types": [],
+                "wikid": "refugees from the Middle East",
+                "dbpedia": "refugees from the Middle East"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "refugee crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "refugee crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "American right -> refugees from the Middle East": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "US national security -> refugee crisis": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability, and has viewed all immigration policies with high scrutiny.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US national security",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US national security",
+                "types": [],
+                "wikid": "US national security",
+                "dbpedia": "US national security"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "American right",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "American right",
+                "types": [],
+                "wikid": "American right",
+                "dbpedia": "American right"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "immigration policies",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "immigration policies",
+                "types": [],
+                "wikid": "immigration policies",
+                "dbpedia": "immigration policies"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "American right -> immigration policies": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "US national security -> immigration policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump himself, while visiting Scotland, made the linkage, tweeting that \"many people are equating Brexit, and what is going on in Great Britain, with what is happening in the U.S.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the United Kingdom",
+                "types": [],
+                "wikid": "the United Kingdom",
+                "dbpedia": "the United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Brexit": [
+                1.0
+            ],
+            "Donald Trump -> the United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

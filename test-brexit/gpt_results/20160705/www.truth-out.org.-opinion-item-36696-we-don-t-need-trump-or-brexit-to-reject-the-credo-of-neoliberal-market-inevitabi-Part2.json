@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Environmental activists", "references": ["Environmental activists"] },
+      "target": { "topic": "TINA", "references": ["end-of-history narrative", "TINA"] },
+      "justifications": ["Environmental activists attempt to counter the end-of-history narrative at the heart of TINA with the scientific inevitability of global climate-induced ecological catastrophe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "ISIS", "references": ["ISIS"] },
+      "target": { "topic": "Islam", "references": ["Islam"] },
+      "justifications": ["The members of ISIS have rejected the highest ideals of Islam in their search for an alternative."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "TINA", "references": ["TINA"] },
+      "justifications": ["Donald Trump offers a racial or foreign scapegoat for every social and economic malady created by TINA."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Far-right nationalist parties across Europe", "references": ["far-right nationalist parties emerging across Europe"] },
+      "target": { "topic": "TINA", "references": ["TINA"] },
+      "justifications": ["Donald Trump offers a racial or foreign scapegoat for every social and economic malady created by TINA, much like the far-right nationalist parties emerging across Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "target": { "topic": "TINA", "references": ["TINA"] },
+      "justifications": ["Bernie Sanders focuses on billionaires and Wall Street."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Leftist movements such as Podemos in Spain or Syriza in Greece", "references": ["Leftist movements such as Podemos in Spain or Syriza in Greece"] },
+      "target": { "topic": "TINA", "references": ["TINA"] },
+      "justifications": ["Leftist movements such as Podemos in Spain or Syriza in Greece also embody attempted declarations of revolt against the narrative of inevitability."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit voters in England and Wales", "references": ["angry votes for Brexit in England and Wales"] },
+      "target": { "topic": "TINA", "references": ["TINA"] },
+      "justifications": ["Angry votes for Brexit in England and Wales also embody attempted declarations of revolt against the narrative of inevitability."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Benjamin Barber", "references": ["Benjamin Barber"] },
+      "target": { "topic": "post-Soviet clash", "references": ["historic post-Soviet clash"] },
+      "justifications": ["Benjamin Barber's 1992 essay and subsequent book, Jihad vs. McWorld, is a better guide to the current politics of rage than the daily news media. Barber describes a historic post-Soviet clash between the identity politics of tribalism ('Jihad') and the forced financial and cultural integration of corporate globalism ('McWorld')."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Pope Francis", "references": ["Pope Francis"] },
+      "target": { "topic": "market-driven globalization", "references": ["danger to Christian values from a deified market", "globalization of indifference"] },
+      "justifications": ["Pope Francis' warnings against the danger to Christian values from 'a deified market' with its 'globalization of indifference.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "McWorld", "references": ["McWorld"] },
+      "target": { "topic": "capitalism", "references": ["capitalism", "capital"] },
+      "justifications": ["McWorld is the financially integrated and omnipresent transnational order of wired capitalism that has anointed itself the historic guardian of Western civilization. It is viciously undemocratic in its pursuit of unrestricted profits and violently punitive in response to any hint of economic apostasy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "McWorld", "references": ["McWorld"] },
+      "target": { "topic": "market orthodoxy", "references": ["free-market fundamentalism", "market orthodoxy"] },
+      "justifications": ["This new economic order offers the illusion of modernity with its globally wired infrastructure and endless stream of consumerist spectacles, but beneath the high-tech sheen, it is spiritually empty, predicated on permanent war, global poverty and is destroying the biosphere."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "ISIS", "references": ["ISIS"] },
+      "entity2": { "entity": "Islam", "references": ["Islam"] },
+      "justifications": ["The members of ISIS have rejected the highest ideals of Islam in their search for an alternative."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "justifications": ["Donald Trump offers a racial or foreign scapegoat for every social and economic malady created by TINA, much like the far-right nationalist parties emerging across Europe, while Bernie Sanders focuses on billionaires and Wall Street."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Pope Francis", "references": ["Pope Francis"] },
+      "entity2": { "entity": "McWorld", "references": ["McWorld"] },
+      "justifications": ["Pope Francis' warnings against the danger to Christian values from 'a deified market' with its 'globalization of indifference.'"],
+      "attitude": "Negative"
+    }
+  ]
+}

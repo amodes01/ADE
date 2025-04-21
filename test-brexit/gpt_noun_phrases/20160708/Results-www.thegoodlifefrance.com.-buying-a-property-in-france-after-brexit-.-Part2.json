@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "Brexit does not affect you getting a French mortgage in any way.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "French mortgage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "French mortgage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> French mortgage": [
+                -1.0
+            ]
+        }
+    }
+]

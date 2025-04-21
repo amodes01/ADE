@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit aftermath", "references": ["aftermath of the Brexit vote"] },
+      "target": { "topic": "leadership", "references": ["leadership"] },
+      "justifications": [
+        "In business, when something significant happens... the textbook response we are conditioned to make is one of leadership.",
+        "the referendum petition had gone from 1.3 million to 2.3 million overnight"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit aftermath", "references": ["aftermath of the Brexit vote"] },
+      "target": { "topic": "leadership vacuum", "references": ["leadership vacuum"] },
+      "justifications": [
+        "In the case of the United Kingdom, three days after that seismic vote, there was a total leadership vacuum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit aftermath", "references": ["aftermath of the Brexit vote"] },
+      "target": { "topic": "political unity", "references": ["unite the two sides of a rent nation"] },
+      "justifications": [
+        "Who would unite the two sides of a rent nation, and possibly even the three parts into which the nation is threatening to devolve?"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Conservative Party", "references": ["Tories"] },
+      "entity2": { "entity": "Prime Minister", "references": ["the bloodied prime minister"] },
+      "justifications": [
+        "the bloodied prime minister was licking his wounds, punch drunk from a self-inflicted mortal wound."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Labour Party", "references": ["Labour party"] },
+      "entity2": { "entity": "its leader", "references": ["its democratically elected leader"] },
+      "justifications": [
+        "The Labour party had turned in on itself, and was trying to shake-off its democratically elected leader."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "SNP", "references": ["SNP"] },
+      "entity2": { "entity": "political healing", "references": ["play any healing role"] },
+      "justifications": [
+        "Other significant players on the political stage were either too sectarian (the SNP) or too reviled (UKIP) to play any healing role."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UKIP", "references": ["UKIP"] },
+      "entity2": { "entity": "political healing", "references": ["play any healing role"] },
+      "justifications": [
+        "Other significant players on the political stage were either too sectarian (the SNP) or too reviled (UKIP) to play any healing role."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

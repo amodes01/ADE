@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK's departure from the EU", "references": ["UK's departure from the EU"] },
+      "justifications": [
+        "Britain's most powerful family - its royal family - has taken a neutral stance on one of the most controversial topics in UK history: the Brexit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "economic and political uncertainty", "references": ["economic and political uncertainty"] },
+      "justifications": [
+        "So does this officially neutral stance mean the royals must sit idly as they watch their country fall to economic and political uncertainty?"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "House of Windsor", "references": ["House of Windsor"] },
+      "entity2": { "entity": "UK Prime Minister David Cameron", "references": ["UK Prime Minister David Cameron"] },
+      "justifications": [
+        "David Cameron traveled to Buckingham Palace to resign to the Queen in person."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Queen Elizabeth", "references": ["Queen Elizabeth"] },
+      "entity2": { "entity": "Margaret Thatcher", "references": ["Margaret Thatcher"] },
+      "justifications": [
+        "In 1986 The Sunday Telegraph wrote a scathing editorial in response to reports that the queen was worried about then-prime minister Margaret Thatcher's opposition to sanctions against South Africa."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Queen Elizabeth", "references": ["Queen Elizabeth"] },
+      "entity2": { "entity": "Michael Bloomberg", "references": ["Michael Bloomberg"] },
+      "justifications": [
+        "After the referendum for Scottish independence back in 2014, Cameron let it slip to then-New York mayor Michael Bloomberg that the queen 'purred down the line' when he called her to report that Scotland would indeed be staying in the UK."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Prince William", "references": ["Prince William"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "In February, Prince William gave a speech to British diplomats at the Foreign Office in London saying, 'In an increasingly turbulent world, our ability to unite in common action with other nations is essential.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Prince William", "references": ["Prince William"] },
+      "entity2": { "entity": "Kensington Palace", "references": ["Kensington Palace"] },
+      "justifications": [
+        "Kensington Palace immediately clarified with this statement: 'This speech was not about Europe. He does not mention the word Europe once.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "British Monarchy", "references": ["British Monarchy"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Approval ratings for the British Monarchy range between 65% and 80%, and their 'keep calm and carry on' attitude could set an example for the rest of the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "British Republicans", "references": ["British Republicans"] },
+      "entity2": { "entity": "Queen Elizabeth", "references": ["Queen Elizabeth"] },
+      "justifications": [
+        "In that case, the UK may have another referendum, as British Republicans have demanded a vote to end the monarchy in the case of her death."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

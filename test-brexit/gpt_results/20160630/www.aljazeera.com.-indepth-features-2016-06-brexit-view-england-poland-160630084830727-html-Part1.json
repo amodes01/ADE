@@ -1,0 +1,57 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Boston", "references": ["Boston"] },
+      "target": { "topic": "EU referendum", "references": ["leave the EU", "EU referendum"] },
+      "justifications": ["In last week's EU referendum their feelings were clear, with 75.6 percent voting to leave - the highest percentage in the UK."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nick", "references": ["Nick"] },
+      "target": { "topic": "immigration", "references": ["immigration"] },
+      "justifications": [
+        "\"We can not sustain the amount of people we have got here,\" says Nick, a 61-year-old night porter at the New England Hotel who voted to leave.",
+        "Everywhere you go, public services are being cut and yet the number of migrants is increasing. The amount of alcohol consumed in the town is probably five times what it was 10 years ago. They drink on the streets, they urinate up the walls, up the trees, in corners, they defecate in the bushes in the park. It might be good for their country but we are a civilised country and it does not go down well."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jonathan Noble", "references": ["Jonathan Noble"] },
+      "target": { "topic": "immigration", "references": ["immigration"] },
+      "justifications": [
+        "\"There is competition for jobs which has had the effect of depressing wages in a low-wage area,\" he says.",
+        "\"There is too much pressure on local schools, tremendous pressure on GP surgeries, pressure on housing. People that want to get on the council housing list are competing with foreign nationals.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Paul Gleeson", "references": ["Paul Gleeson"] },
+      "target": { "topic": "immigration", "references": ["immigration"] },
+      "justifications": [
+        "\"We now have many more people working here, our shops are not empty and our schools are achieving well,\" he says.",
+        "\"The only problem we have is that these people are foreign, and locals do not like that.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Jonathan Noble", "references": ["Jonathan Noble"] },
+      "entity2": { "entity": "Paul Gleeson", "references": ["Paul Gleeson"] },
+      "justifications": [
+        "\"There is too much pressure on local schools, tremendous pressure on GP surgeries, pressure on housing. People that want to get on the council housing list are competing with foreign nationals.\"",
+        "\"The only problem we have is that these people are foreign, and locals do not like that.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nick", "references": ["Nick"] },
+      "entity2": { "entity": "Jonathan Noble", "references": ["Jonathan Noble"] },
+      "justifications": [
+        "\"We can not sustain the amount of people we have got here,\" says Nick, a 61-year-old night porter at the New England Hotel who voted to leave.",
+        "\"There is competition for jobs which has had the effect of depressing wages in a low-wage area,\" he says."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

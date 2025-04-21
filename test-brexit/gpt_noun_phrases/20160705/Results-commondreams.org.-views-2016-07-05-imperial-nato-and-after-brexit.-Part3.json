@@ -1,0 +1,251 @@
+[
+    {
+        "sentence": "NATO Secretary General Stoltenberg saying that there can be no business as usual until Russia respects international law.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Russia"
+                ]
+            },
+            {
+                "ngram": "international law",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "international law"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "NATO -> Russia": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "NATO -> Russia": [
+                -1.0
+            ],
+            "NATO -> international law": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Washington's rhetoric about its commitments to democracy is belied by its long history of supporting dictators and repressive regimes in Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> democracy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Washington's rhetoric about its commitments to democracy is belied by its long history of supporting dictators and repressive regimes in Europe, monarchies like the Saudis.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Saudi Arabia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Saudi Arabia",
+                "types": [],
+                "wikid": "Saudi Arabia",
+                "dbpedia": "Saudi Arabia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "support for dictators",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "support for dictators"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> Saudi Arabia": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> support for dictators": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "NATO's wars in Afghanistan and the Middle East follow in the tradition of European colonialism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "wars of conquest",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "wars of conquest"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> wars of conquest": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the U.S. has had no hesitation in making Poland the eastern hub of NATO.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> Poland": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "U.S. and European elites will rely even more heavily on NATO in their effort to hold Europe together and to reinforce U.S. influence.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> NATO": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

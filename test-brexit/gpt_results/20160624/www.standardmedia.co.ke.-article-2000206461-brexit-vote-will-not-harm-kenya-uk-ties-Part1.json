@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "President Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["President Obama had encouraged Britain to remain in the EU but said the decision was up to voters."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["decision to exit the EU"]},
+      "justifications": ["President Obama had encouraged Britain to remain in the EU but said the decision was up to voters."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Kenya", "references": ["Kenya"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["Kenya stands to gain in terms of bilateral engagements.", "We may gain from this exit in a minimal way."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Kenya", "references": ["Kenya"]},
+      "target": {"topic": "Brexit", "references": ["decision to exit the EU"]},
+      "justifications": ["Kenya stands to gain in terms of bilateral engagements.", "We may gain from this exit in a minimal way."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Kenya", "references": ["Kenya"]},
+      "target": {"topic": "UK-EU relationship", "references": ["relationship between Kenya and the UK"]},
+      "justifications": ["the relationship between Kenya and the UK will not be affected by the vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Kenya", "references": ["Kenya"]},
+      "target": {"topic": "Brexit impact on banking industry", "references": ["impact of the exit on the banking industry"]},
+      "justifications": ["the impact of the exit will be on the banking industry."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Kenya", "references": ["Kenya"]},
+      "target": {"topic": "UK-EU relationship", "references": ["UK-EU relationship"]},
+      "justifications": ["Kenya's relationship with the UK will not be affected by the vote."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "President Barack Obama", "references": ["President Barack Obama"]},
+      "entity2": {"entity": "Prime Minister David Cameron", "references": ["Prime Minister Cameron"]},
+      "justifications": ["President Obama will have an opportunity to speak to Prime Minister Cameron over the course of the next day."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Kenya", "references": ["Kenya"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["the relationship between Kenya and the UK will not be affected by the vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Kenya", "references": ["Kenya"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["We may gain from this exit in a minimal way."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Kenya", "references": ["Kenya"]},
+      "entity2": {"entity": "Kenya's Ambassador to Belgium and the EU Johnson Weru", "references": ["Johnson Weru"]},
+      "justifications": ["Kenya stands to gain in terms of bilateral engagements.", "We may gain from this exit in a minimal way."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Kenya", "references": ["Kenya"]},
+      "entity2": {"entity": "UK High Commissioner to Kenya Nic Hailey", "references": ["Nic Hailey"]},
+      "justifications": ["the relationship between Kenya and the UK will not be affected by the vote."],
+      "attitude": "Neutral"
+    }
+  ]
+}

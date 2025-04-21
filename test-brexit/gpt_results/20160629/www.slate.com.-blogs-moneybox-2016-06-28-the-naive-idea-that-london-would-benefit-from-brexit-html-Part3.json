@@ -1,0 +1,18 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit vote", "references": ["Brexit vote"]},
+      "target": {"topic": "economic frustration", "references": ["economic frustration"]},
+      "justifications": ["if the Brexit vote is a product of economic frustration with the capital"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit vote", "references": ["Brexit vote"]},
+      "entity2": {"entity": "London", "references": ["London"]},
+      "justifications": ["it seems naïve to think the resulting series of deals will be crafted to London's liking"],
+      "attitude": "Negative"
+    }
+  ]
+}

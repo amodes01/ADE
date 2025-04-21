@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "an independent Texas would be a danger to itself and others",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "independent Texas",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "independent Texas",
+                "types": [],
+                "wikid": "independent Texas",
+                "dbpedia": "independent Texas"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "neo-Nazis",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "neo-Nazis",
+                "types": [],
+                "wikid": "neo-Nazis",
+                "dbpedia": "neo-Nazis"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "danger",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "danger"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "independent Texas -> neo-Nazis": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "independent Texas -> danger": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "we'd eventually just get dragged into a UN peacekeeping mission to keep it from causing trouble",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "independent Texas",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "independent Texas",
+                "types": [],
+                "wikid": "independent Texas",
+                "dbpedia": "independent Texas"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UN peacekeeping mission",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UN peacekeeping mission"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "independent Texas -> UN peacekeeping mission": [
+                -1.0
+            ]
+        }
+    }
+]

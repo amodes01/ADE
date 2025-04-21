@@ -1,0 +1,249 @@
+[
+    {
+        "sentence": "Obama warning Britain against leaving the EU in April",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Davidson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Davidson",
+                "types": [],
+                "wikid": "Davidson",
+                "dbpedia": "Davidson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Obama -> Davidson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We go to the back of the queue. That's not what we said\u2026 that's what Obama said,",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Davidson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Davidson",
+                "types": [],
+                "wikid": "Davidson",
+                "dbpedia": "Davidson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Davidson -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Chris Grayling, the leader of the British House of Commons, accused Obama of playing politics during remarks on Capitol Hill last month",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chris Grayling",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chris Grayling",
+                "types": [],
+                "wikid": "Chris Grayling",
+                "dbpedia": "Chris Grayling"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Obama's involvement in Brexit debate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Obama's involvement in Brexit debate"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Obama -> Chris Grayling": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Chris Grayling -> Obama's involvement in Brexit debate": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Johnson has also lambasted Obama for advocating for Britain to remain in a 'deeply anti-democratic' union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Johnson",
+                "types": [],
+                "wikid": "Johnson",
+                "dbpedia": "Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Obama -> Johnson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Johnson -> EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A dozen members of the House and Senate, including Rep. Mac Thornberry (R., Texas) and Sen. Ted Cruz (R., Texas), have written Obama in recent days, pleading him to remain neutral in the days ahead of the referendum",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rep. Mac Thornberry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rep. Mac Thornberry",
+                "types": [],
+                "wikid": "Rep. Mac Thornberry",
+                "dbpedia": "Rep. Mac Thornberry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sen. Ted Cruz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sen. Ted Cruz",
+                "types": [],
+                "wikid": "Sen. Ted Cruz",
+                "dbpedia": "Sen. Ted Cruz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Obama's involvement in Brexit debate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Obama's involvement in Brexit debate"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Obama -> Rep. Mac Thornberry": [
+                -1.0
+            ],
+            "Obama -> Sen. Ted Cruz": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Rep. Mac Thornberry -> Obama's involvement in Brexit debate": [
+                -1.0
+            ],
+            "Sen. Ted Cruz -> Obama's involvement in Brexit debate": [
+                -1.0
+            ]
+        }
+    }
+]

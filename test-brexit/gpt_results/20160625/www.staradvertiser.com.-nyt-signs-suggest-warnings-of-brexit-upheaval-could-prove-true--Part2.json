@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Deutsche Bank", "references": ["Deutsche Bank"]},
+      "target": {"topic": "Brexit", "references": ["Europe", "European Union", "Brexit"]},
+      "justifications": ["I am afraid that this is not such a good day for Europe."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Thomas Enders", "references": ["Thomas Enders"]},
+      "target": {"topic": "Brexit", "references": ["Britain", "Europe"]},
+      "justifications": ["This is a lose-lose result for both Britain and Europe."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "BP", "references": ["BP"]},
+      "target": {"topic": "Brexit", "references": ["Uncertainty", "European Union"]},
+      "justifications": ["Uncertainty is never helpful for a business such as ours."]
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "James P. Gorman", "references": ["James P. Gorman"]},
+      "entity2": {"entity": "Colm Kelleher", "references": ["Colm Kelleher"]},
+      "justifications": ["James P. Gorman, the Morgan Stanley chief executive, and Colm Kelleher, the president, said Friday that they had no plans to relocate staff from London."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Deutsche Bank", "references": ["Deutsche Bank"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Deutsche Bank... uses London as a base for investment banking and trading."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Airbus", "references": ["Airbus"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Airbus produces wings in Broughton and employs 15,000 people in Britain plus tens of thousands more at suppliers."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Airbus", "references": ["Airbus"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": ["Perhaps no company embodies the European project more than Airbus."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "BP", "references": ["BP"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["Energy companies like BP or Royal Dutch Shell are worried about having to deal with an unwieldy snarl of differing regulations once the European Union umbrella is gone."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Google", "references": ["Google"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Google employs roughly 1,000 engineers across Britain, working on global products like its search engine and Android mobile operating system."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "BMW", "references": ["BMW"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["German brands like BMW, Mercedes and Volkswagen account for half the cars sold in Britain."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nissan", "references": ["Nissan"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Probably the most important company in the renaissance of British car manufacturing has been Nissan, which has pumped close to 4 billion pounds since the mid-1980s into a world-class factory in Sunderland in northeast England."]
+      "attitude": "Positive"
+    }
+  ]
+}

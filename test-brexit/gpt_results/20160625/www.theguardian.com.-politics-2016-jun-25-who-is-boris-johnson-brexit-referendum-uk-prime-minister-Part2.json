@@ -1,0 +1,77 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "target": {
+        "topic": "EU referendum",
+        "references": ["EU referendum"]
+      },
+      "justifications": [
+        "Yet in the EU referendum the city he led for so long voted 60% to 40% for Remain, exposing another vast gulf in his posturing."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "US presidency",
+        "references": ["US presidency"]
+      },
+      "justifications": [
+        "The rise of an opportunistic politician who plays on populist fears about a sluggish economy and immigration to further his own prospects also echoes loudly across the Atlantic. Donald Trump's \"insurgent\" assault on the US presidency begs inevitable comparison."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Winston Churchill",
+        "references": ["Winston Churchill"]
+      },
+      "justifications": [
+        "Then there is the paradox that a politician who has issues with integrity should liken himself none-too subtly to Winston Churchill, the British wartime leader who had no problem expressing his true mind."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "The rise of an opportunistic politician who plays on populist fears about a sluggish economy and immigration to further his own prospects also echoes loudly across the Atlantic. Donald Trump's \"insurgent\" assault on the US presidency begs inevitable comparison.",
+        "It's not just that the two men both have funny hair, which gave the Briton the uncomfortable experience of being mistaken for the real estate billionaire on a recent trip to New York. It's that they both appear to be driven by one political aim above all others: their own ascendancy."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Now that would truly be a special relationship."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

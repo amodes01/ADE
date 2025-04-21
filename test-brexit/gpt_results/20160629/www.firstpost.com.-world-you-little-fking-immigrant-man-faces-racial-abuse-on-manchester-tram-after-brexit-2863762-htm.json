@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK government", "references": ["this government"]},
+      "target": {"topic": "intolerance", "references": ["intolerance"]},
+      "justifications": ["we should be absolutely clear that this government will not tolerate intolerance"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK government", "references": ["this government"]},
+      "target": {"topic": "racist violence", "references": ["nationalistic, racist violence"]},
+      "justifications": ["we should be absolutely clear that this government will not tolerate intolerance"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron's Downing Street spokesperson", "references": ["outgoing British PM David Cameron's Downing Street spokesperson"]},
+      "target": {"topic": "racist violence", "references": ["nationalistic, racist violence"]},
+      "justifications": ["we should be absolutely clear that this government will not tolerate intolerance... intimidating migrants, telling them they need to go home"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron's Downing Street spokesperson", "references": ["outgoing British PM David Cameron's Downing Street spokesperson"]},
+      "target": {"topic": "migrants", "references": ["migrants"]},
+      "justifications": ["we should be absolutely clear that this government will not tolerate intolerance... intimidating migrants, telling them they need to go home"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Safety Pin campaign", "references": ["SafetyPin"]},
+      "target": {"topic": "solidarity with immigrants", "references": ["solidarity and support for the immigrants"]},
+      "justifications": ["a Twitter user came up with the idea that people should wear a safety pin to show solidarity and support for the immigrants living in the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Safety Pin campaign", "references": ["SafetyPin"]},
+      "target": {"topic": "racist violence", "references": ["nationalistic, racist violence"]},
+      "justifications": ["a Twitter user came up with the idea that people should wear a safety pin to show solidarity and support for the immigrants living in the UK"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Juan Jasso", "references": ["Juan Jasso"]},
+      "entity2": {"entity": "three teenagers", "references": ["three teenagers"]},
+      "justifications": ["A US Army veteran was racially abused on a tram in Manchester by three teenagers on Tuesday morning", "Do not chat sh*t when you are not even from England, you little f**king immigrant, shouted one of the teenagers", "You little immigrant, get back to Africa…You are a muppet, get off the tram now, said one of the teenagers"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "other commuters", "references": ["other people in the tram"]},
+      "entity2": {"entity": "three teenagers", "references": ["three teenagers"]},
+      "justifications": ["other people in the tram eventually stood by Jasso and the three teenagers had to leave the tram", "One of the other commuters even told the three teenagers, 'You are an absolute disgrace to England.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "other commuters", "references": ["other people in the tram"]},
+      "entity2": {"entity": "Juan Jasso", "references": ["Juan Jasso"]},
+      "justifications": ["other people in the tram eventually stood by Jasso"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron's Downing Street spokesperson", "references": ["outgoing British PM David Cameron's Downing Street spokesperson"]},
+      "entity2": {"entity": "UK public", "references": ["the UK"]},
+      "justifications": ["we should be absolutely clear that this government will not tolerate intolerance"],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+[
+    {
+        "sentence": "he probably would not embrace 'Brexit', the decision of the United Kingdom to leave the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Winston Churchill -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Winston Churchill -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Actually, he strongly supported the development of a European Union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Winston Churchill -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The structure of the United States of Europe, if well and truly built, will be such as to make the material strength of a single state less important",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "United States of Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "United States of Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Winston Churchill -> United States of Europe": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the great British Prime Minister knew that xenophobia and hatred of others was what led to the need for a stronger Europe to combat these",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "xenophobia and hatred of others",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "xenophobia and hatred of others"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Winston Churchill -> xenophobia and hatred of others": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Churchill wanted the United States to play a strong role in helping foster a unified Europe",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Winston Churchill -> United States": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "he wasn't some 'Britain First' character like the assassin of British MP Jo Cox",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jo Cox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jo Cox",
+                "types": [],
+                "wikid": "Jo Cox",
+                "dbpedia": "Jo Cox"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Winston Churchill -> Jo Cox": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

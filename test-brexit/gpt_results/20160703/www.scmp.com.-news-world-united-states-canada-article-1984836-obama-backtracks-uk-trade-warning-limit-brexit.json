@@ -1,0 +1,46 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's decision to leave the European Union"] },
+      "target": { "topic": "Obama's trade deals", "references": ["Obama's trade deals"] },
+      "justifications": [
+        "Obama's attempt to show support for a struggling ally casts him in the role of forceful free-trade advocate."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's decision to leave the European Union"] },
+      "target": { "topic": "US trade deal", "references": ["US trade deal"] },
+      "justifications": [
+        "Before Britain's exit vote, or Brexit, Obama's administration was deep in negotiations toward a sweeping free trade deal with the 28-nation EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Obama's attempt to show support for a struggling ally casts him in the role of forceful free-trade advocate."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": [
+        "Yet current and former Obama administration officials are operating under the assumption that Democrat Hillary Clinton, if elected, would come around to supporting Obama's trade deals after finding ways to reconcile specific concerns she's raised about jobs, wages and national security."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Obama sought to correct the record, arguing that would not 'happen any time soon'."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

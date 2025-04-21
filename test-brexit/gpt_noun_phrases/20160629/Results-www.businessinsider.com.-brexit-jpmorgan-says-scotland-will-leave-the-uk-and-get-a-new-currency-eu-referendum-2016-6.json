@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "JPMorgan is almost certain that Scotland will leave the UK before an official Brexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "JPMorgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "JPMorgan",
+                "types": [],
+                "wikid": "JPMorgan",
+                "dbpedia": "JPMorgan"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Scotland -> JPMorgan": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "JPMorgan -> Scottish independence": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "JPMorgan is almost certain that Scotland will leave the UK before an official Brexit and believes the newly independent country will adopt a new currency for the first time in 300 years.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "JPMorgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "JPMorgan",
+                "types": [],
+                "wikid": "JPMorgan",
+                "dbpedia": "JPMorgan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "new currency in Scotland",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "new currency in Scotland"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "JPMorgan -> new currency in Scotland": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The bank says it will cover its forecast for Scotland in more detail in a future note, although, obviously, the future currency would depend on whether Scotland ends up in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "JPMorgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "JPMorgan",
+                "types": [],
+                "wikid": "JPMorgan",
+                "dbpedia": "JPMorgan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scotland's membership in the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scotland's membership in the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "JPMorgan -> Scotland's membership in the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sturgeon is in Brussels on Wednesday to meet with European Parliament leaders to discuss Scotland's position in Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scotland -> EU membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland's leader Nicola Sturgeon began pushing for a second referendum on Scottish independence almost as soon as the Brexit vote came in last week.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "second referendum on independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "second referendum on independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scotland -> second referendum on independence": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland decisively voted to remain in the EU with 62% voting for Remain compared to 38% who voted for Leave.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scotland -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sturgeon has said she will 'protect our relationship with the European Union.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scotland -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Spain's Prime Minister Mariano Rajoy has said there cannot be separate negotiations between Edinburgh and Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Spain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Spain",
+                "types": [],
+                "wikid": "Spain",
+                "dbpedia": "Spain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mariano Rajoy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mariano Rajoy",
+                "types": [],
+                "wikid": "Mariano Rajoy",
+                "dbpedia": "Mariano Rajoy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish independence negotiations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish independence negotiations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Mariano Rajoy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Spain -> Scottish independence negotiations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Peter Catterall of Westminster University told Business Insider this week he does not think there will be a second referendum on Scottish independence.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Peter Catterall",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Peter Catterall",
+                "types": [],
+                "wikid": "Peter Catterall",
+                "dbpedia": "Peter Catterall"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "second referendum on Scottish independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "second referendum on Scottish independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Peter Catterall -> Nicola Sturgeon": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Peter Catterall -> second referendum on Scottish independence": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That's because it would be hugely 'messy' on a political level and because the Scottish economy simply cannot handle a secession right now.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Peter Catterall",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Peter Catterall",
+                "types": [],
+                "wikid": "Peter Catterall",
+                "dbpedia": "Peter Catterall"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "second referendum on Scottish independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "second referendum on Scottish independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Peter Catterall -> second referendum on Scottish independence": [
+                -1.0
+            ]
+        }
+    }
+]

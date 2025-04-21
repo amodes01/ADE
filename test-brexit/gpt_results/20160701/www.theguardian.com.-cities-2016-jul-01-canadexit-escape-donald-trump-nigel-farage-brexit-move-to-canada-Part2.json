@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Canadian immigration system", "references": ["Canada's refugee asylum system", "Canada's points-based visa system"]},
+      "target": {"topic": "middle-class professionals", "references": ["middle-class professionals"]},
+      "justifications": [
+        "Canada offers an opaque, points-based visa system that takes into account language proficiency, education, skills and family ties, and which my Venezuelan Spanish teacher assures me is muy Kafkaesque.",
+        "The application process for Syrian refugees, for example, is also weighted towards middle-class professionals."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Canada's refugee asylum system", "references": ["Canada's refugee asylum system"]},
+      "target": {"topic": "unaccompanied males", "references": ["Unaccompanied males"]},
+      "justifications": [
+        "Unaccompanied males are excluded."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Vancouver", "references": ["Vancouver"]},
+      "target": {"topic": "Chinese Communist Party officials", "references": ["Chinese Communist Party officials"]},
+      "justifications": [
+        "Suitable for aspirational fregan employees of weed dispensaries and 17-year-old Lamborghini-driving daughters of Chinese Communist Party officials."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Vancouver", "references": ["Vancouver"]},
+      "target": {"topic": "borderless capital flows", "references": ["borderless capital flows"]},
+      "justifications": [
+        "Vancouver's only beautiful city has already been rendered unaffordable by the same borderless capital flows whose panicked stampedes are about to devastate London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Ted Cruz", "references": ["Ted Cruz"]},
+      "target": {"topic": "Calgary", "references": ["Calgary"]},
+      "justifications": [
+        "The birthplace of Ted Cruz, Calgary is to Dallas as your local Chinatown is to China."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Rob Ford", "references": ["Rob Ford"]},
+      "target": {"topic": "Toronto", "references": ["Toronto"]},
+      "justifications": [
+        "Toronto's largest city is now best-known for the antics of its late mayor, beloved domestic abuser and crack addict Rob Ford."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "John Lennon", "references": ["John Lennon"]},
+      "entity2": {"entity": "Yoko Ono", "references": ["Yoko Ono"]},
+      "justifications": [
+        "John Lennon and Yoko Ono spent one week in bed in Montreal's Queen Elizabeth Hotel to promote peace during the Vietnam War."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "John Lennon", "references": ["John Lennon"]},
+      "entity2": {"entity": "Vietnam War", "references": ["Vietnam War"]},
+      "justifications": [
+        "John Lennon and Yoko Ono spent one week in bed in Montreal's Queen Elizabeth Hotel to promote peace during the Vietnam War."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

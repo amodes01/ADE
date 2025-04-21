@@ -1,0 +1,182 @@
+[
+    {
+        "sentence": "After having voted to leave EU in Brexit vote",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British citizens",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British citizens",
+                "types": [],
+                "wikid": "British citizens",
+                "dbpedia": "British citizens"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British citizens -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "just hours after deciding to leave EU in a historic vote",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British citizens",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British citizens",
+                "types": [],
+                "wikid": "British citizens",
+                "dbpedia": "British citizens"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British citizens -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British citizens -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Both of them voted in favor of remaining in the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland voters",
+                "types": [],
+                "wikid": "Northern Ireland voters",
+                "dbpedia": "Northern Ireland voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland voters",
+                "types": [],
+                "wikid": "Scotland voters",
+                "dbpedia": "Scotland voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish voters",
+                "types": [],
+                "wikid": "Scottish voters",
+                "dbpedia": "Scottish voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Northern Ireland voters -> Scottish voters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Northern Ireland voters -> Brexit": [
+                -1.0
+            ],
+            "Scotland voters -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "British voters started to think seriously about the implications of their choice",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British citizens",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British citizens",
+                "types": [],
+                "wikid": "British citizens",
+                "dbpedia": "British citizens"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit referendum research",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit referendum research"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British citizens -> Brexit referendum research": [
+                -1.0
+            ]
+        }
+    }
+]

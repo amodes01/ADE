@@ -1,0 +1,312 @@
+[
+    {
+        "sentence": "the irony is that Wales receives more payout from Brussels than it puts in-a net benefit estimated at $325 million per year.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wales",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wales",
+                "types": [],
+                "wikid": "Wales",
+                "dbpedia": "Wales"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union (EU)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union (EU)",
+                "types": [],
+                "wikid": "European Union (EU)",
+                "dbpedia": "European Union (EU)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union (EU)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union (EU)"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Wales -> European Union (EU)": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union (EU)": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "it will be difficult to deliver on them all, especially with the recession that Brexit may well trigger.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "recession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "recession"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> recession": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Northern Ireland depends on the E.U. for significant subsidies-nearly 90 percent of its farmers' incomes come from E.U. coffers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union (EU)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union (EU)",
+                "types": [],
+                "wikid": "European Union (EU)",
+                "dbpedia": "European Union (EU)"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> European Union (EU)": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Sinn Fein, the pro-Irish reunification party, has already called for a referendum on reunification.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sinn Fein",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sinn Fein",
+                "types": [],
+                "wikid": "Sinn Fein",
+                "dbpedia": "Sinn Fein"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Sinn Fein -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Northern Ireland voted to Remain with 55.8 percent of the vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The Scots are staunchly pro-European-62 percent voted 'Remain' in the Brexit referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union (EU)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union (EU)",
+                "types": [],
+                "wikid": "European Union (EU)",
+                "dbpedia": "European Union (EU)"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> European Union (EU)": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "it not even two years since Scotland voted to 'Remain' part of the U.K. with a stronger-than-it-sounds 55 percent of the vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "voting to leave the U.K. would have meant leaving the E.U.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

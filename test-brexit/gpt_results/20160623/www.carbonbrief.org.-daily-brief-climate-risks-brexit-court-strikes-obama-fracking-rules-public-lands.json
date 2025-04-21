@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Out campaign"]},
+      "target": {"topic": "EU climate regulations", "references": ["EU's burdensome regulations on climate change and the environment"]},
+      "justifications": [
+        "many who support the Out campaign do so because they want to free us from what they see as the EU's burdensome regulations on climate change and the environment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "target": {"topic": "Brexit impact on climate policies", "references": ["Brexit would mean for climate policies"]},
+      "justifications": [
+        "In a rare editorial for EnergyDesk, its editor Damian Kahya spells out the implications of what Brexit would mean for climate policies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "target": {"topic": "Brexit impact on climate protections", "references": ["a government led by them would be swift to water down the protections"]},
+      "justifications": [
+        "Our analysis of their policy positions, from fracking to air pollution, suggests that a government led by them would be swift to water down the protections agreed by their elected predecessors."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "target": {"topic": "UK's climate targets", "references": ["UK's targets"]},
+      "justifications": [
+        "The UK's targets are already on course to be missed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "target": {"topic": "EU's climate commitments", "references": ["commitments to reduce emissions which we have made with our EU partners"]},
+      "justifications": [
+        "What will be enforced is the commitments to reduce emissions which we have made with our EU partners."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit supporters", "references": ["Out campaign"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "many who support the Out campaign do so because they want to free us from what they see as the EU's burdensome regulations on climate change and the environment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Out campaign"]},
+      "justifications": [
+        "Our analysis of their policy positions, from fracking to air pollution, suggests that a government led by them would be swift to water down the protections agreed by their elected predecessors."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Damian Kahya", "references": ["Damian Kahya"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "The UK's targets are already on course to be missed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "UK", "references": ["UK"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "What will be enforced is the commitments to reduce emissions which we have made with our EU partners."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

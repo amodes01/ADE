@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "Donald Trump"},
+      "justifications": [
+        "Most of those who were still switching to Trump said they saw the Brexit result as vindication of their decision to back the Republican.",
+        "Both a vote in favor of Brexit and a vote for Trump represent a rebellion against a political ideology and intellectual strait jacket that does not work."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "Hillary Clinton"},
+      "justifications": [
+        "Hillary Clinton represents continuing along the same path that has so far yielded increasingly dismal results, so remaining in the EU offered the same uninspiring choice to Britons."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "political establishment"},
+      "justifications": [
+        "They took their country back from Brussels and the elite establishment. Even now they are being shamed!"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Bernie Sanders", "references": ["Bernie Sanders"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Sanders penned an op-ed for the New York Times this week urging the Democrats to bring struggling working-class disaffected voters into the party fold rather than pushing them towards Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Peter Kartachian", "references": ["Peter Kartachian"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "The outcome only concretes my vote for Trump, because I think in the long run it will do us good rather than harm, just like this Brexit vote."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Janet H", "references": ["Janet H"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "As I was watching I felt a kinship with - and an admiration for - those in Britain who stood up to the taunting and shaming and voted to leave. They took their country back from Brussels and the elite establishment. Even now they are being shamed! But I was proud of them for going ahead. It made me think twice. I'd like to take my country back again too."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Dan Lutts", "references": ["Dan Lutts"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "I think the Brexit vote makes me more inclined to vote for Trump than to write in Sanders' name or vote for a third-party candidate."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Colin Wright", "references": ["Colin Wright"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "We - or at least I - will freely grant that Donald Trump on the one hand and Brexit on the other may not work either, but we have to try something."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

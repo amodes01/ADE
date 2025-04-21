@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "John Kerry",
+        "references": ["Kerry"]
+      },
+      "target": {
+        "topic": "US-EU partnership",
+        "references": ["US-EU partnership"]
+      },
+      "justifications": [
+        "describing the US-EU partnership as critical for Europe, America and the world."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": ["Kerry"]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": ["US"]
+      },
+      "justifications": [
+        "describing the US-EU partnership as critical for Europe, America and the world."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "US",
+        "references": ["US"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "describing the US-EU partnership as critical for Europe, America and the world."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

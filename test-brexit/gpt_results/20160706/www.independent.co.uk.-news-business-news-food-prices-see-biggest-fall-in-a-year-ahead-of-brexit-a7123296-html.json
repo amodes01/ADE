@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Helen Dickinson", "references": ["Helen Dickinson"] },
+      "target": { "topic": "falling food prices", "references": ["falling food prices"] },
+      "justifications": ["Helen Dickinson, BRC chief executive, called the drop in shop prices \"extraordinary\" saying that it should provide a boom for household's budgets."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Fraser McKevitt", "references": ["Fraser McKevitt"] },
+      "target": { "topic": "falling food prices", "references": ["falling food prices"] },
+      "justifications": ["Fraser McKevitt, head of retail and consumer insight at Kantar, suggested that a weaker pound could signal the end of cheaper grocery prices for UK consumers."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Fraser McKevitt", "references": ["Fraser McKevitt"] },
+      "target": { "topic": "weaker pound", "references": ["weaker pound"] },
+      "justifications": ["Fraser McKevitt, head of retail and consumer insight at Kantar, suggested that a weaker pound could signal the end of cheaper grocery prices for UK consumers."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "HSBC", "references": ["HSBC"] },
+      "target": { "topic": "price war", "references": ["price war"] },
+      "justifications": ["HSBC noted that David Cheesewright, the chief executive of Walmart, the US owner of Asda, recently told shareholders that the UK supermarket chain will prioritise sales over margin."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David McCarthy", "references": ["David McCarthy"] },
+      "target": { "topic": "price war", "references": ["price war"] },
+      "justifications": ["David McCarthy, HSBC analyst, suggesting Asda will dramatically cut its prices this summer."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David McCarthy", "references": ["David McCarthy"] },
+      "target": { "topic": "sector profitability", "references": ["industry profitability"] },
+      "justifications": ["\"If Asda does reposition fundamentally, then it could seriously damage sector profitability,\" McCarthy said."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David McCarthy", "references": ["David McCarthy"] },
+      "target": { "topic": "industry restructure", "references": ["industry restructure"] },
+      "justifications": ["\"If Asda decided to invest half its margin into price, a competitor reaction could wipe out almost all industry profitability and would force an industry restructure,\" he added."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Helen Dickinson", "references": ["Helen Dickinson"] },
+      "entity2": { "entity": "Fraser McKevitt", "references": ["Fraser McKevitt"] },
+      "justifications": ["Helen Dickinson, BRC chief executive, called the drop in shop prices \"extraordinary\" saying that it should provide a boom for household's budgets.", "Fraser McKevitt, head of retail and consumer insight at Kantar, suggested that a weaker pound could signal the end of cheaper grocery prices for UK consumers."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "HSBC", "references": ["HSBC"] },
+      "entity2": { "entity": "David McCarthy", "references": ["David McCarthy"] },
+      "justifications": ["HSBC noted that David Cheesewright, the chief executive of Walmart, the US owner of Asda, recently told shareholders that the UK supermarket chain will prioritise sales over margin.", "\"If Asda does reposition fundamentally, then it could seriously damage sector profitability,\" McCarthy said."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "David McCarthy", "references": ["David McCarthy"] },
+      "entity2": { "entity": "David Cheesewright", "references": ["David Cheesewright"] },
+      "justifications": ["David McCarthy, HSBC analyst, suggesting Asda will dramatically cut its prices this summer.", "\"If Asda decided to invest half its margin into price, a competitor reaction could wipe out almost all industry profitability and would force an industry restructure,\" he added."],
+      "attitude": "Negative"
+    }
+  ]
+}

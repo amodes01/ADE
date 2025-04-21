@@ -1,0 +1,590 @@
+[
+    {
+        "sentence": "The issue now is to debunk the narrative of Daesh.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Daesh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Daesh",
+                "types": [],
+                "wikid": "Daesh",
+                "dbpedia": "Daesh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islam",
+                "types": [],
+                "wikid": "Islam",
+                "dbpedia": "Islam"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "radical Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "radical Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Daesh -> Islam": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Daesh -> radical Islam": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Daesh today is the only international anti-society, anti-world order group.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Daesh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Daesh",
+                "types": [],
+                "wikid": "Daesh",
+                "dbpedia": "Daesh"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Daesh -> anti-globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We should not allow radical Islam to have a monopoly on Islam.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "radical Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "radical Islam",
+                "types": [],
+                "wikid": "radical Islam",
+                "dbpedia": "radical Islam"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islam",
+                "types": [],
+                "wikid": "Islam",
+                "dbpedia": "Islam"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Islam -> radical Islam": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "radical Islam -> Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The concept of moderate Islam is totally misleading.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "moderate Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "moderate Islam",
+                "types": [],
+                "wikid": "moderate Islam",
+                "dbpedia": "moderate Islam"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islam",
+                "types": [],
+                "wikid": "Islam",
+                "dbpedia": "Islam"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islam"
+                ]
+            },
+            {
+                "ngram": "moderate Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "moderate Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "moderate Islam -> Islam": [
+                -1.0
+            ],
+            "Islam -> moderate Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Yes. Because the answer to radicalism in France is to marginalize religion more and more.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "radicalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "radicalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "France -> United States": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "France -> radicalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The trend in Europe is to consider any religion as a potential problem.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "radicalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "radicalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe -> radicalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump does not pay lip service to religion when he attacks Islam.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "radical Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "radical Islam",
+                "types": [],
+                "wikid": "radical Islam",
+                "dbpedia": "radical Islam"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Trump -> radical Islam": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump is not a religious guy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "religion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "religion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> religion": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump's Islamophobia is linked with some sort of contempt of religion.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islamophobia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islamophobia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Islamophobia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We just had far-right forces in Austria get near a majority, and we have the Brexit vote this week-which has been driven in part by xenophobia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "far-right forces in Austria",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "far-right forces in Austria",
+                "types": [],
+                "wikid": "far-right forces in Austria",
+                "dbpedia": "far-right forces in Austria"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "xenophobia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "xenophobia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "far-right forces in Austria -> xenophobia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I think there is a discontinuity between the realities in Europe and the perception.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "integration of Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "integration of Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe -> integration of Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The crisis now is terrorism and refugees, and it is linked, according to public opinion, with Muslims.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islam",
+                "types": [],
+                "wikid": "Islam",
+                "dbpedia": "Islam"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Europe -> Islam": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Europe -> Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "These guys are attracted by the narrative of Daesh.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Daesh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Daesh",
+                "types": [],
+                "wikid": "Daesh",
+                "dbpedia": "Daesh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "radical Islam",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "radical Islam",
+                "types": [],
+                "wikid": "radical Islam",
+                "dbpedia": "radical Islam"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Daesh -> radical Islam": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "If you take [left-wing parties] Podemos in Spain or Syriza in Greece, these movements are now anti-globalization.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Daesh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Daesh",
+                "types": [],
+                "wikid": "Daesh",
+                "dbpedia": "Daesh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "far-left parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "far-left parties",
+                "types": [],
+                "wikid": "far-left parties",
+                "dbpedia": "far-left parties"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Daesh -> far-left parties": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

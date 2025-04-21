@@ -1,0 +1,159 @@
+[
+    {
+        "sentence": "\"But beyond that travel incentive, the vote, referred to as \\\"Brexit,\\\" has created mostly uncertainty in the travel industry.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. Travel Assn.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. Travel Assn.",
+                "types": [],
+                "wikid": "U.S. Travel Assn.",
+                "dbpedia": "U.S. Travel Assn."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. Travel Assn. -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. Travel Assn. -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We know that our sector is resilient and we expect business and leisure travel to hold up in the face of these challenges.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Scowsill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Scowsill",
+                "types": [],
+                "wikid": "David Scowsill",
+                "dbpedia": "David Scowsill"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Tyler",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Tyler",
+                "types": [],
+                "wikid": "Tony Tyler",
+                "dbpedia": "Tony Tyler"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "travel and tourism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "travel and tourism"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Scowsill -> Brexit": [
+                1.0
+            ],
+            "David Scowsill -> Tony Tyler": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "David Scowsill -> Brexit": [
+                1.0
+            ],
+            "David Scowsill -> travel and tourism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The Brexit vote has triggered much uncertainty - financial and otherwise.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Tyler",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Tyler",
+                "types": [],
+                "wikid": "Tony Tyler",
+                "dbpedia": "Tony Tyler"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Tony Tyler -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

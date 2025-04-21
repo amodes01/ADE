@@ -1,0 +1,188 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Alyn Smith",
+        "references": ["Alyn Smith"]
+      },
+      "target": {
+        "topic": "Scottish independence",
+        "references": ["Scottish independence"]
+      },
+      "justifications": [
+        "Everyone wants to talk about Scottish independence - except us."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Alyn Smith",
+        "references": ["Alyn Smith"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["Scottish EU membership"]
+      },
+      "justifications": [
+        "Alyn Smith, an EU lawmaker for Sturgeon's Scottish National Party (SNP) who won a standing ovation in the chamber on Tuesday with a plea to the EU not to 'let Scotland down', stressed: 'I am talking about status rather than membership ...'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "David Edward",
+        "references": ["David Edward"]
+      },
+      "target": {
+        "topic": "Greenland-inspired ideas",
+        "references": ["Reverse Greenland"]
+      },
+      "justifications": [
+        "David Edward, formerly Britain's justice on the EU's top court... said: 'Reverse Greenland is just 'silly'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Edward",
+        "references": ["David Edward"]
+      },
+      "target": {
+        "topic": "EU partnerships",
+        "references": ["partnerships with Brussels"]
+      },
+      "justifications": [
+        "Edward said, the Scottish government could use devolved powers in some areas to rework partnerships with Brussels."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Scottish independence",
+        "references": ["Scottish independence"]
+      },
+      "justifications": [
+        "The EU also would be unlikely to grant Scotland concessions that Britain has secured during its 43 years of membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "EU officials also caution that Sturgeon should not under-estimate hostility among other member states."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Scottish EU membership",
+        "references": ["Scottish EU membership"]
+      },
+      "justifications": [
+        "The Spanish prime minister, wary of Catalan separatists, was also in Brussels on Wednesday and threw cold water on Scottish EU membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Scottish status in the EU",
+        "references": ["Scottish status in the EU"]
+      },
+      "justifications": [
+        "The demonstrative pro-European clamor in Scotland has struck a chord with shellshocked EU politicians."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Scottish EU membership",
+        "references": ["Scottish EU membership"]
+      },
+      "justifications": [
+        "At least Nicola Sturgeon maintained goodwill, he said."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Alyn Smith",
+        "references": ["Alyn Smith"]
+      },
+      "entity2": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Sturgeon"]
+      },
+      "justifications": [
+        "Alyn Smith, an EU lawmaker for Sturgeon's Scottish National Party (SNP) who won a standing ovation in the chamber on Tuesday with a plea to the EU not to 'let Scotland down'."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "David Edward",
+        "references": ["David Edward"]
+      },
+      "entity2": {
+        "entity": "Alyn Smith",
+        "references": ["Alyn Smith"]
+      },
+      "justifications": [
+        "Edward said: 'Reverse Greenland is just 'silly' in the opinion of David Edward, formerly Britain's justice on the EU's top court and, with Smith, a member of an advisory panel Sturgeon set up in the wake of the Brexit vote to explore Scotland's options."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "entity2": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Sturgeon"]
+      },
+      "justifications": [
+        "At least Nicola Sturgeon maintained goodwill."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Spanish Prime Minister",
+        "references": ["Spanish prime minister"]
+      },
+      "entity2": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Sturgeon"]
+      },
+      "justifications": [
+        "The Spanish prime minister, wary of Catalan separatists, was also in Brussels on Wednesday and threw cold water on Scottish EU membership."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "London", "references": ["London"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "London's role as a major offshore yuan hub is likely to survive Britain's decision to leave the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "China", "references": ["China"] },
+      "target": { "topic": "yuan internationalisation", "references": ["internationalisation of the yuan"] },
+      "justifications": [
+        "China is pushing to increase international use of the yuan ahead of inclusion in the International Monetary Fund's Special Drawing Rights basket."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "yuan internationalisation", "references": ["internationalisation of the yuan"] },
+      "justifications": [
+        "Brexit could help foster the Chinese currency's internationalisation by encouraging multiple yuan hubs in the bloc."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "financial services passporting rights", "references": ["passporting rights"] },
+      "justifications": [
+        "One concern is Britain could lose crucial financial services \"passporting\" rights."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Andrew Fung", "references": ["Andrew Fung"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "We expect London to keep its status as the world's largest foreign exchange centre though some of the city's other financial services may have the risk to be moved to other countries following Brexit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Andrew McGinty", "references": ["Andrew McGinty"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "If UK financial institutions lose EU passporting rights and RMB-denominated products can not be sold cross-border in the EU without fresh approvals, will that have an impact on China's willingness to continue to position the UK as its leading offshore international RMB financial centre?"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": [
+        "Britain's long-established international investor base, which makes London attractive to China as an offshore hub, would be central to UK-EU negotiations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": [
+        "London has played an important role in the internationalisation of the yuan."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "Beijing", "references": ["Beijing"] },
+      "justifications": [
+        "London's leading role as an offshore yuan hub would be undermined, potentially setting back Beijing's efforts to internationalise the yuan."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "China", "references": ["China"] },
+      "entity2": { "entity": "Beijing", "references": ["Beijing"] },
+      "justifications": [
+        "Beijing's efforts to internationalise the yuan."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "China", "references": ["China"] },
+      "entity2": { "entity": "Germany", "references": ["Germany"] },
+      "justifications": [
+        "Frankfurt, Paris and Zurich are all very active in offshore yuan business."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

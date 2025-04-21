@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "The numbers shown to the public are processed in many ways and are meant to be very general trends only, Hearst said.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hearst",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hearst",
+                "types": [],
+                "wikid": "Hearst",
+                "dbpedia": "Hearst"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Google Trends reports",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Google Trends reports"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hearst -> Google Trends reports": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I might interpret the findings more positively, Davenport said. At least a lot of people have curiosity and are trying to learn more about the Brexit topic.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tom Davenport",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tom Davenport",
+                "types": [],
+                "wikid": "Tom Davenport",
+                "dbpedia": "Tom Davenport"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Tom Davenport -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Experts agreed that the way many news outlets used the Google Trends reports is not grounded in science. Hearst said. Davenport said, I might interpret the findings more positively.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hearst",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hearst",
+                "types": [],
+                "wikid": "Hearst",
+                "dbpedia": "Hearst"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tom Davenport",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tom Davenport",
+                "types": [],
+                "wikid": "Tom Davenport",
+                "dbpedia": "Tom Davenport"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hearst -> Tom Davenport": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

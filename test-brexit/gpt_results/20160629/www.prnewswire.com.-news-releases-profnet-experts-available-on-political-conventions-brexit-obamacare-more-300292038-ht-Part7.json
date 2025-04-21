@@ -1,0 +1,120 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brooks Simpson", "references": ["Brooks Simpson"]},
+      "target": {"topic": "Republican National Convention", "references": ["RNC"]},
+      "justifications": ["He will be traveling (with students) to both the RNC and DNC conventions"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brooks Simpson", "references": ["Brooks Simpson"]},
+      "target": {"topic": "Democratic National Convention", "references": ["DNC"]},
+      "justifications": ["He will be traveling (with students) to both the RNC and DNC conventions"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "White House operations", "references": ["White House operations"]},
+      "justifications": ["McBride is a top-level authority and advisor on White House operations"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "presidential transitions", "references": ["presidential transitions"]},
+      "justifications": ["McBride is a top-level authority and advisor on presidential transitions"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "global policy on women's and human rights", "references": ["global policy on women's and human rights"]},
+      "justifications": ["McBride is a top-level authority and advisor on global policy on women's and human rights"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "first ladies' impact and legacies", "references": ["first ladies' impact and legacies"]},
+      "justifications": ["McBride is a top-level authority and advisor on first ladies' impact and legacies"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "candidate and surrogate deployment", "references": ["how the candidate and his/her top surrogates are deployed to win over delegates"]},
+      "justifications": ["McBride is able to discuss how the candidate and his/her top surrogates are deployed to win over delegates"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "first ladies' role in conventions", "references": ["when/how first ladies have been deployed at conventions"]},
+      "justifications": ["McBride is able to discuss when/how first ladies have been deployed at conventions"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "VP nominee announcement", "references": ["when/how a VP nominee is named and how that is traditionally rolled out"]},
+      "justifications": ["McBride is able to discuss when/how a VP nominee is named and how that is traditionally rolled out"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "target": {"topic": "first ladies' travel", "references": ["what happens when a VP nominee is named and how that is traditionally rolled out"]},
+      "justifications": ["McBride served as an assistant to President George W. Bush, as well as chief of staff to First Lady Laura Bush."]
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "George W. Bush", "references": ["President George W. Bush"]},
+      "justifications": ["McBride served as an assistant to President George W. Bush"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "Laura Bush", "references": ["First Lady Laura Bush"]},
+      "justifications": ["McBride served as chief of staff to First Lady Laura Bush"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "African first ladies", "references": ["African first ladies"]},
+      "justifications": ["She co-founded the RAND African First Ladies Initiative and Fellowship program"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "US-Afghan Women's Council", "references": ["US-Afghan Women's Council"]},
+      "justifications": ["She is a member of the US-Afghan Women's Council"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "International Republican Institute's Women's Democracy Network", "references": ["International Republican Institute's Women's Democracy Network"]},
+      "justifications": ["She is a member of the International Republican Institute's Women's Democracy Network"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "National Italian American Foundation", "references": ["National Italian American Foundation"]},
+      "justifications": ["She is a member of the National Italian American Foundation"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "RightNow Women PAC", "references": ["RightNow Women PAC"]},
+      "justifications": ["She is a Founding Advisor of RightNow Women PAC"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "Reagan for President", "references": ["Reagan for President"]},
+      "justifications": ["She began her political career as a campaign volunteer for Reagan for President in 1980"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Anita McBride", "references": ["Anita McBride"]},
+      "entity2": {"entity": "Reagan-Bush campaign", "references": ["Reagan-Bush campaign"]},
+      "justifications": ["She went on to work as a finance field representative for Senate and House campaigns, as well as the Reagan-Bush campaign in 1984."]
+      "attitude": "Neutral"
+    }
+  ]
+}

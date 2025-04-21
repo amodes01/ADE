@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "In the meantime, the future of Europe remains uncertain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "statement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "statement",
+                "types": [],
+                "wikid": "statement",
+                "dbpedia": "statement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "future of Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "future of Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "statement -> future of Europe": [
+                -1.0
+            ]
+        }
+    }
+]

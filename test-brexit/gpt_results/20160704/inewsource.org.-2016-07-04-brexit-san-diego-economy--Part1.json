@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit fallout",
+        "references": ["Brexit fallout"]
+      },
+      "target": {
+        "topic": "uncertainty",
+        "references": ["uncertainty"]
+      },
+      "justifications": [
+        "So far, the keyword for Brexit fallout is uncertainty."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "British pound",
+        "references": ["British pound"]
+      },
+      "target": {
+        "topic": "value of currency",
+        "references": ["its value going from almost $1.50 to about $1.33"]
+      },
+      "justifications": [
+        "By Friday, the British pound had fallen about 10 percent - its value going from almost $1.50 to about $1.33."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "British economy",
+        "references": ["British economy"]
+      },
+      "target": {
+        "topic": "recession",
+        "references": ["real risk of recession in the U.K. economy"]
+      },
+      "justifications": [
+        "\"There is a real risk of recession in the U.K. economy,\" said Allan Timmermann."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "San Diego trade with the U.K.",
+        "references": ["San Diego's trade with the United Kingdom"]
+      },
+      "target": {
+        "topic": "economic impact",
+        "references": ["might be limited to a few industries"]
+      },
+      "justifications": [
+        "Castillo said the impact on trade to San Diego businesses might be limited to a few industries, such as biotech and maritime technology."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Allan Timmermann",
+        "references": ["Allan Timmermann"]
+      },
+      "entity2": {
+        "entity": "British economy",
+        "references": ["U.K. economy"]
+      },
+      "justifications": [
+        "\"There is a real risk of recession in the U.K. economy,\" said Allan Timmermann."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Victor Castillo",
+        "references": ["Victor Castillo"]
+      },
+      "entity2": {
+        "entity": "San Diego trade with the U.K.",
+        "references": ["San Diego's trade with the United Kingdom"]
+      },
+      "justifications": [
+        "Castillo said the impact on trade to San Diego businesses might be limited to a few industries, such as biotech and maritime technology."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Victor Castillo",
+        "references": ["Victor Castillo"]
+      },
+      "entity2": {
+        "entity": "foreign direct investment from the U.K.",
+        "references": ["decrease in foreign direct investment (from) the U.K."]
+      },
+      "justifications": [
+        "\"I will be more worried about the decrease in foreign direct investment (from) the U.K. into San Diego,\" he said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jay Thomas",
+        "references": ["Jay Thomas"]
+      },
+      "entity2": {
+        "entity": "Cubic Corp.",
+        "references": ["Cubic Corp."]
+      },
+      "justifications": [
+        "Jay Thomas, executive vice president and chief financial officer of Cubic, said the company is not too worried because it mostly exports services rather than goods."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Cubic Corp.",
+        "references": ["Cubic Corp."]
+      },
+      "entity2": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "justifications": [
+        "Cubic does about 20 percent of its business in the U.K."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Jay Thomas",
+        "references": ["Jay Thomas"]
+      },
+      "entity2": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "justifications": [
+        "\"We run the subway, the fare collection part, and we train their army,\" Thomas said."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

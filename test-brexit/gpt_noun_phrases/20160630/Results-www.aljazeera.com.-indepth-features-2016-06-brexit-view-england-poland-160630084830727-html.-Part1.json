@@ -1,0 +1,189 @@
+[
+    {
+        "sentence": "In last week's EU referendum their feelings were clear, with 75.6 percent voting to leave - the highest percentage in the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boston",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boston",
+                "types": [],
+                "wikid": "Boston",
+                "dbpedia": "Boston"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boston -> EU referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We can not sustain the amount of people we have got here,\" says Nick, a 61-year-old night porter at the New England Hotel who voted to leave.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nick",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nick",
+                "types": [],
+                "wikid": "Nick",
+                "dbpedia": "Nick"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jonathan Noble",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jonathan Noble",
+                "types": [],
+                "wikid": "Jonathan Noble",
+                "dbpedia": "Jonathan Noble"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nick -> Jonathan Noble": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Nick -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"There is competition for jobs which has had the effect of depressing wages in a low-wage area,\" he says.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jonathan Noble",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jonathan Noble",
+                "types": [],
+                "wikid": "Jonathan Noble",
+                "dbpedia": "Jonathan Noble"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jonathan Noble -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We now have many more people working here, our shops are not empty and our schools are achieving well,\" he says.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Paul Gleeson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Paul Gleeson",
+                "types": [],
+                "wikid": "Paul Gleeson",
+                "dbpedia": "Paul Gleeson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Paul Gleeson -> immigration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"There is too much pressure on local schools, tremendous pressure on GP surgeries, pressure on housing. People that want to get on the council housing list are competing with foreign nationals.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jonathan Noble",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jonathan Noble",
+                "types": [],
+                "wikid": "Jonathan Noble",
+                "dbpedia": "Jonathan Noble"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Paul Gleeson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Paul Gleeson",
+                "types": [],
+                "wikid": "Paul Gleeson",
+                "dbpedia": "Paul Gleeson"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jonathan Noble -> Paul Gleeson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the European Union"] },
+      "target": { "topic": "investment in Britain", "references": ["plans to invest a total of up to 500 million pounds"] },
+      "justifications": ["These investment plans will be a boost for Britain's financial services sector, beset by rumors of job cuts and firms moving overseas in the aftermath of Britain's vote to leave the European Union and potentially surrender some of its access to EU markets."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "Morgan Stanley", "references": ["Morgan Stanley"] },
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union"] },
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Morgan Stanley", "references": ["Morgan Stanley"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union"] },
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "PwC", "references": ["PwC"] },
+      "entity2": { "entity": "investment in Britain", "references": ["plans to invest a total of up to 500 million pounds"] },
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain, consulting firm PwC said on Friday."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "PwC", "references": ["PwC"] },
+      "entity2": { "entity": "Stephen Morse", "references": ["Stephen Morse"] },
+      "justifications": ["Stephen Morse, financial services partner at PwC, said the around 20 clients investing in Britain were not only mainstream banks, mortgage lenders and asset managers."],
+      "attitude": "Neutral"
+    }
+  ]
+}

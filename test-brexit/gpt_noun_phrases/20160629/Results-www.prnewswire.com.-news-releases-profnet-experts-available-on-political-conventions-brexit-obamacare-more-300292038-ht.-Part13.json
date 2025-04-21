@@ -1,0 +1,51 @@
+[
+    {
+        "sentence": "Dutro tells us she has had a lot of success using ProfNet to find guests",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michelle Dutro",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michelle Dutro",
+                "types": [],
+                "wikid": "Michelle Dutro",
+                "dbpedia": "Michelle Dutro"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ProfNet",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ProfNet",
+                "types": [],
+                "wikid": "ProfNet",
+                "dbpedia": "ProfNet"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "ProfNet",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "ProfNet"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Michelle Dutro -> ProfNet": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Michelle Dutro -> ProfNet": [
+                1.0
+            ]
+        }
+    }
+]

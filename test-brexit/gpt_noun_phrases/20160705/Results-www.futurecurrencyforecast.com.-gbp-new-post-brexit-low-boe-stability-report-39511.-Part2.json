@@ -1,0 +1,198 @@
+[
+    {
+        "sentence": "Before the report was released, the Pound was down -1% against several of the majors, including the US Dollar.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pound",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pound",
+                "types": [],
+                "wikid": "Pound",
+                "dbpedia": "Pound"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US Dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US Dollar",
+                "types": [],
+                "wikid": "US Dollar",
+                "dbpedia": "US Dollar"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US Dollar",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US Dollar"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Pound -> US Dollar": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Pound -> US Dollar": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The US Dollar began the day on a bullish rise, as anticipation of the BoE report and subsequent speech by Mark Carney drove safe-haven demand.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US Dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US Dollar",
+                "types": [],
+                "wikid": "US Dollar",
+                "dbpedia": "US Dollar"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pound",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pound",
+                "types": [],
+                "wikid": "Pound",
+                "dbpedia": "Pound"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Pound",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Pound"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "US Dollar -> Pound": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "US Dollar -> Pound": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Pound is gradually erasing losses following the release of the Financial Stability Report, which has calmed investor fears.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pound",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pound",
+                "types": [],
+                "wikid": "Pound",
+                "dbpedia": "Pound"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US Dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US Dollar",
+                "types": [],
+                "wikid": "US Dollar",
+                "dbpedia": "US Dollar"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US Dollar",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US Dollar"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Pound -> US Dollar": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Pound -> US Dollar": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Suggestions that GBP USD could hit a 34-year low today seem dovish now.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US Dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US Dollar",
+                "types": [],
+                "wikid": "US Dollar",
+                "dbpedia": "US Dollar"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pound",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pound",
+                "types": [],
+                "wikid": "Pound",
+                "dbpedia": "Pound"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Pound",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Pound"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "US Dollar -> Pound": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "US Dollar -> Pound": [
+                -1.0
+            ]
+        }
+    }
+]

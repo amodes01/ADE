@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "Serbians largely do not view immigration as a major issue."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "target": {
+        "topic": "trade",
+        "references": ["trade"]
+      },
+      "justifications": [
+        "Trade is also a lesser concern."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Jelica Minic",
+        "references": ["Jelica Minic"]
+      },
+      "target": {
+        "topic": "Europe",
+        "references": ["Europe"]
+      },
+      "justifications": [
+        "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia and giving pro-Russian groups an advantage."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "pro-Russian groups",
+        "references": ["pro-Russian groups"]
+      },
+      "target": {
+        "topic": "Europe",
+        "references": ["Europe"]
+      },
+      "justifications": [
+        "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia and giving pro-Russian groups an advantage."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "entity2": {
+        "entity": "Russia",
+        "references": ["Russia"]
+      },
+      "justifications": [
+        "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "entity2": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "justifications": [
+        "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia and giving pro-Russian groups an advantage."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "pro-Russian groups",
+        "references": ["pro-Russian groups"]
+      },
+      "entity2": {
+        "entity": "Russia",
+        "references": ["Russia"]
+      },
+      "justifications": [
+        "pro-Russian groups in Belgrade who believe Moscow has historically been a better friend to Serbia than the West."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "pro-Russian groups",
+        "references": ["pro-Russian groups"]
+      },
+      "entity2": {
+        "entity": "West",
+        "references": ["West"]
+      },
+      "justifications": [
+        "pro-Russian groups in Belgrade who believe Moscow has historically been a better friend to Serbia than the West."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jugoslav Kiprijanovic",
+        "references": ["Jugoslav Kiprijanovic"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Jugoslav Kiprijanovic, a spokesman for the pro-Russian Dveri movement, said his party... is raising its calls for a referendum on EU membership."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

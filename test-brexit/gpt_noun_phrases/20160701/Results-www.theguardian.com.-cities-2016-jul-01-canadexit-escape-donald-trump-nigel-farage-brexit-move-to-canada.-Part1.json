@@ -1,0 +1,310 @@
+[
+    {
+        "sentence": "Google searches for 'how do I move to Canada' spiked in the UK following the Brexit vote",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "move to Canada",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "move to Canada"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> move to Canada": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Google searches for 'how do I move to Canada' spiked in the UK following the Brexit vote, in inverse correlation to the value of the pound",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "move to Canada",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "move to Canada"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "US -> move to Canada": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "So it's in part thanks to Nixon that I now live and work in Toronto, having carried on the family tradition of making existential life decisions without thinking them through by using my Canadian passport to move from Australia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Canada -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "how to move? And can it be done before Michael Gove and Donald Trump begin fumbling with launch codes in their sweaty fists?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Gove",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Gove",
+                "types": [],
+                "wikid": "Michael Gove",
+                "dbpedia": "Michael Gove"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Michael Gove": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Upon experiencing the reality of life in the prairies of western Canada, the Doukhobors regretted their decision, and devised a plan to return to Russia",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Doukhobors",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Doukhobors",
+                "types": [],
+                "wikid": "Doukhobors",
+                "dbpedia": "Doukhobors"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Doukhobors -> Canada": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The most devout of the Doukhobors now live in Azerbaijan.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Doukhobors",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Doukhobors",
+                "types": [],
+                "wikid": "Doukhobors",
+                "dbpedia": "Doukhobors"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Doukhobors -> Canada": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Their First Nations ancestors were later displaced by Americans, loyal to the British crown, who fled the Revolutionary War.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "First Nations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "First Nations",
+                "types": [],
+                "wikid": "First Nations",
+                "dbpedia": "First Nations"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Americans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Americans",
+                "types": [],
+                "wikid": "Americans",
+                "dbpedia": "Americans"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "First Nations -> Americans": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "One of those Americans was my grandfather. When Nixon was elected vice-president in 1952, my grandfather made good on that perennial threat of outraged American liberals throughout history: he loaded the family into the station wagon, drove up the coast from Orange County to Salmon Arm, British Columbia, and settled in Canada.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nixon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nixon",
+                "types": [],
+                "wikid": "Nixon",
+                "dbpedia": "Nixon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Americans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Americans",
+                "types": [],
+                "wikid": "Americans",
+                "dbpedia": "Americans"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nixon -> Americans": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

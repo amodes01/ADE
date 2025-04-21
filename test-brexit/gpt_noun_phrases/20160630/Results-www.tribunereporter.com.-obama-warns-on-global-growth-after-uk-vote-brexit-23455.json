@@ -1,0 +1,197 @@
+[
+    {
+        "sentence": "US President Barack Obama has said the UK vote to leave the EU raises \"longer-term concerns about global growth\".",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global growth",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global growth"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> global growth": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Before EU leaders warned the UK must honour the principle of free movement of people if it desires to keep use of the single market.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU leaders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU leaders",
+                "types": [],
+                "wikid": "EU leaders",
+                "dbpedia": "EU leaders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "free movement of people",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "free movement of people"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "EU leaders -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "EU leaders -> free movement of people": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mr Obama was talking with the leaders of Mexico and Canada, aimed at strengthening economic ties between North American nations at a summit in Ottawa.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mexico",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mexico",
+                "types": [],
+                "wikid": "Mexico",
+                "dbpedia": "Mexico"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Canada",
+                "types": [],
+                "wikid": "Canada",
+                "dbpedia": "Canada"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic ties between North American nations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic ties between North American nations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> Mexico": [
+                1.0
+            ],
+            "Barack Obama -> Canada": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> economic ties between North American nations": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He said the trainings by central banks and finance ministers indicated that \"global economy in the short run will hold steady\".",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> global economy": [
+                -1.0
+            ]
+        }
+    }
+]

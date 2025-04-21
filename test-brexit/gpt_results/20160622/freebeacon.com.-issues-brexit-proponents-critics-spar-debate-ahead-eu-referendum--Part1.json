@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Johnson, a leading proponent of the campaign to leave the EU, clashed with his successor Sadiq Khan, a member of the Labour Party, over the economy, immigration, and Britain's role on the international stage.",
+        "We should take back control and look after our own society.",
+        "I believe that this Thursday can be our country's Independence Day."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Khan... characterized exiting the EU as a gamble that could have grave economic and rights implications.",
+        "He accused the Leave campaign of not having a plan in place to guide Britain in a post-Brexit world.",
+        "You want the British public to take a one-way leap into the dark without a plan."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "British Prime Minister David Cameron has also vocally opposed Brexit, telling voters in a last-ditch appeal Tuesday to consider the ramifications for future generations of an exit from the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Davidson explained during closing remarks... 'The Britain that I know works with its neighbors. It does not walk away from them.'",
+        "I know the EU is not perfect, but the benefits far outweigh any costs."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Frances O'Grady", "references": ["Frances O'Grady"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Frances O'Grady... characterized exiting the EU as a gamble that could have grave economic and rights implications."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Gisela Stuart", "references": ["Gisela Stuart"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Labour member of Parliament Gisela Stuart... expressed confidence that a Britain untethered from the EU could write its own trade agreements, control its borders, and shed EU laws and regulations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Andrea Leadsom", "references": ["Andrea Leadsom"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Britain's exit from the EU"]},
+      "justifications": [
+        "Conservative energy minister Andrea Leadsom... expressed confidence that a Britain untethered from the EU could write its own trade agreements, control its borders, and shed EU laws and regulations.",
+        "We do not need unelected, bureaucratic European leaders... to tell us what our rights should be."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jo Cox", "references": ["Jo Cox"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Tuesday's heated debate took place after both campaigns paused in the wake of the brutal murder of Jo Cox, a Labour member of British parliament, last Thursday."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "justifications": [
+        "Boris Johnson, London's former mayor, a member of the Conservative Party, and a leading proponent of the campaign to leave the EU, clashed with his successor Sadiq Khan, a member of the Labour Party, over the economy, immigration, and Britain's role on the international stage."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "entity2": {"entity": "Frances O'Grady", "references": ["Frances O'Grady"]},
+      "justifications": [
+        "Khan, along with Ruth Davidson, leader of the Scottish Conservative and Unionist Party, and Frances O'Grady, general secretary of the Trades Union Congress, characterized exiting the EU as a gamble that could have grave economic and rights implications."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "British Prime Minister David Cameron has also vocally opposed Brexit, telling voters in a last-ditch appeal Tuesday to consider the ramifications for future generations of an exit from the EU.",
+        "Johnson, a leading proponent of the campaign to leave the EU... expressed confidence that a Britain untethered from the EU could write its own trade agreements, control its borders, and shed EU laws and regulations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Boris Johnson, London's former mayor, a member of the Conservative Party, and a leading proponent of the campaign to leave the EU, clashed with his successor Sadiq Khan, a member of the Labour Party, over the economy, immigration, and Britain's role on the international stage."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Frances O'Grady", "references": ["Frances O'Grady"]},
+      "entity2": {"entity": "Andrea Leadsom", "references": ["Andrea Leadsom"]},
+      "justifications": [
+        "Conservative energy minister Andrea Leadsom... expressed confidence that a Britain untethered from the EU could write its own trade agreements, control its borders, and shed EU laws and regulations.",
+        "Frances O'Grady... characterized exiting the EU as a gamble that could have grave economic and rights implications."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

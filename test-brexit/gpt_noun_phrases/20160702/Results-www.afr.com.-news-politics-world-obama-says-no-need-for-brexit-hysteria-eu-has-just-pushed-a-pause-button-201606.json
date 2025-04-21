@@ -1,0 +1,121 @@
+[
+    {
+        "sentence": "\"President Barack Obama has cautioned against 'hysteria' over the UK vote to leave the European Union.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the UK",
+                "types": [],
+                "wikid": "the UK",
+                "dbpedia": "the UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> the UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I think that the best way to think about this is, a pause button has been pressed on the project of full European integration.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"all of Europe needs to take a breath and reassess how to preserve national identity while taking advantage of political and economic integration.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Europe": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

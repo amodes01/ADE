@@ -1,0 +1,144 @@
+[
+    {
+        "sentence": "once repealed, that will carry away every treaty and every piece of European legislation that has ever been passed.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit negotiations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit negotiations",
+                "types": [],
+                "wikid": "Brexit negotiations",
+                "dbpedia": "Brexit negotiations"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Communities Act",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Communities Act"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit negotiations -> European Communities Act": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We can not possibly entrust this process to the same civil servants that have been tangled up in this mess for the last 40 years.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "William Cash",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "William Cash",
+                "types": [],
+                "wikid": "William Cash",
+                "dbpedia": "William Cash"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "civil servants",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "civil servants",
+                "types": [],
+                "wikid": "civil servants",
+                "dbpedia": "civil servants"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "William Cash -> civil servants": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "a lot of people want to obstruct the democratic will of the British people",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "William Cash",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "William Cash",
+                "types": [],
+                "wikid": "William Cash",
+                "dbpedia": "William Cash"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British people",
+                "types": [],
+                "wikid": "British people",
+                "dbpedia": "British people"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "William Cash -> British people": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the civil servants are duty-bound to carry out the will of Government",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "William Cash",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "William Cash",
+                "types": [],
+                "wikid": "William Cash",
+                "dbpedia": "William Cash"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Government",
+                "types": [],
+                "wikid": "Government",
+                "dbpedia": "Government"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "William Cash -> Government": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

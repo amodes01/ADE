@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Remainder app", "references": ["Remainder app"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["There could soon be a new dating app that really gets to the 'heart' of Brexit."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Remainder app", "references": ["Remainder app"]},
+      "target": {"topic": "EU referendum", "references": ["EU referendum"]},
+      "justifications": ["Remainder that promises to connect 'the forgotten, Remain-voting 48 percent.'"]
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Andy", "references": ["Andy"]},
+      "entity2": {"entity": "Tim", "references": ["Tim"]},
+      "justifications": ["The site's co-founders, a pair of likely lads from London who wish to remain anonymous, created the site 'as a joke' the day after the referendum."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Remainder app", "references": ["Remainder app"]},
+      "entity2": {"entity": "UK voters who voted Remain", "references": ["the 48 percent", "Remain-voting 48 percent"]},
+      "justifications": ["Remainder that promises to connect 'the forgotten, Remain-voting 48 percent.'"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Remainder app", "references": ["Remainder app"]},
+      "entity2": {"entity": "UK voters who voted Leave", "references": ["Mr. Far Right", "Leave"]},
+      "justifications": ["what could be worse than finding Mr. Right, only to discover that he could be Mr. Far Right?"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Remainder app", "references": ["Remainder app"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["even Americans - excluded from Europe's biggest going away party - can fine-tune their search for love across the pond"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Andy", "references": ["Andy"]},
+      "entity2": {"entity": "NBC News", "references": ["NBC News"]},
+      "justifications": ["The Remainder team paired with a dating app provider and has been finalizing the site design in preparation for its launch this week."]
+      "attitude": "Neutral"
+    }
+  ]
+}

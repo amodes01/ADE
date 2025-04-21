@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "Brexit vote - could also affect the FN's appeal.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Marine Le Pen -> EU exit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "opinion polls since the Brexit vote show a change among FN voters, with a huge majority now backing an EU exit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "FN voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "FN voters",
+                "types": [],
+                "wikid": "FN voters",
+                "dbpedia": "FN voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "FN voters -> EU exit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Even within the FN, there has been criticism of this policy, which has put off the elderly - who tend to vote more than younger voters - for fear their pension could be affected.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "FN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "FN",
+                "types": [],
+                "wikid": "FN",
+                "dbpedia": "FN"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine Le Pen -> FN": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

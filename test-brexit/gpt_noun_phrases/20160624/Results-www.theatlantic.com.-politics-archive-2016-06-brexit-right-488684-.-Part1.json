@@ -1,0 +1,259 @@
+[
+    {
+        "sentence": "The U.K.'s vote to leave the European Union betrays a failure of empathy and imagination among its leaders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeb Bush",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeb Bush",
+                "types": [],
+                "wikid": "Jeb Bush",
+                "dbpedia": "Jeb Bush"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marco Rubio",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marco Rubio",
+                "types": [],
+                "wikid": "Marco Rubio",
+                "dbpedia": "Marco Rubio"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ted Cruz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ted Cruz",
+                "types": [],
+                "wikid": "Ted Cruz",
+                "dbpedia": "Ted Cruz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "protectionism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "protectionism"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Jeb Bush -> Donald Trump": [
+                -1.0
+            ],
+            "Marco Rubio -> Donald Trump": [
+                -1.0
+            ],
+            "Ted Cruz -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jeb Bush -> protectionism": [
+                -1.0
+            ],
+            "Marco Rubio -> protectionism": [
+                -1.0
+            ],
+            "Ted Cruz -> protectionism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In 2016, the consensus crumbled, torn apart by a failure of empathy, and a failure of imagination.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street. In the United States, Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

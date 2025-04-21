@@ -1,0 +1,133 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "winemaker and importer",
+        "references": ["winemaker and importer"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit result"]
+      },
+      "justifications": [
+        "the Brexit result is a catastrophe",
+        "in the short term our UK business could quickly become untenable well before Brexit happens"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jean-Claude Piris",
+        "references": ["Jean-Claude Piris"]
+      },
+      "target": {
+        "topic": "Brexit agreement",
+        "references": ["Brexit agreement"]
+      },
+      "justifications": [
+        "any arrangements that are agreed between the EU and the UK following Brexit would be worse than the conditions for trade than they have now"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jean-Claude Piris",
+        "references": ["Jean-Claude Piris"]
+      },
+      "target": {
+        "topic": "EU-UK trade arrangements",
+        "references": ["arrangements that are in place between the EU and both Switzerland and Norway"]
+      },
+      "justifications": [
+        "the arrangements which are in place between the EU and both Switzerland and Norway... would not be acceptable to the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jean-Claude Piris",
+        "references": ["Jean-Claude Piris"]
+      },
+      "target": {
+        "topic": "EU wine exports to the UK",
+        "references": ["EU wine-producing countries", "EU wine competitive in the UK"]
+      },
+      "justifications": [
+        "an agreement would be reached which would make EU wine competitive in the UK"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "winemaker and importer",
+        "references": ["winemaker and importer"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK business"]
+      },
+      "justifications": [
+        "in the short term our UK business could quickly become untenable well before Brexit happens"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jean-Claude Piris",
+        "references": ["Jean-Claude Piris"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "the EU cannot negotiate the terms of trade with a third state until it becomes a third state"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jean-Claude Piris",
+        "references": ["Jean-Claude Piris"]
+      },
+      "entity2": {
+        "entity": "Switzerland and Norway",
+        "references": ["Switzerland", "Norway"]
+      },
+      "justifications": [
+        "the arrangements which are in place between the EU and both Switzerland and Norway... would not be acceptable to the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "entity2": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "justifications": [
+        "he referred to the EU arrangement agreed with Canada in February 2016, the 'Comprehensive Economic and Trade Agreement between the EU and Canada' (known as CETA) as the type of arrangement that could be put in place with the UK"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "Therefore, technically the two years will be used to determine the legal arrangements for making the split"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+[
+    {
+        "sentence": "Voters in Great Britain, by a margin of fifty-two percent to forty-eight percent, elected to exit the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Voters in Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Voters in Great Britain",
+                "types": [],
+                "wikid": "Voters in Great Britain",
+                "dbpedia": "Voters in Great Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Great Britain",
+                "types": [],
+                "wikid": "Great Britain",
+                "dbpedia": "Great Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Voters in Great Britain -> Brexit": [
+                1.0
+            ],
+            "Great Britain -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Saturday edition of the Wall Street Journal characterized it thusly: 'Voters defied the impassioned - and unified - opposition of the leadership of all five major political parties.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the Wall Street Journal",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the Wall Street Journal",
+                "types": [],
+                "wikid": "the Wall Street Journal",
+                "dbpedia": "the Wall Street Journal"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Voters in Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Voters in Great Britain",
+                "types": [],
+                "wikid": "Voters in Great Britain",
+                "dbpedia": "Voters in Great Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wall Street Journal",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wall Street Journal",
+                "types": [],
+                "wikid": "Wall Street Journal",
+                "dbpedia": "Wall Street Journal"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Voters in Great Britain -> Wall Street Journal": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "the Wall Street Journal -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Banks in the City of London, one of the world's major financial centers, along with the Bank of England, the country's central bank, and most of its influential think tanks and academic institutions, had warned of the risks to the U.K.'s economic security and global financial pre-eminence if Britain did not stay in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Banks in the City of London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Banks in the City of London",
+                "types": [],
+                "wikid": "Banks in the City of London",
+                "dbpedia": "Banks in the City of London"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Voters in Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Voters in Great Britain",
+                "types": [],
+                "wikid": "Voters in Great Britain",
+                "dbpedia": "Voters in Great Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Banks in the City of London -> Voters in Great Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Banks in the City of London -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Even the 'most beloved leader' of the modern free world, President Barack Obama, warned the British voters that if they did not listen to his advice that Great Britain would move to the 'back of the queue' in negotiating international trade agreements.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Barack Obama",
+                "types": [],
+                "wikid": "President Barack Obama",
+                "dbpedia": "President Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Voters in Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Voters in Great Britain",
+                "types": [],
+                "wikid": "Voters in Great Britain",
+                "dbpedia": "Voters in Great Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Barack Obama -> Voters in Great Britain": [
+                -1.0
+            ],
+            "Voters in Great Britain -> President Barack Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President Barack Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "George Will, noted columnist and smug prig, resigned from the Republican Party because the great unwashed in America's heartland ignored his superior advice and instead chose Donald Trump to be the presidential nominee for the Republican Party.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Will",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Will",
+                "types": [],
+                "wikid": "George Will",
+                "dbpedia": "George Will"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's presidential candidacy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's presidential candidacy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "George Will -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "George Will -> Trump's presidential candidacy": [
+                -1.0
+            ]
+        }
+    }
+]

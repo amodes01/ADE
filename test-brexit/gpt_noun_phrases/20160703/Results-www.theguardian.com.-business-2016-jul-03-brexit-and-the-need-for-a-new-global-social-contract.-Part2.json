@@ -1,0 +1,433 @@
+[
+    {
+        "sentence": "it is utterly crucial that we in the UK call for controls on damaging open borders to be the key condition for our future relationship with the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "open EU borders",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "open EU borders"
+                ]
+            },
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK -> open EU borders": [
+                -1.0
+            ],
+            "UK -> EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "this will also resonate with the concerns of the populations of the other 27 EU countries, all of whom want to take back control of their economies to enable their local communities to flourish.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU countries",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU countries",
+                "types": [],
+                "wikid": "EU countries",
+                "dbpedia": "EU countries"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "open EU borders",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "open EU borders"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU countries -> open EU borders": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It is this that has acted as such an ominous 1930s-style recruiting sergeant for Europe's extreme right.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe's extreme right",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe's extreme right",
+                "types": [],
+                "wikid": "Europe's extreme right",
+                "dbpedia": "Europe's extreme right"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalisation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalisation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe's extreme right -> globalisation": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The idea that capitalism can be tamed by one country the size of Britain is a fantasy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giles Fraser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giles Fraser",
+                "types": [],
+                "wikid": "Giles Fraser",
+                "dbpedia": "Giles Fraser"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "capitalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "capitalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Giles Fraser -> capitalism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit is only coherent as a political project if you are a rightwing deregulator.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giles Fraser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giles Fraser",
+                "types": [],
+                "wikid": "Giles Fraser",
+                "dbpedia": "Giles Fraser"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Huw Brodie",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Huw Brodie",
+                "types": [],
+                "wikid": "Huw Brodie",
+                "dbpedia": "Huw Brodie"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Giles Fraser -> Brexit": [
+                -1.0
+            ],
+            "Huw Brodie -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU was one of our few opportunities to tame the beast.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giles Fraser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giles Fraser",
+                "types": [],
+                "wikid": "Giles Fraser",
+                "dbpedia": "Giles Fraser"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Giles Fraser -> EU": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Abandoning globalisation for protectionism would undermine action on climate change; regional blocs would compete with each other, and focus on energy security by prioritising access to fossil fuel reserves.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Huw Brodie",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Huw Brodie",
+                "types": [],
+                "wikid": "Huw Brodie",
+                "dbpedia": "Huw Brodie"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalisation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalisation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Huw Brodie -> globalisation": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Congratulations to her for setting out the progressive answer: a strong social framework that stops the low-wage, long-hours, no-regulation culture that predominates in so much of our labour market and others across Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Felicity Lawrence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Felicity Lawrence",
+                "types": [],
+                "wikid": "Felicity Lawrence",
+                "dbpedia": "Felicity Lawrence"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalisation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalisation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Felicity Lawrence -> globalisation": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That requires a break from the naive, Panglossian view of globalisation promoted by New Labour.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Felicity Lawrence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Felicity Lawrence",
+                "types": [],
+                "wikid": "Felicity Lawrence",
+                "dbpedia": "Felicity Lawrence"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "New Labour",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "New Labour",
+                "types": [],
+                "wikid": "New Labour",
+                "dbpedia": "New Labour"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "New Labour",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "New Labour"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Felicity Lawrence -> New Labour": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Felicity Lawrence -> New Labour": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The left must not kid itself that there is a progressive bolthole for English nationalism. There is not.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giles Fraser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giles Fraser",
+                "types": [],
+                "wikid": "Giles Fraser",
+                "dbpedia": "Giles Fraser"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "English nationalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "English nationalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Giles Fraser -> English nationalism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Giles Fraser (Labour is partly to blame for the racists' capture of the EU debate, 1 July) is so well-meaning, and so mistaken.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giles Fraser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giles Fraser",
+                "types": [],
+                "wikid": "Giles Fraser",
+                "dbpedia": "Giles Fraser"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Huw Brodie",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Huw Brodie",
+                "types": [],
+                "wikid": "Huw Brodie",
+                "dbpedia": "Huw Brodie"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Giles Fraser -> Huw Brodie": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

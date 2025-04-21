@@ -1,0 +1,121 @@
+[
+    {
+        "sentence": "Abbott announced Saturday the state will run digital ads on British websites over the July 4th weekend urging companies to 'declare independence from high taxes' and relocate to Texas.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Greg Abbott",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Greg Abbott",
+                "types": [],
+                "wikid": "Greg Abbott",
+                "dbpedia": "Greg Abbott"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Greg Abbott -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The British vote reinvigorated Texas secessionist groups that in May nearly forced a floor vote on its fringe cause at the state Republican convention.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas secessionist groups",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas secessionist groups",
+                "types": [],
+                "wikid": "Texas secessionist groups",
+                "dbpedia": "Texas secessionist groups"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Greg Abbott",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Greg Abbott",
+                "types": [],
+                "wikid": "Greg Abbott",
+                "dbpedia": "Greg Abbott"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Greg Abbott -> Texas secessionist groups": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Texas secessionist groups -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Abbott has long accused the Obama administration of impeding on state sovereignty.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Greg Abbott",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Greg Abbott",
+                "types": [],
+                "wikid": "Greg Abbott",
+                "dbpedia": "Greg Abbott"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama administration",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama administration",
+                "types": [],
+                "wikid": "Obama administration",
+                "dbpedia": "Obama administration"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Greg Abbott -> Obama administration": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

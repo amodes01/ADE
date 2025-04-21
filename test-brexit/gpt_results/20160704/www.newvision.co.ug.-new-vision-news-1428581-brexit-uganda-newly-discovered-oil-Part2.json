@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit or none, the combination of healthy demand and declining supply should result in a global market that will be roughly balanced in the second half of 2016."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "oil prices", "references": ["Oil prices"]},
+      "justifications": [
+        "The long awaited re-balancing has been bullish for oil prices and it's expected to continue until next year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The UK vote to leave the EU was based on a non-binding advisory referendum and does not guarantee the UK's departure from the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Uganda", "references": ["Uganda"]},
+      "target": {"topic": "Oil activities", "references": ["Oil activities"]},
+      "justifications": [
+        "The EAC, or Uganda, will also struggle to attract supporting investors aimed at financing its expansive budget for the newly discovered Oil activities like the proposed refinery."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Uganda", "references": ["Uganda"]},
+      "target": {"topic": "economic conditions", "references": ["struggling economy"]},
+      "justifications": [
+        "The other major impact of a 'Brexit' on EAC and Uganda in particular would be further deterioration of the region's already struggling economy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Uganda", "references": ["Uganda"]},
+      "target": {"topic": "oil prices", "references": ["fall in global oil prices"]},
+      "justifications": [
+        "The other major impact of a 'Brexit' on EAC and Uganda in particular would be further deterioration of the region's already struggling economy, which has been caused by the fall in global oil prices."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Uganda", "references": ["Uganda"]},
+      "target": {"topic": "insurgency", "references": ["insurgency in the region"]},
+      "justifications": [
+        "A steep drop in local crude production due to an insurgency in the region."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "trade flows", "references": ["trade flows"]},
+      "justifications": [
+        "A slowing UK economy on the back of a departure from the EU and potential disruption as the UK renegotiates its trade agreements, would be likely to reduce trade flows."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "foreign direct investment", "references": ["foreign direct investment"]},
+      "justifications": [
+        "A slowing UK economy on the back of a departure from the EU and potential disruption as the UK renegotiates its trade agreements, would be likely to reduce foreign direct investment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "Ugandan remittances", "references": ["Ugandan remittances"]},
+      "justifications": [
+        "A slowing UK economy on the back of a departure from the EU and potential disruption as the UK renegotiates its trade agreements, would be likely to reduce Ugandan remittances."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Uganda", "references": ["Uganda"]},
+      "target": {"topic": "oil market", "references": ["Oil market"]},
+      "justifications": [
+        "In conclusion; The UK vote to leave the EU was based on a non-binding advisory referendum and does not guarantee the UK's departure from the EU."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Uganda", "references": ["Uganda"]},
+      "entity2": {"entity": "EAC", "references": ["EAC"]},
+      "justifications": [
+        "The EAC, or Uganda, will also struggle to attract supporting investors aimed at financing its expansive budget for the newly discovered Oil activities like the proposed refinery."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Uganda", "references": ["Uganda"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "A slowing UK economy on the back of a departure from the EU and potential disruption as the UK renegotiates its trade agreements, would be likely to reduce trade flows, foreign direct investment, and Ugandan remittances."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EAC", "references": ["EAC"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "Another key concern would be that ongoing negotiations of a trade agreement between the EU and the East African Community (EAC) would be delayed as the EU copes with the UK's departure."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

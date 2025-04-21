@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["leave the European Union", "Brexit campaign"]
+      },
+      "justifications": [
+        "Farage, who with UKIP had campaigned for years to leave the EU, told reporters today that his \"political ambition has been achieved\" and that he was looking forward to returning to ordinary life.",
+        "Farage made immigration control the centerpiece of the Brexit campaign"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Ben Judah",
+        "references": ["Ben Judah"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Farage knows that in the USA, France and Britain, the population is rejecting rapid ethnic change, Judah says."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "Even within his own party, he remains a highly controversial figure.",
+        "A decade ago, Cameron described UKIP as \"a bunch of fruitcakes and loonies and closet racists, mostly.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "A decade ago, Cameron described UKIP as \"a bunch of fruitcakes and loonies and closet racists, mostly.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "Douglas Carswell",
+        "references": ["Douglas Carswell"]
+      },
+      "justifications": [
+        "When Farage's decision was made public today, Douglas Carswell, UKIP's only member of parliament, made no comment except to tweet a smiling emoticon in dark glasses."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

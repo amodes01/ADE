@@ -1,0 +1,95 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Solvency II", "references": ["Solvency II"] },
+      "justifications": [
+        "Solvency II is creating problems for US insurers [operating] in Europe.",
+        "Solvency II is starting to close markets that have been open to the US."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "US companies", "references": ["US companies"] },
+      "justifications": [
+        "David Snyder, vice president of policy development and research for the Property Casualty Insurers Association of America (PCI), sees Britain's break with the EU as promising for US companies in this regard."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "London", "references": ["London"] },
+      "justifications": [
+        "Lloyd's will be fully equipped to operate in the new environment."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "UK insurance industry", "references": ["UK market"] },
+      "justifications": [
+        "The International Underwriting Association of London called the UK market 'resilient and well-positioned to respond to the [referendum] result.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU regulations", "references": ["EU regulations"] },
+      "justifications": [
+        "Frank Nutter, president of the Reinsurance Association of America, believes the EU Referendum vote may provide the perfect opportunity to redouble efforts to achieve the free flow of capital and risk transfer in cross-border business, a goal that has been dislodged somewhat by EU regulations."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "David Snyder", "references": ["David Snyder"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "David Snyder, vice president of policy development and research for the Property Casualty Insurers Association of America (PCI), sees Britain's break with the EU as promising for US companies in this regard."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Frank Nutter", "references": ["Frank Nutter"] },
+      "entity2": { "entity": "EU regulations", "references": ["EU regulations"] },
+      "justifications": [
+        "Frank Nutter, president of the Reinsurance Association of America, believes the EU Referendum vote may provide the perfect opportunity to redouble efforts to achieve the free flow of capital and risk transfer in cross-border business, a goal that has been dislodged somewhat by EU regulations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Daniel Bruce", "references": ["Daniel Bruce"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Daniel Bruce, director at Crowe Horwath LLP and co-founder of consulting firm BaxterBruce, expects these requirements to remain, particularly given the UK's role in the drafting process."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Lloyd's of London", "references": ["Lloyd's of London"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Lloyd's has a well-prepared contingency plan in place and Lloyd's will be fully equipped to operate in the new environment."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Mike McGavick", "references": ["Mike McGavick"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "XL Group Chief Executive Mike McGavick made similar comments, saying Brexit is 'an outcome that we have been preparing for.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "John Nelson", "references": ["John Nelson"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Lloyd's of London Chairman John Nelson stressed that the exit will not take place for two years."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

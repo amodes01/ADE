@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "The decision is in response to the fluctuating value of Sterling following the UK's decision to leave the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's decision to leave the European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's decision to leave the European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "OnePlus -> UK's decision to leave the European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "OnePlus is acutely affected by currency fluctuations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sterling",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sterling",
+                "types": [],
+                "wikid": "Sterling",
+                "dbpedia": "Sterling"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "currency fluctuations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "currency fluctuations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "OnePlus -> Sterling": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "OnePlus -> currency fluctuations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The decision is in response to the fluctuating value of Sterling",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "price increase",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "price increase"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "OnePlus -> price increase": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Despite the bad news, customers seemed to support the decision to increase the price of the OnePlus 3 - on Twitter, anyway.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "customers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "customers",
+                "types": [],
+                "wikid": "customers",
+                "dbpedia": "customers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "OnePlus -> customers": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The sharp drop witnessed in the currency markets following the Brexit decision has forced us to re-evaluate the OnePlus 3's pricing in the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "OnePlus -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "OnePlus co-founder Carl Pei apologised to customers on Twitter shortly after the company confirmed the price hike.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Carl Pei",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Carl Pei",
+                "types": [],
+                "wikid": "Carl Pei",
+                "dbpedia": "Carl Pei"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "customers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "customers",
+                "types": [],
+                "wikid": "customers",
+                "dbpedia": "customers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Carl Pei -> customers": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

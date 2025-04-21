@@ -1,0 +1,261 @@
+[
+    {
+        "sentence": "Redemptions have now reached a point where M&G believes it can best protect the interests of the funds' shareholders by seeking a temporary suspension in trading.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "M&G",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "M&G",
+                "types": [],
+                "wikid": "M&G",
+                "dbpedia": "M&G"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK commercial property market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK commercial property market"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "M&G -> UK commercial property market": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The current outlook for UK financial stability is challenging.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bank of England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bank of England",
+                "types": [],
+                "wikid": "Bank of England",
+                "dbpedia": "Bank of England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK financial stability",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK financial stability"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bank of England -> UK financial stability": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the BoE was ready to provide the necessary support to the markets and the economy to ensure stability",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bank of England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bank of England",
+                "types": [],
+                "wikid": "Bank of England",
+                "dbpedia": "Bank of England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "market stability",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "market stability"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bank of England -> market stability": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the BoE had relaxed the Countercyclical Capital Buffer (CCyB)",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bank of England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bank of England",
+                "types": [],
+                "wikid": "Bank of England",
+                "dbpedia": "Bank of England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Countercyclical Capital Buffer (CCyB)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Countercyclical Capital Buffer (CCyB)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bank of England -> Countercyclical Capital Buffer (CCyB)": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Investors cheered by prospect of \u00a3150 bn additional lending",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Investors",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Investors",
+                "types": [],
+                "wikid": "Investors",
+                "dbpedia": "Investors"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "prospect of \u00a3150bn additional lending",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "prospect of \u00a3150bn additional lending"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Investors -> prospect of \u00a3150bn additional lending": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Three large UK property funds have now suspended activity today",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Standard Life",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Standard Life",
+                "types": [],
+                "wikid": "Standard Life",
+                "dbpedia": "Standard Life"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Aviva",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Aviva",
+                "types": [],
+                "wikid": "Aviva",
+                "dbpedia": "Aviva"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "M&G",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "M&G",
+                "types": [],
+                "wikid": "M&G",
+                "dbpedia": "M&G"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Standard Life -> Aviva": [
+                -1.0
+            ],
+            "M&G -> Standard Life": [
+                -1.0
+            ],
+            "M&G -> Aviva": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Traders look to Carney for reassurance",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mark Carney",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mark Carney",
+                "types": [],
+                "wikid": "Mark Carney",
+                "dbpedia": "Mark Carney"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Traders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Traders",
+                "types": [],
+                "wikid": "Traders",
+                "dbpedia": "Traders"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mark Carney -> Traders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

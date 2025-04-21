@@ -1,0 +1,323 @@
+[
+    {
+        "sentence": "A federal Europe was the magic bullet that would make unnecessary the permanent stationing of U.S. troops in Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European federalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European federalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> European federalism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The United States urged the EU to expand faster and further to the east and southeast.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> European Union expansion": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The United States pressured the UK to apply for membership in the European Community.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Community",
+                "types": [],
+                "wikid": "European Community",
+                "dbpedia": "European Community"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> United Kingdom": [
+                1.0
+            ],
+            "United States -> France": [
+                -1.0
+            ],
+            "United States -> European Community": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> British EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "To advance the partnership, the administration proposed special U.S.-EC trade arrangements and cooked up a crazy scheme, the Multilateral Nuclear Force.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Multilateral Nuclear Force (MLF)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Multilateral Nuclear Force (MLF)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Multilateral Nuclear Force (MLF)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Setting the terms for UK-EU trade in the post-Brexit world is not a strictly bilateral matter.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Richard Nixon and Henry Kissinger later sought to inject a new flexibility into U.S. policy by building bridges to de Gaulle.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Charles de Gaulle",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Charles de Gaulle",
+                "types": [],
+                "wikid": "Charles de Gaulle",
+                "dbpedia": "Charles de Gaulle"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> Charles de Gaulle": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The original Europe of the Six, now threatened by the likes of Geert Wilders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Geert Wilders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Geert Wilders",
+                "types": [],
+                "wikid": "Geert Wilders",
+                "dbpedia": "Geert Wilders"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> Geert Wilders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The original Europe of the Six, now threatened by the likes of Marine Le Pen.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> Marine Le Pen": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

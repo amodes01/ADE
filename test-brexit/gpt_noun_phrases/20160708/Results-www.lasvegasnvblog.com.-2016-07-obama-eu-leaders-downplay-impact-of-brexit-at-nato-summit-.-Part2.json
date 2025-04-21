@@ -1,0 +1,140 @@
+[
+    {
+        "sentence": "Silversea\u2122 is recognized as an innovator in the experiential luxury cruise industry",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silversea",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silversea",
+                "types": [],
+                "wikid": "Silversea",
+                "dbpedia": "Silversea"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "luxury cruise industry",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "luxury cruise industry"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Silversea -> luxury cruise industry": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Royal Caribbean Group (NYSE: RCL) is a vacation industry leader with a global fleet of 68 ships",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Royal Caribbean Group",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Royal Caribbean Group",
+                "types": [],
+                "wikid": "Royal Caribbean Group",
+                "dbpedia": "Royal Caribbean Group"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "vacation industry",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "vacation industry"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Royal Caribbean Group -> vacation industry": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Silversea's itineraries encompass all seven continents and feature worldwide luxury cruises to the Mediterranean, the Caribbean, the Gal\u00e1pagos, both Polar Regions, and hundreds of fascinating destinations in between.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silversea",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silversea",
+                "types": [],
+                "wikid": "Silversea",
+                "dbpedia": "Silversea"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "luxury cruises",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "luxury cruises"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Silversea -> luxury cruises": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Silversea is one of five cruise brands owned by global cruise company Royal Caribbean Group",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silversea",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silversea",
+                "types": [],
+                "wikid": "Silversea",
+                "dbpedia": "Silversea"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Royal Caribbean Group",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Royal Caribbean Group",
+                "types": [],
+                "wikid": "Royal Caribbean Group",
+                "dbpedia": "Royal Caribbean Group"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Silversea -> Royal Caribbean Group": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

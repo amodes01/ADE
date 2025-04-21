@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Wayne Allyn Root",
+        "references": ["Wayne Allyn Root"]
+      },
+      "target": {
+        "topic": "Apple's decision to pull support for Republican National Convention",
+        "references": ["Apple reportedly pulled support for the Republican National Convention"]
+      },
+      "justifications": [
+        "Wayne Allyn Root warned over the weekend that conservatives would punish Apple after the computer company reportedly pulled support for the Republican National Convention.",
+        "Root doubled down on his call to oust Apple CEO Tim Cook for refusing to back Trump's convention.",
+        "Root opined to Fox & Friends: 'I am sure it's going to build as the word gets out as we get to the convention and people hear about this terrible, terrible business decision -- biased business decision, I think a reckless business decision.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Wayne Allyn Root",
+        "references": ["Wayne Allyn Root"]
+      },
+      "target": {
+        "topic": "Apple stock",
+        "references": ["Apple stock"]
+      },
+      "justifications": [
+        "'And I know that after the Brexit on Friday, Apple stock is very close to their 52-week low.'",
+        "'Apple stock is not doing too good either.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Fox News host Clayton Morris",
+        "references": ["Clayton Morris"]
+      },
+      "target": {
+        "topic": "Apple's decision to pull support for Republican National Convention",
+        "references": ["Apple may view the move as a 'good business decision'"]
+      },
+      "justifications": [
+        "Fox News host Clayton Morris pointed out that Apple may view the move as a 'good business decision' because Trump had called for a boycott of the company's products over its stance on privacy."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Wayne Allyn Root",
+        "references": ["Wayne Allyn Root"]
+      },
+      "entity2": {
+        "entity": "Apple",
+        "references": ["Apple"]
+      },
+      "justifications": [
+        "Wayne Allyn Root warned over the weekend that conservatives would punish Apple after the computer company reportedly pulled support for the Republican National Convention.",
+        "Root doubled down on his call to oust Apple CEO Tim Cook for refusing to back Trump's convention."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Wayne Allyn Root",
+        "references": ["Wayne Allyn Root"]
+      },
+      "entity2": {
+        "entity": "Tim Cook",
+        "references": ["Tim Cook"]
+      },
+      "justifications": [
+        "Root doubled down on his call to oust Apple CEO Tim Cook for refusing to back Trump's convention."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Clayton Morris",
+        "references": ["Clayton Morris"]
+      },
+      "entity2": {
+        "entity": "Wayne Allyn Root",
+        "references": ["Root"]
+      },
+      "justifications": [
+        "Fox News host Clayton Morris pointed out that Apple may view the move as a 'good business decision' because Trump had called for a boycott of the company's products over its stance on privacy."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

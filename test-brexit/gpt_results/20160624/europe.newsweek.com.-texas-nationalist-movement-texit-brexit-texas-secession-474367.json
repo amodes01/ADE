@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "target": {"topic": "Texit", "references": ["Texit"]},
+      "justifications": [
+        "Texas nationalists are getting a second wind. Across social media Friday, revitalized Lone Stars voiced their support under the hashtag #Texit, saying it's time to take the idea seriously."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "Texit", "references": ["Texit"]},
+      "justifications": [
+        "Supporters of a so-called Texit say they feel a kinship with their British brethren, who shocked the world Thursday with a \\\"leave\\\" vote of 52 percent that defied the predictions of many experts."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "Texas independence movement", "references": ["Brexit", "Texas nationalism"]},
+      "justifications": [
+        "\"It is now important for Texas to look to Brexit as an inspiration and an example that Texans can also take control of our destiny.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "target": {"topic": "Texas independence", "references": ["independence movement", "Texas independence"]},
+      "justifications": [
+        "The Texas Nationalist Movement bills itself as the \\\"largest independence movement in the United States\\\" and one of the largest in the world."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "target": {"topic": "Texas secession referendum", "references": ["referendum on secession"]},
+      "justifications": [
+        "Members say they have been recruiting support from hundreds of elected officials in the state legislature and have been collecting signatures from voters, asking them to pledge a \\\"yes\\\" vote."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "target": {"topic": "Texas Republican Convention", "references": ["Texas Republican Convention"]},
+      "justifications": [
+        "The movement suffered a blow at the Texas Republican Convention in May, when state delegates declined to endorse the idea of a referendum on secession."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "target": {"topic": "Texas independence referendum", "references": ["referendum on secession"]},
+      "justifications": [
+        "That it got as far as it did was a surprise to many who have dismissed a Texit as an impractical solution dreamed up by a fringe movement."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "entity2": {"entity": "Texas Republican Convention", "references": ["Texas Republican Convention"]},
+      "justifications": [
+        "The movement suffered a blow at the Texas Republican Convention in May, when state delegates declined to endorse the idea of a referendum on secession."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "entity2": {"entity": "British people", "references": ["British people"]},
+      "justifications": [
+        "Supporters of a so-called Texit say they feel a kinship with their British brethren."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": [
+        "The United Kingdom's bombshell decision to quit the European Union has emboldened a long-gestating secessionist movement in Texas."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

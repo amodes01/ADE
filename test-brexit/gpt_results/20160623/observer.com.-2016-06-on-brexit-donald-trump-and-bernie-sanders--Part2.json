@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "anti-establishment movement",
+        "references": ["anti-establishment camp"]
+      },
+      "justifications": [
+        "Trump and Sanders, who are both clearly aligned with the anti-establishment camp."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "anti-establishment movement",
+        "references": ["anti-establishment camp"]
+      },
+      "justifications": [
+        "Trump and Sanders, who are both clearly aligned with the anti-establishment camp."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "anti-establishment movement",
+        "references": ["anti-establishment camp"]
+      },
+      "justifications": [
+        "I would add, is fundamentally a bystander in the great divide between populists and establishments."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "If the Leave group wins the Brexit vote it will give some new impetus to the Trump campaign and anti-establishment forces in the U.S."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "On the Democratic side, the question is whether Sanders will re-mobilize his small donors and volunteers on behalf of Clinton and efforts to elect liberals to the House and Senate."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "If the Leave group prevails there is a real question whether the European Union could break apart."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "justifications": [
+        "Trump and Sanders, who are both clearly aligned with the anti-establishment camp."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "I would add, is fundamentally a bystander in the great divide between populists and establishments, trying to maneuver between the two camps, unlike Trump and Sanders."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "justifications": [
+        "I would add, is fundamentally a bystander in the great divide between populists and establishments, trying to maneuver between the two camps, unlike Trump and Sanders."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "If the Leave group prevails there is a real question whether the European Union could break apart."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

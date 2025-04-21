@@ -1,0 +1,290 @@
+[
+    {
+        "sentence": "President Obama had encouraged Britain to remain in the EU but said the decision was up to voters.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Barack Obama",
+                "types": [],
+                "wikid": "President Barack Obama",
+                "dbpedia": "President Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Barack Obama -> Brexit": [
+                -1.0,
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Kenya stands to gain in terms of bilateral engagements.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya",
+                "types": [],
+                "wikid": "Kenya",
+                "dbpedia": "Kenya"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya's Ambassador to Belgium and the EU Johnson Weru",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya's Ambassador to Belgium and the EU Johnson Weru",
+                "types": [],
+                "wikid": "Kenya's Ambassador to Belgium and the EU Johnson Weru",
+                "dbpedia": "Kenya's Ambassador to Belgium and the EU Johnson Weru"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Kenya -> Kenya's Ambassador to Belgium and the EU Johnson Weru": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Kenya -> Brexit": [
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the relationship between Kenya and the UK will not be affected by the vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya",
+                "types": [],
+                "wikid": "Kenya",
+                "dbpedia": "Kenya"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK High Commissioner to Kenya Nic Hailey",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK High Commissioner to Kenya Nic Hailey",
+                "types": [],
+                "wikid": "UK High Commissioner to Kenya Nic Hailey",
+                "dbpedia": "UK High Commissioner to Kenya Nic Hailey"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK-EU relationship",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK-EU relationship"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Kenya -> UK": [
+                -1.0
+            ],
+            "Kenya -> UK High Commissioner to Kenya Nic Hailey": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Kenya -> UK-EU relationship": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the impact of the exit will be on the banking industry.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya",
+                "types": [],
+                "wikid": "Kenya",
+                "dbpedia": "Kenya"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit impact on banking industry",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit impact on banking industry"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Kenya -> Brexit impact on banking industry": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Kenya's relationship with the UK will not be affected by the vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya",
+                "types": [],
+                "wikid": "Kenya",
+                "dbpedia": "Kenya"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK-EU relationship",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK-EU relationship"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Kenya -> UK-EU relationship": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "President Obama will have an opportunity to speak to Prime Minister Cameron over the course of the next day.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Barack Obama",
+                "types": [],
+                "wikid": "President Barack Obama",
+                "dbpedia": "President Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister David Cameron",
+                "types": [],
+                "wikid": "Prime Minister David Cameron",
+                "dbpedia": "Prime Minister David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "President Barack Obama -> Prime Minister David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We may gain from this exit in a minimal way.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kenya",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kenya",
+                "types": [],
+                "wikid": "Kenya",
+                "dbpedia": "Kenya"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Kenya -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

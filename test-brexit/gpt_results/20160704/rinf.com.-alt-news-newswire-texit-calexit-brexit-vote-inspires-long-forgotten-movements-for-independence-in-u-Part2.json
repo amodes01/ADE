@@ -1,0 +1,135 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Alaskan Independence Party", "references": ["Alaskan Independence Party", "AIP"]},
+      "target": {"topic": "US secession", "references": ["quit the US"]},
+      "justifications": [
+        "the Alaskan Independence Party (AIP) has been calling to quit the US since 1980s."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Cascadian movement", "references": ["Cascadian movement"]},
+      "target": {"topic": "US and Canadian independence", "references": ["calls to form a country consisting of Washington, Oregon and portions of other US states, as well as British Columbia, Canada"]},
+      "justifications": [
+        "There is also the so-called Cascadian movement in the US and Canada, which calls to form a country consisting of Washington, Oregon and portions of other US states, as well as British Columbia, Canada."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hawaiian sovereignty movement", "references": ["Hawaiian sovereignty movement"]},
+      "target": {"topic": "Hawaii's annexation", "references": ["archipelago's annexation"]},
+      "justifications": [
+        "One of them, the Hawaiian sovereignty movement, says that the archipelago's annexation was illegal."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "target": {"topic": "US secession", "references": ["the exit of states from the US"]},
+      "justifications": [
+        "According to Eugene Volokh, a law professor at University of California, the exit of states from the US, and Texit in particular, will not happen."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "target": {"topic": "Texit", "references": ["Texit"]},
+      "justifications": [
+        "According to Eugene Volokh, a law professor at University of California, the exit of states from the US, and Texit in particular, will not happen."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "target": {"topic": "US secession process", "references": ["state could not legally force the US to let it secede"]},
+      "justifications": [
+        "\"A state could not legally force the US to let it secede, if the US refused.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "target": {"topic": "US secession process", "references": ["But if the state and the US agreed, that would be doable"]},
+      "justifications": [
+        "\"But if the state and the US agreed, that would be doable.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "target": {"topic": "US secession process", "references": ["it would require a constitutional amendment, but most likely an act of Congress"]},
+      "justifications": [
+        "\"At worst, it would require a constitutional amendment, but most likely an act of Congress, coupled with a majority referendum that the state government views as binding, would suffice.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Texans", "references": ["most Texans"]},
+      "target": {"topic": "US national pride", "references": ["proud to be Americans"]},
+      "justifications": [
+        "\"most Texans…are proud to be Americans, whether or not they like what the federal government is doing\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Texans", "references": ["most Texans"]},
+      "target": {"topic": "US government", "references": ["what the federal government is doing"]},
+      "justifications": [
+        "\"most Texans…are proud to be Americans, whether or not they like what the federal government is doing\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Texans", "references": ["most Texans"]},
+      "target": {"topic": "US national defense", "references": ["a powerful country that can defend their interests"]},
+      "justifications": [
+        "\"and they can see the benefits of remaining part of a powerful country that can defend their interests.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Alaskan Independence Party", "references": ["Alaskan Independence Party", "AIP"]},
+      "entity2": {"entity": "US", "references": ["the US"]},
+      "justifications": [
+        "the Alaskan Independence Party (AIP) has been calling to quit the US since 1980s."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Cascadian movement", "references": ["Cascadian movement"]},
+      "entity2": {"entity": "US and Canada", "references": ["US and Canada"]},
+      "justifications": [
+        "There is also the so-called Cascadian movement in the US and Canada, which calls to form a country consisting of Washington, Oregon and portions of other US states, as well as British Columbia, Canada."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hawaiian sovereignty movement", "references": ["Hawaiian sovereignty movement"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": [
+        "One of them, the Hawaiian sovereignty movement, says that the archipelago's annexation was illegal."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "entity2": {"entity": "Texit", "references": ["Texit"]},
+      "justifications": [
+        "According to Eugene Volokh, a law professor at University of California, the exit of states from the US, and Texit in particular, will not happen."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Eugene Volokh", "references": ["Eugene Volokh"]},
+      "entity2": {"entity": "Texans", "references": ["Texans"]},
+      "justifications": [
+        "According to Eugene Volokh, a law professor at University of California, the exit of states from the US, and Texit in particular, will not happen."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

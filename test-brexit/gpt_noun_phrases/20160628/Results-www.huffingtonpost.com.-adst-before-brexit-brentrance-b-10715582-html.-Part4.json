@@ -1,0 +1,348 @@
+[
+    {
+        "sentence": "the U.S. official policy, and I think it was basically held throughout the government with perhaps some misgivings within some departments, was that we supported further European integration",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. official policy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. official policy",
+                "types": [],
+                "wikid": "U.S. official policy",
+                "dbpedia": "U.S. official policy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. official policy -> European integration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "we supported further European integration and British entry, the so-called enlargement of the EC",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. official policy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. official policy",
+                "types": [],
+                "wikid": "U.S. official policy",
+                "dbpedia": "U.S. official policy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British entry into the European Community",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British entry into the European Community"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. official policy -> EC": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. official policy -> British entry into the European Community": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "you might think it looks like we are heading toward European integration but look out for the French, they will never stand for it",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "French",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "French",
+                "types": [],
+                "wikid": "French",
+                "dbpedia": "French"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. official policy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. official policy",
+                "types": [],
+                "wikid": "U.S. official policy",
+                "dbpedia": "U.S. official policy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. official policy -> French": [
+                -1.0
+            ],
+            "French -> EC": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "French -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The French had put forward the Barre Plan for monetary union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "French",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "French",
+                "types": [],
+                "wikid": "French",
+                "dbpedia": "French"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "monetary union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "monetary union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "EC -> French": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "French -> monetary union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the CIA research office working on the EC usually had a comment at the end of its analyses that said that all of this was looking good and if we do not have European union today, we will certainly have it tomorrow",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CIA research office",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CIA research office",
+                "types": [],
+                "wikid": "CIA research office",
+                "dbpedia": "CIA research office"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. official policy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. official policy",
+                "types": [],
+                "wikid": "U.S. official policy",
+                "dbpedia": "U.S. official policy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "CIA research office -> U.S. official policy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "CIA research office -> European union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They had a plan for monetary union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "monetary union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "monetary union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EC -> monetary union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the six member countries of the European Communities were also starting to consult on foreign policy issues",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "foreign policy consultations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "foreign policy consultations"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EC -> foreign policy consultations": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They were moving toward a common industrial policy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EC",
+                "types": [],
+                "wikid": "EC",
+                "dbpedia": "EC"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "common industrial policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "common industrial policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EC -> common industrial policy": [
+                1.0
+            ]
+        }
+    }
+]

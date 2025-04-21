@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "duplication of defense structures", "references": ["duplicate structures"]},
+      "justifications": ["We do not believe that Europe needs a separate command structure just like that into which we pour several thousand people, untold euros, only to duplicate the structure that has been so well tried and true in NATO."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "security", "references": ["Security for NATO"]},
+      "justifications": ["Security for NATO starts with stability beyond NATO and that's why projecting stability is so important."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": ["NATO has shown that it is very adaptable…we need some serious adaptation again.", "We now sadly recognize that we are in a long-term strategic competition with Russia."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia's annexation of Crimea", "references": ["annexed Crimea"]},
+      "justifications": ["Russia \"tore up the international rulebook\" and \"challenged our vision of a Europe whole, free, and at peace\" when it annexed Crimea in March of 2014."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Atlantic Council", "references": ["Atlantic Council"]},
+      "target": {"topic": "stationing NATO troops", "references": ["permanently station troops in the Baltic States, Poland, and the Black Sea region"]},
+      "justifications": ["An Atlantic Council report, \"Restoring the Power and Purpose of the NATO Alliance,\" urges NATO to permanently station troops in the Baltic States, Poland, and the Black Sea region."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["We now sadly recognize that we are in a long-term strategic competition with Russia.", "Russia \"tore up the international rulebook\" and \"challenged our vision of a Europe whole, free, and at peace\" when it annexed Crimea in March of 2014."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "R. Nicholas Burns", "references": ["R. Nicholas Burns"]},
+      "entity2": {"entity": "James L. Jones, Jr.", "references": ["James L. Jones, Jr."]},
+      "justifications": ["R. Nicholas Burns, an Atlantic Council board member who served as under secretary of state in the George W. Bush administration, and retired Gen. James L. Jones, Jr., chairman of the Atlantic Council's Brent Scowcroft Center on International Security and a former national security advisor in the Obama administration, are the authors of the report."],
+      "attitude": "Neutral"
+    }
+  ]
+}

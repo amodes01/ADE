@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Francois Hollande", "references": ["French President Francois Hollande"] },
+      "target": { "topic": "U.S. presidential race", "references": ["U.S. presidential race"] },
+      "justifications": [
+        "Hollande backed Clinton in a June 30 interview with Les Echos newspaper"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Francois Hollande", "references": ["French President Francois Hollande"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "justifications": [
+        "The arguments in the Brexit vote and in the American presidential campaign are about the same."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Francois Hollande", "references": ["French President Francois Hollande"] },
+      "target": { "topic": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "Trump has said the U.S. is paying too much to sustain NATO"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Francois Hollande", "references": ["French President Francois Hollande"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "Hollande backed Clinton in a June 30 interview with Les Echos newspaper, saying that the rhetoric of her main opponent, Donald Trump, puts him on the same level as Europe's extreme right."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Francois Hollande", "references": ["French President Francois Hollande"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": [
+        "Hollande backed Clinton in a June 30 interview with Les Echos newspaper"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "Trump has said the U.S. is paying too much to sustain NATO"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

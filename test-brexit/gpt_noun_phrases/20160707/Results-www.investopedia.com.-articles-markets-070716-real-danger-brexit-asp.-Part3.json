@@ -1,0 +1,301 @@
+[
+    {
+        "sentence": "In 2017, when the Supreme Court ruled that devolved national assemblies such as Scotland's parliament could not veto Brexit, the demands grew louder.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish independence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish independence",
+                "types": [],
+                "wikid": "Scottish independence",
+                "dbpedia": "Scottish independence"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Scottish independence -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "others contended that it would be required for Scotland to join the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish independence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish independence",
+                "types": [],
+                "wikid": "Scottish independence",
+                "dbpedia": "Scottish independence"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scottish independence -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scottish First Minister Nicola Sturgeon said her government at Holyrood would \"reset\" its timetable on independence to focus on delivering a \"soft Brexit.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish independence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish independence",
+                "types": [],
+                "wikid": "Scottish independence",
+                "dbpedia": "Scottish independence"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Scottish independence": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The SNP won 56 of 59 Scottish seats at Westminster the following year, overtaking the Liberal Democrats to become the third-largest party in the U.K. overall.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish National Party (SNP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish National Party (SNP)",
+                "types": [],
+                "wikid": "Scottish National Party (SNP)",
+                "dbpedia": "Scottish National Party (SNP)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "SNP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "SNP",
+                "types": [],
+                "wikid": "SNP",
+                "dbpedia": "SNP"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish independence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish independence",
+                "types": [],
+                "wikid": "Scottish independence",
+                "dbpedia": "Scottish independence"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Scottish National Party (SNP)": [
+                1.0
+            ],
+            "SNP -> Scottish independence": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The country as a whole rejected the referendum by 62.0% to 38.0%. But because Scotland only contains 8.4% of the U.K.'s population, its vote to Remain (along with that of Northern Ireland, which accounts for just 2.8% of the U.K.'s population) was vastly outweighed by support for Brexit in England and Wales.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "A combination of rising nationalism and strong support for Europe led almost immediately to calls for a new independence referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "SNP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "SNP",
+                "types": [],
+                "wikid": "SNP",
+                "dbpedia": "SNP"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "SNP -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Former SNP leader Alex Salmond, who was Scotland's First Minister until November 2014, told the Financial Times that the country could abandon the pound and introduce its own currency.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alex Salmond",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alex Salmond",
+                "types": [],
+                "wikid": "Alex Salmond",
+                "dbpedia": "Alex Salmond"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish independence",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish independence",
+                "types": [],
+                "wikid": "Scottish independence",
+                "dbpedia": "Scottish independence"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Alex Salmond -> Scottish independence": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

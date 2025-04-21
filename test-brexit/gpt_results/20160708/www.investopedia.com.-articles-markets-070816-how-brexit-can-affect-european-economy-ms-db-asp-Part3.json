@@ -1,0 +1,47 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "British pound (GBP)", "references": ["GBP", "British pound"]},
+      "target": {"topic": "value of GBP", "references": ["nominal value", "relative value"]},
+      "justifications": [
+        "A weak pound is a nominal construct as far as exchange rates go.",
+        "However, if the sterling is seen to be diverging from other currencies as well-i.e., its relative value is falling across the board-it could provoke a run on the GBP, with speculative sellers as the driving force behind that selling."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Bank of England", "references": ["Bank of England"]},
+      "target": {"topic": "value of GBP", "references": ["nominal value", "relative value"]},
+      "justifications": [
+        "The Bank of England's willingness to intervene in times of crisis to defend the pound."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Kwasi Kwarteng", "references": ["Kwasi Kwarteng"]},
+      "target": {"topic": "GBP value", "references": ["GBP", "value of GBP"]},
+      "justifications": [
+        "The resignation of Kwasi Kwarteng as Chancellor of the Exchequer and the subsequent collapse of the Liz Truss government seem to be acting as a stabilizing influence on the GBP."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Liz Truss government", "references": ["Liz Truss government"]},
+      "target": {"topic": "GBP value", "references": ["GBP", "value of GBP"]},
+      "justifications": [
+        "The resignation of Kwasi Kwarteng as Chancellor of the Exchequer and the subsequent collapse of the Liz Truss government seem to be acting as a stabilizing influence on the GBP."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Kwasi Kwarteng", "references": ["Kwasi Kwarteng"]},
+      "entity2": {"entity": "Liz Truss government", "references": ["Liz Truss government"]},
+      "justifications": [
+        "The resignation of Kwasi Kwarteng as Chancellor of the Exchequer and the subsequent collapse of the Liz Truss government seem to be acting as a stabilizing influence on the GBP."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Gordon Brown", "references": ["Gordon Brown"]},
+      "target": {"topic": "migration", "references": ["migration"]},
+      "justifications": ["The commission I propose should examine the most controversial issue arising from the free movement of capital, labour, goods and services - namely migration."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Sam Whimster", "references": ["Sam Whimster"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["The problem is much broader. It requires a global approach - a fundamental shift away from the austerian, neoliberal, free marketeering kind of globalisation that became embedded in national life in both developed and developing countries, in the EU and in the fragmented attempts at \"global governance\" that took root in the late 20th century."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sam Whimster", "references": ["Sam Whimster"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["It needs a revised and updated version of the mixed economy and welfare state: a revived social contract that supports growth, provides efficient public goods, enables social mobility for ordinary people, limits inequality, and protects the most vulnerable."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sam Whimster", "references": ["Sam Whimster"]},
+      "target": {"topic": "global social contract", "references": ["new global social contract"]},
+      "justifications": ["We need a new global social contract."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Philip Cerny", "references": ["Philip Cerny"]},
+      "target": {"topic": "economic globalisation", "references": ["economic globalisation"]},
+      "justifications": ["Gordon Brown is wrong in thinking that economic globalisation, which has made life so precarious and insecure for the majority in most countries, can ever be \"made to work for all\"."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Philip Cerny", "references": ["Philip Cerny"]},
+      "target": {"topic": "economic globalisation", "references": ["economic globalisation"]},
+      "justifications": ["Its European manifestation of open borders to the free movement of people, goods, capital and services has ensured that working people across the EU have been forced to increasingly compete with each other to their own personal detriment, but to the benefit of big business and finance."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Philip Cerny", "references": ["Philip Cerny"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The Brexit vote showed that those disadvantaged by this process grasp this in terms of the free movement of people at least."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Gordon Brown", "references": ["Gordon Brown"]},
+      "entity2": {"entity": "Sam Whimster", "references": ["Sam Whimster"]},
+      "justifications": ["Gordon Brown has it right - up to a point.", "But what do we do about it? More committees? More \"in-depth scrutiny\"?"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Gordon Brown", "references": ["Gordon Brown"]},
+      "entity2": {"entity": "Philip Cerny", "references": ["Philip Cerny"]},
+      "justifications": ["Gordon Brown is wrong in thinking that economic globalisation, which has made life so precarious and insecure for the majority in most countries, can ever be \"made to work for all\"."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+[
+    {
+        "sentence": "Donald Trump appreciate the Brexit vote",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "An article in The Washington Post suggested that Britons had gotten busy searching the EU on Google",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Washington Post",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Washington Post",
+                "types": [],
+                "wikid": "The Washington Post",
+                "dbpedia": "The Washington Post"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit voters",
+                "types": [],
+                "wikid": "Brexit voters",
+                "dbpedia": "Brexit voters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "The Washington Post -> Brexit voters": [
+                -1.0
+            ],
+            "The Washington Post -> Brexit supporters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "The Washington Post -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland went to remain",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> Brexit vote": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Wales did not",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wales",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wales",
+                "types": [],
+                "wikid": "Wales",
+                "dbpedia": "Wales"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Wales -> Brexit vote": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Northern Ireland, in wishing to remain",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> Brexit vote": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Northern Ireland... will be seeking options for closer collaboration with the Republic of Ireland",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> Republic of Ireland": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

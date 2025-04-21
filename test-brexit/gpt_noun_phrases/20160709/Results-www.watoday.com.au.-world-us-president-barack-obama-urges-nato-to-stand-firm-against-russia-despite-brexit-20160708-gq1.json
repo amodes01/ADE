@@ -1,0 +1,125 @@
+[
+    {
+        "sentence": "Obama urged NATO leaders on Friday to stand firm against a resurgent Russia over its seizure of Crimea from Ukraine.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO"
+                ]
+            },
+            {
+                "ngram": "Russia's actions in Crimea",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Russia's actions in Crimea"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> NATO": [
+                1.0
+            ],
+            "Barack Obama -> Russia": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> NATO": [
+                1.0
+            ],
+            "Barack Obama -> Russia's actions in Crimea": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama said America's 'special relationship' with Britain would survive the referendum decision he had warned against.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Britain's EU referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Britain's EU referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Britain's EU referendum": [
+                -1.0
+            ]
+        }
+    }
+]

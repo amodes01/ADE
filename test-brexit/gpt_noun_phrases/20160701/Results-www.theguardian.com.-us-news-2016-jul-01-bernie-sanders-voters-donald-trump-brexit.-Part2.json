@@ -1,0 +1,170 @@
+[
+    {
+        "sentence": "Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bolger",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bolger",
+                "types": [],
+                "wikid": "Bolger",
+                "dbpedia": "Bolger"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "Trump",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Bolger -> Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Bolger -> Brexit": [
+                -1.0
+            ],
+            "Bolger -> Trump": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Only one respondent said watching the result of Brexit motivated him to back Clinton.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bolger",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bolger",
+                "types": [],
+                "wikid": "Bolger",
+                "dbpedia": "Bolger"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Hillary Clinton",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Hillary Clinton"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bolger -> Hillary Clinton": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He even hoped it would challenge Sanders voters who have switched to Trump.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Farzad Abdollahi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Farzad Abdollahi",
+                "types": [],
+                "wikid": "Farzad Abdollahi",
+                "dbpedia": "Farzad Abdollahi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "Trump",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Farzad Abdollahi -> Brexit": [
+                -1.0
+            ],
+            "Farzad Abdollahi -> Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Farzad Abdollahi -> Brexit": [
+                -1.0
+            ],
+            "Farzad Abdollahi -> Trump": [
+                -1.0
+            ]
+        }
+    }
+]

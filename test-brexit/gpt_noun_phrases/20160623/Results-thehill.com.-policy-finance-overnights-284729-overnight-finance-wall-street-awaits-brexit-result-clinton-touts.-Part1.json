@@ -1,0 +1,411 @@
+[
+    {
+        "sentence": "Dodd and Frank fight to defend Dodd-Frank",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chris Dodd",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chris Dodd",
+                "types": [],
+                "wikid": "Chris Dodd",
+                "dbpedia": "Chris Dodd"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barney Frank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barney Frank",
+                "types": [],
+                "wikid": "Barney Frank",
+                "dbpedia": "Barney Frank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Dodd-Frank financial reform law",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Dodd-Frank financial reform law"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Chris Dodd -> Barney Frank": [
+                1.0,
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Chris Dodd -> Dodd-Frank financial reform law": [
+                1.0
+            ],
+            "Barney Frank -> Dodd-Frank financial reform law": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "if a district judge's ruling stands, it would 'fundamentally undermine' Congress's vision for Dodd-Frank",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chris Dodd",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chris Dodd",
+                "types": [],
+                "wikid": "Chris Dodd",
+                "dbpedia": "Chris Dodd"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barney Frank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barney Frank",
+                "types": [],
+                "wikid": "Barney Frank",
+                "dbpedia": "Barney Frank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "court ruling against Dodd-Frank regulators",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "court ruling against Dodd-Frank regulators"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Chris Dodd -> court ruling against Dodd-Frank regulators": [
+                -1.0
+            ],
+            "Barney Frank -> court ruling against Dodd-Frank regulators": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ryan joined several Republican lawmakers by refusing to state a preference as British voters head to polls",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Paul Ryan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Paul Ryan",
+                "types": [],
+                "wikid": "Paul Ryan",
+                "dbpedia": "Paul Ryan"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Paul Ryan -> President Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Paul Ryan -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama has urged the nation to stay in the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton's campaign on Thursday released a list of corporate leaders from both parties that have endorsed her",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "business support",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "business support"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> business support": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton campaign pushing back on Donald Trump's claims of support in the business world",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "business support",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "business support"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> business support": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We need the bill by July 1,\" Puerto Rico Gov. Alejandro Garc\u00eda Padilla said",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "types": [],
+                "wikid": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "dbpedia": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Puerto Rico debt relief bill",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Puerto Rico debt relief bill"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Puerto Rico Gov. Alejandro Garc\u00eda Padilla -> Puerto Rico debt relief bill": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Top Treasury Department and Puerto Rican officials are begging the Senate to move quickly on a bill",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Puerto Rico officials",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Puerto Rico officials",
+                "types": [],
+                "wikid": "Puerto Rico officials",
+                "dbpedia": "Puerto Rico officials"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "types": [],
+                "wikid": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla",
+                "dbpedia": "Puerto Rico Gov. Alejandro Garc\u00eda Padilla"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Puerto Rican officials",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Puerto Rican officials",
+                "types": [],
+                "wikid": "Puerto Rican officials",
+                "dbpedia": "Puerto Rican officials"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Puerto Rico debt relief bill",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Puerto Rico debt relief bill"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Puerto Rico Gov. Alejandro Garc\u00eda Padilla -> Puerto Rican officials": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Puerto Rico officials -> Puerto Rico debt relief bill": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Senate Democrats are pushing to amend a House-passed debt relief bill for Puerto Rico",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bob Menendez",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bob Menendez",
+                "types": [],
+                "wikid": "Bob Menendez",
+                "dbpedia": "Bob Menendez"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Senate Democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Senate Democrats",
+                "types": [],
+                "wikid": "Senate Democrats",
+                "dbpedia": "Senate Democrats"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Puerto Rico debt relief bill",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Puerto Rico debt relief bill"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bob Menendez -> Puerto Rico debt relief bill": [
+                -1.0
+            ],
+            "Senate Democrats -> Puerto Rico debt relief bill": [
+                -1.0
+            ]
+        }
+    }
+]

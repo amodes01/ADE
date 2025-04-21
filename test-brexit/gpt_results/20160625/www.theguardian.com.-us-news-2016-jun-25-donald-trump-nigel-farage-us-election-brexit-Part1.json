@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "immigration", "references": ["Mexico is sending rapists", "immigration policy", "Mexican worker", "abusing government benefits"]},
+      "justifications": [
+        "Trump thinks Mexico is sending rapists to the US.",
+        "In America, the Mexican worker embodies everything the right perceives to be wrong with immigration policy.",
+        "The Mexican worker has ruthlessly infiltrated the US with the specific intent of stealing low-paying, poorly regulated and undesirable jobs.",
+        "Oh, and of abusing government benefits."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "immigration", "references": ["Polish plumber", "immigration", "abusing government benefits"]},
+      "justifications": [
+        "In the UK, this rallying figure is the Polish plumber, a man who has travelled from Warsaw to Wolverhampton with just one thing on his mind: fixing toilets.",
+        "The Polish plumber also wants to abuse government benefits."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Washington bureaucrats", "references": ["Washington bureaucrats making terrible deals"]},
+      "justifications": [
+        "Other Trump grievances include Washington bureaucrats making terrible deals."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "Brussels bureaucrats", "references": ["Brussels", "Brussels"]},
+      "justifications": [
+        "For Farage, substitute Washington with Brussels and China with Brussels and countries around the world with Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "China", "references": ["China wreaking havoc with the US economy"]},
+      "justifications": [
+        "Other Trump grievances include China wreaking havoc with the US economy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "China", "references": ["China with Brussels"]},
+      "justifications": [
+        "For Farage, substitute Washington with Brussels and China with Brussels and countries around the world with Brussels."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "justifications": [
+        "Trump thinks Mexico is sending rapists to the US.",
+        "Farage has not been as clear about what he thinks the European Union is sending to the UK, but the fact he has been hawking a billboard showing a line of thousands of huddled, dark-skinned refugees offers a clue."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

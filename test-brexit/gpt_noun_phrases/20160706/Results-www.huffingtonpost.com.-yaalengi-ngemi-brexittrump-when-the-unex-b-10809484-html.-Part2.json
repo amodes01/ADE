@@ -1,0 +1,51 @@
+[
+    {
+        "sentence": "I hope that we, Americans, can seriously, before November, delve in the \"deep\" thought exercise so we can, at the very least, be prepared for the eventuality of the Trump Presidency.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Americans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Americans",
+                "types": [],
+                "wikid": "Americans",
+                "dbpedia": "Americans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump Presidency",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump Presidency"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Americans -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Americans -> Trump Presidency": [
+                -1.0
+            ]
+        }
+    }
+]

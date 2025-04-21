@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "target": {"topic": "UK's decision to leave the European Union", "references": ["UK's decision to leave the European Union"]},
+      "justifications": ["The decision is in response to the fluctuating value of Sterling following the UK's decision to leave the European Union."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "target": {"topic": "currency fluctuations", "references": ["currency fluctuations", "Sterling"]},
+      "justifications": ["OnePlus is acutely affected by currency fluctuations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "target": {"topic": "price increase", "references": ["price hike", "price increase"]},
+      "justifications": ["The decision is in response to the fluctuating value of Sterling", "we are reluctantly going to have to make some small changes to our pricing structure", "OnePlus is acutely affected by currency fluctuations."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "entity2": {"entity": "customers", "references": ["customers"]},
+      "justifications": ["Despite the bad news, customers seemed to support the decision to increase the price of the OnePlus 3 - on Twitter, anyway.", "On the OnePlus forums, user 'SeanPlus' posted: 'Anyway, tis' a shame the price is going up, but understandable.'", "Another user called 'Sinjan22' posted: 'I am glad that they are giving their fans the opportunity to still buy the phone at the ordinary price though.'"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The sharp drop witnessed in the currency markets following the Brexit decision has forced us to re-evaluate the OnePlus 3's pricing in the UK."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "OnePlus", "references": ["OnePlus"]},
+      "entity2": {"entity": "Sterling", "references": ["Sterling"]},
+      "justifications": ["OnePlus is acutely affected by currency fluctuations.", "We have seen a downward trend for the Pound against the USD over the past few months.", "The sharp drop witnessed in the currency markets following the Brexit decision has forced us to re-evaluate the OnePlus 3's pricing in the UK."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Carl Pei", "references": ["Carl Pei"]},
+      "entity2": {"entity": "customers", "references": ["customers"]},
+      "justifications": ["OnePlus co-founder Carl Pei apologised to customers on Twitter shortly after the company confirmed the price hike."],
+      "attitude": "Positive"
+    }
+  ]
+}

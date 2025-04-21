@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Tim Peake",
+        "references": ["Peake"]
+      },
+      "target": {
+        "topic": "Strictly Come Dancing",
+        "references": ["Strictly"]
+      },
+      "justifications": [
+        "On Strictly, I'd say there is zero to no chance. I do not think I am ready to put myself through the embarrassment of sharing my dancing skills with the public."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tim Peake",
+        "references": ["Peake"]
+      },
+      "target": {
+        "topic": "Top Gear",
+        "references": ["Top Gear"]
+      },
+      "justifications": [
+        "As for Top Gear, anything with an engine that goes fast I absolutely love, so I certainly would not turn down the opportunity."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Peake"]
+      },
+      "entity2": {
+        "entity": "Nasa",
+        "references": ["Nasa"]
+      },
+      "justifications": [
+        "He will soon head to Nasa's astronaut centre in Houston for more tests there."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

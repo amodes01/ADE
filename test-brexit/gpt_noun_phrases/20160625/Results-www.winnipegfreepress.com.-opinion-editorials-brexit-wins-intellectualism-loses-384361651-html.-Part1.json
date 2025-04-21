@@ -1,0 +1,224 @@
+[
+    {
+        "sentence": "U.K. Independence Party Leader Nigel Farage, who was also pro-exit, fuelled antagonisms toward foreigners as well.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-immigrant sentiment",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-immigrant sentiment"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> anti-immigrant sentiment": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the United States, where presumptive Republican presidential candidate Donald Trump has won support for his pledge to \"make America great again.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-immigrant sentiment",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-immigrant sentiment"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> anti-immigrant sentiment": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He was ruthless in his tactics, relying on misleading information about the cost of EU to Britain and invoking racist and anti-immigrant rhetoric.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "racist and anti-immigrant rhetoric",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist and anti-immigrant rhetoric"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> racist and anti-immigrant rhetoric": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He became a cheerleader for the leave campaign in order to situate himself as the heir apparent for the Conservative party and he was ruthless in his tactics, relying on misleading information about the cost of EU to Britain and invoking racist and anti-immigrant rhetoric.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "racist and anti-immigrant rhetoric",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist and anti-immigrant rhetoric"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> racist and anti-immigrant rhetoric": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He did not act alone in that regard. U.K. Independence Party Leader Nigel Farage, who was also pro-exit, fuelled antagonisms toward foreigners as well.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> Boris Johnson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Anti-immigration sentiments in both countries have hit their mark.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> Donald Trump": [
+                1.0
+            ],
+            "Boris Johnson -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

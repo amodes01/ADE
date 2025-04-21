@@ -1,0 +1,242 @@
+[
+    {
+        "sentence": "The Common Market, which began with six states and the Treaty of Rome in 1957, grew in lurches, including de Gaulle's somewhat capricious veto of British entry in 1963, and became the European Union, committed to a federal state of 28 sovereign countries.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "federal state",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "federal state"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> federal state": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Europe Britain has rejected, led by the unelected ciphers of Brussels, was a mad concept and it was never going to work as planned.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "European Union -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Her offence was overt Euroskepticism, and she has been proved right.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Thatcherism",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Thatcherism",
+                "types": [],
+                "wikid": "Thatcherism",
+                "dbpedia": "Thatcherism"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU centralizers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU centralizers",
+                "types": [],
+                "wikid": "EU centralizers",
+                "dbpedia": "EU centralizers"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Euroskepticism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Euroskepticism"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Thatcherism -> EU centralizers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Thatcherism -> Euroskepticism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Thatcher bet on the special relationship with the U.S., and she and Ronald Reagan were the principal victors.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Margaret Thatcher",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Margaret Thatcher",
+                "types": [],
+                "wikid": "Margaret Thatcher",
+                "dbpedia": "Margaret Thatcher"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ronald Reagan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ronald Reagan",
+                "types": [],
+                "wikid": "Ronald Reagan",
+                "dbpedia": "Ronald Reagan"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Margaret Thatcher -> Ronald Reagan": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "It is a vote for Britain to be governed by the British and to co-operate closely and fairly with the European countries.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European countries",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European countries",
+                "types": [],
+                "wikid": "European countries",
+                "dbpedia": "European countries"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Britain -> European countries": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Her young disciples of 30 years ago, Michael Gove, Boris Johnson, Jacob Rees-Mogg and Iain Duncan Smith, will take over (that is, take back) the Conservative Party.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Margaret Thatcher",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Margaret Thatcher",
+                "types": [],
+                "wikid": "Margaret Thatcher",
+                "dbpedia": "Margaret Thatcher"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Gove",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Gove",
+                "types": [],
+                "wikid": "Michael Gove",
+                "dbpedia": "Michael Gove"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Margaret Thatcher -> Michael Gove": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

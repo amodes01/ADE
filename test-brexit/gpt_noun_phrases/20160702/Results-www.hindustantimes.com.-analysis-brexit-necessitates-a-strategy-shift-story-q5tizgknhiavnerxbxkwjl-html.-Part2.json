@@ -1,0 +1,204 @@
+[
+    {
+        "sentence": "Closing the door on NATO expansion would make it possible to ease tensions and normalise relations with Russia, stabilise Ukraine, and restore focus on the European economy and the European project.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European project",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European project",
+                "types": [],
+                "wikid": "European project",
+                "dbpedia": "European project"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European economy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European economy",
+                "types": [],
+                "wikid": "European economy",
+                "dbpedia": "European economy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European project -> NATO expansion": [
+                -1.0
+            ],
+            "European economy -> NATO expansion": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It also means finally giving Greece debt relief, thereby ending the long-running eurozone crisis.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Greece",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Greece",
+                "types": [],
+                "wikid": "Greece",
+                "dbpedia": "Greece"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "debt relief",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "debt relief"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Greece -> debt relief": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "All of this underscores the need to shift from a strategy of war to one of sustainable development, especially by the US and Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "sustainable development",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "sustainable development"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US -> sustainable development": [
+                1.0
+            ],
+            "Europe -> sustainable development": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Closing the door on NATO expansion would make it possible to ease tensions and normalise relations with Russia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeffrey D. Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeffrey D. Sachs",
+                "types": [],
+                "wikid": "Jeffrey D. Sachs",
+                "dbpedia": "Jeffrey D. Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jeffrey D. Sachs -> Russia": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "do not punish Britain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeffrey D. Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeffrey D. Sachs",
+                "types": [],
+                "wikid": "Jeffrey D. Sachs",
+                "dbpedia": "Jeffrey D. Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jeffrey D. Sachs -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

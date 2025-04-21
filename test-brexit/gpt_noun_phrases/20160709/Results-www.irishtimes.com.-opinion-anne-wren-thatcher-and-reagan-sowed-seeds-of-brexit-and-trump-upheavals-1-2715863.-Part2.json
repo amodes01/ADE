@@ -1,0 +1,251 @@
+[
+    {
+        "sentence": "economic insecurity creates an environment ripe for political manipulation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic insecurity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic insecurity"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic insecurity": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Given its negative implications for economic growth across Europe",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic growth",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic growth"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic growth": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Given its negative implications for economic growth across Europe, and negative political impact in fanning the flames of right-wing populism",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "right-wing populism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "right-wing populism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> right-wing populism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Equally at fault with Nigel Farage",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nigel Farage -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Equally at fault with Nigel Farage, Trump and others have been the parties of the left.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Trump -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Trump -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the principal winners from the 2014 electoral revolt against years of centre-right cuts to welfare state spending were not the social democrats, but the far right anti-immigrant Sweden democrats.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sweden democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sweden democrats",
+                "types": [],
+                "wikid": "Sweden democrats",
+                "dbpedia": "Sweden democrats"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "social democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "social democrats",
+                "types": [],
+                "wikid": "social democrats",
+                "dbpedia": "social democrats"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "social democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "social democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Sweden democrats -> social democrats": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Sweden democrats -> social democracy": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "British Airways", "references": ["British Airways"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit vote"]},
+      "justifications": ["Perhaps that was the thinking in British Airways' marketing offices after the pound plunged to a 31-year low following last week's Brexit vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "British Airways", "references": ["British Airways"]},
+      "target": {"topic": "Brexit-related promotions", "references": ["Brexit-related promotions"]},
+      "justifications": ["British Airways is taking advantage of it, tweeting: Your dollar has never gone further, and with our amazing 3 day sale you can see even more of London!"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Virgin Atlantic", "references": ["Virgin Atlantic"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit vote"]},
+      "justifications": ["The Brexit vote is causing real anxiety among many U.K. companies: The parent company of British Airways, as well as discount airline easyJet, both warned that their profits could take a hit this year."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Virgin Group", "references": ["Virgin Group"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit vote"]},
+      "justifications": ["Virgin Atlantic founder Sir Richard Branson, meanwhile, said he suspects that his Virgin Group holding company has lost a third in value since the vote."],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British Airways", "references": ["British Airways"]},
+      "entity2": {"entity": "Virgin Atlantic", "references": ["Virgin Atlantic"]},
+      "justifications": ["It was unclear whether other U.K. airlines, like Virgin Atlantic, easyJet or Monarch would follow suit with their own Brexit-related promotions."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "British Airways", "references": ["British Airways"]},
+      "entity2": {"entity": "easyJet", "references": ["easyJet"]},
+      "justifications": ["The Brexit vote is causing real anxiety among many U.K. companies: The parent company of British Airways, as well as discount airline easyJet, both warned that their profits could take a hit this year."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "British Airways", "references": ["British Airways"]},
+      "entity2": {"entity": "Monarch", "references": ["Monarch"]},
+      "justifications": ["It was unclear whether other U.K. airlines, like Virgin Atlantic, easyJet or Monarch would follow suit with their own Brexit-related promotions."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Virgin Atlantic", "references": ["Virgin Atlantic"]},
+      "entity2": {"entity": "easyJet", "references": ["easyJet"]},
+      "justifications": ["The Brexit vote is causing real anxiety among many U.K. companies: The parent company of British Airways, as well as discount airline easyJet, both warned that their profits could take a hit this year."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Virgin Atlantic", "references": ["Virgin Atlantic"]},
+      "entity2": {"entity": "Monarch", "references": ["Monarch"]},
+      "justifications": ["It was unclear whether other U.K. airlines, like Virgin Atlantic, easyJet or Monarch would follow suit with their own Brexit-related promotions."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Virgin Group", "references": ["Virgin Group"]},
+      "entity2": {"entity": "British Airways", "references": ["British Airways"]},
+      "justifications": ["Virgin Atlantic founder Sir Richard Branson, meanwhile, said he suspects that his Virgin Group holding company has lost a third in value since the vote."],
+      "attitude": "Negative"
+    }
+  ]
+}

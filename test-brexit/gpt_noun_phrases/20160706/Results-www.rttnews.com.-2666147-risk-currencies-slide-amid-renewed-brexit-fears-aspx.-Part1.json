@@ -1,0 +1,169 @@
+[
+    {
+        "sentence": "Worries about the economic and financial fallout of Britain leaving the European Union have gripped financial again.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic and financial fallout",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic and financial fallout"
+                ]
+            },
+            {
+                "ngram": "Britain leaving the European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Britain leaving the European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic and financial fallout": [
+                -1.0
+            ],
+            "Brexit -> Britain leaving the European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Nigeria's oil industry recovered partially from militant attacks",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigeria",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigeria",
+                "types": [],
+                "wikid": "Nigeria",
+                "dbpedia": "Nigeria"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil industry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil industry",
+                "types": [],
+                "wikid": "oil industry",
+                "dbpedia": "oil industry"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigeria -> oil industry": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Iran and Gulf members are boosting supplies",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Iran",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Iran",
+                "types": [],
+                "wikid": "Iran",
+                "dbpedia": "Iran"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gulf members",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gulf members",
+                "types": [],
+                "wikid": "Gulf members",
+                "dbpedia": "Gulf members"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Iran -> Gulf members": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Iran and Gulf members are boosting supplies, leading to oversupply concerns.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Iran",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Iran",
+                "types": [],
+                "wikid": "Iran",
+                "dbpedia": "Iran"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil industry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil industry",
+                "types": [],
+                "wikid": "oil industry",
+                "dbpedia": "oil industry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gulf members",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gulf members",
+                "types": [],
+                "wikid": "Gulf members",
+                "dbpedia": "Gulf members"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Iran -> oil industry": [
+                -1.0
+            ],
+            "Gulf members -> oil industry": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

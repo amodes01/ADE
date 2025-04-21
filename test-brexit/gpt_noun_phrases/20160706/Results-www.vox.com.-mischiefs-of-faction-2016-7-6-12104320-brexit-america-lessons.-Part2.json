@@ -1,0 +1,168 @@
+[
+    {
+        "sentence": "According to both UKIP and Trump, all the intricacies of domestic and foreign policy will be worked out when we 'take back control' or 'make America great again' by tightening or eliminating immigration and securing borders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UKIP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UKIP",
+                "types": [],
+                "wikid": "UKIP",
+                "dbpedia": "UKIP"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            },
+            {
+                "ngram": "border control",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "border control"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UKIP -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UKIP -> immigration": [
+                1.0
+            ],
+            "Donald Trump -> immigration": [
+                1.0
+            ],
+            "UKIP -> border control": [
+                1.0
+            ],
+            "Donald Trump -> border control": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "When America is great again, immigration and border control (and everything else) will fall into place.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UKIP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UKIP",
+                "types": [],
+                "wikid": "UKIP",
+                "dbpedia": "UKIP"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "America's greatness",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "America's greatness"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> America's greatness": [
+                1.0
+            ],
+            "UKIP -> America's greatness": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "These promises are the bread and butter of Farage and Trump.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Farage",
+                "types": [],
+                "wikid": "Farage",
+                "dbpedia": "Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tautological arguments",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tautological arguments"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Farage -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Farage -> tautological arguments": [
+                1.0
+            ],
+            "Donald Trump -> tautological arguments": [
+                1.0
+            ]
+        }
+    }
+]

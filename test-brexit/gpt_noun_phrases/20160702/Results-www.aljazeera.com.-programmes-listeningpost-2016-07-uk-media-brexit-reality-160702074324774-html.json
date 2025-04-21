@@ -1,0 +1,426 @@
+[
+    {
+        "sentence": "Did British media show Brexit bias?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK media",
+                "types": [],
+                "wikid": "UK media",
+                "dbpedia": "UK media"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK media -> EU referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Did the British media do their job before the vote? Were the facts sufficiently covered and were broadcasters as impartial as they are required to be?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK media",
+                "types": [],
+                "wikid": "UK media",
+                "dbpedia": "UK media"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "coverage of Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "coverage of Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK media -> coverage of Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It's been called one of the biggest human rights issues Americans have never heard of. More than 80,000 people in the US are held in solitary confinement on any given day and the media rarely get access.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US media",
+                "types": [],
+                "wikid": "US media",
+                "dbpedia": "US media"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "solitary confinement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "solitary confinement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US media -> solitary confinement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "More than 80,000 people in the US are held in solitary confinement on any given day and the media rarely get access.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US media",
+                "types": [],
+                "wikid": "US media",
+                "dbpedia": "US media"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "coverage of solitary confinement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "coverage of solitary confinement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US media -> coverage of solitary confinement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It has been more than a week since the UK voted to leave the EU and the story continues to dominate the headlines.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British media",
+                "types": [],
+                "wikid": "British media",
+                "dbpedia": "British media"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British media -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In South Africa, the state-owned broadcaster has replaced its chief executive for the tenth time since President Jacob Zuma took power seven years ago.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "South Africa's state-owned broadcaster",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "South Africa's state-owned broadcaster",
+                "types": [],
+                "wikid": "South Africa's state-owned broadcaster",
+                "dbpedia": "South Africa's state-owned broadcaster"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Jacob Zuma",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Jacob Zuma",
+                "types": [],
+                "wikid": "President Jacob Zuma",
+                "dbpedia": "President Jacob Zuma"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "South Africa's state-owned broadcaster -> President Jacob Zuma": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Liliane Daoud - one of Egypt's few remaining critical broadcasters - has been taken off the air, arrested and deported.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Liliane Daoud",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Liliane Daoud",
+                "types": [],
+                "wikid": "Liliane Daoud",
+                "dbpedia": "Liliane Daoud"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Egyptian authorities",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Egyptian authorities",
+                "types": [],
+                "wikid": "Egyptian authorities",
+                "dbpedia": "Egyptian authorities"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Liliane Daoud -> Egyptian authorities": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Arrests at Algeria's KBC TV after two satirical shows were taken off the air by the authorities.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Algerian authorities",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Algerian authorities",
+                "types": [],
+                "wikid": "Algerian authorities",
+                "dbpedia": "Algerian authorities"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Algerian TV network KBC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Algerian TV network KBC",
+                "types": [],
+                "wikid": "Algerian TV network KBC",
+                "dbpedia": "Algerian TV network KBC"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Algerian authorities -> Algerian TV network KBC": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Talking us through the story are: James Ridgeway, cofounder, Solitary Watch.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "James Ridgeway",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "James Ridgeway",
+                "types": [],
+                "wikid": "James Ridgeway",
+                "dbpedia": "James Ridgeway"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Solitary Watch",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Solitary Watch",
+                "types": [],
+                "wikid": "Solitary Watch",
+                "dbpedia": "Solitary Watch"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "James Ridgeway -> Solitary Watch": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Talking us through the story are: Johnny Perez, Urban Justice Centre.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Johnny Perez",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Johnny Perez",
+                "types": [],
+                "wikid": "Johnny Perez",
+                "dbpedia": "Johnny Perez"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Urban Justice Centre",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Urban Justice Centre",
+                "types": [],
+                "wikid": "Urban Justice Centre",
+                "dbpedia": "Urban Justice Centre"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Johnny Perez -> Urban Justice Centre": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Talking us through the story are: Ricky Jones, radio host, 'Unlocked'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ricky Jones",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ricky Jones",
+                "types": [],
+                "wikid": "Ricky Jones",
+                "dbpedia": "Ricky Jones"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Unlocked",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Unlocked",
+                "types": [],
+                "wikid": "Unlocked",
+                "dbpedia": "Unlocked"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ricky Jones -> Unlocked": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Talking us through the story are: David Fathi, National Prison Project, American Civil Liberties Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Fathi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Fathi",
+                "types": [],
+                "wikid": "David Fathi",
+                "dbpedia": "David Fathi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "American Civil Liberties Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "American Civil Liberties Union",
+                "types": [],
+                "wikid": "American Civil Liberties Union",
+                "dbpedia": "American Civil Liberties Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Fathi -> American Civil Liberties Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

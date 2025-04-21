@@ -1,0 +1,224 @@
+[
+    {
+        "sentence": "Lincoln Financial Certified Financial Planner Charles Hahn recently issued a letter to his clients that urged them not to panic, relating the Brexit situation to 2008's repression.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "financial prudence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "financial prudence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> financial prudence": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hahn acknowledged the Brexit situation as one that will cause 'considerable volatility'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "financial volatility",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "financial volatility"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> financial volatility": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "According to a Merrill Lynch newsletter, the historic decision produced a historic reaction in markets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "market reaction",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "market reaction"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> market reaction": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The U.K. exit negotiations are likely to be messy and lead to a contraction in the country's economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic contraction",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic contraction"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic contraction": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Both organizations predict high volatility in the short term.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Charles Hahn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Charles Hahn",
+                "types": [],
+                "wikid": "Charles Hahn",
+                "dbpedia": "Charles Hahn"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Merrill Lynch",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Merrill Lynch",
+                "types": [],
+                "wikid": "Merrill Lynch",
+                "dbpedia": "Merrill Lynch"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Modern Woodmen of America",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Modern Woodmen of America",
+                "types": [],
+                "wikid": "Modern Woodmen of America",
+                "dbpedia": "Modern Woodmen of America"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Charles Hahn -> Merrill Lynch": [
+                -1.0
+            ],
+            "Merrill Lynch -> Modern Woodmen of America": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Modern Woodmen of America agree with the prudence message.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Charles Hahn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Charles Hahn",
+                "types": [],
+                "wikid": "Charles Hahn",
+                "dbpedia": "Charles Hahn"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Modern Woodmen of America",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Modern Woodmen of America",
+                "types": [],
+                "wikid": "Modern Woodmen of America",
+                "dbpedia": "Modern Woodmen of America"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Charles Hahn -> Modern Woodmen of America": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,120 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "French Foreign Office", "references": ["French Foreign Office"]},
+      "target": {"topic": "British entry into the EEC", "references": ["British entry into the EEC"]},
+      "justifications": ["He made a valid point, by saying that the British were not ready for their entry in the EEC."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "French Foreign Office", "references": ["French Foreign Office"]},
+      "target": {"topic": "American assistance to Britain", "references": ["Americans were helping the British acquire the bomb"]},
+      "justifications": ["de Gaulle was so furious that the Americans were helping the British acquire the bomb (and not the French)"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British", "references": ["British"]},
+      "target": {"topic": "EEC membership", "references": ["entry into the EEC"]},
+      "justifications": ["the British were not ready for their entry in the EEC"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British", "references": ["British"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["there did not seem to be any other place for the British to go except the European Union"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "George Ball", "references": ["George Ball"]},
+      "target": {"topic": "British entry into the EEC", "references": ["British integration"]},
+      "justifications": ["George Ball sent me to London in 1963 as head of the Economic Section of the Embassy... to try and jumpstart further negotiations on British integration"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Chatham House", "references": ["Chatham House"]},
+      "target": {"topic": "European Community", "references": ["European Community"]},
+      "justifications": ["there was a group that worked out of Chatham House... building up support for joining the European Community"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Pro-European British politicians", "references": ["pro-European"]},
+      "target": {"topic": "European integration", "references": ["European integration"]},
+      "justifications": ["there were also people who were very pro-European and they helped convince most of the politicians that integration was a smart move for Britain"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nationalist politicians", "references": ["nationalist opposition"]},
+      "target": {"topic": "European integration", "references": ["European integration"]},
+      "justifications": ["some politicians were a real thorn in this European integration debate because they promised to uphold Britain's national identity"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Conservative politician from Scotland", "references": ["conservative politician from Scotland"]},
+      "target": {"topic": "European integration", "references": ["European integration"]},
+      "justifications": ["the man who swore up and down that he would never let it happen was a conservative politician from Scotland"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Smaller pro-European group", "references": ["smaller group of people who were favorable to integration"]},
+      "target": {"topic": "European integration", "references": ["European integration"]},
+      "justifications": ["It took all the efforts of the smaller group of people who were favorable to integration to overcome nationalist opposition"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Secretary of State Dean Acheson", "references": ["Acheson"]},
+      "target": {"topic": "British Empire status", "references": ["lost an Empire"]},
+      "justifications": ["Acheson's quite unsubtle remark stayed with them, 'Britain has lost an Empire but not found a role.'"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "French Foreign Office", "references": ["French Foreign Office"]},
+      "entity2": {"entity": "British", "references": ["British"]},
+      "justifications": ["He made a valid point, by saying that the British were not ready for their entry in the EEC"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "French Foreign Office", "references": ["French Foreign Office"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["de Gaulle was so furious that the Americans were helping the British acquire the bomb (and not the French)"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "French Foreign Office", "references": ["French Foreign Office"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["de Gaulle was so furious that the Americans were helping the British acquire the bomb (and not the French)"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "George Ball", "references": ["George Ball"]},
+      "entity2": {"entity": "British", "references": ["British"]},
+      "justifications": ["George Ball sent me to London in 1963 as head of the Economic Section of the Embassy... to try and jumpstart further negotiations on British integration"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Chatham House", "references": ["Chatham House"]},
+      "entity2": {"entity": "British", "references": ["British"]},
+      "justifications": ["there was a group that worked out of Chatham House... building up support for joining the European Community"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Pro-European British politicians", "references": ["pro-European"]},
+      "entity2": {"entity": "Nationalist British politicians", "references": ["nationalist opposition"]},
+      "justifications": ["some politicians were a real thorn in this European integration debate because they promised to uphold Britain's national identity"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Conservative politician from Scotland", "references": ["conservative politician from Scotland"]},
+      "entity2": {"entity": "Pro-European British politicians", "references": ["pro-European"]},
+      "justifications": ["the man who swore up and down that he would never let it happen was a conservative politician from Scotland"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Smaller pro-European group", "references": ["smaller group of people who were favorable to integration"]},
+      "entity2": {"entity": "Nationalist British politicians", "references": ["nationalist opposition"]},
+      "justifications": ["It took all the efforts of the smaller group of people who were favorable to integration to overcome nationalist opposition"],
+      "attitude": "Positive"
+    }
+  ]
+}

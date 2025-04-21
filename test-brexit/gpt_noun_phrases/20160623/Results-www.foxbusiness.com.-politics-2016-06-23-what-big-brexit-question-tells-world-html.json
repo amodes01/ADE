@@ -1,0 +1,117 @@
+[
+    {
+        "sentence": "the amount of regulation and legislation coming from the EU moved the needle to vote leave.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Steve Hilton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Steve Hilton",
+                "types": [],
+                "wikid": "Steve Hilton",
+                "dbpedia": "Steve Hilton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU regulation and legislation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU regulation and legislation"
+                ]
+            },
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Steve Hilton -> EU regulation and legislation": [
+                -1.0
+            ],
+            "Steve Hilton -> Brexit vote": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "this really is a question of democracy - about who actually controls and runs a country",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Steve Hilton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Steve Hilton",
+                "types": [],
+                "wikid": "Steve Hilton",
+                "dbpedia": "Steve Hilton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democracy and governance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democracy and governance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Steve Hilton -> democracy and governance": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Even though he remains at odds with Prime Minister David Cameron, Hilton says they have remained good friends.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Steve Hilton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Steve Hilton",
+                "types": [],
+                "wikid": "Steve Hilton",
+                "dbpedia": "Steve Hilton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister David Cameron",
+                "types": [],
+                "wikid": "Prime Minister David Cameron",
+                "dbpedia": "Prime Minister David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Steve Hilton -> Prime Minister David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

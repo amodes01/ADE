@@ -1,0 +1,25 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "experts", "references": ["Experts from OPENForum", "Experts from Wall Street Journal Custom Studios", "Experts from T Brand Studio at New York Times", "Experts from Contently"]},
+      "target": {"topic": "content marketing writing", "references": ["content marketing writing"]},
+      "justifications": ["Experts from OPENForum, Wall Street Journal Custom Studios, T Brand Studio at New York Times , and Contently share their insight: http://prn.to/1tm688B"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "experts", "references": ["Experts from OPENForum", "Experts from Wall Street Journal Custom Studios", "Experts from T Brand Studio at New York Times", "Experts from Contently"]},
+      "target": {"topic": "money in content marketing", "references": ["make more money with your content marketing writing"]},
+      "justifications": ["Want to make more money with your content marketing writing? Experts from OPENForum, Wall Street Journal Custom Studios, T Brand Studio at New York Times , and Contently share their insight: http://prn.to/1tm688B"],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Democratic Party", "references": ["Democratic"]},
+      "entity2": {"entity": "Republican Party", "references": ["Republican"]},
+      "justifications": ["The Democratic and Republication conventions are around the corner, and the world will be watching closely to see what shakes out of Philadelphia and Cleveland."],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "James Dyson", "references": ["James Dyson"]},
+      "target": {"topic": "Brexit", "references": ["leave the EU"]},
+      "justifications": ["When the remain campaign tells us no one will trade with us if we leave the EU, sorry, it's absolute cobblers."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Microsoft", "references": ["Microsoft"]},
+      "target": {"topic": "Brexit", "references": ["UK should remain in the EU"]},
+      "justifications": ["our view is that the UK should remain in the EU"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Bill Gates", "references": ["Bill Gates"]},
+      "target": {"topic": "Brexit", "references": ["UK remaining in Europe"]},
+      "justifications": ["Bill Gates, the company's co-founder, has also spoken out separately in favour of the UK remaining in Europe."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Google", "references": ["Google"]},
+      "target": {"topic": "Brexit", "references": ["Brexit-related search queries"]},
+      "justifications": ["Google has publicly posted stats and maps showing what kind of Brexit-related search queries it's been receiving."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Facebook", "references": ["Facebook"]},
+      "target": {"topic": "Brexit", "references": ["Brexit-related discussion"]},
+      "justifications": ["Facebook dusted off its 'I am a voter' button for the second time this year in the UK."],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "James Dyson", "references": ["James Dyson"]},
+      "entity2": {"entity": "UK remain campaign", "references": ["remain campaign"]},
+      "justifications": ["When the remain campaign tells us no one will trade with us if we leave the EU, sorry, it's absolute cobblers."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Microsoft", "references": ["Microsoft"]},
+      "entity2": {"entity": "UK", "references": ["the UK"]},
+      "justifications": ["our view is that the UK should remain in the EU"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Bill Gates", "references": ["Bill Gates"]},
+      "entity2": {"entity": "UK", "references": ["the UK"]},
+      "justifications": ["Bill Gates, the company's co-founder, has also spoken out separately in favour of the UK remaining in Europe."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Google", "references": ["Google"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Google has publicly posted stats and maps showing what kind of Brexit-related search queries it's been receiving."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Facebook", "references": ["Facebook"]},
+      "entity2": {"entity": "Brexit debate", "references": ["Brexit-related discussion"]},
+      "justifications": ["Facebook dusted off its 'I am a voter' button for the second time this year in the UK."],
+      "attitude": "Neutral"
+    }
+  ]
+}

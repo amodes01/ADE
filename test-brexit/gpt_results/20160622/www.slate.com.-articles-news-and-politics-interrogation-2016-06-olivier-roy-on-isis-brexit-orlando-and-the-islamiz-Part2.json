@@ -1,0 +1,169 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Daesh", "references": ["Daesh"]},
+      "target": {"topic": "radical Islam", "references": ["radical Islam"]},
+      "justifications": [
+        "The issue now is to debunk the narrative of Daesh.",
+        "These guys are attracted by the narrative of Daesh."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Daesh", "references": ["Daesh"]},
+      "target": {"topic": "anti-globalization", "references": ["anti-globalization"]},
+      "justifications": [
+        "Daesh today is the only international anti-society, anti-world order group."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "radical Islam", "references": ["radical Islam"]},
+      "target": {"topic": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "We should not allow radical Islam to have a monopoly on Islam."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "moderate Islam", "references": ["moderate Islam"]},
+      "target": {"topic": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "The concept of moderate Islam is totally misleading."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Islam", "references": ["Islam"]},
+      "target": {"topic": "moderate Islam", "references": ["moderate Islam"]},
+      "justifications": [
+        "The concept of moderate Islam is totally misleading."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "radicalization", "references": ["radicalization"]},
+      "justifications": [
+        "Yes. Because the answer to radicalism in France is to marginalize religion more and more."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "radicalization", "references": ["radicalization"]},
+      "justifications": [
+        "The trend in Europe is to consider any religion as a potential problem."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "Trump does not pay lip service to religion when he attacks Islam.",
+        "He rejects Islam as a rule and he never speaks about good religion, even Christianity."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "religion", "references": ["religion"]},
+      "justifications": [
+        "Trump is not a religious guy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Islamophobia", "references": ["Islamophobia"]},
+      "justifications": [
+        "Trump's Islamophobia is linked with some sort of contempt of religion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "far-right forces in Austria", "references": ["far-right forces in Austria"]},
+      "target": {"topic": "xenophobia", "references": ["xenophobia"]},
+      "justifications": [
+        "We just had far-right forces in Austria get near a majority, and we have the Brexit vote this week-which has been driven in part by xenophobia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "integration of Islam", "references": ["integration of Islam"]},
+      "justifications": [
+        "I think there is a discontinuity between the realities in Europe and the perception."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "The crisis now is terrorism and refugees, and it is linked, according to public opinion, with Muslims."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Daesh", "references": ["Daesh"]},
+      "entity2": {"entity": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "The issue now is to debunk the narrative of Daesh.",
+        "We should not allow radical Islam to have a monopoly on Islam."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Daesh", "references": ["Daesh"]},
+      "entity2": {"entity": "radical Islam", "references": ["radical Islam"]},
+      "justifications": [
+        "These guys are attracted by the narrative of Daesh."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Daesh", "references": ["Daesh"]},
+      "entity2": {"entity": "far-left parties", "references": ["Podemos", "Syriza"]},
+      "justifications": [
+        "If you take [left-wing parties] Podemos in Spain or Syriza in Greece, these movements are now anti-globalization."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": [
+        "Yes. Because the answer to radicalism in France is to marginalize religion more and more."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Islam", "references": ["Islam"]},
+      "entity2": {"entity": "radical Islam", "references": ["radical Islam"]},
+      "justifications": [
+        "We should not allow radical Islam to have a monopoly on Islam."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "radical Islam", "references": ["radical Islam"]},
+      "justifications": [
+        "Trump does not pay lip service to religion when he attacks Islam."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Europe", "references": ["Europe"]},
+      "entity2": {"entity": "Islam", "references": ["Islam"]},
+      "justifications": [
+        "The crisis now is terrorism and refugees, and it is linked, according to public opinion, with Muslims."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

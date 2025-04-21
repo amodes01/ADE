@@ -1,0 +1,123 @@
+[
+    {
+        "sentence": "Until the Brexit situation gets clearer, investors in Philip Morris need to be prepared for continued volatility in the company's share price.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Philip Morris International",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Philip Morris International",
+                "types": [],
+                "wikid": "Philip Morris International",
+                "dbpedia": "Philip Morris International"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Philip Morris International -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Philip Morris International -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Dan Caplinger has no position in any stocks mentioned.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Motley Fool",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Motley Fool",
+                "types": [],
+                "wikid": "The Motley Fool",
+                "dbpedia": "The Motley Fool"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dan Caplinger",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dan Caplinger",
+                "types": [],
+                "wikid": "Dan Caplinger",
+                "dbpedia": "Dan Caplinger"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "The Motley Fool -> Dan Caplinger": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We Fools may not all hold the same opinions, but we all believe that considering a diverse range of insights makes us better investors.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Motley Fool",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Motley Fool",
+                "types": [],
+                "wikid": "The Motley Fool",
+                "dbpedia": "The Motley Fool"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Motley Fool",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Motley Fool",
+                "types": [],
+                "wikid": "The Motley Fool",
+                "dbpedia": "The Motley Fool"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "The Motley Fool -> The Motley Fool": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

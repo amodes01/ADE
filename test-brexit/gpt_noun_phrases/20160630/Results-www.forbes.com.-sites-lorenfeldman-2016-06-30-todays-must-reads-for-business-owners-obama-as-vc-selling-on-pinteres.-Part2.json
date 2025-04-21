@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "The U.S. Chamber has been critical of Trump's trade and economic policies throughout the election",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. Chamber of Commerce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. Chamber of Commerce",
+                "types": [],
+                "wikid": "U.S. Chamber of Commerce",
+                "dbpedia": "U.S. Chamber of Commerce"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's trade and economic policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's trade and economic policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> U.S. Chamber of Commerce": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. Chamber of Commerce -> Trump's trade and economic policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the Chamber published a post on its website that characterized the benefits of trade agreements as outweighing the drawbacks",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. Chamber of Commerce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. Chamber of Commerce",
+                "types": [],
+                "wikid": "U.S. Chamber of Commerce",
+                "dbpedia": "U.S. Chamber of Commerce"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. Chamber of Commerce -> trade agreements": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Ohio Contractors Association and the Republican-controlled legislature asserted that such local quotas... made it harder for contractors to hire the best people",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ohio Contractors Association",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ohio Contractors Association",
+                "types": [],
+                "wikid": "Ohio Contractors Association",
+                "dbpedia": "Ohio Contractors Association"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Cleveland's local hiring ordinance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Cleveland's local hiring ordinance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Ohio Contractors Association -> Cleveland's local hiring ordinance": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Josh Kopelman, whose First Round Capital was tapped to manage the city-backed fund",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Josh Kopelman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Josh Kopelman",
+                "types": [],
+                "wikid": "Josh Kopelman",
+                "dbpedia": "Josh Kopelman"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "First Round Capital",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "First Round Capital",
+                "types": [],
+                "wikid": "First Round Capital",
+                "dbpedia": "First Round Capital"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Josh Kopelman -> First Round Capital": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr. Jackson expressed dismay at a new state labor law, signed on May 30 by the Republican governor, John Kasich",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Jackson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Jackson",
+                "types": [],
+                "wikid": "Mr. Jackson",
+                "dbpedia": "Mr. Jackson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kasich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kasich",
+                "types": [],
+                "wikid": "John Kasich",
+                "dbpedia": "John Kasich"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr. Jackson -> John Kasich": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The Republican governor, John Kasich, that nullifies a 12-year city ordinance",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kasich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kasich",
+                "types": [],
+                "wikid": "John Kasich",
+                "dbpedia": "John Kasich"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Jackson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Jackson",
+                "types": [],
+                "wikid": "Mr. Jackson",
+                "dbpedia": "Mr. Jackson"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "John Kasich -> Mr. Jackson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

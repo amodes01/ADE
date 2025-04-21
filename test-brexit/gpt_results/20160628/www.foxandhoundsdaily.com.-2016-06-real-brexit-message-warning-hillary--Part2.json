@@ -1,0 +1,174 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Hillary Clinton is running exactly the campaign that the \"Remain\" side ran; predicting horrible things if the country left, trying to win by scaring people."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "Stronger Together",
+        "references": ["Stronger Together"]
+      },
+      "justifications": [
+        "Amazingly, Clinton has adopted as the new theme of her campaign the vacuous phrase \"Stronger Together,\" which was the theme of the losing Remain campaign in Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "target": {
+        "topic": "Stronger Together",
+        "references": ["Stronger Together"]
+      },
+      "justifications": [
+        "Amazingly, Clinton has adopted as the new theme of her campaign the vacuous phrase \"Stronger Together,\" which was the theme of the losing Remain campaign in Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Hillary Clinton is running exactly the campaign that the \"Remain\" side ran; predicting horrible things if the country left, trying to win by scaring people."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Mitt Romney",
+        "references": ["Mitt Romney"]
+      },
+      "target": {
+        "topic": "Rust Belt states",
+        "references": ["Rust Belt states"]
+      },
+      "justifications": [
+        "Mitt Romney won 206 Electoral Votes in 2012. If Donald Trump can win Romney's states and five \"Rust Belt\" states: Pennsylvania, Ohio, Wisconsin, Michigan and Minnesota, he will be the next president."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Rust Belt states",
+        "references": ["Rust Belt states"]
+      },
+      "justifications": [
+        "If Donald Trump can win Romney's states and five \"Rust Belt\" states: Pennsylvania, Ohio, Wisconsin, Michigan and Minnesota, he will be the next president."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "target": {
+        "topic": "residual resentment in America",
+        "references": ["resentments over being left behind in \"flyover\" America"]
+      },
+      "justifications": [
+        "If the Democrats do not respond to the very real angst of these people who feel left behind, they will deserve to lose and they will lose."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Remain campaign in Britain",
+        "references": ["Remain"]
+      },
+      "justifications": [
+        "Hillary Clinton is running exactly the campaign that the \"Remain\" side ran; predicting horrible things if the country left, trying to win by scaring people."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "justifications": [
+        "Clinton's strength, and the Democratic Party's strength, is in coastal America, the parts of America that are like wealthy London."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Just yelling racism and xenophobia, as liberals seem wont to do since last Thursday, will not do."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Democratic Party",
+        "references": ["Democratic Party"]
+      },
+      "entity2": {
+        "entity": "Mitt Romney",
+        "references": ["Mitt Romney"]
+      },
+      "justifications": [
+        "Mitt Romney won 206 Electoral Votes in 2012."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Mitt Romney",
+        "references": ["Mitt Romney"]
+      },
+      "justifications": [
+        "Mitt Romney won 206 Electoral Votes in 2012. If Donald Trump can win Romney's states and five \"Rust Belt\" states: Pennsylvania, Ohio, Wisconsin, Michigan and Minnesota, he will be the next president."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

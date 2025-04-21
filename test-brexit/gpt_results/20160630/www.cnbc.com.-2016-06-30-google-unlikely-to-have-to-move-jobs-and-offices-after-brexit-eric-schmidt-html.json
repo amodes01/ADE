@@ -1,0 +1,92 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's decision to leave the European Union", "U.K. exit from the EU"]
+      },
+      "justifications": [
+        "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union.",
+        "Schmidt said it'll be unlikely Google will start moving around employees and offices."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's decision to leave the European Union", "U.K. exit from the EU"]
+      },
+      "justifications": [
+        "Schmidt said it'll be unlikely Google will start moving around employees and offices.",
+        "Schmidt expressed concern over the possibility of the European digital market becoming more fractured."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "target": {
+        "topic": "European digital market",
+        "references": ["European digital market"]
+      },
+      "justifications": [
+        "Schmidt expressed concern over the possibility of the European digital market becoming more fractured."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "entity2": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "justifications": [
+        "Schmidt said it'll be unlikely Google will start moving around employees and offices."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "entity2": {
+        "entity": "Alphabet",
+        "references": ["Alphabet"]
+      },
+      "justifications": [
+        "Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Vodafone",
+        "references": ["Vodafone"]
+      },
+      "entity2": {
+        "entity": "easyJet",
+        "references": ["easyJet"]
+      },
+      "justifications": [
+        "A handful of firms have already talked about the possibility of moving operations out of the U.K.. Both Vodafone and airline easyJet are evaluating whether some jobs may have to be relocated."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

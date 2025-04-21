@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Ringo Starr", "references": ["Ringo Starr"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Ringo Starr has praised Britain's decision to leave the European Union, saying Brexit will allow the UK to get back on its \"own feet\"."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Ringo Starr", "references": ["Ringo Starr"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": ["I was a huge fan when the EU started.", "I have lived all over Europe so I thought 'how great'.", "But it never really got together, I did not think."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Ringo Starr", "references": ["Ringo Starr"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": ["But it never really got together, I did not think.", "Maybe in a business way it got together but everyone kept their own flags… It did not really turn into a love fest."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Ringo Starr", "references": ["Ringo Starr"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["I was a huge fan when the EU started.", "But it never really got together, I did not think."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ringo Starr", "references": ["Ringo Starr"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["But it never really got together, I did not think.", "Maybe in a business way it got together but everyone kept their own flags… It did not really turn into a love fest."],
+      "attitude": "Negative"
+    }
+  ]
+}

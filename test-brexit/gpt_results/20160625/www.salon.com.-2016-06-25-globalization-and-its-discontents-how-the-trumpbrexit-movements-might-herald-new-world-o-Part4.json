@@ -1,0 +1,108 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "corporate globalism", "references": ["corporate globalism"]},
+      "justifications": ["a full-throated rant against corporate globalism"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "trade deals", "references": ["disastrous trade deals"]},
+      "justifications": ["This includes fixing all of our many disastrous trade deals."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "wages", "references": ["wages"]},
+      "justifications": ["It's rigged by big donors who want to keep down wages."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "workers", "references": ["fire our workers"]},
+      "justifications": ["It's rigged by big businesses who want to leave our country, fire our workers."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "failing schools", "references": ["trapping kids in failing schools"]},
+      "justifications": ["It's rigged by bureaucrats who are trapping kids in failing schools."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "American people", "references": ["the American people"]},
+      "justifications": ["It's rigged against you, the American people."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump supporters", "references": ["his zealous supporters"]},
+      "target": {"topic": "public purification", "references": ["public purification"]},
+      "justifications": ["Savonarola and his zealous supporters... launched an ugly campaign of public purification."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "global elite", "references": ["global elite"]},
+      "justifications": ["While the global elite stare aghast at the steamy ruins of its grand EU experiment."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "NATO", "references": ["dissolved or diminished NATO"]},
+      "justifications": ["The thought of a dissolved or diminished NATO - which Trump has pushed - panics the Europeans and the Turks."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Bernie Sanders", "references": ["Bernie Sanders"]},
+      "justifications": ["That's why we are asking Bernie Sanders' voters to join our movement."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Bernie Sanders' voters", "references": ["Bernie Sanders' voters"]},
+      "justifications": ["That's why we are asking Bernie Sanders' voters to join our movement."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Oxford University scholars", "references": ["Ian Goldin and Chris Kutarna"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": ["Two scholars from Oxford University... published an audacious text about the lessons that could be drawn from the dislocation and demographic shifts that occurred during the Renaissance, a period of rapid advancement much like our own today."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Oxford University scholars", "references": ["Ian Goldin and Chris Kutarna"]},
+      "entity2": {"entity": "Girolamo Savonarola", "references": ["Girolamo Savonarola"]},
+      "justifications": ["Goldin and Kutarna argue the upheaval at the time due to technology led to a politics whose complexion is very similar to ours today, citing the rise of Savonarola."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Girolamo Savonarola", "references": ["Savonarola"]},
+      "entity2": {"entity": "public intellectuals", "references": ["public intellectuals"]},
+      "justifications": ["Savonarola launched an ugly campaign of public purification, introducing radical laws including laws against homosexuality, and attacked public intellectuals in an act of intimidation."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European nations", "references": ["the Europeans"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["The thought of a dissolved or diminished NATO - which Trump has pushed - panics the Europeans."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Turkey", "references": ["the Turks"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["The thought of a dissolved or diminished NATO - which Trump has pushed - panics the Europeans and the Turks."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["Russia loads up their border with troops."],
+      "attitude": "Neutral"
+    }
+  ]
+}

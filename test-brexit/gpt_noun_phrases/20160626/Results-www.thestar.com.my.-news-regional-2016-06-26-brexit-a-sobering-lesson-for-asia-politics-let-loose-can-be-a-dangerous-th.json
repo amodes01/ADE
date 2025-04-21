@@ -1,0 +1,246 @@
+[
+    {
+        "sentence": "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she spoke up for immigrants.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British MP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British MP",
+                "types": [],
+                "wikid": "British MP",
+                "dbpedia": "British MP"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British MP -> immigration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she favoured her nation staying in the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British MP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British MP",
+                "types": [],
+                "wikid": "British MP",
+                "dbpedia": "British MP"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British MP -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the presumptive Republican Party frontrunner for the US presidential election is coarse of tongue, deeply divisive in his positions, stokes suspicions about Muslims.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Muslims",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Muslims"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Republican Party -> Muslims": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the presumptive Republican Party frontrunner for the US presidential election is on record saying he thought the United Kingdom should leave the EU because migration had been a 'terrible thing' for the country.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Republican Party -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British MP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British MP",
+                "types": [],
+                "wikid": "British MP",
+                "dbpedia": "British MP"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "neo-Nazi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "neo-Nazi",
+                "types": [],
+                "wikid": "neo-Nazi",
+                "dbpedia": "neo-Nazi"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British MP -> neo-Nazi": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "stokes suspicions about Muslims",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Muslims",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Muslims",
+                "types": [],
+                "wikid": "Muslims",
+                "dbpedia": "Muslims"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Republican Party -> Muslims": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "he thought the United Kingdom should leave the EU because migration had been a 'terrible thing' for the country.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Republican Party -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

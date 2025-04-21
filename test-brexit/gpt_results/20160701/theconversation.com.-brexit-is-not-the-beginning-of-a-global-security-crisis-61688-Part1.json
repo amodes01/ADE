@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Charles Kaiser", "references": ["Charles Kaiser"]},
+      "target": {"topic": "Brexit", "references": ["the UK's vote to leave"]},
+      "justifications": ["The journalist Charles Kaiser suggested that the UK's vote to leave was \"the worst step backward for Europe - and for Western civilisation - since the end of World War II\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "EU", "references": ["the European Union project"]},
+      "justifications": ["David Cameron explicitly attributed lasting peace in Europe to the European Union project"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Brexit", "references": ["the UK's vote to leave"]},
+      "justifications": ["David Cameron explicitly attributed lasting peace in Europe to the European Union project"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["the European Union", "EU"]},
+      "target": {"topic": "peace in Europe", "references": ["lasting peace in Europe"]},
+      "justifications": ["David Cameron explicitly attributed lasting peace in Europe to the European Union project"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "military security", "references": ["EU's latent military security ambitions"]},
+      "justifications": ["Equally, while the British vote could change the EU's latent military security ambitions"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["It is highly unlikely, for example, that France would withdraw its troops from the alliance as it did in 1966"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": ["Germany so relies on Russia for energy"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "sanctions on Russia", "references": ["sanctions against Russia"]},
+      "justifications": ["There has been plenty of speculation that Brexit will make maintaining or renewing sanctions against Russia for its actions in Ukraine harder and that Germany in particular will be harder to persuade to hold a harsh line with Moscow"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Washington Post", "references": ["The Washington Post"]},
+      "target": {"topic": "European unity", "references": ["European unity"]},
+      "justifications": ["The Washington Post suggested in January that this reliance could damage European unity"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Charles Kaiser", "references": ["Charles Kaiser"]},
+      "entity2": {"entity": "Brexit", "references": ["the UK's vote to leave"]},
+      "justifications": ["The journalist Charles Kaiser suggested that the UK's vote to leave was \"the worst step backward for Europe - and for Western civilisation - since the end of World War II\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "EU", "references": ["the European Union project"]},
+      "justifications": ["David Cameron explicitly attributed lasting peace in Europe to the European Union project"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["the UK's vote to leave"]},
+      "justifications": ["David Cameron explicitly attributed lasting peace in Europe to the European Union project"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["It is highly unlikely, for example, that France would withdraw its troops from the alliance as it did in 1966"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Germany", "references": ["Germany"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["Germany so relies on Russia for energy"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Germany", "references": ["Germany"]},
+      "entity2": {"entity": "sanctions on Russia", "references": ["sanctions against Russia"]},
+      "justifications": ["There has been plenty of speculation that Brexit will make maintaining or renewing sanctions against Russia for its actions in Ukraine harder and that Germany in particular will be harder to persuade to hold a harsh line with Moscow"],
+      "attitude": "Negative"
+    }
+  ]
+}

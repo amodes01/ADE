@@ -1,0 +1,149 @@
+[
+    {
+        "sentence": "Goldman rated Fresnillo (LON:FRES) a 'sell' at 1,194p as recently as 15 June.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Goldman Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Goldman Sachs",
+                "types": [],
+                "wikid": "Goldman Sachs",
+                "dbpedia": "Goldman Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fresnillo",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fresnillo",
+                "types": [],
+                "wikid": "Fresnillo",
+                "dbpedia": "Fresnillo"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Fresnillo stock price",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Fresnillo stock price"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Goldman Sachs -> Fresnillo": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Goldman Sachs -> Fresnillo stock price": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The performance that's been mirrored by Randgold in London, up by more than 30% in sterling terms to 9,730p at the last count.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Goldman Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Goldman Sachs",
+                "types": [],
+                "wikid": "Goldman Sachs",
+                "dbpedia": "Goldman Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Randgold",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Randgold",
+                "types": [],
+                "wikid": "Randgold",
+                "dbpedia": "Randgold"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Randgold stock price",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Randgold stock price"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Goldman Sachs -> Randgold": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Goldman Sachs -> Randgold stock price": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Goldman also called Gold Fields (JSE:GFI) a sell at R63.8, setting a R50 price target.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Goldman Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Goldman Sachs",
+                "types": [],
+                "wikid": "Goldman Sachs",
+                "dbpedia": "Goldman Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gold Fields",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gold Fields",
+                "types": [],
+                "wikid": "Gold Fields",
+                "dbpedia": "Gold Fields"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Gold Fields stock price",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Gold Fields stock price"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Goldman Sachs -> Gold Fields": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Goldman Sachs -> Gold Fields stock price": [
+                -1.0
+            ]
+        }
+    }
+]

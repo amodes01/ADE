@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "This website uses cookies so that we can provide you with the best user experience possible.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "website",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "website",
+                "types": [],
+                "wikid": "website",
+                "dbpedia": "website"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "user experience",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "user experience"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "website -> user experience": [
+                1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "The Greeks...have run up so much debt in recent years that the country is a Gordian knot of economic disaster, unlikely to be unraveled in my lifetime.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Greeks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Greeks",
+                "types": [],
+                "wikid": "The Greeks",
+                "dbpedia": "The Greeks"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic disaster",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic disaster"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The Greeks -> economic disaster": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Greeks...challenged by endemic tax evasion and unemployment",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Greeks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Greeks",
+                "types": [],
+                "wikid": "The Greeks",
+                "dbpedia": "The Greeks"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tax evasion and unemployment",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tax evasion and unemployment"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The Greeks -> tax evasion and unemployment": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The earnest tax-paying Germans have balked many times at the notion of bailing out their lazy EU brethren, who they see as free-riding.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Germans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Germans",
+                "types": [],
+                "wikid": "The Germans",
+                "dbpedia": "The Germans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Greeks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Greeks",
+                "types": [],
+                "wikid": "The Greeks",
+                "dbpedia": "The Greeks"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "bailing out Greece",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "bailing out Greece"
+                ]
+            },
+            {
+                "ngram": "economic bailout",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic bailout"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "The Greeks -> The Germans": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "The Germans -> bailing out Greece": [
+                -1.0
+            ],
+            "The Germans -> economic bailout": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "If the British are racist for leaving the EU, then so must be the Germans.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Greeks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Greeks",
+                "types": [],
+                "wikid": "The Greeks",
+                "dbpedia": "The Greeks"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Germans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Germans",
+                "types": [],
+                "wikid": "The Germans",
+                "dbpedia": "The Germans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The British",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The British",
+                "types": [],
+                "wikid": "The British",
+                "dbpedia": "The British"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The EU",
+                "types": [],
+                "wikid": "The EU",
+                "dbpedia": "The EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "The Greeks -> The Germans": [
+                -1.0
+            ],
+            "The British -> The EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "If the British are racist for leaving the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The British",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The British",
+                "types": [],
+                "wikid": "The British",
+                "dbpedia": "The British"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The EU",
+                "types": [],
+                "wikid": "The EU",
+                "dbpedia": "The EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "The British -> The EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

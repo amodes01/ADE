@@ -1,0 +1,216 @@
+[
+    {
+        "sentence": "Federal Reserve Chair Janet Yellen on Tuesday repeated the U.S. central bank's concerns over the \"Brexit\" vote, telling lawmakers it could have \"significant economic repercussions\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. Federal Reserve",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. Federal Reserve",
+                "types": [],
+                "wikid": "U.S. Federal Reserve",
+                "dbpedia": "U.S. Federal Reserve"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. Federal Reserve -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. Federal Reserve -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "its effects on U.S. monetary policy, trade and corporate profits are causing concern in Washington D.C. and boardrooms alike",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. Federal Reserve",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. Federal Reserve",
+                "types": [],
+                "wikid": "U.S. Federal Reserve",
+                "dbpedia": "U.S. Federal Reserve"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit effects on U.S. economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit effects on U.S. economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. Federal Reserve -> Brexit effects on U.S. economy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The likely outcome is more of a pause, an additional slowdown. What are economies struggling with? Global demand is low, trade is low. Growth is slow. None of this will help that",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Arone",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Arone",
+                "types": [],
+                "wikid": "Michael Arone",
+                "dbpedia": "Michael Arone"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit's economic impact",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit's economic impact"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Michael Arone -> Brexit's economic impact": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We think a strong UK in a strong and unified European Union is in everybody's interest",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Froman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Froman",
+                "types": [],
+                "wikid": "Michael Froman",
+                "dbpedia": "Michael Froman"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK and EU relations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK and EU relations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Michael Froman -> United Kingdom": [
+                1.0
+            ],
+            "Michael Froman -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Michael Froman -> UK and EU relations": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We think their voice is stronger as part of a larger entity",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michael Froman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michael Froman",
+                "types": [],
+                "wikid": "Michael Froman",
+                "dbpedia": "Michael Froman"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Michael Froman -> UK's EU membership": [
+                1.0
+            ]
+        }
+    }
+]

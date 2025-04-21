@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Google Trends", "references": ["Google Trends"] },
+      "justifications": [
+        "The queries represent the most-searched items relating to the European Union.",
+        "Google Trends looks at a random sample of all searches, so you do not see the total number of specific searches."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "search spikes", "references": ["Google search spike"] },
+      "justifications": [
+        "The paper pointed to a spike in the query 'what happens if we leave the EU,' as evidence voters were unaware they voted to leave."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Daily Mail", "references": ["Daily Mail"] },
+      "entity2": { "entity": "Washington Post", "references": ["The Washington Post"] },
+      "justifications": [
+        "The Washington Post also posted an article on the trend implying that voters in the United Kingdom did not know exactly what they were voting for."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Daily Mail", "references": ["Daily Mail"] },
+      "entity2": { "entity": "British voters", "references": ["voters in the United Kingdom"] },
+      "justifications": [
+        "The paper pointed to a spike in the query 'what happens if we leave the EU,' as evidence voters were unaware they voted to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "John Oliver", "references": ["John Oliver"] },
+      "entity2": { "entity": "British voters", "references": ["some Britons"] },
+      "justifications": [
+        "Even John Oliver poked fun at the trend on HBO's Last Week Tonight. 'It's frankly hard not to think that some Britons may not have fully thought this through.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Pete Meyers", "references": ["Pete Meyers"] },
+      "entity2": { "entity": "Google Trends", "references": ["Google Trends"] },
+      "justifications": [
+        "'The problem with Google Trends is that it's essentially a black box,' said Pete Meyers, a marketing scientist at Moz."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Marti Hearst", "references": ["Marti Hearst"] },
+      "entity2": { "entity": "Google Trends", "references": ["Google Trends"] },
+      "justifications": [
+        "'Another major flaw in using Google Trends to make bold pronouncements like the Daily Mail is that the most common way to search something is usually the term that shows up at the top,' said Marti Hearst, a professor."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

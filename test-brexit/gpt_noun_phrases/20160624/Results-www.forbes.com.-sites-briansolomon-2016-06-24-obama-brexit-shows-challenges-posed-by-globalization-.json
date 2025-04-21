@@ -1,0 +1,191 @@
+[
+    {
+        "sentence": "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Great Britain",
+                "types": [],
+                "wikid": "Great Britain",
+                "dbpedia": "Great Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> Great Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama said...I do think that yesterday's vote raises challenges posed by globalization.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It promises to bring extraordinary benefits, and evokes extraordinary fears.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He noted that the 'special relationship' that the U.S. has with Britain, as well as the close economic ties with the European Union, will endure.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Obama went on to hold an on-stage conversation with Facebook's billionaire CEO Mark Zuckerberg.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mark Zuckerberg",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mark Zuckerberg",
+                "types": [],
+                "wikid": "Mark Zuckerberg",
+                "dbpedia": "Mark Zuckerberg"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Mark Zuckerberg": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

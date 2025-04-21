@@ -1,0 +1,112 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "James Bloodworth", "references": ["James Bloodworth"]},
+      "target": {"topic": "immigration", "references": ["issue", "immigrants", "immigration"]},
+      "justifications": [
+        "the issue can not be explained in purely economic terms.",
+        "Even as the number of migrants arriving in the U.K. rose to a record 333,000 in May of this year, immigrants have been an overall boon to the British economy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "target": {"topic": "immigration", "references": ["immigrants"]},
+      "justifications": [
+        "J.K. Rowling... writes about the danger of painting immigrants as monsters and villains."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "University of Oxford's Migration Observatory", "references": ["University of Oxford's Migration Observatory"]},
+      "target": {"topic": "immigration", "references": ["migration", "migration concerns", "negative attitudes towards migration"]},
+      "justifications": [
+        "the University of Oxford's Migration Observatory has been saying in recent years... cultural concerns better explain negative attitudes towards migration than a person's economic position."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"topic": "immigration", "references": ["EU residents", "immigrants", "immigration"]},
+      "justifications": [
+        "Sadiq Khan, the mayor of London, wrote a message on his Facebook page telling EU residents living in London that they are welcome and that the city is grateful for them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Lauren Hansen", "references": ["Lauren Hansen"]},
+      "target": {"topic": "immigration", "references": ["anti-immigration sentiment", "diversity"]},
+      "justifications": [
+        "Mayor Khan's comments are especially poignant in this post-Brexit world as the continent's largest city grapples with the tension between an anti-immigration sentiment and the diversity that makes London, and cities like it, thrive both economically and culturally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "target": {"topic": "Brexit", "references": ["Leave movement"]},
+      "justifications": [
+        "J.K. Rowling... cautions against casting everyone who backed the Leave movement as a bigot."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "target": {"topic": "Brexit", "references": ["Leave movement"]},
+      "justifications": [
+        "Nevertheless, it is equally nonsensical to pretend that racists and bigots are not flocking to the 'Leave' cause."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "John Cassidy", "references": ["John Cassidy"]},
+      "target": {"topic": "Brexit", "references": ["Brexit movement"]},
+      "justifications": [
+        "In an article called 'What Do The Brexit Movement And Donald Trump Have In Common?' the New Yorker's John Cassidy wrote: 'Certainly, a parallel factor in both men's rise is racism, or, more specifically, nativism.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "entity2": {"entity": "Leave movement", "references": ["Leave"]},
+      "justifications": [
+        "J.K. Rowling... cautions against casting everyone who backed the Leave movement as a bigot.",
+        "Nevertheless, it is equally nonsensical to pretend that racists and bigots are not flocking to the 'Leave' cause."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "EU residents", "references": ["EU residents"]},
+      "justifications": [
+        "Sadiq Khan... wrote a message on his Facebook page telling EU residents living in London that they are welcome and that the city is grateful for them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": [
+        "The picture of Nigel Farage standing in front of a poster showing a winding line of Syrian refugees captioned 'Breaking Point' is, as countless people have already pointed out, an almost exact duplicate of propaganda used by the Nazis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit movement"]},
+      "justifications": [
+        "Trump has publicly supported Britain's vote to leave the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": [
+        "Trump has publicly supported Britain's vote to leave the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

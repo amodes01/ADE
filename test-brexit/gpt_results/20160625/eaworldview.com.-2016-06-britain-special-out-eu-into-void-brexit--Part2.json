@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit campaign",
+        "references": ["Brexit campaigners"]
+      },
+      "target": {
+        "topic": "short term economic impact",
+        "references": ["painful in the short term"]
+      },
+      "justifications": [
+        "Even the Brexit campaigners admitted that Exit would inevitably be painful in the 'short term'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "NHS funding",
+        "references": ["£350 million a week more for the NHS"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Leave vote"]
+      },
+      "justifications": [
+        "The NHS faces intense financial pressures and the best way to address those pressures is through a growing economy and increased tax revenues. The financial uncertainties introduced by the Leave vote look very unlikely to generate that growth, in the short-term at least."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "NHS marketization",
+        "references": ["marketization of the NHS"]
+      },
+      "target": {
+        "topic": "EU policies",
+        "references": ["EU-led agenda"]
+      },
+      "justifications": [
+        "However, people opposed to NHS marketization would be naïve to see this as an EU-led agenda, when so much of the opening up of the NHS to market competition has come from the policies of recent Westminster governments."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Paddy Ashdown",
+        "references": ["Paddy Ashdown"]
+      },
+      "entity2": {
+        "entity": "Brexit campaigners",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "The former leader of the Liberal Democrats, Paddy Ashdown, captured the moment in four words after the BBC declared victory for the Leave campaign in Britain's EU referendum: God help our country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "Leave campaign",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "Even the UK Independence party leader Nigel Farage said, soon after the result was announced, that it was 'a mistake' to make that claim."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

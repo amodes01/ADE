@@ -1,0 +1,140 @@
+[
+    {
+        "sentence": "three are Swiss, suggesting there really is something special about mountain air",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Swiss firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Swiss firms",
+                "types": [],
+                "wikid": "Swiss firms",
+                "dbpedia": "Swiss firms"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "mountain air",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "mountain air"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Swiss firms -> mountain air": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "suggesting there really is something special about mountain air and r\u00f6sti",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Swiss firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Swiss firms",
+                "types": [],
+                "wikid": "Swiss firms",
+                "dbpedia": "Swiss firms"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "r\u00f6sti",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "r\u00f6sti"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Swiss firms -> r\u00f6sti": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "run by Brazilians who happen to have picked Belgium for their main share listing",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "AB InBev",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "AB InBev",
+                "types": [],
+                "wikid": "AB InBev",
+                "dbpedia": "AB InBev"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Belgium",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Belgium"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "AB InBev -> Belgium": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "three are Swiss, suggesting there really is something special about mountain air and r\u00f6sti; another, beer firm AB InBev, is run by Brazilians who happen to have picked Belgium for their main share listing",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Swiss firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Swiss firms",
+                "types": [],
+                "wikid": "Swiss firms",
+                "dbpedia": "Swiss firms"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "AB InBev",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "AB InBev",
+                "types": [],
+                "wikid": "AB InBev",
+                "dbpedia": "AB InBev"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Swiss firms -> AB InBev": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

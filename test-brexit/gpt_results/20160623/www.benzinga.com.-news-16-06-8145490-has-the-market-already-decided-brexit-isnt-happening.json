@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "George Soros", "references": ["George Soros"] },
+      "target": { "topic": "Brexit", "references": ["vote to leave the European Union"] },
+      "justifications": ["George Soros cautioned against a vote to leave the European Union."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Larry Fink", "references": ["Larry Fink"] },
+      "target": { "topic": "Brexit", "references": ["vote to leave the European Union"] },
+      "justifications": ["a view that was also shared by BlackRock's CEO Larry Fink"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "John Oliver", "references": ["John Oliver"] },
+      "target": { "topic": "Brexit", "references": ["vote to leave the European Union"] },
+      "justifications": ["a view that was also shared by the British-born comedian John Oliver"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "British voters", "references": ["Voters in Britain"] },
+      "target": { "topic": "Brexit", "references": ["Britain's membership within the European Union"] },
+      "justifications": ["Voters in Britain are deciding the fate of the country's membership within the European Union in a vote dubbed 'Brexit'."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "U.S. stock market", "references": ["U.S. stocks"] },
+      "target": { "topic": "Brexit uncertainty", "references": ["uncertainty over the vote"] },
+      "justifications": ["U.S. stocks were surging on Thursday - a complete reversal from the popular notion that fear and uncertainty are bad for the markets."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "FTSE 100", "references": ["FTSE 100"] },
+      "target": { "topic": "Brexit uncertainty", "references": ["uncertainty over the vote"] },
+      "justifications": ["The UK's main index, the FTSE 100, gained 1.23 percent during its trading session on Thursday."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "George Soros", "references": ["George Soros"] },
+      "entity2": { "entity": "Larry Fink", "references": ["Larry Fink"] },
+      "justifications": ["a view that was also shared by BlackRock's CEO Larry Fink"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "George Soros", "references": ["George Soros"] },
+      "entity2": { "entity": "John Oliver", "references": ["John Oliver"] },
+      "justifications": ["a view that was also shared by the British-born comedian John Oliver"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Larry Fink", "references": ["Larry Fink"] },
+      "entity2": { "entity": "John Oliver", "references": ["John Oliver"] },
+      "justifications": ["a view that was also shared by the British-born comedian John Oliver"],
+      "attitude": "Positive"
+    }
+  ]
+}

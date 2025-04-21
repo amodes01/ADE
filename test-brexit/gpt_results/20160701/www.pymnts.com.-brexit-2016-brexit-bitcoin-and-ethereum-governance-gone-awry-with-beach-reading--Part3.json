@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "democratic voting", "references": ["democratic voting"] },
+      "justifications": ["Brexit... all show the importance of good governance... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "bitcoin", "references": ["bitcoin"] },
+      "target": { "topic": "democratic voting", "references": ["democratic voting"] },
+      "justifications": ["Bitcoin... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Ethereum", "references": ["Ethereum"] },
+      "target": { "topic": "democratic voting", "references": ["democratic voting"] },
+      "justifications": ["Ethereum... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Bitcoin", "references": ["Bitcoin"] },
+      "target": { "topic": "governance systems", "references": ["hardwired governance systems"] },
+      "justifications": ["Bitcoin and Ethereum, unfortunately, have hardwired governance systems that are incapable of maximizing the value of these platforms for their participants."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Ethereum", "references": ["Ethereum"] },
+      "target": { "topic": "governance systems", "references": ["hardwired governance systems"] },
+      "justifications": ["Bitcoin and Ethereum, unfortunately, have hardwired governance systems that are incapable of maximizing the value of these platforms for their participants."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "U.K.", "references": ["The U.K."] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The U.K. actually has a representative democracy in place that could pull it back from the brink."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Bitcoin", "references": ["Bitcoin"] },
+      "entity2": { "entity": "Ethereum", "references": ["Ethereum"] },
+      "justifications": ["Bitcoin and Ethereum, unfortunately, have hardwired governance systems that are incapable of maximizing the value of these platforms for their participants."],
+      "attitude": "Neutral"
+    }
+  ]
+}

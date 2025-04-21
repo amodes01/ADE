@@ -1,0 +1,160 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["remain in the EU"]
+      },
+      "justifications": [
+        "A majority of voters in both Scotland and Northern Ireland cast a vote for the U.K. to remain in the EU. In fact, every single region in Scotland opted to stay. As a nation, Scotland voted to remain by 62 percent to 38 percent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Republic of Ireland",
+        "references": ["Republic of Ireland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["EU member"]
+      },
+      "justifications": [
+        "Northern Ireland leaving to merge with the independent Republic of Ireland, which is an EU member."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Northern Ireland",
+        "references": ["Northern Ireland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["remain in the EU"]
+      },
+      "justifications": [
+        "Northern Ireland was approximately 56 percent in favor of remaining"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "England",
+        "references": ["England"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["leave the EU"]
+      },
+      "justifications": [
+        "both Wales and England saw approximately 53 percent of voters in favor of leaving the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Wales",
+        "references": ["Wales"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["leave the EU"]
+      },
+      "justifications": [
+        "both Wales and England saw approximately 53 percent of voters in favor of leaving the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Scottish independence movement",
+        "references": ["Scottish independence"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit decision"]
+      },
+      "justifications": [
+        "The results seemed to confirm to many in Scotland that they do not have a voice in the United Kingdom. And for some, it was further reason for Scotland to align itself with the EU rather than Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit decision"]
+      },
+      "justifications": [
+        "Being removed from the EU against the will of Scottish voters, Sturgeon says, is \"democratically unacceptable.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["United Kingdom"]
+      },
+      "justifications": [
+        "The results seemed to confirm to many in Scotland that they do not have a voice in the United Kingdom."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["United Kingdom"]
+      },
+      "justifications": [
+        "Being removed from the EU against the will of Scottish voters, Sturgeon says, is \"democratically unacceptable.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Martin McGuinness",
+        "references": ["Martin McGuinness"]
+      },
+      "entity2": {
+        "entity": "Arlene Foster",
+        "references": ["Arlene Foster"]
+      },
+      "justifications": [
+        "Deputy First Minister Martin McGuinness, a Sinn Fein politician, is urging a referendum on the question. But First Minister Arlene Foster, who is pro-Britain, says it will not be happening."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Republic of Ireland",
+        "references": ["Republic of Ireland"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["United Kingdom"]
+      },
+      "justifications": [
+        "Northern Ireland leaving to merge with the independent Republic of Ireland, which is an EU member."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

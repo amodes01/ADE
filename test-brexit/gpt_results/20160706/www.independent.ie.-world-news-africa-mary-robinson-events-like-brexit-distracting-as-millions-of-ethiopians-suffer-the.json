@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "Ethiopian drought", "references": ["worst drought in half a century"] },
+      "justifications": ["has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "El Nino weather pattern", "references": ["El Nino weather pattern"] },
+      "justifications": ["The former president of Ireland hit out after being briefed on the devastating impacts of the El Nino weather pattern."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "climate change", "references": ["climate change"] },
+      "justifications": ["The former president of Ireland hit out after being briefed on the devastating impacts of the El Nino weather pattern and climate change."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "entity2": { "entity": "international community", "references": ["international community"] },
+      "justifications": ["has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."],
+      "attitude": "Negative"
+    }
+  ]
+}

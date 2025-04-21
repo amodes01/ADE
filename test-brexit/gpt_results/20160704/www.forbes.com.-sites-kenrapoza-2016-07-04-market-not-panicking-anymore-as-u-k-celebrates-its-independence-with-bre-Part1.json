@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "John Vail", "references": ["John Vail"] },
+      "target": { "topic": "post-BREXIT global economy", "references": ["post-BREXIT globe"] },
+      "justifications": [
+        "\"We do not think economies or risk markets will crash, but it is hard to be enthusiastic about the prospects for the post-BREXIT globe for the next few quarters.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Paul Krugman", "references": ["Paul Krugman"] },
+      "target": { "topic": "Brexit economic impact", "references": ["Brexit", "U.K. leaving the European Union"] },
+      "justifications": [
+        "Krugman wrote in his recent blog that the near-universal consensus among economists that the U.K. 'independence' vote constitutes a major negative shock to demand is flawed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Paul Krugman", "references": ["Paul Krugman"] },
+      "target": { "topic": "Brexit economic impact", "references": ["Brexit", "U.K. leaving the European Union"] },
+      "justifications": [
+        "Krugman says there is nothing in standard macroeconomic models which suggests the U.K. leaving the European Union is akin to an EU implosion on the demand side."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Carmen Reinhart", "references": ["Carmen Reinhart"] },
+      "target": { "topic": "globalization", "references": ["globalization"] },
+      "justifications": [
+        "Kennedy School professor Carmen Reinhart argues from Harvard University in Cambridge that Brexit has dealt a blow to globalization, especially in terms of trade and finance."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "John Vail", "references": ["John Vail"] },
+      "entity2": { "entity": "Nikko Asset Management", "references": ["Nikko Asset Management"] },
+      "justifications": [
+        "\"Nikko expects an average of about one percentage point will be lopped off from recent GDP trends in major countries during the next four quarters, while the U.K. will likely descend into a moderate recession.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Paul Krugman", "references": ["Paul Krugman"] },
+      "entity2": { "entity": "economists", "references": ["economists"] },
+      "justifications": [
+        "Krugman writes that many of the consensus economics have been tarnished by 'politically motivated reasoning' rather than sticking to impartial analysis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Carmen Reinhart", "references": ["Carmen Reinhart"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Carmen Reinhart argues from Harvard University in Cambridge that Brexit has dealt a blow to globalization, especially in terms of trade and finance."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

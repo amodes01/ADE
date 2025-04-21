@@ -1,0 +1,167 @@
+[
+    {
+        "sentence": "The National Farmers Union, which represents around 55,000 farmers in England and Wales, was against breaking with the EU from the start.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "National Farmers Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "National Farmers Union",
+                "types": [],
+                "wikid": "National Farmers Union",
+                "dbpedia": "National Farmers Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farndale",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farndale",
+                "types": [],
+                "wikid": "Nigel Farndale",
+                "dbpedia": "Nigel Farndale"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Professor Patrick Minford",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Professor Patrick Minford",
+                "types": [],
+                "wikid": "Professor Patrick Minford",
+                "dbpedia": "Professor Patrick Minford"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "National Farmers Union -> Nigel Farndale": [
+                -1.0
+            ],
+            "National Farmers Union -> Professor Patrick Minford": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "National Farmers Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mike Thomas, a spokesman for the NFU, the organization wants to ensure the independent UK government will continue to provide similar supports for the agricultural sector.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mike Thomas",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mike Thomas",
+                "types": [],
+                "wikid": "Mike Thomas",
+                "dbpedia": "Mike Thomas"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mike Thomas -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In February, before the referendum, British author, journalist, and former farmer, Nigel Farndale penned a piece for The Spectator, in which he argues that leaving the EU could save Britain \u00a33 billion ($3.97 billion) a year while maintaining the same amount of farming subsidies currently supporting British farmers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farndale",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farndale",
+                "types": [],
+                "wikid": "Nigel Farndale",
+                "dbpedia": "Nigel Farndale"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farndale -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Professor Patrick Minford, an economist and former advisor to Margaret Thatcher, who teaches at Cardiff University, also believes Brexit will be good for farmers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Professor Patrick Minford",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Professor Patrick Minford",
+                "types": [],
+                "wikid": "Professor Patrick Minford",
+                "dbpedia": "Professor Patrick Minford"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Professor Patrick Minford -> Brexit": [
+                1.0
+            ]
+        }
+    }
+]

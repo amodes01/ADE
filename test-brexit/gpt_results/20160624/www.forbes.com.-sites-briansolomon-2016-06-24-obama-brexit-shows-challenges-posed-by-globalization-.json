@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "Obama said...I do think that yesterday's vote raises challenges posed by globalization."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "It promises to bring extraordinary benefits, and evokes extraordinary fears."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Great Britain",
+        "references": ["Great Britain"]
+      },
+      "justifications": [
+        "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "He noted that the 'special relationship' that the U.S. has with Britain, as well as the close economic ties with the European Union, will endure."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Mark Zuckerberg",
+        "references": ["Mark Zuckerberg"]
+      },
+      "justifications": [
+        "Obama went on to hold an on-stage conversation with Facebook's billionaire CEO Mark Zuckerberg."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

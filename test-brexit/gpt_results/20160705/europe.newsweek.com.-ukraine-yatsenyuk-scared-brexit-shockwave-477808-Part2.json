@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "target": { "topic": "inspector general's office", "references": ["inspector general's office"] },
+      "justifications": ["Lutsenko plans to establish an inspector general's office within the office."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "target": { "topic": "judicial reforms", "references": ["sweeping judicial reforms"] },
+      "justifications": ["Yatsenyuk praised the sweeping judicial reforms that parliament passed in early June."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "target": { "topic": "anti-corruption investigators", "references": ["European cooperation with Ukraine's anti-corruption investigators"] },
+      "justifications": ["Yatsenyuk urged better European cooperation with Ukraine's anti-corruption investigators."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "target": { "topic": "bribery", "references": ["bribes are the only way for many people to feed their families"] },
+      "justifications": ["Yatsenyuk admitted that public sector workers earn extremely low wages and bribes are the only way for many people to feed their families."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "target": { "topic": "Poroshenko loyalty", "references": ["Lutsenko was initially criticized for being too loyal to Poroshenko"] },
+      "justifications": ["Lutsenko was initially criticized for being too loyal to Poroshenko."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "target": { "topic": "law degree", "references": ["Lutsenko was initially criticized for lacking a law degree"] },
+      "justifications": ["Lutsenko was initially criticized for lacking a law degree."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "target": { "topic": "e-declaration", "references": ["e-declaration"] },
+      "justifications": ["Yatsenyuk described the document as forty pages long and 'much tougher than [similar requirements] in the United States.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Melinda Haring", "references": ["Melinda Haring"] },
+      "target": { "topic": "Atlantic Council", "references": ["Atlantic Council"] },
+      "justifications": ["Melinda Haring is the editor of the UkraineAlert at the Atlantic Council."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "entity2": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "justifications": ["Yatsenyuk said, 'I have full trust in him. He wants to deliver.'"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "entity2": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "justifications": ["Yatsenyuk praised the sweeping judicial reforms that parliament passed in early June."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"] },
+      "entity2": { "entity": "Poroshenko", "references": ["Poroshenko"] },
+      "justifications": ["Lutsenko was initially criticized for being too loyal to Poroshenko."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"] },
+      "entity2": { "entity": "Ukraine's internally displaced persons", "references": ["Ukraine's 1.8 million internally displaced persons"] },
+      "justifications": ["Yatsenyuk said, 'The situation is more or less under control.'"],
+      "attitude": "Negative"
+    }
+  ]
+}

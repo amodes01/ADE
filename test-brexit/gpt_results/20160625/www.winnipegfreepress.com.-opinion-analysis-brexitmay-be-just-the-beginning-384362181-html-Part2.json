@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "British economy", "references": ["British economy"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["the British economy goes into recession and the City of London starts to lose its status as a global financial centre rivalled only by New York."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Charles De Gaulle", "references": ["Charles De Gaulle"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Charles De Gaulle vetoed British entry to the Common Market, the EU's ancestor, for five years on the grounds it did not really have a 'European vocation.' Turns out he was right."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The triumph of Brexit is a most regrettable outcome for everybody involved and possibly even for the world economy."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Spain", "references": ["Spain"] },
+      "entity2": { "entity": "Scotland", "references": ["Scotland"] },
+      "justifications": ["Spain, in particular, will give it a hard time, as Madrid does not want to provide a precedent for Catalonia seceding from Spain and painlessly re-emerging as an independent EU member."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Republic of Ireland", "references": ["Republic of Ireland"] },
+      "entity2": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "justifications": ["The Republic of Ireland will continue to be a EU member, and so it will have to re-establish border controls."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Northern Ireland Protestants", "references": ["Northern Irish Protestants"] },
+      "entity2": { "entity": "Republic of Ireland", "references": ["Republic of Ireland"] },
+      "justifications": ["One alternative would be for Northern Ireland (which voted in favour of staying in the EU) to unite with the Republic, but Northern Irish Protestants would still fiercely resist such a proposal."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "entity2": { "entity": "Republic of Ireland", "references": ["Republic of Ireland"] },
+      "justifications": ["One alternative would be for Northern Ireland (which voted in favour of staying in the EU) to unite with the Republic."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Gwynne Dyer", "references": ["Gwynne Dyer"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The triumph of Brexit is a most regrettable outcome for everybody involved and possibly even for the world economy."],
+      "attitude": "Negative"
+    }
+  ]
+}

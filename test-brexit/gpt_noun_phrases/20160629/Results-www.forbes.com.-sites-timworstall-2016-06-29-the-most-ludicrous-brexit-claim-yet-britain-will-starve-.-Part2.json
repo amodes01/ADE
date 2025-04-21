@@ -1,0 +1,208 @@
+[
+    {
+        "sentence": "The UK is not self-sufficient.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "self-sufficiency",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "self-sufficiency"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> self-sufficiency": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Yes, really, worse: Like all affluent societies, the UK has experienced a slow but dramatic change in food prices since World War 2.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "food prices",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "food prices"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> food prices": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UK is 40% reliant on EU imports for fruit and vegetables.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "food import reliance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "food import reliance"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK -> food import reliance": [
+                -1.0
+            ],
+            "EU -> food import reliance": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "tariffs on imports if the UK was outside the EU might affect this situation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tariffs on imports",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tariffs on imports"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> tariffs on imports": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We are all going to starve because Martin Schulz is not our Parliamentary President any more.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Martin Schulz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Martin Schulz",
+                "types": [],
+                "wikid": "Martin Schulz",
+                "dbpedia": "Martin Schulz"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK -> Martin Schulz": [
+                -1.0
+            ],
+            "Martin Schulz -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

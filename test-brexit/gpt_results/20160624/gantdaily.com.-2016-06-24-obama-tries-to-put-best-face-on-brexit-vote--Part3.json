@@ -1,0 +1,31 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "United States", "references": ["U.S."] },
+      "target": { "topic": "UK exit", "references": ["UK exit"] },
+      "justifications": [
+        "Deputy Secretary of State Antony Blinken said that the U.S. would help to ensure the UK exit, expected to take about two years, goes smoothly."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "United States", "references": ["U.S."] },
+      "target": { "topic": "UK exit", "references": ["UK exit"] },
+      "justifications": [
+        "For sure, Blinken said, \"it's going to be a complicated process.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "United States", "references": ["U.S."] },
+      "entity2": { "entity": "United Kingdom", "references": ["UK"] },
+      "justifications": [
+        "Deputy Secretary of State Antony Blinken said that the U.S. would help to ensure the UK exit, expected to take about two years, goes smoothly.",
+        "He also stressed the special U.S. ties to the UK."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

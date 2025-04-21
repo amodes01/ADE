@@ -1,0 +1,147 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "The Institute of Chartered Accountants England and Wales",
+        "references": ["The Institute of Chartered Accountants England and Wales", "ICAEW"]
+      },
+      "target": {
+        "topic": "business finances",
+        "references": ["advice on this", "practical steps founders can take"]
+      },
+      "justifications": [
+        "The Institute of Chartered Accountants England and Wales, (ICAEW) has some great advice on this."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "UK firms",
+        "references": ["UK firms"]
+      },
+      "target": {
+        "topic": "EU suppliers",
+        "references": ["goods coming inwards from EU suppliers"]
+      },
+      "justifications": [
+        "What worries some UK firms is that if they have to pay more for goods coming inwards from EU suppliers"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British firms",
+        "references": ["British firms"]
+      },
+      "target": {
+        "topic": "EU VAT rules",
+        "references": ["VAT MOSS", "EU VAT MOSS scheme"]
+      },
+      "justifications": [
+        "These firms will have to join a member state's Non-EU VAT MOSS scheme, or register individually in each EU country they do business with."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UKFT.org",
+        "references": ["UKFT.org"]
+      },
+      "target": {
+        "topic": "British suppliers",
+        "references": ["British suppliers", "British clothing manufacturers"]
+      },
+      "justifications": [
+        "UKFT.org has a listing of British clothing manufacturers on its site www.ukft.org"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "The World Trade Organisation",
+        "references": ["The World Trade Organisation"]
+      },
+      "target": {
+        "topic": "trade outside of Europe",
+        "references": ["trade outside of Europe"]
+      },
+      "justifications": [
+        "The World Trade Organisation's website has data around import and duty tariffs and regulations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Enterprise Nation",
+        "references": ["Enterprise Nation"]
+      },
+      "target": {
+        "topic": "trade missions",
+        "references": ["trade missions to China and the US"]
+      },
+      "justifications": [
+        "Later this year Enterprise Nation will be leading trade missions to China and the US for the smallest firms."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "UK firms",
+        "references": ["UK firms"]
+      },
+      "entity2": {
+        "entity": "EU suppliers",
+        "references": ["EU suppliers"]
+      },
+      "justifications": [
+        "What worries some UK firms is that if they have to pay more for goods coming inwards from EU suppliers"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British firms",
+        "references": ["British firms"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "These firms will have to join a member state's Non-EU VAT MOSS scheme, or register individually in each EU country they do business with."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "UKFT.org",
+        "references": ["UKFT.org"]
+      },
+      "entity2": {
+        "entity": "British suppliers",
+        "references": ["British suppliers"]
+      },
+      "justifications": [
+        "UKFT.org has a listing of British clothing manufacturers on its site www.ukft.org"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Enterprise Nation",
+        "references": ["Enterprise Nation"]
+      },
+      "entity2": {
+        "entity": "small firms",
+        "references": ["small firms"]
+      },
+      "justifications": [
+        "Later this year Enterprise Nation will be leading trade missions to China and the US for the smallest firms."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

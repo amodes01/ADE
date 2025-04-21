@@ -1,0 +1,250 @@
+[
+    {
+        "sentence": "George Soros cautioned against a vote to leave the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Soros -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "a view that was also shared by BlackRock's CEO Larry Fink",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Larry Fink",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Larry Fink",
+                "types": [],
+                "wikid": "Larry Fink",
+                "dbpedia": "Larry Fink"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "George Soros -> Larry Fink": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Larry Fink -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "a view that was also shared by the British-born comedian John Oliver",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Oliver",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Oliver",
+                "types": [],
+                "wikid": "John Oliver",
+                "dbpedia": "John Oliver"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Larry Fink",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Larry Fink",
+                "types": [],
+                "wikid": "Larry Fink",
+                "dbpedia": "Larry Fink"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "George Soros -> John Oliver": [
+                1.0
+            ],
+            "Larry Fink -> John Oliver": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Oliver -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Voters in Britain are deciding the fate of the country's membership within the European Union in a vote dubbed 'Brexit'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British voters",
+                "types": [],
+                "wikid": "British voters",
+                "dbpedia": "British voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British voters -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "U.S. stocks were surging on Thursday - a complete reversal from the popular notion that fear and uncertainty are bad for the markets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. stock market",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. stock market",
+                "types": [],
+                "wikid": "U.S. stock market",
+                "dbpedia": "U.S. stock market"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit uncertainty",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit uncertainty"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. stock market -> Brexit uncertainty": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UK's main index, the FTSE 100, gained 1.23 percent during its trading session on Thursday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "FTSE 100",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "FTSE 100",
+                "types": [],
+                "wikid": "FTSE 100",
+                "dbpedia": "FTSE 100"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit uncertainty",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit uncertainty"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "FTSE 100 -> Brexit uncertainty": [
+                1.0
+            ]
+        }
+    }
+]

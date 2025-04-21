@@ -1,0 +1,361 @@
+[
+    {
+        "sentence": "If Bernie Sanders supporters can learn anything from Brexit, it is that the English-speaking world is in the mood for a certain type of right-wing populism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bernie Sanders supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bernie Sanders supporters",
+                "types": [],
+                "wikid": "Bernie Sanders supporters",
+                "dbpedia": "Bernie Sanders supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Bernie Sanders supporters -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Bernie Sanders supporters -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "When the 2016 campaign started, Clinton had not taken a firm stance on the Trans-Pacific Partnership, but since then she has made it clear that she will oppose the agreement.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trans-Pacific Partnership (TPP)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trans-Pacific Partnership (TPP)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Trans-Pacific Partnership (TPP)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "While Trump has tried to claim that she initially supported the deal and only switched positions because of him, Clinton's position is actually consistent with what she wrote in her memoir.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trans-Pacific Partnership (TPP)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trans-Pacific Partnership (TPP)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Trans-Pacific Partnership (TPP)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton, on the other hand, would increase taxes on wealthier Americans.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's tax plan",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's tax plan"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Trump's tax plan": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The centerpiece of Trump's tax plan is to replace America's seven tax rates with three.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's tax plan",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's tax plan"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Trump's tax plan": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "All of these policies would benefit wealthier Americans and would most likely force the government to take money away from programs which help the working class.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trump's tax plan",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trump's tax plan"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Trump's tax plan": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump, not Clinton, has flip-flopped on this issue.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "minimum wage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "minimum wage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> minimum wage": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton's support for a $12 minimum wage may not go as far as Sanders' $15 proposal, it is certainly a vast improvement from Trump's ambiguousness here.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "minimum wage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "minimum wage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> minimum wage": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "While Trump may be effective at using a certain type of populist rhetoric, his economic plans would ultimately favor the wealthy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Clinton, though not as far to the left as Sanders, is pushing for policies that would benefit ordinary Americans.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

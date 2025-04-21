@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "Brexit", "references": ["Britain's decision leave the EU"] },
+      "justifications": ["Britain's decision leave the EU may be leaving the Brits in a precarious position"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Americans", "references": ["Americans"] },
+      "target": { "topic": "Brexit", "references": ["Britain's decision leave the EU"] },
+      "justifications": ["it is good news for Americans headed to the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Americans", "references": ["Americans"] },
+      "target": { "topic": "stronger dollar", "references": ["stronger dollar"] },
+      "justifications": ["it is good news for Americans headed to the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "stronger dollar", "references": ["stronger dollar"] },
+      "justifications": ["Britain's decision leave the EU may be leaving the Brits in a precarious position"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Americans", "references": ["Americans"] },
+      "justifications": ["it is good news for Americans headed to the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Larry Bachman", "references": ["Larry Bachman"] },
+      "justifications": ["Larry Bachman is headed to France, but when the news broke that Britain voted to pull out of the EU he thought about changing his plans"],
+      "attitude": "Negative"
+    }
+  ]
+}

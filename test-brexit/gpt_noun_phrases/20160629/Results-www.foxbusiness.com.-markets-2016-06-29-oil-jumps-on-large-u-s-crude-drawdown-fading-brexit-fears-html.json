@@ -1,0 +1,189 @@
+[
+    {
+        "sentence": "Oil prices surged 4 percent on Wednesday, with Brent settling above the psychological $50 a barrel mark, after a larger-than-expected drawdown in U.S. crude inventories.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil market",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil market",
+                "types": [],
+                "wikid": "oil market",
+                "dbpedia": "oil market"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "oil market -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Fading concerns... a crisis in Venezuela's energy sector were among factors supporting Wednesday's rally.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil market",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil market",
+                "types": [],
+                "wikid": "oil market",
+                "dbpedia": "oil market"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Venezuela's energy crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Venezuela's energy crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "oil market -> Venezuela's energy crisis": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Fading concerns over the so-called Brexit, potential for an oil workers' strike in Norway... were among factors supporting Wednesday's rally.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil market",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil market",
+                "types": [],
+                "wikid": "oil market",
+                "dbpedia": "oil market"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "oil workers' strike in Norway",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "oil workers' strike in Norway"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "oil market -> oil workers' strike in Norway": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I am still unimpressed with overall crude draws for June, said Scott Shelton\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scott Shelton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scott Shelton",
+                "types": [],
+                "wikid": "Scott Shelton",
+                "dbpedia": "Scott Shelton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "oil market",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "oil market",
+                "types": [],
+                "wikid": "oil market",
+                "dbpedia": "oil market"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "crude draws",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "crude draws"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Scott Shelton -> oil market": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Scott Shelton -> crude draws": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We played on that curve to widen out and it was good for us, said Tariq Zahir\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kilduff",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kilduff",
+                "types": [],
+                "wikid": "John Kilduff",
+                "dbpedia": "John Kilduff"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tariq Zahir",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tariq Zahir",
+                "types": [],
+                "wikid": "Tariq Zahir",
+                "dbpedia": "Tariq Zahir"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "John Kilduff -> Tariq Zahir": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

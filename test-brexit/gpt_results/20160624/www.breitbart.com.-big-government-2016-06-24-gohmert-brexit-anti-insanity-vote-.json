@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "justifications": [
+        "\"The British people's decision to leave the European Union (E.U.) was an 'anti-insanity vote'\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"They have been allowing the European Union to force them to take people who are a threat to them\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "target": { "topic": "Syrian refugees", "references": ["Syrian refugees"] },
+      "justifications": [
+        "\"The unfettered influx of Syrian refugees played a part in driving the Brexit vote in the U.K.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "target": { "topic": "Islamic State", "references": ["Islamic State"] },
+      "justifications": [
+        "\"The Islamic State is at war with us and it's high time we got after the enemy.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"They have been allowing the European Union to force them to take people who are a threat to them\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "entity2": { "entity": "Angela Merkel", "references": ["Angela Merkel"] },
+      "justifications": [
+        "\"like [Angela] Merkel in Germany - 'We will take all comers.'\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "\"That's why [Donald] Trump is so popular, people are sick of it.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Rep. Louie Gohmert", "references": ["Rep. Louie Gohmert"] },
+      "entity2": { "entity": "House Democrats", "references": ["House Democrats"] },
+      "justifications": [
+        "\"He was tying Thursday's Brexit vote to the 'insanity' of House Democrats staging a sit-in on the House floor over gun violence.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "Syrian refugees", "references": ["Syrian refugees"] },
+      "justifications": [
+        "\"the European Union has been saying, 'Hey,' - like [Angela] Merkel in Germany - 'We will take all comers.'\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

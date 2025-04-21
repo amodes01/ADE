@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "it gives English wine the opportunity to step out of its niche and establish itself as a real player in the mainstream UK wine market.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "English wine",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "English wine",
+                "types": [],
+                "wikid": "English wine",
+                "dbpedia": "English wine"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "mainstream UK wine market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "mainstream UK wine market"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "English wine -> mainstream UK wine market": [
+                1.0
+            ]
+        }
+    }
+]

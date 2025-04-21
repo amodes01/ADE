@@ -1,0 +1,210 @@
+[
+    {
+        "sentence": "The drought is the most important reason that fire season is growing each year.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "drought",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "drought",
+                "types": [],
+                "wikid": "drought",
+                "dbpedia": "drought"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "wildfires",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "wildfires"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "drought -> wildfires": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In our mountains, poor forest lands management in our urban forest communities, such as Big Bear, Running Springs and Lake Arrowhead (building foundations within drip lines or right up to the trunks, trees growing through decks, paving over treed areas, etc.), has weakened trees and caused an exacerbation of bark beetle populations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "drought",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "drought",
+                "types": [],
+                "wikid": "drought",
+                "dbpedia": "drought"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "forest management",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "forest management"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "drought -> forest management": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "What we see over and over again in these situations is that automakers are aware of product defects, but they alert consumers only after injuries mount and regulators finally step in to force a recall.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "automakers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "automakers",
+                "types": [],
+                "wikid": "automakers",
+                "dbpedia": "automakers"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "product defect awareness",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "product defect awareness"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "automakers -> product defect awareness": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Automakers need to show more urgency when dangerous defects become apparent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "regulators",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "regulators",
+                "types": [],
+                "wikid": "regulators",
+                "dbpedia": "regulators"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "recalls",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "recalls"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "regulators -> recalls": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "One has a situation where the past decade of average or below-average precipitation has resulted in a cumulative fire risk.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Timothy Krantz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Timothy Krantz",
+                "types": [],
+                "wikid": "Timothy Krantz",
+                "dbpedia": "Timothy Krantz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wendy McIntyre",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wendy McIntyre",
+                "types": [],
+                "wikid": "Wendy McIntyre",
+                "dbpedia": "Wendy McIntyre"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Timothy Krantz -> Wendy McIntyre": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Beth Kennedy developed CMU's new online Deafblind Intervener Certificate Program.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Beth Kennedy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Beth Kennedy",
+                "types": [],
+                "wikid": "Beth Kennedy",
+                "dbpedia": "Beth Kennedy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "DeafBlind Central",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "DeafBlind Central",
+                "types": [],
+                "wikid": "DeafBlind Central",
+                "dbpedia": "DeafBlind Central"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Beth Kennedy -> DeafBlind Central": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

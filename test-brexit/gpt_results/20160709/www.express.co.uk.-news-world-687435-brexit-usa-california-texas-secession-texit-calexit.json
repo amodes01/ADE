@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Texit, the secession of Texas from the United States, is the main goal of the Texas Nationalist Movement (TNM), who welcomed last month's historic vote for Britain to leave the European Union (EU).",
+        "He called on the governor of Texas to support his group's desire for an Texit referendum, highlighting the state's forced submission to the national government - a comparison that could be made with the EU's overwhelming control over the laws and borders of the 28-country bloc."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Yes California",
+        "references": ["Yes California"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Leader Louis Marinelli said Brexit was a \"shining example\" of people power, and called for an in-out referendum to be held on the day of the 2020 US Presidential election.",
+        "It was exciting to watch self-determination in action, and in the end the majority of the British people determined for themselves in a historic and inspiring election that their future would be better off independent of the European Union."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "entity2": {
+        "entity": "Yes California",
+        "references": ["Yes California"]
+      },
+      "justifications": [
+        "California also has its own secession movement, which has been similarly inspired by last month's Leave campaign and victory."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Texit, the secession of Texas from the United States, is the main goal of the Texas Nationalist Movement (TNM), who welcomed last month's historic vote for Britain to leave the European Union (EU)."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Yes California",
+        "references": ["Yes California"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Leader Louis Marinelli said Brexit was a \"shining example\" of people power, and called for an in-out referendum to be held on the day of the 2020 US Presidential election."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

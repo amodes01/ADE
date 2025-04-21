@@ -1,0 +1,206 @@
+[
+    {
+        "sentence": "But opposition leaders voiced concerns that Britain's exit will play into the hands of the Kremlin by temporarily paralyzing Europe and depriving it of one its most virulent critics of Russian President Vladimir Putin.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alyaksei Yanukevich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alyaksei Yanukevich",
+                "types": [],
+                "wikid": "Alyaksei Yanukevich",
+                "dbpedia": "Alyaksei Yanukevich"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kremlin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kremlin",
+                "types": [],
+                "wikid": "Kremlin",
+                "dbpedia": "Kremlin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Alyaksei Yanukevich -> Kremlin": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Alyaksei Yanukevich -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Prime Minister Giorgi Kvirikashvili expressed his 'personal regret' at the outcome of the British referendum.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giorgi Kvirikashvili",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giorgi Kvirikashvili",
+                "types": [],
+                "wikid": "Giorgi Kvirikashvili",
+                "dbpedia": "Giorgi Kvirikashvili"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Giorgi Kvirikashvili -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "he had 'no doubt' the European Union will survive the blow.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Giorgi Kvirikashvili",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Giorgi Kvirikashvili",
+                "types": [],
+                "wikid": "Giorgi Kvirikashvili",
+                "dbpedia": "Giorgi Kvirikashvili"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Giorgi Kvirikashvili -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Giorgi Kvirikashvili -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Over the next few years, Britain and other European countries will be very busy taking care of their internal affairs, they will be building a new architecture for Europe, and this means that outside the EU, most particularly in our region, the Kremlin will have more leeway.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alyaksei Yanukevich",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alyaksei Yanukevich",
+                "types": [],
+                "wikid": "Alyaksei Yanukevich",
+                "dbpedia": "Alyaksei Yanukevich"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Alyaksei Yanukevich -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In terms of possible political impact to Azerbaijan, the EU did not cooperate with us so closely, so I am not expecting any impact on bilateral relations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rasim Musabeyov",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rasim Musabeyov",
+                "types": [],
+                "wikid": "Rasim Musabeyov",
+                "dbpedia": "Rasim Musabeyov"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Rasim Musabeyov -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,378 @@
+[
+    {
+        "sentence": "We just did not know it would be Brexit that set the elephant loose.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italy",
+                "types": [],
+                "wikid": "Italy",
+                "dbpedia": "Italy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Italy -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "These steps are impossible under EU laws.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italy",
+                "types": [],
+                "wikid": "Italy",
+                "dbpedia": "Italy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU laws",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU laws"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Italy -> EU laws": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Bank of Italy has called for a complete overhaul of the bail-in rules.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lorenzo Codogno",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lorenzo Codogno",
+                "types": [],
+                "wikid": "Lorenzo Codogno",
+                "dbpedia": "Lorenzo Codogno"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU bail-in rules",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU bail-in rules"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Lorenzo Codogno -> EU bail-in rules": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There has to be a suspension of the bail-in rules and state aid rules at the highest political level in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lorenzo Codogno",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lorenzo Codogno",
+                "types": [],
+                "wikid": "Lorenzo Codogno",
+                "dbpedia": "Lorenzo Codogno"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Matteo Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Matteo Renzi",
+                "types": [],
+                "wikid": "Matteo Renzi",
+                "dbpedia": "Matteo Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU aid rules",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU aid rules"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Matteo Renzi -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Lorenzo Codogno -> EU aid rules": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Morgan Stanley warned in a new report that eurozone GDP would contract by almost as much as British GDP in a 'high stress scenario'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Morgan Stanley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Morgan Stanley",
+                "types": [],
+                "wikid": "Morgan Stanley",
+                "dbpedia": "Morgan Stanley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU economic health",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU economic health"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Morgan Stanley -> EU economic health": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Italy is the first serious casualty of Brexit contagion.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italy",
+                "types": [],
+                "wikid": "Italy",
+                "dbpedia": "Italy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Italy -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Renzi raised the subject urgently at a meeting with German Chancellor Angela Merkel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Matteo Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Matteo Renzi",
+                "types": [],
+                "wikid": "Matteo Renzi",
+                "dbpedia": "Matteo Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Angela Merkel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Angela Merkel",
+                "types": [],
+                "wikid": "Angela Merkel",
+                "dbpedia": "Angela Merkel"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Matteo Renzi -> Angela Merkel": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Renzi raised the subject urgently at a meeting with French president Francois Hollande.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Matteo Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Matteo Renzi",
+                "types": [],
+                "wikid": "Matteo Renzi",
+                "dbpedia": "Matteo Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Francois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Francois Hollande",
+                "types": [],
+                "wikid": "Francois Hollande",
+                "dbpedia": "Francois Hollande"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Matteo Renzi -> Francois Hollande": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Unlike the eurozone debt crisis in 2011-2012, there is no serious trouble yet in the sovereign debt markets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lorenzo Codogno",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lorenzo Codogno",
+                "types": [],
+                "wikid": "Lorenzo Codogno",
+                "dbpedia": "Lorenzo Codogno"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italian government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italian government",
+                "types": [],
+                "wikid": "Italian government",
+                "dbpedia": "Italian government"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Lorenzo Codogno -> Italian government": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Italy is preparing a \u20ac40bn rescue of its financial system as bank shares collapse on the Milan bourse.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italian government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italian government",
+                "types": [],
+                "wikid": "Italian government",
+                "dbpedia": "Italian government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italian banks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italian banks",
+                "types": [],
+                "wikid": "Italian banks",
+                "dbpedia": "Italian banks"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Italian government -> Italian banks": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

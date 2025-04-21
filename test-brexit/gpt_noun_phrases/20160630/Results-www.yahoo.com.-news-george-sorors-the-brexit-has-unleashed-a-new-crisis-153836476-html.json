@@ -1,0 +1,224 @@
+[
+    {
+        "sentence": "Soros warns the Brexit has 'unleashed' a new crisis",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Soros -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He says that a hard landing in China is 'practically unavoidable'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "hard landing in China",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "hard landing in China"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Soros -> hard landing in China": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "a broken European banking system will now be 'severely tested'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European banking system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European banking system"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Soros -> European banking system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the survey also revealed 16% of millennials would sell when the market falls",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Securian Financial Group",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Securian Financial Group",
+                "types": [],
+                "wikid": "Securian Financial Group",
+                "dbpedia": "Securian Financial Group"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "millennial investing confidence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "millennial investing confidence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Securian Financial Group -> millennial investing confidence": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hertz is partnering with both Uber and Lyft",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hertz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hertz",
+                "types": [],
+                "wikid": "Hertz",
+                "dbpedia": "Hertz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Lyft",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Lyft",
+                "types": [],
+                "wikid": "Lyft",
+                "dbpedia": "Lyft"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Uber",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Uber",
+                "types": [],
+                "wikid": "Uber",
+                "dbpedia": "Uber"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hertz -> Lyft": [
+                1.0
+            ],
+            "Hertz -> Uber": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The rental car company will supply drivers in the US with cars and build on pilot programs it's put in place in Las Vegas and Denver",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hertz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hertz",
+                "types": [],
+                "wikid": "Hertz",
+                "dbpedia": "Hertz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Uber",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Uber",
+                "types": [],
+                "wikid": "Uber",
+                "dbpedia": "Uber"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hertz -> Uber": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

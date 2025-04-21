@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "anti-tourism sentiments",
+        "references": ["growing anti-tourism sentiments"]
+      },
+      "target": {
+        "topic": "tourism industry",
+        "references": ["cruise vacation industry"]
+      },
+      "justifications": [
+        "growing anti-tourism sentiments"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "environmental concerns",
+        "references": ["environmental concerns"]
+      },
+      "target": {
+        "topic": "tourism industry",
+        "references": ["cruise vacation industry"]
+      },
+      "justifications": [
+        "growing anti-tourism sentiments and environmental concerns"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Silversea Cruises",
+        "references": ["Silversea Cruises"]
+      },
+      "entity2": {
+        "entity": "tourism industry",
+        "references": ["cruise vacation industry"]
+      },
+      "justifications": [
+        "concerns over safety, health and security of guests and crew"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

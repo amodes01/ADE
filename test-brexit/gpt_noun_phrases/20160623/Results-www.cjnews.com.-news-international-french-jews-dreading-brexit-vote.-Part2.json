@@ -1,0 +1,266 @@
+[
+    {
+        "sentence": "I feel equally safe and unsafe in both countries.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sacha Bielawski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sacha Bielawski",
+                "types": [],
+                "wikid": "Sacha Bielawski",
+                "dbpedia": "Sacha Bielawski"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Linda Borowski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Linda Borowski",
+                "types": [],
+                "wikid": "Linda Borowski",
+                "dbpedia": "Linda Borowski"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-Semitism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-Semitism"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Sacha Bielawski -> Linda Borowski": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Sacha Bielawski -> anti-Semitism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I am now in the process of immigrating to the United States because of the threat of jihadism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Linda Borowski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Linda Borowski",
+                "types": [],
+                "wikid": "Linda Borowski",
+                "dbpedia": "Linda Borowski"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "jihadism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "jihadism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Linda Borowski -> jihadism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Herz said the British media was playing up the risk to Jews in France and portraying Britain as a refuge in what he called 'French bashing.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Herz",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Herz",
+                "types": [],
+                "wikid": "Herz",
+                "dbpedia": "Herz"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British media",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British media",
+                "types": [],
+                "wikid": "British media",
+                "dbpedia": "British media"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "French bashing",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "French bashing"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Herz -> British media": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Herz -> French bashing": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Robert Halfon... argued in a March op-ed in the Jewish News that remaining would allow London to positively influence EU policy on Israel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Robert Halfon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Robert Halfon",
+                "types": [],
+                "wikid": "Robert Halfon",
+                "dbpedia": "Robert Halfon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Geoffrey Alderman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Geoffrey Alderman",
+                "types": [],
+                "wikid": "Geoffrey Alderman",
+                "dbpedia": "Geoffrey Alderman"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU policy on Israel",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU policy on Israel"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Robert Halfon -> Geoffrey Alderman": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Robert Halfon -> EU policy on Israel": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Geoffrey Alderman... disputed the point... he asserted that British Jews are better off lobbying for communal interests in London, which they know, than in Brussels, where they have less sway and which is perceived as more hostile to Israel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Geoffrey Alderman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Geoffrey Alderman",
+                "types": [],
+                "wikid": "Geoffrey Alderman",
+                "dbpedia": "Geoffrey Alderman"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU policy on Israel",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU policy on Israel"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Geoffrey Alderman -> EU policy on Israel": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Days before the vote, Cameron used the Israel argument in a last-ditch effort to muster Jewish votes for Bremaining.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jewish voters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jewish voters",
+                "types": [],
+                "wikid": "Jewish voters",
+                "dbpedia": "Jewish voters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Jewish votes for Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Jewish votes for Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron -> Jewish voters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "David Cameron -> Jewish votes for Brexit": [
+                1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "A federal judge in Lafayette will decide whether ICE detainees can be released into Louisiana",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "federal judge",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "federal judge",
+                "types": [],
+                "wikid": "federal judge",
+                "dbpedia": "federal judge"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ICE detainees",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ICE detainees",
+                "types": [],
+                "wikid": "ICE detainees",
+                "dbpedia": "ICE detainees"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "release of ICE detainees",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "release of ICE detainees"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "federal judge -> ICE detainees": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "federal judge -> release of ICE detainees": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A federal judge in Lafayette will decide whether ICE detainees can be released into Louisiana without first getting medically cleared by the state",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ICE detainees",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ICE detainees",
+                "types": [],
+                "wikid": "ICE detainees",
+                "dbpedia": "ICE detainees"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "medical clearance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "medical clearance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "ICE detainees -> medical clearance": [
+                -1.0
+            ]
+        }
+    }
+]

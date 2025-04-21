@@ -1,0 +1,364 @@
+[
+    {
+        "sentence": "Israel must still keep up its guard against the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Israel -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Israel -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Israel has rejected the initiative, maintaining that peace negotiations must be handled between the Israelis and Palestinians themselves, and not thrust upon the parties by outside actors.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "French initiative",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "French initiative",
+                "types": [],
+                "wikid": "French initiative",
+                "dbpedia": "French initiative"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Middle East peace negotiations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Middle East peace negotiations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Israel -> French initiative": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Israel -> Middle East peace negotiations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Israel is increasingly looking towards other markets-toward China, toward Russia, toward India.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade partnerships",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade partnerships"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Israel -> trade partnerships": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Israel is increasingly looking towards other markets-toward China.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Israel -> China": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Israel is increasingly looking towards other markets-toward Russia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Israel -> Russia": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Israel is increasingly looking towards other markets-toward India.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "India",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "India",
+                "types": [],
+                "wikid": "India",
+                "dbpedia": "India"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Israel -> India": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Africa is a very good market. There is more of a possibility to expand Israeli trade and its culture of innovation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israel",
+                "types": [],
+                "wikid": "Israel",
+                "dbpedia": "Israel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Africa",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Africa",
+                "types": [],
+                "wikid": "Africa",
+                "dbpedia": "Africa"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Israel -> Africa": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "It's no coincidence that Prime Minister Netanyahu is going to Africa in the coming weeks.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister Netanyahu",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister Netanyahu",
+                "types": [],
+                "wikid": "Prime Minister Netanyahu",
+                "dbpedia": "Prime Minister Netanyahu"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Africa",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Africa",
+                "types": [],
+                "wikid": "Africa",
+                "dbpedia": "Africa"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Prime Minister Netanyahu -> Africa": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Israeli Prime Minister Benjamin Netanyahu is headed to Rome to discuss renewed peace efforts with United States Secretary of State John Kerry, who is similarly supportive of the French effort.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Israeli Prime Minister Benjamin Netanyahu",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Israeli Prime Minister Benjamin Netanyahu",
+                "types": [],
+                "wikid": "Israeli Prime Minister Benjamin Netanyahu",
+                "dbpedia": "Israeli Prime Minister Benjamin Netanyahu"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States Secretary of State John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States Secretary of State John Kerry",
+                "types": [],
+                "wikid": "United States Secretary of State John Kerry",
+                "dbpedia": "United States Secretary of State John Kerry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "French effort",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "French effort",
+                "types": [],
+                "wikid": "French effort",
+                "dbpedia": "French effort"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Israeli Prime Minister Benjamin Netanyahu -> United States Secretary of State John Kerry": [
+                1.0
+            ],
+            "Israeli Prime Minister Benjamin Netanyahu -> French effort": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

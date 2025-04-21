@@ -1,0 +1,266 @@
+[
+    {
+        "sentence": "Serbians largely do not view immigration as a major issue.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Serbia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Serbia",
+                "types": [],
+                "wikid": "Serbia",
+                "dbpedia": "Serbia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Serbia -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trade is also a lesser concern.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Serbia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Serbia",
+                "types": [],
+                "wikid": "Serbia",
+                "dbpedia": "Serbia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Serbia -> trade": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia and giving pro-Russian groups an advantage.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jelica Minic",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jelica Minic",
+                "types": [],
+                "wikid": "Jelica Minic",
+                "dbpedia": "Jelica Minic"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "pro-Russian groups",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "pro-Russian groups",
+                "types": [],
+                "wikid": "pro-Russian groups",
+                "dbpedia": "pro-Russian groups"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Serbia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Serbia",
+                "types": [],
+                "wikid": "Serbia",
+                "dbpedia": "Serbia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Serbia -> Europe": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jelica Minic -> Europe": [
+                -1.0
+            ],
+            "pro-Russian groups -> Europe": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Minic and others say disillusionment with Europe after Brexit is helping push Serbia closer to Russia.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Serbia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Serbia",
+                "types": [],
+                "wikid": "Serbia",
+                "dbpedia": "Serbia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Serbia -> Russia": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "pro-Russian groups in Belgrade who believe Moscow has historically been a better friend to Serbia than the West.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "pro-Russian groups",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "pro-Russian groups",
+                "types": [],
+                "wikid": "pro-Russian groups",
+                "dbpedia": "pro-Russian groups"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "West",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "West",
+                "types": [],
+                "wikid": "West",
+                "dbpedia": "West"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "pro-Russian groups -> Russia": [
+                1.0
+            ],
+            "pro-Russian groups -> West": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Jugoslav Kiprijanovic, a spokesman for the pro-Russian Dveri movement, said his party... is raising its calls for a referendum on EU membership.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jugoslav Kiprijanovic",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jugoslav Kiprijanovic",
+                "types": [],
+                "wikid": "Jugoslav Kiprijanovic",
+                "dbpedia": "Jugoslav Kiprijanovic"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jugoslav Kiprijanovic -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Ben Davis", "references": ["Ben Davis"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Ben Davis has a pretty terrific essay on the art world's lack of self-awareness in the wake of Brexit.", "'The future,' he writes, 'can appear as an optimistic beacon only if you stand on its jet-setting winning side.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "John Oliver", "references": ["John Oliver"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["John Oliver explains Brexit, complete with dirty song performed by an angelic-looking boy."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["Obama"] },
+      "target": { "topic": "Obama's presidential library", "references": ["Obama's library"] },
+      "justifications": ["Obama has picked Billie Tsien Tod William Architects to design his presidential library."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Critics Christopher Hawthorne", "references": ["Christopher Hawthorne"] },
+      "target": { "topic": "Obama's presidential library", "references": ["Obama's library"] },
+      "justifications": ["Critics Christopher Hawthorne of The Times and Kriston Capps of Citylab say the selection is right in keeping with Obama's style."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Blair Kamin", "references": ["Blair Kamin"] },
+      "target": { "topic": "George Lucas' museum project", "references": ["George Lucas' museum project"] },
+      "justifications": ["Blair Kamin writes that it was George Lucas' own hubris that cost him his museum project in Chicago."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "John King", "references": ["John King"] },
+      "target": { "topic": "George Lucas' museum project", "references": ["George Lucas' museum project"] },
+      "justifications": ["John King offers him some friendly advice for getting the deal sealed: 'The museum proposals had an air of preordained inevitability, as though we should be grateful for such blessings from above. Guess what. People do not like to be told what's good for them.'"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Christo", "references": ["Christo"] },
+      "target": { "topic": "Floating Piers installation", "references": ["Floating Piers"] },
+      "justifications": ["Christo has said that his 'Floating Piers' installation at Lake Iseo in Italy was purely an aesthetic intervention."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Beretta family", "references": ["Beretta family"] },
+      "target": { "topic": "Floating Piers installation", "references": ["Floating Piers"] },
+      "justifications": ["The project received logistical support from the Beretta arms manufacturing family - raising questions about whether an installation of this nature can truly be free of politics."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Abbas Kiarostami", "references": ["Abbas Kiarostami"] },
+      "entity2": { "entity": "art world", "references": ["art world"] },
+      "justifications": ["Abbas Kiarostami, the Palme d'Or-winning Iranian director known for meditative pictures focused on the quests of everyday people."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Abbas Kiarostami", "references": ["Abbas Kiarostami"] },
+      "entity2": { "entity": "Iranian filmmaker", "references": ["Iranian filmmaker"] },
+      "justifications": ["Abbas Kiarostami, the Palme d'Or-winning Iranian director."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Christo", "references": ["Christo"] },
+      "entity2": { "entity": "Beretta family", "references": ["Beretta family"] },
+      "justifications": ["The project received logistical support from the Beretta arms manufacturing family - raising questions about whether an installation of this nature can truly be free of politics."],
+      "attitude": "Negative"
+    }
+  ]
+}

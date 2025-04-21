@@ -1,0 +1,254 @@
+[
+    {
+        "sentence": "the lack of sound governance mechanisms has been one of the major obstacles to virtual currencies achieving their earlier promise.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin",
+                "types": [],
+                "wikid": "Bitcoin",
+                "dbpedia": "Bitcoin"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum",
+                "types": [],
+                "wikid": "Ethereum",
+                "dbpedia": "Ethereum"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "governance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "governance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bitcoin -> governance": [
+                -1.0
+            ],
+            "Ethereum -> governance": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Others just want the damn thing to work so they can make alt-finance innovations on top of it.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin",
+                "types": [],
+                "wikid": "Bitcoin",
+                "dbpedia": "Bitcoin"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum",
+                "types": [],
+                "wikid": "Ethereum",
+                "dbpedia": "Ethereum"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "financial services innovation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "financial services innovation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bitcoin -> financial services innovation": [
+                1.0
+            ],
+            "Ethereum -> financial services innovation": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For some, virtual currency schemes, like bitcoin and Ethereum, are ways to pursue a libertarian agenda that eliminates central authorities.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin",
+                "types": [],
+                "wikid": "Bitcoin",
+                "dbpedia": "Bitcoin"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum",
+                "types": [],
+                "wikid": "Ethereum",
+                "dbpedia": "Ethereum"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "libertarian agenda",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "libertarian agenda"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bitcoin -> libertarian agenda": [
+                1.0
+            ],
+            "Ethereum -> libertarian agenda": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Some, including the founder and leader, the brilliant Vitalik Buterin, wanted to reverse the diversion and had a way to do it.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vitalik Buterin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vitalik Buterin",
+                "types": [],
+                "wikid": "Vitalik Buterin",
+                "dbpedia": "Vitalik Buterin"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum community",
+                "types": [],
+                "wikid": "Ethereum community",
+                "dbpedia": "Ethereum community"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Vitalik Buterin -> Ethereum community": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "A majority vote by the miners also determines, in effect, how Ethereum will deal with the DAO",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin miners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin miners",
+                "types": [],
+                "wikid": "Bitcoin miners",
+                "dbpedia": "Bitcoin miners"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum miners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum miners",
+                "types": [],
+                "wikid": "Ethereum miners",
+                "dbpedia": "Ethereum miners"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bitcoin miners -> Ethereum miners": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "As it turns out they are located in China, as described by Nathaniel Popper recently in The New York Times.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin miners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin miners",
+                "types": [],
+                "wikid": "Bitcoin miners",
+                "dbpedia": "Bitcoin miners"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bitcoin miners -> China": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

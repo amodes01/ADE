@@ -1,0 +1,126 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["UK's vote to leave the European Union"]},
+      "target": {"topic": "political upheaval", "references": ["political upheaval"]},
+      "justifications": ["It's been another week of political upheaval here in London as the dust refuses to settle on the UK's vote to leave the European Union."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["UK's vote to leave the European Union"]},
+      "target": {"topic": "currency devaluation", "references": ["sterling continues to tank on the currency exchanges"]},
+      "justifications": ["sterling continues to tank on the currency exchanges"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["UK's vote to leave the European Union"]},
+      "target": {"topic": "leadership struggles", "references": ["the main political parties are convulsed with leadership struggles"]},
+      "justifications": ["the main political parties are convulsed with leadership struggles that make Game of Thrones look like polite society"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["UK's vote to leave the European Union"]},
+      "target": {"topic": "legal challenge", "references": ["talk of a legal challenge to the government over activating article 50"]},
+      "justifications": ["there is even talk of a legal challenge to the government over activating article 50, the clause that would set in train the UK's departure from the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Iraq War", "references": ["Iraq war"]},
+      "target": {"topic": "post-war legacy", "references": ["post-war legacy in Iraq"]},
+      "justifications": ["Abdul-Ahad hears a story of lost ambition and abandonment that resonates with the wider post-war legacy in Iraq."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Islamic State", "references": ["Islamic State"]},
+      "target": {"topic": "terrorism", "references": ["major terrorist attacks claimed by Islamic State"]},
+      "justifications": ["The bitterness of that legacy is only too apparent in the light of major terrorist attacks claimed by Islamic State in Baghdad, Istanbul and Dhaka."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Australia", "references": ["Australia"]},
+      "target": {"topic": "hung parliament", "references": ["a hung parliament looked the likeliest outcome"]},
+      "justifications": ["Australia went to the polls this week where a hung parliament looked the likeliest outcome"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "India", "references": ["India"]},
+      "target": {"topic": "tomato crisis", "references": ["tomato-growing crisis"]},
+      "justifications": ["In India, a tomato-growing crisis is playing havoc with the nation's eating habits."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Venezuela", "references": ["Venezuela"]},
+      "target": {"topic": "food shortages", "references": ["Long queues for food persist"]},
+      "justifications": ["Long queues for food persist in Venezuela as citizens press for a recall of President Nicolás Maduro."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Venezuela", "references": ["Venezuela"]},
+      "target": {"topic": "presidential recall", "references": ["citizens press for a recall of President Nicolás Maduro"]},
+      "justifications": ["Long queues for food persist in Venezuela as citizens press for a recall of President Nicolás Maduro."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Japan", "references": ["Japan"]},
+      "target": {"topic": "demographic crisis", "references": ["country's looming demographic crisis"]},
+      "justifications": ["In Japan, the country's looming demographic crisis is illustrated by statistics that show more than 25% of the population is now aged over 65."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "China", "references": ["China"]},
+      "target": {"topic": "pollution", "references": ["China's efforts to clean up its foul-smelling waterways"]},
+      "justifications": ["There is also a look at China's efforts to clean up its foul-smelling waterways."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "US", "references": ["US"]},
+      "target": {"topic": "farmers' market profitability", "references": ["US farmers' markets are no longer so profitable for produce growers"]},
+      "justifications": ["how US farmers' markets are no longer so profitable for produce growers."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Cecil the Lion", "references": ["Cecil the Lion"]},
+      "target": {"topic": "wildlife conservation", "references": ["wildlife conservation schemes"]},
+      "justifications": ["The shooting of Cecil the Lion in Zimbabwe a year ago by an American hunter sparked outrage, but on the Discovery pages we find out how the episode has created a positive legacy for wildlife conservation schemes."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "mountain climbing", "references": ["mountain climbing"]},
+      "target": {"topic": "outdoor activities", "references": ["joys of mountain climbing"]},
+      "justifications": ["The Books pages consider the joys of mountain climbing."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "swimming pools", "references": ["swimming pools"]},
+      "target": {"topic": "Australia's national obsession", "references": ["Australia's national obsession with swimming pools"]},
+      "justifications": ["the Culture section examines Australia's national obsession with swimming pools."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Ghaith Abdul-Ahad", "references": ["Ghaith Abdul-Ahad"]},
+      "entity2": {"entity": "Basra", "references": ["Basra"]},
+      "justifications": ["For our cover story Ghaith Abdul-Ahad returns to Basra, the southern oil city occupied by British troops during the Iraq war."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ghaith Abdul-Ahad", "references": ["Ghaith Abdul-Ahad"]},
+      "entity2": {"entity": "British troops", "references": ["British troops"]},
+      "justifications": ["For our cover story Ghaith Abdul-Ahad returns to Basra, the southern oil city occupied by British troops during the Iraq war."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ghaith Abdul-Ahad", "references": ["Ghaith Abdul-Ahad"]},
+      "entity2": {"entity": "Iraq", "references": ["Iraq"]},
+      "justifications": ["Coinciding with the findings this week of a long-awaited inquiry into Britain's decision to go to war, Abdul-Ahad hears a story of lost ambition and abandonment that resonates with the wider post-war legacy in Iraq."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicolás Maduro", "references": ["Nicolás Maduro"]},
+      "entity2": {"entity": "Venezuelan citizens", "references": ["citizens press for a recall of President Nicolás Maduro"]},
+      "justifications": ["Long queues for food persist in Venezuela as citizens press for a recall of President Nicolás Maduro."],
+      "attitude": "Negative"
+    }
+  ]
+}

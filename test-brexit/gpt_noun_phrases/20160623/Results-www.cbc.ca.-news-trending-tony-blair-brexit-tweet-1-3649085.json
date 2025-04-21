@@ -1,0 +1,124 @@
+[
+    {
+        "sentence": "I believe voting to Remain will secure Britain's place as a proud, influential country with a strong economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Blair",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Blair",
+                "types": [],
+                "wikid": "Tony Blair",
+                "dbpedia": "Tony Blair"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Tony Blair -> Brexit referendum": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Blair remains a controversial figure after his time in office and Brits took this opportunity to criticize his political legacy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Twitter users",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Twitter users",
+                "types": [],
+                "wikid": "Twitter users",
+                "dbpedia": "Twitter users"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Blair",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Blair",
+                "types": [],
+                "wikid": "Tony Blair",
+                "dbpedia": "Tony Blair"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Tony Blair's political legacy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Tony Blair's political legacy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Tony Blair -> Twitter users": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Twitter users -> Tony Blair's political legacy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Others went beyond British politics with their posts, targeting both Blair and Donald Trump.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Blair",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Blair",
+                "types": [],
+                "wikid": "Tony Blair",
+                "dbpedia": "Tony Blair"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Tony Blair -> Donald Trump": [
+                -1.0
+            ],
+            "Donald Trump -> Tony Blair": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

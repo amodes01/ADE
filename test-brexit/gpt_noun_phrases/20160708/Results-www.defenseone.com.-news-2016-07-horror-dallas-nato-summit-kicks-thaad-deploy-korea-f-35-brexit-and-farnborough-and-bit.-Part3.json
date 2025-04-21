@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "better spend its money on upping the rate at which it buys the F-35",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "F-35",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "F-35",
+                "types": [],
+                "wikid": "F-35",
+                "dbpedia": "F-35"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "military expenditure",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "military expenditure"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "F-35 -> military expenditure": [
+                1.0
+            ]
+        }
+    }
+]

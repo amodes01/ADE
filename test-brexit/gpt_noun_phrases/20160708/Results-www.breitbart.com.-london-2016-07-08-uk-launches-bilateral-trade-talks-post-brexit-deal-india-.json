@@ -1,0 +1,169 @@
+[
+    {
+        "sentence": "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "India",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "India",
+                "types": [],
+                "wikid": "India",
+                "dbpedia": "India"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade relationship with India",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade relationship with India"
+                ]
+            },
+            {
+                "ngram": "trade relationship with Britain",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade relationship with Britain"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Britain -> India": [
+                1.0
+            ],
+            "India -> Britain": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Britain -> trade relationship with India": [
+                1.0
+            ],
+            "India -> trade relationship with Britain": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit supporters have said that Britain will be able to strike a good deal with the EU and also reach agreements with other big economies more quickly on its own than as part of the 28-nation EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit supporters -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit supporters -> Brexit": [
+                1.0
+            ],
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "India",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "India",
+                "types": [],
+                "wikid": "India",
+                "dbpedia": "India"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "visa concessions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "visa concessions"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> India": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "India -> visa concessions": [
+                -1.0
+            ],
+            "United States -> visa concessions": [
+                -1.0
+            ]
+        }
+    }
+]

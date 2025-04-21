@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Republicans", "references": ["Republicans"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "To most Republicans, the Brexit vote is an expression of a legitimate desire for self-governance and self-determination.",
+        "That the British people should revolt against the power of the EU bureaucracy seems perfectly reasonable in this light, especially to Republicans who still retain a belief in the importance of popular sovereignty and a people's self-determination."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Republicans", "references": ["Republicans"]},
+      "target": {"topic": "EU bureaucracy", "references": ["EU bureaucracy"]},
+      "justifications": [
+        "Over the years, many Republicans have come to see the EU as an unaccountable bureaucracy, unconcerned about the interests of the people they govern and largely focused on preservation of their own power.",
+        "The administrative state is a fourth branch, unrecognized and unrecognizable in the Constitution."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republicans", "references": ["Republicans"]},
+      "target": {"topic": "regulation", "references": ["regulation"]},
+      "justifications": [
+        "Bureaucracies are the enemies of innovation and change, and regulation - which enables bureaucracies to suppress innovation - is thus the enemy of economic progress."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republicans", "references": ["Republicans"]},
+      "target": {"topic": "administrative state", "references": ["administrative state"]},
+      "justifications": [
+        "Many Republican and conservative intellectuals have begun to focus on the growth of the administrative state in the US - an EU-like unaccountable bureaucracy to which the courts have repeatedly deferred.",
+        "Hostility to the growth of the administrative state arises from the same view of government that induced the Framers to build a separation of legislative, executive and judicial powers into the US Constitution."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republicans", "references": ["Republicans"]},
+      "target": {"topic": "individual initiative", "references": ["individual initiative"]},
+      "justifications": [
+        "While the EU's supporters wring their hands at the uncertainties that Brexit has loosed, those who believe that individual initiative is the ultimate source of progress can only smile at the prospect of what our British cousins will now be able to achieve."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU supporters", "references": ["EU's supporters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "While the EU's supporters wring their hands at the uncertainties that Brexit has loosed."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Republicans", "references": ["Republicans"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "Over the years, many Republicans have come to see the EU as an unaccountable bureaucracy, unconcerned about the interests of the people they govern and largely focused on preservation of their own power."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Republicans", "references": ["Republicans"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "The administrative state is a fourth branch, unrecognized and unrecognizable in the Constitution."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Republicans", "references": ["Republicans"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "To most Republicans, the Brexit vote is an expression of a legitimate desire for self-governance and self-determination.",
+        "That the British people should revolt against the power of the EU bureaucracy seems perfectly reasonable in this light, especially to Republicans who still retain a belief in the importance of popular sovereignty and a people's self-determination."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Republicans", "references": ["Republicans"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "To most Republicans, the Brexit vote is an expression of a legitimate desire for self-governance and self-determination."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

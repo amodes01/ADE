@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain voted to leave the European Union"]
+      },
+      "justifications": [
+        "There was no shortage of anger and misery yesterday across the country as Britain voted to leave the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "EU referendum",
+        "references": ["EU referendum"]
+      },
+      "justifications": [
+        "The EU referendum was the biggest event in politics for a generation, which makes it all the more surprising that the decision to hold it was decided over a slice of pizza."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "William Hague",
+        "references": ["William Hague"]
+      },
+      "justifications": [
+        "Cameron met with William Hague and his chief of staff at Chicago O'Hare airport"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "William Hague",
+        "references": ["William Hague"]
+      },
+      "justifications": [
+        "David Cameron was reportedly concerned with the rise of Ukip and the potential defection of eurosceptic Tory backbenchers to Nigel Farage's growing party."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "Cameron was reportedly concerned with the rise of Ukip and the potential defection of eurosceptic Tory backbenchers to Nigel Farage's growing party."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "William Hague",
+        "references": ["William Hague"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "Cameron was reportedly concerned with the rise of Ukip and the potential defection of eurosceptic Tory backbenchers to Nigel Farage's growing party."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

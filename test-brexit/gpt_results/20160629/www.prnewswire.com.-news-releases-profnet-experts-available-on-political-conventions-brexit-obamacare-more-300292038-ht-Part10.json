@@ -1,0 +1,108 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Sarah Niebler", "references": ["Sarah Niebler", "Niebler"] },
+      "target": { "topic": "voter behavior", "references": ["voter behavior"] },
+      "justifications": ["Niebler is available to discuss the following convention-related topics: voter behavior -- how the conventions could upset voters by going against their will."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Sarah Niebler", "references": ["Sarah Niebler", "Niebler"] },
+      "target": { "topic": "mass media and politics", "references": ["mass media and politics"] },
+      "justifications": ["Niebler is available to discuss the following convention-related topics: mass media and politics -- the influence of mass media and coverage of the conventions."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Sarah Niebler", "references": ["Sarah Niebler", "Niebler"] },
+      "target": { "topic": "polling", "references": ["polling"] },
+      "justifications": ["Niebler is available to discuss the following convention-related topics: polling -- what the polls have gotten wrong and right and how they impact the political conversation."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Sarah Niebler", "references": ["Sarah Niebler", "Niebler"] },
+      "target": { "topic": "Pennsylvania politics", "references": ["Pennsylvania politics"] },
+      "justifications": ["Niebler is available to discuss the following convention-related topics: Pennsylvania politics -- could help understand the world outside the Democratic convention in Philly."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Kathleen Marchetti", "references": ["Kathleen Marchetti", "Marchetti"] },
+      "target": { "topic": "identity politics", "references": ["identity politics"] },
+      "justifications": ["Marchetti can discuss the following convention-related topics: identity politics' (gender and race) influence on the convention delegations."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Kathleen Marchetti", "references": ["Kathleen Marchetti", "Marchetti"] },
+      "target": { "topic": "interest groups", "references": ["interest groups"] },
+      "justifications": ["Marchetti can discuss the following convention-related topics: interest groups' influence on the conventions."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Kathleen Marchetti", "references": ["Kathleen Marchetti", "Marchetti"] },
+      "target": { "topic": "sexism in campaigns", "references": ["sexism in campaigns"] },
+      "justifications": ["Marchetti can discuss the following convention-related topics: sexism in campaigns."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "target": { "topic": "what happens at conventions", "references": ["what really happens at conventions"] },
+      "justifications": ["Solmonese is available to discuss: 1) What really happens at conventions - who are the movers and shakers, what are the key moments, what the delegates do all day, what their responsibilities are while at the convention."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "target": { "topic": "women in leadership", "references": ["Women in leadership"] },
+      "justifications": ["Solmonese is available to discuss: 2) Women in leadership -- as former CEO of EMILY's List, Solmonese can speak to the need for women leadership in government."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "target": { "topic": "diversity", "references": ["Diversity"] },
+      "justifications": ["Solmonese is available to discuss: 3) Diversity -- workplace, government, strategy, policies, LGBT issues."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "target": { "topic": "use of anger in political campaigns", "references": ["use of anger in political campaigns"] },
+      "justifications": ["Solmonese is available to discuss: 4) the use of anger in political campaigns - he has written a book that will be released in August (\"The Gift of Anger - Use Passion to Build, Not Destroy\") that discusses anger in depth, drawing on his own experiences at HRC and during the Obama campaign."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Sarah Niebler", "references": ["Sarah Niebler", "Niebler"] },
+      "entity2": { "entity": "Kathleen Marchetti", "references": ["Kathleen Marchetti", "Marchetti"] },
+      "justifications": ["Sarah Niebler and Kathleen Marchetti are both Assistant Professors of Political Science at Dickinson College and available to discuss convention-related topics."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": ["Joe Solmonese sits on the board of Priorities USA (Hillary Clinton's Super PAC)."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "entity2": { "entity": "Human Rights Campaign", "references": ["Human Rights Campaign", "HRC"] },
+      "justifications": ["He served for seven years as the president of the Human Rights Campaign (HRC), the nation's largest gay, lesbian, bisexual, and transgender advocacy organization."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "entity2": { "entity": "Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act", "references": ["Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act", "HCPA"] },
+      "justifications": ["Under his leadership, HRC was instrumental in passing the Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act (HCPA)."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "entity2": { "entity": "Do not Ask, Do not Tell", "references": ["Do not Ask, Do not Tell", "DADT"] },
+      "justifications": ["Under his leadership, HRC was instrumental in the repeal of Do not Ask, Do not Tell (DADT)."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Joe Solmonese", "references": ["Joe Solmonese", "Solmonese"] },
+      "entity2": { "entity": "Obama 2012 campaign", "references": ["Obama 2012 campaign"] },
+      "justifications": ["In 2012, Joe served as one of 35 national co-chairs of the Obama 2012 campaign."],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "tax haven strategy", "references": ["tax haven strategy"]},
+      "justifications": ["the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Meinzer", "references": ["Meinzer"]},
+      "target": {"topic": "tax haven strategy", "references": ["tax haven strategy"]},
+      "justifications": ["The time has never been worse to run a tax haven strategy"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Iceland's prime minister", "references": ["Iceland's prime minister"]},
+      "justifications": ["Iceland's prime minister to resign"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Panama Papers", "references": ["Panama Papers"]},
+      "justifications": ["which forced David Cameron to clear his name by publishing his tax returns"],
+      "attitude": "Negative"
+    }
+  ]
+}

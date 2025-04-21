@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Shawn Taylor", "references": ["Shawn Taylor"]},
+      "target": {"topic": "Octavia Butler's books being turned into a movie", "references": ["Octavia Butler's books", "a film version of \"Kindred\""]},
+      "justifications": ["Shawn Taylor asks a very good question: Why have not any of Octavia Butler's books been turned into a movie?", "I vote for a film version of \"Kindred\" directed by Ava DuVernay."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Shawn Taylor", "references": ["Shawn Taylor"]},
+      "target": {"topic": "film version of 'Kindred'", "references": ["a film version of \"Kindred\""]},
+      "justifications": ["I vote for a film version of \"Kindred\" directed by Ava DuVernay."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Shawn Taylor", "references": ["Shawn Taylor"]},
+      "entity2": {"entity": "Octavia Butler", "references": ["Octavia Butler"]},
+      "justifications": ["Shawn Taylor asks a very good question: Why have not any of Octavia Butler's books been turned into a movie?"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Shawn Taylor", "references": ["Shawn Taylor"]},
+      "entity2": {"entity": "Ava DuVernay", "references": ["Ava DuVernay"]},
+      "justifications": ["I vote for a film version of \"Kindred\" directed by Ava DuVernay."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "W.E.B. DuBois", "references": ["W.E.B. DuBois"]},
+      "entity2": {"entity": "Modernist data visualizations of black life", "references": ["Modernist data visualizations of black life"]},
+      "justifications": ["W.E.B. DuBois' Modernist data visualizations of black life."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Carmen Herrera", "references": ["Carmen Herrera"]},
+      "entity2": {"entity": "Carmen Herrera's art career", "references": ["Carmen Herrera"]},
+      "justifications": ["Carmen Herrera, who at the age of 101 is finally getting her due."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Hilton Als", "references": ["Hilton Als"]},
+      "entity2": {"entity": "Nan Goldin", "references": ["Nan Goldin"]},
+      "justifications": ["Critic Hilton Als on the \"lawless bohemianism\" of Nan Goldin's \"The Ballad of Sexual Dependency\"."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nan Goldin", "references": ["Nan Goldin"]},
+      "entity2": {"entity": "Hilton Als", "references": ["Hilton Als"]},
+      "justifications": ["Critic Hilton Als on the \"lawless bohemianism\" of Nan Goldin's \"The Ballad of Sexual Dependency\"."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Julian Schnabel", "references": ["Julian Schnabel"]},
+      "justifications": ["It's all about the ego: Comparing '80s era Donald Trump to '80s era Julian Schnabel."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Abbas Kiarostami", "references": ["Abbas Kiarostami"]},
+      "entity2": {"entity": "Iranian film industry", "references": ["Iranian film director"]},
+      "justifications": ["Renowned Iranian film director Abbas Kiarostami dies at 76."],
+      "attitude": "Neutral"
+    }
+  ]
+}

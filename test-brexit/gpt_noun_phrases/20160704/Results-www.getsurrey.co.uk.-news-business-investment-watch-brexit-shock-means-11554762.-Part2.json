@@ -1,0 +1,329 @@
+[
+    {
+        "sentence": "And yes there are genuine concerns for the European economy at large as a result of Britain leaving.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European economy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European economy",
+                "types": [],
+                "wikid": "European economy",
+                "dbpedia": "European economy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit -> European economy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> European economy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The sector was already riding high on price to asset value metrics and Brexit has been the catalyst for a brutal correction.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Housebuilding stocks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Housebuilding stocks",
+                "types": [],
+                "wikid": "Housebuilding stocks",
+                "dbpedia": "Housebuilding stocks"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Housebuilding stocks",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Housebuilding stocks"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit -> Housebuilding stocks": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> Housebuilding stocks": [
+                -1.0
+            ],
+            "Housebuilding stocks -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Demand concerns weigh as does bank mortgage finance risk.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Demand concerns",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Demand concerns",
+                "types": [],
+                "wikid": "Demand concerns",
+                "dbpedia": "Demand concerns"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Demand concerns",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Demand concerns"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit -> Demand concerns": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> Demand concerns": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I note the oil price itself is still struggling to punch through the $50 per barrel level, yet the sector has significantly short term outperformed discounting of course the current FX situation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Oil price",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Oil price",
+                "types": [],
+                "wikid": "Oil price",
+                "dbpedia": "Oil price"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Oil majors",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Oil majors"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Oil price -> Oil majors": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "While both Shell (2010p) and BP (420p) will work hard to find ways to maintain their current dividend payout ratios.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Shell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Shell",
+                "types": [],
+                "wikid": "Shell",
+                "dbpedia": "Shell"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "BP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "BP",
+                "types": [],
+                "wikid": "BP",
+                "dbpedia": "BP"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Dividend payout ratios",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Dividend payout ratios"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Shell -> BP": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Shell -> Dividend payout ratios": [
+                -1.0
+            ],
+            "BP -> Dividend payout ratios": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I would be looking to reduce into current strength GSK (1540p) the pharmaceutical giant as the PE ratio (valuation) once again looks toppy to me at 17 times next year's profits.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "GSK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "GSK",
+                "types": [],
+                "wikid": "GSK",
+                "dbpedia": "GSK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "PE ratio",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "PE ratio",
+                "types": [],
+                "wikid": "PE ratio",
+                "dbpedia": "PE ratio"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "PE ratio",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "PE ratio"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "GSK -> PE ratio": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "GSK -> PE ratio": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The plus is that a weaker pound allows foreign buyers to get more bang for their buck which is a counterbalancer.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Foreign buyers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Foreign buyers",
+                "types": [],
+                "wikid": "Foreign buyers",
+                "dbpedia": "Foreign buyers"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Pound value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Pound value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Foreign buyers -> Pound value": [
+                1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "The divorce will take a minimum of two years to play out.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "future of Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "future of Europe",
+                "types": [],
+                "wikid": "future of Europe",
+                "dbpedia": "future of Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "divorce",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "divorce"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "future of Europe -> divorce": [
+                -1.0
+            ]
+        }
+    }
+]

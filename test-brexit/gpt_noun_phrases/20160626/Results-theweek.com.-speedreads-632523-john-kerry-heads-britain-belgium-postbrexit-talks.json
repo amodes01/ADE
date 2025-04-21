@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Kerry will meet with top diplomats to address the implications of the Brexit vote and urge a careful approach to the extrication process.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kerry",
+                "types": [],
+                "wikid": "John Kerry",
+                "dbpedia": "John Kerry"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "John Kerry -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "John Kerry updated his European itinerary to include stops in London and Brussels, the de facto capital of the European Union, abbreviating in the process scheduled talks with Israeli Prime Minister Benjamin Netanyahu.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kerry",
+                "types": [],
+                "wikid": "John Kerry",
+                "dbpedia": "John Kerry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Benjamin Netanyahu",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Benjamin Netanyahu",
+                "types": [],
+                "wikid": "Benjamin Netanyahu",
+                "dbpedia": "Benjamin Netanyahu"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "John Kerry -> Benjamin Netanyahu": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

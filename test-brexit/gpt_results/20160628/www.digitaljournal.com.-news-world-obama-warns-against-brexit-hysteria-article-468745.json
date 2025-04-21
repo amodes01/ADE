@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Britain to leave the European Union", "Brexit vote"]
+      },
+      "justifications": [
+        "Obama said that he respected the results of the referendum."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "European integration",
+        "references": ["project of full European integration"]
+      },
+      "justifications": [
+        "the vote means that 'a pause button has been pressed on the project of full European integration.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "Obama said the vote 'speaks to the ongoing changes and challenges that are raised by globalization.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "He described the results as a reaction to a rapidly growing European Union 'that was probably moving faster and without as much consensus as it should have.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "national identities",
+        "references": ["national identities"]
+      },
+      "justifications": [
+        "'Let us take a breath and let us figure out how do we maintain some of our national identities.'"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "Obama said that he respected the results of the referendum."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "justifications": [
+        "Obama said, 'as if somehow NATO's gone, the trans-Atlantic alliance is dissolving.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "trans-Atlantic alliance",
+        "references": ["trans-Atlantic alliance"]
+      },
+      "justifications": [
+        "Obama said, 'as if somehow NATO's gone, the trans-Atlantic alliance is dissolving.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

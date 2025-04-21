@@ -1,0 +1,225 @@
+[
+    {
+        "sentence": "The culprit, broadly speaking, is globalization.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "globalization",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "globalization",
+                "types": [],
+                "wikid": "globalization",
+                "dbpedia": "globalization"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "job displacement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "job displacement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "globalization -> job displacement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Corporations can sell things more easily, in many new places, and can elect to manufacture goods wherever its most cost-advantageous.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "globalization",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "globalization",
+                "types": [],
+                "wikid": "globalization",
+                "dbpedia": "globalization"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Corporations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Corporations",
+                "types": [],
+                "wikid": "Corporations",
+                "dbpedia": "Corporations"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> Corporations": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Where one economist will call this 'liberalization,'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "liberalization",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "liberalization",
+                "types": [],
+                "wikid": "liberalization",
+                "dbpedia": "liberalization"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "liberalization -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "political candidates, like Trump and Sanders, are calling this a rapacious hollowing out of the American manufacturing base.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "rapacious hollowing out of the American manufacturing base",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "rapacious hollowing out of the American manufacturing base",
+                "types": [],
+                "wikid": "rapacious hollowing out of the American manufacturing base",
+                "dbpedia": "rapacious hollowing out of the American manufacturing base"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sanders",
+                "types": [],
+                "wikid": "Sanders",
+                "dbpedia": "Sanders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Trump -> Sanders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "rapacious hollowing out of the American manufacturing base -> globalization": [
+                -1.0
+            ],
+            "Trump -> globalization": [
+                -1.0
+            ],
+            "Sanders -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump's speech was chock full of the red meat that Hillary opponents had been waiting for.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Trump's message is that things have to change - and this is our one chance to do it. Hillary Clinton's message is old and tired.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {}
+    }
+]

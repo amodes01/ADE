@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Columbia Threadneedle", "references": ["Columbia Threadneedle"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["asset managers fear the detrimental effect Brexit will have on their distribution capabilities across the continent."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "M&G Investments", "references": ["M&G Investments"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The group has joined M&G Investments in making plans to build up its operations within the European Union."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Columbia Threadneedle", "references": ["Columbia Threadneedle"] },
+      "entity2": { "entity": "M&G Investments", "references": ["M&G Investments"] },
+      "justifications": ["The group has joined M&G Investments in making plans to build up its operations within the European Union."],
+      "attitude": "Positive"
+    }
+  ]
+}

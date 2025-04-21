@@ -1,0 +1,138 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["Brussels", "EU"]},
+      "target": {"topic": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "Officially, Brussels is denying there is a problem, but a source close to the TTIP negotiations has said that the European Union will not admit anything is wrong to avoid giving the impression that it is in disarray after the Brexit vote."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["Washington", "US"]},
+      "target": {"topic": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "Influential Washington figures warn that Britain represents 16% of the EU market and that the deal must be put on hold.",
+        "Others in the US are worried about the loss of a liberal, free-market EU member, and wonder how difficult it will be to conclude a deal with some of the more protectionist states that remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United States", "references": ["Washington", "US"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Influential Washington figures warn that Britain represents 16% of the EU market and that the deal must be put on hold.",
+        "Others in the US are worried about the loss of a liberal, free-market EU member, and wonder how difficult it will be to conclude a deal with some of the more protectionist states that remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Gary Hufbauer", "references": ["Gary Hufbauer"]},
+      "target": {"topic": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "Gary Hufbauer, senior fellow at the Peterson Institute of International Economics, says the landscape for Americans has now changed, \"The 'back of the queue' statement will be forgotten by the next administration, if not sooner. In my view, TTIP is either dormant or dead in the wake of Brexit.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Miriam Sapiro", "references": ["Miriam Sapiro"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "According to Miriam Sapiro, former deputy US Trade Representative, it may be easier for Washington to negotiate a bilateral trade deal with Britain, a like-minded country that is more open to free trade than the 27 remaining EU members."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "With next year's elections in France, Germany, and Holland, EU leaders may lack the political capital to ratify TTIP against the rising tide of popular opinion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David O'Sullivan", "references": ["David O'Sullivan"]},
+      "target": {"topic": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "Officially, the EU Ambassador to the US, David O'Sullivan, has reiterated the intention to complete TTIP by the end of 2016, \"The most important thing now is to reach a conclusion between the negotiators this year, and that is how we will go forward, and then it will be for the UK to decide what kind of trade relationship it wants with the United States.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "With Article 50 unlikely to be invoked until David Cameron's replacement is chosen, which will happen by September 2nd, there would seem to be insufficient time to conclude the negotiations before the end of the year, and many in Brussels now want to focus on obtaining the right Brexit terms."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU leaders", "references": ["EU leaders"]},
+      "target": {"topic": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "With next year's elections in France, Germany, and Holland, EU leaders may lack the political capital to ratify TTIP against the rising tide of popular opinion."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "European Union", "references": ["Brussels", "EU"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Britain"]},
+      "justifications": [
+        "Informed sources suggest that TTIP will be parked until Britain's Article 50 negotiations have been completed and that there is now a possibility that the deal will never be concluded."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["Brussels", "EU"]},
+      "entity2": {"entity": "United States", "references": ["Washington", "US"]},
+      "justifications": [
+        "Officially, Brussels is denying there is a problem, but a source close to the TTIP negotiations has said that the European Union will not admit anything is wrong to avoid giving the impression that it is in disarray after the Brexit vote."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["Washington", "US"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Influential Washington figures warn that Britain represents 16% of the EU market and that the deal must be put on hold.",
+        "Others in the US are worried about the loss of a liberal, free-market EU member, and wonder how difficult it will be to conclude a deal with some of the more protectionist states that remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Gary Hufbauer", "references": ["Gary Hufbauer"]},
+      "entity2": {"entity": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "Gary Hufbauer, senior fellow at the Peterson Institute of International Economics, says the landscape for Americans has now changed, \"The 'back of the queue' statement will be forgotten by the next administration, if not sooner. In my view, TTIP is either dormant or dead in the wake of Brexit.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Miriam Sapiro", "references": ["Miriam Sapiro"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Britain"]},
+      "justifications": [
+        "According to Miriam Sapiro, former deputy US Trade Representative, it may be easier for Washington to negotiate a bilateral trade deal with Britain, a like-minded country that is more open to free trade than the 27 remaining EU members."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["Britain"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Informed sources suggest that TTIP will be parked until Britain's Article 50 negotiations have been completed and that there is now a possibility that the deal will never be concluded."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "EU leaders", "references": ["EU leaders"]},
+      "entity2": {"entity": "TTIP", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": [
+        "With next year's elections in France, Germany, and Holland, EU leaders may lack the political capital to ratify TTIP against the rising tide of popular opinion."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "The divide was over globalization; not xenophobia or race.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit did not affect them at all. The problem is that any resident of the 27 other EU countries has a legal right to come into Britain; the country could not control its own borders.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "One year from now the leaders of the Free World could well be two men born in New York with weird orange hair, British Prime Minister Boris Johnson and American President Donald Trump.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British Prime Minister Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British Prime Minister Boris Johnson",
+                "types": [],
+                "wikid": "British Prime Minister Boris Johnson",
+                "dbpedia": "British Prime Minister Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US President Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US President Donald Trump",
+                "types": [],
+                "wikid": "US President Donald Trump",
+                "dbpedia": "US President Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "British Prime Minister Boris Johnson -> US President Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Brexit vote shows why Hillary Clinton could well lose the presidential election because, like the establishment in Britain, her handlers are in denial about how mad people are about their own economic conditions.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

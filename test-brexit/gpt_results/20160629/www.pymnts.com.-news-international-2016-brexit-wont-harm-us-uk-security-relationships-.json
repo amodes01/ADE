@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["Britain remained an important ally for the United States, especially in NATO."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["Britain"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["Britain remained an important ally for the United States, especially in NATO."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["There is no reason that should at all be affected by the decision British voters made last week, Earnest said, alluding to the Brexit vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Trade agreement with the European Union", "references": ["trade deal with the E.U."]},
+      "justifications": ["There is a large trade deal with the E.U. in the works with the United States, and the impact of the Brexit on those talks is still under consideration and under discussion."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Transatlantic Trade and Investment Partnership (TTIP)", "references": ["Transatlantic Trade and Investment Partnership"]},
+      "justifications": ["There is some consideration of that larger trade deal going through (and it is known as the Transatlantic Trade and Investment Partnership)."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Trade agreement with the United Kingdom", "references": ["separate deal would be negotiated and finalized with the U.K."]},
+      "justifications": ["another, separate deal would be negotiated and finalized with the U.K."],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Britain"]},
+      "justifications": ["Britain remained an important ally for the United States, especially in NATO."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Josh Earnest", "references": ["Josh Earnest"]},
+      "justifications": ["the spokesman for the administration, Josh Earnest, said that Britain remained an important ally for the United States."],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "target": { "topic": "visa-free regime", "references": ["visa-free regime"] },
+      "justifications": [
+        "We expect formal procedures to be completed by summer holidays in the Ukraine Parliament.",
+        "Poroshenko said, 'I see no difficulties. There are objective difficulties caused by Brexit, but they will lead only to postponement for days, perhaps weeks.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Tusk", "references": ["President of the European Council Donald Tusk"] },
+      "target": { "topic": "visa-free regime", "references": ["visa-free regime"] },
+      "justifications": [
+        "Schulz said that the internal procedures related to the UK leaving the EU would not affect readiness of the European Parliament to introduce the visa-free regime for Ukrainian citizens."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "European Union", "references": ["EU"] },
+      "target": { "topic": "macro-financial aid to Ukraine", "references": ["macro-financial aid to Ukraine"] },
+      "justifications": [
+        "The two sides mostly discussed the abolition of the visa regime with the Schengen countries for Ukrainian citizens."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Ukrainian President", "references": ["Poroshenko"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Ukrainian President Petro Poroshenko has warned that the Brexit result could cause 'delays' in the introduction of visa free travel between the EU and Ukraine."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "Poroshenko also had a separate meeting with Schulz. The parties shared views regarding the results of the UK referendum on EU membership and its influence on Ukraine-EU relations.",
+        "The EU leadership has praised the efforts of the Ukrainian authorities aimed at the implementation of the constitutional reform, anti-corruption legislation, deregulation reform and election of new Prosecutor General."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "entity2": { "entity": "Donald Tusk", "references": ["President of the European Council Donald Tusk"] },
+      "justifications": [
+        "The two sides mostly discussed the abolition of the visa regime with the Schengen countries for Ukrainian citizens."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "entity2": { "entity": "Jean-Claude Juncker", "references": ["President of the European Commission Jean-Claude Juncker"] },
+      "justifications": [
+        "Also taking part in the one day talks were the President of the European Council Donald Tusk, President of the European Commission Jean-Claude Juncker and President of the European Parliament Martin Schulz."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "entity2": { "entity": "Martin Schulz", "references": ["President of the European Parliament Martin Schulz"] },
+      "justifications": [
+        "Poroshenko also had a separate meeting with Schulz."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Petro Poroshenko", "references": ["Ukrainian President Petro Poroshenko"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "The meeting was held in a friendly atmosphere and we are grateful for a consistent and firm position of our European partners in such a difficult time for both Ukraine and the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans", "Europe"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "The Euro-left (as pathetic and bogus as 'Euro business class' on domestic European flights) is trying to put the recent referendum into some sort of philosophical perspective.",
+        "Some Europeans are even blaming Mr. Putin for the outcome of the referendum, while others see behind the outcome of the vote the specter of an 'American conspiracy' or even a 'Zionist lobby'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "neo-Nazis and other right-wingers", "references": ["neo-Nazis", "right-wingers"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "All over Europe, the neo-Nazis and other right-wingers are celebrating."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "liberals", "references": ["liberals"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "while most of 'liberals' are panic-stricken, running around like a herd of headless chickens, or howling at the moon at night in despair."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brits", "references": ["British voters", "British people"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "A few million bigoted British voters, many of them old retirees and traditionally conservative, even racist bunch, got scared that their country was soon about to be invaded by unkempt hordes of refugees."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brits", "references": ["British voters", "British people"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "While for others, the referendum became a way to express their frustration with the fact that the British working class has lately been getting an increasingly awful deal."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Euro-left", "references": ["Euro-left"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "The Euro-left (as pathetic and bogus as 'Euro business class' on domestic European flights) is trying to put the recent referendum into some sort of philosophical perspective, blabbering something about a working class rebellion against the ruling elites."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "anti-EU warriors", "references": ["anti-EU warriors"]},
+      "target": {"topic": "Brexit referendum outcome", "references": ["Brexit", "referendum", "outcome of the referendum"]},
+      "justifications": [
+        "A great majority of the anti-EU warriors was simply demanding better benefits for itself."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "anti-EU warriors", "references": ["anti-EU warriors"]},
+      "target": {"topic": "British nationalism", "references": ["Britain for the Brits"]},
+      "justifications": [
+        "as well as 'Britain for the Brits' (whatever that really means in this increasingly multi-racial nation)."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European people", "references": ["Europeans"]},
+      "target": {"topic": "global inequality", "references": ["global loot", "slavery", "colonialist plunder", "genocides", "terrorism", "corporate looting"]},
+      "justifications": [
+        "What is shocking is that (oh so innocently!) those demands are only made for the chosen bunch - for the Europeans and North Americans - not for the rest of the globe that is actually paying the bill… And has been paying it for hundreds of damned years, suffering horribly from everything, from slavery, colonialist plunder, genocides triggered by Europe, terrorism against its liberation struggle, to the multi-national corporate looting."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "Left-wing internationalism", "references": ["progressive ideology", "internationalism", "traditional Left-wing ideals"]},
+      "justifications": [
+        "It is high time to re-visit Fanon and Sartre, but in that comfortable, lazy and sclerotic Europe, no one seems to be in the mood for old, solid left-wing internationalist, anti-colonialist ideologies."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "entity2": {"entity": "liberals", "references": ["liberals"]},
+      "justifications": [
+        "while most of 'liberals' are panic-stricken, running around like a herd of headless chickens, or howling at the moon at night in despair."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "entity2": {"entity": "Euro-left", "references": ["Euro-left"]},
+      "justifications": [
+        "The Euro-left (as pathetic and bogus as 'Euro business class' on domestic European flights) is trying to put the recent referendum into some sort of philosophical perspective, blabbering something about a working class rebellion against the ruling elites."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "entity2": {"entity": "anti-EU warriors", "references": ["anti-EU warriors"]},
+      "justifications": [
+        "A great majority of the anti-EU warriors was simply demanding better benefits for itself."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "justifications": [
+        "The Euro-left (as pathetic and bogus as 'Euro business class' on domestic European flights) is trying to put the recent referendum into some sort of philosophical perspective.",
+        "Some Europeans are even blaming Mr. Putin for the outcome of the referendum, while others see behind the outcome of the vote the specter of an 'American conspiracy' or even a 'Zionist lobby'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "neo-Nazis and other right-wingers", "references": ["neo-Nazis", "right-wingers"]},
+      "entity2": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "justifications": [
+        "All over Europe, the neo-Nazis and other right-wingers are celebrating."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British voters", "references": ["British voters", "British people"]},
+      "entity2": {"entity": "anti-EU warriors", "references": ["anti-EU warriors"]},
+      "justifications": [
+        "A great majority of the anti-EU warriors was simply demanding better benefits for itself."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "European people", "references": ["Europeans"]},
+      "entity2": {"entity": "global south", "references": ["rest of the globe"]},
+      "justifications": [
+        "What is shocking is that (oh so innocently!) those demands are only made for the chosen bunch - for the Europeans and North Americans - not for the rest of the globe that is actually paying the bill…"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

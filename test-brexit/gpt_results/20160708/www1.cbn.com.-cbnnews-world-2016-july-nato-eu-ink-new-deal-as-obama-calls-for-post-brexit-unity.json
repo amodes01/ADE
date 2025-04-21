@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "EU-NATO partnership", "references": ["EU-NATO partnership"] },
+      "target": { "topic": "hybrid warfare", "references": ["hybrid warfare"] },
+      "justifications": ["NATO Secretary-General Jens Stoltenberg said it was a \"historic deal\" that gave \"new substance, new impetus\" to the EU-NATO partnership in fighting hybrid warfare."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU-NATO partnership", "references": ["EU-NATO partnership"] },
+      "target": { "topic": "cyberattacks", "references": ["cyberattacks"] },
+      "justifications": ["NATO Secretary-General Jens Stoltenberg said it was a \"historic deal\" that gave \"new substance, new impetus\" to the EU-NATO partnership in fighting cyberattacks."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU-NATO partnership", "references": ["EU-NATO partnership"] },
+      "target": { "topic": "illegal migration", "references": ["massive wave of illegal migrants"] },
+      "justifications": ["NATO Secretary-General Jens Stoltenberg said it was a \"historic deal\" that gave \"new substance, new impetus\" to the EU-NATO partnership in containing the massive wave of illegal migrants."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU stability", "references": ["impact and consequences of the so-called Brexit"] },
+      "justifications": ["His statement comes as he meets with EU leaders in Poland to weigh the impact and consequences of the so-called Brexit."],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": ["Leaders of NATO and the European Union nations have signed a \"historic deal\" to boost their cooperation in defense against new challenges."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": ["NATO leaders show unity in facing threats from the East and the South."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": ["NATO leaders show unity in facing threats from the East and the South."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": ["President Barack Obama is calling on European Union leaders to stand firm against terrorism, Russia, and other challenges now that Britain has left the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["President Barack Obama is calling on European Union leaders to stand firm against terrorism, Russia, and other challenges now that Britain has left the EU."],
+      "attitude": "Negative"
+    }
+  ]
+}

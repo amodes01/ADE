@@ -1,0 +1,264 @@
+[
+    {
+        "sentence": "Economic historian Karl Polanyi warned in 1944 that a false utopian belief in the ability of unfettered markets to produce naturally balanced outcomes would produce instead a dystopian \"stark utopia.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Karl Polanyi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Karl Polanyi",
+                "types": [],
+                "wikid": "Karl Polanyi",
+                "dbpedia": "Karl Polanyi"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "unfettered markets",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "unfettered markets"
+                ]
+            },
+            {
+                "ngram": "dystopianism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "dystopianism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Karl Polanyi -> unfettered markets": [
+                -1.0
+            ],
+            "Karl Polanyi -> dystopianism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As Barber noted, what he refers to as \"Jihad\" is not a strictly Islamic phenomenon.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jihad",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jihad",
+                "types": [],
+                "wikid": "Jihad",
+                "dbpedia": "Jihad"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barber",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barber",
+                "types": [],
+                "wikid": "Barber",
+                "dbpedia": "Barber"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Karl Polanyi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Karl Polanyi",
+                "types": [],
+                "wikid": "Karl Polanyi",
+                "dbpedia": "Karl Polanyi"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Islam",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Islam"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barber -> Karl Polanyi": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jihad -> Islam": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It is localism, tribalism, particularism or sometimes classical republicanism taking a stand, often violently, acting as de facto social and political antibodies against the viral contagions of McWorld.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "McWorld",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "McWorld",
+                "types": [],
+                "wikid": "McWorld",
+                "dbpedia": "McWorld"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jihad",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jihad",
+                "types": [],
+                "wikid": "Jihad",
+                "dbpedia": "Jihad"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "localism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "localism"
+                ]
+            },
+            {
+                "ngram": "tribalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tribalism"
+                ]
+            },
+            {
+                "ngram": "particularism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "particularism"
+                ]
+            },
+            {
+                "ngram": "classical republicanism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "classical republicanism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "McWorld -> localism": [
+                -1.0
+            ],
+            "McWorld -> tribalism": [
+                -1.0
+            ],
+            "McWorld -> particularism": [
+                -1.0
+            ],
+            "McWorld -> classical republicanism": [
+                -1.0
+            ],
+            "Jihad -> localism": [
+                1.0
+            ],
+            "Jihad -> tribalism": [
+                1.0
+            ],
+            "Jihad -> particularism": [
+                1.0
+            ],
+            "Jihad -> classical republicanism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The historically ordained march of theologized neoliberal capitalism depends for its continuation on a belief by individuals that they are powerless against putatively inevitable forces of market-driven globalization.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Karl Polanyi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Karl Polanyi",
+                "types": [],
+                "wikid": "Karl Polanyi",
+                "dbpedia": "Karl Polanyi"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "neoliberal capitalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "neoliberal capitalism"
+                ]
+            },
+            {
+                "ngram": "market-driven globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "market-driven globalization"
+                ]
+            },
+            {
+                "ngram": "powerlessness",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "powerlessness"
+                ]
+            },
+            {
+                "ngram": "inevitable forces",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "inevitable forces"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Karl Polanyi -> neoliberal capitalism": [
+                -1.0
+            ],
+            "Karl Polanyi -> market-driven globalization": [
+                -1.0
+            ],
+            "Karl Polanyi -> powerlessness": [
+                -1.0
+            ],
+            "Karl Polanyi -> inevitable forces": [
+                -1.0
+            ]
+        }
+    }
+]

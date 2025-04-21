@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "English economy", "references": ["English economy"]},
+      "justifications": [
+        "the English economy goes into recession"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "London's status as a global financial center", "references": ["city of London starts to lose its status as a global financial center"]},
+      "justifications": [
+        "the city of London starts to lose its status as a global financial center rivaled only by New York"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "world economy", "references": ["world economy"]},
+      "justifications": [
+        "The triumph of Brexit is a most regrettable outcome for everybody involved and possibly even for the world economy"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "target": {"topic": "anti-immigrant fervor and outright racism", "references": ["anti-immigrant fervor and outright racism"]},
+      "justifications": [
+        "the anti-immigrant fervor and outright racism that disfigured the \"Leave\" campaign"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Charles De Gaulle", "references": ["Charles De Gaulle"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Charles De Gaulle vetoed British entry to the Common Market, the EU's ancestor, for five years on the grounds that it did not really have a \"European vocation.\" Turns out he was right."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Gwynne Dyer", "references": ["Gwynne Dyer"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The triumph of Brexit is a most regrettable outcome for everybody involved and possibly even for the world economy"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

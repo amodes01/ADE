@@ -1,0 +1,108 @@
+[
+    {
+        "sentence": "Should Texans be allowed a Texit vote to decide whether to stay in the union?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Texit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Texit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Texans -> Texit vote": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "referendum, just like the British have done in the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Texans -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the issue was brought up at the Texas Republican Convention.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Republican Convention",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Republican Convention",
+                "types": [],
+                "wikid": "Texas Republican Convention",
+                "dbpedia": "Texas Republican Convention"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Texans -> Texas Republican Convention": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

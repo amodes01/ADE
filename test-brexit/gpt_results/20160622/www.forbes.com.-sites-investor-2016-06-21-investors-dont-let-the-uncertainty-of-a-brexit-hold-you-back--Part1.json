@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Investors are naturally concerned about how the so-called Brexit could affect their portfolios.", "Some investors have recently sold their foreign funds.", "Investors pulled $1.1 billion from U.K. equity funds in the week to yesterday."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "long-term investment", "references": ["long term", "best returns come from staying invested long term"]},
+      "justifications": ["But we know that the best returns come from staying invested long term.", "Those who sell out of the market today will have to decide when to get invested again."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "uncertainty", "references": ["uncertainty"]},
+      "justifications": ["Uncertainty is part of investing, just like it's part of life, and as investors, we have to come to terms with uncertainty if we hope to get ahead."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "global crisis and political upheaval", "references": ["global crisis and political upheaval"]},
+      "justifications": ["You know that over the long term-even through times of global crisis and political upheaval-investing in stocks has been the best way to make money."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "U.S. stock funds", "references": ["U.S. stock funds"]},
+      "justifications": ["At the moment, that means U.S. stock funds."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Investors", "references": ["Investors"]},
+      "target": {"topic": "European funds", "references": ["Europe funds", "Europe funds and ETFs", "iShares MSCI Eurozone ETF"]},
+      "justifications": ["Most Europe funds and ETFs have been out of favor for some time now.", "the iShares MSCI Eurozone ETF (EZU) has lagged the S&P 500 for the last three years running."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Investors", "references": ["Investors"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Investors are naturally concerned about how the so-called Brexit could affect their portfolios.", "Some investors have recently sold their foreign funds.", "Investors pulled $1.1 billion from U.K. equity funds in the week to yesterday."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Investors", "references": ["Investors"]},
+      "entity2": {"entity": "U.S. stock funds", "references": ["U.S. stock funds"]},
+      "justifications": ["At the moment, that means U.S. stock funds."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Investors", "references": ["Investors"]},
+      "entity2": {"entity": "European funds", "references": ["Europe funds", "Europe funds and ETFs", "iShares MSCI Eurozone ETF"]},
+      "justifications": ["Most Europe funds and ETFs have been out of favor for some time now.", "the iShares MSCI Eurozone ETF (EZU) has lagged the S&P 500 for the last three years running."]
+      "attitude": "Negative"
+    }
+  ]
+}

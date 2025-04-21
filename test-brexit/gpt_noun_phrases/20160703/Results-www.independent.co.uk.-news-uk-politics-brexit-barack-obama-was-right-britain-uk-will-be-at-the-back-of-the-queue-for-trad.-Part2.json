@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Mr Barzun did also insist that the special relationship would survive Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Barzun",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Barzun",
+                "types": [],
+                "wikid": "Mr. Barzun",
+                "dbpedia": "Mr. Barzun"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "special relationship",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "special relationship"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mr. Barzun -> special relationship": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"You think about the cultural, the commercial, the emotional and the intellectual connections between our countries. Those are unbreakable.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Barzun",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Barzun",
+                "types": [],
+                "wikid": "Mr. Barzun",
+                "dbpedia": "Mr. Barzun"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kirsty Young",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kirsty Young",
+                "types": [],
+                "wikid": "Kirsty Young",
+                "dbpedia": "Kirsty Young"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr. Barzun -> Kirsty Young": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

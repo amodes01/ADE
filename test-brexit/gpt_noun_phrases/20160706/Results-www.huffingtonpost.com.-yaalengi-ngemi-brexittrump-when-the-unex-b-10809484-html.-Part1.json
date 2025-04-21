@@ -1,0 +1,234 @@
+[
+    {
+        "sentence": "Who would have thought that the European Union would lose or, rather, that Great Britain people would do the unthinkable, the unexpected and, on the face of it, the unwise thing by voting to break away from the European Union",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Great Britain",
+                "types": [],
+                "wikid": "Great Britain",
+                "dbpedia": "Great Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            },
+            {
+                "ngram": "Great Britain",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Great Britain"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Great Britain -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union": [
+                -1.0
+            ],
+            "Brexit -> Great Britain": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Indeed, as the British government, political pundits, economists and all the wise men and women of England did not consider the possibility of England out of the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British government -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British government -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Now, while American experts, mostly Democrats or Independents, but even some Republicans, could not and cannot imagine a Trump presidency",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British government",
+                "types": [],
+                "wikid": "British government",
+                "dbpedia": "British government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican Party",
+                "types": [],
+                "wikid": "Republican Party",
+                "dbpedia": "Republican Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Republican Party",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Republican Party"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British government -> Donald Trump": [
+                -1.0
+            ],
+            "Republican Party -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Republican Party": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the probability of this possibility is, nonetheless, real, just as the Republican electorate cared less about all the reasons, scary ones, non-scary ones, real and unreal ones given to them by reasonable, experienced and wise presidential candidates",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republican electorate",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republican electorate",
+                "types": [],
+                "wikid": "Republican electorate",
+                "dbpedia": "Republican electorate"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Donald Trump",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Donald Trump"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> Republican electorate": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Republican electorate -> Donald Trump": [
+                1.0
+            ]
+        }
+    }
+]

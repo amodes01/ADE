@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "United States", "references": ["United States"] },
+      "target": { "topic": "European integration", "references": ["European integration"] },
+      "justifications": [
+        "I presented the U.S. Government position which was yes, we favor this for various reasons that I have more or less just stated."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "France", "references": ["French"] },
+      "target": { "topic": "British entry into the EEC", "references": ["Britain's entry into the EEC"] },
+      "justifications": [
+        "The French felt this, and somewhat resented our efforts to integrate Britain, because it meant a loss of influence for them."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "United States", "references": ["United States"] },
+      "target": { "topic": "Common Agricultural Policy (CAP)", "references": ["Common Agricultural Policy (CAP)"] },
+      "justifications": [
+        "The British joined us against the system the French wanted, which was not only to pay large subsidies to the domestic farmers but then to subsidize their exports."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "France", "references": ["French"] },
+      "entity2": { "entity": "United Kingdom", "references": ["British"] },
+      "justifications": [
+        "The French felt this, and somewhat resented our efforts to integrate Britain, because it meant a loss of influence for them."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "France", "references": ["French"] },
+      "entity2": { "entity": "United States", "references": ["United States"] },
+      "justifications": [
+        "The French felt this, and somewhat resented our efforts to integrate Britain, because it meant a loss of influence for them.",
+        "We felt that Britain's entry into the EEC would strengthen it as an institution, but it would also help us solve some of its flaws."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["British"] },
+      "entity2": { "entity": "United States", "references": ["United States"] },
+      "justifications": [
+        "We felt that Britain's entry into the EEC would strengthen it as an institution, but it would also help us solve some of its flaws."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germans"] },
+      "entity2": { "entity": "France", "references": ["French"] },
+      "justifications": [
+        "Monnet used to travel to London very frequently and he would see Ted Heath, the leader of the Euro-skeptic Conservative Party and tell him, \"You guys belong in this because what you will bring to it is regularization of legal procedures, thinking of issues in terms of rule of law.\" He felt the British would be a liberalizing influence, particularly over the French, who had a hold over the Germans, and therefore a stranglehold on policy."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

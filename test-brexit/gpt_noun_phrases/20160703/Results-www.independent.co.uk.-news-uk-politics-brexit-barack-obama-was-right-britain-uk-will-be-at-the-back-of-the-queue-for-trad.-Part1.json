@@ -1,0 +1,223 @@
+[
+    {
+        "sentence": "Mr Obama had said a post-Brexit, US-UK trade deal would be a long time coming - because America would focus first on big blocs such as the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "US-UK trade deal",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US-UK trade deal"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ],
+            "Barack Obama -> US-UK trade deal": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Vote Leave campaign went into the EU referendum insisting that Brexit would mean Britian gaining the power to strike its own trade deals.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vote Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vote Leave campaign",
+                "types": [],
+                "wikid": "Vote Leave campaign",
+                "dbpedia": "Vote Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Vote Leave campaign -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Its website said: 'We can speak for ourselves and sign new deals with countries all over the world, creating new jobs and new investment opportunities.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vote Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vote Leave campaign",
+                "types": [],
+                "wikid": "Vote Leave campaign",
+                "dbpedia": "Vote Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US-UK trade deal",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US-UK trade deal"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Vote Leave campaign -> US-UK trade deal": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mr Barzun, who helped orchestrate the grassroots campaign that was a key part of Mr Obama's first presidential election victory in 2008, told Desert Island Discs that the President had felt compelled to warn about Brexit because of the special relationship between the UK and the US.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Matthew Barzun",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Matthew Barzun",
+                "types": [],
+                "wikid": "Matthew Barzun",
+                "dbpedia": "Matthew Barzun"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Matthew Barzun": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Brexit campaigners dismissed the warning, however, with Nigel Farage accusing Mr Cameron of putting words in the US President's mouth.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Leave.Eu co-founder Richard Tice insisting: 'Obama does not have the authority to deny us a deal, as he will be long gone before any such proposals are on the table.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Richard Tice",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Richard Tice",
+                "types": [],
+                "wikid": "Richard Tice",
+                "dbpedia": "Richard Tice"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Richard Tice": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

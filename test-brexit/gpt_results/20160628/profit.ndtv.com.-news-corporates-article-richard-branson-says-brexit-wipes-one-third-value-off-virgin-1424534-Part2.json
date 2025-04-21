@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Mr. Bussey", "references": ["Mr Bussey"]},
+      "target": {"topic": "Brexit", "references": ["Britain's choice to leave the EU"]},
+      "justifications": ["In effect, it is closing the door on fast-growth businesses like mine in terms of hiring the best talent in Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sarah McCartney", "references": ["Sarah McCartney"]},
+      "target": {"topic": "Brexit", "references": ["Britain's choice to leave the EU"]},
+      "justifications": ["The future does not smell so sweet at the moment, I buy raw material from Europe, and I sell to Europe. I just think it is going to become a heck of a lot more complicated, and it has already gotten more expensive."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sarah McCartney", "references": ["Sarah McCartney"]},
+      "target": {"topic": "Brexit", "references": ["Britain's choice to leave the EU"]},
+      "justifications": ["The uncertainty of whether she soon will be buried in tariffs, duty and paperwork has left her doubting if she should enter Italy at all."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sarah McCartney", "references": ["Sarah McCartney"]},
+      "target": {"topic": "Brexit", "references": ["Britain's choice to leave the EU"]},
+      "justifications": ["I completely understand people feeling cut off from decision-making and voting 'leave', but I do not think they got at all what will happen day by day for people running little businesses, trying their best to earn a living and pay taxes."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Mr. Bussey", "references": ["Mr Bussey"]},
+      "entity2": {"entity": "Sarah McCartney", "references": ["Sarah McCartney"]},
+      "justifications": ["he's not alone. Artisan London perfume maker Sarah McCartney has found Britain's choice to leave the EU has already bruised her small business, called 4160Tuesdays."],
+      "attitude": "Neutral"
+    }
+  ]
+}

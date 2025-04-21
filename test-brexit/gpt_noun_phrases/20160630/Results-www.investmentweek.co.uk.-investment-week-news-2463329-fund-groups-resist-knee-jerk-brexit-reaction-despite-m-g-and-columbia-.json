@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "asset managers fear the detrimental effect Brexit will have on their distribution capabilities across the continent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Columbia Threadneedle",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Columbia Threadneedle",
+                "types": [],
+                "wikid": "Columbia Threadneedle",
+                "dbpedia": "Columbia Threadneedle"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Columbia Threadneedle -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The group has joined M&G Investments in making plans to build up its operations within the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "M&G Investments",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "M&G Investments",
+                "types": [],
+                "wikid": "M&G Investments",
+                "dbpedia": "M&G Investments"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Columbia Threadneedle",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Columbia Threadneedle",
+                "types": [],
+                "wikid": "Columbia Threadneedle",
+                "dbpedia": "Columbia Threadneedle"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Columbia Threadneedle -> M&G Investments": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "M&G Investments -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

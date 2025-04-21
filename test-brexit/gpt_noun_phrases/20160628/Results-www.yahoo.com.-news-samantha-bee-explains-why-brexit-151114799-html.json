@@ -1,0 +1,168 @@
+[
+    {
+        "sentence": "\"The Brexit vote was driven by angry, less-educated, older white voters who feel screwed by globalization and the establishment, and have been fed a chip butty of xenophobia slathered in slogan sauce,\" Bee said.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Samantha Bee",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Samantha Bee",
+                "types": [],
+                "wikid": "Samantha Bee",
+                "dbpedia": "Samantha Bee"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Samantha Bee -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Samantha Bee -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The way Bee sees it, those are the same people who follow Trump and his brand of \\\"right-wing, racist, anti-immigrant demagoguery.\\\"\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Samantha Bee",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Samantha Bee",
+                "types": [],
+                "wikid": "Samantha Bee",
+                "dbpedia": "Samantha Bee"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Donald Trump",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Donald Trump"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Samantha Bee -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Samantha Bee -> Donald Trump": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The worst outcome of Brexit,\\\" Bee said, \\\"is not the breakup of the EU or the fact that you can now use the British pound as loo paper, it's that the vote made these hateful morons think that over half of the country agreed with them.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Samantha Bee",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Samantha Bee",
+                "types": [],
+                "wikid": "Samantha Bee",
+                "dbpedia": "Samantha Bee"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Samantha Bee -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Bee's hope is that our instinctive nature and historically pro-immigrant spirit will mean things play out differently here come November.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Samantha Bee",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Samantha Bee",
+                "types": [],
+                "wikid": "Samantha Bee",
+                "dbpedia": "Samantha Bee"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "America's demographic makeup",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "America's demographic makeup"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Samantha Bee -> America's demographic makeup": [
+                1.0
+            ]
+        }
+    }
+]

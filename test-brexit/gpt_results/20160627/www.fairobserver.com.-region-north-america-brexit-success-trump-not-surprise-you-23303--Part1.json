@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "rise of far-right politics", "references": ["rise of far-right politics"]},
+      "justifications": [
+        "The global economic crisis has greatly contributed to the rise of far-right politics in the West manifesting itself in outcomes such as Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "rise of far-right politics", "references": ["rise of far-right politics"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The global economic crisis has greatly contributed to the rise of far-right politics in the West manifesting itself in outcomes such as Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "US national security", "references": ["national security"]},
+      "target": {"topic": "refugee crisis", "references": ["refugee crisis"]},
+      "justifications": [
+        "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "US national security", "references": ["national security"]},
+      "target": {"topic": "immigration policies", "references": ["immigration policies"]},
+      "justifications": [
+        "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability, and has viewed all immigration policies with high scrutiny."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Trump himself, while visiting Scotland, made the linkage, tweeting that \"many people are equating Brexit, and what is going on in Great Britain, with what is happening in the U.S.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "the United Kingdom", "references": ["United Kingdom"]},
+      "justifications": [
+        "Trump himself, while visiting Scotland, made the linkage, tweeting that \"many people are equating Brexit, and what is going on in Great Britain, with what is happening in the U.S.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "American right", "references": ["American right"]},
+      "entity2": {"entity": "refugees from the Middle East", "references": ["refugees from the Middle East"]},
+      "justifications": [
+        "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "American right", "references": ["American right"]},
+      "entity2": {"entity": "immigration policies", "references": ["immigration policies"]},
+      "justifications": [
+        "The American right has argued that allowing in refugees from the Middle East will be a direct threat to US national security and stability, and has viewed all immigration policies with high scrutiny."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

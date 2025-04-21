@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Texas Teachers Retirement System", "references": ["Texas Teachers Retirement System", "TRS"]},
+      "target": {"topic": "Brexit", "references": ["Britain's recent vote to leave the European Union", "British referendum"]},
+      "justifications": [
+        "That means that Britain's recent vote to leave the European Union could be felt a little closer to home for the state's 1.4 million public education employees and retirees.",
+        "As for market concerns after the British referendum, Evensky said it's 'just simply going to be a small blip in a long-term, bumpy-but-rising international equity market.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Harold Evensky", "references": ["Harold Evensky"]},
+      "target": {"topic": "Brexit", "references": ["Britain's recent vote to leave the European Union", "British referendum"]},
+      "justifications": [
+        "As for market concerns after the British referendum, Evensky said it's 'just simply going to be a small blip in a long-term, bumpy-but-rising international equity market.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Harold Evensky", "references": ["Harold Evensky"]},
+      "target": {"topic": "global economy", "references": ["economy becomes much more global"]},
+      "justifications": [
+        "'As the economy becomes much more global and the competition gets much stiffer, it's credible to me that having a small presence there makes sense.'"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Harold Evensky", "references": ["Harold Evensky"]},
+      "entity2": {"entity": "Texas Teachers Retirement System", "references": ["Texas Teachers Retirement System", "TRS"]},
+      "justifications": [
+        "'As the economy becomes much more global and the competition gets much stiffer, it's credible to me that having a small presence there makes sense.'",
+        "The pension fund wanted to be near the action, and it got it."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Harold Evensky", "references": ["Harold Evensky"]},
+      "entity2": {"entity": "Patrick Jankowski", "references": ["Patrick Jankowski"]},
+      "justifications": [
+        "'It's as simple as if you have an office in London and you are using your office in London to serve the Continent, now you probably need an office in London and an office in Bonn, or an office in Paris or Berlin or somewhere.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

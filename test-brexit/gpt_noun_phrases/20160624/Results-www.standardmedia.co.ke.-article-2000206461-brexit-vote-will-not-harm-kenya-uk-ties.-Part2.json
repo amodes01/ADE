@@ -1,0 +1,122 @@
+[
+    {
+        "sentence": "President Kenyatta recently expressed concern that third world countries continue to get a raw deal, despite various trade agreements signed with the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Kenyatta",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Kenyatta",
+                "types": [],
+                "wikid": "President Kenyatta",
+                "dbpedia": "President Kenyatta"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU trade agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU trade agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Kenyatta -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President Kenyatta -> EU trade agreements": [
+                -1.0,
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He faulted the current ACP regime of doing nothing to avert this situation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> trade agreements": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "On the trade front, it is apparent that the current regime has not met the expectations in ACP countries",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ACP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ACP",
+                "types": [],
+                "wikid": "ACP",
+                "dbpedia": "ACP"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> ACP": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

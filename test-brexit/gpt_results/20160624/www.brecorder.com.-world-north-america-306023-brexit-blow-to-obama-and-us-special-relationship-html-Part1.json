@@ -1,0 +1,189 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["vote to leave the European Union", "Brexit"]
+      },
+      "justifications": [
+        "Obama said he was \"confident that the UK is committed to an orderly transition out of the EU.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "European leaders",
+        "references": ["European leaders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "European leaders have warned that they will not give London an easy ride, fearing that a smooth Brexit will encourage other European powers to jump ship."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tom Wright",
+        "references": ["Tom Wright"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Wright did not downplay the scale of the harm Brexit would do to trans-Atlantic cooperation but said Obama could \"mitigate\" it by reaching out to France and Germany."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Richard Haass",
+        "references": ["Richard Haass"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"The net result will be the special relationship will be that much less special,\" he said.",
+        "\"This essentially is a cloud without a silver lining when it comes to the UK itself, when it comes to Europe or when it comes to the United States.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "The US president travelled to London during the referendum campaign to back his friend Prime Minister David Cameron's doomed campaign against Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "entity2": {
+        "entity": "Winston Churchill",
+        "references": ["Winston Churchill"]
+      },
+      "justifications": [
+        "A phrase coined by Winston Churchill in 1946 after the Allies' World War II victory."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "European leaders",
+        "references": ["European leaders"]
+      },
+      "entity2": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "European leaders have warned that they will not give London an easy ride, fearing that a smooth Brexit will encourage other European powers to jump ship."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tom Wright",
+        "references": ["Tom Wright"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["Cameron"]
+      },
+      "justifications": [
+        "There is a lot of anger in Washington at what experts see as Cameron's unnecessary gamble on a referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tom Wright",
+        "references": ["Tom Wright"]
+      },
+      "entity2": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "Wright did not downplay the scale of the harm Brexit would do to trans-Atlantic cooperation but said Obama could \"mitigate\" it by reaching out to France and Germany."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Jeffrey Rathke",
+        "references": ["Jeffrey Rathke"]
+      },
+      "entity2": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "\"The reason for the special relationship is basically because we have very similar interests and very similar ways of looking at the world,\" he said."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Richard Haass",
+        "references": ["Richard Haass"]
+      },
+      "entity2": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "Richard Haass, president of the Council on Foreign Relations, who told reporters that Brexit was a harsh blow for the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Richard Haass",
+        "references": ["Richard Haass"]
+      },
+      "entity2": {
+        "entity": "Barack Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "\"The net result will be the special relationship will be that much less special,\" he said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Richard Haass",
+        "references": ["Richard Haass"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["Cameron"]
+      },
+      "justifications": [
+        "\"The net result will be the special relationship will be that much less special,\" he said."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

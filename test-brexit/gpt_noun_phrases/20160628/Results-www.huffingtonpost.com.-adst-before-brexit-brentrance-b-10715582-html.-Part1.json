@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "We wanted to create strong European unity, which would only happen if Great Britain joined the EEC and did not try to undermine it.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Arthur Hartman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Arthur Hartman",
+                "types": [],
+                "wikid": "Arthur Hartman",
+                "dbpedia": "Arthur Hartman"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British EEC membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British EEC membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Arthur Hartman -> British EEC membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He thought that perhaps the British wanted in for the wrong reasons. He thought that perhaps the British wanted to integrate the EEC and water it down for it to become a free trade area.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walt Butterworth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walt Butterworth",
+                "types": [],
+                "wikid": "Walt Butterworth",
+                "dbpedia": "Walt Butterworth"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British EEC membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British EEC membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Walt Butterworth -> British EEC membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "[President John] Kennedy felt the British earnestly wanted to get in and that they should be taken seriously.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President John Kennedy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President John Kennedy",
+                "types": [],
+                "wikid": "President John Kennedy",
+                "dbpedia": "President John Kennedy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Arthur Hartman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Arthur Hartman",
+                "types": [],
+                "wikid": "Arthur Hartman",
+                "dbpedia": "Arthur Hartman"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British EEC membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British EEC membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Arthur Hartman -> President John Kennedy": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President John Kennedy -> British EEC membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I had to speak with Butterworth first to get him in line because he too suspected the British of wanting in for the wrong reasons.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Arthur Hartman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Arthur Hartman",
+                "types": [],
+                "wikid": "Arthur Hartman",
+                "dbpedia": "Arthur Hartman"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walt Butterworth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walt Butterworth",
+                "types": [],
+                "wikid": "Walt Butterworth",
+                "dbpedia": "Walt Butterworth"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Arthur Hartman -> Walt Butterworth": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

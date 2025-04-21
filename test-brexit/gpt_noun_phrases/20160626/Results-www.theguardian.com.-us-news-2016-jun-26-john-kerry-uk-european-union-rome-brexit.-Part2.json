@@ -1,0 +1,65 @@
+[
+    {
+        "sentence": "describing the US-EU partnership as critical for Europe, America and the world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Kerry",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Kerry",
+                "types": [],
+                "wikid": "John Kerry",
+                "dbpedia": "John Kerry"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US-EU partnership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US-EU partnership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "John Kerry -> US": [
+                1.0
+            ],
+            "US -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Kerry -> US-EU partnership": [
+                1.0
+            ]
+        }
+    }
+]

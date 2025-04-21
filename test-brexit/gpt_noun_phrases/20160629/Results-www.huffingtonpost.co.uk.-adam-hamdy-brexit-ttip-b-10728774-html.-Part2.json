@@ -1,0 +1,460 @@
+[
+    {
+        "sentence": "joining War on Want's campaign calling on the Prime Minister to guarantee that MPs will have a vote on CETA.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "War on Want",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "War on Want",
+                "types": [],
+                "wikid": "War on Want",
+                "dbpedia": "War on Want"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister",
+                "types": [],
+                "wikid": "Prime Minister",
+                "dbpedia": "Prime Minister"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CETA",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CETA",
+                "types": [],
+                "wikid": "CETA",
+                "dbpedia": "CETA"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "CETA",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "CETA"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "War on Want -> Prime Minister": [
+                1.0
+            ],
+            "War on Want -> CETA": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "War on Want -> CETA": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Before the Brexit vote, ISDS courts posed a risk to every aspect of life in Britain, but my particular concern was the NHS.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ISDS courts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ISDS courts",
+                "types": [],
+                "wikid": "ISDS courts",
+                "dbpedia": "ISDS courts"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NHS",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NHS"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "ISDS courts -> NHS": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the British people have not only protected themselves from the corporatisation of their democracy, they may have also protected the people of Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British people",
+                "types": [],
+                "wikid": "British people",
+                "dbpedia": "British people"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "CETA",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "CETA"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British people -> EU": [
+                1.0,
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British people -> CETA": [
+                1.0
+            ],
+            "British people -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU has not listened to campaign groups, protestors, and members of the public, who have mobilised against TTIP across the continent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "TTIP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "TTIP",
+                "types": [],
+                "wikid": "TTIP",
+                "dbpedia": "TTIP"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "TTIP",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "TTIP"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "EU -> TTIP": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "EU -> TTIP": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Before the Brexit vote, ISDS courts posed a risk to every aspect of life in Britain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave vote",
+                "types": [],
+                "wikid": "Leave vote",
+                "dbpedia": "Leave vote"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "EU -> Leave vote": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "EU -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A US-UK trade deal will be far simpler to conclude than TTIP.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK-US trade deal",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK-US trade deal"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US -> UK-US trade deal": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Economically, if TTIP does get parked, and the signals already coming from the US translate into action.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "TTIP",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "TTIP"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US -> TTIP": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Leave vote has shown that the people of Britain are prepared to walk away from deals if the terms are not right.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave vote",
+                "types": [],
+                "wikid": "Leave vote",
+                "dbpedia": "Leave vote"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Leave vote -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Leave vote -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I could not in good conscience accept something as fundamentally contrary to the principles of democracy as the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Leave campaign -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Leave campaign -> EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We have a great deal in common with the US and there are many similarities in our economies and legal systems.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "US -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,271 @@
+[
+    {
+        "sentence": "we should be absolutely clear that this government will not tolerate intolerance",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK government",
+                "types": [],
+                "wikid": "UK government",
+                "dbpedia": "UK government"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron's Downing Street spokesperson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron's Downing Street spokesperson",
+                "types": [],
+                "wikid": "David Cameron's Downing Street spokesperson",
+                "dbpedia": "David Cameron's Downing Street spokesperson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK public",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK public",
+                "types": [],
+                "wikid": "UK public",
+                "dbpedia": "UK public"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "intolerance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "intolerance"
+                ]
+            },
+            {
+                "ngram": "racist violence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist violence"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron's Downing Street spokesperson -> UK public": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK government -> intolerance": [
+                -1.0
+            ],
+            "UK government -> racist violence": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "we should be absolutely clear that this government will not tolerate intolerance... intimidating migrants, telling them they need to go home",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron's Downing Street spokesperson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron's Downing Street spokesperson",
+                "types": [],
+                "wikid": "David Cameron's Downing Street spokesperson",
+                "dbpedia": "David Cameron's Downing Street spokesperson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "racist violence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist violence"
+                ]
+            },
+            {
+                "ngram": "migrants",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "migrants"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "David Cameron's Downing Street spokesperson -> racist violence": [
+                -1.0
+            ],
+            "David Cameron's Downing Street spokesperson -> migrants": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "a Twitter user came up with the idea that people should wear a safety pin to show solidarity and support for the immigrants living in the UK",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Safety Pin campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Safety Pin campaign",
+                "types": [],
+                "wikid": "Safety Pin campaign",
+                "dbpedia": "Safety Pin campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "solidarity with immigrants",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "solidarity with immigrants"
+                ]
+            },
+            {
+                "ngram": "racist violence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist violence"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Safety Pin campaign -> solidarity with immigrants": [
+                1.0
+            ],
+            "Safety Pin campaign -> racist violence": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A US Army veteran was racially abused on a tram in Manchester by three teenagers on Tuesday morning",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Juan Jasso",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Juan Jasso",
+                "types": [],
+                "wikid": "Juan Jasso",
+                "dbpedia": "Juan Jasso"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "three teenagers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "three teenagers",
+                "types": [],
+                "wikid": "three teenagers",
+                "dbpedia": "three teenagers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Juan Jasso -> three teenagers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "other people in the tram eventually stood by Jasso and the three teenagers had to leave the tram",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "other commuters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "other commuters",
+                "types": [],
+                "wikid": "other commuters",
+                "dbpedia": "other commuters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "three teenagers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "three teenagers",
+                "types": [],
+                "wikid": "three teenagers",
+                "dbpedia": "three teenagers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "other commuters -> three teenagers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "other people in the tram eventually stood by Jasso",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "other commuters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "other commuters",
+                "types": [],
+                "wikid": "other commuters",
+                "dbpedia": "other commuters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Juan Jasso",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Juan Jasso",
+                "types": [],
+                "wikid": "Juan Jasso",
+                "dbpedia": "Juan Jasso"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "other commuters -> Juan Jasso": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

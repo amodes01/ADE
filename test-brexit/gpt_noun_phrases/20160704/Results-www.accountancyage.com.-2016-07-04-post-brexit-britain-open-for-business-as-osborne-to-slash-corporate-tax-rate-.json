@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "BRITAIN will soon boast the lowest corporation tax rate of any major economy, after chancellor George Osborne revealed plans to slash the rate from 20% to less than 15%.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Osborne",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Osborne",
+                "types": [],
+                "wikid": "George Osborne",
+                "dbpedia": "George Osborne"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "corporation tax rate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "corporation tax rate"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Osborne -> corporation tax rate": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"A further step in that direction would really turn the UK into a tax haven type of economy,\\\" he added.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pascal Saint-Amans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pascal Saint-Amans",
+                "types": [],
+                "wikid": "Pascal Saint-Amans",
+                "dbpedia": "Pascal Saint-Amans"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Osborne",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Osborne",
+                "types": [],
+                "wikid": "George Osborne",
+                "dbpedia": "George Osborne"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "corporation tax rate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "corporation tax rate"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "George Osborne -> Pascal Saint-Amans": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Pascal Saint-Amans -> corporation tax rate": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"the UK is \\\"preparing itself to become a tax haven\\\" for multinationals, in a reaction to Google's \\u00a3130m agreement with HMRC over unpaid back taxes.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eva Joly",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eva Joly",
+                "types": [],
+                "wikid": "Eva Joly",
+                "dbpedia": "Eva Joly"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Osborne",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Osborne",
+                "types": [],
+                "wikid": "George Osborne",
+                "dbpedia": "George Osborne"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "corporation tax rate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "corporation tax rate"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "George Osborne -> Eva Joly": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Eva Joly -> corporation tax rate": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Osborne stated that he wanted to create a \\\"super competitive economy\\\" through low taxes and by attracting further global investment, particularly from China.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Osborne",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Osborne",
+                "types": [],
+                "wikid": "George Osborne",
+                "dbpedia": "George Osborne"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "George Osborne -> China": [
+                1.0
+            ],
+            "China -> George Osborne": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

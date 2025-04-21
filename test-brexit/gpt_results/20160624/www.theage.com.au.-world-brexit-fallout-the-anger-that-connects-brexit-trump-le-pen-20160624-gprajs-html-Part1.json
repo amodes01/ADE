@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "English nationalism", "references": ["English nationalism"]},
+      "justifications": ["Brexit is also in large part an expression of rising English nationalism"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": ["Brexit fits very closely into this procession towards a world without collaborative international institutions"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "global governance", "references": ["global governance"]},
+      "justifications": ["Brexit fits very closely into this procession towards a world without collaborative international institutions"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "financial crisis", "references": ["financial crisis"]},
+      "justifications": ["the euro area's difficulties in rebounding from the financial crisis"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "refugee influx", "references": ["influx of refugees arriving from the Middle East"]},
+      "justifications": ["the sudden influx of refugees arriving from the Middle East"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "global economy", "references": ["global economy"]},
+      "justifications": ["the EU has, like other institutions that set the terms of the global economy since World War II, failed to adapt to the upheavals that followed the end of the Cold War"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "inequality", "references": ["inequality"]},
+      "justifications": ["institutions were unable to help governments ameliorate inequality or the impact of globalisation on jobs and wages for many in the West"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "trade openness", "references": ["trade, openness and cooperation"]},
+      "justifications": ["People are challenging the conventional wisdom around trade, openness and cooperation because they feel let down"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "G-zero", "references": ["G-zero"]},
+      "justifications": ["The reference was to the progressive irrelevance of the G-7, G-8 and then G-20 to global governance"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Brexit fits very closely into this procession towards a world without collaborative international institutions"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["The more unsuccessful the union is, the more natural it is that the movements in the other direction are strengthened"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": ["Trump's position is about as far as you can imagine from the US world order"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Boris Johnson, former mayor of London, led the campaign for the UK to leave the European Union"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Simon Fraser", "references": ["Simon Fraser"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Fraser says Brexit represents a backlash that's understandable and that the EU is not entirely to blame"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ian Bremmer", "references": ["Bremmer"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Bremmer notes that Brexit fits very closely into the procession towards a world without collaborative international institutions"],
+      "attitude": "Negative"
+    }
+  ]
+}

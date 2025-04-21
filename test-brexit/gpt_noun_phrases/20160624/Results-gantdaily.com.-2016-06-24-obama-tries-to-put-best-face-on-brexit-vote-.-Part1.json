@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "\"While the UK's relationship with the EU will change, one thing that will not change is the special relationship that exists between our two nations, Obama said during remarks at Stanford University...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"While the UK's relationship with the EU will change...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU-UK relationship",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU-UK relationship"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> EU-UK relationship": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"...one thing that will not change is the special relationship that exists between our two nations, Obama said...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "special relationship",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "special relationship"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> special relationship": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"...the referendum, characterized by a fierce populist debate on issues like immigration and the economy, spoke to 'the ongoing changes and challenges that are raised by globalization.'\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalization",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalization"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> globalization": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The EU will remain a 'vital' U.S. partner, alongside NATO.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> EU": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I must say we had looked for a different outcome, we preferred a different outcome.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Joe Biden",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Joe Biden",
+                "types": [],
+                "wikid": "Joe Biden",
+                "dbpedia": "Joe Biden"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Joe Biden -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Joe Biden -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"...stressed the need to reaffirm the U.S. commitment to the special relationship it has with both the UK and the EU.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hillary Clinton -> United Kingdom": [
+                1.0
+            ],
+            "Hillary Clinton -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"This time of uncertainty only underscores the need for calm, steady, experienced leadership in the White House to protect Americans' pocketbooks and livelihoods.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic uncertainty",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic uncertainty"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Hillary Clinton -> economic uncertainty": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The President spoke with British Prime Minister David Cameron and German Chancellor Angela Merkel on Friday...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Germany": [
+                -1.0
+            ],
+            "Barack Obama -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"...drew an indirect comparison to Trump, her likely Republican rival.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Hillary Clinton -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "sentence": "By clicking Create Account you confirm that your data has been entered correctly and you have read and agree to our Terms of use, Cookie policy and Privacy policy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "account creation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "account creation",
+                "types": [],
+                "wikid": "account creation",
+                "dbpedia": "account creation"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "terms and conditions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "terms and conditions"
+                ]
+            },
+            {
+                "ngram": "data privacy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "data privacy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "account creation -> terms and conditions": [
+                1.0
+            ],
+            "account creation -> data privacy": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Chinese stimulus",
+        "references": ["China", "stimulus"]
+      },
+      "target": {
+        "topic": "trade war",
+        "references": ["trade war"]
+      },
+      "justifications": [
+        "The Communist Party may be hoarding fiscal firepower to offset a possible trade war"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "ADHD treatment",
+        "references": ["ADHD", "treated as a disorder"]
+      },
+      "target": {
+        "topic": "ADHD perception",
+        "references": ["ADHD"]
+      },
+      "justifications": [
+        "It should not be treated as a disorder"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "The Communist Party",
+        "references": ["The Communist Party"]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": ["China"]
+      },
+      "justifications": [
+        "The Communist Party may be hoarding fiscal firepower to offset a possible trade war"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

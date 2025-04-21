@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "EU migration rules", "references": ["EU rules"] },
+      "target": { "topic": "immigration policy", "references": ["immigration policy"] },
+      "justifications": [
+        "EU rules set no limits on EU migration, and Britain has been forced to restrict non-European immigration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU migration rules", "references": ["EU rules"] },
+      "target": { "topic": "non-European immigration", "references": ["non-European immigration"] },
+      "justifications": [
+        "Brits of Indian or Bangladeshi origin who voted Leave often did so because they felt EU rules ultimately discriminate against people from non-European backgrounds, even those from Commonwealth countries."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "immigration policy", "references": ["immigration policy"] },
+      "target": { "topic": "EU migration rules", "references": ["EU rules"] },
+      "justifications": [
+        "Many Brits were simply eager for more of a say in who can live and work in their country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "free market capitalism", "references": ["free market capitalism"] },
+      "target": { "topic": "EU membership", "references": ["pulling out of the EU"] },
+      "justifications": [
+        "Then there is the notion that pulling out of the EU is a brave feat of free market capitalism."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit economic impact", "references": ["Brexit"] },
+      "target": { "topic": "EU membership", "references": ["EU membership"] },
+      "justifications": [
+        "Britain's economy has done very well within the EU, and is now growing as fast as the US with unemployment diving to just above 5%."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "David Cameron", "references": ["Cameron"] },
+      "justifications": [
+        "SNP leader Nicola Sturgeon stood alongside Cameron."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "entity2": { "entity": "Chris Christie", "references": ["Chris Christie"] },
+      "justifications": [
+        "Imagine, though, Bernie Sanders campaigning with Chris Christie."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary supporters"] },
+      "justifications": [
+        "Bernie Sanders campaigning with Chris Christie against 30% of Hillary supporters."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "SNP", "references": ["Scottish National Party"] },
+      "entity2": { "entity": "conservatives", "references": ["conservatives"] },
+      "justifications": [
+        "although conservatives are her political enemies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "SNP", "references": ["Scottish National Party"] },
+      "entity2": { "entity": "David Cameron", "references": ["Cameron"] },
+      "justifications": [
+        "SNP leader Nicola Sturgeon stood alongside Cameron."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

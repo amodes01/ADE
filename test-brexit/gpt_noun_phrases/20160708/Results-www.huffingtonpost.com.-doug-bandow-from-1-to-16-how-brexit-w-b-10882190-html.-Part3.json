@@ -1,0 +1,267 @@
+[
+    {
+        "sentence": "Then came the shock of watching Brexit improbably take the lead in early returns.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tories",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tories",
+                "types": [],
+                "wikid": "Tories",
+                "dbpedia": "Tories"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom Independence Party",
+                "types": [],
+                "wikid": "United Kingdom Independence Party",
+                "dbpedia": "United Kingdom Independence Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nigel Farage -> David Cameron": [
+                -1.0
+            ],
+            "David Cameron -> United Kingdom Independence Party": [
+                -1.0
+            ],
+            "David Cameron -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "David Cameron -> Brexit": [
+                -1.0
+            ],
+            "Tories -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Both the UK and EU must handle separation with maturity unusual for politicians, especially those in Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "UKIP was able to break into the European Parliament, which it hated, but won only one seat at Westminster, despite receiving 3.9 million votes, or 12.6 percent of the total, in last year's election.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom Independence Party",
+                "types": [],
+                "wikid": "United Kingdom Independence Party",
+                "dbpedia": "United Kingdom Independence Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United Kingdom Independence Party -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "His United Kingdom Independence Party picked up support, but then had to shed some of those whose views really were beyond the pale.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom Independence Party",
+                "types": [],
+                "wikid": "United Kingdom Independence Party",
+                "dbpedia": "United Kingdom Independence Party"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> United Kingdom Independence Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "UKIP was able to break into the European Parliament, which it hated.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom Independence Party",
+                "types": [],
+                "wikid": "United Kingdom Independence Party",
+                "dbpedia": "United Kingdom Independence Party"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "European Union -> United Kingdom Independence Party": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

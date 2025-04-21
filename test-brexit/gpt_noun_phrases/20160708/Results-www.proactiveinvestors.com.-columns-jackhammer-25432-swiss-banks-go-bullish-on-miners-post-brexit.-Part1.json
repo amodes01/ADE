@@ -1,0 +1,379 @@
+[
+    {
+        "sentence": "\"Gold macro story more compelling than ever, trumpets UBS research from 5 July.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UBS",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UBS",
+                "types": [],
+                "wikid": "UBS",
+                "dbpedia": "UBS"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "gold market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "gold market"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UBS -> gold market": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The UK's vote to leave the EU further underpins gold's macro narrative, reinforcing the themes of further dovish shifts in monetary policies, consequently lower yields, and heightened uncertainty.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UBS",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UBS",
+                "types": [],
+                "wikid": "UBS",
+                "dbpedia": "UBS"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UBS -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Gold still gets the headline billing following the Brexit result, but Credit Suisse almost seems embarrassed as to how straightforward a call that is.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Credit Suisse",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Credit Suisse",
+                "types": [],
+                "wikid": "Credit Suisse",
+                "dbpedia": "Credit Suisse"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "gold market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "gold market"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Credit Suisse -> gold market": [
+                1.0
+            ],
+            "Credit Suisse -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Iron ore is a market which is likely to remain depressed according to the Credit Suisse number crunchers, but which could be at least relatively balanced in 2016 and early 2017, allowing for some short-term easing of the pressure.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Credit Suisse",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Credit Suisse",
+                "types": [],
+                "wikid": "Credit Suisse",
+                "dbpedia": "Credit Suisse"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "iron ore",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "iron ore"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Credit Suisse -> iron ore": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Lundin (TSE:LUN) and Boliden (TSE:BLS) are backed on the basis that there will likely be a 'major supply crunch' in zinc.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Credit Suisse",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Credit Suisse",
+                "types": [],
+                "wikid": "Credit Suisse",
+                "dbpedia": "Credit Suisse"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "zinc",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "zinc"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Credit Suisse -> zinc": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Switzerland is not in the European Union and is a frequent holder of referendums.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Switzerland -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Switzerland -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There is no such rhetoric from the Swiss side of the newly strengthening European fences.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Switzerland -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Switzerland -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Swiss are quietly comfortable outside of the European Union and on the whole - and in the most neutral way possible - happy to see another major player in the global financial system joining their ranks.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's exit from the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's exit from the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Switzerland -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Switzerland -> UK's exit from the EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The Brits have taken their country back, argued John Bolton, the former US ambassador to the UN on American television last week.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John Bolton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John Bolton",
+                "types": [],
+                "wikid": "John Bolton",
+                "dbpedia": "John Bolton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "John Bolton -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "John Bolton -> Brexit": [
+                1.0
+            ]
+        }
+    }
+]

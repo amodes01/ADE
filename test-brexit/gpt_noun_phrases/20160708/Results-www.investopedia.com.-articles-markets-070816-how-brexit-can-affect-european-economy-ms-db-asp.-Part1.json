@@ -1,0 +1,278 @@
+[
+    {
+        "sentence": "Brexit weakened the British pound on a structural level.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "GBP value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "GBP value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> GBP value": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the GBP has weakened due to higher interest rates and fear of a recession, while the U.S. dollar has strengthened.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.S. dollar value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.S. dollar value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> U.S. dollar value": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the GBP has weakened due to higher interest rates",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "interest rates",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "interest rates",
+                "types": [],
+                "wikid": "interest rates",
+                "dbpedia": "interest rates"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "GBP value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "GBP value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "interest rates -> GBP value": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the U.S. dollar has strengthened",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "interest rates",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "interest rates",
+                "types": [],
+                "wikid": "interest rates",
+                "dbpedia": "interest rates"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.S. dollar value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.S. dollar value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "interest rates -> U.S. dollar value": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Lack of market confidence in both the government of then-U.K. Prime Minister Liz Truss and Trussonomics further weakened the pound.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trussonomics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trussonomics",
+                "types": [],
+                "wikid": "Trussonomics",
+                "dbpedia": "Trussonomics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "GBP value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "GBP value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trussonomics -> GBP value": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The jettisoning of the Truss tax cuts by Jeremy Hunt, the current Chancellor of the Exchequer, seems to have stabilized markets and consequentially halted the decline of the pound.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Hunt",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Hunt",
+                "types": [],
+                "wikid": "Jeremy Hunt",
+                "dbpedia": "Jeremy Hunt"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "GBP value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "GBP value"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jeremy Hunt -> GBP value": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The jettisoning of the Truss tax cuts by Jeremy Hunt",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Liz Truss",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Liz Truss",
+                "types": [],
+                "wikid": "Liz Truss",
+                "dbpedia": "Liz Truss"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Hunt",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Hunt",
+                "types": [],
+                "wikid": "Jeremy Hunt",
+                "dbpedia": "Jeremy Hunt"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Liz Truss -> Jeremy Hunt": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "the Bank of England, which issues the currency, has played an active role in international economic developments.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bank of England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bank of England",
+                "types": [],
+                "wikid": "Bank of England",
+                "dbpedia": "Bank of England"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. dollar",
+                "types": [],
+                "wikid": "U.S. dollar",
+                "dbpedia": "U.S. dollar"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bank of England -> U.S. dollar": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

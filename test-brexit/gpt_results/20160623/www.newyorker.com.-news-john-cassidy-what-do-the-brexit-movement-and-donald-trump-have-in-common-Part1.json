@@ -1,0 +1,43 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "target": { "topic": "Brexit referendum", "references": ["leave the European Union"] },
+      "justifications": ["an option supported by Nigel Farage, the leader of the U.K. Independence Party."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "right-wing populism", "references": ["right-wing populism"] },
+      "justifications": ["new high-water marks. When the Brexit referendum is done, tens of millions of Britons will likely have registered a vote against the liberal vision of European unity and assimilation. Likewise, if things go as expected come November, American voters will reject the option of electing a President Trump."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Dean Baker", "references": ["Dean Baker"] },
+      "target": { "topic": "racism and sexism", "references": ["racist, sexist, xenophobic buffoon"] },
+      "justifications": ["There is no excuse for supporting a racist, sexist, xenophobic buffoon like Donald Trump,"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "racism and sexism", "references": ["racist, sexist, xenophobic buffoon"] },
+      "justifications": ["There is no excuse for supporting a racist, sexist, xenophobic buffoon like Donald Trump,"],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": ["Trump and his counterpart in Britain, the U.K. Independence Party (UKIP) leader Nigel Farage, did not emerge from nowhere."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Dean Baker", "references": ["Dean Baker"] },
+      "justifications": ["Dean Baker, an economist and blogger at the liberal Center for Economic and Policy Research, in Washington, noted recently."],
+      "attitude": "Neutral"
+    }
+  ]
+}

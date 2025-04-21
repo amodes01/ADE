@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "EU funding", "references": ["EU funding", "EU contributions", "EU awards"] },
+      "target": { "topic": "U.K. research funding", "references": ["U.K. research funding", "U.K. science", "U.K. health and bioscience research"] },
+      "justifications": [
+        "The U.K. recently eclipsed the United States in the number of times its research was cited, largely thanks to its international collaborations, according to a separate Digital Science report.",
+        "The U.K. is currently in the driving seat of a global hub of research excellence that is larger than the U.S. in output size, growing faster than the U.S., and with a far higher rate of international collaborations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Post-Brexit", "Brexit"] },
+      "target": { "topic": "U.K. research funding", "references": ["U.K. research funding", "U.K. science", "U.K. health and bioscience research"] },
+      "justifications": [
+        "Post-Brexit, this progress is at risk.",
+        "The U.K. lags behind other EU countries in domestic and industry contributions to research, leaving it particularly dependent on EU money."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU funding", "references": ["EU funding", "EU contributions", "EU awards"] },
+      "target": { "topic": "U.K. funding post-Brexit", "references": ["EU funding", "EU awards are likely to drop"] },
+      "justifications": [
+        "EU awards are likely to drop, regardless of how the U.K.'s relationship with the union will unfold.",
+        "The U.K.'s ability to collaborate on a global scale will inevitably be significantly impacted by reduced funding from the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mike Galsworthy", "references": ["Mike Galsworthy"] },
+      "entity2": { "entity": "Rob Davidson", "references": ["Rob Davidson"] },
+      "justifications": [
+        "Galsworthy and Davidson lead the organization Scientists for EU, which campaigned for Britain to remain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Mike Galsworthy", "references": ["Mike Galsworthy"] },
+      "entity2": { "entity": "U.K. government", "references": ["U.K. politicians"] },
+      "justifications": [
+        "There is no mechanism, or guarantee, that U.K. politicians will direct those funds to research."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Mike Galsworthy", "references": ["Mike Galsworthy"] },
+      "entity2": { "entity": "Leave promoters", "references": ["Leave promoters"] },
+      "justifications": [
+        "Could savings from EU contributions make up the shortfall, as Leave promoters promised?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tara Spires-Jones", "references": ["Tara Spires-Jones"] },
+      "entity2": { "entity": "U.K. research funding", "references": ["EU grant", "EU funding"] },
+      "justifications": [
+        "Tara Spires-Jones at the University of Edinburgh has a €2 million EU grant due to start this year, but now does not know if she will receive it."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tara Spires-Jones", "references": ["Tara Spires-Jones"] },
+      "entity2": { "entity": "Alzheimer's Research U.K.", "references": ["Alzheimer's Research U.K."] },
+      "justifications": [
+        "Spires-Jones also worries that the slowing economy post-referendum could cut donations to charities like Alzheimer's Research U.K."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

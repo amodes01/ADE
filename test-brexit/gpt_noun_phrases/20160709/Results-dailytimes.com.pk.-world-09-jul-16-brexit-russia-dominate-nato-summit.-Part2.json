@@ -1,0 +1,114 @@
+[
+    {
+        "sentence": "Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US missile defence system in South Korea",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US missile defence system in South Korea"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Russia -> US": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Russia -> US missile defence system in South Korea": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "echoing warnings by China",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US missile defence system in South Korea",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US missile defence system in South Korea"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "China -> US": [
+                -1.0
+            ],
+            "Russia -> China": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "China -> US missile defence system in South Korea": [
+                -1.0
+            ]
+        }
+    }
+]

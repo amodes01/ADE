@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Wilson", "references": ["Wilson"] },
+      "target": { "topic": "logistics system", "references": ["logistics system"] },
+      "justifications": ["they were so focused on initial production they did not start up and really work the logistics system fast enough"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Wilson", "references": ["Wilson"] },
+      "target": { "topic": "supply line", "references": ["supply line"] },
+      "justifications": ["We are putting together a plan with of course the Joint Program Office because this is a joint program"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Secretary of Defense", "references": ["secretary of defense"] },
+      "target": { "topic": "operational squadrons", "references": ["operational squadrons"] },
+      "justifications": ["so that our operational squadrons can meet the goals that the secretary of defense has set out for us"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Venable", "references": ["Venable"] },
+      "target": { "topic": "gaming the system", "references": ["gaming the system"] },
+      "justifications": ["Venable warned that jettisoning jets to get capability rates up could amount to gaming the system"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Gen. Robert Neller", "references": ["Gen. Robert Neller", "Neller"] },
+      "entity2": { "entity": "Venable", "references": ["Venable"] },
+      "justifications": ["Venable warned that jettisoning jets to get capability rates up could amount to gaming the system"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Gen. Robert Neller", "references": ["Gen. Robert Neller", "Neller"] },
+      "entity2": { "entity": "Secretary of Defense", "references": ["Mattis", "secretary of defense"] },
+      "justifications": ["Gen. Robert Neller, the Marine Corps commandant, said the good news is the service has its annual funding from Congress and not a stopgap budget to hit Mattis' goal"],
+      "attitude": "Positive"
+    }
+  ]
+}

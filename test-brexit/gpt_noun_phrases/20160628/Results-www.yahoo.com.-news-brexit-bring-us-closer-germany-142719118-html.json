@@ -1,0 +1,226 @@
+[
+    {
+        "sentence": "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Germany's role in EU after Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Germany's role in EU after Brexit"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> Germany": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> Germany's role in EU after Brexit": [
+                1.0
+            ],
+            "United States -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Germany still remains the de facto leader of Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU leadership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU leadership"
+                ]
+            },
+            {
+                "ngram": "EU unity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU unity"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> EU leadership": [
+                1.0
+            ],
+            "Germany -> EU unity": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Merkel's popularity had taken a hit due to her push for European countries to quickly admit Syrian refugees.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Syrian refugee crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Syrian refugee crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> Syrian refugee crisis": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Merkel warned the U.K. it should not expect to reap the benefits of the single European market free of the obligations of membership.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Merkel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Merkel",
+                "types": [],
+                "wikid": "Merkel",
+                "dbpedia": "Merkel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership benefits post-Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership benefits post-Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Merkel -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Merkel -> EU membership benefits post-Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Chancellor Angela Merkel is the most respected leader on the continent.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Merkel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Merkel",
+                "types": [],
+                "wikid": "Merkel",
+                "dbpedia": "Merkel"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Germany -> Merkel": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

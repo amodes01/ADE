@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Back in April, when the possibility of Britain actually voting to leave the European Union seemed remote, two newspapers commissioned a poll asking which political figure readers would most like to dine with. Boris Johnson, who had recently announced his support for Brexit, was the winner by a wide margin."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Boris Johnson, who had recently announced his support for Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Mr. Cameron, who had staked his political future on the vote, resigned."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"] },
+      "justifications": [
+        "Back in April, when the possibility of Britain actually voting to leave the European Union seemed remote, two newspapers commissioned a poll asking which political figure readers would most like to dine with. Boris Johnson, who had recently announced his support for Brexit, was the winner by a wide margin: 38 percent of respondents said they'd prefer his company, compared with 18 percent for the Labour Party leader, Jeremy Corbyn."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "Mr. Cameron, who had staked his political future on the vote, resigned."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "justifications": [
+        "Mr. Gove's wife, Sarah Vine, a columnist for The Daily Mail, inadvertently leaked an email indicating her distrust of Mr. Johnson."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "entity2": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "justifications": [
+        "Mr. Gove's wife, Sarah Vine, a columnist for The Daily Mail, inadvertently leaked an email indicating her distrust of Mr. Johnson."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "entity2": { "entity": "Sarah Vine", "references": ["Sarah Vine"] },
+      "justifications": [
+        "Mr. Gove's wife, Sarah Vine, a columnist for The Daily Mail, inadvertently leaked an email indicating her distrust of Mr. Johnson."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

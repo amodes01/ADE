@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Federal Reserve Chair Janet Yellen", "references": ["Janet Yellen"]},
+      "target": {"topic": "British exit from the EU", "references": ["British exit from the EU"]},
+      "justifications": ["Janet Yellen said earlier this month that a British exit from the EU could have consequences in turn for the U.S. economic outlook."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "IMF", "references": ["IMF"]},
+      "target": {"topic": "British exit from the EU", "references": ["U.K. exit from Europe's single market"]},
+      "justifications": ["The IMF said in an April report, 'A U.K. exit from Europe's single market would also likely disrupt and reduce mutual trade and financial flows, curtailing key benefits from economic cooperation and integration.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British government", "references": ["British government"]},
+      "target": {"topic": "economic consequences of British exit", "references": ["nation 'would be permanently poorer' if it left the EU"]},
+      "justifications": ["The U.K.'s Treasury itself reported that its analysis showed the nation 'would be permanently poorer' if it left the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nationalist groups across Europe", "references": ["Nationalist groups across Europe"]},
+      "target": {"topic": "British exit from the EU", "references": ["referendum closely to see if they can use the results into their advantage"]},
+      "justifications": ["Nationalist groups across Europe will be watching the referendum closely to see if they can use the results into their advantage."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "U.S. corporations", "references": ["U.S. corporations"]},
+      "target": {"topic": "British exit from the EU", "references": ["companies could see drastically reduced profits"]},
+      "justifications": ["So since the leave camp won, many of those companies could see drastically reduced profits."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "economic slowdown", "references": ["slowdown there would mean a global slowdown"]},
+      "justifications": ["In terms of trade, the bloc easily topped the U.S. and China in both imports and exports. So a slowdown there would mean a global slowdown. One that could last months - if not years."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Federal Reserve Chair Janet Yellen", "references": ["Janet Yellen"]},
+      "entity2": {"entity": "British government", "references": ["British government"]},
+      "justifications": ["Janet Yellen said earlier this month that a British exit from the EU could have consequences in turn for the U.S. economic outlook."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British government", "references": ["British government"]},
+      "entity2": {"entity": "IMF", "references": ["IMF"]},
+      "justifications": ["The U.K.'s Treasury itself reported that its analysis showed the nation 'would be permanently poorer' if it left the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nationalist groups across Europe", "references": ["Nationalist groups across Europe"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Nationalist groups across Europe will be watching the referendum closely to see if they can use the results into their advantage."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British government", "references": ["British government"]},
+      "entity2": {"entity": "U.S. corporations", "references": ["U.S. corporations"]},
+      "justifications": ["So since the leave camp won, many of those companies could see drastically reduced profits."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "U.S. corporations", "references": ["U.S. and China"]},
+      "justifications": ["The general thinking is that many international corporations, notably those based in the U.S. and China, invest in U.K. operations partly so they can readily access the free-trade corridors the U.K. enjoys with the rest of the European Union."],
+      "attitude": "Neutral"
+    }
+  ]
+}

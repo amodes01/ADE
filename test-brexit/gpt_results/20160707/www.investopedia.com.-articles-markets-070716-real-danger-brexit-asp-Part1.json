@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Leave supporters", "Brexit"] },
+      "target": { "topic": "economic projections", "references": ["economic projections"] },
+      "justifications": [
+        "Leave supporters discounted such economic projections under the label 'Project Fear.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Leave supporters", "references": ["Leave supporters"] },
+      "target": { "topic": "national independence", "references": ["restoration of national independence"] },
+      "justifications": [
+        "A pro-Brexit outfit associated with the U.K. Independence Party (UKIP), which was founded to oppose EU membership, responded by saying that the Treasury's 'worst-case scenario of £4,300 per household is a bargain-basement price for the restoration of national independence.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Leave supporters", "references": ["Leave supporters"] },
+      "target": { "topic": "safe, secure borders", "references": ["safe, secure borders"] },
+      "justifications": [
+        "Leave supporters discounted such economic projections under the label 'Project Fear.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Leave supporters", "references": ["Leave supporters"] },
+      "target": { "topic": "sovereignty", "references": ["issues of national pride, safety, and sovereignty"] },
+      "justifications": [
+        "Although Leave supporters stressed issues of national pride, safety, and sovereignty."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Vote Leave", "references": ["Vote Leave"] },
+      "target": { "topic": "NHS", "references": ["NHS [National Health Service]"] },
+      "justifications": [
+        "Vote Leave, the official pro-Brexit campaign, topped the 'Why Vote Leave' page on its website with the claim that the U.K. could save £350 million per week: 'We can spend our money on our priorities like the NHS [National Health Service], schools, and housing.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "U.K. Statistics Authority", "references": ["U.K. Statistics Authority"] },
+      "target": { "topic": "Vote Leave's NHS promises", "references": ["Vote Leave's NHS promises"] },
+      "justifications": [
+        "In May 2016, the U.K. Statistics Authority, an independent public body, said the figure was gross rather than net, which was 'misleading and undermines trust in official statistics.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Nigel Farage", "references": ["Nigel Farage"] },
+      "target": { "topic": "Vote Leave", "references": ["Vote Leave"] },
+      "justifications": [
+        "The day after the referendum, Nigel Farage, who co-founded UKIP and led it until that November, disavowed the figure and said that he was not closely associated with Vote Leave."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Leave supporters", "references": ["Leave supporters"] },
+      "entity2": { "entity": "economic projections", "references": ["economic projections"] },
+      "justifications": [
+        "Leave supporters discounted such economic projections under the label 'Project Fear.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leave supporters", "references": ["Leave supporters"] },
+      "entity2": { "entity": "national independence", "references": ["restoration of national independence"] },
+      "justifications": [
+        "A pro-Brexit outfit associated with the U.K. Independence Party (UKIP), which was founded to oppose EU membership, responded by saying that the Treasury's 'worst-case scenario of £4,300 per household is a bargain-basement price for the restoration of national independence.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Leave supporters", "references": ["Leave supporters"] },
+      "entity2": { "entity": "safe, secure borders", "references": ["safe, secure borders"] },
+      "justifications": [
+        "Leave supporters discounted such economic projections under the label 'Project Fear.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Leave supporters", "references": ["Leave supporters"] },
+      "entity2": { "entity": "sovereignty", "references": ["issues of national pride, safety, and sovereignty"] },
+      "justifications": [
+        "Although Leave supporters stressed issues of national pride, safety, and sovereignty."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Vote Leave", "references": ["Vote Leave"] },
+      "entity2": { "entity": "NHS", "references": ["NHS [National Health Service]"] },
+      "justifications": [
+        "Vote Leave, the official pro-Brexit campaign, topped the 'Why Vote Leave' page on its website with the claim that the U.K. could save £350 million per week: 'We can spend our money on our priorities like the NHS [National Health Service], schools, and housing.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "U.K. Statistics Authority", "references": ["U.K. Statistics Authority"] },
+      "entity2": { "entity": "Vote Leave", "references": ["Vote Leave"] },
+      "justifications": [
+        "In May 2016, the U.K. Statistics Authority, an independent public body, said the figure was gross rather than net, which was 'misleading and undermines trust in official statistics.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "Vote Leave", "references": ["Vote Leave"] },
+      "justifications": [
+        "The day after the referendum, Nigel Farage, who co-founded UKIP and led it until that November, disavowed the figure and said that he was not closely associated with Vote Leave."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

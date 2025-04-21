@@ -1,0 +1,150 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Erik Bidenkap", "references": ["Erik Bidenkap"] },
+      "target": { "topic": "Brexit", "references": ["leave the European Union", "Brexit"] },
+      "justifications": [
+        "Bidenkap said he was hoping for a more intellectual, perhaps even philosophical, discussion of the question U.K. citizens will decide Thursday: whether to leave the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Erik Bidenkap", "references": ["Erik Bidenkap"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Instead, he found what he called the same kind of scare tactics, particularly focused on immigrants and Muslims."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Leave.EU", "references": ["Leave.Eu"] },
+      "target": { "topic": "Islamist extremism", "references": ["Islamist extremism"] },
+      "justifications": [
+        "\"Islamist extremism is a real threat to our way of life,\\\" read a message posted on Twitter by Leave.Eu."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Leave.EU", "references": ["Leave.Eu"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Act now before we see an Orlando-style atrocity here before too long.\\\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "Muslim ban", "references": ["banning Muslims from entering the U.S."] },
+      "justifications": [
+        "Trump has talked about banning Muslims from entering the U.S."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "Mexico", "references": ["Mexico", "Mexican rapists"] },
+      "justifications": [
+        "Trump has talked about banning Muslims from entering the U.S. and about Mexican \\\"rapists\\\" crossing the border."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Farage unveiled a billboard of a photo of a line of hundreds of refugees. \\\"Breaking Point,\\\" the billboard read."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Elizabeth Evans", "references": ["Elizabeth Evans"] },
+      "target": { "entity": "Nigel Farage", "references": ["Farage"] },
+      "justifications": [
+        "Evans says Farage, like Trump, is a charismatic populist who has tapped into public frustration."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Elizabeth Evans", "references": ["Elizabeth Evans"] },
+      "target": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "Evans says Farage, like Trump, is a charismatic populist who has tapped into public frustration."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Elizabeth Evans", "references": ["Elizabeth Evans"] },
+      "target": { "entity": "Nigel Farage", "references": ["Farage"] },
+      "justifications": [
+        "Farage \\\"based his whole rhetoric, his whole story around immigration,\\\" she said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Elizabeth Evans", "references": ["Elizabeth Evans"] },
+      "target": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "And when I hear Donald Trump, I just hear comparisons in what they are saying."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Frank Luntz", "references": ["Frank Luntz"] },
+      "target": { "entity": "Donald Trump", "references": ["Trump"] },
+      "justifications": [
+        "Luntz, who is in London for the referendum, said Trump and Brexiteers like Farage appeal to people who have never quite recovered from the global financial crisis."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Frank Luntz", "references": ["Frank Luntz"] },
+      "target": { "entity": "Nigel Farage", "references": ["Farage"] },
+      "justifications": [
+        "Luntz, who is in London for the referendum, said Trump and Brexiteers like Farage appeal to people who have never quite recovered from the global financial crisis."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Thomas Wright", "references": ["Thomas Wright"] },
+      "target": { "topic": "globalization", "references": ["globalization"] },
+      "justifications": [
+        "Both the Trump and the Brexit campaigns are trying to reverse globalization."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Thomas Wright", "references": ["Thomas Wright"] },
+      "target": { "topic": "globalization", "references": ["globalization"] },
+      "justifications": [
+        "which is attractive to many of the millions of workers in both countries who have been left behind."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Fauci", "references": ["Fauci"] },
+      "justifications": [
+        "Donald Trump was in disagreement with Fauci"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "Trump and Farage appeal to people who have never quite recovered from the global financial crisis"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "Trump and Farage appeal to people who have never quite recovered from the global financial crisis"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

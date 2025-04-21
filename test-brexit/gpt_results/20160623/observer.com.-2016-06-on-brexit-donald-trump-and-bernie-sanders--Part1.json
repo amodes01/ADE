@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit vote", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "future of Europe", "references": ["future of Europe"] },
+      "justifications": [
+        "it is a fitting moment to consider what the Brexit vote means, what it will mean to the future of Europe"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit vote", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "future of politics in America", "references": ["future of politics in America"] },
+      "justifications": [
+        "it may tell us about the future of politics in America"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit vote", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "political, economic, and cultural trends", "references": ["political, economic and cultural trends"] },
+      "justifications": [
+        "an analysis of the political, economic and cultural trends in the United States and Europe which, with regard to the issues surrounding the Brexit vote, are very similar"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit vote", "references": ["Brexit", "Brexit vote"] },
+      "target": { "topic": "American politics", "references": ["American politics"] },
+      "justifications": [
+        "what follows is an analysis of the political, economic and cultural trends in the United States and Europe which, with regard to the issues surrounding the Brexit vote, are very similar"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Leave group", "references": ["Leave group"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "If the Leave forces prevail it will give a lift to Trump"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Leave group", "references": ["Leave group"] },
+      "justifications": [
+        "If the Leave forces prevail it will give a lift to Trump"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin", "Putin"] },
+      "entity2": { "entity": "Europe", "references": ["Europe"] },
+      "justifications": [
+        "Russian strongman Vladimir Putin has become increasingly aggressive, and the more Europe becomes divided the greater the danger from Putin"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin", "Putin"] },
+      "entity2": { "entity": "European breakup", "references": ["European breakup"] },
+      "justifications": [
+        "the more Europe becomes divided the greater the danger from Putin, who would gain strength from a European breakup"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

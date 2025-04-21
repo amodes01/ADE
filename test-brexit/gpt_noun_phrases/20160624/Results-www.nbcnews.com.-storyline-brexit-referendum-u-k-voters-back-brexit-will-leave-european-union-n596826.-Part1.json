@@ -1,0 +1,428 @@
+[
+    {
+        "sentence": "The vote for an exit - or Brexit - has sent shockwaves through global markets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Leave campaign -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Remain\" campaigners had argued a Brexit would be disastrous for the British and even global economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign",
+                "types": [],
+                "wikid": "Remain campaign",
+                "dbpedia": "Remain campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Remain campaign -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU now finds itself in uncharted waters: No nation state has ever left the bloc.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The \"Leave\" side - which railed against European regulations and increased migration in a heated campaign battle - was celebrating their triumph.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I did not want us to go out on a kind of anti-immigration, negative agenda.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Charlotte English",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Charlotte English",
+                "types": [],
+                "wikid": "Charlotte English",
+                "dbpedia": "Charlotte English"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Charlotte English -> Leave campaign": [
+                -1.0
+            ],
+            "Charlotte English -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Charlotte English -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We have our country back,\" tweeted U.K. Independence Party leader Nigel Farage, a key figure in the \"Leave\" campaign.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland's First Minister Nicola Sturgeon said her government would start drawing up legislation for a potential referendum on independence.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland's First Minister Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland's First Minister Nicola Sturgeon",
+                "types": [],
+                "wikid": "Scotland's First Minister Nicola Sturgeon",
+                "dbpedia": "Scotland's First Minister Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Scotland's First Minister Nicola Sturgeon -> Leave campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Scotland's First Minister Nicola Sturgeon -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Prime Minister David Cameron - who had forcefully campaigned to stay in the EU - later announced he would step down, saying the country needed fresh leadership.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The vote served as an indictment of Britain's government and a barometer of domestic fears about immigration and the economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign",
+                "types": [],
+                "wikid": "Remain campaign",
+                "dbpedia": "Remain campaign"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Leave campaign -> Remain campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"Leave\" campaign had racked up 17.4 million votes - compared to 16.1 million backing the status quo.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We have our country back,\" tweeted U.K. Independence Party leader Nigel Farage, a key figure in the \"Leave\" campaign.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "European Union -> Nigel Farage": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

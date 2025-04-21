@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "At every single turn, I found that the Leave campaign's arguments were founded on lies.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "truthfulness of claims",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "truthfulness of claims"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Leave campaign -> truthfulness of claims": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "But every claim of theirs I have checked - even the ones that had pro-Remain friends shouting about how over the top and ridiculous they were has turned out to be more or less sound.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign",
+                "types": [],
+                "wikid": "Remain campaign",
+                "dbpedia": "Remain campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "truthfulness of claims",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "truthfulness of claims"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Remain campaign -> truthfulness of claims": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I came into this leaning cautiously to Remain. However, I really hoped to find that my initial impressions of Leave were wildly wrong, and I was hoping they had very strong arguments.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign",
+                "types": [],
+                "wikid": "Remain campaign",
+                "dbpedia": "Remain campaign"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Leave campaign -> Remain campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Unfortunately, \"well, at the end of the day both sides have a good point\" is not what I found.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain campaign",
+                "types": [],
+                "wikid": "Remain campaign",
+                "dbpedia": "Remain campaign"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Remain campaign -> Leave campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

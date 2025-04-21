@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Having a strong Europe push from the front has been a repeated pattern of breakthroughs.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rachel Kyte",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rachel Kyte",
+                "types": [],
+                "wikid": "Rachel Kyte",
+                "dbpedia": "Rachel Kyte"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "strong Europe push",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "strong Europe push"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Rachel Kyte -> strong Europe push": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Rachel Kyte, chief executive of U.N. body Sustainable Energy for All.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rachel Kyte",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rachel Kyte",
+                "types": [],
+                "wikid": "Rachel Kyte",
+                "dbpedia": "Rachel Kyte"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sustainable Energy for All",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sustainable Energy for All",
+                "types": [],
+                "wikid": "Sustainable Energy for All",
+                "dbpedia": "Sustainable Energy for All"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Rachel Kyte -> Sustainable Energy for All": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

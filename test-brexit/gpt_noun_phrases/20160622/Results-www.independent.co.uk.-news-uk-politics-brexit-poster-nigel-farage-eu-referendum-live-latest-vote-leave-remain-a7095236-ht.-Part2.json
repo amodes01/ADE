@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "The EU referendum debate has so far been characterised by bias, distortion and exaggeration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "EU referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> Brexit": [
+                -1.0
+            ],
+            "UK -> EU referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "What will Brexit mean for British tourists booking holidays in the EU?",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "UK -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

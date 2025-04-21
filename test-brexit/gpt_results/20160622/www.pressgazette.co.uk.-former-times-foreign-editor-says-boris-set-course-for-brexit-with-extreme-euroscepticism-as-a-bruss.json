@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Fletcher... claims Boris Johnson, in his former role as a Brussels correspondent for The Daily Telegraph, helped create a narrative for Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "he claims the Conservative MP for Uxbridge and South Ruislip made his name in Brussels \"with extreme Euroscepticism, tirelessly attacking, mocking and denigrating the European Union\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "\"By the time I arrived in Brussels, editors wanted only reports about faceless Eurocrats dictating the shape of the cucumbers that could be sold in Britain, or plots to impose a European superstate, or British prime ministers fighting plucky rear-guard actions against a hostile Continent.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "target": {"topic": "nationalism", "references": ["innate nationalism"]},
+      "justifications": [
+        "These narratives reflected and exploited the innate nationalism, historical sense of superiority and disdain for Johnny Foreigner of many readers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Press Gazette", "references": ["Press Gazette"]},
+      "target": {"topic": "Brexit", "references": ["Britain leaving the EU"]},
+      "justifications": [
+        "Press Gazette analysis has shown that national newspapers have predominantly come out in favour of Britain leaving the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Fletcher... claims Boris Johnson, in his former role as a Brussels correspondent for The Daily Telegraph, helped create a narrative for Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Martin Fletcher", "references": ["Martin Fletcher"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Fletcher, who was appointed to report on the European Union for The Times in 1999 shortly after Johnson had returned to London (he covered the Brussels beat from 1989 to 1994), says he had to \"live with the consequences\" of Johnson's reporting approach."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "he claims the Conservative MP for Uxbridge and South Ruislip made his name in Brussels \"with extreme Euroscepticism, tirelessly attacking, mocking and denigrating the European Union\"."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

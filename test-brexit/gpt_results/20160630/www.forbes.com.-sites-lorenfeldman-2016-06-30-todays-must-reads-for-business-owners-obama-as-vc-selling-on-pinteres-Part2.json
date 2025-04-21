@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "U.S. Chamber of Commerce",
+        "references": ["U.S. Chamber", "Chamber of Commerce"]
+      },
+      "target": {
+        "topic": "Trump's trade and economic policies",
+        "references": ["Trump's trade and economic policies"]
+      },
+      "justifications": [
+        "The U.S. Chamber has been critical of Trump's trade and economic policies throughout the election"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "U.S. Chamber of Commerce",
+        "references": ["U.S. Chamber", "Chamber of Commerce"]
+      },
+      "target": {
+        "topic": "trade agreements",
+        "references": ["trade agreements"]
+      },
+      "justifications": [
+        "the Chamber published a post on its website that characterized the benefits of trade agreements as outweighing the drawbacks"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Ohio Contractors Association",
+        "references": ["Ohio Contractors Association"]
+      },
+      "target": {
+        "topic": "Cleveland's local hiring ordinance",
+        "references": ["local quotas", "Cleveland's local hiring ordinance"]
+      },
+      "justifications": [
+        "The Ohio Contractors Association and the Republican-controlled legislature asserted that such local quotas... made it harder for contractors to hire the best people"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "U.S. Chamber of Commerce",
+        "references": ["U.S. Chamber", "Chamber of Commerce"]
+      },
+      "justifications": [
+        "The U.S. Chamber has been critical of Trump's trade and economic policies throughout the election"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Josh Kopelman",
+        "references": ["Josh Kopelman"]
+      },
+      "entity2": {
+        "entity": "First Round Capital",
+        "references": ["First Round Capital"]
+      },
+      "justifications": [
+        "Josh Kopelman, whose First Round Capital was tapped to manage the city-backed fund"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Mr. Jackson",
+        "references": ["Mr. Jackson"]
+      },
+      "entity2": {
+        "entity": "John Kasich",
+        "references": ["John Kasich"]
+      },
+      "justifications": [
+        "Mr. Jackson expressed dismay at a new state labor law, signed on May 30 by the Republican governor, John Kasich"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "John Kasich",
+        "references": ["John Kasich"]
+      },
+      "entity2": {
+        "entity": "Mr. Jackson",
+        "references": ["Mr. Jackson"]
+      },
+      "justifications": [
+        "The Republican governor, John Kasich, that nullifies a 12-year city ordinance"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Andre Vltchek", "references": ["Andre Vltchek"] },
+      "target": { "topic": "Western imperialism", "references": ["Western imperialism", "Western imperialism in the South Pacific"] },
+      "justifications": [
+        "Andre Vltchek is a philosopher, novelist, filmmaker and investigative journalist. He covered wars and conflicts in dozens of countries.",
+        "Andre is making films for teleSUR and Press TV."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Andre Vltchek", "references": ["Andre Vltchek"] },
+      "target": { "topic": "EU referendum", "references": ["Whether the UK, one of the cradles of Western imperialism and colonialist bigotry, leaves or remains in the EU"] },
+      "justifications": [
+        "Both sides of referendum, 'Exit' and 'Remain', gave their clear middle finger salute to the rest of the world."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Andre Vltchek", "references": ["Andre Vltchek"] },
+      "entity2": { "entity": "Noam Chomsky", "references": ["Noam Chomsky"] },
+      "justifications": [
+        "Discussion with Noam Chomsky: On Western Terrorism."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Andre Vltchek", "references": ["Andre Vltchek"] },
+      "entity2": { "entity": "UK", "references": ["the UK"] },
+      "justifications": [
+        "Whether the UK, one of the cradles of Western imperialism and colonialist bigotry, leaves or remains in the EU may have some influence on how the booty is to be divided 'internally', but not on much else."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Andre Vltchek", "references": ["Andre Vltchek"] },
+      "entity2": { "entity": "European culture", "references": ["European culture"] },
+      "justifications": [
+        "'civilized' mask of European culture - a horrible, gangrenous skull reflecting greed and a pathological lust for power."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

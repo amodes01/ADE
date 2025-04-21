@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "post-Brexit London utopia", "references": ["post-Brexit London utopia"]},
+      "justifications": [
+        "That vision represents, in microcosm, the post-Brexit London utopia, a city oriented less toward Europe and more toward the world at large."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "The dream of a London-friendly Brexit depends foremost on getting a sweetheart deal with the European Union on issues like 'passporting,' the rules that allow EU financial institutions to be based in London, and most critics do not think the U.K. has the leverage to obtain a superior agreement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "The Leave campaign became increasingly tainted by xenophobia, while immigration remains the essential ingredient of London's success."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "London's success", "references": ["London's success"]},
+      "justifications": [
+        "The Leave campaign became increasingly tainted by xenophobia, while immigration remains the essential ingredient of London's success."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "EU", "references": ["European Union"]},
+      "entity2": {"entity": "Britain", "references": ["U.K."]},
+      "justifications": [
+        "The dream of a London-friendly Brexit depends foremost on getting a sweetheart deal with the European Union on issues like 'passporting,' the rules that allow EU financial institutions to be based in London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Anne Applebaum", "references": ["Anne Applebaum"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "As Anne Applebaum writes in the Washington Post, 'That elite version of Brexit-England as an offshore haven, a deregulated zone, an arcadian haven, a cosmopolitan business center, the Dubai of the North Atlantic-was not what the Daily Mail and the Daily Telegraph sold in the campaign, and it is not what the leave campaign put on their billboards.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "The Leave campaign became increasingly tainted by xenophobia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jamie Martin", "references": ["Jamie Martin"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "More students from India, mainland China, the USA, Hong Kong, and Nigeria (paying more than their EU counterparts) would also constitute a 'windfall' for the schools."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

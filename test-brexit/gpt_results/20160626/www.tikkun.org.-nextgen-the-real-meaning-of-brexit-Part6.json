@@ -1,0 +1,150 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "America", "references": ["America"]},
+      "target": {"topic": "regime change", "references": ["regime change", "Afghanistan", "Iraq", "Libya", "Syria"]},
+      "justifications": ["America's addiction to regime change (in Afghanistan, Iraq, Libya, and Syria) is the deep cause of Europe's refugee crisis."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "regime change", "references": ["regime change", "Afghanistan", "Iraq", "Libya", "Syria"]},
+      "justifications": ["America's addiction to regime change (in Afghanistan, Iraq, Libya, and Syria) is the deep cause of Europe's refugee crisis."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO's expansion"]},
+      "justifications": ["Stop NATO's expansion to Ukraine and Georgia."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO's expansion"]},
+      "justifications": ["The new Cold War with Russia is another US-contrived blunder with plenty of European naiveté attached."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "relations with Russia", "references": ["normalize relations with Russia"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalize relations with Russia."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "climate change", "references": ["climate change"]},
+      "justifications": ["Only global cooperation can do that."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "climate change", "references": ["climate change"]},
+      "justifications": ["Only global cooperation can do that."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Greece", "references": ["Greece"]},
+      "target": {"topic": "debt relief", "references": ["debt relief"]},
+      "justifications": ["It also means finally giving Greece debt relief, thereby ending the long-running eurozone crisis."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "migration", "references": ["illegal migrants"]},
+      "justifications": ["Instead, police national and EU borders to stop illegal migrants."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western Europe", "references": ["Western Europe"]},
+      "target": {"topic": "migration", "references": ["illegal migrants"]},
+      "justifications": ["countries with the world's most generous social-welfare provisions (Western Europe) must say no to millions (indeed hundreds of millions) of would-be migrants."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "working class", "references": ["disaffected working class"]},
+      "target": {"topic": "financial crises", "references": ["financial crises", "outsourcing of jobs"]},
+      "justifications": ["restore a sense of fairness and opportunity for the disaffected working class and those whose livelihoods have been undermined by financial crises and the outsourcing of jobs."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "rich", "references": ["rich"]},
+      "target": {"topic": "taxation", "references": ["taxing the rich"]},
+      "justifications": ["financed by taxing the rich and closing tax havens, which are gutting public revenues and exacerbating economic injustice."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "tax havens", "references": ["tax havens"]},
+      "target": {"topic": "taxation", "references": ["taxing the rich"]},
+      "justifications": ["financed by taxing the rich and closing tax havens, which are gutting public revenues and exacerbating economic injustice."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "development aid", "references": ["economic development", "aid"]},
+      "justifications": ["focus resources, including additional aid, on economic development, rather than war, in low-income countries."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "development aid", "references": ["economic development", "aid"]},
+      "justifications": ["focus resources, including additional aid, on economic development, rather than war, in low-income countries."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "America", "references": ["America"]},
+      "entity2": {"entity": "Saudi Arabia", "references": ["Saudi"]},
+      "justifications": ["This can be accomplished by ending the CIA-Saudi alliance to overthrow Bashar al-Assad."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Bashar al-Assad", "references": ["Bashar al-Assad"]},
+      "entity2": {"entity": "Saudi Arabia", "references": ["Saudi"]},
+      "justifications": ["This can be accomplished by ending the CIA-Saudi alliance to overthrow Bashar al-Assad."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Bashar al-Assad", "references": ["Bashar al-Assad"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["enabling Assad (with Russian and Iranian backing) to defeat the Islamic State and stabilize Syria."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Bashar al-Assad", "references": ["Bashar al-Assad"]},
+      "entity2": {"entity": "Iran", "references": ["Iran"]},
+      "justifications": ["enabling Assad (with Russian and Iranian backing) to defeat the Islamic State and stabilize Syria."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Islamic State", "references": ["Islamic State"]},
+      "entity2": {"entity": "Bashar al-Assad", "references": ["Bashar al-Assad"]},
+      "justifications": ["enabling Assad (with Russian and Iranian backing) to defeat the Islamic State and stabilize Syria."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "US", "references": ["US"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["The new Cold War with Russia is another US-contrived blunder with plenty of European naiveté attached."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "US", "references": ["US"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": ["The new Cold War with Russia is another US-contrived blunder with plenty of European naiveté attached."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalize relations with Russia, stabilize Ukraine, and restore focus on the European economy and the European project."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "Ukraine", "references": ["Ukraine"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalize relations with Russia, stabilize Ukraine."],
+      "attitude": "Positive"
+    }
+  ]
+}

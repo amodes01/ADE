@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "startup banks and financial firms", "references": ["startup banks and financial firms"]},
+      "target": {"topic": "investment in Britain", "references": ["plans to invest", "investing in Britain"]},
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "PwC", "references": ["PwC"]},
+      "target": {"topic": "investment in Britain", "references": ["plans to invest", "investing in Britain"]},
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain, consulting firm PwC said on Friday."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "investment in Britain", "references": ["plans to invest", "investing in Britain"]},
+      "justifications": ["These investment plans will be a boost for Britain's financial services sector."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "vote to leave the European Union"]},
+      "justifications": ["in the aftermath of Britain's vote to leave the European Union"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "vote to leave the European Union"]},
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Morgan Stanley", "references": ["Morgan Stanley"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "vote to leave the European Union"]},
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "startup banks and financial firms", "references": ["startup banks and financial firms"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "PwC", "references": ["PwC"]},
+      "entity2": {"entity": "startup banks and financial firms", "references": ["startup banks and financial firms"]},
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds ($664.95 million) to open in Britain, consulting firm PwC said on Friday."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "entity2": {"entity": "Morgan Stanley", "references": ["Morgan Stanley"]},
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs and Morgan Stanley, have denied rumors they are already moving thousands of jobs out of Britain as a result of the referendum."],
+      "attitude": "Neutral"
+    }
+  ]
+}

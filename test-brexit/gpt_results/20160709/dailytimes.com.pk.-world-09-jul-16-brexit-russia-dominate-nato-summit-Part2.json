@@ -1,0 +1,37 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "US missile defence system in South Korea", "references": ["US deployment of an advanced missile defence system in South Korea"]},
+      "justifications": ["Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "US missile defence system in South Korea", "references": ["US deployment of an advanced missile defence system in South Korea"]},
+      "justifications": ["echoing warnings by China"],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": ["Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "China", "references": ["China"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": ["echoing warnings by China"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "China", "references": ["China"]},
+      "justifications": ["echoing warnings by China"],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Guy Bechor", "references": ["Guy Bechor"]},
+      "target": {"topic": "Israel's relations with the EU", "references": ["Britain's own record on Israel within the EU", "EU"]},
+      "justifications": ["Britain's own record on Israel within the EU is sometimes less than satisfactory to its supporters."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Guy Bechor", "references": ["Guy Bechor"]},
+      "target": {"topic": "Israel's trade relations with Britain", "references": ["Britain is Israel's largest EU trade partner"]},
+      "justifications": ["While Britain is Israel's largest EU trade partner"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Israel", "references": ["Israel"]},
+      "target": {"topic": "EU labelling of settlement goods", "references": ["separate labelling for settlement goods"]},
+      "justifications": ["it is also one of only three EU states that use separate labelling for settlement goods - a practice Israel vociferously opposes."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Israel", "references": ["Israel"]},
+      "target": {"topic": "British royal family visits to Israel", "references": ["no member of the British royal family has ever visited Israel in an official capacity"]},
+      "justifications": ["no member of the British royal family has ever visited Israel in an official capacity, though many visits were paid to Arab countries."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Guy Bechor", "references": ["Guy Bechor"]},
+      "target": {"topic": "Israel's performance in international blocs", "references": ["Israel generally performs well in bilateral relations and poorly in international blocs"]},
+      "justifications": ["Israel generally performs well in bilateral relations and poorly in international blocs that are committed to the lowest common denominator"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Alderman", "references": ["Alderman"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Brexit comes down to a question of sovereignty"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Guy Bechor", "references": ["Guy Bechor"]},
+      "entity2": {"entity": "Israel", "references": ["Israel"]},
+      "justifications": ["Britain is Israel's largest EU trade partner, it is also one of only three EU states that use separate labelling for settlement goods - a practice Israel vociferously opposes."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Guy Bechor", "references": ["Guy Bechor"]},
+      "entity2": {"entity": "Alderman", "references": ["Alderman"]},
+      "justifications": ["For Alderman, though, Brexit comes down to a question of sovereignty, he wrote."] ,
+      "attitude": "Neutral"
+    }
+  ]
+}

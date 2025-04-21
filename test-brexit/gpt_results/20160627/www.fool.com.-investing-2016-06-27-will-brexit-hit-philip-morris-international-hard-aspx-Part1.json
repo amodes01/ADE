@@ -1,0 +1,120 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote", "U.K. departure from the EU"]
+      },
+      "justifications": [
+        "The uncertainty about the U.K. departure from the EU is already taking its toll on potential profits for the tobacco company going forward."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "currency impact from Brexit",
+        "references": ["impact on the value of the British pound", "currency impact from Brexit"]
+      },
+      "justifications": [
+        "The clearest danger of the Brexit vote for Philip Morris is the impact on the value of the British pound.",
+        "The foreign currency fell sharply in the wake of the decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "European currency woes",
+        "references": ["currency impact from Brexit", "euro's declines"]
+      },
+      "justifications": [
+        "Even if Philip Morris International's business managed to sustain its sales figures in terms of volume, the currency impact from Brexit could also be a source of financial disappointment for the company.",
+        "The euro still lost about 3% of its value on Friday, reversing a good portion of the gains that the European currency had managed to claw back during 2016."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "U.S. dollar strength",
+        "references": ["strong U.S. dollar"]
+      },
+      "justifications": [
+        "Philip Morris International has had to deal with a strong U.S. dollar for years."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "The uncertainty about the U.K. departure from the EU is already taking its toll on potential profits for the tobacco company going forward."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Imperial Tobacco",
+        "references": ["Imperial Tobacco"]
+      },
+      "justifications": [
+        "By contrast, Imperial Tobacco and Japan Tobacco International dominate the U.K. tobacco market, and combined, they control about five-sixths of the market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Japan Tobacco International",
+        "references": ["Japan Tobacco International"]
+      },
+      "justifications": [
+        "By contrast, Imperial Tobacco and Japan Tobacco International dominate the U.K. tobacco market, and combined, they control about five-sixths of the market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Marlboro",
+        "references": ["Marlboro"]
+      },
+      "justifications": [
+        "Among Philip Morris brands, only Marlboro stands in the top 10 in the U.K."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

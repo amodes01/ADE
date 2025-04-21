@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "economic impact",
+        "references": ["economic impacts of the decision"]
+      },
+      "justifications": [
+        "Worldwide, Google searchers were worried about the economic impacts of the decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "currency",
+        "references": ["pound sterling"]
+      },
+      "justifications": [
+        "Search interest in 'pound sterling,' the UK's currency, reached its highest level globally since 2004."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "gold",
+        "references": ["buy gold"]
+      },
+      "justifications": [
+        "There was also a 500 percent spike in searches for 'buy gold.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "visa issues",
+        "references": ["subject of visas"]
+      },
+      "justifications": [
+        "We will watch the negotiations closely, particularly on the subject of visas."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "EU research grants",
+        "references": ["EU research grants"]
+      },
+      "justifications": [
+        "We may lose some EU research grants but these have represented less than one percent of our R&D spend in the last three years."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "justifications": [
+        "US presidential candidate Donald Trump was in Scotland during the vote, and tweeted, 'They took their country back, just like we will take America back. No games!'",
+        "Scotland, though, was one of the areas of the UK where the 'stay' vote had a significant majority."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "After Prime Minister David Cameron announced he would resign today, 'Who will replace David Cameron?' also spiked."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "ARM",
+        "references": ["ARM"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "UK-based ARM said 'Brexit will not have a significant impact on our business as almost all of our earnings come from outside the EU zone.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

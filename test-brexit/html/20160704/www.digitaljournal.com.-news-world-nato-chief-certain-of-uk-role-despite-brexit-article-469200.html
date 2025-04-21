@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8" ><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v23.7 (Yoast SEO v23.7) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>NATO chief &#039;certain&#039; of UK role despite Brexit - Digital Journal</title><link rel="preload" data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Heebo%3A300%2C400%2C500%2C700%2C800%2C900%7CAlegreya%3A400%2C500%2C700%2C800%2C900%7CJosefin%20Sans%3A300%2C400%2C600%2C700%7CLibre%20Franklin%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CFrank%20Ruhl%20Libre%3A300%2C400%2C500%2C700%2C900%7CNunito%20Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CAnton%3A400%7CNoto%20Serif%3A400%2C700%7CNunito%3A300%2C400%2C600%2C700%2C800%2C900%7CRajdhani%3A300%2C400%2C500%2C600%2C700%7CTitillium%20Web%3A300%2C400%2C600%2C700%2C900%7CPT%20Serif%3A400%2C400i%2C700%2C700i%7CAmiri%3A400%2C400i%2C700%2C700i%7COswald%3A300%2C400%2C500%2C600%2C700%7CRoboto%20Mono%3A400%2C700%7CBarlow%20Semi%20Condensed%3A700%2C800%2C900%7CPoppins%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%20Condensed%3A300%2C400%2C700%7CRoboto%3A300%2C400%2C500%2C700%2C900%7CPT%20Serif%3A400%2C700%7COpen%20Sans%20Condensed%3A300%2C700%7COpen%20Sans%3A700%7CSource%20Serif%20Pro%3A400%2C600%2C700%7CIM%20Fell%20French%20Canon%3A400%2C400i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%26amp%3Bsubset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo%3A300%2C400%2C500%2C700%2C800%2C900%7CAlegreya%3A400%2C500%2C700%2C800%2C900%7CJosefin%20Sans%3A300%2C400%2C600%2C700%7CLibre%20Franklin%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CFrank%20Ruhl%20Libre%3A300%2C400%2C500%2C700%2C900%7CNunito%20Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CAnton%3A400%7CNoto%20Serif%3A400%2C700%7CNunito%3A300%2C400%2C600%2C700%2C800%2C900%7CRajdhani%3A300%2C400%2C500%2C600%2C700%7CTitillium%20Web%3A300%2C400%2C600%2C700%2C900%7CPT%20Serif%3A400%2C400i%2C700%2C700i%7CAmiri%3A400%2C400i%2C700%2C700i%7COswald%3A300%2C400%2C500%2C600%2C700%7CRoboto%20Mono%3A400%2C700%7CBarlow%20Semi%20Condensed%3A700%2C800%2C900%7CPoppins%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%20Condensed%3A300%2C400%2C700%7CRoboto%3A300%2C400%2C500%2C700%2C900%7CPT%20Serif%3A400%2C700%7COpen%20Sans%20Condensed%3A300%2C700%7COpen%20Sans%3A700%7CSource%20Serif%20Pro%3A400%2C600%2C700%7CIM%20Fell%20French%20Canon%3A400%2C400i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%26amp%3Bsubset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo%3A300%2C400%2C500%2C700%2C800%2C900%7CAlegreya%3A400%2C500%2C700%2C800%2C900%7CJosefin%20Sans%3A300%2C400%2C600%2C700%7CLibre%20Franklin%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CFrank%20Ruhl%20Libre%3A300%2C400%2C500%2C700%2C900%7CNunito%20Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CAnton%3A400%7CNoto%20Serif%3A400%2C700%7CNunito%3A300%2C400%2C600%2C700%2C800%2C900%7CRajdhani%3A300%2C400%2C500%2C600%2C700%7CTitillium%20Web%3A300%2C400%2C600%2C700%2C900%7CPT%20Serif%3A400%2C400i%2C700%2C700i%7CAmiri%3A400%2C400i%2C700%2C700i%7COswald%3A300%2C400%2C500%2C600%2C700%7CRoboto%20Mono%3A400%2C700%7CBarlow%20Semi%20Condensed%3A700%2C800%2C900%7CPoppins%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%20Condensed%3A300%2C400%2C700%7CRoboto%3A300%2C400%2C500%2C700%2C900%7CPT%20Serif%3A400%2C700%7COpen%20Sans%20Condensed%3A300%2C700%7COpen%20Sans%3A700%7CSource%20Serif%20Pro%3A400%2C600%2C700%7CIM%20Fell%20French%20Canon%3A400%2C400i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C%20200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%26amp%3Bsubset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;display=swap" /></noscript>
+	<meta name="description" content="NATO chief Jens Stoltenberg said Monday he was sure Britain&#039;s new government would remain committed to the alliance despite the Brexit vote and the" />
+	<link rel="canonical" href="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="NATO chief &#039;certain&#039; of UK role despite Brexit" />
+	<meta property="og:description" content="NATO chief Jens Stoltenberg said Monday he was sure Britain&#039;s new government would remain committed to the alliance despite the Brexit vote and the" />
+	<meta property="og:url" content="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200" />
+	<meta property="og:site_name" content="Digital Journal" />
+	<meta property="article:publisher" content="https://www.facebook.com/digitaljournal" />
+	<meta property="article:published_time" content="2016-07-04T13:20:07+00:00" />
+	<meta property="article:modified_time" content="2021-04-02T20:01:24+00:00" />
+	<meta name="author" content="AFP" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@https://twitter.com/afp" />
+	<meta name="twitter:site" content="@digitaljournal" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="AFP" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200#article","isPartOf":{"@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200"},"author":{"name":"AFP","@id":"https://www.digitaljournal.com/#/schema/person/23d8d0c5d1b226eee2a0b9170d466c84"},"headline":"NATO chief &#8216;certain&#8217; of UK role despite Brexit","datePublished":"2016-07-04T13:20:07+00:00","dateModified":"2021-04-02T20:01:24+00:00","mainEntityOfPage":{"@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200"},"wordCount":401,"publisher":{"@id":"https://www.digitaljournal.com/#organization"},"keywords":["Britain","Defence","Eu","nato","Politics"],"articleSection":["World"],"inLanguage":"en-US","copyrightYear":"2016","copyrightHolder":{"@id":"https://www.digitaljournal.com/#organization"}},{"@type":"WebPage","@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200","url":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200","name":"NATO chief 'certain' of UK role despite Brexit - Digital Journal","isPartOf":{"@id":"https://www.digitaljournal.com/#website"},"datePublished":"2016-07-04T13:20:07+00:00","dateModified":"2021-04-02T20:01:24+00:00","description":"NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the","breadcrumb":{"@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200"]}]},{"@type":"BreadcrumbList","@id":"https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.digitaljournal.com/"},{"@type":"ListItem","position":2,"name":"World","item":"https://www.digitaljournal.com/world"},{"@type":"ListItem","position":3,"name":"NATO chief &#8216;certain&#8217; of UK role despite Brexit"}]},{"@type":"WebSite","@id":"https://www.digitaljournal.com/#website","url":"https://www.digitaljournal.com/","name":"Digital Journal","description":"A global media and thought leadership platform that elevates voices in the news cycle. Online since 1998.","publisher":{"@id":"https://www.digitaljournal.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.digitaljournal.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.digitaljournal.com/#organization","name":"Digital Journal Inc","url":"https://www.digitaljournal.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.digitaljournal.com/#/schema/logo/image/","url":"https://www.digitaljournal.com/wp-content/uploads/2020/08/dj-logo-2x.png","contentUrl":"https://www.digitaljournal.com/wp-content/uploads/2020/08/dj-logo-2x.png","width":656,"height":80,"caption":"Digital Journal Inc"},"image":{"@id":"https://www.digitaljournal.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/digitaljournal","https://x.com/digitaljournal","https://www.instagram.com/digitaljournal/","https://www.linkedin.com/company/digital-journal/"]},{"@type":"Person","@id":"https://www.digitaljournal.com/#/schema/person/23d8d0c5d1b226eee2a0b9170d466c84","name":"AFP","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.digitaljournal.com/#/schema/person/image/","url":"https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-96x96.jpeg","contentUrl":"https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-96x96.jpeg","caption":"AFP"},"description":"With 2,400 staff representing 100 different nationalities, AFP covers the world as a leading global news agency. AFP provides fast, comprehensive and verified coverage of the issues affecting our daily lives.","sameAs":["https://x.com/https://twitter.com/afp","hogg@digitaljournal.com"],"url":"https://www.digitaljournal.com/author/afp"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Digital Journal &raquo; Feed" href="https://www.digitaljournal.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Digital Journal &raquo; Comments Feed" href="https://www.digitaljournal.com/comments/feed" />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.digitaljournal.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='fmgc-public-style-css' href='https://www.digitaljournal.com/wp-content/plugins/footer-mega-grid-columns/assets/css/fmgc-css.css?ver=1.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ql-jquery-ui-css' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css?ver=6.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='zox-custom-style-css' href='https://www.digitaljournal.com/wp-content/themes/zoxpress/style.css?ver=6.6.2' type='text/css' media='all' />
+<style id='zox-custom-style-inline-css' type='text/css'>
+
+
+	a,
+	a:visited,
+	a:hover h2.zox-s-title1,
+	a:hover h2.zox-s-title1-feat,
+	a:hover h2.zox-s-title2,
+	a:hover h2.zox-s-title3,
+	.zox-post-body p a,
+	h3.zox-post-cat a,
+	.sp-template a,
+	.sp-data-table a,
+	span.zox-author-name a,
+	a:hover h2.zox-authors-latest,
+	span.zox-authors-name a:hover,
+	#zox-side-wrap a:hover {
+		color: #cc1100;
+	}
+
+	.zox-s8 a:hover h2.zox-s-title1,
+	.zox-s8 a:hover h2.zox-s-title1-feat,
+	.zox-s8 a:hover h2.zox-s-title2,
+	.zox-s8 a:hover h2.zox-s-title3 {
+		box-shadow: 15px 0 0 #fff, -10px 0 0 #fff;
+		color: #cc1100;
+	}
+
+	.woocommerce-message:before,
+	.woocommerce-info:before,
+	.woocommerce-message:before,
+	.woocommerce .star-rating span:before,
+	span.zox-s-cat,
+	h3.zox-post-cat a,
+	.zox-s6 span.zox-s-cat,
+	.zox-s8 span.zox-s-cat,
+	.zox-widget-side-trend-wrap .zox-art-text:before {
+		color: #000000;
+	}
+
+	.zox-widget-bgp,
+	.zox-widget-bgp.zox-widget-txtw .zox-art-wrap,
+	.zox-widget-bgp.zox-widget-txtw .zox-widget-featl-sub .zox-art-wrap,
+	.zox-s4 .zox-widget-bgp span.zox-s-cat,
+	.woocommerce span.onsale,
+	.zox-s7 .zox-byline-wrap:before,
+	.zox-s3 span.zox-s-cat,
+	.zox-o1 span.zox-s-cat,
+	.zox-s3 .zox-widget-side-trend-wrap .zox-art-text:before,
+	.sp-table-caption,
+	#zox-search-form #zox-search-submit,
+	#zox-search-form2 #zox-search-submit2,
+	.pagination .current,
+	.pagination a:hover,
+	.zox-o6 span.zox-s-cat {
+		background: #000000;
+	}
+
+	.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+	.woocommerce #respond input#submit.alt,
+	.woocommerce a.button.alt,
+	.woocommerce button.button.alt,
+	.woocommerce input.button.alt,
+	.woocommerce #respond input#submit.alt:hover,
+	.woocommerce a.button.alt:hover,
+	.woocommerce button.button.alt:hover,
+	.woocommerce input.button.alt:hover {
+		background-color: #000000;
+	}
+
+	.woocommerce-error,
+	.woocommerce-info,
+	.woocommerce-message {
+		border-top-color: #000000;
+	}
+
+	.zox-feat-ent1-left,
+	.zox-ent1 .zox-side-widget {
+		border-top: 2px solid #000000;
+	}
+
+	.zox-feat-ent3-main-wrap h2.zox-s-title2 {
+		background-color: #000000;
+		box-shadow: 15px 0 0 #000000, -10px 0 0 #000000;
+	}
+
+	.zox-widget-side-trend-wrap .zox-art-text:before,
+	.pagination .current,
+	.pagination a:hover {
+		border: 1px solid #000000;
+	}
+
+	.zox-post-type {
+		border: 3px solid #000000;
+	}
+	.zox-net1 .zox-post-type,
+	.zox-net2 .zox-post-type {
+		background: #000000;
+	}
+	.zox-widget-featl-sub .zox-post-type {
+		border: 2px solid #000000;
+	}
+
+	@media screen and (max-width: 479px) {
+	.zox-net1.zox-s4 .zox-widget-bgp .zox-art-main span.zox-s-cat {
+		background: #000000 !important;
+	}
+	}
+
+	.zox-o3 h3.zox-s-cat {
+		background: #cc1100;
+	}
+
+	.zox-widget-bgs,
+	.zox-widget-bgs.zox-widget-txtw .zox-art-wrap,
+	.zox-widget-bgs.zox-widget-txtw .zox-widget-featl-sub .zox-art-wrap,
+	.zox-s4 .zox-widget-bgs span.zox-s-cat {
+		background: #cc1100;
+	}
+
+	#zox-top-head-wrap {
+		background: #000000;
+	}
+
+	span.zox-top-soc-but,
+	.zox-top-nav-menu ul li a,
+	span.zox-woo-cart-icon {
+		color: #cccccc;
+	}
+
+	span.zox-woo-cart-num {
+		background: #cccccc;
+	}
+
+	.zox-top-nav-menu ul li:hover a {
+		color: #cc1100;
+	}
+
+	#zox-top-head-wrap,
+	#zox-top-head,
+	#zox-top-head-left,
+	#zox-top-head-mid,
+	#zox-top-head-right,
+	.zox-top-nav-menu ul {
+		height: 45px;
+	}
+
+	#zox-top-head-mid img {
+		max-height: calc(45px - 20px);
+	}
+
+	.zox-top-nav-menu ul li a {
+		font-size: 14px;
+	}
+
+	#zox-bot-head-wrap,
+	#zox-bot-head-wrap.zox-trans-bot.zox-fix-up,
+	#zox-fly-wrap,
+	#zox-bot-head-wrap.zox-trans-bot:hover {
+		background-color: #010003;
+		background-image: none;
+	}
+
+	.zox-nav-menu ul li a,
+	span.zox-nav-search-but,
+	span.zox-night,
+	.zox-trans-bot.zox-fix-up .zox-nav-menu ul li a,
+	.zox-trans-bot.zox-fix-up span.zox-nav-search-but,
+	nav.zox-fly-nav-menu ul li a,
+	span.zox-fly-soc-head,
+	ul.zox-fly-soc-list li a,
+	nav.zox-fly-nav-menu ul li.menu-item-has-children:after {
+		color: #f2f2f2;
+	}
+
+	.zox-nav-menu ul li.menu-item-has-children a:after,
+	.zox-nav-menu ul li.zox-mega-drop a:after {
+		border-right: 1px solid #f2f2f2;
+		border-bottom: 1px solid #f2f2f2;
+	}
+
+	.zox-fly-but-wrap span,
+	.zox-trans-bot.zox-fix-up .zox-fly-but-wrap span {
+		background: #f2f2f2;
+	}
+
+	.zox-nav-menu ul li:hover a,
+	span.zox-nav-search-but:hover,
+	span.zox-night:hover {
+		color: #cc1100;
+	}
+
+	.zox-fly-but-wrap:hover span {
+		background: #cc1100;
+	}
+
+	span.zox-widget-main-title {
+		color: #474e5f;
+	}
+
+	#zox-foot-wrap {
+		background: #010003;
+	}
+
+	#zox-foot-wrap p {
+		color: #e2e2e2;
+	}
+
+	#zox-foot-wrap a {
+		color: #cc1100;
+	}
+
+	ul.zox-foot-soc-list li a {
+		border: 1px solid #cc1100;
+	}
+
+	span.zox-widget-side-title {
+		color: #cc1100;
+	}
+
+	span.zox-post-main-title {
+		color: #cc1100;
+	}
+
+	.zox-top-nav-menu ul li a {
+		padding-top: calc((45px - 14px) / 2);
+		padding-bottom: calc((45px - 14px) / 2);
+	}
+
+	#zox-bot-head-wrap,
+	.zox-bot-head-menu,
+	#zox-bot-head,
+	#zox-bot-head-left,
+	#zox-bot-head-right,
+	#zox-bot-head-mid,
+	.zox-bot-head-logo,
+	.zox-bot-head-logo-main,
+	.zox-nav-menu,
+	.zox-nav-menu ul {
+		height: 80px;
+	}
+
+	.zox-bot-head-logo img,
+	.zox-bot-head-logo-main img {
+		max-height: calc(80px - 20px);
+	}
+
+	.zox-nav-menu ul li ul.sub-menu,
+	.zox-nav-menu ul li.menu-item-object-category .zox-mega-dropdown {
+		top: 80px;
+	}
+
+	.zox-nav-menu ul li a {
+		font-size: 18px;
+	}
+
+	.zox-nav-menu ul li a {
+		padding-top: calc((80px - 18px) / 2);
+		padding-bottom: calc((80px - 18px) / 2);
+	}
+
+	.zox-fix-up {
+		top: -80px !important;
+		-webkit-transform: translate3d(0,-80px,0) !important;
+	   	   -moz-transform: translate3d(0,-80px,0) !important;
+	    	-ms-transform: translate3d(0,-80px,0) !important;
+	     	 -o-transform: translate3d(0,-80px,0) !important;
+				transform: translate3d(0,-80px,0) !important;
+	}
+
+	.zox-fix {
+		top: -80px;
+		-webkit-transform: translate3d(0,80px,0) !important;
+	   	   -moz-transform: translate3d(0,80px,0) !important;
+	    	-ms-transform: translate3d(0,80px,0) !important;
+	     	 -o-transform: translate3d(0,80px,0) !important;
+				transform: translate3d(0,80px,0) !important;
+	}
+
+	.zox-fix-up .zox-nav-menu ul li a {
+		padding-top: calc((60px - 18px) / 2);
+		padding-bottom: calc((60px - 18px) / 2);
+	}
+
+	.zox-feat-ent1-grid,
+	.zox-feat-ent2-bot,
+	.zox-feat-net1-grid {
+		grid-template-columns: auto 300px;
+	}
+
+	body,
+	span.zox-s-cat,
+	span.zox-ad-label,
+	.woocommerce ul.product_list_widget li a,
+	.woocommerce ul.product_list_widget span.product-title,
+	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+	.woocommerce div.product p.price,
+	.woocommerce div.product p.price ins,
+	.woocommerce div.product p.price del,
+	.woocommerce ul.products li.product .price del,
+	.woocommerce ul.products li.product .price ins,
+	.woocommerce ul.products li.product .price,
+	.woocommerce #respond input#submit,
+	.woocommerce a.button,
+	.woocommerce button.button,
+	.woocommerce input.button,
+	.woocommerce .widget_price_filter .price_slider_amount .button,
+	.woocommerce span.onsale,
+	.woocommerce-review-link,
+	#woo-content p.woocommerce-result-count,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+	.woocommerce .woocommerce-breadcrumb,
+	.woocommerce #respond input#submit.alt,
+	.woocommerce a.button.alt,
+	.woocommerce button.button.alt,
+	.woocommerce input.button.alt,
+	.zox-post-tags-header,
+	.zox-post-tags a {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		text-transform: None;
+	}
+
+	#zox-woo-side-wrap span.zox-widget-side-title,
+	span.zox-authors-name a,
+	h1.zox-author-top-head {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	p.zox-s-graph,
+	span.zox-post-excerpt p,
+	.zox-post-body p,
+	#woo-content p,
+	#zox-404 p,
+	.zox-post-body ul li,
+	.zox-post-body ol li,
+	.zox-author-box-text p {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		text-transform: None;
+	}
+
+	.zox-nav-menu ul li a,
+	.zox-top-nav-menu ul li a,
+	nav.zox-fly-nav-menu ul li a {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		text-transform: Uppercase;
+	}
+
+	.zox-nav-menu ul li ul.zox-mega-list li a,
+	.zox-nav-menu ul li ul.zox-mega-list li a p {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	h2.zox-s-title1,
+	h2.zox-s-title1-feat,
+	.woocommerce div.product .product_title,
+	.woocommerce .related h2,
+	#woo-content .summary p.price,
+	.woocommerce div.product .woocommerce-tabs .panel h2,
+	#zox-404 h1,
+	h1.zox-post-title,
+	.zox-widget-side-trend-wrap .zox-art-text:before,
+	.zox-post-body blockquote p,
+	.zox-post-body .wp-block-pullquote blockquote p,
+	.zox-post-body h1,
+	.zox-post-body h2,
+	.zox-post-body h3,
+	.zox-post-body h4,
+	.zox-post-body h5,
+	.zox-post-body h6,
+	.comment-inner h1,
+	.comment-inner h2,
+	.comment-inner h3,
+	.comment-inner h4,
+	.comment-inner h5,
+	.comment-inner h6,
+	span.zox-author-box-name a {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		text-transform: None;
+	}
+
+	span.zox-widget-main-title {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		text-transform: None;
+	}
+
+	span.zox-widget-side-title {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		text-transform: None;
+	}
+
+	span.zox-post-main-title {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
+		text-transform: None;
+	}
+
+	h2.zox-s-title2,
+	h2.zox-s-title3,
+	span.zox-woo-cart-num,
+	p.zox-search-p,
+	.alp-related-posts .current .post-title,
+	.alp-related-posts-wrapper .alp-related-post .post-title,
+	.zox-widget-txtw span.zox-widget-main-title {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		text-transform: None;
+	}
+
+	.zox-post-width {
+		margin: 0 auto;
+		max-width: calc(1024px + 60px);
+	}
+
+
+	
+
+		.zox-bot-head-logo img {
+			position: relative;
+				top: 8px;
+		}
+		@media screen and (max-width: 599px) {
+			.zox-bot-head-logo img {
+				top: auto;
+			}
+		}
+		.zox-fix-up .zox-bot-head-logo img {
+			top: auto;
+		}
+		#zox-bot-head-mid {
+			position: relative;
+		}
+		span.zox-s-cat,
+		.zox-byline-wrap span {
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 400;
+		}
+		span.zox-s-cat {
+			color: #333;
+			font-size: 13px;
+			letter-spacing: .05em;
+			text-transform: uppercase;
+		}
+		.zox-byline-wrap span,
+		span.zox-byline-name a {
+			color: #333;
+			font-size: .75rem;
+			font-weight: 400;
+		}
+		h2.zox-s-title1,
+		h2.zox-s-title1-feat {
+			color: #6a0432;
+		}
+		h2.zox-s-title1,
+		h2.zox-s-title1-feat {
+			letter-spacing: 0;
+		}
+		.zox-widget-side-trend-wrap .zox-art-text:before {
+			color: #bbb;
+		}
+			
+
+			.zox-head-width {
+				margin: 0 auto;
+				max-width: calc(1320px + 60px);
+			}
+			.zox-nav-menu ul li.zox-mega-drop .zox-mega-dropdown {
+							left: calc(((100vw - 100%) /2) * -1);
+			}
+				
+
+			.zox-body-width,
+			.zox-widget-feat-wrap.zox-o1 .zox-art-text-cont,
+			.zox-widget-feat-wrap.zox-o4 .zox-art-text-cont,
+			.zox-widget-feat-main.zox-o1 .zox-art-text-cont,
+			.zox-widget-feat-main.zox-o4 .zox-art-text-cont {
+				margin: 0 auto;
+				padding: 0 30px;
+				max-width: none;
+			}
+			@media screen and (min-width: 1601px) {
+				.zox-body-width,
+				.zox-title-width {
+					max-width: 1600px;
+				}
+			}
+				
+
+		#zox-bot-head-mid {
+			display: grid;
+			grid-column-gap: 20px;
+			grid-template-columns: auto auto;
+			justify-content: space-between;
+			position: relative;
+		}
+		.zox-bot-head-logo {
+			position: relative;
+				top: auto;
+				left: auto;
+		}
+			
+
+			@media screen and (min-width: 1024px) {
+				#zox-bot-head-left {
+					display: none;
+				}
+				#zox-bot-head {
+					grid-template-columns: auto 60px;
+				}
+			}
+			@media screen and (max-width: 1023px) {
+				#zox-bot-head-left {
+					display: grid;
+				}
+			}
+				
+
+	.zox-fix-up {
+		-webkit-box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
+		   -moz-box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
+			-ms-box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
+			 -o-box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
+				box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
+	}
+		
+
+.zox-nav-links {
+	display: none;
+	}
+	
+
+				.zox-feat-ent1-grid,
+				.zox-feat-net1-grid {
+					grid-template-columns: calc(100% - 320px) 300px;
+					}
+				.zox-post-main-wrap {
+					grid-template-columns: calc(100% - 360px) 300px;
+				}
+				#zox-home-body-wrap {
+					grid-template-columns: calc(100% - 360px) 300px;
+					}
+					
+
+	span.zox-byline-date {
+		display: none;
+	}
+	
+
+	.zox-post-body p a {
+		box-shadow: inset 0 -1px 0 0 #fff, inset 0 -2px 0 0 #cc1100;
+		color: #000;
+	}
+	.zox-post-body p a:hover {
+		color: #cc1100;
+	}
+	
+
+			h4.zox-widget-main-title {
+				border-top: 1px solid #000;
+				text-align: left;
+			}
+			span.zox-widget-main-title {
+				border-top: 10px solid #474e5f;
+				color: #474e5f;
+				display: inline-block;
+				font-size: 4rem;
+				margin: -1px 0 0;
+				padding: 5px 0 0;
+			}
+			@media screen and (max-width: 599px) {
+				span.zox-widget-main-title {
+					font-size: 1.125rem;
+				}
+			}
+			
+
+			.zox-widget-side-head {
+				margin: 0 0 15px;
+			}
+			h4.zox-widget-side-title {
+				text-align: left;
+			}
+			span.zox-widget-side-title {
+				font-size: .875rem;
+				letter-spacing: .02em;
+				text-transform: uppercase;
+			}
+			
+
+		span.zox-post-main-title {
+			font-size: 3rem;
+			font-style: italic;
+		}
+		
+
+
+		
+
+	#zox-bot-head-right {
+		grid-template-columns: 100%;
+		justify-items: end;
+	}
+		
+</style>
+<link rel='stylesheet' id='zox-custom-child-style-css' href='https://www.digitaljournal.com/wp-content/themes/old-archive-theme/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://www.digitaljournal.com/wp-content/themes/old-archive-theme/font-awesome/css/all.css?ver=6.6.2' type='text/css' media='all' />
+
+<link rel='stylesheet' id='zox-media-queries-css' href='https://www.digitaljournal.com/wp-content/themes/zoxpress/css/media-queries.css?ver=6.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://www.digitaljournal.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+@media screen and (max-width:980px){
+.a2a_floating_style.a2a_vertical_style{display:none;}
+}
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="#2a2a2a";
+a2a_config.templates.twitter = "${title} ${link}";
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer data-rocket-src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<link rel="https://api.w.org/" href="https://www.digitaljournal.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.digitaljournal.com/wp-json/wp/v2/posts/323272" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.digitaljournal.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.2" />
+<link rel='shortlink' href='https://www.digitaljournal.com/?p=323272' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.digitaljournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.digitaljournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&#038;format=xml" />
+<meta name="google-site-verification" content="Zh0x77ovwvlcem5a434xAMSUDJMaACDoEbEQfV1u-tg" />
+<script type="rocketlazyloadscript" async data-rocket-src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script type="rocketlazyloadscript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1021963/leaderboard-fp', [[970, 90], [930, 180], [950, 90], [750, 100], [768, 1024], [750, 300], [960, 90], [970, 270], [728, 90], [750, 200], [970, 250]], 'div-gpt-ad-1609338211757-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<script type="rocketlazyloadscript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1021963/bb-fp', [[300, 600], [120, 600], [300, 1050], [160, 600], [300, 250]], 'div-gpt-ad-1609336163782-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<script type="rocketlazyloadscript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1021963/Bigbox-InArticles', [[300, 600], [120, 600], [300, 1050], [160, 600], [300, 250]], 'div-gpt-ad-1609336515463-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<script type="rocketlazyloadscript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1021963/Article-text-embed', [[300, 60], [300, 50], [320, 100], [420, 65], [240, 400], [300, 75], [600, 200], [292, 30], [580, 400], [216, 54], [200, 446], [300, 100], [320, 50], [168, 42], [300, 250], [420, 45], [400, 16], [200, 200], [234, 60], [180, 150], [216, 36], [168, 28], [300, 223], [320, 480], [250, 250], [336, 280], [468, 60], [480, 320], [220, 90], [300, 31], [250, 360]], 'div-gpt-ad-1609337967302-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<script type="rocketlazyloadscript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1021963/bigbox-in-cats', [[160, 600], [300, 1050], [300, 250], [300, 600], [120, 600]], 'div-gpt-ad-1609338637818-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P5K6RGP');</script>
+<!-- End Google Tag Manager -->	<meta name="theme-color" content="#23001b" />
+			<meta property="og:type" content="article" />
+								<meta property="og:url" content="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200" />
+			<meta property="og:title" content="NATO chief &#8216;certain&#8217; of UK role despite Brexit" />
+			<meta property="og:description" content="- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron.Britain's ruling Conservative party is seeking a new leader to lead negotiations on an exit from the European Union, which has sparked fears for the [&hellip;]" />
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:url" content="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200">
+			<meta name="twitter:title" content="NATO chief &#8216;certain&#8217; of UK role despite Brexit">
+			<meta name="twitter:description" content="- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron.Britain's ruling Conservative party is seeking a new leader to lead negotiations on an exit from the European Union, which has sparked fears for the [&hellip;]">
+					<style type="text/css" id="wp-custom-css">
+			#zox-site-grid { background: #fff; }
+.zox-bot-head-logo { left: inherit;}
+.single .zox-author-thumb { width: 0px; height: 0px; border: none; border-radius: 0;}
+
+.zox-widget-txtw span.zox-s-cat { background: #000 !important; }
+
+.zox-s4 span.zox-s-cat { color: #cc1100 !important;}
+
+.single .zox-post-img { text-align: left;}
+
+.single .zox-post-byline-wrap { grid-template-columns: auto; }
+
+.single .zox-author-thumb {display: none;}
+
+.zox-search-p { display: none; }
+
+.post-type-archive-pr .zox-main-blog-wrap a { color:#000;}
+.post-type-archive-pr .zox-main-blog-wrap a:hover { color: #cc1100;}
+
+.post-type-archive-pr .zox-pr-title { line-height: 1.2em;}
+
+.footer-mega-col-wrap .widget, .footer-mega-col-wrap h6 { color: #fff; margin-bottom: 32px;}
+
+@media only screen and (min-width: 768px) {
+	
+	.zox-nav-menu { min-width: 750px;
+	}
+	
+.zox-nav-menu ul li a {
+	font-size: 15x;
+}
+	
+	.zox-nav-menu ul li.menu-item-has-children a, .zox-nav-menu ul li.zox-mega-drop a { margin-right: 2px; }
+	
+	.zox-bot-head-menu { padding: 0 0 0 16px;}
+	
+	.home .zox-s4 .zox-art-text { padding: 12px 20px 0px !important;}
+	
+	.zox-s4 .zox-byline-wrap { margin: 0 !important;}
+	
+	.imgcopyrightnew { margin-top: -32px; }
+	
+}
+
+.imgcopyrightnew { font-size: 0.92rem; }
+
+#zox-lead-top { background: #000 !important; padding-top: 16px; margin: 0 auto; text-align: center;}
+
+.zox_ad_widget { background: #fff; z-index:99;}
+.single-post .zox-post-excerpt { display: none; }
+
+@media screen and (min-width: 1601px) {
+	.zox-body-width { max-width: 1200px; }
+
+}
+
+.home .zox-byline-name, .category .zox-byline-name {display:none;}
+
+.home .zox-s-cat, .category .zox-s-cat { display: none; }
+
+.post-type-archive-pr .zox-post-main-wrap { grid-template-columns: 100% !important;}
+
+#zox-foot-wrap a { color: #fefefe !important;}
+
+#zox-main-body-wrap .zox-search-box { display: none; }
+
+
+
+.zox-feat-ent1-left span.zox-widget-side-title { font-size: 0.875rem !important;}
+
+ul li.zox-mega-drop a:after { content: none !important }
+
+.zox-post-more .zox-byline-name { display: none; }
+
+#zox_flex_list1_widget-4 .zox-s-cat { color: #fff !important; }
+
+h4 span.zox-post-main-title { font-style: normal !important; font-size: 1.2rem !important; text-transform: normal !important;}
+
+.zox-feat-ent1-main-wrap span.zox-s-cat { color: #fff !important;}
+
+.post-type-archive-pr #zox-home-body-wrap li {
+	display: table-row;
+}
+
+.post-type-archive-pr #zox-home-body-wrap ul li:before { 
+	float: none;
+	display: table-cell;
+}
+
+.post-type-archive-pr ul {
+	display: table;
+}
+
+.post-type-archive-pr .zox-pr-title { margin-bottom: 12px;}
+
+.post-type-archive-pr h1 { font-size: 1.2rem; margin-bottom: 24px;}
+
+.category #zox_side_trend_widget-2 { 
+	border: 1px solid #ddd;
+	box-shadow: 0 0 3px 1px rgb(0 0 0 / 6%);
+}
+
+@media screen and (max-width: 1024px) {
+	.footer-mega-col-wrap .widget { width: 100% !important; margin: 0 0 8px 0 !important; padding: 0px;}
+}
+
+.zox-post-img-cap { display: none; }
+
+.afpauthornew::before{
+	content: "By ";
+}
+
+.afpauthornew:empty { display: none; }
+
+.afpauthor { display: none;}
+.imgcopyright { display: none;}
+
+#author_recent_posts-2 a { font-size: 14px; font-weight: 300;}
+
+.zox-post-body h5 {
+	font-size: 0.75rem;
+	padding: 0.1rem;
+}
+.hide {
+    display: none;
+}
+.apply-to-write p, a {
+    font-weight: 700;
+}
+
+#zox-author-top-right .apply-to-write {
+	clear: both;
+	padding: 14px 22px;
+	background-color: #EFEFEF;
+	display: inline-block;
+	border-radius: 6px;
+}		</style>
+		<meta name="generator" content="WP Rocket 3.17.2" data-wpr-features="wpr_delay_js wpr_desktop" /></head>
+<body class="post-template-default single single-post postid-323272 single-format-standard wp-embed-responsive zox-net1 zox-s4" >
+	<div data-rocket-location-hash="fc70eb0cf81f56a445073aef9a5eb47a" id="zox-site" class="left zoxrel ">
+		<div data-rocket-location-hash="bfef75e45bcac05347a979c912135891" id="zox-fly-wrap">
+	<div data-rocket-location-hash="d8f2e174ccc4d764a678eca13a19500a" id="zox-fly-menu-top" class="left relative">
+		<div id="zox-fly-logo" class="left relative">
+							<a href="https://www.digitaljournal.com/"><img src="https://www.digitaljournal.com/wp-content/uploads/2021/01/Digital-Journal-Logosm.png" alt="Digital Journal" data-rjs="2" /></a>
+					</div><!--zox-fly-logo-->
+		<div class="zox-fly-but-wrap zox-fly-but-menu zox-fly-but-click">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div><!--zox-fly-but-wrap-->
+	</div><!--zox-fly-menu-top-->
+	<div data-rocket-location-hash="bf9bfaa7e5f955a693273f6d92e8dff1" id="zox-fly-menu-wrap">
+		<nav class="zox-fly-nav-menu left relative">
+			<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-52285" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-52285"><a href="https://www.digitaljournal.com/world">WORLD</a></li>
+<li id="menu-item-52288" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52288"><a href="https://www.digitaljournal.com/tech-science">TECH &#038; SCIENCE</a></li>
+<li id="menu-item-52286" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52286"><a href="https://www.digitaljournal.com/social-media">SOCIAL MEDIA</a></li>
+<li id="menu-item-52282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52282"><a href="https://www.digitaljournal.com/business">BUSINESS</a></li>
+<li id="menu-item-52283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52283"><a href="https://www.digitaljournal.com/entertainment">ENTERTAINMENT</a></li>
+<li id="menu-item-52284" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52284"><a href="https://www.digitaljournal.com/life">LIFE</a></li>
+<li id="menu-item-52287" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52287"><a href="https://www.digitaljournal.com/sports">SPORTS</a></li>
+</ul></div>		</nav>
+	</div><!--zox-fly-menu-wrap-->
+	<div data-rocket-location-hash="da7eb73229cc7b7bcd5447016b1d8636" id="zox-fly-soc-wrap">
+		<span class="zox-fly-soc-head">Connect with us</span>
+		<ul class="zox-fly-soc-list left relative">
+							<li><a href="https://www.facebook.com/digitaljournal" target="_blank" class="fab fa-facebook-f"></a></li>
+										<li><a href="https://twitter.com/digitaljournal" target="_blank" class="fab fa-twitter"></a></li>
+																			<li><a href="https://www.linkedin.com/company/digital-journal/" target="_blank" class="fab fa-linkedin-in"></a></li>
+											</ul>
+	</div><!--zox-fly-soc-wrap-->
+</div><!--zox-fly-wrap-->		<div data-rocket-location-hash="e5e469cdd6cab5a65a60dae0d7a64869" id="zox-search-wrap">
+			<div data-rocket-location-hash="a06ff55db606b155efac00a87d17dc44" class="zox-search-cont">
+				<p class="zox-search-p">Hi, what are you looking for?</p>
+				<div class="zox-search-box">
+					<form method="get" id="zox-search-form" action="https://www.digitaljournal.com/">
+	<input type="text" name="s" id="zox-search-input" value="Search" onfocus='if (this.value == "Search") { this.value = ""; }' onblur='if (this.value == "Search") { this.value = ""; }' />
+	<input type="submit" id="zox-search-submit" value="Search" />
+</form>				</div><!--zox-search-box-->
+			</div><!--zox-serach-cont-->
+			<div data-rocket-location-hash="5c613eaf0f59dca5cee407cb045af50d" class="zox-search-but-wrap zox-search-click">
+				<span></span>
+				<span></span>
+			</div><!--zox-search-but-wrap-->
+		</div><!--zox-search-wrap-->
+				<div data-rocket-location-hash="71e413d333849cb35ec7b602d6fcf2b4" id="zox-site-wall" class="left zoxrel">
+			<div data-rocket-location-hash="680bff114d393b746b17540608dc55d7" id="zox-lead-top-wrap">
+				<div id="zox-lead-top-in">
+					<div id="zox-lead-top">
+																					<!-- /1021963/leaderboard-fp -->
+<div id='div-gpt-ad-1609338211757-0'>
+  <script type="rocketlazyloadscript">
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1609338211757-0'); });
+  </script>
+</div>																		</div><!--zox-lead-top-->
+				</div><!--zox-lead-top-in-->
+			</div><!--zox-lead-top-wrap-->
+			<div data-rocket-location-hash="37ead96f990a5be1219a70a3adba9f51" id="zox-site-main" class="left zoxrel">
+				<header id="zox-main-head-wrap" class="left zoxrel zox-trans-head">
+																<div id="zox-top-head-wrap" class="left relative">
+		<div class="zox-head-width">
+		<div id="zox-top-head" class="relative">
+			<div id="zox-top-head-left">
+							</div><!--zox-top-head-left-->
+			<div id="zox-top-head-mid">
+							</div><!--zox-top-head-mid-->
+			<div id="zox-top-head-right">
+									<div class="zox-top-soc-wrap">
+			<a href="https://www.facebook.com/digitaljournal" target="_blank"><span class="zox-top-soc-but fab fa-facebook-f"></span></a>
+				<a href="https://twitter.com/digitaljournal" target="_blank"><span class="zox-top-soc-but fab fa-twitter"></span></a>
+							<a href="https://www.linkedin.com/company/digital-journal/" target="_blank"><span class="zox-top-soc-but fab fa-linkedin-in"></span></a>
+			</div><!--zox-top-soc-wrap-->							</div><!--zox-top-head-right-->
+		</div><!--zox-top-head-->
+	</div><!--zox-head-width-->
+</div><!--zox-top-head-wrap-->											<div id="zox-bot-head-wrap" class="left zoxrel">
+	<div class="zox-head-width">
+		<div id="zox-bot-head">
+			<div id="zox-bot-head-left">
+				<div class="zox-fly-but-wrap zoxrel zox-fly-but-click">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div><!--zox-fly-but-wrap-->
+			</div><!--zox-bot-head-left-->
+			<div id="zox-bot-head-mid" class="relative">
+				<div class="zox-bot-head-logo">
+					<div class="zox-bot-head-logo-main">
+													<a href="https://www.digitaljournal.com/"><img class="zox-logo-stand" src="https://www.digitaljournal.com/wp-content/uploads/2021/01/Digital-Journal-Logosm.png" alt="Digital Journal" data-rjs="2" /><img class="zox-logo-dark" src="" alt="Digital Journal" data-rjs="2" /></a>
+											</div><!--zox-bot-head-logo-main-->
+																<h2 class="zox-logo-title">Digital Journal</h2>
+									</div><!--zox-bot-head-logo-->
+				<div class="zox-bot-head-menu">
+					<div class="zox-nav-menu">
+						<div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-52285"><a href="https://www.digitaljournal.com/world">WORLD</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52288"><a href="https://www.digitaljournal.com/tech-science">TECH &#038; SCIENCE</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52286"><a href="https://www.digitaljournal.com/social-media">SOCIAL MEDIA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52282"><a href="https://www.digitaljournal.com/business">BUSINESS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52283"><a href="https://www.digitaljournal.com/entertainment">ENTERTAINMENT</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52284"><a href="https://www.digitaljournal.com/life">LIFE</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52287"><a href="https://www.digitaljournal.com/sports">SPORTS</a></li>
+</ul></div>					</div><!--zox-nav-menu-->
+				</div><!--zox-bot-head-menu-->
+			</div><!--zox-bot-head-mid-->
+			<div id="zox-bot-head-right">
+								<span class="zox-nav-search-but fas fa-search zox-search-click"></span>
+			</div><!--zox-bot-head-right-->
+		</div><!--zox-bot-head-->
+	</div><!--zox-head-width-->
+</div><!--zox-bot-head-wrap-->				</header><!---zox-main-header-wrap-->
+				<div id="zox-site-grid">
+					<div id="zox-site-wall-small">
+																																								<div id="zox-main-body-wrap" class="left relative">	<article id="post-323272" class="post-323272 post type-post status-publish format-standard hentry category-world tag-britain tag-defence tag-eu tag-nato tag-politics" itemscope itemtype="http://schema.org/NewsArticle">
+					<div class="zox-article-wrap zoxrel left zox100">
+			<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200"/>
+							<div class="zox-post-top-wrap zoxrel left zox100">
+											<div class="zox-post-title-wrap zox-tit2">
+							<div class="zox-post-width">
+								<header class="zox-post-head-wrap left zoxrel zox100">
+	<div class="zox-post-head zoxrel">
+		<h3 class="zox-post-cat">
+			<a class="zox-post-cat-link" href="https://www.digitaljournal.com/world"><span class="zox-post-cat">World</span></a>
+		</h3>
+		<h1 class="zox-post-title left entry-title" itemprop="headline">NATO chief &#8216;certain&#8217; of UK role despite Brexit</h1>
+				<div class="zox-post-info-wrap">
+							<div class="zox-post-byline-wrap">
+					<div class="zox-author-thumb">
+						<img alt='AFP' src='https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-40x40.jpeg' srcset='https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-80x80.jpeg 2x' class='avatar avatar-40 photo' height='40' width='40' decoding='async'/>					</div><!--zox-author-thumb-->
+					<div class="zox-author-info-wrap">
+						<div class="zox-author-name-wrap" itemprop="author" itemscope itemtype="https://schema.org/Person">
+							<p>By</p><span class="zox-author-name vcard fn author" itemprop="name"><a href="https://www.digitaljournal.com/author/afp" title="Posts by AFP" rel="author">AFP</a></span>
+						</div><!--zox-author-name-wrap-->
+						<div class="zox-post-date-wrap">
+							<p>Published</p> <span class="zox-post-date updated"><time class="post-date updated" itemprop="datePublished" datetime="2016-07-04">July 4, 2016</time></span>
+							<meta itemprop="dateModified" content="2021-04-02"/>
+						</div><!--zox-post-date-wrap-->
+					</div><!--zox-author-info-wrap-->
+				</div><!--zox-post-byline-wrap-->
+						<div class="zox-post-soc-top-wrap">
+							</div><!--zox-post-soc-top-wrap-->
+		</div><!--zox-post-info-wrap-->
+	</div><!--zox-post-head-->
+</header><!--zox-post-head-wrap-->							</div><!--zox-post-width-->
+						</div><!--zox-post-title-wrap-->
+																<div class="zox-post-img-wrap">
+							<div class="zox-post-width">
+																<span class="zox-post-img-cap"></span>
+										</div><!--zox-post-width-->
+						</div><!--zox-post-img-wrap-->
+																			</div><!--zox-post-top-wrap-->
+						<div class="zox-post-main-grid">
+				<div class="zox-post-width">
+					<div class="zox-post-main-wrap zoxrel left zox100">
+						<div class="zox-post-main">
+														<div class="zox-post-body-wrap left zoxrel">
+	<div class="zox-post-body left zoxrel zox100">
+		<div class="imgcopyrightnew"><em><small> - <p>NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron.</p><p>Britain's ruling Conservative party is seeking a new leader to lead negotiations on an exit from the European Union, which has sparked fears for the Western security establishment of which both the EU and NATO are key parts.</p><p>"Brexit will change the relationship between the UK and the EU but it will not change the UK's position inside NATO," Stoltenberg told a press briefing ahead of an alliance summit in Warsaw this week.</p><p>"David Cameron and the UK government have clearly stated that they will continue as a committed ally. I am certain that a new government in the UK will continue that line," he added.</p><p>"This is important because the UK is a major provider of security in Europe and provider of security for the NATO alliance."</p><p>Britain as a nuclear power with a permanent, veto-wielding seat on the UN Security Council has a major say in NATO and in EU foreign and defence policy and there has been intense speculation Brexit could undercut Britain's standing.</p><p>Stoltenberg stressed several times that the Brexit vote did not change Britain's relationship with NATO, only with the EU.</p><p>At the same time, it would have "no effect in any way on NATO-EU cooperation ... if anything, it just strengthens the need for enhanced NATO-EU cooperation."</p><p>He said NATO leaders, meeting in Warsaw on Friday and Saturday, had already decided before the Brexit vote to meet European Council president Donald Tusk and European Commission head Jean-Claude Juncker to sign a cooperation accord.</p><p>"We face together a new security environment... neither the EU nor NATO possess all the tools to respond, for example on countering hybrid warfare and other challenges," he said.</p><p>"The European Union is important to stability in Europe... NATO and the EU are essential and unique partners and we have to work even closer together."</p><p>NATO counts 22 of the 28 EU nations as member states and many of them look first to the US-led alliance for security rather than to the EU.</p><p>Last week, EU foreign policy chief Federica Mogherini issued a policy paper calling on the EU to do more in its own defence while also stressing cooperation with NATO.</p></small></em></div><p>NATO chief Jens Stoltenberg said Monday he was sure Britain&#8217;s new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron.</p>
+<p>Britain&#8217;s ruling Conservative party is seeking a new leader to lead negotiations on an exit from the European Union, which has sparked fears for the Western security establishment of which both the EU and NATO are key parts.</p>
+<p>&#8220;Brexit will change the relationship between the UK and the EU but it will not change the UK&#8217;s position inside NATO,&#8221; Stoltenberg told a press briefing ahead of an alliance summit in Warsaw this week.</p>
+<p>&#8220;David Cameron and the UK government have clearly stated that they will continue as a committed ally. I am certain that a new government in the UK will continue that line,&#8221; he added.</p>
+<p>&#8220;This is important because the UK is a major provider of security in Europe and provider of security for the NATO alliance.&#8221;</p>
+<p>Britain as a nuclear power with a permanent, veto-wielding seat on the UN Security Council has a major say in NATO and in EU foreign and defence policy and there has been intense speculation Brexit could undercut Britain&#8217;s standing.</p>
+<p>Stoltenberg stressed several times that the Brexit vote did not change Britain&#8217;s relationship with NATO, only with the EU.</p>
+<p>At the same time, it would have &#8220;no effect in any way on NATO-EU cooperation &#8230; if anything, it just strengthens the need for enhanced NATO-EU cooperation.&#8221;</p>
+<p>He said NATO leaders, meeting in Warsaw on Friday and Saturday, had already decided before the Brexit vote to meet European Council president Donald Tusk and European Commission head Jean-Claude Juncker to sign a cooperation accord.</p>
+<p>&#8220;We face together a new security environment&#8230; neither the EU nor NATO possess all the tools to respond, for example on countering hybrid warfare and other challenges,&#8221; he said.</p>
+<p>&#8220;The European Union is important to stability in Europe&#8230; NATO and the EU are essential and unique partners and we have to work even closer together.&#8221;</p>
+<p>NATO counts 22 of the 28 EU nations as member states and many of them look first to the US-led alliance for security rather than to the EU.</p>
+<p>Last week, EU foreign policy chief Federica Mogherini issued a policy paper calling on the EU to do more in its own defence while also stressing cooperation with NATO.</p>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://www.digitaljournal.com/world/nato-chief-certain-of-uk-role-despite-brexit/article/469200" data-a2a-title="NATO chief ‘certain’ of UK role despite Brexit"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%E2%80%98certain%E2%80%99%20of%20UK%20role%20despite%20Brexit" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%E2%80%98certain%E2%80%99%20of%20UK%20role%20despite%20Brexit" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%E2%80%98certain%E2%80%99%20of%20UK%20role%20despite%20Brexit" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%E2%80%98certain%E2%80%99%20of%20UK%20role%20despite%20Brexit" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>			</div><!--zox-post-body-->
+	<div class="zox-post-body-bot left zoxrel zox100">
+		<div class="zox-post-body-width">
+			<div class="zox-post-tags left zoxrel zox100">
+								<span class="zox-post-tags-header">In this article:</span><span itemprop="keywords"><a href="https://www.digitaljournal.com/topic/britain">Britain</a>, <a href="https://www.digitaljournal.com/topic/defence">Defence</a>, <a href="https://www.digitaljournal.com/topic/eu">Eu</a>, <a href="https://www.digitaljournal.com/topic/nato">nato</a>, <a href="https://www.digitaljournal.com/topic/politics">Politics</a></span>
+			</div><!--zox-post-tags-->
+						<div class="zox-posts-nav-link">
+							</div><!--zox-posts-nav-link-->
+							<div class="zox-author-box-wrap left zoxrel">
+					<div class="zox-author-box-img zoxrel">
+						<img alt='AFP' src='https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-150x150.jpeg' srcset='https://www.digitaljournal.com/wp-content/uploads/2021/07/4ZvQTfXv_400x400-300x300.jpeg 2x' class='avatar avatar-150 photo' height='150' width='150' decoding='async'/>					</div><!--zox-author-box-img-->
+					<div class="zox-author-box-right">
+						<div class="zox-author-box-head zoxrel">
+							<div class="zox-author-box-name-wrap">
+								<span class="zox-author-box-name-head zoxrel">Written By</span>
+								<span class="zox-author-box-name zoxrel"><a href="https://www.digitaljournal.com/author/afp" title="Posts by AFP" rel="author">AFP</a></span>
+							</div><!--zox-author-box-name-wrap-->
+						</div><!--zox-author-box-head-->
+						<div class="zox-author-box-text left zoxrel">
+							<p>With 2,400 staff representing 100 different nationalities, AFP covers the world as a leading global news agency. AFP provides fast, comprehensive and verified coverage of the issues affecting our daily lives.</p>
+						</div><!--zox-author-box-text-->
+					</div><!--zox-author-box-right-->
+				</div><!--zox-author-box-wrap-->
+						<div class="zox-org-wrap" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<div class="zox-org-logo" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+											<img src="https://www.digitaljournal.com/wp-content/uploads/2021/01/Digital-Journal-Logosm.png"/>
+						<meta itemprop="url" content="https://www.digitaljournal.com/wp-content/uploads/2021/01/Digital-Journal-Logosm.png">
+									</div><!--zox-org-logo-->
+				<meta itemprop="name" content="Digital Journal">
+			</div><!--zox-org-wrap-->
+					</div><!--zox-post-body-width-->
+	</div><!--zox-post-body-bot-->
+</div><!--zox-post-body-wrap-->						</div><!--zox-post-main-->
+													<div class="zox-post-side-wrap zox-post-side-noalp zoxrel zox-sticky-side">
+								<div id="zox-side-wrap" class="zoxrel zox-divs">
+						<div id="zox_ad_widget-4" class="zox-side-widget zox_ad_widget">			<div class="zox-widget-ad left relative">
+				<span class="zox-ad-label">Advertisement</span>
+				<!-- /1021963/Bigbox-InArticles -->
+<div id='div-gpt-ad-1609336515463-0'>
+  <script type="rocketlazyloadscript">
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1609336515463-0'); });
+  </script>
+</div>			</div><!--zox-widget-ad-->
+		</div><div id="custom_html-6" class="widget_text zox-side-widget widget_custom_html"><div class="zox-widget-side-head"><h4 class="zox-widget-side-title"><span class="zox-widget-side-title">Subscribe to our newsletter</span></h4></div><div class="textwidget custom-html-widget"><a href="https://www.digitaljournal.com/newsletters"><img src="https://www.digitaljournal.com/wp-content/uploads/2024/10/The-Directors-Table-1.png" alt="The Directors' Table"></a></div></div><div id="zox_side_trend_widget-3" class="zox-side-widget zox_side_trend_widget"><div class="zox-widget-side-head"><h4 class="zox-widget-side-title"><span class="zox-widget-side-title">Trending</span></h4></div>
+			<div class="zox-widget-side-trend-wrap left zoxrel zox100">
+															<section class="zox-art-wrap zoxrel zox-art-small">
+			<div class="zox-art-grid">
+			<a href="https://www.digitaljournal.com/business/openai-releases-chatgpt-search-engine-taking-on-google/article" rel="bookmark">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/10/08c896ae18c48dad4aaee47bbaf863548f50d895-100x100.jpg" class="lazy-load wp-post-image" alt="OpenAI CEO Sam Altman said that search is his favorite feature since the launch of ChatGPT in 2022" decoding="async" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/10/08c896ae18c48dad4aaee47bbaf863548f50d895-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/10/08c896ae18c48dad4aaee47bbaf863548f50d895-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />							</div><!--zox-art-img-->
+			</a>
+			<div class="zox-art-text">
+	<h3 class="zox-s-cat"><span class="zox-s-cat">Business</span></h3>
+	<div class="zox-art-title">
+		<a href="https://www.digitaljournal.com/business/openai-releases-chatgpt-search-engine-taking-on-google/article" rel="bookmark">
+		<h2 class="zox-s-title3">OpenAI releases ChatGPT search engine, taking on Google</h2>
+		</a>
+	</div><!--zox-art-title-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</section><!--zox-art-wrap-->											<section class="zox-art-wrap zoxrel zox-art-small">
+			<div class="zox-art-grid">
+			<a href="https://www.digitaljournal.com/business/asian-markets-rise-ahead-of-us-election-chinese-stimulus-meeting/article" rel="bookmark">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-100x100.jpg" class="lazy-load wp-post-image" alt="The dollar slipped after a fresh poll put Vice President Kamala Harris ahead in Iowa, a state her rival Donald Trump won in 2016 and 2020" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />							</div><!--zox-art-img-->
+			</a>
+			<div class="zox-art-text">
+	<h3 class="zox-s-cat"><span class="zox-s-cat">Business</span></h3>
+	<div class="zox-art-title">
+		<a href="https://www.digitaljournal.com/business/asian-markets-rise-ahead-of-us-election-chinese-stimulus-meeting/article" rel="bookmark">
+		<h2 class="zox-s-title3">Asian markets rise ahead of US election, Chinese stimulus meeting</h2>
+		</a>
+	</div><!--zox-art-title-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</section><!--zox-art-wrap-->											<section class="zox-art-wrap zoxrel zox-art-small">
+			<div class="zox-art-grid">
+			<a href="https://www.digitaljournal.com/tech-science/exclusive-cmg-collaboration-with-nvidia-seeks-to-accelerate-reservoir-modelling-for-energy-transition/article" rel="bookmark">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/10/Subsurface-100x100.jpg" class="lazy-load wp-post-image" alt="Subsurface" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/10/Subsurface-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/10/Subsurface-150x150.jpg 150w, https://www.digitaljournal.com/wp-content/uploads/2024/10/Subsurface-600x600.jpg 600w" sizes="(max-width: 100px) 100vw, 100px" />							</div><!--zox-art-img-->
+			</a>
+			<div class="zox-art-text">
+	<h3 class="zox-s-cat"><span class="zox-s-cat">Tech &amp; Science</span></h3>
+	<div class="zox-art-title">
+		<a href="https://www.digitaljournal.com/tech-science/exclusive-cmg-collaboration-with-nvidia-seeks-to-accelerate-reservoir-modelling-for-energy-transition/article" rel="bookmark">
+		<h2 class="zox-s-title3">Exclusive: CMG collaboration with NVIDIA seeks to accelerate reservoir modelling for energy transition</h2>
+		</a>
+	</div><!--zox-art-title-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</section><!--zox-art-wrap-->											<section class="zox-art-wrap zoxrel zox-art-small">
+			<div class="zox-art-grid">
+			<a href="https://www.digitaljournal.com/business/apple-narrowly-beats-estimates-with-boost-from-iphone-sales/article" rel="bookmark">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2022/10/Apple-AFP-1K-01-100x100.jpg" class="lazy-load wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2022/10/Apple-AFP-1K-01-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2022/10/Apple-AFP-1K-01-150x150.jpg 150w, https://www.digitaljournal.com/wp-content/uploads/2022/10/Apple-AFP-1K-01-600x600.jpg 600w" sizes="(max-width: 100px) 100vw, 100px" />							</div><!--zox-art-img-->
+			</a>
+			<div class="zox-art-text">
+	<h3 class="zox-s-cat"><span class="zox-s-cat">Business</span></h3>
+	<div class="zox-art-title">
+		<a href="https://www.digitaljournal.com/business/apple-narrowly-beats-estimates-with-boost-from-iphone-sales/article" rel="bookmark">
+		<h2 class="zox-s-title3">Apple narrowly beats estimates with boost from iPhone sales</h2>
+		</a>
+	</div><!--zox-art-title-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</section><!--zox-art-wrap-->											<section class="zox-art-wrap zoxrel zox-art-small">
+			<div class="zox-art-grid">
+			<a href="https://www.digitaljournal.com/entertainment/review-fabian-arnold-david-millbern-and-meredith-thomas-star-in-big-rage/article" rel="bookmark">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/Here-TV-100x100.jpg" class="lazy-load wp-post-image" alt="Fabian Arnold in &#039;Big Rage&#039;" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/11/Here-TV-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/11/Here-TV-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />							</div><!--zox-art-img-->
+			</a>
+			<div class="zox-art-text">
+	<h3 class="zox-s-cat"><span class="zox-s-cat">Entertainment</span></h3>
+	<div class="zox-art-title">
+		<a href="https://www.digitaljournal.com/entertainment/review-fabian-arnold-david-millbern-and-meredith-thomas-star-in-big-rage/article" rel="bookmark">
+		<h2 class="zox-s-title3">Review: Fabian Arnold, David Millbern, and Meredith Thomas star in &#8216;Big Rage&#8217;</h2>
+		</a>
+	</div><!--zox-art-title-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</section><!--zox-art-wrap-->												</div><!--zox-widget-side-trend-wrap-->
+
+		</div>			</div><!--zox-side-wrap-->
+							</div><!--zox-post-side-wrap-->
+											</div><!--zox-post-main-wrap-->
+				</div><!--zox-post-width-->
+			</div><!--zox-post-main-grid-->
+			<div id="stopad">
+			</div>
+											</div><!--zox-article-wrap-->
+			<div id="morefooter" class="zox-post-more-wrap left zoxrel zox100">
+		<div class="zox-post-width">
+			<div class="zox-post-more left zoxrel zox100">
+				<div class="zox-post-main-head left zoxrel zox100">
+					<h4 class="zox-post-main-title">
+						<span class="zox-post-main-title">You may also like:</span>
+					</h4>
+				</div><!--zox-widget-main-head-->
+									<div class="zox-post-more-grid zox-div4 left zoxrel zox100">
+													<div class="zox-art-wrap zoxrel zox-art-mid">
+			<div class="zox-art-grid">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<a href="https://www.digitaljournal.com/business/asian-markets-rise-ahead-of-us-election-chinese-stimulus-meeting/article" rel="bookmark">
+				<img width="600" height="337" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-600x337.jpg" class="zox-reg-img wp-post-image" alt="The dollar slipped after a fresh poll put Vice President Kamala Harris ahead in Iowa, a state her rival Donald Trump won in 2016 and 2020" decoding="async" loading="lazy" />				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-100x100.jpg" class="zox-mob-img wp-post-image" alt="The dollar slipped after a fresh poll put Vice President Kamala Harris ahead in Iowa, a state her rival Donald Trump won in 2016 and 2020" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/11/8610d82e1f0c806656feb5b9ebed0e347cee16aa-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />				</a>
+			</div><!--zox-art-img-->
+			<div class="zox-art-text">
+	<div class="zox-art-text-cont">
+					<h3 class="zox-s-cat"><span class="zox-s-cat">Business</span></h3>
+				<div class="zox-art-title">
+			<a href="https://www.digitaljournal.com/business/asian-markets-rise-ahead-of-us-election-chinese-stimulus-meeting/article" rel="bookmark">
+			<h2 class="zox-s-title2">Asian markets rise ahead of US election, Chinese stimulus meeting</h2>
+			</a>
+		</div><!--zox-art-title-->
+		<p class="zox-s-graph">The dollar slipped after a fresh poll put Vice President Kamala Harris ahead in Iowa, a state her rival Donald Trump won in 2016...</p>
+		<div class="zox-byline-wrap">
+			<span class="zox-byline-name"><a href="https://www.digitaljournal.com/author/afp" title="Posts by AFP" rel="author">AFP</a></span><span class="zox-byline-date"><i class="far fa-clock"></i>17 hours ago</span>
+		</div><!--zox-byline-wrap-->
+	</div><!--zox-art-text-cont-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</div><!--zox-art-wrap-->													<div class="zox-art-wrap zoxrel zox-art-mid">
+			<div class="zox-art-grid">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<a href="https://www.digitaljournal.com/tech-science/fake-x-accounts-promote-cop-hosts-uae-azerbaijan/article" rel="bookmark">
+				<img width="600" height="337" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/2cb98aa16fea0773f7d32a44f7a102ad59aaf1cd-600x337.jpg" class="zox-reg-img wp-post-image" alt="The disinformation efforts come as the UAE and Azerbaijan were chosen to host the COP28 climate change summit last year and forthcoming COP29 slated to kick off on November 11 in Baku" decoding="async" loading="lazy" />				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/2cb98aa16fea0773f7d32a44f7a102ad59aaf1cd-100x100.jpg" class="zox-mob-img wp-post-image" alt="The disinformation efforts come as the UAE and Azerbaijan were chosen to host the COP28 climate change summit last year and forthcoming COP29 slated to kick off on November 11 in Baku" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/11/2cb98aa16fea0773f7d32a44f7a102ad59aaf1cd-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/11/2cb98aa16fea0773f7d32a44f7a102ad59aaf1cd-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />				</a>
+			</div><!--zox-art-img-->
+			<div class="zox-art-text">
+	<div class="zox-art-text-cont">
+					<h3 class="zox-s-cat"><span class="zox-s-cat">Tech &amp; Science</span></h3>
+				<div class="zox-art-title">
+			<a href="https://www.digitaljournal.com/tech-science/fake-x-accounts-promote-cop-hosts-uae-azerbaijan/article" rel="bookmark">
+			<h2 class="zox-s-title2">Fake X accounts promote COP hosts UAE, Azerbaijan</h2>
+			</a>
+		</div><!--zox-art-title-->
+		<p class="zox-s-graph">The platform X has been aflush with praise for UAE and Azerbaijan, shared by hundreds— all of which were found to be fake.</p>
+		<div class="zox-byline-wrap">
+			<span class="zox-byline-name"><a href="https://www.digitaljournal.com/author/afp" title="Posts by AFP" rel="author">AFP</a></span><span class="zox-byline-date"><i class="far fa-clock"></i>2 hours ago</span>
+		</div><!--zox-byline-wrap-->
+	</div><!--zox-art-text-cont-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</div><!--zox-art-wrap-->													<div class="zox-art-wrap zoxrel zox-art-mid">
+			<div class="zox-art-grid">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<a href="https://www.digitaljournal.com/business/office-dynamics-workplaces-slowly-adapting-to-new-expectations/article" rel="bookmark">
+				<img width="600" height="337" src="https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-600x337.jpg" class="zox-reg-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-600x337.jpg 600w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-800x450.jpg 800w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-1200x675.jpg 1200w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-768x432.jpg 768w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-1536x864.jpg 1536w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-1024x576.jpg 1024w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute.jpg 1618w" sizes="(max-width: 600px) 100vw, 600px" />				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-100x100.jpg" class="zox-mob-img wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-150x150.jpg 150w, https://www.digitaljournal.com/wp-content/uploads/2024/03/Commute-600x600.jpg 600w" sizes="(max-width: 100px) 100vw, 100px" />				</a>
+			</div><!--zox-art-img-->
+			<div class="zox-art-text">
+	<div class="zox-art-text-cont">
+					<h3 class="zox-s-cat"><span class="zox-s-cat">Business</span></h3>
+				<div class="zox-art-title">
+			<a href="https://www.digitaljournal.com/business/office-dynamics-workplaces-slowly-adapting-to-new-expectations/article" rel="bookmark">
+			<h2 class="zox-s-title2">Office dynamics: Workplaces slowly adapting to new expectations</h2>
+			</a>
+		</div><!--zox-art-title-->
+		<p class="zox-s-graph">Return to office? Not necessarily with harmony since many workers have relaxed their professional standards over the pandemic period.</p>
+		<div class="zox-byline-wrap">
+			<span class="zox-byline-name"><a href="https://www.digitaljournal.com/author/tim-sandle" title="Posts by Dr. Tim Sandle" rel="author">Dr. Tim Sandle</a></span><span class="zox-byline-date"><i class="far fa-clock"></i>23 hours ago</span>
+		</div><!--zox-byline-wrap-->
+	</div><!--zox-art-text-cont-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</div><!--zox-art-wrap-->													<div class="zox-art-wrap zoxrel zox-art-mid">
+			<div class="zox-art-grid">
+			<div class="zox-art-img zoxrel zox100 zoxlh0">
+				<a href="https://www.digitaljournal.com/entertainment/quincy-jones-entertainment-titan-and-music-mastermind/article" rel="bookmark">
+				<img width="600" height="337" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/6c92f733f8e43369da88e816690673fa8c13c266-600x337.jpg" class="zox-reg-img wp-post-image" alt="US producer Quincy Jones -- seen at the Montreux Jazz Festival in June 2019 in Switzerland -- influenced the music world in many genres for decades" decoding="async" loading="lazy" />				<img width="100" height="100" src="https://www.digitaljournal.com/wp-content/uploads/2024/11/6c92f733f8e43369da88e816690673fa8c13c266-100x100.jpg" class="zox-mob-img wp-post-image" alt="US producer Quincy Jones -- seen at the Montreux Jazz Festival in June 2019 in Switzerland -- influenced the music world in many genres for decades" decoding="async" loading="lazy" srcset="https://www.digitaljournal.com/wp-content/uploads/2024/11/6c92f733f8e43369da88e816690673fa8c13c266-100x100.jpg 100w, https://www.digitaljournal.com/wp-content/uploads/2024/11/6c92f733f8e43369da88e816690673fa8c13c266-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />				</a>
+			</div><!--zox-art-img-->
+			<div class="zox-art-text">
+	<div class="zox-art-text-cont">
+					<h3 class="zox-s-cat"><span class="zox-s-cat">Entertainment</span></h3>
+				<div class="zox-art-title">
+			<a href="https://www.digitaljournal.com/entertainment/quincy-jones-entertainment-titan-and-music-mastermind/article" rel="bookmark">
+			<h2 class="zox-s-title2">Quincy Jones, entertainment titan and music mastermind</h2>
+			</a>
+		</div><!--zox-art-title-->
+		<p class="zox-s-graph">From Frank Sinatra to Michael Jackson, jazz to hip-hop, Jones tracked the ever-fluctuating pulse of pop over his seven-decade-plus career.</p>
+		<div class="zox-byline-wrap">
+			<span class="zox-byline-name"><a href="https://www.digitaljournal.com/author/afp" title="Posts by AFP" rel="author">AFP</a></span><span class="zox-byline-date"><i class="far fa-clock"></i>7 hours ago</span>
+		</div><!--zox-byline-wrap-->
+	</div><!--zox-art-text-cont-->
+</div><!--zox-art-text-->		</div><!--zox-art-grid-->
+	</div><!--zox-art-wrap-->											</div><!--zox-post-more-grid-->
+							</div><!--zox-post-more-->
+		</div><!--zox-post-width-->
+	</div><!--zox-post-more-wrap-->
+	</article><!--zox-post-wrap-->							</div><!--zox-main-body-wrap-->
+							<footer id="zox-foot-wrap" class="left zoxrel zox100">
+								<div class="zox-body-width">
+										<div class="footer-mega-col">
+		<div class="footer-mega-col-wrap">
+			<aside id="nav_menu-3" class="widget fmgc-columns widget-count-3 fmgc-per-row-4 widget_nav_menu"><div class="menu-corporate-container"><ul id="menu-corporate" class="menu"><li id="menu-item-52279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52279"><a href="https://www.digitaljournal.com/about-us">ABOUT US</a></li>
+<li id="menu-item-3725986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3725986"><a href="https://if.digitaljournal.com/">INSIGHT FORUM</a></li>
+<li id="menu-item-1133674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1133674"><a href="https://store.digitaljournal.com">SPONSORED CONTENT</a></li>
+<li id="menu-item-52277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52277"><a href="https://www.digitaljournal.com/terms-of-use">TERMS OF USE</a></li>
+<li id="menu-item-70120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-70120"><a rel="privacy-policy" href="https://www.digitaljournal.com/privacy">PRIVACY POLICY</a></li>
+<li id="menu-item-52278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52278"><a href="https://www.digitaljournal.com/contact-us">CONTACT US</a></li>
+</ul></div></aside><aside id="nav_menu-2" class="widget fmgc-columns widget-count-3 fmgc-per-row-4 widget_nav_menu"><div class="menu-press-releases-footer-menu-container"><ul id="menu-press-releases-footer-menu" class="menu"><li id="menu-item-1133675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1133675"><a href="https://www.digitaljournal.com/pr/news/accesswire/index.html">FEATURED: ACCESSWIRE</a></li>
+<li id="menu-item-604237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-604237"><a href="https://www.digitaljournal.com/pr/news/prodigy-press-wire/index.html">FEATURED: PRODIGY PRESS WIRE</a></li>
+<li id="menu-item-1133716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1133716"><a href="https://www.digitaljournal.com/author/afp">NEWS PARTNER: AFP</a></li>
+<li id="menu-item-1130382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1130382"><a href="https://www.digitaljournal.com/pr/news/index.html">ALL PRESS RELEASES</a></li>
+</ul></div></aside><aside id="custom_html-4" class="widget_text widget fmgc-columns widget-count-3 fmgc-per-row-4 widget_custom_html"><div class="textwidget custom-html-widget"><img src="https://www.digitaljournal.com/wp-content/uploads/2021/01/Digital-Journal-Logosm.png" alt="Digital Journal"></div></aside> 
+		</div>
+	</div>
+	
+								<div class="zox-foot-grid left zoxrel zox100">
+									<div class="zox-foot-left-wrap">
+										<div class="zox-foot-logo left zox-lh0">
+										</div><!--zox-foot-logo-->
+										<div class="zox-foot-left left">
+											<div class="zox-foot-menu">
+																							</div><!--zox-foot-menu-->
+											<div class="zox-foot-copy">
+												<p>COPYRIGHT © 1998 - 2024 DIGITAL JOURNAL INC. Sitemaps: <a href="https://www.digitaljournal.com/sitemap_index.xml">XML</a> /  <a href="https://www.digitaljournal.com/news-sitemap.xml">News</a> .
+
+Digital Journal is not responsible for the content of external sites. <u><a href="https://www.digitaljournal.com/terms-of-use">Read more about our external linking</a></u>.  
+</p>
+											</div><!--zox-foot-copy-->
+										</div><!--zox-foot-left-->
+									</div><!--zox-foot-left-wrap-->
+									<div class="zox-foot-right-wrap">
+										<div class="zox-foot-soc right relative">
+											<ul class="zox-foot-soc-list left relative">
+																									<li><a href="https://www.facebook.com/digitaljournal" target="_blank" class="fab fa-facebook-f"></a></li>
+																																					<li><a href="https://twitter.com/digitaljournal" target="_blank" class="fab fa-twitter"></a></li>
+																																																																									<li><a href="https://www.linkedin.com/company/digital-journal/" target="_blank" class="fab fa-linkedin-in"></a></li>
+																																															</ul>
+										</div><!--zox-foot-soc-->
+									</div><!--zox-foot-right-wrap-->
+								</div><!--zox-foot-grid-->
+								</div>
+							</footer><!--zox-foot-wrap-->
+						</div><!--zox-site-wall-small-->
+					</div><!--zox-site-grid-->
+				</div><!--zox-site-main-->
+			</div><!--zox-site-wall-->
+			<div data-rocket-location-hash="7eac45ae1644f72e9d3d8af36ca2f8a1" class="zox-fly-top back-to-top">
+				<span class="fas fa-angle-up"></span>
+			</div><!--zox-fly-top-->
+		</div><!--zox-site-->
+		<div data-rocket-location-hash="570c6e02ec393412f74b8cbc4176e8b1" class="zox-fly-fade zox-fly-but-click">
+		</div><!--zox-fly-fade-->
+		<div data-rocket-location-hash="358fe5ef45441d327cc8d59874b6accf" class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px;top:360px;background-color:transparent"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%26%23039%3Bcertain%26%23039%3B%20of%20UK%20role%20despite%20Brexit%20-%20Digital%20Journal" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%26%23039%3Bcertain%26%23039%3B%20of%20UK%20role%20despite%20Brexit%20-%20Digital%20Journal" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%26%23039%3Bcertain%26%23039%3B%20of%20UK%20role%20despite%20Brexit%20-%20Digital%20Journal" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.digitaljournal.com%2Fworld%2Fnato-chief-certain-of-uk-role-despite-brexit%2Farticle%2F469200&amp;linkname=NATO%20chief%20%26%23039%3Bcertain%26%23039%3B%20of%20UK%20role%20despite%20Brexit%20-%20Digital%20Journal" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div>		<div data-theiaStickySidebar-sidebarSelector='".zox-sticky-side"'
+		     data-theiaStickySidebar-options='{"containerSelector":"","additionalMarginTop":0,"additionalMarginBottom":0,"updateSidebarHeight":false,"minWidth":0,"sidebarBehavior":"modern","disableOnResponsiveLayouts":true}'></div>
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/theia-sticky-sidebar/js/ResizeSensor.js?ver=1.7.0" id="theia-sticky-sidebar/ResizeSensor.js-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/theia-sticky-sidebar/js/theia-sticky-sidebar.js?ver=1.7.0" id="theia-sticky-sidebar/theia-sticky-sidebar.js-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/theia-sticky-sidebar/js/main.js?ver=1.7.0" id="theia-sticky-sidebar/main.js-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/zoxpress-plugin/scripts/jquery.sticky-kit.min.js?ver=6.6.2" id="jquery-sticky-kit-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/plugins/zoxpress-plugin/scripts/jquery.waypoints.min.js?ver=6.6.2" id="jquery-waypoints-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/zoxcustom.js?ver=6.6.2" id="zox-custom-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="zox-custom-js-after">
+/* <![CDATA[ */
+
+			jQuery(document).ready(function($) {
+			var leaderHeight = $("#zox-lead-top").outerHeight();
+			var botHeight = $("#zox-bot-head-wrap").outerHeight();
+			var navHeight = $("#zox-main-head-wrap").outerHeight();
+			var headerHeight = navHeight + leaderHeight;
+			var stickHeight = headerHeight - botHeight;
+			var previousScroll = 0;
+			$(window).scroll(function(event){
+				var scroll = $(this).scrollTop();
+				if ( typeof leaderHeight !== "undefined" ) {
+					if ($(window).scrollTop() > headerHeight){
+						$("#zox-bot-head-wrap").addClass("zox-fix-up");
+						$("#zox-site-grid").css("margin-top", botHeight);
+						$(".zox-post-soc-scroll").addClass("zox-post-soc-scroll-out");
+						$(".zox-fly-top").addClass("zox-to-top");
+					} else {
+						$("#zox-bot-head-wrap").removeClass("zox-fix-up");
+						$("#zox-site-grid").css("margin-top", "0" );
+						$(".zox-post-soc-scroll").removeClass("zox-post-soc-scroll-out");
+						$(".zox-fly-top").removeClass("zox-to-top");
+					}
+					if ($(window).scrollTop() > headerHeight - botHeight){
+						$("#zox-bot-head-wrap").addClass("zox-fix");
+						if(scroll < previousScroll) {
+							$("#zox-bot-head-wrap").addClass("zox-fix");
+							$("#zox-site-grid").css("margin-top", botHeight);
+						} else {
+							$("#zox-bot-head-wrap").removeClass("zox-fix");
+						}
+					} else {
+						$("#zox-bot-head-wrap").removeClass("zox-fix");
+						$("#zox-site-grid").css("margin-top", "0" );
+					}
+				} else {
+					if ($(window).scrollTop() > navHeight){
+						$("#zox-bot-head-wrap").addClass("zox-fix-up");
+						$("#zox-site-grid").css("margin-top", botHeight);
+						$(".zox-post-soc-scroll").addClass("zox-post-soc-scroll-out");
+						$(".zox-fly-top").addClass("zox-to-top");
+					} else {
+						$("#zox-bot-head-wrap").removeClass("zox-fix-up");
+						$("#zox-site-grid").css("margin-top", "0" );
+						$(".zox-post-soc-scroll").removeClass("zox-post-soc-scroll-out");
+						$(".zox-fly-top").removeClass("zox-to-top");
+					}
+					if ($(window).scrollTop() > navHeight - botHeight){
+						$("#zox-bot-head-wrap").addClass("zox-fix");
+						if(scroll < previousScroll) {
+							$("#zox-bot-head-wrap").addClass("zox-fix");
+							$("#zox-site-grid").css("margin-top", botHeight);
+						} else {
+							$("#zox-bot-head-wrap").removeClass("zox-fix");
+						}
+					} else {
+						$("#zox-bot-head-wrap").removeClass("zox-fix");
+						$("#zox-site-grid").css("margin-top", "0" );
+					}
+				}
+				previousScroll = scroll;
+			});
+			$(".zox-alp-side-in").niceScroll({cursorcolor:"#ccc",cursorwidth: 5,cursorborder: 0,zindex:999999});
+			});
+			
+
+	jQuery(document).ready(function($) {
+	$(".zox-fly-nav-menu .menu-item-has-children a").click(function(event){
+	  event.stopPropagation();
+  	});
+
+	$(".zox-fly-nav-menu .menu-item-has-children").click(function(){
+    	  $(this).addClass("toggled");
+    	  if($(".menu-item-has-children").hasClass("toggled"))
+    	  {
+    	  $(this).children("ul").toggle();
+	  $(".zox-fly-nav-menu").getNiceScroll().resize();
+	  }
+	  $(this).toggleClass("tog-minus");
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	  $(".zox-fly-nav-menu").niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+	});
+	
+
+	jQuery(document).ready(function($) {
+	$(".infinite-content").infinitescroll({
+	  navSelector: ".zox-nav-links",
+	  nextSelector: ".zox-nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  errorCallback: function(){ $(".zox-inf-more-wrap").css("display", "none") }
+	});
+	$(window).unbind(".infscr");
+	$(".zox-inf-more-but").click(function(){
+   		$(".infinite-content").infinitescroll("retrieve");
+        	return false;
+	});
+	if ($(".zox-nav-links a").length) {
+		$(".zox-inf-more-wrap").css("display","inline-block");
+	} else {
+		$(".zox-inf-more-wrap").css("display","none");
+	}
+	});
+	
+
+			jQuery(document).ready(function($) {
+				$(".zox-com-click-323272").on("click", function(){
+	  	    	$(".zox-com-click-id-323272").show();
+		    	$(".disqus-thread-323272").show();
+	  	    	$(".zox-com-but-323272").hide();
+		  		});
+			});
+		
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/scripts.js?ver=6.6.2" id="zox-scripts-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/retina.js?ver=6.6.2" id="zox-retina-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/jquery.infinitescroll.min.js?ver=6.6.2" id="zox-infinitescroll-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-includes/js/comment-reply.min.js?ver=6.6.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/intersection-observer.js" id="zox-intersection-observer-polyfill-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.digitaljournal.com/wp-content/themes/zoxpress/js/lozad.min.js" id="zox-lozad-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="zox-lozad-js-after">
+/* <![CDATA[ */
+
+	var zoxWidgets = document.querySelectorAll("#zox-home-widget-wrap img");
+	lozad(zoxWidgets, {
+		rootMargin: "0px 0px",
+		loaded: function (el) {
+			el.classList.add("is-loaded");
+		}
+	}).observe();
+/* ]]> */
+</script>
+	<script>var rocket_beacon_data = {"ajax_url":"https:\/\/www.digitaljournal.com\/wp-admin\/admin-ajax.php","nonce":"f472dca77b","url":"https:\/\/www.digitaljournal.com\/world\/nato-chief-certain-of-uk-role-despite-brexit\/article\/469200","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src='https://www.digitaljournal.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

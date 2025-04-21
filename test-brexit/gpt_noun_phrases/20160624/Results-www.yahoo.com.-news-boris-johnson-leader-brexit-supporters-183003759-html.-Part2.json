@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "The politician was forced to apologize for racist comments after calling Black people \"piccaninnies\" in 2008",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "racist comments",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist comments"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> racist comments": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He also came under fire for referring to people from Papua New Guinea as cannibals",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Papua New Guinea",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Papua New Guinea"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> Papua New Guinea": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "whistle racism from senior Tories. He should withdraw it.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "John McDonnell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "John McDonnell",
+                "types": [],
+                "wikid": "John McDonnell",
+                "dbpedia": "John McDonnell"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> John McDonnell": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

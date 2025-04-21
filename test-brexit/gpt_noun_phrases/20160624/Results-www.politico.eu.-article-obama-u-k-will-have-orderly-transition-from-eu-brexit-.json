@@ -1,0 +1,186 @@
+[
+    {
+        "sentence": "Obama said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's transition out of the EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's transition out of the EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron -> Barack Obama": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> UK's transition out of the EU": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We agreed that our economic and financial teams will remain in close contact as we stay focused on ensuring economic growth and financial stability.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic growth and financial stability",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic growth and financial stability"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron -> Barack Obama": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> economic growth and financial stability": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "David has been an outstanding friend and partner on the global stage",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> David Cameron": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Obama said he has spoken to British Prime Minister David Cameron and German Chancellor Angela Merkel since the U.K. narrowly voted to leave the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Angela Merkel",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Angela Merkel",
+                "types": [],
+                "wikid": "Angela Merkel",
+                "dbpedia": "Angela Merkel"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Angela Merkel": [
+                -1.0
+            ],
+            "David Cameron -> Angela Merkel": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,306 @@
+[
+    {
+        "sentence": "Germany, in particular, is ready to give up on the idea of \"ever closer union\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "ever closer union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "ever closer union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> ever closer union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A revival of the political project... could speed evolution towards a two-speed Europe",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "two-speed Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "two-speed Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> two-speed Europe": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Germany - with its queasiness about military engagements - becomes the ultimate arbiter in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "two-speed Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "two-speed Europe"
+                ]
+            },
+            {
+                "ngram": "military engagements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "military engagements"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "EU -> Germany": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Germany -> two-speed Europe": [
+                -1.0
+            ],
+            "Germany -> military engagements": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "newly restored nation states... resistance to quotas for non-European refugees",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "refugee quotas",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "refugee quotas"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> refugee quotas": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "On the one hand, they regarded EU membership as proof of their European credentials",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Without the UK, it will be less Atlanticist and more Continental, in allegiances as in character.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Germany -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The US may maintain its presence and influence, but it will be as an outside power; the UK will not be there as bridge or proxy, and no amount of talking between Berlin and Washington will alter that.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Germany -> US": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "On the other, they are loath to give up any of their sovereignty as newly restored nation states",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "newly restored nation states",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "newly restored nation states",
+                "types": [],
+                "wikid": "newly restored nation states",
+                "dbpedia": "newly restored nation states"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> newly restored nation states": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

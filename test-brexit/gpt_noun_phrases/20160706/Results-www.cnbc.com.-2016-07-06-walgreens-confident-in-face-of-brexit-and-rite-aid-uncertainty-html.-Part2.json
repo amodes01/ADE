@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "Walgreens has already raised the capital it needs to fund the completion of the Rite Aid merger.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walgreens",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walgreens",
+                "types": [],
+                "wikid": "Walgreens",
+                "dbpedia": "Walgreens"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rite Aid",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rite Aid",
+                "types": [],
+                "wikid": "Rite Aid",
+                "dbpedia": "Rite Aid"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Rite Aid merger",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Rite Aid merger"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Walgreens -> Rite Aid": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Walgreens -> Rite Aid merger": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Rite Aid shares were recently up nearly 2 percent on the day at $7.44.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rite Aid",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rite Aid",
+                "types": [],
+                "wikid": "Rite Aid",
+                "dbpedia": "Rite Aid"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Rite Aid merger",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Rite Aid merger"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Rite Aid -> Rite Aid merger": [
+                1.0
+            ]
+        }
+    }
+]

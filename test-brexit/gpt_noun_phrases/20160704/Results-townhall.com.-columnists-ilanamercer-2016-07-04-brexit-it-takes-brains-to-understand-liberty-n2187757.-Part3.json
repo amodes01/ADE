@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "what we did last week in that referendum was say, 'Get thee gone.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit referendum": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Our political class has let us down like a cheap pair of braces",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political class",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political class"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> political class": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The dumbed-down transcript, provided by CNN, had turned Farage's 'get thee gone' into 'get the gun.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "CNN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "CNN",
+                "types": [],
+                "wikid": "CNN",
+                "dbpedia": "CNN"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> CNN": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "leader of the UKIP",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UKIP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UKIP",
+                "types": [],
+                "wikid": "UKIP",
+                "dbpedia": "UKIP"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> UKIP": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

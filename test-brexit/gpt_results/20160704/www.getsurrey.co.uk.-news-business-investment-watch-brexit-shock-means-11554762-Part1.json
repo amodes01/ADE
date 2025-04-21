@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Investor community",
+        "references": ["investors", "traders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Perhaps it is this factor that maintains the appetite and intrigue of investors and traders, hungry to exploit price weakness and differentials in search of opportunities and ultimately profits."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "UK economy",
+        "references": ["UK economy"]
+      },
+      "justifications": [
+        "Yes there are now significant risks to the UK economy as evidenced by the credit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "FTSE 100 companies",
+        "references": ["FTSE 100 companies"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "the FTSE 100 holistically to be somewhat of a Brexit hedge"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "FTSE 100 index",
+        "references": ["FTSE 100 index"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The net effect of these movements has resulted in the FTSE 100 index currently residing higher now than it was pre Brexit which is incredible if believable."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Investor community",
+        "references": ["investors", "traders"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Perhaps it is this factor that maintains the appetite and intrigue of investors and traders, hungry to exploit price weakness and differentials in search of opportunities and ultimately profits."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "UK economy",
+        "references": ["UK economy"]
+      },
+      "justifications": [
+        "Yes there are now significant risks to the UK economy as evidenced by the credit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "FTSE 100 companies",
+        "references": ["FTSE 100 companies"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "the FTSE 100 holistically to be somewhat of a Brexit hedge"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "FTSE 100 index",
+        "references": ["FTSE 100 index"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The net effect of these movements has resulted in the FTSE 100 index currently residing higher now than it was pre Brexit which is incredible if believable."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

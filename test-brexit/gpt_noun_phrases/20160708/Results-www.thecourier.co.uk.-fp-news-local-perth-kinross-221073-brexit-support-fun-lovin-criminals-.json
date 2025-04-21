@@ -1,0 +1,100 @@
+[
+    {
+        "sentence": "Fun Lovin' Criminals have pledged their support to Scotland over Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fun Lovin' Criminals",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fun Lovin' Criminals",
+                "types": [],
+                "wikid": "Fun Lovin' Criminals",
+                "dbpedia": "Fun Lovin' Criminals"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Fun Lovin' Criminals -> Scotland": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Fun Lovin' Criminals -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Huey Morgan addressed Scottish fans during a sun-blessed main stage set at T in the Park.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Huey Morgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Huey Morgan",
+                "types": [],
+                "wikid": "Huey Morgan",
+                "dbpedia": "Huey Morgan"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish fans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish fans",
+                "types": [],
+                "wikid": "Scottish fans",
+                "dbpedia": "Scottish fans"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scotland's position on Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scotland's position on Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Huey Morgan -> Scottish fans": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Huey Morgan -> Scotland's position on Brexit": [
+                1.0
+            ]
+        }
+    }
+]

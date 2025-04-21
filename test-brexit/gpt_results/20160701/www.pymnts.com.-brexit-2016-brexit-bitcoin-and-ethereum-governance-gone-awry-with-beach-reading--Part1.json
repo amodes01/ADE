@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "simple majority voting", "references": ["majority voting"]},
+      "justifications": [
+        "Brexit provides a very good example of why simple majority voting should be used with care."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Exiting the European Union is a very complex and costly process with uncertain outcomes."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "uncertainty and instability", "references": ["uncertainty and instability"]},
+      "justifications": [
+        "Letting simple majorities decide things can lead to uncertainty and instability."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "majorities imposing bad things on minorities", "references": ["majorities can impose bad things on minorities"]},
+      "justifications": [
+        "Letting simple majorities decide things can lead to uncertainty and instability. For another, majorities can impose bad things on minorities."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "elected officials", "references": ["elected officials"]},
+      "justifications": [
+        "The referendum is not binding on Parliament. These elected officials, in a representative democracy, have to actually make the call."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "consequences", "references": ["horrible consequences"]},
+      "justifications": [
+        "the electorate now has evidence of the horrible consequences that are likely to result from exiting the E.U."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Prime Minister Cameron", "references": ["Prime Minister Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "It seems like someone spiked the tea of the elected officials with something that made them really stupid, with perhaps Prime Minister Cameron getting the heaviest dose."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Prime Minister Cameron", "references": ["Prime Minister Cameron"]},
+      "entity2": {"entity": "elected officials", "references": ["elected officials"]},
+      "justifications": [
+        "Cameron and others are saying that they can not or should not and what's done is done."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

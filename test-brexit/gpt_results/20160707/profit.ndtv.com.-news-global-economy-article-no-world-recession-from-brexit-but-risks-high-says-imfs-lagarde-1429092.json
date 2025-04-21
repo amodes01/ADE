@@ -1,0 +1,74 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "target": {"topic": "Brexit", "references": ["Britain's shock vote to quit the European Union", "Brexit"]},
+      "justifications": [
+        "Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession.",
+        "Ms Lagarde called the event a \"major downside risk\" for the world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "target": {"topic": "Brexit", "references": ["Britain's shock vote to quit the European Union", "Brexit"]},
+      "justifications": [
+        "Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession.",
+        "Ms Lagarde said she remained positive over the outcome."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "target": {"topic": "EU integration", "references": ["EU to deepen its economic integration"]},
+      "justifications": [
+        "Ms Lagarde... told me that Brexit could be a catalyst that could push the EU to deepen its economic integration."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "target": {"topic": "UK economy", "references": ["UK", "effects on the UK"]},
+      "justifications": [
+        "We do not think that a global recession is very likely. The immediate effects will be on the UK."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "target": {"topic": "UK's corporate tax cuts", "references": ["Britain's move to cut corporate taxes"]},
+      "justifications": [
+        "She said that Britain's move to cut corporate taxes to counter the expected economic fallout from its choice to break with the EU was just a \"race to the bottom\" that could hurt everyone."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "entity2": {"entity": "UK", "references": ["Britain"]},
+      "justifications": [
+        "Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession.",
+        "The immediate effects will be on the UK."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "entity2": {"entity": "EU", "references": ["the EU"]},
+      "justifications": [
+        "Ms Lagarde said that Brexit underscores the need for the EU to do a better explaining how it benefits Europeans, amid \"disenchantment\" with the institution."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Christine Lagarde", "references": ["Christine Lagarde"]},
+      "entity2": {"entity": "EU", "references": ["the EU"]},
+      "justifications": [
+        "Ms Lagarde... told me that Brexit could be a catalyst that could push the EU to deepen its economic integration."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "sentence": "The Communist Party may be hoarding fiscal firepower to offset a possible trade war",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chinese stimulus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chinese stimulus",
+                "types": [],
+                "wikid": "Chinese stimulus",
+                "dbpedia": "Chinese stimulus"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Communist Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Communist Party",
+                "types": [],
+                "wikid": "The Communist Party",
+                "dbpedia": "The Communist Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade war",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade war"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "The Communist Party -> China": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Chinese stimulus -> trade war": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It should not be treated as a disorder",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ADHD treatment",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ADHD treatment",
+                "types": [],
+                "wikid": "ADHD treatment",
+                "dbpedia": "ADHD treatment"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "ADHD perception",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "ADHD perception"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "ADHD treatment -> ADHD perception": [
+                -1.0
+            ]
+        }
+    }
+]

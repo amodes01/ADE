@@ -1,0 +1,54 @@
+[
+    {
+        "sentence": "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. President Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. President Trump",
+                "types": [],
+                "wikid": "U.S. President Trump",
+                "dbpedia": "U.S. President Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "French President Emmanuel Macron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "French President Emmanuel Macron",
+                "types": [],
+                "wikid": "French President Emmanuel Macron",
+                "dbpedia": "French President Emmanuel Macron"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "2019 G-7 summit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "2019 G-7 summit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. President Trump -> French President Emmanuel Macron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. President Trump -> 2019 G-7 summit": [
+                -1.0
+            ],
+            "French President Emmanuel Macron -> 2019 G-7 summit": [
+                -1.0
+            ]
+        }
+    }
+]

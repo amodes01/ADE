@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Eurosceptics", "references": ["Eurosceptics"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "the voices of discontent grew louder... the European Union will probably not last long in its present iteration"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David French", "references": ["David French"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "As David French puts it, \"It was a system that worked remarkably well for the international upper class.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Brexit is in some ways the beginning of the end of the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Brexit is in some ways the beginning of the end of the European Union, and in other ways an anticlimax to an inevitability."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Eurosceptics", "references": ["Eurosceptics"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "they were simply dismissed as \"racists\" and \"xenophobes\" and accused of being members of fringe groups on the wrong side of history."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David French", "references": ["David French"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "As David French puts it, \"It was a system that worked remarkably well for the international upper class.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Brexit is in some ways the beginning of the end of the European Union."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Clinton", "references": ["Clinton"] },
+      "target": { "topic": "populism", "references": ["populist"] },
+      "justifications": [
+        "I and others have privately and publicly urged Clinton, with limited success so far, to become much more populist and progressive"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Clinton", "references": ["Clinton"] },
+      "target": { "topic": "status quo", "references": ["status quo candidate"] },
+      "justifications": [
+        "the great potential weakness of her candidacy is the widespread perception that deep down, she is the establishment candidate"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Remain forces", "references": ["Remain forces"] },
+      "target": { "topic": "Leave forces", "references": ["Leave forces"] },
+      "justifications": [
+        "If the Remain forces prevail the establishments in both Britain and the United States will become ever more complacent"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Leave forces", "references": ["Leave forces"] },
+      "target": { "topic": "Remain forces", "references": ["Remain forces"] },
+      "justifications": [
+        "If the Leave forces prevail it will give a lift to Trump"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Trump", "references": ["Trump"] },
+      "target": { "topic": "Remain forces", "references": ["Remain forces"] },
+      "justifications": [
+        "If the Leave forces prevail it will give a lift to Trump, which is not being reported in American media today but will be widely reported in the aftermath of a Leave victory"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Trump", "references": ["Trump"] },
+      "target": { "topic": "Sanders", "references": ["Sanders"] },
+      "justifications": [
+        "and to a lesser but real degree it would give a lift to Sanders if he chooses to remain vigorously active in national politics"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Clinton", "references": ["Clinton"] },
+      "target": { "topic": "anti-establishment voters", "references": ["anti-establishment voters"] },
+      "justifications": [
+        "the pressure will mount on Clinton to take more forceful positions on issues that drive the anti-establishment voters"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Europe", "references": ["Europe"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "If Leave prevails there will be movements across the continent that will be strengthened and determined and there is no guarantee that the European Union will survive"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Russia", "references": ["Russia"] },
+      "target": { "topic": "European unity", "references": ["crisis in the European unity"] },
+      "justifications": [
+        "Russia will be strengthened by the crisis in the European unity"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Europe", "references": ["Europe"] },
+      "target": { "topic": "European politics", "references": ["European politics"] },
+      "justifications": [
+        "European politics will be gripped by chaos"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Clinton", "references": ["Clinton"] },
+      "justifications": [
+        "the great potential weakness of her candidacy is the widespread perception that deep down, she is the establishment candidate"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Clinton", "references": ["Clinton"] },
+      "entity2": { "entity": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "If the Leave forces prevail it will give a lift to Trump"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Sanders", "references": ["Sanders"] },
+      "justifications": [
+        "and to a lesser but real degree it would give a lift to Sanders if he chooses to remain vigorously active in national politics"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

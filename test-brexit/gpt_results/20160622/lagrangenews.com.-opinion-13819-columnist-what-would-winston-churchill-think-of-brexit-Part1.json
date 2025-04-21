@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "he probably would not embrace 'Brexit', the decision of the United Kingdom to leave the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "target": {"topic": "European Union", "references": ["development of a European Union"]},
+      "justifications": [
+        "Actually, he strongly supported the development of a European Union"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "target": {"topic": "United States of Europe", "references": ["United States of Europe"]},
+      "justifications": [
+        "The structure of the United States of Europe, if well and truly built, will be such as to make the material strength of a single state less important",
+        "We must recreate the European family in a regional structure, called, it may be, the United States of Europe"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "target": {"topic": "xenophobia and hatred of others", "references": ["xenophobia and hatred of others"]},
+      "justifications": [
+        "the great British Prime Minister knew that xenophobia and hatred of others was what led to the need for a stronger Europe to combat these"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": [
+        "he probably would not embrace 'Brexit', the decision of the United Kingdom to leave the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": [
+        "Churchill wanted the United States to play a strong role in helping foster a unified Europe"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "entity2": {"entity": "Jo Cox", "references": ["assassin of British MP Jo Cox"]},
+      "justifications": [
+        "he wasn't some 'Britain First' character like the assassin of British MP Jo Cox"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+[
+    {
+        "sentence": "safe haven currencies such as the U.S. dollar and the yen rose against their major counterparts.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S. dollar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S. dollar",
+                "types": [],
+                "wikid": "U.S. dollar",
+                "dbpedia": "U.S. dollar"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "yen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "yen",
+                "types": [],
+                "wikid": "yen",
+                "dbpedia": "yen"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "safe haven currencies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "safe haven currencies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. dollar -> safe haven currencies": [
+                1.0
+            ],
+            "yen -> safe haven currencies": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "German factory orders for May is due to be released in the pre-European session at 2:00 am ET.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "factory orders",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "factory orders"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> factory orders": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Markit is slated to release Germany's construction PMI data for June later in the day.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "construction PMI data",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "construction PMI data"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Germany -> construction PMI data": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Federal Reserve Governor Daniel Tarullo is expected to speak about financial regulation and monetary policy at the Wall Street Journal Breakfast Conversation in Washington DC.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Federal Reserve",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Federal Reserve",
+                "types": [],
+                "wikid": "Federal Reserve",
+                "dbpedia": "Federal Reserve"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "monetary policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "monetary policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Federal Reserve -> monetary policy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Reserve Bank of Australia Assistant Governor Guy Debelle is expected to speak about the FX Code of Conduct at a Thomson Reuters event in Sydney.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Guy Debelle",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Guy Debelle",
+                "types": [],
+                "wikid": "Guy Debelle",
+                "dbpedia": "Guy Debelle"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Luis Linde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Luis Linde",
+                "types": [],
+                "wikid": "Luis Linde",
+                "dbpedia": "Luis Linde"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Guy Debelle -> Luis Linde": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "European Central Bank President Mario Draghi along with other ECB board members will deliver opening remarks at the 8th ECB Statistics Conference, in Frankfurt.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mario Draghi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mario Draghi",
+                "types": [],
+                "wikid": "Mario Draghi",
+                "dbpedia": "Mario Draghi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "ECB board members",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "ECB board members",
+                "types": [],
+                "wikid": "ECB board members",
+                "dbpedia": "ECB board members"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mario Draghi -> ECB board members": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Federal Reserve Bank of New York President William Dudley will meet with Binghamton University researchers and Southern Tier Regional Economic Development Council members to discuss economic development projects.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "William Dudley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "William Dudley",
+                "types": [],
+                "wikid": "William Dudley",
+                "dbpedia": "William Dudley"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Binghamton University researchers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Binghamton University researchers",
+                "types": [],
+                "wikid": "Binghamton University researchers",
+                "dbpedia": "Binghamton University researchers"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Southern Tier Regional Economic Development Council members",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Southern Tier Regional Economic Development Council members",
+                "types": [],
+                "wikid": "Southern Tier Regional Economic Development Council members",
+                "dbpedia": "Southern Tier Regional Economic Development Council members"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "William Dudley -> Binghamton University researchers": [
+                -1.0
+            ],
+            "William Dudley -> Southern Tier Regional Economic Development Council members": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Federal Reserve Governor Daniel Tarullo is expected to speak about financial regulation and monetary policy at the Wall Street Journal Breakfast Conversation in Washington DC, via satellite.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Daniel Tarullo",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Daniel Tarullo",
+                "types": [],
+                "wikid": "Daniel Tarullo",
+                "dbpedia": "Daniel Tarullo"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wall Street Journal",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wall Street Journal",
+                "types": [],
+                "wikid": "Wall Street Journal",
+                "dbpedia": "Wall Street Journal"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Daniel Tarullo -> Wall Street Journal": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

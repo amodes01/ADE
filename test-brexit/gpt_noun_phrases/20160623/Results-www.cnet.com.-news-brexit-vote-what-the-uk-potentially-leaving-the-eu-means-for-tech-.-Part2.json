@@ -1,0 +1,247 @@
+[
+    {
+        "sentence": "When the remain campaign tells us no one will trade with us if we leave the EU, sorry, it's absolute cobblers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "James Dyson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "James Dyson",
+                "types": [],
+                "wikid": "James Dyson",
+                "dbpedia": "James Dyson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK remain campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK remain campaign",
+                "types": [],
+                "wikid": "UK remain campaign",
+                "dbpedia": "UK remain campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "James Dyson -> UK remain campaign": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "James Dyson -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "our view is that the UK should remain in the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Microsoft",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Microsoft",
+                "types": [],
+                "wikid": "Microsoft",
+                "dbpedia": "Microsoft"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Microsoft -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Microsoft -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Bill Gates, the company's co-founder, has also spoken out separately in favour of the UK remaining in Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bill Gates",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bill Gates",
+                "types": [],
+                "wikid": "Bill Gates",
+                "dbpedia": "Bill Gates"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Bill Gates -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Bill Gates -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Google has publicly posted stats and maps showing what kind of Brexit-related search queries it's been receiving.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Google",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Google",
+                "types": [],
+                "wikid": "Google",
+                "dbpedia": "Google"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Google -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Google -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Facebook dusted off its 'I am a voter' button for the second time this year in the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Facebook",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Facebook",
+                "types": [],
+                "wikid": "Facebook",
+                "dbpedia": "Facebook"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit debate",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit debate",
+                "types": [],
+                "wikid": "Brexit debate",
+                "dbpedia": "Brexit debate"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Facebook -> Brexit debate": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Facebook -> Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

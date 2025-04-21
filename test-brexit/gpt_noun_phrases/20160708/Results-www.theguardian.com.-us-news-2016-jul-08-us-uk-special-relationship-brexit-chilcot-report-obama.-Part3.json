@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Bush would probably have done it any way, even if no one had stood with him.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George W. Bush",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George W. Bush",
+                "types": [],
+                "wikid": "George W. Bush",
+                "dbpedia": "George W. Bush"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Iraq invasion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Iraq invasion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George W. Bush -> Iraq invasion": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Blair had refused to go along with the invasion",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Blair",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Blair",
+                "types": [],
+                "wikid": "Tony Blair",
+                "dbpedia": "Tony Blair"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George W. Bush",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George W. Bush",
+                "types": [],
+                "wikid": "George W. Bush",
+                "dbpedia": "George W. Bush"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Tony Blair -> George W. Bush": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

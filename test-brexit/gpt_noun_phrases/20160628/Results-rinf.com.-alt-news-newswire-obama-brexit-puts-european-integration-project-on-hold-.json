@@ -1,0 +1,337 @@
+[
+    {
+        "sentence": "Brexit has led to an over-reaction across the globe, Obama told National Public Radio on Tuesday.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"I think this will be a moment when all of Europe says, 'Let us take a breath and let us figure out how do we maintain some of our national identities, how do we preserve the benefits of integration...'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the EU",
+                "types": [],
+                "wikid": "the EU",
+                "dbpedia": "the EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Barack Obama -> the EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Barack Obama -> European integration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"There is been a little bit of hysteria post-Brexit vote, as if somehow NATO's gone, the trans-Atlantic alliance is dissolving, and every country is rushing off to its own corner. That's not what's happening.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"If over the course of what is going to be at least a two-year negotiation between England and Europe, Great Britain ends up being affiliated to Europe like Norway is, the average person is not going to notice a big change.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Great Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Great Britain",
+                "types": [],
+                "wikid": "Great Britain",
+                "dbpedia": "Great Britain"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Great Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "At the same time, Scotland has been strongly hinting at vetoing the referendum result.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the Brexit vote",
+                "types": [],
+                "wikid": "the Brexit vote",
+                "dbpedia": "the Brexit vote"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> the Brexit vote": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "London Mayor Sadiq Khan has demanded more autonomy for the capital.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London Mayor Sadiq Khan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London Mayor Sadiq Khan",
+                "types": [],
+                "wikid": "London Mayor Sadiq Khan",
+                "dbpedia": "London Mayor Sadiq Khan"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "London Mayor Sadiq Khan -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "French National Front leader Marine Le Pen called for a referendum on leaving the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the EU",
+                "types": [],
+                "wikid": "the EU",
+                "dbpedia": "the EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine Le Pen -> the EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "although her initiative was rejected by President Fran\u00e7ois Hollande.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fran\u00e7ois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fran\u00e7ois Hollande",
+                "types": [],
+                "wikid": "Fran\u00e7ois Hollande",
+                "dbpedia": "Fran\u00e7ois Hollande"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Fran\u00e7ois Hollande -> Marine Le Pen": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Dutch anti-immigration politician Geert Wilders said the Netherlands had the right to a 'Nexit' vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Geert Wilders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Geert Wilders",
+                "types": [],
+                "wikid": "Geert Wilders",
+                "dbpedia": "Geert Wilders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the EU",
+                "types": [],
+                "wikid": "the EU",
+                "dbpedia": "the EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Geert Wilders -> the EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

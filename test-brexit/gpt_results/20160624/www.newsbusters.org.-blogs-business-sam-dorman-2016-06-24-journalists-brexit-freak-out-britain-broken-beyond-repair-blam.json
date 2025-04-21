@@ -1,0 +1,158 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "entity": "the UK", "references": ["the UK"] },
+      "justifications": [
+        "The UK's surprising decision to exit the European Union brought out typical sneering from journalists, as well as warnings that the decision would bring gloom and doom to the country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Lianna Brinded", "references": ["Lianna Brinded"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Business Insider Finance Editor Lianna Brinded warned Britain was 'beyond repair,' and the worst was 'yet to come.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Julie Bort", "references": ["Julie Bort"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Fellow Business Insider editor Julie Bort tweeted out Brinded's article, with an apocalyptic picture: Britain is broken beyond repair and the ignorant are officially running the world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Roger Cohen", "references": ["Roger Cohen"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "New York Times writer Roger Cohen said Brexit was a 'colossal leap in the dark.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Paul Krugman", "references": ["Paul Krugman"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Columnist Paul Krugman told readers to 'grieve for Europe.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Felix Salmon", "references": ["Felix Salmon"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Fusion's Senior Editor Felix Salmon similarly wrote that he was 'grieving' because 'the world of hope, the world of ever-closer union among countries which for centuries would kill each other by the million' ended with Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Felix Salmon", "references": ["Felix Salmon"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Salmon's headline declared, 'With a single vote, England just screwed us all.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Austan Goolsbee", "references": ["Austan_Goolsbee"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "I think Europe will have a recession. They never got out of the recession they were in before."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ian Bremmer", "references": ["ian bremmer"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Brexit is the most significant political risk the world has experienced since the Cuban Missile Crisis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nicholas Thompson", "references": ["nxthompson"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The fear with Brexit is not the UK economy. It's that the world is about to rearrange in ways that are different and worse."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Michael Kimmelman", "references": ["Michael Kimmelman"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Reckless Brexit should now give renewed momentum to Scottish independence movement, threatening unity of UK itself."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Peter Spiegel", "references": ["Peter Spiegel"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "I picked the wrong day to stop sniffing glue. #Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "New York Times", "references": ["New York Times"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "A New York Times editorial from June 24, described Britain as 'vulnerable nationalist, antiglobalization and anti-immigrant sentiments.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Andrea Bernstein", "references": ["AndreaWNYC"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "#Brexit takeaway: warnings of financial risk and catastrophe are an insufficient campaign against nativism & xenophobia"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Michael Kimmelman", "references": ["kimmelman"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Brexit a clear signal, albeit not surprisingly, for increased skepticism when it comes to all polling that involves xenophobia and racism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "DigitalBridget", "references": ["BridgetMarie"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Here's a secret most brown/black folks knew all along: always bet on racism/xenophobia. #Brexit"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Lianna Brinded", "references": ["Lianna Brinded"] },
+      "entity2": { "entity": "Julie Bort", "references": ["Julie Bort"] },
+      "justifications": [
+        "Fellow Business Insider editor Julie Bort tweeted out Brinded's article, with an apocalyptic picture: Britain is broken beyond repair and the ignorant are officially running the world."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Roger Cohen", "references": ["Roger Cohen"] },
+      "entity2": { "entity": "Paul Krugman", "references": ["Paul Krugman"] },
+      "justifications": [
+        "New York Times writer Roger Cohen said Brexit was a 'colossal leap in the dark,' while columnist Paul Krugman told readers to 'grieve for Europe.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Felix Salmon", "references": ["Felix Salmon"] },
+      "entity2": { "entity": "Michael Kimmelman", "references": ["Michael Kimmelman"] },
+      "justifications": [
+        "Several journalists retweeted that article. I am not going in to the Fusion offices today, I am calling in sad cc @nickrizzo."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+[
+    {
+        "sentence": "Jamie Dimon has a message for Brexit Britain: There is nothing wrong with changing your mind.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jamie Dimon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jamie Dimon",
+                "types": [],
+                "wikid": "Jamie Dimon",
+                "dbpedia": "Jamie Dimon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jamie Dimon -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Asked by an Italian newspaper how the European Union should now respond to the vote, Dimon said it must work together to address its weaknesses.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Maybe you can even reverse Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit reversal",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit reversal"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> Brexit reversal": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Some voters have already said they regret their decision, especially after leading Brexit campaigners back-pedaled on a number of pledges they made.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jamie Dimon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jamie Dimon",
+                "types": [],
+                "wikid": "Jamie Dimon",
+                "dbpedia": "Jamie Dimon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit campaigners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit campaigners",
+                "types": [],
+                "wikid": "Brexit campaigners",
+                "dbpedia": "Brexit campaigners"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jamie Dimon -> Brexit campaigners": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Dimon was one of many Wall Street executives who supported Britain staying in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jamie Dimon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jamie Dimon",
+                "types": [],
+                "wikid": "Jamie Dimon",
+                "dbpedia": "Jamie Dimon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "JPMorgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "JPMorgan",
+                "types": [],
+                "wikid": "JPMorgan",
+                "dbpedia": "JPMorgan"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jamie Dimon -> JPMorgan": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "On Thursday, Goldman Sachs (GS), JPMorgan, Morgan Stanley (MS) and Bank of America (BAC) issued a joint statement, promising to work with the U.K. to help London 'retain its position as the leading international financial center.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Goldman Sachs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Goldman Sachs",
+                "types": [],
+                "wikid": "Goldman Sachs",
+                "dbpedia": "Goldman Sachs"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "JPMorgan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "JPMorgan",
+                "types": [],
+                "wikid": "JPMorgan",
+                "dbpedia": "JPMorgan"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Goldman Sachs -> JPMorgan": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "London banks will pay the 'price' of Brexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "London -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

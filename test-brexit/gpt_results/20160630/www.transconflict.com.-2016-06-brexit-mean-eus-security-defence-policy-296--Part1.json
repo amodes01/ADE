@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "EU military development", "references": ["EU military", "EU military development"] },
+      "target": { "topic": "UK exit from EU", "references": ["UK's exit from the EU"] },
+      "justifications": ["When you consider that the UK and France's military spending make up 50% of the overall EU spending on military and deterrence capabilities, the UK's exit from the EU is a blow to building-up an EU military."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "NATO military assets", "references": ["NATO assets"] },
+      "target": { "topic": "EU CSDP", "references": ["EU's CSDP"] },
+      "justifications": ["European countries preferred to rely heavily on existing NATO assets rather than fully developing the rapid reaction force concept."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "US military support", "references": ["US military support"] },
+      "target": { "topic": "EU military development", "references": ["EU military development"] },
+      "justifications": ["The Libya aerial bombardment further demonstrated that French and British jets were not enough to turn the tables around without US military support."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU military development", "references": ["EU military development"] },
+      "target": { "topic": "NATO assets", "references": ["NATO assets"] },
+      "justifications": ["European countries preferred to rely heavily on existing NATO assets rather than fully developing the rapid reaction force concept."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "France", "references": ["France"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["Many EU countries, primarily France until recently, chose to put the blame on the UK for the lack of development."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "France", "references": ["France"] },
+      "justifications": ["UK always defended the primacy of NATO over the EU's CSDP."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "US", "references": ["US President", "Washington"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["No wonder US President, Barack Obama, campaigned heavily against Brexit."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "US", "references": ["US President", "Washington"] },
+      "entity2": { "entity": "EU military development", "references": ["EU military development"] },
+      "justifications": ["Washington's changing pivot to Trans-Pacific envisions a militarily self-reliant European where NATO plays more of a supportive role."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Poland", "references": ["Poland"] },
+      "entity2": { "entity": "EU CSDP", "references": ["EU CSDP"] },
+      "justifications": ["Baltic countries along with Poland who feel the re-emergence of the Russian firepower, prefer to rely on the proven NATO assets than fictitious EU CSDP tools."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Baltic countries", "references": ["Baltic countries"] },
+      "entity2": { "entity": "EU CSDP", "references": ["EU CSDP"] },
+      "justifications": ["Baltic countries along with Poland who feel the re-emergence of the Russian firepower, prefer to rely on the proven NATO assets than fictitious EU CSDP tools."],
+      "attitude": "Negative"
+    }
+  ]
+}

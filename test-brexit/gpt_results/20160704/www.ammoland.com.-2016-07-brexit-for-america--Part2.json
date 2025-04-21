@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["the then-First Lady", "Mrs. Clinton"]},
+      "target": {"topic": "sexual assault", "references": ["sexual assault", "victims of her husband's sexual predations"]},
+      "justifications": [
+        "Every survivor of sexual assault deserves to be heard, believed, & supported, she tweeted in 2015.",
+        "But if they are victims of her husband's sexual predations, she labels them \"trailer trash,\" like Gennifer Flowers, or slimes and pressures them to shut up, like Juanita Broaddrick and other women."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Mrs. Clinton"]},
+      "target": {"topic": "gun control", "references": ["gun control"]},
+      "justifications": [
+        "Like Mr. Obama and other elites, she surrounds herself with armed security details - and then demands more gun control when unarmed or disarmed Americans are murdered in Orlando, San Bernardino or Fort Hood."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Mr. Obama", "Obama"]},
+      "target": {"topic": "gun control", "references": ["gun control"]},
+      "justifications": [
+        "Like Mr. Obama and other elites, she surrounds herself with armed security details - and then demands more gun control when unarmed or disarmed Americans are murdered in Orlando, San Bernardino or Fort Hood."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "Syrian refugees", "references": ["Syrian refugees"]},
+      "justifications": [
+        "99% of Syrian refugees arriving under the latest Obama decree are Muslims, even as Christians are being exterminated in Syria and Iraq."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "immigration policy", "references": ["immigrants", "illegals from Latin America", "sanctuary cities", "deportation for crimes"]},
+      "justifications": [
+        "Legal immigrants face slow, expensive processing - while illegals from Latin America receive healthcare and education, live in sanctuary cities, and rarely get deported for crimes."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "government spending", "references": ["total government debt", "record $19.4 trillion", "jump of nearly $98 billion"]},
+      "justifications": [
+        "On June 30, total government debt hit a record $19.4 trillion, a jump of nearly $98 billion from the day before."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "government power", "references": ["government does whatever it decides", "government diktats"]},
+      "justifications": [
+        "It seems, our government does whatever it decides the times demand - even when it means stifling innovation, growth, jobs and incomes for everyone except bureaucrats and crony corporatist friends."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "government power", "references": ["\"As president, I can do whatever I want\""]},
+      "justifications": [
+        "\"As president, I can do whatever I want,\" President Obama has said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "elite attitudes towards Donald Trump", "references": ["Donald Trump", "ill-suited to be president"]},
+      "justifications": [
+        "There is a \"clear consensus\" among intellectual, political and media elites that Donald Trump is \"ill-suited to be president,\" we repeatedly hear."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Mrs. Clinton"]},
+      "target": {"topic": "leadership", "references": ["calm, steady, experienced leadership"]},
+      "justifications": [
+        "By contrast, Mrs. Clinton offers the \"calm, steady, experienced leadership\" we need in these uncertain times."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Ronald Reagan", "references": ["Ronald Reagan"]},
+      "target": {"topic": "government", "references": ["government"]},
+      "justifications": [
+        "Ronald Reagan once asked, \"If no one...\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Mrs. Clinton"]},
+      "entity2": {"entity": "Bill Clinton", "references": ["her husband's"]},
+      "justifications": [
+        "But if they are victims of her husband's sexual predations, she labels them \"trailer trash,\", like Gennifer Flowers, or slimes and pressures them to shut up, like Juanita Broaddrick and other women."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Mrs. Clinton"]},
+      "justifications": [
+        "Like Mr. Obama and other elites, she surrounds herself with armed security details - and then demands more gun control when unarmed or disarmed Americans are murdered in Orlando, San Bernardino or Fort Hood."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "There is a \"clear consensus\" among intellectual, political and media elites that Donald Trump is \"ill-suited to be president,\" we repeatedly hear."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

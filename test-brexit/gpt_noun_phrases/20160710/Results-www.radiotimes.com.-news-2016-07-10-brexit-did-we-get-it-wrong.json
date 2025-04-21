@@ -1,0 +1,424 @@
+[
+    {
+        "sentence": "audiences demand 'facts', but are unlikely to be swayed by them.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "facts",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "facts"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "identity politics -> facts": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the referendum debate was similarly decided by identity, not a rational weighing up of the pros and cons.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "rational weighing of pros and cons",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "rational weighing of pros and cons"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "identity politics -> rational weighing of pros and cons": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the USA the impact of this politics of social identity has been profound.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "social identity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "social identity"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "identity politics -> social identity": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "we do not vote tribally for 'the workers' or 'toffs', based on a love for socialism or capitalism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tribal voting",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tribal voting"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "identity politics -> tribal voting": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Culture and personality, not material circumstances, separate Leave and Remain voters.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "material circumstances",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "material circumstances"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "identity politics -> material circumstances": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Wealthy people who back capital punishment backed Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eric Kaufmann",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eric Kaufmann",
+                "types": [],
+                "wikid": "Eric Kaufmann",
+                "dbpedia": "Eric Kaufmann"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Eric Kaufmann -> Brexit supporters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Poor folk who oppose the death penalty supported Remain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eric Kaufmann",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eric Kaufmann",
+                "types": [],
+                "wikid": "Eric Kaufmann",
+                "dbpedia": "Eric Kaufmann"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Remain supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Remain supporters",
+                "types": [],
+                "wikid": "Remain supporters",
+                "dbpedia": "Remain supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Eric Kaufmann -> Remain supporters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The BBC has grappled with on subjects such as climate change, where most scientists are on one side of the argument.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "BBC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "BBC",
+                "types": [],
+                "wikid": "BBC",
+                "dbpedia": "BBC"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "scientists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "scientists",
+                "types": [],
+                "wikid": "scientists",
+                "dbpedia": "scientists"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "BBC -> scientists": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "some very feisty campaigners think they are wrong.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "BBC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "BBC",
+                "types": [],
+                "wikid": "BBC",
+                "dbpedia": "BBC"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "campaigners",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "campaigners",
+                "types": [],
+                "wikid": "campaigners",
+                "dbpedia": "campaigners"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "BBC -> campaigners": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We need to find a style of discourse that interrogates the facts, but also understands identity politics.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "broadcasters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "broadcasters",
+                "types": [],
+                "wikid": "broadcasters",
+                "dbpedia": "broadcasters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "identity politics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "identity politics",
+                "types": [],
+                "wikid": "identity politics",
+                "dbpedia": "identity politics"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "broadcasters -> identity politics": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We need to find a style of discourse that interrogates the facts.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "broadcasters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "broadcasters",
+                "types": [],
+                "wikid": "broadcasters",
+                "dbpedia": "broadcasters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "facts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "facts",
+                "types": [],
+                "wikid": "facts",
+                "dbpedia": "facts"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "broadcasters -> facts": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We need wider conversations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "broadcasters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "broadcasters",
+                "types": [],
+                "wikid": "broadcasters",
+                "dbpedia": "broadcasters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "wider conversations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "wider conversations",
+                "types": [],
+                "wikid": "wider conversations",
+                "dbpedia": "wider conversations"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "broadcasters -> wider conversations": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

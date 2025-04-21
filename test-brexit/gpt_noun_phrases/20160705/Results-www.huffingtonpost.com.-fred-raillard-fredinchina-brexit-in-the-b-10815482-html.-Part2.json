@@ -1,0 +1,204 @@
+[
+    {
+        "sentence": "China resents the oblivion of a part of their population: the working class",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "working class",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "working class",
+                "types": [],
+                "wikid": "working class",
+                "dbpedia": "working class"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "working class conditions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "working class conditions"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "China -> working class": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "China -> working class conditions": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A lot of people were extremely touched by this documentary and felt a lot of empathy towards the workers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chinese citizens from Tier 1 cities",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chinese citizens from Tier 1 cities",
+                "types": [],
+                "wikid": "Chinese citizens from Tier 1 cities",
+                "dbpedia": "Chinese citizens from Tier 1 cities"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "working class",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "working class",
+                "types": [],
+                "wikid": "working class",
+                "dbpedia": "working class"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "working class conditions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "working class conditions"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Chinese citizens from Tier 1 cities -> working class": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Chinese citizens from Tier 1 cities -> working class conditions": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "calling on the government to act and help these people",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chinese citizens from Tier 1 cities",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chinese citizens from Tier 1 cities",
+                "types": [],
+                "wikid": "Chinese citizens from Tier 1 cities",
+                "dbpedia": "Chinese citizens from Tier 1 cities"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "government action",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "government action"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Chinese citizens from Tier 1 cities -> government action": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The documentary is very emotional and shows the gap between the modern and digital forward-thinking Tier 1 Chinese cities and this other China in the countryside.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "documentary",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "documentary",
+                "types": [],
+                "wikid": "documentary",
+                "dbpedia": "documentary"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "awareness of working class conditions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "awareness of working class conditions"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "documentary -> awareness of working class conditions": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A lot of people were extremely touched by this documentary",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Chinese citizens from Tier 1 cities",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Chinese citizens from Tier 1 cities",
+                "types": [],
+                "wikid": "Chinese citizens from Tier 1 cities",
+                "dbpedia": "Chinese citizens from Tier 1 cities"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "documentary",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "documentary",
+                "types": [],
+                "wikid": "documentary",
+                "dbpedia": "documentary"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Chinese citizens from Tier 1 cities -> documentary": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

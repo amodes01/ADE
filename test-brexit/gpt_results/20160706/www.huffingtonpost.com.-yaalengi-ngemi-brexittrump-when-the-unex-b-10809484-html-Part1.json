@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Who would have thought that the European Union would lose or, rather, that Great Britain people would do the unthinkable, the unexpected and, on the face of it, the unwise thing by voting to break away from the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "Great Britain",
+        "references": ["Great Britain"]
+      },
+      "justifications": [
+        "Who would have thought that the European Union would lose or, rather, that Great Britain people would do the unthinkable, the unexpected and, on the face of it, the unwise thing by voting to break away from the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British government",
+        "references": ["British government"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Indeed, as the British government, political pundits, economists and all the wise men and women of England did not consider the possibility of England out of the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Republican Party",
+        "references": ["Republicans"]
+      },
+      "justifications": [
+        "Now, while American experts, mostly Democrats or Independents, but even some Republicans, could not and cannot imagine a Trump presidency"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Republican electorate",
+        "references": ["Republican electorate"]
+      },
+      "target": {
+        "topic": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "the probability of this possibility is, nonetheless, real, just as the Republican electorate cared less about all the reasons, scary ones, non-scary ones, real and unreal ones given to them by reasonable, experienced and wise presidential candidates"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "British government",
+        "references": ["British government"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Indeed, as the British government, political pundits, economists and all the wise men and women of England did not consider the possibility of England out of the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British government",
+        "references": ["British government"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Now, while American experts, mostly Democrats or Independents, but even some Republicans, could not and cannot imagine a Trump presidency"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Great Britain",
+        "references": ["Great Britain"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Who would have thought that the European Union would lose or, rather, that Great Britain people would do the unthinkable, the unexpected and, on the face of it, the unwise thing by voting to break away from the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Republican Party",
+        "references": ["Republicans"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Now, while American experts, mostly Democrats or Independents, but even some Republicans, could not and cannot imagine a Trump presidency"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Republican electorate",
+        "references": ["Republican electorate"]
+      },
+      "justifications": [
+        "the probability of this possibility is, nonetheless, real, just as the Republican electorate cared less about all the reasons, scary ones, non-scary ones, real and unreal ones given to them by reasonable, experienced and wise presidential candidates"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

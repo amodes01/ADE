@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "target": {"topic": "Brexit", "references": ["voted to leave the European Union"]},
+      "justifications": ["Since the United Kingdom voted to leave the European Union last month"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republic of Ireland", "references": ["Republic of Ireland"]},
+      "target": {"topic": "Brexit", "references": ["UK has voted to leave the EU"]},
+      "justifications": ["Now that the UK has voted to leave the EU over fears of migration"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republic of Ireland", "references": ["Republic of Ireland"]},
+      "target": {"topic": "Irish reunification", "references": ["united Ireland"]},
+      "justifications": ["some Irish politicians are calling for a united Ireland"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Republic of Ireland", "references": ["Republic of Ireland"]},
+      "target": {"topic": "Good Friday Agreement", "references": ["Good Friday peace agreement"]},
+      "justifications": ["The border was a point of conflict for decades before the 1998's Good Friday peace agreement which opened the border between the countries"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "Republic of Ireland", "references": ["Republic of Ireland"]},
+      "justifications": ["Now that the UK has voted to leave the EU over fears of migration, the contentious border needs to be revisited"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Billy Lawless Sr.", "references": ["Billy Lawless Sr."]},
+      "entity2": {"entity": "Irish-American", "references": ["Irish-American"]},
+      "justifications": ["he was involved in Irish immigration issues in the United States"],
+      "attitude": "Positive"
+    }
+  ]
+}

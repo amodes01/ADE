@@ -1,0 +1,18 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Asked if Brexit will make the EU more pro-Russian, international experts with different backgrounds approached by EURACTIV were not unanimous in their assessment. However all said that without the UK, the EU will be weaker internationally."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["However all said that without the UK, the EU will be weaker internationally."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "refinancing loans", "references": ["lån til refinansiering"] },
+      "justifications": ["Produktene deres inkluderer et anstendig kredittkort, handlekonto, lån til refinansiering og usikrede lån til forbruk."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "flexible loans", "references": ["fleksible lån"] },
+      "justifications": ["Populariteten skyldes primært at Komplett var tidlig ute med å tilby fleksible lån, eller brukskreditt som de også kalles."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "loan insurance", "references": ["låneforsikring"] },
+      "justifications": ["Komplett Bank tilbyr låneforsikring for de som mener de trenger det."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "consumer financing market", "references": ["markedet for forbrukerfinansiering"] },
+      "justifications": ["Siden etableringen i 2014 har banken rukket å bli en av de største på markedet for forbrukerfinansiering."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "credit limit", "references": ["låneramme"] },
+      "justifications": ["Kort beskrevet er dette en kreditt der låntakeren får innvilget en låneramme på inntil en halv million."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "interest rates", "references": ["Rentekostnader"] },
+      "justifications": ["Rentekostnader kommer kun når låntakeren overfører fra lånerammen til sin egen konto."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "loan repayment", "references": ["Avdragsstørrelsen"] },
+      "justifications": ["Avdragsstørrelsen beregnes som om benyttet kreditt er et nedbetalingslån på 5 år."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Komplett Bank", "references": ["Komplett Bank"] },
+      "target": { "topic": "loan insurance", "references": ["låneforsikring"] },
+      "justifications": ["Komplett Bank tilbyr låneforsikring for de som mener de trenger det."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Komplett Bank", "references": ["Komplett Bank"] },
+      "entity2": { "entity": "Komplett Group", "references": ["Komplett Group"] },
+      "justifications": ["Komplett Bank eies av Komplett Group."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Komplett Bank", "references": ["Komplett Bank"] },
+      "entity2": { "entity": "borrowers", "references": ["låntakeren"] },
+      "justifications": ["Kort beskrevet er dette en kreditt der låntakeren får innvilget en låneramme på inntil en halv million."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Komplett Bank", "references": ["Komplett Bank"] },
+      "entity2": { "entity": "Norges online stores", "references": ["største nettbutikkene i Norge"] },
+      "justifications": ["Komplett Group, som du kanskje kjenner fra noen av de største nettbutikkene i Norge."],
+      "attitude": "Neutral"
+    }
+  ]
+}

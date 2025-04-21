@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Leave cause", "Brexit"]
+      },
+      "justifications": [
+        "On the back of his embrace of the Leave cause in the British referendum on membership of the European Union, and its shock victory on Thursday, he has been propelled into a position he has long coveted."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Sonia Purnell",
+        "references": ["Sonia Purnell"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "I think the same thing has happened with Brexit, he needed to take the opposite stance to Cameron and Remain so he could position himself to take over."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Sonia Purnell",
+        "references": ["Sonia Purnell"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European project"]
+      },
+      "justifications": [
+        "In private he would be rather sympathetic about the European project and its purpose."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "On the back of his embrace of the Leave cause in the British referendum on membership of the European Union, and its shock victory on Thursday, he has been propelled into a position he has long coveted: front-running contender for No 10 Downing Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Sonia Purnell",
+        "references": ["Sonia Purnell"]
+      },
+      "justifications": [
+        "Sonia Purnell, author of Just Boris: A Tale of Blond Ambition, worked as his No 2 in Brussels for the Telegraph in the 1990s and had a ring-side seat at the development of the classic Boris style."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Sonia Purnell",
+        "references": ["Sonia Purnell"]
+      },
+      "entity2": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "justifications": [
+        "Sonia Purnell, author of Just Boris: A Tale of Blond Ambition, worked as his No 2 in Brussels for the Telegraph in the 1990s and had a ring-side seat at the development of the classic Boris style."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "The European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "He wrote excoriating copy about the EU, going way beyond the boundaries of truth."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

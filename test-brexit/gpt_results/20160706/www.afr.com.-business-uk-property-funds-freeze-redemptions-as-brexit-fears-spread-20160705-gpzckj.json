@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "UK property funds",
+        "references": ["UK property funds"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["economic impact of Brexit"]
+      },
+      "justifications": [
+        "renewed fears about the economic impact of Brexit rattled investors"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK property funds",
+        "references": ["UK property funds"]
+      },
+      "target": {
+        "topic": "asset withdrawals",
+        "references": ["halt withdrawals", "too many people were rushing to take out their money"]
+      },
+      "justifications": [
+        "three large UK property funds said they would halt withdrawals because too many people were rushing to take out their money at once"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "UK property funds",
+        "references": ["UK property funds"]
+      },
+      "entity2": {
+        "entity": "investors",
+        "references": ["investors"]
+      },
+      "justifications": [
+        "renewed fears about the economic impact of Brexit rattled investors"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "UK property funds",
+        "references": ["UK property funds"]
+      },
+      "entity2": {
+        "entity": "UK property funds",
+        "references": ["UK property funds"]
+      },
+      "justifications": [
+        "three large UK property funds said they would halt withdrawals"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

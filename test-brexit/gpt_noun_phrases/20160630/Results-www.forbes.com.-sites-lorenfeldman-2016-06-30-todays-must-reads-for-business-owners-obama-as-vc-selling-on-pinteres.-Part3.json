@@ -1,0 +1,210 @@
+[
+    {
+        "sentence": "Mr. Jackson, who is also warily watching an initiative supported by unions that could make Cleveland the only city in Ohio that requires employers to pay a $15-an-hour minimum wage.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Jackson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Jackson",
+                "types": [],
+                "wikid": "Mr. Jackson",
+                "dbpedia": "Mr. Jackson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "minimum wage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "minimum wage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mr. Jackson -> minimum wage": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "an initiative supported by unions that could make Cleveland the only city in Ohio that requires employers to pay a $15-an-hour minimum wage.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Unions",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Unions",
+                "types": [],
+                "wikid": "Unions",
+                "dbpedia": "Unions"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "minimum wage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "minimum wage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Unions -> minimum wage": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The issue hits Massachusetts with particular force because of its technology heritage and failure to keep up with Silicon Valley.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Massachusetts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Massachusetts",
+                "types": [],
+                "wikid": "Massachusetts",
+                "dbpedia": "Massachusetts"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "non-compete agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "non-compete agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Massachusetts -> non-compete agreements": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In California, companies are generally prohibited from enforcing noncompete agreements because of a worker-friendly statute from the 19th century.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley",
+                "types": [],
+                "wikid": "Silicon Valley",
+                "dbpedia": "Silicon Valley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "non-compete agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "non-compete agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Silicon Valley -> non-compete agreements": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mr. Jackson, who is also warily watching an initiative supported by unions",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Jackson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Jackson",
+                "types": [],
+                "wikid": "Mr. Jackson",
+                "dbpedia": "Mr. Jackson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Unions",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Unions",
+                "types": [],
+                "wikid": "Unions",
+                "dbpedia": "Unions"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr. Jackson -> Unions": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "failure to keep up with Silicon Valley",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Massachusetts",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Massachusetts",
+                "types": [],
+                "wikid": "Massachusetts",
+                "dbpedia": "Massachusetts"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley",
+                "types": [],
+                "wikid": "Silicon Valley",
+                "dbpedia": "Silicon Valley"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Massachusetts -> Silicon Valley": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

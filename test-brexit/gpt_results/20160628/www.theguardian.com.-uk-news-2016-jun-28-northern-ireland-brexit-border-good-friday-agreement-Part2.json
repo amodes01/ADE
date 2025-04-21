@@ -1,0 +1,59 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "George Mitchell", "references": ["George Mitchell"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit was firmly opposed by former senator George Mitchell",
+        "he said a UK departure from the EU would be 'harmful' to Northern Ireland"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brendan Boyle", "references": ["Brendan Boyle"]},
+      "target": {"topic": "Good Friday Agreement", "references": ["Good Friday agreement"]},
+      "justifications": [
+        "\"Nearly 20 years after a hard border coming down, and great integration between the northern six counties and the 26 countries that make up the Irish Republic, to all of a sudden return to a hard border would simply be intolerable and a giant step backwards\"",
+        "\"That would be backsliding and that would be retreating from the Good Friday agreement\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "George Mitchell", "references": ["George Mitchell"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit was firmly opposed by former senator George Mitchell",
+        "he said a UK departure from the EU would be 'harmful' to Northern Ireland"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Brendan Boyle", "references": ["Brendan Boyle"]},
+      "entity2": {"entity": "Good Friday Agreement", "references": ["Good Friday agreement"]},
+      "justifications": [
+        "\"Nearly 20 years after a hard border coming down, and great integration between the northern six counties and the 26 countries that make up the Irish Republic, to all of a sudden return to a hard border would simply be intolerable and a giant step backwards\"",
+        "\"That would be backsliding and that would be retreating from the Good Friday agreement\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mick Mulvaney", "references": ["Mick Mulvaney"]},
+      "entity2": {"entity": "Good Friday Agreement", "references": ["Good Friday agreement"]},
+      "justifications": [
+        "\"Ultimately this is going to be a decision for the Irish and the Northern Irish\"",
+        "\"The United States government's going to have almost zero to do with it\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Brendan Boyle", "references": ["Brendan Boyle"]},
+      "entity2": {"entity": "Mick Mulvaney", "references": ["Mick Mulvaney"]},
+      "justifications": [
+        "\"As the United States is one of the guarantors of the Good Friday agreement, I do not believe we can in any way allow that to move forward.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

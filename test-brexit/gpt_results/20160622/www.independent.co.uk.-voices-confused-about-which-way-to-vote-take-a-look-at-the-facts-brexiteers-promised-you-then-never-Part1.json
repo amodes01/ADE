@@ -1,0 +1,81 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU membership", "references": ["remain in the EU"] },
+      "justifications": [
+        "The decision whether or not to remain hinges on making a large number of often complex trade-offs, ideally based on facts.",
+        "I too have ended up firmly in favour of remaining."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Leave campaign", "references": ["Leave campaign"] },
+      "target": { "topic": "immigration", "references": ["immigration"] },
+      "justifications": [
+        "The Leave campaign now seems to be focusing on two issues: firstly, immigration - 'We need to control our borders'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Leave campaign", "references": ["Leave campaign"] },
+      "target": { "topic": "sovereignty", "references": ["sovereignty"] },
+      "justifications": [
+        "The Leave campaign now seems to be focusing on two issues: firstly, immigration - 'We need to control our borders' - and secondly, sovereignty - 'We need to control our own laws'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Leave campaign", "references": ["Leave campaign"] },
+      "target": { "topic": "economic argument", "references": ["economic argument"] },
+      "justifications": [
+        "They have lost the economic argument (more on that later)."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Leave campaign", "references": ["Leave campaign"] },
+      "target": { "topic": "immigration control", "references": ["control our borders", "Australian-style points system"] },
+      "justifications": [
+        "Their rhetoric suggests they favour the prospect of an Australian-style points system to decide whom we would allow to enter the country.",
+        "This is a seductive proposition but dangerously misleading when viewed in isolation or out of context."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "immigration", "references": ["immigration"] },
+      "target": { "topic": "UK economy", "references": ["UK economy"] },
+      "justifications": [
+        "78 per cent of EU immigrants are in work in the UK compared to 73 per cent of the rest of the population.",
+        "the value of these immigrants to the UK economy is well documented by detailed research"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "John Major", "references": ["John Major"] },
+      "entity2": { "entity": "EU referendum", "references": ["EU referendum"] },
+      "justifications": [
+        "John Major came closest to presenting an honest case when he said that he was 'no starry eyed Europe enthusiast but had no doubt that the UK should remain in the EU'."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Leave campaign", "references": ["Leave campaign"] },
+      "entity2": { "entity": "Remain campaign", "references": ["Remain"] },
+      "justifications": [
+        "No positive case has been made and no substantive counter arguments to the risks and uncertainties of leaving have been provided."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Christian Dustmann", "references": ["Christian Dustmann"] },
+      "entity2": { "entity": "Tomas Frattini", "references": ["Tomas Frattini"] },
+      "justifications": [
+        "Their study showed that between 1995 and 2011, migrants made a positive contribution of more than £4bn to Britain."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

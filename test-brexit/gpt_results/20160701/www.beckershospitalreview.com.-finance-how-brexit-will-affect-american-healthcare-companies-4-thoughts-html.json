@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Dimitri Drone", "references": ["Dimitri Drone"] },
+      "target": { "topic": "American healthcare investment", "references": ["American healthcare"] },
+      "justifications": [
+        "Regardless of international politics, people are still going to need healthcare, according to Mr. Drone, but Britain's exit provides a stronger value proposition in the U.S. as the value of the pound plummets."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Dimitri Drone", "references": ["Dimitri Drone"] },
+      "target": { "topic": "life sciences capital raising", "references": ["Life sciences companies raising capital"] },
+      "justifications": [
+        "Quite a few life sciences companies are in need of constant capital replenishment. In challenging financial markets, these companies may raise capital at more expensive terms than they did prior to Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Dimitri Drone", "references": ["Dimitri Drone"] },
+      "target": { "topic": "American healthcare M&A", "references": ["M&A"] },
+      "justifications": [
+        "There is always a lot of money that could be made during a period of uncertainty, meaning share prices are going to come down temporarily. However, if an American healthcare company looking to merge with or acquire another company feels bullish on the sector in the medium or long-term, the prices will rebound."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Dimitri Drone", "references": ["Dimitri Drone"] },
+      "entity2": { "entity": "American healthcare companies", "references": ["American healthcare companies"] },
+      "justifications": [
+        "Regardless of international politics, people are still going to need healthcare, according to Mr. Drone, but Britain's exit provides a stronger value proposition in the U.S. as the value of the pound plummets."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Dimitri Drone", "references": ["Dimitri Drone"] },
+      "entity2": { "entity": "Life sciences companies", "references": ["Life sciences companies"] },
+      "justifications": [
+        "Quite a few life sciences companies are in need of constant capital replenishment. In challenging financial markets, these companies may raise capital at more expensive terms than they did prior to Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "American healthcare companies", "references": ["American healthcare companies"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "American healthcare companies with global operations in Europe will face challenges. Mr. Drone says American healthcare companies with global operations in Europe... will experience challenges obtaining fundraising and regulatory approval."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Paul Bagguley",
+        "references": ["Paul Bagguley"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Bagguley stresses that it wasn't racist to vote leave, and that many people were voting about 'political control'."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Paul Bagguley",
+        "references": ["Paul Bagguley"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "With immigration cited in polls as the second most common reason in voting for Brexit, 'people are expressing a sense of power and success, that they have won.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Paul Bagguley",
+        "references": ["Paul Bagguley"]
+      },
+      "target": {
+        "topic": "racism",
+        "references": ["racism"]
+      },
+      "justifications": [
+        "Bagguley agrees: 'People have to be prepared to be more critical of them and the implicit racism that runs through much of what they say.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Simon Woolley",
+        "references": ["Simon Woolley"]
+      },
+      "target": {
+        "topic": "Brexit rhetoric",
+        "references": ["Brexiters", "jingoistic rhetoric"]
+      },
+      "justifications": [
+        "'The Brexiters, with their jingoistic rhetoric, have put the country on a war footing. By framing the debate as 'we want our country back', they have made immigrants the enemy and occupiers who need to be expelled.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Corinne Abrahams",
+        "references": ["Corinne Abrahams"]
+      },
+      "target": {
+        "topic": "racism",
+        "references": ["racism"]
+      },
+      "justifications": [
+        "'It was unprovoked and disgusting.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Paul Bagguley",
+        "references": ["Paul Bagguley"]
+      },
+      "entity2": {
+        "entity": "Hope not Hate",
+        "references": ["Hope not Hate"]
+      },
+      "justifications": [
+        "A spokesperson from campaign group Hope not Hate points out that, while not all Ukip voters are racists, it does 'swallow up the 'respectable racist' vote that might have once gone to the BNP'."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Simon Woolley",
+        "references": ["Simon Woolley"]
+      },
+      "entity2": {
+        "entity": "Brexiters",
+        "references": ["Brexiters"]
+      },
+      "justifications": [
+        "'The Brexiters, with their jingoistic rhetoric, have put the country on a war footing. By framing the debate as 'we want our country back', they have made immigrants the enemy and occupiers who need to be expelled.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Corinne Abrahams",
+        "references": ["Corinne Abrahams"]
+      },
+      "entity2": {
+        "entity": "the man on the tube",
+        "references": ["the man"]
+      },
+      "justifications": [
+        "'I said: 'You are an embarrassment to the country. No one else here agrees with what you are saying.''"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

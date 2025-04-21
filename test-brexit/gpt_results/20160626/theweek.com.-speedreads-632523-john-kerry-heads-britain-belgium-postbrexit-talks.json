@@ -1,0 +1,23 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "John Kerry", "references": ["U.S. Secretary of State John Kerry", "Kerry"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote", "extrication process"] },
+      "justifications": [
+        "Kerry will meet with top diplomats to address the implications of the Brexit vote and urge a careful approach to the extrication process.",
+        "Kerry believes a smooth transition will help \"the marketplace understand there are ways to minimize disruption, there are ways to smartly move ahead in order to protect the values and interests that we share.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "John Kerry", "references": ["U.S. Secretary of State John Kerry", "Kerry"] },
+      "entity2": { "entity": "Benjamin Netanyahu", "references": ["Israeli Prime Minister Benjamin Netanyahu"] },
+      "justifications": [
+        "John Kerry updated his European itinerary to include stops in London and Brussels, the de facto capital of the European Union, abbreviating in the process scheduled talks with Israeli Prime Minister Benjamin Netanyahu."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

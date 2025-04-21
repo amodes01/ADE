@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Leave camp", "references": ["Leave camp"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The political considerations that informed some in the Leave camp were all too evident when Justice Secretary Michael Gove, who is for Brexit, pronounced himself \"sick of experts\" after one credible voice after another stood up for the Remain argument.",
+        "More frightening, the Leave camp did not seem to care about the wider implications of Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Remain camp", "references": ["Remain camp"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The political considerations that informed some in the Leave camp were all too evident when Justice Secretary Michael Gove, who is for Brexit, pronounced himself \"sick of experts\" after one credible voice after another stood up for the Remain argument."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "European Union", "references": ["EU"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "With the referendum done, Europe now has to work even harder to ensure that it does not lose so much of what it has gained in the past half-century."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "entity2": { "entity": "Experts", "references": ["experts"] },
+      "justifications": [
+        "Justice Secretary Michael Gove, who is for Brexit, pronounced himself \"sick of experts\" after one credible voice after another stood up for the Remain argument."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "entity2": { "entity": "Remain camp", "references": ["Remain camp"] },
+      "justifications": [
+        "The political considerations that informed some in the Leave camp were all too evident when Justice Secretary Michael Gove, who is for Brexit, pronounced himself \"sick of experts\" after one credible voice after another stood up for the Remain argument."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Richard Branson", "references": ["Richard Branson"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "Last week, British entrepreneur Richard Branson, whose grandfather fought in World War I and his own father in World War II, reminded readers in published newspaper advertisements that not a single bullet had been fired between the armies of EU member states."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Richard Branson", "references": ["Richard Branson"] },
+      "entity2": { "entity": "Europe", "references": ["Europe"] },
+      "justifications": [
+        "I truly believe that one of the EU's greatest achievements is that it has kept its members out of conflict in Europe, he wrote."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Ms Jo Cox", "references": ["Ms Jo Cox"] },
+      "entity2": { "entity": "Social Media Users", "references": ["people who disagreed with her", "people who disagreed with her"] },
+      "justifications": [
+        "Ms Jo Cox, the murdered MP, used to complain bitterly about the unrestrained hate messages she often got on social media from people who disagreed with her."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Stephen Kinnock", "references": ["Stephen Kinnock"] },
+      "entity2": { "entity": "Ms Jo Cox", "references": ["Ms Jo Cox"] },
+      "justifications": [
+        "Labour MP Stephen Kinnock, who was a close friend of Ms Cox, told the BBC after her death."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "The Sun", "references": ["The Sun"] },
+      "entity2": { "entity": "Leave camp", "references": ["Leave campaign"] },
+      "justifications": [
+        "The boost the Leave campaign got from the mass-circulation Sun, owned by Mr Rupert Murdoch, has not been missed."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Rupert Murdoch", "references": ["Rupert Murdoch"] },
+      "entity2": { "entity": "European Union", "references": ["Europe"] },
+      "justifications": [
+        "According to London's Evening Standard newspaper, he once confessed he was so opposed to Europe because \"when I go into Downing Street they do what I say; when I go to Brussels they take no notice\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rupert Murdoch", "references": ["Rupert Murdoch"] },
+      "entity2": { "entity": "Brussels", "references": ["Brussels"] },
+      "justifications": [
+        "According to London's Evening Standard newspaper, he once confessed he was so opposed to Europe because \"when I go into Downing Street they do what I say; when I go to Brussels they take no notice\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Germany's Alternative for Deutschland", "references": ["Germany's Alternative for Deutschland"] },
+      "entity2": { "entity": "Marine Le Pen's National Front", "references": ["Marine Le Pen's National Front"] },
+      "justifications": [
+        "The gains by Germany's Alternative for Deutschland and Ms Marine Le Pen's National Front in France suggest that the winds of xenophobia and isolationism may be only just starting in the continent."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Asians", "references": ["Asians"] },
+      "entity2": { "entity": "Xenophobia", "references": ["xenophobia"] },
+      "justifications": [
+        "Asians need to put their heads together to ensure that not only are they insulated from the fallout, but also to make sure these trends do not consume them as well."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "sentence": "media organizations and media research institutes are getting to grips with changes in news usage",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "media organizations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "media organizations",
+                "types": [],
+                "wikid": "media organizations",
+                "dbpedia": "media organizations"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "media research institutes",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "media research institutes",
+                "types": [],
+                "wikid": "media research institutes",
+                "dbpedia": "media research institutes"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "news usage",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "news usage"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "media organizations -> news usage": [
+                1.0
+            ],
+            "media research institutes -> news usage": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "media organizations and media research institutes are getting to grips with changes in news usage and developing new information services specifically for the under 30s",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "media organizations",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "media organizations",
+                "types": [],
+                "wikid": "media organizations",
+                "dbpedia": "media organizations"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "media research institutes",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "media research institutes",
+                "types": [],
+                "wikid": "media research institutes",
+                "dbpedia": "media research institutes"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "new information services for under 30s",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "new information services for under 30s"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "media organizations -> new information services for under 30s": [
+                1.0
+            ],
+            "media research institutes -> new information services for under 30s": [
+                1.0
+            ]
+        }
+    }
+]

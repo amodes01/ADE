@@ -1,0 +1,261 @@
+[
+    {
+        "sentence": "Clinton, for all of her faults, has offered proposals that would demonstrably improve the lives of working class Americans.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic issues",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic issues"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Clinton -> economic issues": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump has aligned his policies with those of the wealthy classes of which he is such a conspicuous part.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic issues",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic issues"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Trump -> Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Trump -> economic issues": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Clinton is put as ending the era of mass incarceration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "mass incarceration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "mass incarceration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Clinton -> mass incarceration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump has barely addressed or not at all addressed mass incarceration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "mass incarceration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "mass incarceration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump -> mass incarceration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Each and every time the two candidates part ways, it is because Trump has aligned his policies with those of the wealthy classes of which he is such a conspicuous part.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Clinton -> Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "as Sanders demonstrated with his campaign, the Democratic Party establishment is deeply flawed",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sanders",
+                "types": [],
+                "wikid": "Sanders",
+                "dbpedia": "Sanders"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Clinton -> Sanders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Clinton does not support bigotry and Trump does",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Clinton",
+                "types": [],
+                "wikid": "Clinton",
+                "dbpedia": "Clinton"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Clinton -> Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

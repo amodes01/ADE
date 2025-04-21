@@ -1,0 +1,202 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Erik Bidenkap",
+        "references": ["Erik Bidenkap"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Bidenkap said he was hoping for a more intellectual, perhaps even philosophical, discussion of the question U.K. citizens will decide Thursday: whether to leave the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Erik Bidenkap",
+        "references": ["Erik Bidenkap"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Instead, he found what he called the same kind of scare tactics, particularly focused on immigrants and Muslims."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Leave.Eu",
+        "references": ["Leave.Eu"]
+      },
+      "target": {
+        "topic": "Immigration",
+        "references": ["immigrants", "Muslims"]
+      },
+      "justifications": [
+        "\"Islamist extremism is a real threat to our way of life,\" read a message posted on Twitter by Leave.Eu."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Leave.Eu",
+        "references": ["Leave.Eu"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"Act now before we see an Orlando-style atrocity here before too long.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Immigration",
+        "references": ["Muslims", "Mexican rapists"]
+      },
+      "justifications": [
+        "Trump has talked about banning Muslims from entering the U.S. and about Mexican 'rapists' crossing the border."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "Immigration",
+        "references": ["immigrants"]
+      },
+      "justifications": [
+        "Farage based his whole rhetoric, his whole story around immigration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Elizabeth Evans",
+        "references": ["Elizabeth Evans"]
+      },
+      "target": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Evans says Farage, like Trump, is a charismatic populist who has tapped into public frustration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Elizabeth Evans",
+        "references": ["Elizabeth Evans"]
+      },
+      "target": {
+        "entity": "Nigel Farage",
+        "references": ["Farage"]
+      },
+      "justifications": [
+        "Evans says Farage, like Trump, is a charismatic populist who has tapped into public frustration."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Frank Luntz",
+        "references": ["Frank Luntz"]
+      },
+      "target": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Luntz, who is in London for the referendum, said Trump and Brexiteers like Farage appeal to people who have never quite recovered from the global financial crisis and feel abandoned by establishment politicians."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Frank Luntz",
+        "references": ["Frank Luntz"]
+      },
+      "target": {
+        "entity": "Nigel Farage",
+        "references": ["Farage"]
+      },
+      "justifications": [
+        "Luntz, who is in London for the referendum, said Trump and Brexiteers like Farage appeal to people who have never quite recovered from the global financial crisis and feel abandoned by establishment politicians."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Thomas Wright",
+        "references": ["Thomas Wright"]
+      },
+      "target": {
+        "topic": "Globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "Both the Trump and the Brexit campaigns are trying to reverse globalization, which is attractive to many of the millions of workers in both countries who have been left behind."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "The key politicians championing these arguments on either side of the Atlantic are Nigel Farage of the nationalist U.K. Independence Party and Donald Trump, the presumptive Republican nominee."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Erik Bidenkap",
+        "references": ["Erik Bidenkap"]
+      },
+      "justifications": [
+        "Bidenkap said he found that some similar issues - globalization and economics - are driving the Brexit and U.S. presidential campaigns."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "Erik Bidenkap",
+        "references": ["Erik Bidenkap"]
+      },
+      "justifications": [
+        "Bidenkap said he found that some similar issues - globalization and economics - are driving the Brexit and U.S. presidential campaigns."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

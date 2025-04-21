@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tax haven strategy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tax haven strategy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "David Cameron -> tax haven strategy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The time has never been worse to run a tax haven strategy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Meinzer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Meinzer",
+                "types": [],
+                "wikid": "Meinzer",
+                "dbpedia": "Meinzer"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tax haven strategy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tax haven strategy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Meinzer -> tax haven strategy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Iceland's prime minister to resign",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Iceland's prime minister",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Iceland's prime minister",
+                "types": [],
+                "wikid": "Iceland's prime minister",
+                "dbpedia": "Iceland's prime minister"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Iceland's prime minister": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "which forced David Cameron to clear his name by publishing his tax returns",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Panama Papers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Panama Papers",
+                "types": [],
+                "wikid": "Panama Papers",
+                "dbpedia": "Panama Papers"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Panama Papers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,336 @@
+[
+    {
+        "sentence": "the news had been welcomed by 'insurgent' parties across the continent",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "insurgent parties -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They are broadly sceptical about the EU",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "insurgent parties -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "insurgent parties -> EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They prefer borders closed, migration low",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "migration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "migration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "insurgent parties -> migration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "They prefer borders closed, migration low, and trade protected",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade protectionism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade protectionism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "insurgent parties -> trade protectionism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Above all, they want to return power to the people through direct democracy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "direct democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "direct democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "insurgent parties -> direct democracy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "stirring speeches by David Cameron and Tony Blair on the risks for Britain's security and the global impact of leaving the EU fell on deaf ears",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tony Blair",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tony Blair",
+                "types": [],
+                "wikid": "Tony Blair",
+                "dbpedia": "Tony Blair"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron -> insurgent parties": [
+                -1.0
+            ],
+            "Tony Blair -> insurgent parties": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "David Cameron -> Brexit": [
+                -1.0
+            ],
+            "Tony Blair -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Foreign policy in particular is no longer an elite game, conducted behind closed doors by small coteries of politicians and diplomats",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "international policy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "international policy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "insurgent parties -> international policy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Across Europe, traditional political elites are being challenged by newer, smaller, and leaner parties from both left and right",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "insurgent parties",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "insurgent parties",
+                "types": [],
+                "wikid": "insurgent parties",
+                "dbpedia": "insurgent parties"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "traditional political elites",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "traditional political elites",
+                "types": [],
+                "wikid": "traditional political elites",
+                "dbpedia": "traditional political elites"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political elites",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political elites"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "insurgent parties -> traditional political elites": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "insurgent parties -> political elites": [
+                -1.0
+            ]
+        }
+    }
+]

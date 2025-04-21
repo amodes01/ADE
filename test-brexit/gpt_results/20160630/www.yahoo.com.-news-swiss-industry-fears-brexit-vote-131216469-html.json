@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Swiss manufacturers' association", "references": ["Swissmem"]},
+      "target": {"topic": "Brexit", "references": ["Britain's vote to quit the European Union"]},
+      "justifications": ["The recovery of Swiss industry in recent months could be hurt by Britain's vote to quit the European Union."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Swiss manufacturers' association", "references": ["Swissmem"]},
+      "target": {"topic": "Swiss franc appreciation", "references": ["Swiss franc"]},
+      "justifications": ["His most pressing concern was the Swiss franc that has appreciated versus the euro since the vote."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Swiss manufacturers' association", "references": ["Swissmem"]},
+      "target": {"topic": "Swiss manufacturing sector recovery", "references": ["Swiss industry's recovery"]},
+      "justifications": ["The recovery of Swiss industry in recent months could be hurt by Britain's vote to quit the European Union."]
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hans Hess", "references": ["Hans Hess"]},
+      "entity2": {"entity": "British voters", "references": ["Britain's vote"]},
+      "justifications": ["Britain's vote last week made the situation tougher after investors rushed for the safe haven of the franc."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hans Hess", "references": ["Hans Hess"]},
+      "entity2": {"entity": "Swiss companies", "references": ["Swiss companies"]},
+      "justifications": ["Swiss companies had already been battling with the franc since the currency surged in value versus the euro in January 2015."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Swiss companies", "references": ["Swiss companies"]},
+      "entity2": {"entity": "Swiss franc", "references": ["Swiss franc"]},
+      "justifications": ["Swiss companies had already been battling with the franc since the currency surged in value versus the euro in January 2015."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Swiss companies", "references": ["Swiss companies"]},
+      "entity2": {"entity": "Swiss manufacturers' association", "references": ["Swissmem"]},
+      "justifications": ["Companies may have to close, or transfer some of their production outside of Switzerland or companies will buy more in the European Union so their suppliers in Switzerland will suffer."]
+      "attitude": "Negative"
+    }
+  ]
+}

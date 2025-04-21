@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "President Obama", "references": ["Obama"]},
+      "target": {"topic": "financial sector", "references": ["financial sector"]},
+      "justifications": [
+        "\"I am pretty certain that my daughters will not end up working on Wall Street,\" he said when asked about their future.",
+        "\"I suggested that too many talented Americans may be wooed by power and paychecks on Wall Street and could use their abilities elsewhere.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["Obama"]},
+      "target": {"topic": "Wall Street", "references": ["Wall Street"]},
+      "justifications": [
+        "\"I suggested that too many talented Americans may be wooed by power and paychecks on Wall Street and could use their abilities elsewhere.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["Obama"]},
+      "target": {"topic": "U.S. competitive edge", "references": ["competitive edge"]},
+      "justifications": [
+        "\"If you start getting to the point where 40 percent of the economy is taken up by the financial sector and that our best and brightest are going into financial work as opposed to engineering or computer science, then we could actually lose our competitive edge over time.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Harry Reid", "references": ["Harry Reid"]},
+      "target": {"topic": "Zika deal", "references": ["Zika deal"]},
+      "justifications": [
+        "\"It's a disgrace. It's a mockery of how Congress should treat an emergency.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Harry Reid", "references": ["Harry Reid"]},
+      "target": {"topic": "McConnell-Trump tactics", "references": ["McConnell-Trump tactics"]},
+      "justifications": [
+        "\"This is something that I am sorry to say is part of the McConnell-Trump tactics we have found lately.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Mitch McConnell", "references": ["Mitch McConnell"]},
+      "target": {"topic": "Zika deal", "references": ["Zika deal"]},
+      "justifications": [
+        "\"The House did its part. Now the Senate needs to do its part.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Mitch McConnell", "references": ["Mitch McConnell"]},
+      "target": {"topic": "Zika control money", "references": ["Zika control money"]},
+      "justifications": [
+        "\"Represents our only chance to put Zika control money to work right now.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Janet Yellen", "references": ["Janet Yellen"]},
+      "target": {"topic": "banking system security", "references": ["U.S. banking system", "security requirements"]},
+      "justifications": [
+        "\"We expect the institutions we supervise to make sure that they comply with procedures to control access to critical payment services and to review and insure that they are meeting security requirements.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Carolyn Maloney", "references": ["Rep. Carolyn Maloney"]},
+      "target": {"topic": "banking system security", "references": ["U.S. banking system", "security requirements"]},
+      "justifications": [
+        "\"I think this is a threat to the U.S. banking system.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Federal Reserve", "references": ["Federal Reserve"]},
+      "target": {"topic": "monitoring of transactions", "references": ["enhanced monitoring"]},
+      "justifications": [
+        "\"The Federal Reserve is considering 'enhanced monitoring' for certain kinds of transactions.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Harry Reid", "references": ["Harry Reid"]},
+      "entity2": {"entity": "Mitch McConnell", "references": ["Mitch McConnell"]},
+      "justifications": [
+        "\"This is something that I am sorry to say is part of the McConnell-Trump tactics we have found lately.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Harry Reid", "references": ["Harry Reid"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "\"This is something that I am sorry to say is part of the McConnell-Trump tactics we have found lately.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mitch McConnell", "references": ["Mitch McConnell"]},
+      "entity2": {"entity": "Senate Democrats", "references": ["Democrats"]},
+      "justifications": [
+        "\"The House did its part. Now the Senate needs to do its part.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Janet Yellen", "references": ["Janet Yellen"]},
+      "entity2": {"entity": "Carolyn Maloney", "references": ["Rep. Carolyn Maloney"]},
+      "justifications": [
+        "\"We expect the institutions we supervise to make sure that they comply with procedures to control access to critical payment services and to review and insure that they are meeting security requirements.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

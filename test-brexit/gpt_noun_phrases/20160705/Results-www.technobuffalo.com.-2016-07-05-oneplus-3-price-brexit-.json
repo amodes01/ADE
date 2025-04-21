@@ -1,0 +1,40 @@
+[
+    {
+        "sentence": "We care passionately about tech",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "TechRadar team",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "TechRadar team",
+                "types": [],
+                "wikid": "TechRadar team",
+                "dbpedia": "TechRadar team"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "tech",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "tech"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "TechRadar team -> TechRadar team": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "TechRadar team -> tech": [
+                1.0
+            ]
+        }
+    }
+]

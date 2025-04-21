@@ -1,0 +1,251 @@
+[
+    {
+        "sentence": "\"For six years now, we have promised to repeal and replace ObamaCare and make healthcare actually affordable,\\\" the Wisconsin Republican said at an event at the American Enterprise Institute.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Speaker Paul Ryan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Speaker Paul Ryan",
+                "types": [],
+                "wikid": "Speaker Paul Ryan",
+                "dbpedia": "Speaker Paul Ryan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Affordable Care Act",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Affordable Care Act"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Speaker Paul Ryan -> Affordable Care Act": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Democrats immediately attacked the plan, saying it is just a broad outline, and one that, if ever implemented, would roll back the coverage gains of ObamaCare.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Democrats",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Democrats",
+                "types": [],
+                "wikid": "Democrats",
+                "dbpedia": "Democrats"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Speaker Paul Ryan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Speaker Paul Ryan",
+                "types": [],
+                "wikid": "Speaker Paul Ryan",
+                "dbpedia": "Speaker Paul Ryan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Affordable Care Act",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Affordable Care Act"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Speaker Paul Ryan -> Democrats": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Democrats -> Affordable Care Act": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"If we go to the public \u2026 my guess is that the overwhelming number of people would say, overwhelmingly, that carried interest is a loophole that needs to go,\\\" Levin said at a press conference.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "House Ways and Means Committee ranking member Sandy Levin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "House Ways and Means Committee ranking member Sandy Levin",
+                "types": [],
+                "wikid": "House Ways and Means Committee ranking member Sandy Levin",
+                "dbpedia": "House Ways and Means Committee ranking member Sandy Levin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "carried interest tax break",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "carried interest tax break"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "House Ways and Means Committee ranking member Sandy Levin -> carried interest tax break": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Levin and Sen. Tammy Baldwin (D-Wis.) last year introduced legislation that would tax carried interest as income.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sen. Tammy Baldwin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sen. Tammy Baldwin",
+                "types": [],
+                "wikid": "Sen. Tammy Baldwin",
+                "dbpedia": "Sen. Tammy Baldwin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "carried interest tax break",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "carried interest tax break"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sen. Tammy Baldwin -> carried interest tax break": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The lawmakers spoke about the need to end the tax break along with members of the Patriotic Millionaires, a group of wealthy individuals who want to reduce income inequality.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Patriotic Millionaires",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Patriotic Millionaires",
+                "types": [],
+                "wikid": "Patriotic Millionaires",
+                "dbpedia": "Patriotic Millionaires"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "House Ways and Means Committee ranking member Sandy Levin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "House Ways and Means Committee ranking member Sandy Levin",
+                "types": [],
+                "wikid": "House Ways and Means Committee ranking member Sandy Levin",
+                "dbpedia": "House Ways and Means Committee ranking member Sandy Levin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "carried interest tax break",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "carried interest tax break"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "House Ways and Means Committee ranking member Sandy Levin -> Patriotic Millionaires": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Patriotic Millionaires -> carried interest tax break": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Jason Furman, chairman of the White House's Council of Economic Advisers, said he expects lawmakers on Capitol Hill to pass the Trans-Pacific Partnership (TPP) during the lame-duck session after the November election.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jason Furman",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jason Furman",
+                "types": [],
+                "wikid": "Jason Furman",
+                "dbpedia": "Jason Furman"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Congress",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Congress",
+                "types": [],
+                "wikid": "Congress",
+                "dbpedia": "Congress"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trans-Pacific Partnership (TPP)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trans-Pacific Partnership (TPP)"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Jason Furman -> Congress": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jason Furman -> Trans-Pacific Partnership (TPP)": [
+                1.0
+            ]
+        }
+    }
+]

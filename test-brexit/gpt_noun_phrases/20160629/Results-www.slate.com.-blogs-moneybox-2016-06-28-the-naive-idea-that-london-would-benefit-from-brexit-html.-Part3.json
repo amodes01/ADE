@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "if the Brexit vote is a product of economic frustration with the capital",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic frustration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic frustration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit vote -> economic frustration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "it seems na\u00efve to think the resulting series of deals will be crafted to London's liking",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit vote -> London": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

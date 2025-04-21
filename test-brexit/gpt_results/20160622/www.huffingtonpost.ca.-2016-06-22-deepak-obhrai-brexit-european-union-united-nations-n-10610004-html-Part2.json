@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "UN Security Council bid", "references": ["Canada's failed attempt at UN Security Council"]},
+      "justifications": ["Nobody knows for sure, and it's probably a combination of several different reasons, said the former official who agreed to speak anonymously so he could be candid."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "EU", "references": ["European Union"]},
+      "justifications": ["Obhrai believes a weaker EU would benefit Canada.", "Canada would be 'better off' engaging with European states one-on-one and strengthening already close ties, outside of the lens of the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "CETA", "references": ["Canada-EU Comprehensive Economic and Trade Agreement"]},
+      "justifications": ["Even on matters like the Canada-EU Comprehensive Economic and Trade Agreement (CETA), Obhrai said."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "Iran", "references": ["Iran"]},
+      "justifications": ["But we did not and I do not think we regret anything. Iran probably voted against us."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "North Korea", "references": ["North Korea"]},
+      "justifications": ["North Korea probably voted against us."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "Gadhafi", "references": ["Gadhafi"]},
+      "justifications": ["Gadhafi probably voted against us."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "EU", "references": ["European Union"]},
+      "justifications": ["Maybe if we had not been so vocally against the deplorable human rights record in Iran, maybe Iran might have voted for us.... But we did not and I do not think we regret anything."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "United Arab Emirates", "references": ["United Arab Emirates"]},
+      "justifications": ["Another reason Canada lost some votes was a due to a fight with the United Arab Emirates over landing rights at Canadian airports for Emirates and Etihad Airways."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "Peter Kent", "references": ["Peter Kent"]},
+      "justifications": ["Former foreign affairs minister Lawrence Cannon, flanked by Tory MP Peter Kent and Canada's former UN ambassador John McNee participate in a news conference at United Nations headquarters, Tuesday, Oct. 12, 2010."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "Lawrence Cannon", "references": ["Lawrence Cannon"]},
+      "justifications": ["Former foreign affairs minister Lawrence Cannon, flanked by Tory MP Peter Kent and Canada's former UN ambassador John McNee participate in a news conference at United Nations headquarters, Tuesday, Oct. 12, 2010."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Canada", "references": ["Canada"]},
+      "entity2": {"entity": "Obhrai", "references": ["Obhrai"]},
+      "justifications": ["Obhrai believes a weaker EU would benefit Canada.", "Canada would be 'better off' engaging with European states one-on-one and strengthening already close ties, outside of the lens of the EU."],
+      "attitude": "Neutral"
+    }
+  ]
+}

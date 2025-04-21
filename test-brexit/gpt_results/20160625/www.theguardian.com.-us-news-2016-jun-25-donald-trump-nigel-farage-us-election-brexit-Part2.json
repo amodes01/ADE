@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Leave voters", "references": ["leave voters"]},
+      "target": {"topic": "multiculturalism", "references": ["multiculturalism"]},
+      "justifications": ["81% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave voters", "references": ["leave voters"]},
+      "target": {"topic": "feminism", "references": ["feminism"]},
+      "justifications": ["74% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave voters", "references": ["leave voters"]},
+      "target": {"topic": "green movement", "references": ["green movement"]},
+      "justifications": ["78% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "immigration", "references": ["protecting Britain from being overwhelmed by immigrants"]},
+      "justifications": ["those keenest on protecting Britain from being overwhelmed by immigrants and fancy European ideas were overwhelmingly opposed to multiculturalism"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Leave voters", "references": ["leave voters"]},
+      "entity2": {"entity": "multiculturalism", "references": ["multiculturalism"]},
+      "justifications": ["81% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave voters", "references": ["leave voters"]},
+      "entity2": {"entity": "feminism", "references": ["feminism"]},
+      "justifications": ["74% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave voters", "references": ["leave voters"]},
+      "entity2": {"entity": "green movement", "references": ["green movement"]},
+      "justifications": ["78% thought it was a force for ill"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "US voters", "references": ["older people", "those without college degrees"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": ["Older people and those without college degrees are voting for Trump - for policies that share much with such issues."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Leave voters", "references": ["leave voters"]},
+      "entity2": {"entity": "EU", "references": ["Europe"]},
+      "justifications": ["73% wanted to stay in the EU"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave voters", "references": ["leave voters"]},
+      "entity2": {"entity": "EU", "references": ["Europe"]},
+      "justifications": ["Only 40% of over 65s felt the same way"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Washington DC", "references": ["Washington DC"]},
+      "justifications": ["In the US, it's Trump's turn to try."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Brussels", "references": ["Brussels"]},
+      "justifications": ["In the US, it's Trump's turn to try."],
+      "attitude": "Negative"
+    }
+  ]
+}

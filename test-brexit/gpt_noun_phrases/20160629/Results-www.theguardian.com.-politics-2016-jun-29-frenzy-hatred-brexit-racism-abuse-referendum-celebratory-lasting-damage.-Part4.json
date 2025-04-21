@@ -1,0 +1,106 @@
+[
+    {
+        "sentence": "If people get away with [racist attacks], then the next time there is a reason to have a go, they will.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bagguley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bagguley",
+                "types": [],
+                "wikid": "Bagguley",
+                "dbpedia": "Bagguley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "racist attacks",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "racist attacks"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bagguley -> racist attacks": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "if these attacks go unchallenged, the damage to our social fabric could be lasting",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bagguley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bagguley",
+                "types": [],
+                "wikid": "Bagguley",
+                "dbpedia": "Bagguley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "social fabric",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "social fabric"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bagguley -> social fabric": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Additional reporting by Imran Rahman-Jones.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bagguley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bagguley",
+                "types": [],
+                "wikid": "Bagguley",
+                "dbpedia": "Bagguley"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Imran Rahman-Jones",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Imran Rahman-Jones",
+                "types": [],
+                "wikid": "Imran Rahman-Jones",
+                "dbpedia": "Imran Rahman-Jones"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bagguley -> Imran Rahman-Jones": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

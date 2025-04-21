@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Luxembourg", "references": ["Luxembourg"]},
+      "target": {"topic": "financial business", "references": ["financial business"]},
+      "justifications": ["Luxembourg is a significant financial centre"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Ireland", "references": ["Ireland"]},
+      "target": {"topic": "financial business", "references": ["financial business"]},
+      "justifications": ["Ireland is the same"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Luxembourg", "references": ["Luxembourg"]},
+      "entity2": {"entity": "Ireland", "references": ["Ireland"]},
+      "justifications": ["Ireland is the same"],
+      "attitude": "Neutral"
+    }
+  ]
+}

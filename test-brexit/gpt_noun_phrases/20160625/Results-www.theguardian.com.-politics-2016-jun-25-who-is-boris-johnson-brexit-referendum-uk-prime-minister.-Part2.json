@@ -1,0 +1,157 @@
+[
+    {
+        "sentence": "Yet in the EU referendum the city he led for so long voted 60% to 40% for Remain, exposing another vast gulf in his posturing.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> EU referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The rise of an opportunistic politician who plays on populist fears about a sluggish economy and immigration to further his own prospects also echoes loudly across the Atlantic. Donald Trump's \"insurgent\" assault on the US presidency begs inevitable comparison.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US presidency",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US presidency"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Boris Johnson -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> US presidency": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Then there is the paradox that a politician who has issues with integrity should liken himself none-too subtly to Winston Churchill, the British wartime leader who had no problem expressing his true mind.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Winston Churchill",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Winston Churchill",
+                "types": [],
+                "wikid": "Winston Churchill",
+                "dbpedia": "Winston Churchill"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> Winston Churchill": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Now that would truly be a special relationship.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

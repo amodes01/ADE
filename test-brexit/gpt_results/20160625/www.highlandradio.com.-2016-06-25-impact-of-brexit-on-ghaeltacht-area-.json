@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "target": {"topic": "Brexit impact on the Gaeltacht economy", "references": ["impact of Brexit on the Gaeltacht economy"]},
+      "justifications": ["Udaras na Gaeltachta has issued a statement outlining the impact of Brexit on the Gaeltacht economy."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "target": {"topic": "Brexit impact on tourism", "references": ["Brexit impact on tourism"]},
+      "justifications": ["Udaras says in the short term, the industry most likely to be impacted by Brexit is tourism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "target": {"topic": "UK market for export", "references": ["UK market"]},
+      "justifications": ["The UK market is the first step to export for many of their client companies based in the Gaeltacht area."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "target": {"topic": "Sterling exchange rate", "references": ["value of Sterling"]},
+      "justifications": ["The agency says that will now very much depend on how the value of Sterling works out over the coming months."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "entity2": {"entity": "UK market", "references": ["UK market"]},
+      "justifications": ["Nearly 20% of Udaras client companies' export sales are to the UK and are worth €100 million a year."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Udaras na Gaeltachta", "references": ["Udaras na Gaeltachta"]},
+      "entity2": {"entity": "UK tourists", "references": ["UK tourists"]},
+      "justifications": ["With a total of 3.3 million UK tourists visiting Ireland each year, a falling Sterling rate means Ireland may be less competitive for UK tourists in monetary terms."],
+      "attitude": "Negative"
+    }
+  ]
+}

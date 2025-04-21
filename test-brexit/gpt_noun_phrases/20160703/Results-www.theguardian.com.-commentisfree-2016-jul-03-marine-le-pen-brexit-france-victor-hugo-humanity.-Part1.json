@@ -1,0 +1,339 @@
+[
+    {
+        "sentence": "She beamed at the cameras, and lavished praise on the British people for standing up to the 'totalitarian EU, that prison of people'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Marine Le Pen -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "lavished praise on the British people for standing up to the 'totalitarian EU, that prison of people'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Marine Le Pen -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"This could be a new beginning for Europe,\" wrote columnist Jacques Julliard.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jacques Julliard",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jacques Julliard",
+                "types": [],
+                "wikid": "Jacques Julliard",
+                "dbpedia": "Jacques Julliard"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jacques Julliard -> Brexit": [
+                1.0
+            ],
+            "Jacques Julliard -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicolas Sarkozy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicolas Sarkozy",
+                "types": [],
+                "wikid": "Nicolas Sarkozy",
+                "dbpedia": "Nicolas Sarkozy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fran\u00e7ois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fran\u00e7ois Hollande",
+                "types": [],
+                "wikid": "Fran\u00e7ois Hollande",
+                "dbpedia": "Fran\u00e7ois Hollande"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "2017 presidential elections",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "2017 presidential elections"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nicolas Sarkozy -> 2017 presidential elections": [
+                -1.0
+            ],
+            "Fran\u00e7ois Hollande -> 2017 presidential elections": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In the New York Times, Le Pen pointed out that in 2005 both France and the Netherlands had rejected the European constitution by referendum, and yet the European commission had chosen to ignore the people's will with the help or complicity of the French government - at its own peril, she added.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "With Hollande and Nicolas Sarkozy wanting to run in the 2017 presidential elections, despite polls showing the French do not want to have anything to do with them ever again.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicolas Sarkozy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicolas Sarkozy",
+                "types": [],
+                "wikid": "Nicolas Sarkozy",
+                "dbpedia": "Nicolas Sarkozy"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine Le Pen -> Nicolas Sarkozy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Former European commission president Jacques Delors thought that a common currency would naturally and organically foster a political union and fiscal harmonisation, but this was not to be.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jacques Delors",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jacques Delors",
+                "types": [],
+                "wikid": "Jacques Delors",
+                "dbpedia": "Jacques Delors"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Jacques Delors -> Marine Le Pen": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Jacques Delors -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Many in France point the finger at Britain, which, they argue, has hindered the natural European process for four decades by constantly opting out of measures it did not like, while pushing for neoliberal and austerity policies, thus creating a monster.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Britain -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Le Pen pointed out that in 2005 both France and the Netherlands had rejected the European constitution by referendum, and yet the European commission had chosen to ignore the people's will with the help or complicity of the French government - at its own peril, she added.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine Le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine Le Pen",
+                "types": [],
+                "wikid": "Marine Le Pen",
+                "dbpedia": "Marine Le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fran\u00e7ois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fran\u00e7ois Hollande",
+                "types": [],
+                "wikid": "Fran\u00e7ois Hollande",
+                "dbpedia": "Fran\u00e7ois Hollande"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine Le Pen -> Fran\u00e7ois Hollande": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

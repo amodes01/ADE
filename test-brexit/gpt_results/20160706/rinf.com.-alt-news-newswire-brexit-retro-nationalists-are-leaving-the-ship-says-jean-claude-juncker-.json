@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jean-Claude Juncker", "references": ["Juncker"]},
+      "target": {"topic": "Brexiteers resignations", "references": ["High profile withdrawals and resignations among Brexiteers"]},
+      "justifications": [
+        "Juncker told the European Parliament that 'the Brexit heroes of yesterday are now the sad Brexit heroes of today.'",
+        "'Instead of developing the plan, they are leaving the boat,' he added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Christopher Waltz", "references": ["Waltz"]},
+      "target": {"topic": "Nigel Farage", "references": ["UKIP's Nigel Farage"]},
+      "justifications": [
+        "Hollywood actor Christopher Waltz described Nigel Farage as a rat."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Guy Verhofstadt", "references": ["Verhofstadt"]},
+      "target": {"topic": "Brexiteers", "references": ["Brexiteers"]},
+      "justifications": [
+        "Guy Verhofstadt said 'Brexiteers remind me of rats leaving the sinking ship.'",
+        "'What are you waiting for - the next referendum in France, in Italy maybe,' he raged."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Nigel Farage resigned as UKIP leader and distanced himself from career politics."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jean-Claude Juncker", "references": ["Juncker"]},
+      "entity2": {"entity": "Brexiteers", "references": ["Brexiteers"]},
+      "justifications": [
+        "Juncker criticized Brexiteers for resigning amidst difficulties."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Christopher Waltz", "references": ["Waltz"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": [
+        "Christopher Waltz described Nigel Farage as a rat."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Guy Verhofstadt", "references": ["Verhofstadt"]},
+      "entity2": {"entity": "Brexiteers", "references": ["Brexiteers"]},
+      "justifications": [
+        "Guy Verhofstadt compared Brexiteers to rats leaving a sinking ship."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

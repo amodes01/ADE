@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Travel agents", "references": ["Travel agents"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Travel agents, hotel chains and airlines say it is too early to tell if the vote has impacted bookings."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Financial analysts at the Buckingham Research Group", "references": ["Financial analysts at the Buckingham Research Group"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Financial analysts at the Buckingham Research Group had predicted a 'Brexit' would slow the British economy and airline sales."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US travel agents", "references": ["US travel agents"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["some US travel agents are advising travelers to book UK trips now and expect to see a bump in bookings with time."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "George Hobica", "references": ["George Hobica"]},
+      "target": {"topic": "British economy", "references": ["British economy"]},
+      "justifications": ["Longer term, if the British economy slows, 'everything will be cheaper'."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "US travel agents", "references": ["US travel agents"]},
+      "entity2": {"entity": "British economy", "references": ["British economy"]},
+      "justifications": ["some US travel agents are advising travelers to book UK trips now and expect to see a bump in bookings with time."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Travel agents", "references": ["Travel agents"]},
+      "entity2": {"entity": "US travel agents", "references": ["US travel agents"]},
+      "justifications": ["A number of US travel agents said they expected demand for British travel to emerge, but few had seen it yet."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "US travel agents", "references": ["US travel agents"]},
+      "entity2": {"entity": "British travel demand", "references": ["demand for British travel"]},
+      "justifications": ["A number of US travel agents said they expected demand for British travel to emerge, but few had seen it yet."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Darcy Allen", "references": ["Darcy Allen"]},
+      "entity2": {"entity": "Travel by Darcy", "references": ["Travel by Darcy"]},
+      "justifications": ["Darcy Allen of New Hampshire-based boutique travel agency Travel by Darcy said some of her clients were locking down plans."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Billy Sanez", "references": ["Billy Sanez"]},
+      "entity2": {"entity": "FareCompare.com", "references": ["FareCompare.com"]},
+      "justifications": ["Billy Sanez, vice president of marketing and communications at FareCompare.com, which analyzes airfares, when shown the Kayak data."],
+      "attitude": "Positive"
+    }
+  ]
+}

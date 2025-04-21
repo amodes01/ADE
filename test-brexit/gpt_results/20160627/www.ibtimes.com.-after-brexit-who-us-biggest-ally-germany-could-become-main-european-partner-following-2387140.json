@@ -1,0 +1,74 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "American officials", "references": ["American officials"]},
+      "target": {"topic": "special relationship with the U.K.", "references": ["special relationship with the U.K."]},
+      "justifications": [
+        "American officials stressed that the U.S. would maintain its special relationship with the U.K."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "American officials", "references": ["American officials"]},
+      "target": {"topic": "role of Germany in Brexit", "references": ["guiding the next phrases of the Brexit process"]},
+      "justifications": [
+        "American officials are increasingly looking to Berlin and not London.",
+        "But finding a common position with the Germans on major issues could be a challenge."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "P.J. Crowley", "references": ["P.J. Crowley"]},
+      "target": {"topic": "U.S.-U.K. relationship", "references": ["moment of strain and transition"]},
+      "justifications": [
+        "The U.S.-U.K. relationship has entered a moment of strain and transition."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "American officials", "references": ["American officials"]},
+      "target": {"topic": "Brexit vote aftermath", "references": ["disrupted the certainty American officials came to expect"]},
+      "justifications": [
+        "The Brexit vote has disrupted the certainty American officials came to expect from 10 Downing Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "John Kerry", "references": ["Kerry"]},
+      "target": {"topic": "Brexit aftermath", "references": ["urged calm in the days following Thursday's 'leave' vote"]},
+      "justifications": [
+        "\"It is absolutely essential that we stay focused on how in this transitional period.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "combat against ISIS", "references": ["not actively engaged in combat against the Islamic State group"]},
+      "justifications": [
+        "Germany has not actively engaged in combat against the Islamic State group despite the White House's calls for help."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "American officials", "references": ["American officials"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": [
+        "Washington and Berlin differ on fiscal policy over Greece's economic crisis.",
+        "Germany's clout in the EU and strong economy make it an attractive partner as Britain's role looks uncertain."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "American officials", "references": ["American officials"]},
+      "entity2": {"entity": "British officials", "references": ["Cameron", "new leader"]},
+      "justifications": [
+        "American officials stressed that the U.S. would maintain its special relationship with the U.K.",
+        "Political instability and uncertainty lie ahead in the U.K. for two to three years as negotiations begin over Britain's future in the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

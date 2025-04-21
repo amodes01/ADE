@@ -1,0 +1,121 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Tusk", "references": ["EU President Donald Tusk"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "EU President Donald Tusk acknowledged he was 'fully aware of how serious, or even dramatic' a political moment the bloc was facing but said it was 'not a moment for hysterical reactions.'",
+        "'What does not kill you makes you stronger,' Tusk said in a statement."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "President Barack Obama had urged British voters to remain in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Donald Trump, meanwhile, praised the results of the referendum while on a visit to Scotland.",
+        "'I think that it's a great thing,' he told reporters. 'They took back their country.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Germany's Foreign Minister Frank-Walter Steinmeier calling the news 'truly sobering.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "French President Francois Hollande described the vote as a 'tough test for Europe.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Tusk", "references": ["EU President Donald Tusk"]},
+      "entity2": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "justifications": [
+        "Barack Obama had urged British voters to remain in the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "justifications": [
+        "Donald Trump, meanwhile, praised the results of the referendum while on a visit to Scotland.",
+        "'I think that it's a great thing,' he told reporters. 'They took back their country.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["former London mayor and leading 'Leave' campaigner Boris Johnson"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": [
+        "Former London mayor and leading 'Leave' campaigner Boris Johnson told a press conference that Britain will not turn its back on Europe but can now 'find our voice in the world.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["former London mayor and leading 'Leave' campaigner Boris Johnson"]},
+      "entity2": {"entity": "U.K.", "references": ["Britain"]},
+      "justifications": [
+        "Former London mayor and leading 'Leave' campaigner Boris Johnson told a press conference that Britain will not turn its back on Europe but can now 'find our voice in the world.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Geoff Caddick", "references": ["Geoff Caddick"]},
+      "entity2": {"entity": "Leave supporters", "references": ["pro-'Leave' supporters"]},
+      "justifications": [
+        "As Britons digested the news, the mood among pro-'Leave' supporters in London was electric."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Geoff Caddick", "references": ["Geoff Caddick"]},
+      "entity2": {"entity": "Michael Timon", "references": ["Michael Timon"]},
+      "justifications": [
+        "It's great, it's fantastic,' 24-year-old electrician Michael Timon told NBC News."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Michael Timon", "references": ["Michael Timon"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "'It's great, it's fantastic,' 24-year-old electrician Michael Timon told NBC News. 'We can finally start being Britain again.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Germany", "references": ["Germany"]},
+      "entity2": {"entity": "UK", "references": ["United Kingdom"]},
+      "justifications": [
+        "Germany's Foreign Minister Frank-Walter Steinmeier calling the news 'truly sobering.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "UK", "references": ["United Kingdom"]},
+      "justifications": [
+        "French President Francois Hollande described the vote as a 'tough test for Europe.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

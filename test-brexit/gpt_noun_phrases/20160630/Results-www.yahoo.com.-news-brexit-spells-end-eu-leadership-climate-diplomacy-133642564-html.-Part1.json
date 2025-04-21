@@ -1,0 +1,287 @@
+[
+    {
+        "sentence": "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU climate leadership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU climate leadership"
+                ]
+            },
+            {
+                "ngram": "Paris Agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Paris Agreement"
+                ]
+            },
+            {
+                "ngram": "EU climate action",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU climate action"
+                ]
+            },
+            {
+                "ngram": "EU's global climate negotiations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU's global climate negotiations"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Britain -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> EU climate leadership": [
+                -1.0
+            ],
+            "Brexit -> Paris Agreement": [
+                -1.0
+            ],
+            "Brexit -> EU climate action": [
+                -1.0
+            ],
+            "Brexit -> EU's global climate negotiations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Britain has long championed the fight against global warming: it was one of the first nations to adopt a legally-binding framework to cut emissions with its Climate Change Act in 2008.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "climate change leadership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "climate change leadership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> climate change leadership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ruth Davis, a political adviser to Greenpeace and a senior associate at E3G, said 'I am afraid that overall I see that as a lose-lose.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Greenpeace",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Greenpeace",
+                "types": [],
+                "wikid": "Greenpeace",
+                "dbpedia": "Greenpeace"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Britain -> Greenpeace": [
+                -1.0
+            ],
+            "Greenpeace -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "UN climate chief Christiana Figueres raised the prospect that the EU might need to reassess its emissions target.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christiana Figueres",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christiana Figueres",
+                "types": [],
+                "wikid": "Christiana Figueres",
+                "dbpedia": "Christiana Figueres"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Christiana Figueres -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "On Wednesday, Britain's secretary of state for energy and climate change Amber Rudd said it would not step back from international leadership on climate change.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Amber Rudd",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Amber Rudd",
+                "types": [],
+                "wikid": "Amber Rudd",
+                "dbpedia": "Amber Rudd"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Amber Rudd -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Meanwhile, some fear Britain's diminished voice will allow member states such as Poland to dilute measures to curb their reliance on coal or improve air quality.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU -> Poland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,149 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["US President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's decision to leave the EU", "Brexit"]
+      },
+      "justifications": [
+        "Brexit has led to an over-reaction across the globe, Obama told National Public Radio on Tuesday.",
+        "\"There is been a little bit of hysteria post-Brexit vote, as if somehow NATO's gone, the trans-Atlantic alliance is dissolving, and every country is rushing off to its own corner. That's not what's happening.\"",
+        "\"I think that the best way to think about this is, a pause button has been pressed on the project of full European integration.\"",
+        "\"I think this will be a moment when all of Europe says, 'Let us take a breath and let us figure out how do we maintain some of our national identities, how do we preserve the benefits of integration, and how do we deal with some of the frustrations that our own voters are feeling.'\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["US President Barack Obama"]
+      },
+      "target": {
+        "topic": "European integration",
+        "references": ["project of full European integration"]
+      },
+      "justifications": [
+        "\"I think this will be a moment when all of Europe says, 'Let us take a breath and let us figure out how do we maintain some of our national identities, how do we preserve the benefits of integration...'"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["US President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "justifications": [
+        "\"There is been a little bit of hysteria post-Brexit vote, as if somehow NATO's gone, the trans-Atlantic alliance is dissolving, and every country is rushing off to its own corner. That's not what's happening.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["US President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "the EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "\"I think this will be a moment when all of Europe says, 'Let us take a breath and let us figure out how do we maintain some of our national identities, how do we preserve the benefits of integration...'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["US President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Great Britain",
+        "references": ["Great Britain"]
+      },
+      "justifications": [
+        "\"If over the course of what is going to be at least a two-year negotiation between England and Europe, Great Britain ends up being affiliated to Europe like Norway is, the average person is not going to notice a big change.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "entity2": {
+        "entity": "the Brexit vote",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "At the same time, Scotland has been strongly hinting at vetoing the referendum result."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "London Mayor Sadiq Khan",
+        "references": ["London Mayor Sadiq Khan"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["UK exit from EU", "Brexit"]
+      },
+      "justifications": [
+        "London Mayor Sadiq Khan has demanded more autonomy for the capital."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Marine Le Pen",
+        "references": ["French National Front leader Marine Le Pen"]
+      },
+      "entity2": {
+        "entity": "the EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "French National Front leader Marine Le Pen called for a referendum on leaving the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "François Hollande",
+        "references": ["President François Hollande"]
+      },
+      "entity2": {
+        "entity": "Marine Le Pen",
+        "references": ["Marine Le Pen"]
+      },
+      "justifications": [
+        "although her initiative was rejected by President François Hollande."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Geert Wilders",
+        "references": ["Dutch anti-immigration politician Geert Wilders"]
+      },
+      "entity2": {
+        "entity": "the EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Dutch anti-immigration politician Geert Wilders said the Netherlands had the right to a 'Nexit' vote."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

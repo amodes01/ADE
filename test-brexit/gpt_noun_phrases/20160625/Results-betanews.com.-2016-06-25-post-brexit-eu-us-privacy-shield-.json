@@ -1,0 +1,327 @@
+[
+    {
+        "sentence": "One of the most significant changes to come about -- and one that will be welcomed by privacy advocates -- is a promise from the White House not to engage in indiscriminate bulk data collection of European data.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU-US Privacy Shield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU-US Privacy Shield",
+                "types": [],
+                "wikid": "EU-US Privacy Shield",
+                "dbpedia": "EU-US Privacy Shield"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "White House",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "White House",
+                "types": [],
+                "wikid": "White House",
+                "dbpedia": "White House"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "privacy advocates",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "privacy advocates"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "White House -> EU-US Privacy Shield": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "EU-US Privacy Shield -> privacy advocates": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In a written agreement, the White House says that it will not engage in NSA-style bulk data collection of data transferred between the EU and the US, apart from under specific conditions.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU-US Privacy Shield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU-US Privacy Shield",
+                "types": [],
+                "wikid": "EU-US Privacy Shield",
+                "dbpedia": "EU-US Privacy Shield"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "White House",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "White House",
+                "types": [],
+                "wikid": "White House",
+                "dbpedia": "White House"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NSA-style bulk data collection",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NSA-style bulk data collection"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU-US Privacy Shield -> NSA-style bulk data collection": [
+                -1.0
+            ],
+            "White House -> NSA-style bulk data collection": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Despite having voted to step away from EU regulations, the UK may have no option but to bow to them anyway.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit vote",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit vote",
+                "types": [],
+                "wikid": "Brexit vote",
+                "dbpedia": "Brexit vote"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU regulations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU regulations"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit vote -> EU regulations": [
+                -1.0
+            ],
+            "UK -> EU regulations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Despite gaining the backing of Microsoft, EU-US Privacy Shield has faced a great deal of criticism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU-US Privacy Shield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU-US Privacy Shield",
+                "types": [],
+                "wikid": "EU-US Privacy Shield",
+                "dbpedia": "EU-US Privacy Shield"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Microsoft",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Microsoft",
+                "types": [],
+                "wikid": "Microsoft",
+                "dbpedia": "Microsoft"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU-US Privacy Shield -> Microsoft": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "EU-US Privacy Shield has faced a great deal of criticism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU-US Privacy Shield",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU-US Privacy Shield",
+                "types": [],
+                "wikid": "EU-US Privacy Shield",
+                "dbpedia": "EU-US Privacy Shield"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "critics",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "critics",
+                "types": [],
+                "wikid": "critics",
+                "dbpedia": "critics"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "EU-US Privacy Shield -> critics": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "In the wake of the Brexit vote in the UK referendum on EU membership, the UK may be forced to comply with the rules even though it is in the process of exiting the Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "UK -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Assuming there is agreement by EU member states, the EU-US Privacy Shield agreement could come into force in July.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU member states",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU member states",
+                "types": [],
+                "wikid": "EU member states",
+                "dbpedia": "EU member states"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "UK -> EU member states": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "If the UK wants to trade with the single market on equal terms we would have to prove 'adequacy' - in other words, UK data protection standards would have to be equivalent to the EU's General Data Protection Regulation framework starting in 2018.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Information Commissioner's office",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Information Commissioner's office",
+                "types": [],
+                "wikid": "Information Commissioner's office",
+                "dbpedia": "Information Commissioner's office"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Information Commissioner's office -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

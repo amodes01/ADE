@@ -1,0 +1,37 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United Kingdom", "references": ["U.K."]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["The latest polls in Britain suggest Thursday's Brexit vote is still too close to call."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["there might be some upsides for the United States."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "economic stability", "references": ["stability"]},
+      "justifications": ["investors might look to the United States for stability."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["U.K."]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["there might be some upsides for the United States. If uncertainty spreads from an unraveling of the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["If uncertainty spreads from an unraveling of the EU, then investors might look to the United States for stability."],
+      "attitude": "Positive"
+    }
+  ]
+}

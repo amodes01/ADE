@@ -1,0 +1,524 @@
+[
+    {
+        "sentence": "The decision to Brexit comes at a time when European nations have accepted over a million migrants and refugees in 2015 alone.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "migrant and refugee intake",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "migrant and refugee intake"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> migrant and refugee intake": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the Islamic State (IS) claimed responsibility",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islamic State (IS)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islamic State (IS)",
+                "types": [],
+                "wikid": "Islamic State (IS)",
+                "dbpedia": "Islamic State (IS)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Paris attacks",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Paris attacks"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Islamic State (IS) -> Paris attacks": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the location of the European Parliament",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islamic State (IS)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islamic State (IS)",
+                "types": [],
+                "wikid": "Islamic State (IS)",
+                "dbpedia": "Islamic State (IS)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brussels bombings",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brussels bombings"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Islamic State (IS) -> Brussels bombings": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the writer in 1941 wrote of 'the famous 'insularity' and 'xenophobia' of the English'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Orwell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Orwell",
+                "types": [],
+                "wikid": "George Orwell",
+                "dbpedia": "George Orwell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "xenophobia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "xenophobia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Orwell -> xenophobia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "particularly of the 'working class.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Orwell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Orwell",
+                "types": [],
+                "wikid": "George Orwell",
+                "dbpedia": "George Orwell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "working class",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "working class"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Orwell -> working class": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the secular, liberal democratic world order that Western elites created in the 20th century.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elites",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elites",
+                "types": [],
+                "wikid": "Western elites",
+                "dbpedia": "Western elites"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elders",
+                "types": [],
+                "wikid": "Western elders",
+                "dbpedia": "Western elders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "secular, liberal democratic world order",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "secular, liberal democratic world order"
+                ]
+            },
+            {
+                "ngram": "liberal democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "liberal democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Western elites -> Western elders": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Western elites -> secular, liberal democratic world order": [
+                -1.0
+            ],
+            "Western elites -> liberal democracy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the success of the Brexit campaign...are born of greater social and economic narratives.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic inequality",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic inequality"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economic inequality": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the success of the Trump campaign...are born of greater social and economic narratives.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump campaign",
+                "types": [],
+                "wikid": "Trump campaign",
+                "dbpedia": "Trump campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic inequality",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic inequality"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump campaign -> economic inequality": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "fear of the 'other'...insularity and fear have proved intoxicating for elders longing for an idealized past.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elders",
+                "types": [],
+                "wikid": "Western elders",
+                "dbpedia": "Western elders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "fear of the 'other'",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "fear of the 'other'"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Western elders -> fear of the 'other'": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "insularity and fear have proved intoxicating for elders longing for an idealized past.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elders",
+                "types": [],
+                "wikid": "Western elders",
+                "dbpedia": "Western elders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "insularity",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "insularity"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Western elders -> insularity": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The onus then falls on the young to maintain faith in equality and toleration to ensure that liberal democracy remains a political reality.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elders",
+                "types": [],
+                "wikid": "Western elders",
+                "dbpedia": "Western elders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "young people",
+                "types": [],
+                "wikid": "young people",
+                "dbpedia": "young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "liberal democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "liberal democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Western elders -> liberal democracy": [
+                -1.0
+            ],
+            "young people -> liberal democracy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In 2015, Germany, an EU nation, received over 400,000 asylum applications.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit -> Germany": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "for which the Islamic State (IS) claimed responsibility, and the 2015-16 New Year's Eve sexual assaults in Germany",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Islamic State (IS)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Islamic State (IS)",
+                "types": [],
+                "wikid": "Islamic State (IS)",
+                "dbpedia": "Islamic State (IS)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Islamic State (IS) -> Germany": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The famous 'insularity' and 'xenophobia' of the English, particularly of the 'working class.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Western elites",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Western elites",
+                "types": [],
+                "wikid": "Western elites",
+                "dbpedia": "Western elites"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "working class",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "working class",
+                "types": [],
+                "wikid": "working class",
+                "dbpedia": "working class"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Western elites -> working class": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

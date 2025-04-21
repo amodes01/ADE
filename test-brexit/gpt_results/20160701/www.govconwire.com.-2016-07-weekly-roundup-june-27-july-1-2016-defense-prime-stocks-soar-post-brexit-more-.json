@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote", "Britain's departure from the European Union"] },
+      "target": { "topic": "global financial markets", "references": ["global financial markets", "selloff"] },
+      "justifications": ["As massive the selloff was in global financial markets in the wake of June 23's Brexit vote in the U.K."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote", "Britain's departure from the European Union"] },
+      "target": { "topic": "global financial markets", "references": ["reversal in equities", "global financial markets"] },
+      "justifications": ["so was the reversal in equities after investors took a deep breath to more fully gauge what Britain's departure from the European Union means."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote", "Britain's departure from the European Union"] },
+      "target": { "topic": "U.S. stock market", "references": ["S&P 500 composite index", "U.S. stock bellwether"] },
+      "justifications": ["The U.S. stock bellwether S&P 500 composite index plunged 5.3 percent Friday June 24 and Monday into negative territory on a year-to-date basis."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote", "Britain's departure from the European Union"] },
+      "target": { "topic": "U.S. stock market", "references": ["S&P 500 composite index"] },
+      "justifications": ["but has risen 5.2 percent over the past three full trading sessions and today's as of 12:30 p.m. to go back above the YTD gain line."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "defense sector", "references": ["defense and government contracting stocks", "defense sector"] },
+      "target": { "topic": "global financial markets", "references": ["global financial markets"] },
+      "justifications": ["Many of the usual prime suspects have led the GCI's charge this week with Lockheed Martin, General Dynamics, Northrop Grumman, shipbuilder Huntington Ingalls Industries and medical supply contractor McKesson as among the Index's top net gainers."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "defense sector", "references": ["defense and government contracting stocks", "defense sector"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The defense and GovCon sector is also place of refuge due to relative long-term stability of U.S. military spending and other factors here."]
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Lockheed Martin", "references": ["Lockheed"] },
+      "entity2": { "entity": "U.S. stock market", "references": ["S&P 500 composite index"] },
+      "justifications": ["Lockheed Martin ... has risen 5.2 percent over the past three full trading sessions and today's as of 12:30 p.m."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Northrop Grumman", "references": ["Northrop Grumman"] },
+      "entity2": { "entity": "U.S. stock market", "references": ["S&P 500 composite index"] },
+      "justifications": ["Northrop ... has risen 5.2 percent over the past three full trading sessions and today's as of 12:30 p.m."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Huntington Ingalls Industries", "references": ["Huntington Ingalls"] },
+      "entity2": { "entity": "U.S. stock market", "references": ["S&P 500 composite index"] },
+      "justifications": ["Huntington Ingalls ... has risen 5.2 percent over the past three full trading sessions."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "McKesson", "references": ["McKesson"] },
+      "entity2": { "entity": "U.S. stock market", "references": ["S&P 500 composite index"] },
+      "justifications": ["McKesson ... has risen 5.2 percent over the past three full trading sessions."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Lockheed Martin", "references": ["Lockheed"] },
+      "entity2": { "entity": "Vectrus", "references": ["Vectrus"] },
+      "justifications": ["Lockheed ... as did the government services contractor Vectrus that spun out of Exelis in September 2014."]
+      "attitude": "Neutral"
+    }
+  ]
+}

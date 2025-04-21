@@ -1,0 +1,144 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "U.S. response to Russian aggression", "references": ["U.S. will respond to potential Russian aggression"]},
+      "justifications": ["Europeans are confident that the U.S. will respond to potential Russian aggression."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "Article 5 of NATO treaty", "references": ["commitments to Article 5 of the NATO treaty"]},
+      "justifications": ["they are not so sure about their own commitments to Article 5 of the NATO treaty"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "American power", "references": ["wary of America's power and reach"]},
+      "justifications": ["Europeans are still wary of America's power and reach."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "drone strikes", "references": ["Obama's increased use of drone strikes"]},
+      "justifications": ["Obama's increased use of drone strikes has met with widespread opposition."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Edward Snowden", "references": ["Edward Snowden"]},
+      "target": {"topic": "NSA eavesdropping", "references": ["NSA eavesdropping"]},
+      "justifications": ["Edward Snowden's revelations about NSA eavesdropping exposed a whole new dimension of U.S. power"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.S.", "references": ["U.S."]},
+      "target": {"topic": "reputation for respecting individual liberty", "references": ["damaged America's reputation for respecting individual liberty"]},
+      "justifications": ["The Snowden story damaged America's reputation for respecting individual liberty in Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "American cyber superpower", "references": ["fears about an American cyber superpower"]},
+      "justifications": ["generating a new set of fears about an American cyber superpower extending its electronic reach across the globe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "U.S. tapping Merkel's cellphone", "references": ["U.S. allegedly tapped Chancellor Angela Merkel's cellphone"]},
+      "justifications": ["especially in Germany, where the U.S. allegedly tapped Chancellor Angela Merkel's cellphone."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "trust in American power", "references": ["an undercurrent of distrust of American power"]},
+      "justifications": ["There is still an undercurrent of distrust of American power in European minds."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "popular president in the White House", "references": ["even with popular president in the White House"]},
+      "justifications": ["even with popular president in the White House."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "confidence in Trump", "references": ["confidence in him"]},
+      "justifications": ["Attitudes toward likely Republican nominee Donald Trump are stunningly negative: A median of just 9 percent have confidence in him."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "confidence in Clinton", "references": ["mostly well-received among Europeans"]},
+      "justifications": ["she is mostly well-received among Europeans."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "European confidence", "references": ["confidence in Trump"]},
+      "justifications": ["A median of just 9 percent have confidence in him, and his ratings actually look quite similar to Bush's when he left office."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Bush", "references": ["Bush"]},
+      "target": {"topic": "European confidence", "references": ["Bush's when he left office"]},
+      "justifications": ["his ratings actually look quite similar to Bush's when he left office."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "American unilateralism", "references": ["America-first unilateralism"]},
+      "justifications": ["Trump seems to embrace many of the things that generated so much hostility toward the U.S. during the Bush years, such as an America-first unilateralism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "waterboarding", "references": ["using waterboarding and worse to fight terrorists"]},
+      "justifications": ["Trump seems to embrace many of the things that generated so much hostility toward the U.S. during the Bush years, such as using waterboarding and worse to fight terrorists."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "caricature of America", "references": ["the caricature of America that so much of the world hated from 2001 to 2008"]},
+      "justifications": ["It is, writes Lexington, as if \"the caricature of America that so much of the world hated from 2001 to 2008 is Mr. Trump's pitch.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "U.S. power", "references": ["many different facets to the reputation of the world's dominant superpower"]},
+      "justifications": ["There are many different facets to the reputation of the world's dominant superpower - soft power, military power, economic power."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "American influence", "references": ["admiration and trepidation"]},
+      "justifications": ["Europeans will continue to look across the Atlantic with some mixture of admiration and trepidation."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "U.S.", "references": ["U.S."]},
+      "justifications": ["Europeans are still wary of America's power and reach.", "Europeans are confident that the U.S. will respond to potential Russian aggression.", "There is still an undercurrent of distrust of American power in European minds."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": ["Attitudes toward likely Republican nominee Donald Trump are stunningly negative: A median of just 9 percent have confidence in him."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "entity2": {"entity": "Europeans", "references": ["Europeans"]},
+      "justifications": ["she is mostly well-received among Europeans."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Bush", "references": ["Bush"]},
+      "justifications": ["his ratings actually look quite similar to Bush's when he left office."],
+      "attitude": "Negative"
+    }
+  ]
+}

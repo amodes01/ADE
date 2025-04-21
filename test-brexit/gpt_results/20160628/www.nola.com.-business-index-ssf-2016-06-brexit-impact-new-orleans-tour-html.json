@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["Britain voted to leave the European Union after a bitterly divisive referendum campaign"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "referendum campaign", "references": ["referendum campaign"]},
+      "justifications": ["a bitterly divisive referendum campaign"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["Britain voted to leave the European Union"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "government", "references": ["government"]},
+      "justifications": ["toppling the government Friday"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "global markets", "references": ["global markets"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["sending global markets plunging"],
+      "attitude": "Negative"
+    }
+  ]
+}

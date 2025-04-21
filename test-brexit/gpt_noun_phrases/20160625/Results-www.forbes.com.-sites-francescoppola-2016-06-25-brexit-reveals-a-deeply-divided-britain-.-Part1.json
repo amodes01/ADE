@@ -1,0 +1,204 @@
+[
+    {
+        "sentence": "UKIP had been growing in popularity for several years, particularly in coastal and rural areas where concern over immigration and anger at the EU's many policy failures are at their highest.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party (UKIP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party (UKIP)",
+                "types": [],
+                "wikid": "UK Independence Party (UKIP)",
+                "dbpedia": "UK Independence Party (UKIP)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The European Union",
+                "types": [],
+                "wikid": "The European Union",
+                "dbpedia": "The European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "The European Union -> UK Independence Party (UKIP)": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK Independence Party (UKIP) -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "UKIP supporters were easily recognizable: middle-aged and elderly working-class men, the kind who sit drinking beer in the Working Men's Club in Strood and moan about immigration, bankers, employers and - above all - the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party (UKIP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party (UKIP)",
+                "types": [],
+                "wikid": "UK Independence Party (UKIP)",
+                "dbpedia": "UK Independence Party (UKIP)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The European Union",
+                "types": [],
+                "wikid": "The European Union",
+                "dbpedia": "The European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK Independence Party (UKIP) -> The European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK Independence Party (UKIP) -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Immigrants from Eastern Europe coming here because of the EU's free movement of people policy, taking our jobs, undercutting our wages, living in our houses, sending their children to our schools, clogging up the health service.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The European Union",
+                "types": [],
+                "wikid": "The European Union",
+                "dbpedia": "The European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The European Union -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Much of this is misinformation peddled through sections of the UK's media. The Economist says that the Daily Mail, Daily Express and Telegraph routinely misreport 'facts' about the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The European Union",
+                "types": [],
+                "wikid": "The European Union",
+                "dbpedia": "The European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The European Union -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As dawn broke, the leader of the United Kingdom Independence Party (UKIP), Nigel Farage, claimed victory.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom Independence Party (UKIP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom Independence Party (UKIP)",
+                "types": [],
+                "wikid": "United Kingdom Independence Party (UKIP)",
+                "dbpedia": "United Kingdom Independence Party (UKIP)"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nigel Farage -> United Kingdom Independence Party (UKIP)": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The Brexit vote was driven by angry, less-educated, older white voters who feel screwed by globalization and the establishment, and have been fed a chip butty of xenophobia slathered in slogan sauce,\" Bee said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "target": { "topic": "Donald Trump", "references": ["Trump"] },
+      "justifications": [
+        "\"The way Bee sees it, those are the same people who follow Trump and his brand of \\\"right-wing, racist, anti-immigrant demagoguery.\\\"\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The worst outcome of Brexit,\\\" Bee said, \\\"is not the breakup of the EU or the fact that you can now use the British pound as loo paper, it's that the vote made these hateful morons think that over half of the country agreed with them.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "target": { "topic": "America's demographic makeup", "references": ["demographic makeup of the US"] },
+      "justifications": [
+        "Bee's hope is that our instinctive nature and historically pro-immigrant spirit will mean things play out differently here come November."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Trump"] },
+      "justifications": [
+        "\"The way Bee sees it, those are the same people who follow Trump and his brand of \\\"right-wing, racist, anti-immigrant demagoguery.\\\"\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Samantha Bee", "references": ["Samantha Bee"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The Brexit vote was driven by angry, less-educated, older white voters who feel screwed by globalization and the establishment, and have been fed a chip butty of xenophobia slathered in slogan sauce,\" Bee said.",
+        "\"The worst outcome of Brexit,\\\" Bee said, \\\"is not the breakup of the EU or the fact that you can now use the British pound as loo paper, it's that the vote made these hateful morons think that over half of the country agreed with them.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

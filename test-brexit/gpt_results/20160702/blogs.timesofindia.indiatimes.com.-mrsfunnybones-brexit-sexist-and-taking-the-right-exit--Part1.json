@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "target": { "topic": "Bollywood", "references": ["Bollywood"] },
+      "justifications": [
+        "She narrowly escaped a gruesome tragedy when Bollywood tried to bludgeon her brain to the size of a pea, but she ducked at the right moment and escaped miraculously unharmed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "target": { "topic": "Hindu religion", "references": ["Hindu boys", "religion"] },
+      "justifications": [
+        "She is currently in the process of creating lame jokes like ' Why do all Hindu boys worship their mother? Because their religion tells them to worship the cow.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Daljeet Aunty", "references": ["Daljeet Aunty"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "One thing is there, today you people are saying British are fools, but no one makes brassieres better than their Marks and Spencer."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "We then leave the consequences of Brexit along with our breakfast table to drive from Italy to Switzerland with just a nonchalant wave to the lone guard standing at the border gate. Long live the European Union!"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "'Brexit is a reality!' scream headlines and as people at the tables around us begin diluting their fresh orange juice with tears, watching their shares in Barclays and Lloyds drop down the rabbit hole."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "entity2": { "entity": "Bollywood", "references": ["Bollywood"] },
+      "justifications": [
+        "She narrowly escaped a gruesome tragedy when Bollywood tried to bludgeon her brain to the size of a pea, but she ducked at the right moment and escaped miraculously unharmed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "entity2": { "entity": "Hindu religion", "references": ["Hindu boys", "religion"] },
+      "justifications": [
+        "She is currently in the process of creating lame jokes like ' Why do all Hindu boys worship their mother? Because their religion tells them to worship the cow.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Daljeet Aunty", "references": ["Daljeet Aunty"] },
+      "entity2": { "entity": "British", "references": ["British"] },
+      "justifications": [
+        "One thing is there, today you people are saying British are fools, but no one makes brassieres better than their Marks and Spencer."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "We then leave the consequences of Brexit along with our breakfast table to drive from Italy to Switzerland with just a nonchalant wave to the lone guard standing at the border gate. Long live the European Union!"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Twinkle Khanna", "references": ["Twinkle Khanna", "Mrs Funnybones"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "'Brexit is a reality!' scream headlines and as people at the tables around us begin diluting their fresh orange juice with tears, watching their shares in Barclays and Lloyds drop down the rabbit hole."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

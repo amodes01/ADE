@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Sir James Dyson", "references": ["Sir James Dyson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Sir James Dyson said that the UK would \"create more wealth and more jobs by being outside the EU than we will within it\"."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Coadec", "references": ["Coadec"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The key issues for the Remainers were: Access to a large single market, with harmonised regulations, Free movement of labour, giving access to a talented workforce, Having a 'seat at the table', Stability and security"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Robert Newry", "references": ["Robert Newry"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Robert Newry... believes that the current interest in UK start-ups will \"dry up\" if we leave the EU"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Alex Hemsley", "references": ["Alex Hemsley"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Alex Hemsley... said that being in the EU makes it much easier to hire people in the tech sector"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Sir James Dyson", "references": ["Sir James Dyson"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Sir James Dyson said that the UK would \"create more wealth and more jobs by being outside the EU than we will within it\"."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Coadec", "references": ["Coadec"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["The UK's start-up community is international in its outlook and in its composition. Founders come to the UK from across Europe (and the world) to launch and grow their businesses. They look to Europe for talented staff to help them grow. And they aim to sell and expand across a trading block of 500 million consumers."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Robert Newry", "references": ["Robert Newry"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Robert Newry... believes that the current interest in UK start-ups will \"dry up\" if we leave the EU"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Alex Hemsley", "references": ["Alex Hemsley"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["Alex Hemsley... said that being in the EU makes it much easier to hire people in the tech sector"],
+      "attitude": "Negative"
+    }
+  ]
+}

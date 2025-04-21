@@ -1,0 +1,127 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK voters", "references": ["UK voters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The UK voters did it: Britain is now out of the European Union."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK voters", "references": ["UK voters"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["The UK voters did it: Britain is now out of the European Union."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Remain camp", "references": ["remain camp"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Regardless, the remain camp has the clout of the world's leading economists behind it."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Remain camp", "references": ["remain camp"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["Regardless, the remain camp has the clout of the world's leading economists behind it."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK tech industry", "references": ["technology industry", "UK tech industry"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["the technology industry... has generally leaned toward Britain remaining in Europe."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK tech industry", "references": ["technology industry", "UK tech industry"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["the technology industry... has generally leaned toward Britain remaining in Europe."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "UK tech industry", "references": ["tech"]},
+      "justifications": ["British citizens have reason to be grateful to the EU, which prioritized broadband in every home, passed data-protection regulations and recognized the needs for countries to work together on cybersecurity issues."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK's network operators", "references": ["UK's network operators"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["all the UK's network operators believe EU membership is good for their businesses, and they are firmly on the side of remaining in the EU."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Telefonica CEO Ronan Dunne", "references": ["Telefonica CEO Ronan Dunne"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Britain needs unrestricted access to the European market in order to compete effectively."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "BT", "references": ["BT"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["The board and senior management of BT have been clear for months that the company's prospects are better if the UK stays in a reformed EU."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK tech workers", "references": ["UK tech workers"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["A survey of the UK's tech workers by Juniper Research has found that 65 percent think Brexit will have a negative impact on the global tech industry."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK tech workers", "references": ["UK tech workers"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["A survey of the UK's tech workers by Juniper Research has found that 65 percent think Brexit will have a negative impact on the global tech industry."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Juniper Research", "references": ["Juniper Research"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["A survey of the UK's tech workers by Juniper Research has found that 65 percent think Brexit will have a negative impact on the global tech industry."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Just Eat, Funding Circle, Zoopla, TransferWise, Ustwo", "references": ["Just Eat", "Funding Circle", "Zoopla", "TransferWise", "Ustwo"]},
+      "target": {"topic": "EU membership", "references": ["EU membership"]},
+      "justifications": ["Many UK unicorns are robustly in favour of EU membership."]
+      "attitude": "Positive"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK voters", "references": ["UK voters"]},
+      "entity2": {"entity": "Remain camp", "references": ["remain camp"]},
+      "justifications": ["The remain camp has the clout of the world's leading economists behind it."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "UK tech industry", "references": ["UK tech industry", "technology industry"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["British citizens have reason to be grateful to the EU, which prioritized broadband in every home, passed data-protection regulations and recognized the needs for countries to work together on cybersecurity issues."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "UK tech industry", "references": ["UK tech industry", "technology industry"]},
+      "entity2": {"entity": "UK voters", "references": ["UK voters"]},
+      "justifications": ["The technology industry... has generally leaned toward Britain remaining in Europe."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Telefonica CEO Ronan Dunne", "references": ["Telefonica CEO Ronan Dunne"]},
+      "entity2": {"entity": "UK voters", "references": ["UK voters"]},
+      "justifications": ["Without this, we risk serious harm to our economy in the short, medium and long term."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "BT", "references": ["BT"]},
+      "entity2": {"entity": "UK voters", "references": ["UK voters"]},
+      "justifications": ["The board and senior management of BT have been clear for months that the company's prospects are better if the UK stays in a reformed EU."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Just Eat, Funding Circle, Zoopla, TransferWise, Ustwo", "references": ["Just Eat", "Funding Circle", "Zoopla", "TransferWise", "Ustwo"]},
+      "entity2": {"entity": "UK voters", "references": ["UK voters"]},
+      "justifications": ["Many UK unicorns are robustly in favour of EU membership."]
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "That means that Britain's recent vote to leave the European Union could be felt a little closer to home for the state's 1.4 million public education employees and retirees.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Teachers Retirement System",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Teachers Retirement System",
+                "types": [],
+                "wikid": "Texas Teachers Retirement System",
+                "dbpedia": "Texas Teachers Retirement System"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Texas Teachers Retirement System -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As for market concerns after the British referendum, Evensky said it's 'just simply going to be a small blip in a long-term, bumpy-but-rising international equity market.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Harold Evensky",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Harold Evensky",
+                "types": [],
+                "wikid": "Harold Evensky",
+                "dbpedia": "Harold Evensky"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Harold Evensky -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "'As the economy becomes much more global and the competition gets much stiffer, it's credible to me that having a small presence there makes sense.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Harold Evensky",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Harold Evensky",
+                "types": [],
+                "wikid": "Harold Evensky",
+                "dbpedia": "Harold Evensky"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Teachers Retirement System",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Teachers Retirement System",
+                "types": [],
+                "wikid": "Texas Teachers Retirement System",
+                "dbpedia": "Texas Teachers Retirement System"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Harold Evensky -> Texas Teachers Retirement System": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Harold Evensky -> global economy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "'It's as simple as if you have an office in London and you are using your office in London to serve the Continent, now you probably need an office in London and an office in Bonn, or an office in Paris or Berlin or somewhere.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Harold Evensky",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Harold Evensky",
+                "types": [],
+                "wikid": "Harold Evensky",
+                "dbpedia": "Harold Evensky"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Patrick Jankowski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Patrick Jankowski",
+                "types": [],
+                "wikid": "Patrick Jankowski",
+                "dbpedia": "Patrick Jankowski"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Harold Evensky -> Patrick Jankowski": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

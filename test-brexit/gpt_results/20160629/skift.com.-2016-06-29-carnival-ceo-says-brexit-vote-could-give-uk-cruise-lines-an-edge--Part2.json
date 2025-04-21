@@ -1,0 +1,33 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald", "references": ["Donald"]},
+      "target": {"topic": "China cruise market", "references": ["China", "China operations"]},
+      "justifications": [
+        "Despite the lower pricing, Donald said he remained confident in the long-term prospects for the market.",
+        "\"Overall, China remains a robust opportunity and we are still at the very, very beginning of it,\" Donald said."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UBS Investment Research analyst Robin Farley", "references": ["Robin Farley"]},
+      "target": {"topic": "China cruise market", "references": ["China operations"]},
+      "justifications": [
+        "\"The concern among investors is that as more supply is added to China, pricing could decline to the point where it is not accretive on all these levels,\\\" she wrote."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald", "references": ["Donald"]},
+      "entity2": {"entity": "UBS Investment Research analyst Robin Farley", "references": ["Robin Farley"]},
+      "justifications": [
+        "\"The concern among investors is that as more supply is added to China, pricing could decline to the point where it is not accretive on all these levels,\\\" she wrote.",
+        "Despite the lower pricing, Donald said he remained confident in the long-term prospects for the market."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

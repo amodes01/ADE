@@ -1,0 +1,215 @@
+[
+    {
+        "sentence": "On the back of his embrace of the Leave cause in the British referendum on membership of the European Union, and its shock victory on Thursday, he has been propelled into a position he has long coveted.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Boris Johnson -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I think the same thing has happened with Brexit, he needed to take the opposite stance to Cameron and Remain so he could position himself to take over.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sonia Purnell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sonia Purnell",
+                "types": [],
+                "wikid": "Sonia Purnell",
+                "dbpedia": "Sonia Purnell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sonia Purnell -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In private he would be rather sympathetic about the European project and its purpose.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sonia Purnell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sonia Purnell",
+                "types": [],
+                "wikid": "Sonia Purnell",
+                "dbpedia": "Sonia Purnell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sonia Purnell -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "On the back of his embrace of the Leave cause in the British referendum on membership of the European Union, and its shock victory on Thursday, he has been propelled into a position he has long coveted: front-running contender for No 10 Downing Street.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> David Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Sonia Purnell, author of Just Boris: A Tale of Blond Ambition, worked as his No 2 in Brussels for the Telegraph in the 1990s and had a ring-side seat at the development of the classic Boris style.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sonia Purnell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sonia Purnell",
+                "types": [],
+                "wikid": "Sonia Purnell",
+                "dbpedia": "Sonia Purnell"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> Sonia Purnell": [
+                -1.0
+            ],
+            "Sonia Purnell -> Boris Johnson": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "He wrote excoriating copy about the EU, going way beyond the boundaries of truth.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The European Union",
+                "types": [],
+                "wikid": "The European Union",
+                "dbpedia": "The European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> The European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

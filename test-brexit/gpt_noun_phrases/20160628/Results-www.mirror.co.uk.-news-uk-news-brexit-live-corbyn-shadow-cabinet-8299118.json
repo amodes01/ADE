@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "The Labour party is becoming a laughing stock because of the lack of leadership that's being shown in so many different places.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alastair Campbell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alastair Campbell",
+                "types": [],
+                "wikid": "Alastair Campbell",
+                "dbpedia": "Alastair Campbell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Labour Party leadership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Labour Party leadership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Alastair Campbell -> Labour Party leadership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He cannot do the job.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alastair Campbell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alastair Campbell",
+                "types": [],
+                "wikid": "Alastair Campbell",
+                "dbpedia": "Alastair Campbell"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jeremy Corbyn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jeremy Corbyn",
+                "types": [],
+                "wikid": "Jeremy Corbyn",
+                "dbpedia": "Jeremy Corbyn"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Jeremy Corbyn's leadership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Jeremy Corbyn's leadership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Alastair Campbell -> Jeremy Corbyn": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Alastair Campbell -> Jeremy Corbyn's leadership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I believe in a lot of the things Jeremy Corbyn says. I believe in trying to deal with division and inequality in society. I believe in trying to make the world a fairer place.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alastair Campbell",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alastair Campbell",
+                "types": [],
+                "wikid": "Alastair Campbell",
+                "dbpedia": "Alastair Campbell"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Jeremy Corbyn's policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Jeremy Corbyn's policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Alastair Campbell -> Jeremy Corbyn's policies": [
+                -1.0
+            ]
+        }
+    }
+]

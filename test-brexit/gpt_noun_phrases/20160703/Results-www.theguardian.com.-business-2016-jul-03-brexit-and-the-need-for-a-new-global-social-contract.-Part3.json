@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Gordon Brown's call \"to tame globalisation\" is a welcome, if belated, shift in thinking.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gordon Brown",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gordon Brown",
+                "types": [],
+                "wikid": "Gordon Brown",
+                "dbpedia": "Gordon Brown"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "globalisation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "globalisation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Gordon Brown -> globalisation": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Progressives now need to put policy flesh on those bones, working as closely as we can in the process with our European neighbours.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gordon Brown",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gordon Brown",
+                "types": [],
+                "wikid": "Gordon Brown",
+                "dbpedia": "Gordon Brown"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European neighbours",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European neighbours",
+                "types": [],
+                "wikid": "European neighbours",
+                "dbpedia": "European neighbours"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Gordon Brown -> European neighbours": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

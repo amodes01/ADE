@@ -1,0 +1,189 @@
+[
+    {
+        "sentence": "they were so focused on initial production they did not start up and really work the logistics system fast enough",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wilson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wilson",
+                "types": [],
+                "wikid": "Wilson",
+                "dbpedia": "Wilson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "logistics system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "logistics system"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Wilson -> logistics system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We are putting together a plan with of course the Joint Program Office because this is a joint program",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Wilson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Wilson",
+                "types": [],
+                "wikid": "Wilson",
+                "dbpedia": "Wilson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "supply line",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "supply line"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Wilson -> supply line": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "so that our operational squadrons can meet the goals that the secretary of defense has set out for us",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Secretary of Defense",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Secretary of Defense",
+                "types": [],
+                "wikid": "Secretary of Defense",
+                "dbpedia": "Secretary of Defense"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "operational squadrons",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "operational squadrons"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Secretary of Defense -> operational squadrons": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Venable warned that jettisoning jets to get capability rates up could amount to gaming the system",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Venable",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Venable",
+                "types": [],
+                "wikid": "Venable",
+                "dbpedia": "Venable"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gen. Robert Neller",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gen. Robert Neller",
+                "types": [],
+                "wikid": "Gen. Robert Neller",
+                "dbpedia": "Gen. Robert Neller"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "gaming the system",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "gaming the system"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Gen. Robert Neller -> Venable": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Venable -> gaming the system": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Gen. Robert Neller, the Marine Corps commandant, said the good news is the service has its annual funding from Congress and not a stopgap budget to hit Mattis' goal",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Gen. Robert Neller",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Gen. Robert Neller",
+                "types": [],
+                "wikid": "Gen. Robert Neller",
+                "dbpedia": "Gen. Robert Neller"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Secretary of Defense",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Secretary of Defense",
+                "types": [],
+                "wikid": "Secretary of Defense",
+                "dbpedia": "Secretary of Defense"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Gen. Robert Neller -> Secretary of Defense": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

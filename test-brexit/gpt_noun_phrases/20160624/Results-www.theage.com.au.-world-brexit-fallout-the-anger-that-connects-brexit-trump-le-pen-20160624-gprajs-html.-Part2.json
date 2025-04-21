@@ -1,0 +1,274 @@
+[
+    {
+        "sentence": "Brexit may hold a more optimistic lesson, however, especially if the Remain camp wins.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU's future",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU's future"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> EU's future": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "So when Chinese President Xi Jinping said on a visit to Britain last year that he wanted a united EU, with Britain helping to deepen Chinese-EU ties, he wasn't just chalking up a political favour to British Prime Minister David Cameron.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Xi Jinping",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Xi Jinping",
+                "types": [],
+                "wikid": "Xi Jinping",
+                "dbpedia": "Xi Jinping"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "China's interest in EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "China's interest in EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David Cameron -> Xi Jinping": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> China's interest in EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "So when Chinese President Xi Jinping said on a visit to Britain last year that he wanted a united EU, with Britain helping to deepen Chinese-EU ties",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China's interest in EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China's interest in EU",
+                "types": [],
+                "wikid": "China's interest in EU",
+                "dbpedia": "China's interest in EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "China's interest in EU -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "China may champion national sovereignty and chafe at US dominance",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "China -> US": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "China gains from the existing economic order and sees multilateral economic institutions as useful - in the EU's case, to the tune of $US590 billion in trade last year.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "China -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "German Finance Minister Wolfgang Schaeuble said that even if Britain votes to stay, 'we will simply not be able to go on as before'.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "German Finance Minister Wolfgang Schaeuble",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "German Finance Minister Wolfgang Schaeuble",
+                "types": [],
+                "wikid": "German Finance Minister Wolfgang Schaeuble",
+                "dbpedia": "German Finance Minister Wolfgang Schaeuble"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "German Finance Minister Wolfgang Schaeuble -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "China may champion national sovereignty and chafe at US dominance, but it is also pragmatic, says Kerry Brown, director of the Lau China Institute at King's College London.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kerry Brown",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kerry Brown",
+                "types": [],
+                "wikid": "Kerry Brown",
+                "dbpedia": "Kerry Brown"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "China",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "China",
+                "types": [],
+                "wikid": "China",
+                "dbpedia": "China"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Kerry Brown -> China": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

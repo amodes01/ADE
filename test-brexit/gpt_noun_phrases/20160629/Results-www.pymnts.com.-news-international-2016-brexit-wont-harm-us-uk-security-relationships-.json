@@ -1,0 +1,226 @@
+[
+    {
+        "sentence": "Britain remained an important ally for the United States, especially in NATO.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "United States -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "United States -> NATO": [
+                1.0
+            ],
+            "United Kingdom -> NATO": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There is no reason that should at all be affected by the decision British voters made last week, Earnest said, alluding to the Brexit vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There is a large trade deal with the E.U. in the works with the United States, and the impact of the Brexit on those talks is still under consideration and under discussion.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trade agreement with the European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trade agreement with the European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Trade agreement with the European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There is some consideration of that larger trade deal going through (and it is known as the Transatlantic Trade and Investment Partnership).",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Transatlantic Trade and Investment Partnership (TTIP)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Transatlantic Trade and Investment Partnership (TTIP)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Transatlantic Trade and Investment Partnership (TTIP)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "another, separate deal would be negotiated and finalized with the U.K.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trade agreement with the United Kingdom",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trade agreement with the United Kingdom"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "United States -> Trade agreement with the United Kingdom": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the spokesman for the administration, Josh Earnest, said that Britain remained an important ally for the United States.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United States",
+                "types": [],
+                "wikid": "United States",
+                "dbpedia": "United States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Josh Earnest",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Josh Earnest",
+                "types": [],
+                "wikid": "Josh Earnest",
+                "dbpedia": "Josh Earnest"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United States -> Josh Earnest": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,102 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "US officials", "references": ["US officials"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum"]},
+      "justifications": [
+        "Washington was dismayed last week when British voters chose to leave the European Union, a decision that triggered global economic uncertainty and fears other EU members will follow suit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum"]},
+      "justifications": [
+        "President Barack Obama had made clear his concern about the Brexit referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US officials", "references": ["US officials"]},
+      "target": {"topic": "Western unity", "references": ["Western unity"]},
+      "justifications": [
+        "US officials are scrambling to try to stop the political crisis harming Western unity."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "special relationship between Washington and London", "references": ["special relationship between Washington and London"]},
+      "justifications": [
+        "Obama and Kerry have been at pains to insist the vaunted \"special relationship\" between Washington and London will survive what US officials view as the Brexit debacle."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US officials", "references": ["US officials"]},
+      "target": {"topic": "Brexit's impact on world financial markets", "references": ["damage on skittish world financial markets"]},
+      "justifications": [
+        "US officials are also keen to help London's divorce from Brussels go through smoothly without further inflicting further damage on skittish world financial markets."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US officials", "references": ["US officials"]},
+      "target": {"topic": "Brexit serving as inspiration for eurosceptic forces", "references": ["concerned not to allow Brexit to serve as an inspiration for eurosceptic forces in other members such as Italy or The Netherlands"]},
+      "justifications": [
+        "US officials... are also concerned not to allow Brexit to serve as an inspiration for eurosceptic forces in other members such as Italy or The Netherlands."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "US officials", "references": ["US officials"]},
+      "entity2": {"entity": "British voters", "references": ["British voters"]},
+      "justifications": [
+        "Washington was dismayed last week when British voters chose to leave the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "President Barack Obama", "references": ["President Barack Obama"]},
+      "entity2": {"entity": "British voters", "references": ["British voters"]},
+      "justifications": [
+        "Obama himself, on a visit to London last month, warned British voters that their nation would go \"to the back of the queue\" for a US trade deal if they voted \"out.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Kerry", "references": ["John Kerry"]},
+      "entity2": {"entity": "Federica Mogherini", "references": ["Federica Mogherini"]},
+      "justifications": [
+        "From Brussels Kerry will continue to London to see Foreign Secretary Philip Hammond and other officials from outgoing British Prime Minister David Cameron's government."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "US officials", "references": ["US officials"]},
+      "entity2": {"entity": "Israeli Prime Minister Benjamin Netanyahu", "references": ["Israeli Prime Minister Benjamin Netanyahu"]},
+      "justifications": [
+        "Kerry arrived in Rome on Sunday on a planned visit to have lunch with Foreign Minister Paolo Gentiloni and a working dinner with Israeli Prime Minister Benjamin Netanyahu."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "US officials", "references": ["US officials"]},
+      "entity2": {"entity": "EU officials", "references": ["EU foreign policy chief Federica Mogherini"]},
+      "justifications": [
+        "Kerry would fly on to the EU headquarters in Brussels for crisis talks with EU foreign policy chief Federica Mogherini."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "US officials", "references": ["US officials"]},
+      "entity2": {"entity": "David Cameron's government", "references": ["outgoing British Prime Minister David Cameron's government"]},
+      "justifications": [
+        "From Brussels Kerry will continue to London to see Foreign Secretary Philip Hammond and other officials from outgoing British Prime Minister David Cameron's government."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

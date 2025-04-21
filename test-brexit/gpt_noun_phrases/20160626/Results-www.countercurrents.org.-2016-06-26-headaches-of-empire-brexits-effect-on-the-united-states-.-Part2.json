@@ -1,0 +1,176 @@
+[
+    {
+        "sentence": "Other European countries had been less than enthusiastic to impose sanctions on the Kremlin.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European sanctions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European sanctions"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Russia -> European sanctions": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit might well provide changes for 'good potential for growth in the value of securities' that would benefit the Russian economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Russia -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Was it the business of a US president to tell the British voter how to go about his or her business? No.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Britain's referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Britain's referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Britain's referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "While Donald Trump has been dismissed as a lunatic on this subject, amongst others, his statements about the way Obama behaved on Britain's referendum were relevant.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "There remains a conspicuous fear in the US Republic that civilization must be a centralising endeavour.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Russia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Russia",
+                "types": [],
+                "wikid": "Russia",
+                "dbpedia": "Russia"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "US -> Russia": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

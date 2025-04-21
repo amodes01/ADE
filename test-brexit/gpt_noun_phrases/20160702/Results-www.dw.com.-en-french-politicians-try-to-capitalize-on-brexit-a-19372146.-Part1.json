@@ -1,0 +1,293 @@
+[
+    {
+        "sentence": "\"More and more, the destiny of the European Union resembles the destiny of the Soviet Union, which died from its own contractions.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Brexit's results offer a powerful boost for the National Front's Le Pen and her party's anti-Europe, anti-immigrant discourse.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"At first glance, Brexit's results offer a powerful boost for the National Front's Le Pen and her party's anti-Europe, anti-immigrant discourse.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "anti-Europe rhetoric",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-Europe rhetoric"
+                ]
+            },
+            {
+                "ngram": "anti-immigrant rhetoric",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "anti-immigrant rhetoric"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> anti-Europe rhetoric": [
+                1.0
+            ],
+            "European Union -> anti-immigrant rhetoric": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Other presidential wannabes are also issuing strong calls for fundamentally reforming the EU, if not completely overhauling a project that grew out of a postwar coal and steel pact between France and Germany.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "reform",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "reform"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "European Union -> reform": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Le Pen exults in the British exit vote as a call to freedom.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine le Pen",
+                "types": [],
+                "wikid": "Marine le Pen",
+                "dbpedia": "Marine le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine le Pen -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"Though such discourse is not unique to France - populist parties elsewhere in Europe are embracing it - it has triggered some alarm bells.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Marine le Pen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Marine le Pen",
+                "types": [],
+                "wikid": "Marine le Pen",
+                "dbpedia": "Marine le Pen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sarkozy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sarkozy",
+                "types": [],
+                "wikid": "Sarkozy",
+                "dbpedia": "Sarkozy"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Marine le Pen -> Sarkozy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"Sarkozy has really intensified his anti-Brussels rhetoric, and that's a very big problem.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicolas Sarkozy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicolas Sarkozy",
+                "types": [],
+                "wikid": "Nicolas Sarkozy",
+                "dbpedia": "Nicolas Sarkozy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicolas Sarkozy -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"Sarkozy has really intensified his anti-Brussels rhetoric, and that's a very big problem, said Alexandra de Hoop Scheffer, head of the German Marshall Fund of the US's Paris office.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alexandra de Hoop Scheffer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alexandra de Hoop Scheffer",
+                "types": [],
+                "wikid": "Alexandra de Hoop Scheffer",
+                "dbpedia": "Alexandra de Hoop Scheffer"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicolas Sarkozy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicolas Sarkozy",
+                "types": [],
+                "wikid": "Nicolas Sarkozy",
+                "dbpedia": "Nicolas Sarkozy"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Alexandra de Hoop Scheffer -> Nicolas Sarkozy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

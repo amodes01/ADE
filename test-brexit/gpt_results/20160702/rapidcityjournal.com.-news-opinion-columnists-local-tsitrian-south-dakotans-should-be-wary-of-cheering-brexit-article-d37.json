@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "European Union" },
+      "justifications": [
+        "Trumpistas have their reasons for reflexively cheering Brexit and its apocalyptic potential for re-defining and possibly undoing the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "market uncertainty" },
+      "justifications": [
+        "As you might expect, when times are uncertain, world traders typically convert assets into U.S. dollars, which are still regarded as the ultimate safe haven currency on world markets."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "U.S. dollar" },
+      "justifications": [
+        "The greenback's 4 percent upside spike - massive by trading standards - after the Brexit vote reflected the very uncertainty that Young called attention to."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "I would not be so quick to celebrate the UK's rash departure from its decadeslong economic relationship with the rest of Europe."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "South Dakotans", "references": ["South Dakotans"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "A more circumspect approach would better suit most South Dakotans, who need to consider the effect this explosion of xenophobic outrage will have on our state's largest industry."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "South Dakotans", "references": ["South Dakotans"] },
+      "entity2": { "entity": "foreign customers", "references": ["our foreign customers"] },
+      "justifications": [
+        "South Dakotans have a long-standing interdependence with our foreign customers, who have created much wealth for this state."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "American Farm Bureau Federation", "references": ["American Farm Bureau Federation"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "As the Brexit vote was nearing last week, American Farm Bureau Federation Chief Economist Bob Young said 'the biggest concern is market uncertainty.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bob Young", "references": ["Bob Young"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "American Farm Bureau Federation Chief Economist Bob Young said 'the biggest concern is market uncertainty.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Andrew Schissler", "references": ["Andrew Schissler"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Chicago-based commodities broker and AgWeb commentator Andrew Schissler also argues that the agricultural commodities markets themselves could come under some 'nasty trading volatility' as owners of those products liquidate and turn their assets into cash positions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Canada", "references": ["Canada"] },
+      "justifications": [
+        "Donald Trump... believes that antagonizing America's most significant trading partners, Canada, Mexico and China, is the way to move this country forward into some ephemeral 'greatness' that he believes we have lost."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Mexico", "references": ["Mexico"] },
+      "justifications": [
+        "Donald Trump... believes that antagonizing America's most significant trading partners, Canada, Mexico and China, is the way to move this country forward into some ephemeral 'greatness' that he believes we have lost."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": [
+        "Donald Trump... believes that antagonizing America's most significant trading partners, Canada, Mexico and China, is the way to move this country forward into some ephemeral 'greatness' that he believes we have lost."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

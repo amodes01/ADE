@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "Despite the lower pricing, Donald said he remained confident in the long-term prospects for the market.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald",
+                "types": [],
+                "wikid": "Donald",
+                "dbpedia": "Donald"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "China cruise market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "China cruise market"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald -> China cruise market": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The concern among investors is that as more supply is added to China, pricing could decline to the point where it is not accretive on all these levels,\\\" she wrote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UBS Investment Research analyst Robin Farley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UBS Investment Research analyst Robin Farley",
+                "types": [],
+                "wikid": "UBS Investment Research analyst Robin Farley",
+                "dbpedia": "UBS Investment Research analyst Robin Farley"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald",
+                "types": [],
+                "wikid": "Donald",
+                "dbpedia": "Donald"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "China cruise market",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "China cruise market"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald -> UBS Investment Research analyst Robin Farley": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UBS Investment Research analyst Robin Farley -> China cruise market": [
+                -1.0
+            ]
+        }
+    }
+]

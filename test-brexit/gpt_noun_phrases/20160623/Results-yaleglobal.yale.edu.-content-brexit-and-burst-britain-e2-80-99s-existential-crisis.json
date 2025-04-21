@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Welcome to the Yale and the World website, maintained by the Office of International Affairs, where you can explore Yale's work around the globe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yale",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yale",
+                "types": [],
+                "wikid": "Yale",
+                "dbpedia": "Yale"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global work",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global work"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Yale -> global work": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Welcome to the Yale and the World website, maintained by the Office of International Affairs",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yale",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yale",
+                "types": [],
+                "wikid": "Yale",
+                "dbpedia": "Yale"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Office of International Affairs",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Office of International Affairs",
+                "types": [],
+                "wikid": "Office of International Affairs",
+                "dbpedia": "Office of International Affairs"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Yale -> Office of International Affairs": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

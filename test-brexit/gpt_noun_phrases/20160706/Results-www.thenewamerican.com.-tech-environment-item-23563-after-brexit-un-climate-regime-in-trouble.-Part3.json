@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "British voters dealing a crushing blow to regionalism by supporting Brexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "regionalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "regionalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Brexit -> UN": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> regionalism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the Brexit vote may have major implications on British \"climate\" policies",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "climate policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "climate policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> climate policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "world, all under the supervision of the UN",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Paris Agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Paris Agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UN -> Paris Agreement": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the scheme also calls on parties to the UN scheme to \"strengthen regional cooperation on adaptation\" and \"establish regional centers\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "regionalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "regionalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UN -> regionalism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Americans must continue to expose the fraud that is the UN's Paris Agreement",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "climate policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "climate policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UN -> Brexit": [
+                -1.0
+            ],
+            "UN -> climate policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UN and Obama are pretending that if enough Third World dictators can be bribed (with your tax money) into \"ratifying\" the pseudo-treaty",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Paris Agreement",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Paris Agreement"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UN -> Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Obama -> Paris Agreement": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama and his cohorts, with accompanying illegal and unconstitutional decrees with no force of law",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obama",
+                "types": [],
+                "wikid": "Obama",
+                "dbpedia": "Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "climate policies",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "climate policies"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Obama -> climate policies": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "With British voters dealing a crushing blow to regionalism by supporting Brexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Brexit -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "said Global Warming Policy Foundation director Benny Peiser, citing the \"astonishing self-determination and skepticism of the British people in [the] face of an unprecedented fear campaign\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Benny Peiser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Benny Peiser",
+                "types": [],
+                "wikid": "Benny Peiser",
+                "dbpedia": "Benny Peiser"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Benny Peiser -> UN": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "many of the movement's leaders and its voters are deeply skeptical of the man-made global-warming theory",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Benny Peiser",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Benny Peiser",
+                "types": [],
+                "wikid": "Benny Peiser",
+                "dbpedia": "Benny Peiser"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "global-warming theory",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "global-warming theory",
+                "types": [],
+                "wikid": "global-warming theory",
+                "dbpedia": "global-warming theory"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Benny Peiser -> global-warming theory": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "it will be more difficult for the deal to be shredded...if enough Third World dictators can be bribed into ratifying the pseudo-treaty before a potential President Trump",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump",
+                "types": [],
+                "wikid": "Trump",
+                "dbpedia": "Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UN",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UN",
+                "types": [],
+                "wikid": "UN",
+                "dbpedia": "UN"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Trump -> UN": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "sentence": "This site was set up with the sole purpose of stealing your personal data.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Access to the website",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Access to the website",
+                "types": [],
+                "wikid": "Access to the website",
+                "dbpedia": "Access to the website"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "personal data theft",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "personal data theft"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Access to the website -> personal data theft": [
+                -1.0
+            ]
+        }
+    }
+]

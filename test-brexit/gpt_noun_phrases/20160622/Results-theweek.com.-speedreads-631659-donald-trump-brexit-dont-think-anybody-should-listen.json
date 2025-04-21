@@ -1,0 +1,137 @@
+[
+    {
+        "sentence": "We reported on June 1 that Donald Trump apparently has no idea what the Brexit is",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "President Obama has urged against a Brexit",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Obama -> Donald Trump": [
+                -1.0
+            ],
+            "Donald Trump -> President Obama": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "President Obama has urged against a Brexit, saying it could take as many as 10 years for Britain to negotiate new trade deals with the States",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic implications of Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic implications of Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> economic implications of Brexit": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Muslim ban", "references": ["halt of all Muslims entering the country", "proposed ban on an entire religion"]},
+      "justifications": [
+        "He called for an across-the-board halt of all Muslims entering the country, warning they carried the risk of additional terror attacks.",
+        "While many Republicans hoped Trump would back away from his proposed ban on an entire religion, he embraced it even tighter after the Orlando shootings."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "target": {"topic": "immigration policy", "references": ["stop accepting this influx of immigrants", "reestablish our own borders"]},
+      "justifications": [
+        "In the wake of last year's Paris terror attacks, she told NPR that France needed 'to institute a major policy, which would reestablish our own borders. This means we need to stop accepting this influx of immigrants.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "target": {"topic": "Syrian refugee policy", "references": ["the continued flow of Syrian refugees into Europe"]},
+      "justifications": [
+        "She called the continued flow of Syrian refugees into Europe 'madness' and urged for an end to the open-border policy that is a hallmark of the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Viktor Orban", "references": ["Viktor Orban"]},
+      "target": {"topic": "border security", "references": ["physical barrier we are just setting up at this moment in Hungary"]},
+      "justifications": [
+        "\"Many people criticize the physical barrier we are just setting up at this moment in Hungary,\" he said at the European Union headquarters in Brussels last year."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "justifications": [
+        "\"The idea of nativism - of seeing your country under threat by non-natives, specifically immigrants and Muslims, is something that Marine Le Pen and Donald Trump clearly share,\\\" says Cas Mudde, a University of Georgia professor, who specializes in nationalist movements."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Viktor Orban", "references": ["Viktor Orban"]},
+      "justifications": [
+        "\"The idea of nativism - of seeing your country under threat by non-natives, specifically immigrants and Muslims, is something that Marine Le Pen and Donald Trump clearly share,\\\" says Cas Mudde, a University of Georgia professor, who specializes in nationalist movements."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+[
+    {
+        "sentence": "Water Matters Europe\u2019s water is under increasing pressure.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "water protection",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "water protection"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe -> water protection": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "how our wastewater can be better managed",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "water management",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "water management"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe -> water management": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "discover some of the best water solutions",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "water solutions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "water solutions"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Europe -> water solutions": [
+                1.0
+            ]
+        }
+    }
+]

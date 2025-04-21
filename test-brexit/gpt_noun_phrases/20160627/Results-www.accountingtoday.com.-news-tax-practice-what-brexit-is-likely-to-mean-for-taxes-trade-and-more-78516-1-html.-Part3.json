@@ -1,0 +1,54 @@
+[
+    {
+        "sentence": "the major (France and Germany) EU members will want to send a strong message that it will be costly to any other countries that are contemplating an exit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Germany",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Germany",
+                "types": [],
+                "wikid": "Germany",
+                "dbpedia": "Germany"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU exit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU exit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "France -> Germany": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "France -> EU exit": [
+                -1.0
+            ],
+            "Germany -> EU exit": [
+                -1.0
+            ]
+        }
+    }
+]

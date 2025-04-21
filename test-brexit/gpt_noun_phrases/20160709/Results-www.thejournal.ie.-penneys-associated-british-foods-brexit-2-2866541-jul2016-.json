@@ -1,0 +1,191 @@
+[
+    {
+        "sentence": "The budget clothing retailer, which trades under the Primark brand outside of Ireland, has recently been making major inroads into Europe, opening stores in Spain, France and Italy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Associated British Foods (ABP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Associated British Foods (ABP)",
+                "types": [],
+                "wikid": "Associated British Foods (ABP)",
+                "dbpedia": "Associated British Foods (ABP)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit impact on UK sales",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit impact on UK sales"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Associated British Foods (ABP) -> Brexit impact on UK sales": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "ABP said that although the chain could be impacted by the drop in sterling its growth plans are still on course.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Associated British Foods (ABP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Associated British Foods (ABP)",
+                "types": [],
+                "wikid": "Associated British Foods (ABP)",
+                "dbpedia": "Associated British Foods (ABP)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Primark",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Primark",
+                "types": [],
+                "wikid": "Primark",
+                "dbpedia": "Primark"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "sterling drop",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "sterling drop"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Primark -> Associated British Foods (ABP)": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Associated British Foods (ABP) -> sterling drop": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We remain optimistic for the group's continued growth, particularly with our plans for Primark's expansion which remain unchanged.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Associated British Foods (ABP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Associated British Foods (ABP)",
+                "types": [],
+                "wikid": "Associated British Foods (ABP)",
+                "dbpedia": "Associated British Foods (ABP)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Primark expansion",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Primark expansion"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Associated British Foods (ABP) -> Primark expansion": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The firm's expansion plans are still on course despite concerns that Brexit will hit its UK sales.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Primark",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Primark",
+                "types": [],
+                "wikid": "Primark",
+                "dbpedia": "Primark"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Primark -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Last month long-standing director Breege O'Donoghue, who was one of the most powerful people in Irish retailing, stepped down from her role after 37 years with the firm.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Breege O'Donoghue",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Breege O'Donoghue",
+                "types": [],
+                "wikid": "Breege O'Donoghue",
+                "dbpedia": "Breege O'Donoghue"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Primark",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Primark",
+                "types": [],
+                "wikid": "Primark",
+                "dbpedia": "Primark"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Breege O'Donoghue -> Primark": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

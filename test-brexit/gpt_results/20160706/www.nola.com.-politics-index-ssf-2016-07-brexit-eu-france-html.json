@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "federal judge",
+        "references": ["federal judge"]
+      },
+      "target": {
+        "topic": "release of ICE detainees",
+        "references": ["release into Louisiana"]
+      },
+      "justifications": [
+        "A federal judge in Lafayette will decide whether ICE detainees can be released into Louisiana"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "ICE detainees",
+        "references": ["ICE detainees"]
+      },
+      "target": {
+        "topic": "medical clearance",
+        "references": ["medically cleared by the state"]
+      },
+      "justifications": [
+        "A federal judge in Lafayette will decide whether ICE detainees can be released into Louisiana without first getting medically cleared by the state"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "federal judge",
+        "references": ["federal judge"]
+      },
+      "entity2": {
+        "entity": "ICE detainees",
+        "references": ["ICE detainees"]
+      },
+      "justifications": [
+        "A federal judge in Lafayette will decide whether ICE detainees can be released into Louisiana"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+[
+    {
+        "sentence": "UKIP mobilized a majority of voters to vote Leave in the referendum",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party (UKIP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party (UKIP)",
+                "types": [],
+                "wikid": "UK Independence Party (UKIP)",
+                "dbpedia": "UK Independence Party (UKIP)"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK Independence Party (UKIP) -> Leave campaign": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK Independence Party (UKIP) -> Brexit vote": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "With Brexit, that group was UKIP and the Leave campaign.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Leave campaign",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Leave campaign",
+                "types": [],
+                "wikid": "Leave campaign",
+                "dbpedia": "Leave campaign"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Leave campaign -> Brexit vote": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "UKIP's former leader, Nigel Farage, has already dubbed 'one of the mistakes the Leave campaign made.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nigel Farage",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nigel Farage",
+                "types": [],
+                "wikid": "Nigel Farage",
+                "dbpedia": "Nigel Farage"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK Independence Party (UKIP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK Independence Party (UKIP)",
+                "types": [],
+                "wikid": "UK Independence Party (UKIP)",
+                "dbpedia": "UK Independence Party (UKIP)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Nigel Farage -> UK Independence Party (UKIP)": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Nigel Farage -> Brexit vote": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump supporters share with Brexit supporters the conviction that immigration must be stemmed at nearly all costs.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump supporters",
+                "types": [],
+                "wikid": "Trump supporters",
+                "dbpedia": "Trump supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Trump supporters -> Brexit supporters": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Trump supporters -> immigration": [
+                1.0
+            ],
+            "Brexit supporters -> immigration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump supporters share feelings of deprivation relative to those around them.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Trump supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Trump supporters",
+                "types": [],
+                "wikid": "Trump supporters",
+                "dbpedia": "Trump supporters"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "deprivation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "deprivation"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Trump supporters -> deprivation": [
+                1.0
+            ],
+            "Brexit supporters -> deprivation": [
+                1.0
+            ]
+        }
+    }
+]

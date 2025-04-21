@@ -1,0 +1,181 @@
+[
+    {
+        "sentence": "Hollande backed Clinton in a June 30 interview with Les Echos newspaper",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Francois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Francois Hollande",
+                "types": [],
+                "wikid": "Francois Hollande",
+                "dbpedia": "Francois Hollande"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.S. presidential race",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.S. presidential race"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Francois Hollande -> Hillary Clinton": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Francois Hollande -> U.S. presidential race": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The arguments in the Brexit vote and in the American presidential campaign are about the same.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Francois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Francois Hollande",
+                "types": [],
+                "wikid": "Francois Hollande",
+                "dbpedia": "Francois Hollande"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Francois Hollande -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump has said the U.S. is paying too much to sustain NATO",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Francois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Francois Hollande",
+                "types": [],
+                "wikid": "Francois Hollande",
+                "dbpedia": "Francois Hollande"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Francois Hollande -> NATO": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hollande backed Clinton in a June 30 interview with Les Echos newspaper, saying that the rhetoric of her main opponent, Donald Trump, puts him on the same level as Europe's extreme right.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Francois Hollande",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Francois Hollande",
+                "types": [],
+                "wikid": "Francois Hollande",
+                "dbpedia": "Francois Hollande"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Francois Hollande -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

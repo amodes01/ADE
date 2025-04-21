@@ -1,0 +1,131 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"topic": "Vote Leave campaign", "references": ["Vote Leave"]},
+      "justifications": [
+        "Khan held up a Vote Leave leaflet that suggested Iraq and Syria would soon share the same border with the E.U.",
+        "Your campaign has not been Project Fear, it's been Project Hate as far as immigration is concerned."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "target": {"topic": "Vote Leave campaign", "references": ["Vote Leave"]},
+      "justifications": [
+        "Davidson launched a strong attack against her fellow Conservative Party member - and potential leadership rival - saying: \"You are going to be asked to vote in two days time and all you have heard tonight is 'trust us and it will all be fine' and that's not good enough\"",
+        "\"They [Vote Leave] will not tell us how much the economy will be hit by, they will not tell us how many jobs might go, they will not tell us what they will replace the single market with.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Frances O'Grady", "references": ["Frances O'Grady"]},
+      "target": {"topic": "Vote Leave campaign", "references": ["Vote Leave"]},
+      "justifications": [
+        "The Remain side wasted no time in attacking the allegedly misleading campaign materials and claims of their opponents."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "E.U.", "references": ["E.U."]},
+      "justifications": [
+        "When Johnson called the E.U. a \"job destroying engine\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "She won applause by angrily lambasting the opposite side's call to \"take back control\" of the the country's borders, by withdrawing from free movement rules that have seen up to 3 million Europeans settle in the U.K.",
+        "\"You lose control by losing your seat at the table.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "In rousing ending remarks, Johnson declared that Vote Leave was the side of \"hope\" and June 23 could become Britain's \"Independence Day.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Matthew Elliott", "references": ["Matthew Elliott"]},
+      "target": {"topic": "Remain campaign", "references": ["Remain"]},
+      "justifications": [
+        "\"The in campaign had nothing positive to contribute tonight\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Will Straw", "references": ["Will Straw"]},
+      "target": {"topic": "Vote Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "\"The leave campaign blew their last chance to give a credible plan for Britain's future.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chuka Umunna", "references": ["Chuka Umunna"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Pro-Remain Labour MP Chuka Umunna told TIME after the event that a vote to leave would be devastating for Britain's relationship to the wider world as it acts \"as an important bridge\" to countries like the U.S. and India."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Khan held up a Vote Leave leaflet that suggested Iraq and Syria would soon share the same border with the E.U.",
+        "Your campaign has not been Project Fear, it's been Project Hate as far as immigration is concerned."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Davidson launched a strong attack against her fellow Conservative Party member - and potential leadership rival - saying: \"You are going to be asked to vote in two days time and all you have heard tonight is 'trust us and it will all be fine' and that's not good enough\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Frances O'Grady", "references": ["Frances O'Grady"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "The Remain side wasted no time in attacking the allegedly misleading campaign materials and claims of their opponents."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Ruth Davidson", "references": ["Ruth Davidson"]},
+      "justifications": [
+        "Davidson launched a strong attack against her fellow Conservative Party member - and potential leadership rival - saying: \"You are going to be asked to vote in two days time and all you have heard tonight is 'trust us and it will all be fine' and that's not good enough\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Matthew Elliott", "references": ["Matthew Elliott"]},
+      "entity2": {"entity": "Will Straw", "references": ["Will Straw"]},
+      "justifications": [
+        "\"The leave campaign blew their last chance to give a credible plan for Britain's future.\"",
+        "\"The in campaign had nothing positive to contribute tonight\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Chuka Umunna", "references": ["Chuka Umunna"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Pro-Remain Labour MP Chuka Umunna told TIME after the event that a vote to leave would be devastating for Britain's relationship to the wider world as it acts \"as an important bridge\" to countries like the U.S. and India."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

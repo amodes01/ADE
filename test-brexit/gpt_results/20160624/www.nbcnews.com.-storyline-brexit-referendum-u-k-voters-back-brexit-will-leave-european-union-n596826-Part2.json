@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The U.K. is America's strongest military ally and the U.S. has a vested interest in its overall role in Europe.", "A Brexit will undoubtedly shift the balance of power in Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Tusk", "references": ["Donald Tusk"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["EU President Donald Tusk acknowledged he was 'fully aware of how serious, or even dramatic' a political moment the bloc was facing but said it was 'not a moment for hysterical reactions.'", "He stressed the need to 'keep our unity as 27' nations - a number reflecting Britain's departure from the EU from the formerly 28-country bloc."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["President Barack Obama had urged British voters to remain in the EU - the U.K. is America's strongest military ally and the U.S. has a vested interest in its overall role in Europe.", "He downplayed any fears of a potential rift on Friday, saying in a statement that 'the special relationship between the United States and the United Kingdom is enduring.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Donald Trump, meanwhile, praised the results of the referendum while on a visit to Scotland.", "'I think that it's a great thing,' he told reporters.", "'They took back their country.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Michael Timon", "references": ["Michael Timon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["'It's great, it's fantastic,' 24-year-old electrician Michael Timon told NBC News.", "'We can finally start being Britain again. Start saving some money.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nadine Michel", "references": ["Nadine Michel"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Nadine Michel, a 33-year-old German national living in London, wondered if she'd need a visa to stay in the country.", "'It's confusing and a bit terrifying, because basically we do not know what's gonna happen.'"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Tusk", "references": ["Donald Tusk"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["EU President Donald Tusk acknowledged he was 'fully aware of how serious, or even dramatic' a political moment the bloc was facing but said it was 'not a moment for hysterical reactions.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["President Barack Obama had urged British voters to remain in the EU - the U.K. is America's strongest military ally and the U.S. has a vested interest in its overall role in Europe.", "'We respect their decision,' Obama added."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Donald Trump, meanwhile, praised the results of the referendum while on a visit to Scotland.", "'I think that it's a great thing,' he told reporters.", "'They took back their country.'"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Michael Timon", "references": ["Michael Timon"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["'It's great, it's fantastic,' 24-year-old electrician Michael Timon told NBC News.", "'We can finally start being Britain again. Start saving some money.'"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nadine Michel", "references": ["Nadine Michel"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Nadine Michel, a 33-year-old German national living in London, wondered if she'd need a visa to stay in the country.", "'It's confusing and a bit terrifying, because basically we do not know what's gonna happen.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Frank-Walter Steinmeier", "references": ["Frank-Walter Steinmeier"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Germany's Foreign Minister Frank-Walter Steinmeier calling the news 'truly sobering.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["French President Francois Hollande described the vote as a 'tough test for Europe.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Manuel Valls", "references": ["Prime Minister Manuel Valls"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Prime Minister Manuel Valls called it 'an explosive shock.'"],
+      "attitude": "Negative"
+    }
+  ]
+}

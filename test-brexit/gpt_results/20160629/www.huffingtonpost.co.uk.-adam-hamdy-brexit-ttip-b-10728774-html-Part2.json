@@ -1,0 +1,158 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "War on Want", "references": ["War on Want"]},
+      "target": {"topic": "CETA", "references": ["CETA"]},
+      "justifications": [
+        "joining War on Want's campaign calling on the Prime Minister to guarantee that MPs will have a vote on CETA."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "ISDS courts", "references": ["ISDS courts"]},
+      "target": {"topic": "NHS", "references": ["NHS"]},
+      "justifications": [
+        "Before the Brexit vote, ISDS courts posed a risk to every aspect of life in Britain, but my particular concern was the NHS."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British people", "references": ["British people"]},
+      "target": {"topic": "CETA", "references": ["CETA"]},
+      "justifications": [
+        "the British people have not only protected themselves from the corporatisation of their democracy, they may have also protected the people of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "TTIP", "references": ["TTIP"]},
+      "justifications": [
+        "The EU has not listened to campaign groups, protestors, and members of the public, who have mobilised against TTIP across the continent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Before the Brexit vote, ISDS courts posed a risk to every aspect of life in Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British people", "references": ["British people"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "the British people have not only protected themselves from the corporatisation of their democracy, they may have also protected the people of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "UK-US trade deal", "references": ["US-UK trade deal"]},
+      "justifications": [
+        "A US-UK trade deal will be far simpler to conclude than TTIP."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "TTIP", "references": ["TTIP"]},
+      "justifications": [
+        "Economically, if TTIP does get parked, and the signals already coming from the US translate into action."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave vote", "references": ["Leave vote"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The Leave vote has shown that the people of Britain are prepared to walk away from deals if the terms are not right."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": [
+        "I could not in good conscience accept something as fundamentally contrary to the principles of democracy as the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "War on Want", "references": ["War on Want"]},
+      "entity2": {"entity": "Prime Minister", "references": ["Prime Minister"]},
+      "justifications": [
+        "joining War on Want's campaign calling on the Prime Minister to guarantee that MPs will have a vote on CETA."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "War on Want", "references": ["War on Want"]},
+      "entity2": {"entity": "CETA", "references": ["CETA"]},
+      "justifications": [
+        "joining War on Want's campaign calling on the Prime Minister to guarantee that MPs will have a vote on CETA."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British people", "references": ["British people"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "the British people have not only protected themselves from the corporatisation of their democracy, they may have also protected the people of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "TTIP", "references": ["TTIP"]},
+      "justifications": [
+        "The EU has not listened to campaign groups, protestors, and members of the public, who have mobilised against TTIP across the continent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "Leave vote", "references": ["Leave vote"]},
+      "justifications": [
+        "Before the Brexit vote, ISDS courts posed a risk to every aspect of life in Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "US", "references": ["US"]},
+      "entity2": {"entity": "UK", "references": ["Britain"]},
+      "justifications": [
+        "We have a great deal in common with the US and there are many similarities in our economies and legal systems."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British people", "references": ["British people"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "the British people have not only protected themselves from the corporatisation of their democracy, they may have also protected the people of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Leave vote", "references": ["Leave vote"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "The Leave vote has shown that the people of Britain are prepared to walk away from deals if the terms are not right."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave campaign", "references": ["Leave"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "I could not in good conscience accept something as fundamentally contrary to the principles of democracy as the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

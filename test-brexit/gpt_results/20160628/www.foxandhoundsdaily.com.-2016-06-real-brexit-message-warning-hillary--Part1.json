@@ -1,0 +1,41 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "globalization", "references": ["globalization"]},
+      "justifications": [
+        "The divide was over globalization; not xenophobia or race.",
+        "People who feel left behind in a global economy, which is much of England, voted to rid themselves of the fuddy duddy socialist bureaucracy in Brussels that runs the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "Brexit did not affect them at all. The problem is that any resident of the 27 other EU countries has a legal right to come into Britain; the country could not control its own borders.",
+        "The issue in Britain is white Europeans who are seen as taking jobs away from native Brits."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British Prime Minister Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "US President Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "One year from now the leaders of the Free World could well be two men born in New York with weird orange hair, British Prime Minister Boris Johnson and American President Donald Trump."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "justifications": [
+        "Brexit vote shows why Hillary Clinton could well lose the presidential election because, like the establishment in Britain, her handlers are in denial about how mad people are about their own economic conditions."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

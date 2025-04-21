@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "U.K.", "references": ["U.K."]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Some sectors were prepared to benefit from the exit.", "The government was correct that there was no example of this kind of relationship in Europe.", "The Norway Model: Join the EEA"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "India", "references": ["India"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["In May 2016, the State Bank of India, India's largest commercial bank, suggested that Brexit would benefit India economically.", "India would also have more wiggle room if the U.K. were no longer under European trade rules and regulations."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "E.U.", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["it would allow for more focus on trade with India.", "While leaving the eurozone meant that the U.K. no longer had unfettered access to Europe's single market, it would allow for more focus on trade with India."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.K.", "references": ["U.K."]},
+      "target": {"topic": "Hard Brexit", "references": ["hard Brexit"]},
+      "justifications": ["May advocated a \"hard Brexit.\"", "By that, she meant that Britain should leave the EU's single market and customs union and negotiate a trade deal to govern their future relationship."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "U.K.", "references": ["U.K."]},
+      "target": {"topic": "Soft Brexit", "references": ["softer Brexit"]},
+      "justifications": ["The white paper released in July 2018 revealed plans for a softer Brexit.", "It was too soft for many MPs in her party and too audacious for the EU."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Theresa May", "references": ["May"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["May called this arrangement an unacceptable \"loss of democratic control.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Theresa May", "references": ["May"]},
+      "entity2": {"entity": "David Davis", "references": ["David Davis"]},
+      "justifications": ["David Davis expressed interest in the..."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "U.K.", "references": ["U.K."]},
+      "entity2": {"entity": "Norway", "references": ["Norway"]},
+      "justifications": ["The first option was for the U.K. to join Norway, Iceland, and Lichtenstein in the European Economic Area (EEA)."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "U.K.", "references": ["U.K."]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["The U.K. would be bound by some EU laws while losing its ability to influence those laws through the country's European Council and European Parliament voting rights."],
+      "attitude": "Negative"
+    }
+  ]
+}

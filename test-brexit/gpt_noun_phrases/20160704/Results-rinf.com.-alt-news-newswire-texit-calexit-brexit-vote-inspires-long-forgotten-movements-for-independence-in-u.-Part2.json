@@ -1,0 +1,404 @@
+[
+    {
+        "sentence": "the Alaskan Independence Party (AIP) has been calling to quit the US since 1980s.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Alaskan Independence Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Alaskan Independence Party",
+                "types": [],
+                "wikid": "Alaskan Independence Party",
+                "dbpedia": "Alaskan Independence Party"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US secession"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Alaskan Independence Party -> US": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Alaskan Independence Party -> US secession": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "There is also the so-called Cascadian movement in the US and Canada, which calls to form a country consisting of Washington, Oregon and portions of other US states, as well as British Columbia, Canada.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Cascadian movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Cascadian movement",
+                "types": [],
+                "wikid": "Cascadian movement",
+                "dbpedia": "Cascadian movement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US and Canada",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US and Canada",
+                "types": [],
+                "wikid": "US and Canada",
+                "dbpedia": "US and Canada"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US and Canadian independence",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US and Canadian independence"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Cascadian movement -> US and Canada": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Cascadian movement -> US and Canadian independence": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "One of them, the Hawaiian sovereignty movement, says that the archipelago's annexation was illegal.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hawaiian sovereignty movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hawaiian sovereignty movement",
+                "types": [],
+                "wikid": "Hawaiian sovereignty movement",
+                "dbpedia": "Hawaiian sovereignty movement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Hawaii's annexation",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Hawaii's annexation"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Hawaiian sovereignty movement -> US": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Hawaiian sovereignty movement -> Hawaii's annexation": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "According to Eugene Volokh, a law professor at University of California, the exit of states from the US, and Texit in particular, will not happen.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eugene Volokh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eugene Volokh",
+                "types": [],
+                "wikid": "Eugene Volokh",
+                "dbpedia": "Eugene Volokh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texit",
+                "types": [],
+                "wikid": "Texit",
+                "dbpedia": "Texit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US secession"
+                ]
+            },
+            {
+                "ngram": "Texit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Texit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Eugene Volokh -> Texit": [
+                -1.0
+            ],
+            "Eugene Volokh -> Texans": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Eugene Volokh -> US secession": [
+                -1.0
+            ],
+            "Eugene Volokh -> Texit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"A state could not legally force the US to let it secede, if the US refused.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eugene Volokh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eugene Volokh",
+                "types": [],
+                "wikid": "Eugene Volokh",
+                "dbpedia": "Eugene Volokh"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US secession process",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US secession process"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Eugene Volokh -> US secession process": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"But if the state and the US agreed, that would be doable.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eugene Volokh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eugene Volokh",
+                "types": [],
+                "wikid": "Eugene Volokh",
+                "dbpedia": "Eugene Volokh"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US secession process",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US secession process"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Eugene Volokh -> US secession process": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"At worst, it would require a constitutional amendment, but most likely an act of Congress, coupled with a majority referendum that the state government views as binding, would suffice.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eugene Volokh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eugene Volokh",
+                "types": [],
+                "wikid": "Eugene Volokh",
+                "dbpedia": "Eugene Volokh"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US secession process",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US secession process"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Eugene Volokh -> US secession process": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"most Texans\u2026are proud to be Americans, whether or not they like what the federal government is doing\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US national pride",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US national pride"
+                ]
+            },
+            {
+                "ngram": "US government",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US government"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Texans -> US national pride": [
+                1.0
+            ],
+            "Texans -> US government": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"and they can see the benefits of remaining part of a powerful country that can defend their interests.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texans",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texans",
+                "types": [],
+                "wikid": "Texans",
+                "dbpedia": "Texans"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "US national defense",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "US national defense"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Texans -> US national defense": [
+                1.0
+            ]
+        }
+    }
+]

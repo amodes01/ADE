@@ -1,0 +1,122 @@
+[
+    {
+        "sentence": "A weak pound is a nominal construct as far as exchange rates go.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British pound (GBP)",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British pound (GBP)",
+                "types": [],
+                "wikid": "British pound (GBP)",
+                "dbpedia": "British pound (GBP)"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "value of GBP",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "value of GBP"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British pound (GBP) -> value of GBP": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Bank of England's willingness to intervene in times of crisis to defend the pound.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bank of England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bank of England",
+                "types": [],
+                "wikid": "Bank of England",
+                "dbpedia": "Bank of England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "value of GBP",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "value of GBP"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bank of England -> value of GBP": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The resignation of Kwasi Kwarteng as Chancellor of the Exchequer and the subsequent collapse of the Liz Truss government seem to be acting as a stabilizing influence on the GBP.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Kwasi Kwarteng",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Kwasi Kwarteng",
+                "types": [],
+                "wikid": "Kwasi Kwarteng",
+                "dbpedia": "Kwasi Kwarteng"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Liz Truss government",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Liz Truss government",
+                "types": [],
+                "wikid": "Liz Truss government",
+                "dbpedia": "Liz Truss government"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "GBP value",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "GBP value"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Kwasi Kwarteng -> Liz Truss government": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Kwasi Kwarteng -> GBP value": [
+                1.0
+            ],
+            "Liz Truss government -> GBP value": [
+                1.0
+            ]
+        }
+    }
+]

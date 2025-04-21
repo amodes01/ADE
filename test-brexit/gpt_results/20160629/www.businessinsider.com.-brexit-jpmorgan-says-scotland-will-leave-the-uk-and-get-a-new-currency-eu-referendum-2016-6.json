@@ -1,0 +1,190 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "JPMorgan",
+        "references": ["JPMorgan"]
+      },
+      "target": {
+        "topic": "Scottish independence",
+        "references": ["Scottish independence"]
+      },
+      "justifications": [
+        "JPMorgan is almost certain that Scotland will leave the UK before an official Brexit",
+        "The investment bank writes in a note titled 'How Brexit Happens:' 'Intersecting the UK's EU exit process is likely to be pressure to hold a new referendum on Scottish independence'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "JPMorgan",
+        "references": ["JPMorgan"]
+      },
+      "target": {
+        "topic": "new currency in Scotland",
+        "references": ["new currency"]
+      },
+      "justifications": [
+        "JPMorgan is almost certain that Scotland will leave the UK before an official Brexit and believes the newly independent country will adopt a new currency for the first time in 300 years."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "JPMorgan",
+        "references": ["JPMorgan"]
+      },
+      "target": {
+        "topic": "Scotland's membership in the EU",
+        "references": ["whether Scotland ends up in the EU"]
+      },
+      "justifications": [
+        "The bank says it will cover its forecast for Scotland in more detail in a future note, although, obviously, the future currency would depend on whether Scotland ends up in the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["position in Europe"]
+      },
+      "justifications": [
+        "Sturgeon is in Brussels on Wednesday to meet with European Parliament leaders to discuss Scotland's position in Europe."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "second referendum on independence",
+        "references": ["second referendum on Scottish independence"]
+      },
+      "justifications": [
+        "Scotland's leader Nicola Sturgeon began pushing for a second referendum on Scottish independence almost as soon as the Brexit vote came in last week."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["62% voting for Remain"]
+      },
+      "justifications": [
+        "Scotland decisively voted to remain in the EU with 62% voting for Remain compared to 38% who voted for Leave."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["protect our relationship with the European Union"]
+      },
+      "justifications": [
+        "Sturgeon has said she will 'protect our relationship with the European Union.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Spain",
+        "references": ["Spain"]
+      },
+      "target": {
+        "topic": "Scottish independence negotiations",
+        "references": ["separate negotiations between Edinburgh and Brussels"]
+      },
+      "justifications": [
+        "Spain's Prime Minister Mariano Rajoy has said there cannot be separate negotiations between Edinburgh and Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Peter Catterall",
+        "references": ["Peter Catterall"]
+      },
+      "target": {
+        "topic": "second referendum on Scottish independence",
+        "references": ["second referendum on Scottish independence"]
+      },
+      "justifications": [
+        "Peter Catterall of Westminster University told Business Insider this week he does not think there will be a second referendum on Scottish independence."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Peter Catterall",
+        "references": ["Peter Catterall"]
+      },
+      "target": {
+        "topic": "second referendum on Scottish independence",
+        "references": ["second referendum on Scottish independence"]
+      },
+      "justifications": [
+        "That's because it would be hugely 'messy' on a political level and because the Scottish economy simply cannot handle a secession right now."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "entity2": {
+        "entity": "JPMorgan",
+        "references": ["JPMorgan"]
+      },
+      "justifications": [
+        "JPMorgan is almost certain that Scotland will leave the UK before an official Brexit",
+        "The investment bank writes in a note titled 'How Brexit Happens:' 'Intersecting the UK's EU exit process is likely to be pressure to hold a new referendum on Scottish independence'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "entity2": {
+        "entity": "Mariano Rajoy",
+        "references": ["Mariano Rajoy"]
+      },
+      "justifications": [
+        "Spain's Prime Minister Mariano Rajoy has said there cannot be separate negotiations between Edinburgh and Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Peter Catterall",
+        "references": ["Peter Catterall"]
+      },
+      "entity2": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "justifications": [
+        "Peter Catterall of Westminster University told Business Insider this week he does not think there will be a second referendum on Scottish independence."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

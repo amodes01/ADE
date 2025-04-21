@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "The theme is Brexit, and people are concerned.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "investor sentiment",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "investor sentiment"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> investor sentiment": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Investors pulled out of riskier markets over the last week, data from Lipper showed on Thursday, as they braced for a British vote on its European Union membership even as stocks rallied.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "market performance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "market performance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> market performance": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Tom Roseen, head of research services for Thomson Reuters Lipper, said the theme is Brexit, and people are concerned.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Tom Roseen",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Tom Roseen",
+                "types": [],
+                "wikid": "Tom Roseen",
+                "dbpedia": "Tom Roseen"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Thomson Reuters Lipper",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Thomson Reuters Lipper",
+                "types": [],
+                "wikid": "Thomson Reuters Lipper",
+                "dbpedia": "Thomson Reuters Lipper"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Tom Roseen -> Thomson Reuters Lipper": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "For now, Michel Del Buono, global strategist at Makena Capital Management, which oversees $20 billion of assets, said investor aversion to risk in recent weeks stems from uncertainty and worries about slowing growth, particularly a China meltdown.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Michel Del Buono",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Michel Del Buono",
+                "types": [],
+                "wikid": "Michel Del Buono",
+                "dbpedia": "Michel Del Buono"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Makena Capital Management",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Makena Capital Management",
+                "types": [],
+                "wikid": "Makena Capital Management",
+                "dbpedia": "Makena Capital Management"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Michel Del Buono -> Makena Capital Management": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

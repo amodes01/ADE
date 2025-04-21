@@ -1,0 +1,186 @@
+[
+    {
+        "sentence": "But outside London, England has numerous communities that have been propped up by EU funding and subsidies.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "England -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "England -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Then there is London, an island of pro-European sentiment within an English sea of anti-E.U. anger.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "England -> London": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "London -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "outgoing PM David Cameron even renegotiated the U.K.'s membership in the E.U. a few months ago to better address them.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> EU": [
+                -1.0
+            ],
+            "David Cameron -> England": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Cornwall is a county of 500,000 people that depends on $80 million a year from Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Cornwall",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Cornwall",
+                "types": [],
+                "wikid": "Cornwall",
+                "dbpedia": "Cornwall"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Cornwall -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

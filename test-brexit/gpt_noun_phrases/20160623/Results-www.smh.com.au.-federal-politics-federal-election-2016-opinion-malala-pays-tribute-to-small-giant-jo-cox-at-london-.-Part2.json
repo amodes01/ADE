@@ -1,0 +1,229 @@
+[
+    {
+        "sentence": "Labor will widen its scare campaign to claim students' vaccination records could end up in the hands of private companies.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Labor",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Labor",
+                "types": [],
+                "wikid": "Labor",
+                "dbpedia": "Labor"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Coalition",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Coalition",
+                "types": [],
+                "wikid": "Coalition",
+                "dbpedia": "Coalition"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "vaccination records",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "vaccination records"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Labor -> Coalition": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Labor -> vaccination records": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Treasury-commissioned analysis says the Coalition's corporate tax cut would deliver 'one of the largest pay-offs imaginable from a government decision.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Treasury",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Treasury",
+                "types": [],
+                "wikid": "Treasury",
+                "dbpedia": "Treasury"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "corporate tax cut",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "corporate tax cut"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Treasury -> corporate tax cut": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "A senior vet was expelled from her government role after she exposed the pain and suffering of the live cattle export trade.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dr. Lynn Simpson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dr. Lynn Simpson",
+                "types": [],
+                "wikid": "Dr. Lynn Simpson",
+                "dbpedia": "Dr. Lynn Simpson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Commonwealth",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Commonwealth",
+                "types": [],
+                "wikid": "Commonwealth",
+                "dbpedia": "Commonwealth"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Dr. Lynn Simpson -> Commonwealth": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "A senior vet was expelled from her government role after she exposed the pain and suffering of the live cattle export trade, including animals coated in faeces and dying of heat exhaustion.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dr. Lynn Simpson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dr. Lynn Simpson",
+                "types": [],
+                "wikid": "Dr. Lynn Simpson",
+                "dbpedia": "Dr. Lynn Simpson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "live cattle export trade",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "live cattle export trade",
+                "types": [],
+                "wikid": "live cattle export trade",
+                "dbpedia": "live cattle export trade"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Dr. Lynn Simpson -> live cattle export trade": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Bihar is one of India's poorest states and borders Nepal in the north-east of the country.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bihar",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bihar",
+                "types": [],
+                "wikid": "Bihar",
+                "dbpedia": "Bihar"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "India",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "India",
+                "types": [],
+                "wikid": "India",
+                "dbpedia": "India"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bihar -> India": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Lightning strikes are a big killer in India.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "India",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "India",
+                "types": [],
+                "wikid": "India",
+                "dbpedia": "India"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "lightning strikes",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "lightning strikes",
+                "types": [],
+                "wikid": "lightning strikes",
+                "dbpedia": "lightning strikes"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "India -> lightning strikes": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

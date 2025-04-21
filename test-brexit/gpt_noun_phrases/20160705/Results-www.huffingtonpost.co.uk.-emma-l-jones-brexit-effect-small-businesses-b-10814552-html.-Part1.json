@@ -1,0 +1,266 @@
+[
+    {
+        "sentence": "The Institute of Chartered Accountants England and Wales, (ICAEW) has some great advice on this.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The Institute of Chartered Accountants England and Wales",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The Institute of Chartered Accountants England and Wales",
+                "types": [],
+                "wikid": "The Institute of Chartered Accountants England and Wales",
+                "dbpedia": "The Institute of Chartered Accountants England and Wales"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "business finances",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "business finances"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The Institute of Chartered Accountants England and Wales -> business finances": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "What worries some UK firms is that if they have to pay more for goods coming inwards from EU suppliers",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK firms",
+                "types": [],
+                "wikid": "UK firms",
+                "dbpedia": "UK firms"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU suppliers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU suppliers",
+                "types": [],
+                "wikid": "EU suppliers",
+                "dbpedia": "EU suppliers"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU suppliers",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU suppliers"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UK firms -> EU suppliers": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UK firms -> EU suppliers": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "These firms will have to join a member state's Non-EU VAT MOSS scheme, or register individually in each EU country they do business with.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British firms",
+                "types": [],
+                "wikid": "British firms",
+                "dbpedia": "British firms"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU VAT rules",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU VAT rules"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "British firms -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "British firms -> EU VAT rules": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "UKFT.org has a listing of British clothing manufacturers on its site www.ukft.org",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UKFT.org",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UKFT.org",
+                "types": [],
+                "wikid": "UKFT.org",
+                "dbpedia": "UKFT.org"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British suppliers",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British suppliers",
+                "types": [],
+                "wikid": "British suppliers",
+                "dbpedia": "British suppliers"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "British suppliers",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British suppliers"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "UKFT.org -> British suppliers": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "UKFT.org -> British suppliers": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The World Trade Organisation's website has data around import and duty tariffs and regulations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "The World Trade Organisation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "The World Trade Organisation",
+                "types": [],
+                "wikid": "The World Trade Organisation",
+                "dbpedia": "The World Trade Organisation"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade outside of Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade outside of Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "The World Trade Organisation -> trade outside of Europe": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Later this year Enterprise Nation will be leading trade missions to China and the US for the smallest firms.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Enterprise Nation",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Enterprise Nation",
+                "types": [],
+                "wikid": "Enterprise Nation",
+                "dbpedia": "Enterprise Nation"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "small firms",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "small firms",
+                "types": [],
+                "wikid": "small firms",
+                "dbpedia": "small firms"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "trade missions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "trade missions"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Enterprise Nation -> small firms": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Enterprise Nation -> trade missions": [
+                1.0
+            ]
+        }
+    }
+]

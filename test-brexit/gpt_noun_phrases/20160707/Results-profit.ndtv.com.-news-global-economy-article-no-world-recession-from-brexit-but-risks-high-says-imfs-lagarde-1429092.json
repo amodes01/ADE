@@ -1,0 +1,205 @@
+[
+    {
+        "sentence": "Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christine Lagarde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christine Lagarde",
+                "types": [],
+                "wikid": "Christine Lagarde",
+                "dbpedia": "Christine Lagarde"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Christine Lagarde -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Christine Lagarde -> Brexit": [
+                -1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ms Lagarde... told me that Brexit could be a catalyst that could push the EU to deepen its economic integration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christine Lagarde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christine Lagarde",
+                "types": [],
+                "wikid": "Christine Lagarde",
+                "dbpedia": "Christine Lagarde"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU integration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU integration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Christine Lagarde -> EU": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Christine Lagarde -> EU integration": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We do not think that a global recession is very likely. The immediate effects will be on the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christine Lagarde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christine Lagarde",
+                "types": [],
+                "wikid": "Christine Lagarde",
+                "dbpedia": "Christine Lagarde"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK economy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Christine Lagarde -> UK economy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "She said that Britain's move to cut corporate taxes to counter the expected economic fallout from its choice to break with the EU was just a \"race to the bottom\" that could hurt everyone.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christine Lagarde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christine Lagarde",
+                "types": [],
+                "wikid": "Christine Lagarde",
+                "dbpedia": "Christine Lagarde"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's corporate tax cuts",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's corporate tax cuts"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Christine Lagarde -> UK's corporate tax cuts": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ms Lagarde said that Brexit underscores the need for the EU to do a better explaining how it benefits Europeans, amid \"disenchantment\" with the institution.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Christine Lagarde",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Christine Lagarde",
+                "types": [],
+                "wikid": "Christine Lagarde",
+                "dbpedia": "Christine Lagarde"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Christine Lagarde -> EU": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "sentence": "\"Mr Juncker said the EU would put a time limit on the UK's triggering of the exit mechanism - even though legally there is no obligation on Britain to do it at all.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr Juncker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr Juncker",
+                "types": [],
+                "wikid": "Mr Juncker",
+                "dbpedia": "Mr Juncker"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU withdrawal process",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU withdrawal process"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mr Juncker -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mr Juncker -> EU withdrawal process": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "EU President Donald Tusk, who co-ordinates summits, said the 27 leaders minus Cameron would meanwhile meet Wednesday to undertake \"deeper reflection\" on a \"new impulse for Europe.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr Juncker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr Juncker",
+                "types": [],
+                "wikid": "Mr Juncker",
+                "dbpedia": "Mr Juncker"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Tusk",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Tusk",
+                "types": [],
+                "wikid": "Donald Tusk",
+                "dbpedia": "Donald Tusk"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU future",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU future"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mr Juncker -> Donald Tusk": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mr Juncker -> EU future": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ms Sturgeon said on Saturday that her government had started on legislation for a new referendum on Scottish independence - a vote that would risk a break up of the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ms Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ms Sturgeon",
+                "types": [],
+                "wikid": "Ms Sturgeon",
+                "dbpedia": "Ms Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ms Sturgeon -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Cameron has said a decision to start the EU withdrawal process is for his successor to make, yet his counterparts have no other interlocutor as long as there is no successor in place.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr Cameron",
+                "types": [],
+                "wikid": "Mr Cameron",
+                "dbpedia": "Mr Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr Cameron -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Juncker said the EU would put a time limit on the UK's triggering of the exit mechanism - even though legally there is no obligation on Britain to do it at all.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr Juncker",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr Juncker",
+                "types": [],
+                "wikid": "Mr Juncker",
+                "dbpedia": "Mr Juncker"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr Cameron",
+                "types": [],
+                "wikid": "Mr Cameron",
+                "dbpedia": "Mr Cameron"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr Juncker -> Mr Cameron": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

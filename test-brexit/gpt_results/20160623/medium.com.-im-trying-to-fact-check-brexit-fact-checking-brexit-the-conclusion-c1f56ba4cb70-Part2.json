@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Remain", "references": ["Remain"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Remain claim that Brexit would be bad for the country, and they have presented evidence to support that claim.", "Remain appear to be telling the truth, Leave do not."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave", "references": ["Leave"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Leave do not."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Remain", "references": ["Remain"]},
+      "entity2": {"entity": "Leave", "references": ["Leave"]},
+      "justifications": ["Remain appear to be telling the truth, Leave do not."],
+      "attitude": "Negative"
+    }
+  ]
+}

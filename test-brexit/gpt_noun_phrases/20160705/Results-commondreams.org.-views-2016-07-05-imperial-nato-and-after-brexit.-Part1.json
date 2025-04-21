@@ -1,0 +1,655 @@
+[
+    {
+        "sentence": "In his first public response to the Brexit vote that has shaken Europe and much of the world, President Obama sought to reassure Americans and others.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He urged us not to give into hysteria and stressed that NATO did not disappear with Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Obama -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "NATO -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Trans-Atlantic alliance, he reminded the world, endures.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As even President Carter's National Security Advisor Zbigniew Brzezinski taught, since its inception NATO has been an imperial project.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Zbigniew Brzezinski",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Zbigniew Brzezinski",
+                "types": [],
+                "wikid": "Zbigniew Brzezinski",
+                "dbpedia": "Zbigniew Brzezinski"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "NATO -> Zbigniew Brzezinski": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Zbigniew Brzezinski -> NATO": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "This does not mean turning blind eyes to Putin's assault on free speech and democracy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Putin",
+                "types": [],
+                "wikid": "Putin",
+                "dbpedia": "Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "free speech and democracy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "free speech and democracy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Putin -> free speech and democracy": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "This does not mean turning blind eyes to Putin's assault on free speech and democracy, or to Moscow's nuclear saber rattling.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Putin",
+                "types": [],
+                "wikid": "Putin",
+                "dbpedia": "Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nuclear saber rattling",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nuclear saber rattling"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Putin -> nuclear saber rattling": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "This does not mean turning blind eyes to Putin's assault on free speech and democracy, or to Moscow's nuclear saber rattling and cyberattacks.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Putin",
+                "types": [],
+                "wikid": "Putin",
+                "dbpedia": "Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "cyberattacks",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "cyberattacks"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Putin -> cyberattacks": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "he played critical roles in the elimination of Syria's chemical weapons",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Putin",
+                "types": [],
+                "wikid": "Putin",
+                "dbpedia": "Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Syria's chemical weapons",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Syria's chemical weapons"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Putin -> Syria's chemical weapons": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "he played critical roles in the elimination of Syria's chemical weapons and the P-5+1 nuclear deal with Iran",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Putin",
+                "types": [],
+                "wikid": "Putin",
+                "dbpedia": "Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "P-5+1 nuclear deal with Iran",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "P-5+1 nuclear deal with Iran"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Putin -> P-5+1 nuclear deal with Iran": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We also need to acknowledge that with two million people in U.S. prisons, including Guantanamo",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Prison System",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Prison System"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "U.S. -> Prison System": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the embrace of the Poland's autocratic government",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "autocratic government",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "autocratic government"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. -> Poland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Poland -> autocratic government": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the embrace of the Poland's autocratic government and Saudi monarchy",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Saudi Arabia",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Saudi Arabia",
+                "types": [],
+                "wikid": "Saudi Arabia",
+                "dbpedia": "Saudi Arabia"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "autocratic government",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "autocratic government"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.S. -> Saudi Arabia": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Saudi Arabia -> autocratic government": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "the militarized \"Pivot to Asia\" the U.S. leads a not-so-free world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.S.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.S.",
+                "types": [],
+                "wikid": "U.S.",
+                "dbpedia": "U.S."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "militarized Pivot to Asia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "militarized Pivot to Asia"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "NATO -> U.S.": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.S. -> militarized Pivot to Asia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We oppose NATO because of its neo-colonial domination of most of Europe, its roles in imperial wars and domination",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "imperial wars",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "imperial wars"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> imperial wars": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Rather than creating a new, full-blown and extremely dangerous Cold War, our interests and survival depend on Common Security diplomacy rather than the repeated and deadly failures of militarism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "militarism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "militarism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> militarism": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We oppose NATO because of its neo-colonial domination of most of Europe",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "neo-colonial domination",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "neo-colonial domination"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> neo-colonial domination": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We oppose NATO because of its neo-colonial domination of most of Europe, its roles in imperial wars and domination, the existential nuclear threat it poses to human survival",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nuclear threat",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nuclear threat"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> nuclear threat": [
+                -1.0
+            ]
+        }
+    }
+]

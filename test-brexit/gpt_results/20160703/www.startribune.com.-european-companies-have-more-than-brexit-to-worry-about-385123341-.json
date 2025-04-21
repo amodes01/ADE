@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Swiss firms", "references": ["Swiss"]},
+      "target": {"topic": "mountain air", "references": ["mountain air"]},
+      "justifications": ["three are Swiss, suggesting there really is something special about mountain air"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Swiss firms", "references": ["Swiss"]},
+      "target": {"topic": "rösti", "references": ["rösti"]},
+      "justifications": ["suggesting there really is something special about mountain air and rösti"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "AB InBev", "references": ["beer firm AB InBev"]},
+      "target": {"topic": "Belgium", "references": ["Belgium"]},
+      "justifications": ["run by Brazilians who happen to have picked Belgium for their main share listing"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Swiss firms", "references": ["Swiss"]},
+      "entity2": {"entity": "AB InBev", "references": ["beer firm AB InBev"]},
+      "justifications": ["three are Swiss, suggesting there really is something special about mountain air and rösti; another, beer firm AB InBev, is run by Brazilians who happen to have picked Belgium for their main share listing"],
+      "attitude": "Neutral"
+    }
+  ]
+}

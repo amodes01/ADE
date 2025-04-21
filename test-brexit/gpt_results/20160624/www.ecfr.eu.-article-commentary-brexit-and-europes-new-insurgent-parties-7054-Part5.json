@@ -1,0 +1,31 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "challenger parties", "references": ["challenger parties"] },
+      "target": { "topic": "establishment EU thinking", "references": ["establishment EU thinking"] },
+      "justifications": ["Where their views go against establishment EU thinking"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "challenger parties", "references": ["challenger parties"] },
+      "target": { "topic": "parliament's consultation role", "references": ["consultation role of the parliament"] },
+      "justifications": ["the consultation role of the parliament on international agreements provides a tool for them to shape policy"],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "challenger parties", "references": ["challenger parties"] },
+      "entity2": { "entity": "establishment EU", "references": ["establishment EU"] },
+      "justifications": ["Where their views go against establishment EU thinking"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "challenger parties", "references": ["challenger parties"] },
+      "entity2": { "entity": "parliament", "references": ["parliament"] },
+      "justifications": ["the consultation role of the parliament on international agreements provides a tool for them to shape policy"],
+      "attitude": "Positive"
+    }
+  ]
+}

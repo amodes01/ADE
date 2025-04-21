@@ -1,0 +1,219 @@
+[
+    {
+        "sentence": "Utvalget av produkter gj\u00f8r at Instabank er nesten for en vanlig nettbasert sparebank \u00e5 regne.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Instabank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Instabank",
+                "types": [],
+                "wikid": "Instabank",
+                "dbpedia": "Instabank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "loan types",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "loan types"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Instabank -> loan types": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Optin Bank tilbyr sm\u00e5 og store l\u00e5n, l\u00e5n til refinansiering, samt sparekonto med konkurransedyktige innskuddsrenter.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Optin Bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Optin Bank",
+                "types": [],
+                "wikid": "Optin Bank",
+                "dbpedia": "Optin Bank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "loan types",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "loan types"
+                ]
+            },
+            {
+                "ngram": "interest rates",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "interest rates"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Optin Bank -> loan types": [
+                1.0
+            ],
+            "Optin Bank -> interest rates": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sparekontoene de tilbyr har gode rentebetingelser.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Instabank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Instabank",
+                "types": [],
+                "wikid": "Instabank",
+                "dbpedia": "Instabank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "interest rates",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "interest rates"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Instabank -> interest rates": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hos Instabank kan du alts\u00e5 velge mellom vanlig forbruksl\u00e5n med inntil 5 \u00e5r nedbetaling, eller fleksibelt l\u00e5n.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Instabank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Instabank",
+                "types": [],
+                "wikid": "Instabank",
+                "dbpedia": "Instabank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "flexible loans",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "flexible loans"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Instabank -> flexible loans": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Optin Bank tilbyr sm\u00e5 og store l\u00e5n, l\u00e5n til refinansiering.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Optin Bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Optin Bank",
+                "types": [],
+                "wikid": "Optin Bank",
+                "dbpedia": "Optin Bank"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "loan flexibility",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "loan flexibility"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Optin Bank -> loan flexibility": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Instabank er relativt ny p\u00e5 markedet for usikrede forbruksl\u00e5n.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Instabank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Instabank",
+                "types": [],
+                "wikid": "Instabank",
+                "dbpedia": "Instabank"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Optin Bank",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Optin Bank",
+                "types": [],
+                "wikid": "Optin Bank",
+                "dbpedia": "Optin Bank"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Instabank -> Optin Bank": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

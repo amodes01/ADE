@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mary Robinson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mary Robinson",
+                "types": [],
+                "wikid": "Mary Robinson",
+                "dbpedia": "Mary Robinson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "international community",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "international community",
+                "types": [],
+                "wikid": "international community",
+                "dbpedia": "international community"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Ethiopian drought",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Ethiopian drought"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mary Robinson -> international community": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mary Robinson -> Ethiopian drought": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The former president of Ireland hit out after being briefed on the devastating impacts of the El Nino weather pattern.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mary Robinson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mary Robinson",
+                "types": [],
+                "wikid": "Mary Robinson",
+                "dbpedia": "Mary Robinson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "El Nino weather pattern",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "El Nino weather pattern"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mary Robinson -> El Nino weather pattern": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The former president of Ireland hit out after being briefed on the devastating impacts of the El Nino weather pattern and climate change.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mary Robinson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mary Robinson",
+                "types": [],
+                "wikid": "Mary Robinson",
+                "dbpedia": "Mary Robinson"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "climate change",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "climate change"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Mary Robinson -> climate change": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit is to be remembered as its final footnote-the final death cough of the British Empire."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "European Union", "references": ["European Union (EU)"]},
+      "justifications": [
+        "The Brits had a choice between Queen Elizabeth II and the Commonwealth or the European Union (EU), America and President Hillary Clinton."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "America", "references": ["America"]},
+      "justifications": [
+        "Britain was our portal to Europe, the EU and that imaginary globalist friend we have called 'the West' since our dramatic entry across the channel into Normandy on D Day. Now our door to Europe is closing."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "globalism", "references": ["globalist friend"]},
+      "justifications": [
+        "Britain was our portal to Europe, the EU and that imaginary globalist friend we have called 'the West'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tony Blair", "references": ["Tony Blair"]},
+      "target": {"topic": "Iraq War", "references": ["his decision to blindly follow America into Iraq"]},
+      "justifications": [
+        "The Prime Minister of Great Britain, Tony Blair, disgraced this week by a task force report seven years in the making on his decision to blindly follow America into Iraq."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President George W. Bush", "references": ["President George W. Bush"]},
+      "target": {"topic": "Iraq War", "references": ["his decision to blindly follow America into Iraq"]},
+      "justifications": [
+        "Tony Blair...telling President George W. Bush: 'I will be with you, whatever.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Jim Rogers", "references": ["Jim Rogers"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"You are going to have Scotland leave the U.K., which is going to cause the U.K. to lose its oil income, says the legendary investor Jim Rogers of Brexit as interviewed by James West for the Financial Post.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jim Rogers", "references": ["Jim Rogers"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"You are going to have Europe doing everything it can to take business away from the City of London... The U.K. only has Scottish oil and the City of London. So when they lose both, you are going to have a small country... England and Wales perhaps.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Tony Blair", "references": ["Tony Blair"]},
+      "entity2": {"entity": "George W. Bush", "references": ["President George W. Bush"]},
+      "justifications": [
+        "Tony Blair...telling President George W. Bush: 'I will be with you, whatever.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "European Union", "references": ["European Union (EU)"]},
+      "justifications": [
+        "The Brits had a choice between Queen Elizabeth II and the Commonwealth or the European Union (EU), America and President Hillary Clinton."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "America", "references": ["America"]},
+      "justifications": [
+        "Britain was our portal to Europe, the EU and that imaginary globalist friend we have called 'the West' since our dramatic entry across the channel into Normandy on D Day. Now our door to Europe is closing."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "globalism", "references": ["globalist friend"]},
+      "justifications": [
+        "Britain was our portal to Europe, the EU and that imaginary globalist friend we have called 'the West'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jim Rogers", "references": ["Jim Rogers"]},
+      "entity2": {"entity": "Scotland", "references": ["Scotland"]},
+      "justifications": [
+        "\"You are going to have Scotland leave the U.K., which is going to cause the U.K. to lose its oil income.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jim Rogers", "references": ["Jim Rogers"]},
+      "entity2": {"entity": "City of London", "references": ["City of London"]},
+      "justifications": [
+        "\"You are going to have Europe doing everything it can to take business away from the City of London...\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO's expansion"]},
+      "justifications": [
+        "NATO's expansion to Russia's borders... precipitated today's spiraling military tensions with Russia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "General Lee Butler", "references": ["General Lee Butler"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO's expansion"]},
+      "justifications": [
+        "An increasing number of U.S. strategic analysts, including former Commander in Chief of the U.S. Strategic Command General Lee Butler have said that U.S. post-Cold War 'triumphalism,' treating Russia like a 'dismissed serf,' and NATO's expansion to Russia's borders..."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ukraine", "references": ["Ukraine"]},
+      "target": {"topic": "NATO membership", "references": ["NATO 'aspirant' country"]},
+      "justifications": [
+        "Ukraine's designation as a NATO 'aspirant' country"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "Ukraine's NATO membership", "references": ["NATO 'aspirant' country"]},
+      "justifications": [
+        "Russia did not precipitate the Ukraine crisis. NATO's expansion to Russia's borders, Ukraine's designation as a NATO 'aspirant' country..."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.S.", "references": ["U.S."]},
+      "target": {"topic": "Ukraine crisis", "references": ["Ukraine crisis"]},
+      "justifications": [
+        "Washington and the E.U. poured billions of dollars into developing and nurturing Ukrainian allies to turn the former Soviet republic away from Moscow and toward the West."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "CIA Director Brennan", "references": ["CIA Director Brennan"]},
+      "target": {"topic": "Ukraine revolution", "references": ["Maidan revolution"]},
+      "justifications": [
+        "CIA Director Brennan, Assistant Secretary of State Victoria Nuland -famous for her 'fuck the E.U.' disrespect of Washington's vassals - and Senator McCain journeyed to Maidan to encourage revolution."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Victoria Nuland", "references": ["Victoria Nuland"]},
+      "target": {"topic": "Ukraine revolution", "references": ["Maidan revolution"]},
+      "justifications": [
+        "CIA Director Brennan, Assistant Secretary of State Victoria Nuland -famous for her 'fuck the E.U.' disrespect of Washington's vassals - and Senator McCain journeyed to Maidan to encourage revolution."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "U.S.", "references": ["U.S."]},
+      "target": {"topic": "Geneva power-sharing agreement", "references": ["April Geneva power sharing agreement"]},
+      "justifications": [
+        "the U.S. and the E.U. failed to hold their Ukrainian allies to the April Geneva power sharing agreement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "Crimea annexation", "references": ["Russia's annexation of Crimea"]},
+      "justifications": [
+        "Russia's annexation of Crimea violated the Budapest Memorandum of 1994."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.S.", "references": ["U.S."]},
+      "target": {"topic": "Budapest Memorandum of 1994", "references": ["Budapest Memorandum of 1994"]},
+      "justifications": [
+        "the Western political interventions and Russia's annexation of Crimea violated the Budapest Memorandum of 1994."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "U.S.", "references": ["U.S."]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "U.S. post-Cold War 'triumphalism,' treating Russia like a 'dismissed serf,' and NATO's expansion to Russia's borders... precipitated today's spiraling military tensions with Russia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ukraine", "references": ["Ukraine"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Russia did not precipitate the Ukraine crisis. NATO's expansion to Russia's borders, Ukraine's designation as a NATO 'aspirant' country..."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.S.", "references": ["U.S."]},
+      "entity2": {"entity": "Ukraine", "references": ["Ukraine"]},
+      "justifications": [
+        "Washington and the E.U. poured billions of dollars into developing and nurturing Ukrainian allies to turn the former Soviet republic away from Moscow and toward the West."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "U.S.", "references": ["U.S."]},
+      "entity2": {"entity": "E.U.", "references": ["E.U."]},
+      "justifications": [
+        "Washington and the E.U. poured billions of dollars into developing and nurturing Ukrainian allies to turn the former Soviet republic away from Moscow and toward the West."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.S.", "references": ["U.S."]},
+      "entity2": {"entity": "E.U.", "references": ["E.U."]},
+      "justifications": [
+        "the U.S. and the E.U. failed to hold their Ukrainian allies to the April Geneva power sharing agreement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "E.U.", "references": ["E.U."]},
+      "justifications": [
+        "Russia's annexation of Crimea violated the Budapest Memorandum of 1994."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+[
+    {
+        "sentence": "nationalism will continue to be a powerful political tool, and it's clear Trump will embrace the theme through the November election, seeing Brexit as fuel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "nationalism",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "nationalism"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> nationalism": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"People want to see borders. They do not necessarily want people pouring into their country that they do not know who they are and where they came from. They have no idea.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "borders",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "borders"
+                ]
+            },
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> borders": [
+                1.0
+            ],
+            "Donald Trump -> immigration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Americans, Americans,\\\" he said. \\\"The people that we love.\\\"  \\\"Americans,\\\" he continued. \\\"America first. Make our country great again.\\\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "America first",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "America first"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> America first": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Trump will embrace the theme through the November election, seeing Brexit as fuel.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

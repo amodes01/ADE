@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Josh Marshall", "references": ["Josh Marshall"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Marshall sniped, Britain 'ceased to be a great power because it lost its imperial holdings…not because it joined the EC/EU'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Josh Marshall", "references": ["Josh Marshall"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Marshall sniped, Britain 'ceased to be a great power because it lost its imperial holdings…not because it joined the EC/EU'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Martin Longman", "references": ["Martin Longman"] },
+      "target": { "topic": "Trump win", "references": ["Trump win"] },
+      "justifications": [
+        "Martin Longman thinks Brexit further decreases the chance of a Trump win"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Benjamin Wallace-Wells", "references": ["Benjamin Wallace-Wells"] },
+      "target": { "topic": "U.S. as a model", "references": ["U.S. as a model"] },
+      "justifications": [
+        "Benjamin Wallace-Wells mused progressives across the Atlantic may soon look at the U.S. as a model"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Josh Marshall", "references": ["Josh Marshall"] },
+      "entity2": { "entity": "American conservatives", "references": ["American conservatives"] },
+      "justifications": [
+        "Talking Points Memo editor and publisher Josh Marshall wrote that it was a 'source of comic relief' to 'watch…American conservatives take a Brexit victory lap'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Josh Marshall", "references": ["Josh Marshall"] },
+      "entity2": { "entity": "American conservatives", "references": ["American conservatives"] },
+      "justifications": [
+        "American conservative glee [over Brexit] is just a retreat to the tribalism at the core [of] its nature"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Martin Longman", "references": ["Martin Longman"] },
+      "entity2": { "entity": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "Martin Longman thinks Brexit further decreases the chance of a Trump win"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

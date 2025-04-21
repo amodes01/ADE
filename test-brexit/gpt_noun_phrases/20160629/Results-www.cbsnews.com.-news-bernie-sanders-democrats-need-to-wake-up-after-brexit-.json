@@ -1,0 +1,157 @@
+[
+    {
+        "sentence": "\"The notion that Donald Trump could benefit from the same forces that gave the Leave proponents a majority in Britain should sound an alarm for the Democratic Party in the United States.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bernie Sanders",
+                "types": [],
+                "wikid": "Bernie Sanders",
+                "dbpedia": "Bernie Sanders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Bernie Sanders -> Donald Trump": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Bernie Sanders -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bernie Sanders",
+                "types": [],
+                "wikid": "Bernie Sanders",
+                "dbpedia": "Bernie Sanders"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "income inequality",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "income inequality"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bernie Sanders -> income inequality": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sanders has not yet dropped out of the presidential race, but said last Friday that he intends to vote for his rival Hillary Clinton in November's general election.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bernie Sanders",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bernie Sanders",
+                "types": [],
+                "wikid": "Bernie Sanders",
+                "dbpedia": "Bernie Sanders"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bernie Sanders -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "President Obama warned in an interview released Tuesday that people should not engage in \"hysteria\" over the United Kingdom's vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "President Obama -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

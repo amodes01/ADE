@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union (EU)", "references": ["E.U."] },
+      "justifications": [
+        "the irony is that Wales receives more payout from Brussels than it puts in-a net benefit estimated at $325 million per year.",
+        "E.U. funding has created 36,970 new jobs for Welsh workers, and has helped more than 556,000 Welsh into work training."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "recession", "references": ["recession"] },
+      "justifications": [
+        "it will be difficult to deliver on them all, especially with the recession that Brexit may well trigger."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Wales", "references": ["Wales"] },
+      "entity2": { "entity": "European Union (EU)", "references": ["E.U."] },
+      "justifications": [
+        "the irony is that Wales receives more payout from Brussels than it puts in-a net benefit estimated at $325 million per year.",
+        "E.U. funding has created 36,970 new jobs for Welsh workers, and has helped more than 556,000 Welsh into work training."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "entity2": { "entity": "European Union (EU)", "references": ["E.U."] },
+      "justifications": [
+        "Northern Ireland depends on the E.U. for significant subsidies-nearly 90 percent of its farmers' incomes come from E.U. coffers."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Sinn Fein", "references": ["Sinn Fein"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "Sinn Fein, the pro-Irish reunification party, has already called for a referendum on reunification."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "Northern Ireland voted to Remain with 55.8 percent of the vote."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "European Union (EU)", "references": ["E.U."] },
+      "justifications": [
+        "The Scots are staunchly pro-European-62 percent voted 'Remain' in the Brexit referendum."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "it not even two years since Scotland voted to 'Remain' part of the U.K. with a stronger-than-it-sounds 55 percent of the vote."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "voting to leave the U.K. would have meant leaving the E.U."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

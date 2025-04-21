@@ -1,0 +1,128 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "target": { "topic": "business confidence", "references": ["business confidence", "business is suddenly in limbo"] },
+      "justifications": [
+        "The impact of Britain's vote to leave the European Union was swift and painful for many businesses in the UK.",
+        "With so much uncertainty looming for so long and financial markets crashing, a lot of business is suddenly in limbo."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "target": { "topic": "business adaptability", "references": ["business is tough and will adapt"] },
+      "justifications": [
+        "Ultimately we think that our members are very resilient, we think that British business is tough and will adapt but certainly at the moment there is a lot of nervousness out there in the business community."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Richard Branson", "references": ["Richard Branson"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "British billionaire Richard Branson has said he suspects his Virgin Group lost a third of its value since the country voted in favour of Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Richard Branson", "references": ["Richard Branson"] },
+      "entity2": { "entity": "Virgin Group", "references": ["Virgin Group"] },
+      "justifications": [
+        "British billionaire Richard Branson has said he suspects his Virgin Group lost a third of its value since the country voted in favour of Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Richard Branson", "references": ["Richard Branson"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Mr Branson, founder of Virgin Group that owns shares in various companies including Virgin Media and Virgin Trains, told ITV on Tuesday that he pulled the plug on a deal involving 3,000 jobs over the uncertainty that Britain now faces."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ed Bussey", "references": ["Ed Bussey"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "He had a job interview set up with a promising candidate from EU member Italy on Friday - the day after the vote.",
+        "He was saying: 'Look, I am not sure I am not going to get booted out in two years.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Institute of Directors", "references": ["Institute of Directors", "IoD"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "The Institute of Directors said Monday that a survey of its 1,000 members showed that three out of four believe that Britain's exit from the EU, known as Brexit, will be bad for business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Institute of Directors", "references": ["Institute of Directors", "IoD"] },
+      "entity2": { "entity": "business confidence", "references": ["business confidence"] },
+      "justifications": [
+        "Ultimately we think that our members are very resilient, we think that British business is tough and will adapt but certainly at the moment there is a lot of nervousness out there in the business community."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Foxtons", "references": ["Foxtons"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Real estate agency Foxtons has said it is no longer confident that business will improve in the second half of the year."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "IAG", "references": ["IAG", "parent company of British Airways"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "The parent company of British Airways, IAG, warned that profits would take a hit this year."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "easyJet", "references": ["easyJet"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "budget airline easyJet, saying it anticipates economic and consumer uncertainty this summer."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "JPMorgan", "references": ["JPMorgan"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Global banks like JPMorgan, Goldman Sachs and HSBC have said thousands could move to the mainland."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Global banks like JPMorgan, Goldman Sachs and HSBC have said thousands could move to the mainland."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "HSBC", "references": ["HSBC"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Global banks like JPMorgan, Goldman Sachs and HSBC have said thousands could move to the mainland."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "George Osborne", "references": ["George Osborne", "Treasury chief"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union", "Brexit"] },
+      "justifications": [
+        "Treasury chief George Osborne offered a statement before markets even opened in hopes of calming the jittery nerves."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

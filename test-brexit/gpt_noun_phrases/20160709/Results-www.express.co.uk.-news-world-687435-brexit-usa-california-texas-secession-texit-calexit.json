@@ -1,0 +1,136 @@
+[
+    {
+        "sentence": "Texit, the secession of Texas from the United States, is the main goal of the Texas Nationalist Movement (TNM), who welcomed last month's historic vote for Britain to leave the European Union (EU).",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Nationalist Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Nationalist Movement",
+                "types": [],
+                "wikid": "Texas Nationalist Movement",
+                "dbpedia": "Texas Nationalist Movement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Texas Nationalist Movement -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Texas Nationalist Movement -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Leader Louis Marinelli said Brexit was a \"shining example\" of people power, and called for an in-out referendum to be held on the day of the 2020 US Presidential election.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yes California",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yes California",
+                "types": [],
+                "wikid": "Yes California",
+                "dbpedia": "Yes California"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Yes California -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Yes California -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "California also has its own secession movement, which has been similarly inspired by last month's Leave campaign and victory.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Nationalist Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Nationalist Movement",
+                "types": [],
+                "wikid": "Texas Nationalist Movement",
+                "dbpedia": "Texas Nationalist Movement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Yes California",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Yes California",
+                "types": [],
+                "wikid": "Yes California",
+                "dbpedia": "Yes California"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Texas Nationalist Movement -> Yes California": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

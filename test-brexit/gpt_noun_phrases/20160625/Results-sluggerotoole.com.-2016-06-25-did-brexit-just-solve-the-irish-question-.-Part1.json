@@ -1,0 +1,413 @@
+[
+    {
+        "sentence": "Northern Ireland must stay within the EU and the UK.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            },
+            {
+                "ngram": "UK membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Northern Ireland -> UK": [
+                1.0,
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Northern Ireland -> EU membership": [
+                1.0
+            ],
+            "Northern Ireland -> UK membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It's abundantly clear that a hard land border between Northern Ireland and the world's largest trading bloc in the world is utterly senseless.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "hard land border",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "hard land border"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Northern Ireland -> hard land border": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "BrExit has changed everything.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "BrExit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "BrExit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Northern Ireland -> BrExit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For Scottish nationalists, this represents the smart play.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scottish nationalists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scottish nationalists",
+                "types": [],
+                "wikid": "Scottish nationalists",
+                "dbpedia": "Scottish nationalists"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scottish nationalists -> UK membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "For English Nationalists - and that's clearly what the BrExiters overwhelmingly are - well, they have asked for this.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "English Nationalists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "English Nationalists",
+                "types": [],
+                "wikid": "English Nationalists",
+                "dbpedia": "English Nationalists"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Northern Ireland -> England": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "English Nationalists -> UK membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Post-BrExit, it's abundantly clear that a hard land border between Northern Ireland and the world's largest trading bloc in the world is utterly senseless.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Irish nationalists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Irish nationalists",
+                "types": [],
+                "wikid": "Irish nationalists",
+                "dbpedia": "Irish nationalists"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Irish nationalists -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "This would be a stronger Ireland than ever.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sinn F\u00e9in",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sinn F\u00e9in",
+                "types": [],
+                "wikid": "Sinn F\u00e9in",
+                "dbpedia": "Sinn F\u00e9in"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Ireland's future",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Ireland's future"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sinn F\u00e9in -> Ireland's future": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Pre-BrExit, Belfast's hardline British Democratic Unionist party has championed the adoption of a corporate tax rate in harmony not with London but Dublin.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Belfast's Democratic Unionist Party",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Belfast's Democratic Unionist Party",
+                "types": [],
+                "wikid": "Belfast's Democratic Unionist Party",
+                "dbpedia": "Belfast's Democratic Unionist Party"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "corporate tax rate",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "corporate tax rate"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Belfast's Democratic Unionist Party -> corporate tax rate": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "As with post-BrExit Scotland, a Northern Ireland that shares European Union membership with the Republic of Ireland, and a union with the rest of the U.K., makes sense.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Republic of Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Republic of Ireland",
+                "types": [],
+                "wikid": "Republic of Ireland",
+                "dbpedia": "Republic of Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> Republic of Ireland": [
+                1.0
+            ],
+            "Northern Ireland -> Scotland": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Post-BrExit, the opportunity is greater still.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Irish Nationalists",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Irish Nationalists",
+                "types": [],
+                "wikid": "Irish Nationalists",
+                "dbpedia": "Irish Nationalists"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Northern Ireland -> Irish Nationalists": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

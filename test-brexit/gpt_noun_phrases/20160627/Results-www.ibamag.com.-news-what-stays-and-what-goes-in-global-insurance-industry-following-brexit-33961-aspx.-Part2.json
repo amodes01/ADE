@@ -1,0 +1,156 @@
+[
+    {
+        "sentence": "he anticipates an increase in oversight from regulatory authorities",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bruce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bruce",
+                "types": [],
+                "wikid": "Bruce",
+                "dbpedia": "Bruce"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "regulatory oversight",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "regulatory oversight"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bruce -> regulatory oversight": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "they will expect remedial management actions to be taken, as and where necessary, to maintain ongoing solvency",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bruce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bruce",
+                "types": [],
+                "wikid": "Bruce",
+                "dbpedia": "Bruce"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "insurance company requirements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "insurance company requirements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Bruce -> insurance company requirements": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "he anticipates an increase in oversight from regulatory authorities, both from Prudential",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bruce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bruce",
+                "types": [],
+                "wikid": "Bruce",
+                "dbpedia": "Bruce"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prudential",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prudential",
+                "types": [],
+                "wikid": "Prudential",
+                "dbpedia": "Prudential"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bruce -> Prudential": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "he anticipates an increase in oversight from regulatory authorities, both from Prudential and the UK's Financial Conduct Authority",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bruce",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bruce",
+                "types": [],
+                "wikid": "Bruce",
+                "dbpedia": "Bruce"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK's Financial Conduct Authority",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK's Financial Conduct Authority",
+                "types": [],
+                "wikid": "UK's Financial Conduct Authority",
+                "dbpedia": "UK's Financial Conduct Authority"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prudential",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prudential",
+                "types": [],
+                "wikid": "Prudential",
+                "dbpedia": "Prudential"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Bruce -> UK's Financial Conduct Authority": [
+                1.0
+            ],
+            "Prudential -> UK's Financial Conduct Authority": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

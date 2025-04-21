@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Lindsay Lohan", "references": ["Lindsay Lohan"] },
+      "target": { "topic": "Brexit", "references": ["Britain to remain in the EU", "Leave politicians", "Leave for criticism"] },
+      "justifications": [
+        "The American actress, 29, tweeted strong support for Britain to remain in the EU and lashed out at Leave politicians appearing on the BBC's overnight referendum programme.",
+        "She also angered some followers by singling out areas of the UK that voted for Leave for criticism"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Chris Grayling", "references": ["Chris Grayling"] },
+      "target": { "topic": "Lindsay Lohan's visit to Kettering", "references": ["calls for her to turn on the festive lights", "invitation for Lohan to visit"] },
+      "justifications": [
+        "Lohan has now said she would be happy to visit the Northamptonshire town after Commons Leader Chris Grayling, who campaigned for Leave, backed calls for her to turn on the festive lights.",
+        "Tory frontbencher Mr Grayling joked in his reply: 'Had she visited Kettering she might have seen her career turn around.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Philip Hollobone", "references": ["Philip Hollobone"] },
+      "target": { "topic": "Lindsay Lohan's comments on Kettering", "references": ["fierce and offensive tweet", "slagged off parts of Britain"] },
+      "justifications": [
+        "Tory backbencher Philip Hollobone had criticised Lohan for having 'slagged off' parts of Britain which backed Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Philip Hollobone", "references": ["Philip Hollobone"] },
+      "target": { "topic": "Lindsay Lohan's visit to Kettering", "references": ["invitation for Lohan to visit"] },
+      "justifications": [
+        "Speaking in the Commons, he singled out her 'fierce and offensive' tweet directed at his Kettering constituency and asked Mr Grayling to support his invitation for Lohan to visit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Lindsay Lohan", "references": ["Lindsay Lohan"] },
+      "target": { "topic": "Lindsay Lohan's visit to Kettering", "references": ["would be happy to light the Christmas tree in #Kettering"] },
+      "justifications": [
+        "Lohan replied on Twitter: 'Direct message me about your offer. Would be happy to light the Christmas tree in #Kettering.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Chris Grayling", "references": ["Chris Grayling"] },
+      "target": { "topic": "Lindsay Lohan's career", "references": ["perhaps now we know the reason why", "career turn around"] },
+      "justifications": [
+        "Tory frontbencher Mr Grayling joked in his reply: 'Had she visited Kettering she might have seen her career turn around.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Philip Hollobone", "references": ["Philip Hollobone"] },
+      "entity2": { "entity": "Lindsay Lohan", "references": ["Lindsay Lohan"] },
+      "justifications": [
+        "Tory backbencher Philip Hollobone had criticised Lohan for having 'slagged off' parts of Britain which backed Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Chris Grayling", "references": ["Chris Grayling"] },
+      "entity2": { "entity": "Lindsay Lohan", "references": ["Lindsay Lohan"] },
+      "justifications": [
+        "Lohan has now said she would be happy to visit the Northamptonshire town after Commons Leader Chris Grayling, who campaigned for Leave, backed calls for her to turn on the festive lights."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Philip Hollobone", "references": ["Philip Hollobone"] },
+      "entity2": { "entity": "Chris Grayling", "references": ["Chris Grayling"] },
+      "justifications": [
+        "Speaking in the Commons, he singled out her 'fierce and offensive' tweet directed at his Kettering constituency and asked Mr Grayling to support his invitation for Lohan to visit."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

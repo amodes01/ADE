@@ -1,0 +1,377 @@
+[
+    {
+        "sentence": "Queen Elizabeth II avoided making any direct comments on last week's historic Brexit vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Queen Elizabeth II",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Queen Elizabeth II",
+                "types": [],
+                "wikid": "Queen Elizabeth II",
+                "dbpedia": "Queen Elizabeth II"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Queen Elizabeth II -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland's first minister, Nicola Sturgeon, looked to the future positively as well at a time when she is facing a fight to secure Scotland's relationship with the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            },
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nicola Sturgeon -> Brexit": [
+                -1.0
+            ],
+            "Nicola Sturgeon -> EU membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sturgeon has said that a new referendum on Scottish independence is \"highly likely\" to take place.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish independence referendum",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish independence referendum"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nicola Sturgeon -> Scottish independence referendum": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "She told parliament that MSPs had been given the \"precious opportunity to contribute to building a better country - and build it we will.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish Parliament",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish Parliament"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nicola Sturgeon -> Scottish Parliament": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"We have five years to make a difference, five years to make Scotland a fairer, kinder and more prosperous country, five years to build a better place for us all to live, government or opposition, front or back bench, each one of us has something to contribute,\" he said.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish Parliament",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish Parliament"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Nicola Sturgeon -> Scottish Parliament": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Queen remained true to the practice of royal neutrality and did not mention the Brexit referendum despite being given the opening to do so by Holyrood's presiding officer, Ken MacIntosh, who brought up Brexit in his introduction of the monarch.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Queen Elizabeth II",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Queen Elizabeth II",
+                "types": [],
+                "wikid": "Queen Elizabeth II",
+                "dbpedia": "Queen Elizabeth II"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ken MacIntosh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ken MacIntosh",
+                "types": [],
+                "wikid": "Ken MacIntosh",
+                "dbpedia": "Ken MacIntosh"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Queen Elizabeth II -> Ken MacIntosh": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Ken MacIntosh, who brought up Brexit in his introduction of the monarch, noting that the last few \"weeks of unprecedented political turbulence\" had \"borne witness to the politics of hate.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ken MacIntosh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ken MacIntosh",
+                "types": [],
+                "wikid": "Ken MacIntosh",
+                "dbpedia": "Ken MacIntosh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ken MacIntosh -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "He also referred specifically to the murder of Labour MP Jo Cox and the mass shooting at a gay nightclub in the US city of Orlando before asking her majesty to address the parliament.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ken MacIntosh",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ken MacIntosh",
+                "types": [],
+                "wikid": "Ken MacIntosh",
+                "dbpedia": "Ken MacIntosh"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jo Cox",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jo Cox",
+                "types": [],
+                "wikid": "Jo Cox",
+                "dbpedia": "Jo Cox"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ken MacIntosh -> Jo Cox": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The majority of people in Scotland voted to remain in the EU, and Sturgeon has said that a new referendum on Scottish independence is \"highly likely\" to take place.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU membership",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU membership",
+                "types": [],
+                "wikid": "EU membership",
+                "dbpedia": "EU membership"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Brexit": [
+                -1.0
+            ],
+            "Nicola Sturgeon -> EU membership": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"We are so much stronger for the diversity that shapes us, we are one Scotland and we are simply home to all those who have chosen to live here.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Nicola Sturgeon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Nicola Sturgeon",
+                "types": [],
+                "wikid": "Nicola Sturgeon",
+                "dbpedia": "Nicola Sturgeon"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Nicola Sturgeon -> Scotland": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

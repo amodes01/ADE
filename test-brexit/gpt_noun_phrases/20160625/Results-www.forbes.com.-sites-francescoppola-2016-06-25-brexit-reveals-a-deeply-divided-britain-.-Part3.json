@@ -1,0 +1,72 @@
+[
+    {
+        "sentence": "Brexit signals the beginning of the end of the United Kingdom.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "future of the United Kingdom",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "future of the United Kingdom"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> future of the United Kingdom": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "which have created a deeply divided country.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "successive UK governments",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "successive UK governments",
+                "types": [],
+                "wikid": "successive UK governments",
+                "dbpedia": "successive UK governments"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK population",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK population",
+                "types": [],
+                "wikid": "UK population",
+                "dbpedia": "UK population"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "successive UK governments -> UK population": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

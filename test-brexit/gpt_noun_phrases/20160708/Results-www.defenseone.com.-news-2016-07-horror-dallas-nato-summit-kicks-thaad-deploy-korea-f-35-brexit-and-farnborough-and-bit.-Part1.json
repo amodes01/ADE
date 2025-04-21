@@ -1,0 +1,252 @@
+[
+    {
+        "sentence": "\"This is terrorism. This is what terrorists do.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "terrorist attack",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "terrorist attack",
+                "types": [],
+                "wikid": "terrorist attack",
+                "dbpedia": "terrorist attack"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "protest against police shootings",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "protest against police shootings"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "terrorist attack -> protest against police shootings": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama said the summit comes 'at a critical moment for the European Union, with some suggesting that the entire edifice of European security and prosperity is crumbling.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU disintegration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU disintegration"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Obama -> European Union": [
+                1.0
+            ],
+            "European Union -> United Kingdom": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Brexit -> EU disintegration": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Obama said the summit comes 'at a critical moment for the European Union'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU stability",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU stability"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> EU stability": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"This is a nightmare: The nightmare of a terrorist attack at a peaceful, familiar street intersection where we have all been a thousand times.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jacquielynn Floyd",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jacquielynn Floyd",
+                "types": [],
+                "wikid": "Jacquielynn Floyd",
+                "dbpedia": "Jacquielynn Floyd"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Dallas Police Department",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Dallas Police Department",
+                "types": [],
+                "wikid": "Dallas Police Department",
+                "dbpedia": "Dallas Police Department"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Jacquielynn Floyd -> Dallas Police Department": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The UK has the world's fifth-largest defense budget. We are - and will continue to be - leading members of NATO.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "United Kingdom -> NATO": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"The task of NATO leaders is to put in place policies and processes that respond to this triple challenge to Europe's security in ways that are clearly understood by the alliance's adversaries and supported by increasingly restive publics on both sides of the Atlantic.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ivo Daalder",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ivo Daalder",
+                "types": [],
+                "wikid": "Ivo Daalder",
+                "dbpedia": "Ivo Daalder"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Ivo Daalder -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

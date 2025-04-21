@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Institution", "references": ["Institution"]},
+      "target": {"topic": "future of global politics", "references": ["future of our politics"]},
+      "justifications": ["It does appear we are at a tipping point in terms of the future of our politics."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Wright", "references": ["Wright"]},
+      "target": {"topic": "future of global politics", "references": ["future of our politics"]},
+      "justifications": ["Does it continue to be a politics that is generally outwardly focused, focused on an open global economy and opportunity and optimism? Or is it one that is nationalistic and more inward looking and more about closing countries off?"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Institution", "references": ["Institution"]},
+      "entity2": {"entity": "Wright", "references": ["Wright"]},
+      "justifications": ["Wright says the stakes for the future economic cooperation among countries are high."],
+      "attitude": "Neutral"
+    }
+  ]
+}

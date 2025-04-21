@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brian True-May", "references": ["Brian True-May"]},
+      "target": {"topic": "ethnic minorities in Midsomer", "references": ["ethnic minorities involved"]},
+      "justifications": [
+        "I would not want to change it",
+        "We just do not have ethnic minorities involved. Because it would not be the English village with them."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brian True-May", "references": ["Brian True-May"]},
+      "target": {"topic": "Englishness", "references": ["the last bastion of Englishness"]},
+      "justifications": [
+        "We are the last bastion of Englishness and I want to keep it that way."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tyler Cowen", "references": ["Tyler Cowen"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit vote"]},
+      "justifications": [
+        "the vote was about preserving the English nation"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tyler Cowen", "references": ["Tyler Cowen"]},
+      "target": {"topic": "globalization", "references": ["globalization in the cultural sphere"]},
+      "justifications": [
+        "he wrote a book praising globalization in the cultural sphere, for all the ways it makes our lives more interesting"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Clifford Geertz", "references": ["Clifford Geertz"]},
+      "target": {"topic": "globalization", "references": ["globalization in the cultural sphere"]},
+      "justifications": [
+        "anthropologist Clifford Geertz excoriated him for his shallowness, his willingness to see unique cultures around the world swamped by global cosmopolitanism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "American voters", "references": ["American voters"]},
+      "target": {"topic": "immigration and racism", "references": ["take our country back", "desires to keep limits on immigration", "veer into racism and xenophobia"]},
+      "justifications": [
+        "American voters who want to 'take our country back'.",
+        "Can protection of national culture, and desires to keep limits on immigration, veer into racism and xenophobia? Of course, and we see it all the time."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brian True-May", "references": ["Brian True-May"]},
+      "entity2": {"entity": "ITV", "references": ["ITV"]},
+      "justifications": [
+        "In 2011 the show's producer, Brian True-May, was suspended by ITV for comments he made in an interview."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tyler Cowen", "references": ["Tyler Cowen"]},
+      "entity2": {"entity": "Clifford Geertz", "references": ["Clifford Geertz"]},
+      "justifications": [
+        "Clifford Geertz excoriated him for his shallowness"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tyler Cowen", "references": ["Tyler Cowen"]},
+      "entity2": {"entity": "Brexit vote", "references": ["Brexit vote"]},
+      "justifications": [
+        "the vote was about preserving the English nation"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

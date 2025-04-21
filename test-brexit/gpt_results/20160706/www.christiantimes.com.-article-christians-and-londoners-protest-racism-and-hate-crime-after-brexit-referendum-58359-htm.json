@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "London Citizens", "references": ["London Citizens"]},
+      "target": {"topic": "hate crimes", "references": ["hate crimes"]},
+      "justifications": [
+        "London Citizens, the London's branch of Citizens UK, organized Monday's coordinated demonstrations",
+        "The demonstration's message 'Love London. No Place for Hate' aims to curb the upsurge of hate crimes"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"topic": "hate crimes", "references": ["hate crimes"]},
+      "justifications": [
+        "Sadiq Khan praised the group's effort.",
+        "He also shared his aim to take a 'zero tolerance approach' to hate crimes"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Rev. Alexandra Lilley", "references": ["Rev. Alexandra Lilley"]},
+      "target": {"topic": "hate crimes", "references": ["hate crimes"]},
+      "justifications": [
+        "Rev. Alexandra Lilley, curate at St. Paul's Shadwell, told Christianity Today"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canon Dr. Angus Ritchie", "references": ["Canon Dr. Angus Ritchie"]},
+      "target": {"topic": "hate crimes", "references": ["hate crimes"]},
+      "justifications": [
+        "Canon Dr. Angus Ritchie urged individuals to report cases of hate crime to authorities."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canon Dr. Angus Ritchie", "references": ["Canon Dr. Angus Ritchie"]},
+      "target": {"topic": "xenophobia", "references": ["xenophobic crimes"]},
+      "justifications": [
+        "Canon Ritchie added, 'As London Citizens we are clear that there is no justification for hate crime'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Christianity", "references": ["Christianity"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum vote"]},
+      "justifications": [
+        "The dean of Exeter Cathedral, the Very Revd. Dr. Jonathan Draper, took it upon himself to apologize on behalf of majority Christians who voted overwhelmingly to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Dr. Jonathan Draper", "references": ["Dr. Jonathan Draper"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum vote"]},
+      "justifications": [
+        "Dr. Jonathan Draper, took it upon himself to apologize in behalf of majority Christians who voted overwhelmingly to leave the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "London Citizens", "references": ["London Citizens"]},
+      "entity2": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "justifications": [
+        "Sadiq Khan praised the group's effort."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Rev. Alexandra Lilley", "references": ["Rev. Alexandra Lilley"]},
+      "entity2": {"entity": "Canon Dr. Angus Ritchie", "references": ["Canon Dr. Angus Ritchie"]},
+      "justifications": [
+        "Rev. Alexandra Lilley and Canon Dr. Angus Ritchie both spoke out against hate crimes."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "London Citizens", "references": ["London Citizens"]},
+      "entity2": {"entity": "Christians", "references": ["Christian groups"]},
+      "justifications": [
+        "Christian groups and churches including Black Majority Churches, Roman Catholics, Anglicans, Methodists, Salvation Army and Independent churches."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "Brexit referendum", "references": ["Brexit referendum vote"]},
+      "justifications": [
+        "Sadiq Khan praised the group's effort."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Rev. Alexandra Lilley", "references": ["Rev. Alexandra Lilley"]},
+      "entity2": {"entity": "Brexit referendum", "references": ["Brexit referendum vote"]},
+      "justifications": [
+        "Rev. Alexandra Lilley spoke out against hate crimes since the U.K. announced the EU Referendum result June 24."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

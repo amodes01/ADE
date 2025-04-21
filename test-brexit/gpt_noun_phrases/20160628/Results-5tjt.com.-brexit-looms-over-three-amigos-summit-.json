@@ -1,0 +1,183 @@
+[
+    {
+        "sentence": "Obama, Canadian Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto hold the so-called Three Amigos summit Wednesday in Ottawa.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Justin Trudeau",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Justin Trudeau",
+                "types": [],
+                "wikid": "Justin Trudeau",
+                "dbpedia": "Justin Trudeau"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Enrique Pena Nieto",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Enrique Pena Nieto",
+                "types": [],
+                "wikid": "Enrique Pena Nieto",
+                "dbpedia": "Enrique Pena Nieto"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Three Amigos summit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Three Amigos summit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Obama -> Justin Trudeau": [
+                1.0
+            ],
+            "President Obama -> Enrique Pena Nieto": [
+                1.0
+            ],
+            "Justin Trudeau -> Enrique Pena Nieto": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President Obama -> Three Amigos summit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The countries will vow to produce more clean power and cut methane emissions.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "clean power",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "clean power"
+                ]
+            },
+            {
+                "ngram": "methane emissions",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "methane emissions"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> clean power": [
+                1.0
+            ],
+            "President Obama -> methane emissions": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The countries will vow to produce more clean power and cut methane emissions while strengthening economic ties.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic ties",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic ties"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> economic ties": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The shadow of Brexit and rising protectionist sentiment loom large as US President Barack Obama meets his North American counterparts.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Barack Obama -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

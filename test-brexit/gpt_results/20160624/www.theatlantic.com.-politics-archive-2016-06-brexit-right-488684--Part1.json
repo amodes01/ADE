@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union"] },
+      "target": { "topic": "globalization", "references": ["the globe is flattening", "global economy", "globalization"] },
+      "justifications": [
+        "The U.K.'s vote to leave the European Union betrays a failure of empathy and imagination among its leaders."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "globalization", "references": ["the globe is flattening", "global economy", "globalization"] },
+      "justifications": [
+        "Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "target": { "topic": "globalization", "references": ["the globe is flattening", "global economy", "globalization"] },
+      "justifications": [
+        "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jeb Bush", "references": ["Jeb Bush"] },
+      "target": { "topic": "protectionism", "references": ["slapping tariffs on China"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Marco Rubio", "references": ["Marco Rubio"] },
+      "target": { "topic": "protectionism", "references": ["slapping tariffs on China"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ted Cruz", "references": ["Ted Cruz"] },
+      "target": { "topic": "protectionism", "references": ["slapping tariffs on China"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brexit", "references": ["Britain's vote to leave the European Union"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "In 2016, the consensus crumbled, torn apart by a failure of empathy, and a failure of imagination."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street. In the United States, Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Jeb Bush", "references": ["Jeb Bush"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Marco Rubio", "references": ["Marco Rubio"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ted Cruz", "references": ["Ted Cruz"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

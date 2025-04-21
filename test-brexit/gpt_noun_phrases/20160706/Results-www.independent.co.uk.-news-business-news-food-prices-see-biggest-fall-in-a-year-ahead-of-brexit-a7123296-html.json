@@ -1,0 +1,262 @@
+[
+    {
+        "sentence": "Helen Dickinson, BRC chief executive, called the drop in shop prices \"extraordinary\" saying that it should provide a boom for household's budgets.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Helen Dickinson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Helen Dickinson",
+                "types": [],
+                "wikid": "Helen Dickinson",
+                "dbpedia": "Helen Dickinson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fraser McKevitt",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fraser McKevitt",
+                "types": [],
+                "wikid": "Fraser McKevitt",
+                "dbpedia": "Fraser McKevitt"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "falling food prices",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "falling food prices"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Helen Dickinson -> Fraser McKevitt": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Helen Dickinson -> falling food prices": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Fraser McKevitt, head of retail and consumer insight at Kantar, suggested that a weaker pound could signal the end of cheaper grocery prices for UK consumers.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Fraser McKevitt",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Fraser McKevitt",
+                "types": [],
+                "wikid": "Fraser McKevitt",
+                "dbpedia": "Fraser McKevitt"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "falling food prices",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "falling food prices"
+                ]
+            },
+            {
+                "ngram": "weaker pound",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "weaker pound"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Fraser McKevitt -> falling food prices": [
+                -1.0
+            ],
+            "Fraser McKevitt -> weaker pound": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "HSBC noted that David Cheesewright, the chief executive of Walmart, the US owner of Asda, recently told shareholders that the UK supermarket chain will prioritise sales over margin.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "HSBC",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "HSBC",
+                "types": [],
+                "wikid": "HSBC",
+                "dbpedia": "HSBC"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David McCarthy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David McCarthy",
+                "types": [],
+                "wikid": "David McCarthy",
+                "dbpedia": "David McCarthy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "price war",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "price war"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "HSBC -> David McCarthy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "HSBC -> price war": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "David McCarthy, HSBC analyst, suggesting Asda will dramatically cut its prices this summer.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David McCarthy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David McCarthy",
+                "types": [],
+                "wikid": "David McCarthy",
+                "dbpedia": "David McCarthy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cheesewright",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cheesewright",
+                "types": [],
+                "wikid": "David Cheesewright",
+                "dbpedia": "David Cheesewright"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "price war",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "price war"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "David McCarthy -> David Cheesewright": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "David McCarthy -> price war": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"If Asda does reposition fundamentally, then it could seriously damage sector profitability,\" McCarthy said.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David McCarthy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David McCarthy",
+                "types": [],
+                "wikid": "David McCarthy",
+                "dbpedia": "David McCarthy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "sector profitability",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "sector profitability"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "David McCarthy -> sector profitability": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"If Asda decided to invest half its margin into price, a competitor reaction could wipe out almost all industry profitability and would force an industry restructure,\" he added.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David McCarthy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David McCarthy",
+                "types": [],
+                "wikid": "David McCarthy",
+                "dbpedia": "David McCarthy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "industry restructure",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "industry restructure"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "David McCarthy -> industry restructure": [
+                -1.0
+            ]
+        }
+    }
+]

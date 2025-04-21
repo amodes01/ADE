@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "target": { "topic": "Brexit", "references": ["Brexit referendum"] },
+      "justifications": ["In the aftermath of the Brexit referendum in the U.K."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "target": { "topic": "Transatlantic Trade and Investment Partnership", "references": ["Transatlantic Trade and Investment Partnership"] },
+      "justifications": ["...the U.S. is engaged and intends to engage even more through the Transatlantic Trade and Investment Partnership which is currently being negotiated."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "United Kingdom", "references": ["U.K.", "London"] },
+      "target": { "topic": "EU Membership", "references": ["EU"] },
+      "justifications": ["London voted on June 23 to remain within the EU but will soon become the capital of a pro-exit, fairly isolated country."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "United Kingdom", "references": ["U.K.", "London"] },
+      "target": { "topic": "European Economic Space", "references": ["European economic space"] },
+      "justifications": ["Whether the U.K. will be in a Norway-style economic situation or a Serbia, a fairly isolated European country which does not even belong to European economic space, time will tell."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K.", "London"] },
+      "justifications": ["On one hand, the U.K. has been America's closest ally for decades; they share countless cultural, social and linguistic links."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "entity2": { "entity": "European Union", "references": ["European Union", "EU"] },
+      "justifications": ["Across the channel stands a unified European market with 450 million consumers, a single currency for 19 countries...and a fairly regulated trading block with which the U.S. is engaged."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["U.K.", "London"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": ["London voted on June 23 to remain within the EU but will soon become the capital of a pro-exit, fairly isolated country."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["EU"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K.", "London"] },
+      "justifications": ["Whether the U.K. will be in a Norway-style economic situation or a Serbia, a fairly isolated European country which does not even belong to European economic space, time will tell."]
+      "attitude": "Negative"
+    }
+  ]
+}

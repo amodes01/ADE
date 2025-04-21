@@ -1,0 +1,542 @@
+[
+    {
+        "sentence": "For them, the EU's open borders are a boon, not a bane: they can work and study anywhere in Europe.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Young people -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Older people voted for Brexit: the older they were, the more likely they were to vote to leave.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Older people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Older people",
+                "types": [],
+                "wikid": "Older people",
+                "dbpedia": "Older people"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            },
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Older people -> Young people": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Older people -> EU membership": [
+                -1.0
+            ],
+            "Older people -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Young people, especially those aged 18-25, voted overwhelmingly to remain in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Young people -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "In last year's General Election, only 43% of that age group bothered to vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "General Election",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "General Election"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Young people -> General Election": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "78% of over-65s voted in the General Election.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Older people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Older people",
+                "types": [],
+                "wikid": "Older people",
+                "dbpedia": "Older people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "General Election",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "General Election"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Older people -> General Election": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Scotland, in particular, voted overwhelmingly to remain in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Scotland -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It may also reignite the campaign for reunification of Northern Ireland with its southern neighbor, Ireland, which has no plans to leave the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Northern Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Northern Ireland",
+                "types": [],
+                "wikid": "Northern Ireland",
+                "dbpedia": "Northern Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Northern Ireland -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Northern Ireland -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "England, by far the largest of the four, is also deeply split, with the industrial 'heartlands' voting to Leave but London voting to Remain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "England -> EU membership": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "London voting to Remain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU membership",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU membership"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "London -> England": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "London -> EU membership": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Young people feel disenfranchised, but their own behavior reinforces this.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Young people -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Young people are understandably furious with older people about the result.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Young people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Young people",
+                "types": [],
+                "wikid": "Young people",
+                "dbpedia": "Young people"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Older people",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Older people",
+                "types": [],
+                "wikid": "Older people",
+                "dbpedia": "Older people"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Young people -> Older people": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "This will reinforce calls for a second independence referendum in Scotland.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Scotland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Scotland",
+                "types": [],
+                "wikid": "Scotland",
+                "dbpedia": "Scotland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Scotland -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "The industrial 'heartlands' voting to Leave but London voting to Remain.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "England",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "England",
+                "types": [],
+                "wikid": "England",
+                "dbpedia": "England"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "England -> London": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "London is one of the biggest and most prosperous cities in the world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "London",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "London",
+                "types": [],
+                "wikid": "London",
+                "dbpedia": "London"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "London -> UK": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

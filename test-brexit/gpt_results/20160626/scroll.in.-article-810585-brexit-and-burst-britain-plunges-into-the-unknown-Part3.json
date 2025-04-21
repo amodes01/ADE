@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Republican voters",
+        "references": ["America's Republican voters"]
+      },
+      "target": {
+        "topic": "elite political order",
+        "references": ["elites"]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British voters",
+        "references": ["British voters"]
+      },
+      "target": {
+        "topic": "European order",
+        "references": ["established European order"]
+      },
+      "justifications": [
+        "just as British voters questioned the established European order"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Republican voters",
+        "references": ["America's Republican voters"]
+      },
+      "entity2": {
+        "entity": "American elites",
+        "references": ["their elites"]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British voters",
+        "references": ["British voters"]
+      },
+      "entity2": {
+        "entity": "European order",
+        "references": ["established European order"]
+      },
+      "justifications": [
+        "just as British voters questioned the established European order"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "American elites",
+        "references": ["their elites"]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

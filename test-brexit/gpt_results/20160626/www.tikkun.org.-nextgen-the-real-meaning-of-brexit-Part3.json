@@ -1,0 +1,108 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Podemos", "references": ["Podemos"]},
+      "target": {"topic": "austerity regime", "references": ["austerity regime"]},
+      "justifications": ["Podemos is an anti-capitalist party; their number one goal is to take down the austerity regime in Spain and across Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Podemos", "references": ["Podemos"]},
+      "target": {"topic": "capitalism", "references": ["capitalism"]},
+      "justifications": ["Podemos is an anti-capitalist party; their number one goal is to take down the austerity regime in Spain and across Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "right-wing specters", "references": ["right-wing specters"]},
+      "target": {"topic": "global revolution", "references": ["global revolution"]},
+      "justifications": ["Alongside the collapse of the inevitable old system and rise of right-wing specters, there is another vision for the future."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "global revolution", "references": ["global revolution"]},
+      "target": {"topic": "planetary renewal and liberation", "references": ["planetary renewal and liberation"]},
+      "justifications": ["Will the disintegration of the globalized systems lead to fascist violence and molecular civil wars as some fear or will it lead to a process of planetary renewal and liberation?"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "global revolution", "references": ["global revolution"]},
+      "target": {"topic": "societal conditions", "references": ["societal conditions"]},
+      "justifications": ["We live in the beginning phase of a global revolution which will turn societal conditions upside down."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "global revolution", "references": ["global revolution"]},
+      "target": {"topic": "old system", "references": ["old system"]},
+      "justifications": ["The entropy of the centralized systems of power must not lead to chaos and destruction, but to the emergence of a new type of free society based on autonomous communities."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "centralized systems of power", "references": ["centralized systems of power"]},
+      "target": {"topic": "entropy", "references": ["entropy"]},
+      "justifications": ["The entropy of the centralized systems of power must not lead to chaos and destruction, but to the emergence of a new type of free society based on autonomous communities."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "centralized systems of power", "references": ["centralized systems of power"]},
+      "target": {"topic": "chaos and destruction", "references": ["chaos and destruction"]},
+      "justifications": ["The entropy of the centralized systems of power must not lead to chaos and destruction, but to the emergence of a new type of free society based on autonomous communities."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "autonomous communities", "references": ["autonomous communities"]},
+      "target": {"topic": "new type of free society", "references": ["new type of free society"]},
+      "justifications": ["The entropy of the centralized systems of power must not lead to chaos and destruction, but to the emergence of a new type of free society based on autonomous communities."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "communities", "references": ["communities"]},
+      "target": {"topic": "humane future", "references": ["humane future"]},
+      "justifications": ["Community is the key word for a humane future in Europe and worldwide."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "late stage capitalism", "references": ["late stage capitalism"]},
+      "target": {"topic": "insanities", "references": ["insanities of today's late stage capitalism"]},
+      "justifications": ["The insanities of today's late stage capitalism could only be invented and executed by people who have lost their social and ethical anchor."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "patriarchy", "references": ["patriarchy"]},
+      "target": {"topic": "capitalism", "references": ["capitalism"]},
+      "justifications": ["The era we are coming from, the epoch of patriarchy, imperialism and capitalism has systematically destroyed communities and isolated people from one another."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "capitalism", "references": ["capitalism"]},
+      "target": {"topic": "imperialism", "references": ["imperialism"]},
+      "justifications": ["The era we are coming from, the epoch of patriarchy, imperialism and capitalism has systematically destroyed communities and isolated people from one another."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "capitalism", "references": ["capitalism"]},
+      "target": {"topic": "communities", "references": ["communities"]},
+      "justifications": ["The era we are coming from, the epoch of patriarchy, imperialism and capitalism has systematically destroyed communities and isolated people from one another."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "capitalism", "references": ["capitalism"]},
+      "target": {"topic": "social cohesion", "references": ["social cohesion"]},
+      "justifications": ["the systems of society, politics, economy, but also of culture and people's coexistence are bound to disintegrate because they have produced crises that have corroded social cohesion"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Pablo Iglesias", "references": ["Pablo Iglesias"]},
+      "entity2": {"entity": "Podemos", "references": ["Podemos"]},
+      "justifications": ["Pablo Iglesias, the young charismatic political science professor from Madrid leading a creative grassroots movement called Podemos"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Pablo Iglesias", "references": ["Pablo Iglesias"]},
+      "entity2": {"entity": "Spain", "references": ["Spain"]},
+      "justifications": ["there is a realistic chance the new president will be Pablo Iglesias, the young charismatic political science professor from Madrid"],
+      "attitude": "Neutral"
+    }
+  ]
+}

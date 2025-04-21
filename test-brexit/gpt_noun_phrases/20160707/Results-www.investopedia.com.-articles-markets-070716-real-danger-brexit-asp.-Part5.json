@@ -1,0 +1,260 @@
+[
+    {
+        "sentence": "Switzerland is a member of the European Free Trade Association.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Free Trade Association (EFTA)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Free Trade Association (EFTA)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Switzerland -> European Free Trade Association (EFTA)": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Switzerland's relationship with the EU, which is governed by around 20 major bilateral pacts with the bloc, is broadly similar to the EEA arrangement.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Economic Area (EEA)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Economic Area (EEA)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Switzerland -> European Economic Area (EEA)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It is outside the customs union, allowing it to negotiate free trade agreements with third countries.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU Customs Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU Customs Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Switzerland -> EU Customs Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The EU would probably not have wanted a relationship modeled on the Swiss example, either.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Switzerland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Switzerland",
+                "types": [],
+                "wikid": "Switzerland",
+                "dbpedia": "Switzerland"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Swiss model",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Swiss model"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Switzerland -> EU": [
+                -1.0
+            ],
+            "EU -> Switzerland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "EU -> Swiss model": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Brexit supporters who wanted to 'take back control' would not have embraced the concessions that the Swiss made on immigration, budget payments, and single-market rules.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Swiss concessions on immigration, budget payments, and single-market rules",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Swiss concessions on immigration, budget payments, and single-market rules"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> Swiss concessions on immigration, budget payments, and single-market rules": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The UK had only two years from triggering Article 50 to negotiate such a deal.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Free Trade Association (EFTA)",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Free Trade Association (EFTA)"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "UK -> European Free Trade Association (EFTA)": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Several U.K. politicians, including Chancellor of the Exchequer Philip Hammond, stressed the need for a transitional deal of a few years so that (among other reasons) Britain could negotiate EU and third-country trade deals.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Philip Hammond",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Philip Hammond",
+                "types": [],
+                "wikid": "Philip Hammond",
+                "dbpedia": "Philip Hammond"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Philip Hammond -> Brexit supporters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

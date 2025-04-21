@@ -1,0 +1,339 @@
+[
+    {
+        "sentence": "France, for instance, is more concerned about terrorism in the wake of the attacks in Paris in November of 2015 than the threat posed by Russia",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "threat posed by Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "threat posed by Russia"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "France -> threat posed by Russia": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Baltic States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Baltic States",
+                "types": [],
+                "wikid": "Baltic States",
+                "dbpedia": "Baltic States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "threat posed by Russia",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "threat posed by Russia"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "France -> Poland": [
+                -1.0
+            ],
+            "France -> Baltic States": [
+                -1.0
+            ],
+            "Poland -> France": [
+                1.0
+            ],
+            "Poland -> Baltic States": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Poland -> threat posed by Russia": [
+                1.0
+            ],
+            "Baltic States -> threat posed by Russia": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"And you cannot ask the Baltic States or Poland to be as involved as we are in the south to face the crisis of Daesh\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Baltic States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Baltic States",
+                "types": [],
+                "wikid": "Baltic States",
+                "dbpedia": "Baltic States"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "crisis of Daesh",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "crisis of Daesh"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Poland -> NATO": [
+                -1.0
+            ],
+            "Baltic States -> NATO": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Poland -> crisis of Daesh": [
+                -1.0
+            ],
+            "Baltic States -> crisis of Daesh": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"but that does not mean that we do not share a sense of unity of purpose.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Baltic States",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Baltic States",
+                "types": [],
+                "wikid": "Baltic States",
+                "dbpedia": "Baltic States"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "unity of purpose",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "unity of purpose"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "NATO -> Poland": [
+                1.0
+            ],
+            "NATO -> Baltic States": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "NATO -> unity of purpose": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Maybe more important than the military aspect of the Alliance is the political aspect of the Alliance.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO",
+                "types": [],
+                "wikid": "NATO",
+                "dbpedia": "NATO"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "political aspect of the Alliance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "political aspect of the Alliance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO -> political aspect of the Alliance": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "At Warsaw, NATO leaders will look for ways in which the Alliance can supplement, not supplant, the US-led coalition's effort against ISIS",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US-led coalition",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US-led coalition",
+                "types": [],
+                "wikid": "US-led coalition",
+                "dbpedia": "US-led coalition"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "effort against ISIS",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "effort against ISIS"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US-led coalition -> effort against ISIS": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "NATO leaders will look for ways in which the Alliance can supplement, not supplant, the US-led coalition's effort against ISIS and the EU's attempts to contain the migrant crisis",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU",
+                "types": [],
+                "wikid": "EU",
+                "dbpedia": "EU"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "contain the migrant crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "contain the migrant crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU -> contain the migrant crisis": [
+                1.0
+            ]
+        }
+    }
+]

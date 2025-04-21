@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Orthodox Rabbinate", "references": ["Orthodox Rabbinate"] },
+      "target": { "topic": "non-Orthodox conversions", "references": ["non-Orthodox conversions to Judaism"] },
+      "justifications": ["Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate, by agreeing to recognize non-Orthodox conversions to Judaism performed partially in Israel."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Supreme Court of Israel", "references": ["Israel's Supreme Court"] },
+      "target": { "topic": "non-Orthodox conversions", "references": ["non-Orthodox conversions to Judaism"] },
+      "justifications": ["Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate, by agreeing to recognize non-Orthodox conversions to Judaism performed partially in Israel."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Supreme Court of Israel", "references": ["Israel's Supreme Court"] },
+      "target": { "topic": "Orthodox Rabbinate", "references": ["Orthodox Rabbinate"] },
+      "justifications": ["Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate, by agreeing to recognize non-Orthodox conversions to Judaism performed partially in Israel."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Orthodox Rabbinate", "references": ["Orthodox Rabbinate"] },
+      "entity2": { "entity": "Supreme Court of Israel", "references": ["Israel's Supreme Court"] },
+      "justifications": ["Israel's Supreme Court has dealt a blow to the religious monopoly of the Orthodox Rabbinate."],
+      "attitude": "Negative"
+    }
+  ]
+}

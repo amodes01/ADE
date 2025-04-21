@@ -1,0 +1,270 @@
+[
+    {
+        "sentence": "A powerful selling point for many votes is the claim that a farewell to E.U. ties could give the country the latitude to dramatically reduce immigration.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "immigration",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "immigration"
+                ]
+            },
+            {
+                "ngram": "British sovereignty",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "British sovereignty"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> immigration": [
+                1.0
+            ],
+            "Brexit -> British sovereignty": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Advocates for a British exit... argue that tossing off the shackles of E.U. bureaucracy will restore Britain's sovereignty.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economy"
+                ]
+            },
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> economy": [
+                1.0
+            ],
+            "Brexit -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It could also lead to another push on Scottish secession.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British exit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British exit",
+                "types": [],
+                "wikid": "British exit",
+                "dbpedia": "British exit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Scottish secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Scottish secession"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "British exit -> Scottish secession": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "former London mayor Boris Johnson... waved copies of the virulently anti-E.U. Sun newspaper.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Boris Johnson",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Boris Johnson",
+                "types": [],
+                "wikid": "Boris Johnson",
+                "dbpedia": "Boris Johnson"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Boris Johnson -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We do not solve our immigration challenge by leaving the European Union, but we do create a massive problem for our economy, Cameron told the BBC on the eve of the vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit supporters",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit supporters",
+                "types": [],
+                "wikid": "Brexit supporters",
+                "dbpedia": "Brexit supporters"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Brexit supporters": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "We do not solve our immigration challenge by leaving the European Union, but we do create a massive problem for our economy.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Cameron",
+                "types": [],
+                "wikid": "Cameron",
+                "dbpedia": "Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "British economy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "British economy",
+                "types": [],
+                "wikid": "British economy",
+                "dbpedia": "British economy"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Cameron -> British economy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "This is irreversible. You can not jump out of the airplane then climb back in through the cockpit hatch.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Cameron",
+                "types": [],
+                "wikid": "Cameron",
+                "dbpedia": "Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Cameron -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

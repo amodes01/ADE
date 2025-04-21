@@ -1,0 +1,148 @@
+[
+    {
+        "sentence": "Google is not as concerned about the Brexit issue as others.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Google",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Google",
+                "types": [],
+                "wikid": "Google",
+                "dbpedia": "Google"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Google -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "smaller companies who although not based in the UK, do provide goods to the UK and rely on much smaller profit margins, like OnePlus.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "OnePlus -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "it is unlikely to force Google to change their current UK base setup.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Google",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Google",
+                "types": [],
+                "wikid": "Google",
+                "dbpedia": "Google"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Eric Schmidt",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Eric Schmidt",
+                "types": [],
+                "wikid": "Eric Schmidt",
+                "dbpedia": "Eric Schmidt"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Google -> Eric Schmidt": [
+                1.0
+            ],
+            "Eric Schmidt -> Google": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Companies who make use of less spread out locations and are more central to bases in the UK will be the ones who need to consider their position more carefully.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Google",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Google",
+                "types": [],
+                "wikid": "Google",
+                "dbpedia": "Google"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "OnePlus",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "OnePlus",
+                "types": [],
+                "wikid": "OnePlus",
+                "dbpedia": "OnePlus"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Google -> OnePlus": [
+                -1.0
+            ],
+            "OnePlus -> Google": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "sentence": "\"I think that the best way to think about this is, a pause button has been pressed on the project of full European integration.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"That's not what's happening.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Trans-Atlantic alliance",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Trans-Atlantic alliance"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> Trans-Atlantic alliance": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"as if somehow NATO's gone and the Trans-Atlantic alliance is dissolving...\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "NATO",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "President Obama -> NATO": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"The U.S. would continue to maintain close relationships with Great Britain and the European Union.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "United Kingdom",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "United Kingdom",
+                "types": [],
+                "wikid": "United Kingdom",
+                "dbpedia": "United Kingdom"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "President Obama -> United Kingdom": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "President Obama -> European Union": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "\"Norway is one of our closest allies, they align themselves on almost every issue with Europe and us.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "President Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "President Obama",
+                "types": [],
+                "wikid": "President Obama",
+                "dbpedia": "President Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Norway",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Norway",
+                "types": [],
+                "wikid": "Norway",
+                "dbpedia": "Norway"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "President Obama -> Norway": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "\"Prime Minister David Cameron announcing that he plans to resign within three months.\"",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "David Cameron",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "David Cameron",
+                "types": [],
+                "wikid": "David Cameron",
+                "dbpedia": "David Cameron"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "David Cameron -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

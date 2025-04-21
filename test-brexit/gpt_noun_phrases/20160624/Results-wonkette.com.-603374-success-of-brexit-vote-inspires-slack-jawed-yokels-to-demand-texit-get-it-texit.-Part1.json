@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "Miller did not specify what those oppressive \"laws, rules and regulations\" were, exactly, but we'd be willing to bet they have to do with taking away Texans' sacred rights",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Nationalist Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Nationalist Movement",
+                "types": [],
+                "wikid": "Texas Nationalist Movement",
+                "dbpedia": "Texas Nationalist Movement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Texas secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Texas secession"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Texas Nationalist Movement -> Texas secession": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "secession may be completely illegal -- as confirmed by the Supreme Court in an 1869 case involving Texas",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Supreme Court",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Supreme Court",
+                "types": [],
+                "wikid": "Supreme Court",
+                "dbpedia": "Supreme Court"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Nationalist Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Nationalist Movement",
+                "types": [],
+                "wikid": "Texas Nationalist Movement",
+                "dbpedia": "Texas Nationalist Movement"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Texas secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Texas secession"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Texas Nationalist Movement -> Supreme Court": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Supreme Court -> Texas secession": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Plus, they have got at least theoretical backing from Vladimir Putin, kinda sorta, if by \"backing\" you mean Putin tried to justify Russia's generous liberation of Crimea from the clutches of Ukraine with some bad history.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vladimir Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vladimir Putin",
+                "types": [],
+                "wikid": "Vladimir Putin",
+                "dbpedia": "Vladimir Putin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Texas secession",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Texas secession"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Vladimir Putin -> Texas secession": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Plus, they have got at least theoretical backing from Vladimir Putin",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Texas Nationalist Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Texas Nationalist Movement",
+                "types": [],
+                "wikid": "Texas Nationalist Movement",
+                "dbpedia": "Texas Nationalist Movement"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Vladimir Putin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Vladimir Putin",
+                "types": [],
+                "wikid": "Vladimir Putin",
+                "dbpedia": "Vladimir Putin"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Texas Nationalist Movement -> Vladimir Putin": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

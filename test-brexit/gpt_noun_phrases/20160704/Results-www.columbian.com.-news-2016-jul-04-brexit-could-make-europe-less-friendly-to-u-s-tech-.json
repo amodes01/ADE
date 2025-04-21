@@ -1,0 +1,149 @@
+[
+    {
+        "sentence": "Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley's biggest businesses",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley's biggest businesses",
+                "types": [],
+                "wikid": "Silicon Valley's biggest businesses",
+                "dbpedia": "Silicon Valley's biggest businesses"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "U.K. withdrawal from the European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "U.K. withdrawal from the European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Silicon Valley's biggest businesses -> U.K.": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Silicon Valley's biggest businesses -> U.K. withdrawal from the European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "these companies might find Europe a more challenging environment in which to do business.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley's biggest businesses",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley's biggest businesses",
+                "types": [],
+                "wikid": "Silicon Valley's biggest businesses",
+                "dbpedia": "Silicon Valley's biggest businesses"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Europe",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Europe",
+                "types": [],
+                "wikid": "Europe",
+                "dbpedia": "Europe"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "business environment in Europe",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "business environment in Europe"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Silicon Valley's biggest businesses -> Europe": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Silicon Valley's biggest businesses -> business environment in Europe": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "U.K. tech companies might have to leave the country to follow their customers and funding sources.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K. tech companies",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K. tech companies",
+                "types": [],
+                "wikid": "U.K. tech companies",
+                "dbpedia": "U.K. tech companies"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "business environment in the U.K.",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "business environment in the U.K."
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "U.K. -> U.K. tech companies": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "U.K. tech companies -> business environment in the U.K.": [
+                -1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "patriotism", "references": ["patriots"] },
+      "justifications": [
+        "more than 1 in 3 (34 percent) described these respondents as 'mostly patriots'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "treason", "references": ["traitors"] },
+      "justifications": [
+        "slightly less than 1 in 3 (31 percent) described them as 'mostly traitors'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "neutrality", "references": ["neither patriot nor traitor"] },
+      "justifications": [
+        "Roughly equal percentages (17%) described them as neither patriot nor traitor"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "uncertainty", "references": ["did not know what type of people they were"] },
+      "justifications": [
+        "Roughly equal percentages (17%)... said they did not know what type of people they were"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "aggrievement with federal government", "references": ["sense of aggrievement with the federal government"] },
+      "justifications": [
+        "Support for secession reflects less of a desire to leave than a sense of aggrievement with the federal government"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "protest", "references": ["expression of protest"] },
+      "justifications": [
+        "respondents who indicated wanting to withdraw were less ideological than an expression of protest"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "state secession", "references": ["secede", "secession"] },
+      "target": { "topic": "polarization", "references": ["polarization of American politics"] },
+      "justifications": [
+        "the results may reflect the polarization of American politics where increasingly we dislike those we disagree with"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Pew Center", "references": ["Pew Center"] },
+      "entity2": { "entity": "respondents", "references": ["respondents"] },
+      "justifications": [
+        "the Pew Center survey, found a slight increase - up to 30 percent - in the number of Americans willing to allow a state to secede"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Keith Gaddie", "references": ["Keith Gaddie"] },
+      "entity2": { "entity": "state secession proponents", "references": ["those who want to secede"] },
+      "justifications": [
+        "one of us (Keith Gaddie) similarly described the desire to secede as a 'take your ball and go home' attitude"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Public Policy Polling", "references": ["Public Policy Polling"] },
+      "entity2": { "entity": "respondents supportive of Texas secession", "references": ["respondents in a national survey were supportive", "those most supportive"] },
+      "justifications": [
+        "Most recently, in wake of the #Brexit vote, Democratic polling firm Public Policy Polling asked voters about the possibility of Texas exiting the United States."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

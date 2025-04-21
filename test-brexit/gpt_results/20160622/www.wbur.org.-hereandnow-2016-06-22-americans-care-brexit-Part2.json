@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Diane Swonk",
+        "references": ["Diane Swonk"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "What we would see is less trade, increased tariffs, reduced profits for US firms and ultimately reduced wages, and that's where the pain is. Right in the wallet."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Diane Swonk",
+        "references": ["Diane Swonk"]
+      },
+      "target": {
+        "topic": "United States' economy before the EU",
+        "references": ["United States did extremely well in the 1960s and then in the 1950s and 1960s after World War II"]
+      },
+      "justifications": [
+        "Actually the United States did extremely well in the 1960s and then in the 1950s and 1960s after World War II because we did not have infrastructure to rebuild."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Diane Swonk",
+        "references": ["Diane Swonk"]
+      },
+      "target": {
+        "topic": "United States' economy before the EU",
+        "references": ["We were the only industrialized economy that was still intact."]
+      },
+      "justifications": [
+        "Actually the United States did extremely well in the 1960s and then in the 1950s and 1960s after World War II because we did not have infrastructure to rebuild. We were the only industrialized economy that was still intact."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Diane Swonk",
+        "references": ["Diane Swonk"]
+      },
+      "target": {
+        "topic": "United States' economy before the EU",
+        "references": ["I think it's bit of a false positive to say, 'Oh things were great back then.'"]
+      },
+      "justifications": [
+        "I think it's bit of a false positive to say, 'Oh things were great back then.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Diane Swonk",
+        "references": ["Diane Swonk"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "Actually the United States did extremely well in the 1960s and then in the 1950s and 1960s after World War II because we did not have infrastructure to rebuild."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

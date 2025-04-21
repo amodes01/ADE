@@ -1,0 +1,174 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "working-class voters",
+        "references": ["working-class voters"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "Roughly half the population in Europe and the United States, generally working-class voters, believes that immigration is out of control, posing a threat to public order and cultural norms."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Trump backers",
+        "references": ["Trump backers"]
+      },
+      "target": {
+        "topic": "undocumented immigration",
+        "references": ["undocumented residents"]
+      },
+      "justifications": [
+        "In the US, Trump backers similarly rail against the country's estimated 11 million undocumented residents, mainly Hispanic, who overwhelmingly live peaceful and productive lives, but without proper visas or work permits."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Trump supporters",
+        "references": ["Trump supporters"]
+      },
+      "target": {
+        "topic": "Syrian refugee crisis",
+        "references": ["Syrian refugee crisis"]
+      },
+      "justifications": [
+        "That news came on top of the Syrian refugee crisis, terrorist attacks by Syrian migrants and disaffected children of earlier immigrants, and highly publicized reports of assaults on women and girls by migrants in Germany and elsewhere."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK voters",
+        "references": ["UK voters"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "A major factor, however, was implicit class warfare. Working-class \"Leave\" voters reasoned that most or all of the income losses would in any event be borne by the rich, and especially the despised bankers of the City of London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "working-class voters",
+        "references": ["working-class voters"]
+      },
+      "target": {
+        "topic": "Wall Street",
+        "references": ["Wall Street"]
+      },
+      "justifications": [
+        "Americans disdain Wall Street and its greedy and often criminal behavior at least as much as the British working class disdains the City of London."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Trump",
+        "references": ["Trump"]
+      },
+      "target": {
+        "topic": "Wall Street",
+        "references": ["Wall Street"]
+      },
+      "justifications": [
+        "This, too, suggests a campaign advantage for Trump over his opponent in November, Hillary Clinton, whose candidacy is heavily financed by Wall Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU institutions",
+        "references": ["EU institutions"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "In the UK, these two powerful political currents - rejection of immigration and class warfare - were joined by the widespread sentiment that EU institutions are dysfunctional."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European politicians",
+        "references": ["European politicians"]
+      },
+      "target": {
+        "topic": "Greek crisis",
+        "references": ["mismanagement of the Greek crisis"]
+      },
+      "justifications": [
+        "One need only cite the last six years of mismanagement of the Greek crisis by self-serving, shortsighted European politicians."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "remaining EU",
+        "references": ["remaining EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The remaining EU should, instead, reflect on its obvious failings and fix them."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "This, too, suggests a campaign advantage for Trump over his opponent in November, Hillary Clinton, whose candidacy is heavily financed by Wall Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "In Europe, the call to punish Britain pour encourager les autres - to warn those contemplating the same - is already rising."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "remaining EU",
+        "references": ["remaining EU"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "Punishing Britain - by, say, denying it access to Europe's single market - would only lead to the continued unraveling of the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

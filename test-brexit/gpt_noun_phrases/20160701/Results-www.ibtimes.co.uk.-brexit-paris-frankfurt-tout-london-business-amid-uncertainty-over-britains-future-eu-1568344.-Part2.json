@@ -1,0 +1,85 @@
+[
+    {
+        "sentence": "Luxembourg is a significant financial centre",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Luxembourg",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Luxembourg",
+                "types": [],
+                "wikid": "Luxembourg",
+                "dbpedia": "Luxembourg"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "financial business",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "financial business"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Luxembourg -> financial business": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ireland is the same",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ireland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ireland",
+                "types": [],
+                "wikid": "Ireland",
+                "dbpedia": "Ireland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Luxembourg",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Luxembourg",
+                "types": [],
+                "wikid": "Luxembourg",
+                "dbpedia": "Luxembourg"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "financial business",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "financial business"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Luxembourg -> Ireland": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Ireland -> financial business": [
+                1.0
+            ]
+        }
+    }
+]

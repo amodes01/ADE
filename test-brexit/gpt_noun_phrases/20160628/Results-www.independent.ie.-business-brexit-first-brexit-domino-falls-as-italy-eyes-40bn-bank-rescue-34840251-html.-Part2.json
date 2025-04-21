@@ -1,0 +1,207 @@
+[
+    {
+        "sentence": "Hedge fund veteran George Soros warned that Italy faces the risk of a \"full-blown banking crisis\".",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Italian banking crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Italian banking crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George Soros -> Italian banking crisis": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system in defiance of the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Renzi",
+                "types": [],
+                "wikid": "Mr. Renzi",
+                "dbpedia": "Mr. Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Italian banking crisis",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Italian banking crisis"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Mr. Renzi -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Mr. Renzi -> Italian banking crisis": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Hedge fund veteran George Soros warned that Italy faces the risk of a \"full-blown banking crisis\" that could bring the rebel Five Star Movement to power as early as next year.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George Soros",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George Soros",
+                "types": [],
+                "wikid": "George Soros",
+                "dbpedia": "George Soros"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Five Star Movement",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Five Star Movement",
+                "types": [],
+                "wikid": "Five Star Movement",
+                "dbpedia": "Five Star Movement"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "George Soros -> Five Star Movement": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system in defiance of the EU, unless he wins concessions soon from Brussels.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Renzi",
+                "types": [],
+                "wikid": "Mr. Renzi",
+                "dbpedia": "Mr. Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr. Renzi -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Mr. Renzi",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Mr. Renzi",
+                "types": [],
+                "wikid": "Mr. Renzi",
+                "dbpedia": "Mr. Renzi"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italy",
+                "types": [],
+                "wikid": "Italy",
+                "dbpedia": "Italy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Italian banking system",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Italian banking system",
+                "types": [],
+                "wikid": "Italian banking system",
+                "dbpedia": "Italian banking system"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Mr. Renzi -> Italy": [
+                1.0
+            ],
+            "Italy -> Italian banking system": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

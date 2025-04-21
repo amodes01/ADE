@@ -1,0 +1,192 @@
+[
+    {
+        "sentence": "Brexit... all show the importance of good governance... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democratic voting",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democratic voting"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Brexit -> democratic voting": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Bitcoin... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "bitcoin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "bitcoin",
+                "types": [],
+                "wikid": "bitcoin",
+                "dbpedia": "bitcoin"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democratic voting",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democratic voting"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "bitcoin -> democratic voting": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Ethereum... they all seem to be heading off of a cliff, each from insisting on \"democratic\" voting that most communities, given a choice, decide not to use.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum",
+                "types": [],
+                "wikid": "Ethereum",
+                "dbpedia": "Ethereum"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "democratic voting",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "democratic voting"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Ethereum -> democratic voting": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Bitcoin and Ethereum, unfortunately, have hardwired governance systems that are incapable of maximizing the value of these platforms for their participants.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Bitcoin",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Bitcoin",
+                "types": [],
+                "wikid": "Bitcoin",
+                "dbpedia": "Bitcoin"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ethereum",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ethereum",
+                "types": [],
+                "wikid": "Ethereum",
+                "dbpedia": "Ethereum"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "governance systems",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "governance systems"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Bitcoin -> Ethereum": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Bitcoin -> governance systems": [
+                -1.0
+            ],
+            "Ethereum -> governance systems": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The U.K. actually has a representative democracy in place that could pull it back from the brink.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "U.K.",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "U.K.",
+                "types": [],
+                "wikid": "U.K.",
+                "dbpedia": "U.K."
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "U.K. -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

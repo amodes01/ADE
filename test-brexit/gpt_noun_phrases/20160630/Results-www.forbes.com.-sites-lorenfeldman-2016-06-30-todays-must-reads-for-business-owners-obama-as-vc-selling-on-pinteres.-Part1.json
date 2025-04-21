@@ -1,0 +1,517 @@
+[
+    {
+        "sentence": "Hoping to compete with Amazon prime, Walmart is offering a free-shipping bonanza.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walmart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walmart",
+                "types": [],
+                "wikid": "Walmart",
+                "dbpedia": "Walmart"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Amazon",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Amazon",
+                "types": [],
+                "wikid": "Amazon",
+                "dbpedia": "Amazon"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Amazon Prime",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Amazon Prime"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Walmart -> Amazon": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Walmart -> Amazon Prime": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Walmart's e-commerce business has floundered.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walmart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walmart",
+                "types": [],
+                "wikid": "Walmart",
+                "dbpedia": "Walmart"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "e-commerce business",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "e-commerce business"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Walmart -> e-commerce business": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "At bottom, the site sees itself more as a competitor to Google.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pinterest",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pinterest",
+                "types": [],
+                "wikid": "Pinterest",
+                "dbpedia": "Pinterest"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Google",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Google",
+                "types": [],
+                "wikid": "Google",
+                "dbpedia": "Google"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Google",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Google"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Pinterest -> Google": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Pinterest -> Google": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "'Shopping with Pinterest is meant to be that bridge between getting inspiration and actually making it a part of your life,' Ben Silbermann, the chief executive, said.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Ben Silbermann",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Ben Silbermann",
+                "types": [],
+                "wikid": "Ben Silbermann",
+                "dbpedia": "Ben Silbermann"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "shopping features",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "shopping features"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Ben Silbermann -> shopping features": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Facebook is changing its news feed to focus on friends and family -- not companies.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Facebook",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Facebook",
+                "types": [],
+                "wikid": "Facebook",
+                "dbpedia": "Facebook"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "news feed",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "news feed"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Facebook -> news feed": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Sal Kahn is educating the children of Silicon Valley's elite at a real school with actual walls.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley",
+                "types": [],
+                "wikid": "Silicon Valley",
+                "dbpedia": "Silicon Valley"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "elite education",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "elite education"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Silicon Valley -> elite education": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "His laboratory school is not-for-profit, like the virtual academy upstairs.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Khan Academy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Khan Academy",
+                "types": [],
+                "wikid": "Khan Academy",
+                "dbpedia": "Khan Academy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "education",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "education"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Khan Academy -> education": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "His laboratory school is not-for-profit, like the virtual academy upstairs. But it is an exclusive, selective private school not at all like the Khan Academy slogan.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Khan Academy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Khan Academy",
+                "types": [],
+                "wikid": "Khan Academy",
+                "dbpedia": "Khan Academy"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sal Kahn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sal Kahn",
+                "types": [],
+                "wikid": "Sal Kahn",
+                "dbpedia": "Sal Kahn"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Silicon Valley elites",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Silicon Valley elites",
+                "types": [],
+                "wikid": "Silicon Valley elites",
+                "dbpedia": "Silicon Valley elites"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "elite education",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "elite education"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Sal Kahn -> Silicon Valley elites": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Khan Academy -> elite education": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Khan disputes that. He says the point is to boldly experiment with research-based instruction.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Sal Khan",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Sal Khan",
+                "types": [],
+                "wikid": "Sal Khan",
+                "dbpedia": "Sal Khan"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "education",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "education"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Sal Khan -> education": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "'Is it? Our platform does exactly what it says it does. It's not like we are f------ lying, like Theranos.'",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Richard Hendricks",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Richard Hendricks",
+                "types": [],
+                "wikid": "Richard Hendricks",
+                "dbpedia": "Richard Hendricks"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "fraud",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "fraud"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Richard Hendricks -> fraud": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "'This is fraud,' Jared Dunn, head of business development at Pied Piper, tells Hendricks.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Jared Dunn",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Jared Dunn",
+                "types": [],
+                "wikid": "Jared Dunn",
+                "dbpedia": "Jared Dunn"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "fraud",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "fraud"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Jared Dunn -> fraud": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The timely joke is referring to the blood-testing company's recent woes.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Pied Piper",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Pied Piper",
+                "types": [],
+                "wikid": "Pied Piper",
+                "dbpedia": "Pied Piper"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Theranos",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Theranos",
+                "types": [],
+                "wikid": "Theranos",
+                "dbpedia": "Theranos"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Theranos",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Theranos"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Theranos -> Pied Piper": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Pied Piper -> Theranos": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Target's digital sales rose 23 percent in the first quarter of 2016.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Walmart",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Walmart",
+                "types": [],
+                "wikid": "Walmart",
+                "dbpedia": "Walmart"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Target",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Target",
+                "types": [],
+                "wikid": "Target",
+                "dbpedia": "Target"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Walmart -> Target": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

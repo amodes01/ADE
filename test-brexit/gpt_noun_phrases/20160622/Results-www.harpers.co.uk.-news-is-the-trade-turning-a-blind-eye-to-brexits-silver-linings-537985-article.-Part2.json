@@ -1,0 +1,70 @@
+[
+    {
+        "sentence": "I honestly do not see how leaving would benefit us in any way.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "North",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "North",
+                "types": [],
+                "wikid": "North",
+                "dbpedia": "North"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "North -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "I hope people really reflect and do the responsible thing tomorrow by voting to stay with the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "North",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "North",
+                "types": [],
+                "wikid": "North",
+                "dbpedia": "North"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "North -> European Union": [
+                1.0
+            ]
+        }
+    }
+]

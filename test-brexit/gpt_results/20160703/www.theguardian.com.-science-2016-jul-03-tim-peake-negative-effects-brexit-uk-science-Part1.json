@@ -1,0 +1,106 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["UK's decision to leave the EU", "Brexit"]
+      },
+      "justifications": [
+        "Britain must ensure that its world class scientific research is not harmed as a result of the UK's decision to leave the EU, the astronaut Tim Peake has said.",
+        "He said: 'We have to make sure we do not harm ourselves in areas where the EU was particularly good for us.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "target": {
+        "topic": "UK scientific research",
+        "references": ["UK scientific research"]
+      },
+      "justifications": [
+        "Peake said the protection of UK scientific research was a priority in the negotiations that lie ahead."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "I do not want to see scientists being punished, and this having negative effects on our science."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["UK's decision to leave the EU", "Brexit"]
+      },
+      "justifications": [
+        "Peake said: 'We have to make sure we do not harm ourselves in areas where the EU was particularly good for us.'",
+        "Peake said: 'I missed a lot of the campaigning, but I am aware now that it caused divisiveness and some of it was not done in the most positive fashion.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "Peake said it was important to reunite and get on with securing the best future for Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "UK universities receive 10% of their research funds from the EU, and across the country, science is propped up by grants from Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tim Peake",
+        "references": ["Tim Peake"]
+      },
+      "entity2": {
+        "entity": "NASA",
+        "references": ["Nasa"]
+      },
+      "justifications": [
+        "Peake blasted off to space in December 2015 on what started out as a textbook launch to the International Space Station. But as the Soyuz capsule carrying Peake, the Nasa astronaut Tim Kopra, and the Russian commander, Yuri Malenchenko, prepared to dock with the orbiting station, there was a glitch."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

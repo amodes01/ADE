@@ -1,0 +1,232 @@
+[
+    {
+        "sentence": "We have free-trade agreements with multitudes of countries around the world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obhrai",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obhrai",
+                "types": [],
+                "wikid": "Obhrai",
+                "dbpedia": "Obhrai"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "free trade agreements",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "free trade agreements"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Obhrai -> free trade agreements": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The European Union acts like a sovereign nation!",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Obhrai",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Obhrai",
+                "types": [],
+                "wikid": "Obhrai",
+                "dbpedia": "Obhrai"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Obhrai -> European Union": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Obhrai -> European Union": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Andrew Scheer... penned an op-ed suggesting a Brexit would be better for Britain and better for local decision-making.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Andrew Scheer",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Andrew Scheer",
+                "types": [],
+                "wikid": "Andrew Scheer",
+                "dbpedia": "Andrew Scheer"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Andrew Scheer -> Brexit": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Andrew Scheer -> Brexit": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Prime Minister Justin Trudeau, however, firmly supports Britain's continued participation in the EU.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister Justin Trudeau",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister Justin Trudeau",
+                "types": [],
+                "wikid": "Prime Minister Justin Trudeau",
+                "dbpedia": "Prime Minister Justin Trudeau"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Brexit",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Brexit",
+                "types": [],
+                "wikid": "Brexit",
+                "dbpedia": "Brexit"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Prime Minister Justin Trudeau -> Brexit": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Prime Minister Justin Trudeau -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "We have a great relationship with a strong and united Europe and certainly hope that that continues.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Prime Minister Justin Trudeau",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Prime Minister Justin Trudeau",
+                "types": [],
+                "wikid": "Prime Minister Justin Trudeau",
+                "dbpedia": "Prime Minister Justin Trudeau"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European Union",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European Union",
+                "types": [],
+                "wikid": "European Union",
+                "dbpedia": "European Union"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European Union",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European Union"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Prime Minister Justin Trudeau -> European Union": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Prime Minister Justin Trudeau -> European Union": [
+                1.0
+            ]
+        }
+    }
+]

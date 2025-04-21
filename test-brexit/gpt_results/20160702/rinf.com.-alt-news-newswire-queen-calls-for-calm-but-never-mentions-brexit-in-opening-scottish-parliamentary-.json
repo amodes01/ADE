@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Queen Elizabeth II", "references": ["Queen Elizabeth II"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Queen Elizabeth II avoided making any direct comments on last week's historic Brexit vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Scotland's first minister, Nicola Sturgeon, looked to the future positively as well at a time when she is facing a fight to secure Scotland's relationship with the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "EU membership", "references": ["EU"]},
+      "justifications": ["Scotland's first minister, Nicola Sturgeon, looked to the future positively as well at a time when she is facing a fight to secure Scotland's relationship with the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Scottish independence referendum", "references": ["new referendum on Scottish independence"]},
+      "justifications": ["Sturgeon has said that a new referendum on Scottish independence is \"highly likely\" to take place."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Scottish Parliament", "references": ["Scottish Parliament"]},
+      "justifications": ["She told parliament that MSPs had been given the \"precious opportunity to contribute to building a better country - and build it we will.\""],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Scottish Parliament", "references": ["Scottish Parliament"]},
+      "justifications": ["\"We have five years to make a difference, five years to make Scotland a fairer, kinder and more prosperous country, five years to build a better place for us all to live, government or opposition, front or back bench, each one of us has something to contribute,\" he said."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Queen Elizabeth II", "references": ["Queen Elizabeth II"]},
+      "entity2": {"entity": "Ken MacIntosh", "references": ["Ken MacIntosh"]},
+      "justifications": ["The Queen remained true to the practice of royal neutrality and did not mention the Brexit referendum despite being given the opening to do so by Holyrood's presiding officer, Ken MacIntosh, who brought up Brexit in his introduction of the monarch."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ken MacIntosh", "references": ["Ken MacIntosh"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Ken MacIntosh, who brought up Brexit in his introduction of the monarch, noting that the last few \"weeks of unprecedented political turbulence\" had \"borne witness to the politics of hate.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ken MacIntosh", "references": ["Ken MacIntosh"]},
+      "entity2": {"entity": "Jo Cox", "references": ["Jo Cox"]},
+      "justifications": ["He also referred specifically to the murder of Labour MP Jo Cox and the mass shooting at a gay nightclub in the US city of Orlando before asking her majesty to address the parliament."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The majority of people in Scotland voted to remain in the EU, and Sturgeon has said that a new referendum on Scottish independence is \"highly likely\" to take place."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "EU membership", "references": ["EU"]},
+      "justifications": ["The majority of people in Scotland voted to remain in the EU, and Sturgeon has said that a new referendum on Scottish independence is \"highly likely\" to take place."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "Scotland", "references": ["Scotland"]},
+      "justifications": ["\"We are so much stronger for the diversity that shapes us, we are one Scotland and we are simply home to all those who have chosen to live here.\""],
+      "attitude": "Positive"
+    }
+  ]
+}

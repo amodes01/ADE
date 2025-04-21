@@ -1,0 +1,367 @@
+    <!-- layout_protected.html -->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Sign in</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://therebel.nationbuilder.com/themes/1/56c214b0b504f589cb000001/0/attachments/14558335791692574200/default/theme.scss" type="text/css" />
+  <link rel="stylesheet" href="https://therebel.nationbuilder.com/themes/1/56c214b0b504f589cb000001/0/attachments/14558335791692574200/default/tablet-and-desktop.scss" type="text/css" media="screen and (min-width: 768px)" />
+
+  <!-- because ie8 ignores media queries, we need this -->
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="https://therebel.nationbuilder.com/themes/1/56c214b0b504f589cb000001/0/attachments/14558335791692574200/default/tablet-and-desktop.scss" type="text/css" />
+  <![endif]-->
+
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="ie.scss" type="text/css" />
+  <![endif]-->
+
+  
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+  <meta name="google-site-verification" content="f2vV7GWucM9WQBg9-5dwCV5O5vhGNS_NHOD052EaBxQ" />
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="HtSvDvt53IHkQKNAq6quv7NL3WeTV30t7rfUW9XVkuE=" name="csrf-token" />
+
+  <meta property="og:site_name" content="The Rebel"/>
+
+<script type="text/javascript">
+  var NB = NB || {};
+
+  NB.environment = "production";
+  NB.pageId = "";
+  NB.Liquid = NB.Liquid || {
+    Theme: {
+      version: 2,
+      name: "The Rebel 3.0",
+      parent: "bootstrap",
+      variation: ""
+    }
+  };
+  NB.payments = NB.payments || {elements: {}};
+  NB.payments.decimal_mark = "."
+  NB.payments.thousands_separator = ","
+  NB.payments.currency = "cad";
+  NB.authProvider = NB.authProvider || { providerId: "", redirectHost: "" };
+</script>
+
+<script type="text/javascript">
+    //<![CDATA[
+      window._auth_token_name = "authenticity_token";
+      window._auth_token = "HtSvDvt53IHkQKNAq6quv7NL3WeTV30t7rfUW9XVkuE=";
+    //]]>
+</script>
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" type="text/css" media="all">
+
+      <link rel="icon" type="image/x-icon" href="https://assets.nationbuilder.com/therebel/sites/1/favicon_images/original/Bullhorn_Favicon.png?1545229032" />
+
+
+  <script src="https://assets.nationbuilder.com/assets/liquid/main-9e9a00d175ed6b31ca4638ecb82c7059a414a4470ed7790986089f72f01f154c.js"></script>
+
+<script type="text/javascript">
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+</script>
+
+<script type="text/javascript">
+  NB.FBAppId = '1679673749184434';
+</script>
+
+  <script type="text/javascript">
+    (function (d) { var config = { kitId: 'igz8tei', scriptTimeout: 3000, async: true }, h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);
+  </script>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-59791339-1']);
+     _gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      let s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+<!-- The following line of CSS hides a checkbox in social share prompts for posting to Facebook;
+As of Aug 1 2018, FB has deprecated the ability for apps to post to personal profile pages, so this is a temporary fix
+while we re-configure the social share prompt -->
+<style>label[for="face_tweet_is_facebook"]{display:none;}</style>
+
+
+
+
+  <script type="text/javascript">
+    NB.appConfig.userIsLoggedIn = false;
+  </script>
+
+</head>
+<body class="aware-theme v2-theme  js">
+  <div id="pattern" class="pattern">
+    <div class="wrap" id="wrap">
+      <div id="body" class="page-user-sessions-new-wide">
+
+        <div class="header-container clearfix ">
+          <div class="container clearfix">
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .header-container -->
+
+        <div class="main-container" id="middle">
+          <div class="main container clearfix">
+
+            
+<!-- _columns_1.html -->
+<!-- _columns_1.html -->
+
+<div class="column content-user-sessions-new-wide">
+
+  <div class="columns-1-flash"></div>
+  
+  <!-- user_sessions_new_wide.html -->
+
+<div class="form">
+
+  
+  <h2 class="center">Sign in with Facebook or Twitter</h2>
+  
+
+  
+
+
+  <div class="center">
+
+    <div class="padtop">
+
+      <a href="https://www.therebel.media/users/facebook/connect?page_id=44197&scope=public_profile%2Cemail" class="btn btn-default connect-button facebook"><i class="icon-facebook-squared"></i> Sign in with Facebook</a>
+      <a href="" class="btn btn-default connect-button twitter"><i class="icon-twitter-squared"></i> Sign in with Twitter</a>
+
+    </div>
+
+    <hr/>
+
+    <h3 class="visible-sm-block visible-md-block visible-lg-block padbottommore">Or sign in with your email address</h3>
+
+    <div class="visible-xs-block padbottommore">Or sign in with your email address</div>
+  </div>
+
+  <div class="row padtopmore">
+    <div class="col-md-11 col-md-offset-1">
+
+      <div class="row">
+        <div class="col-md-5">
+
+          <div class="row">
+
+            <div class="col-md-12"><h4 class="padbottommore">I have an account</h4></div>
+
+          </div>
+
+          <form class="user_session_form" method="POST" action="/forms/user_sessions"><input name="authenticity_token" type="hidden" value="HtSvDvt53IHkQKNAq6quv7NL3WeTV30t7rfUW9XVkuE="/>
+
+          <div class="row">
+
+            <div class="col-md-12">
+              <div class="form-errors"></div>
+              <div class="form-group">
+                <label for="user_session_email">Email Address</label><input class="text form-control" id="user_session_email" name="user_session[email]" type="email" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="user_session_password">Password</label><input class="text form-control" id="user_session_password" name="user_session[password]" type="password" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-12">
+              <div class="checkbox"><label for="user_session_remember_me"><input name="user_session[remember_me]" type="hidden" value="0" /><input class="checkbox" checked="checked" id="user_session_remember_me" name="user_session[remember_me]" type="checkbox" value="1" /> Remember me</label></div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-12"><input class="submit-button btn btn-primary" type="submit" name="commit" value="Sign in with email" />
+              <div class="form-submit"></div>
+            </div>
+
+          </div>
+
+          <div class="padtop">
+            <small><a href="https://www.therebel.media/users/password_resets/new">Forgot your password?</a></small>
+          </div>
+
+
+          </form>
+
+        </div>
+
+        <div class="col-md-5 col-md-offset-1">
+          <hr class="visible-xs-block"/>
+          <h4 class="padbottommore">Create an account</h4>
+        </div>
+
+        <form class="ajaxForm account_form" method="POST" action="/users/accounts"><input name="authenticity_token" type="hidden" value="HtSvDvt53IHkQKNAq6quv7NL3WeTV30t7rfUW9XVkuE="/><div class="email_address_form" style="display:none;" aria-hidden="true"><p><label for="email_address">Optional email code</label><br/><input name="email_address" type="text" class="text" id="email_address" autocomplete="off"/></p></div>
+
+        <div class="col-md-5 col-md-offset-1">
+          <div class="form-errors"></div>
+          <div class="form-group">
+            <label for="account_email">Email Address</label><input class="text form-control" id="account_email" name="account[email]" type="email" />
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1"><input class="submit-button btn btn-primary" type="submit" name="commit" value="Send account activation" />
+          <div class="form-submit"></div>
+        </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>
+
+<!-- /user_sessions_new_wide.html -->
+
+</div>
+<!-- .column -->
+
+<!-- /_columns_1.html -->
+<!-- /_columns_1.html -->
+
+
+          </div>
+          <!-- .main -->
+        </div>
+        <!-- .main-container -->
+
+        <div class="container">
+          <footer class="clearfix">
+
+            <div id="fb-root"></div>
+
+  <script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 1679673749184434,
+      channelUrl : "//therebel-therebel.nationbuilder.com/channel.html",
+      status     : true,
+      version    : "v18.0",
+      cookie     : true,
+      xfbml      : true
+    });
+  };
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.async = true;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script src="https://assets.nationbuilder.com/assets/liquid-6fda76e47cd1a46bec92e2adac0a0453c78638197e234d7667c2ff4366c5a44a.js"></script>
+
+
+
+
+
+
+
+
+            
+
+            <div class="row">
+
+              <div class="col-md-7 footer-left">
+                
+                  Sign in with <a href="https://www.therebel.media/users/facebook/connect?page_id=44197&scope=public_profile%2Cemail">Facebook</a>, <a
+                      href="">Twitter</a> or <a href="/login">email</a>.
+                
+              </div>
+              <div class="col-md-5 footer-right">
+                <!-- The NationBuilder link below is required. If it is removed, we may add it back ourselves.
+                     You can style it or move it in different ways, but please leave it in the footer. -->
+                Created with <a href="http://nationbuilder.com/">NationBuilder</a>
+              </div>
+
+            </div>
+          </footer>
+        </div>
+        <!-- .container -->
+
+      </div>
+      <!-- #body -->
+    </div>
+    <!-- #wrap -->
+  </div>
+  <!-- #pattern -->
+
+
+  
+<script>
+window.location.replace("http://www.rebelnews.com");
+</script>
+  
+  <script>
+    if ( window.self !== window.top ) {
+      var referrer_origin = "";
+      if ( window.location.origin !== referrer_origin ) {
+        var xhttp = new XMLHttpRequest();
+        var params = "iframe_req_path=" + window.location.pathname + "&referrer_origin=" + referrer_origin;
+        xhttp.open("GET", "iframe_requests?" + params, true);
+        xhttp.send();
+      }
+    }
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8dd724b9784dd627',t:'MTczMDc0OTkzNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
+
+<!-- /layout_protected.html -->

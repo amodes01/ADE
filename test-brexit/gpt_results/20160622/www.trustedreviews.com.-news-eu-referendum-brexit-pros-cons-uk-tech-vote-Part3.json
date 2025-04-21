@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "research funding", "references": ["research funding", "EU research funding"] },
+      "justifications": [
+        "According to the Royal Society, we receive a greater amount of EU research funding than we contribute.",
+        "It's estimated that we contributed around 5.4 billion euros to Europe's research coffers in return."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "tech start-ups", "references": ["tech start-ups"] },
+      "justifications": [
+        "Brexit is likely to cause both: 'Venture capitalists will look at more certain, stable economies and avoid pouring money into London.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU", "references": ["EU"] },
+      "target": { "topic": "research funding", "references": ["research funding", "EU research funding"] },
+      "justifications": [
+        "The UK is one of the largest recipients of research funding in the EU, which has significant impact on science and tech."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU", "references": ["EU"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Naturally, scientists welcome this cash, which might explain a Nature poll that revealed 83.46% of researchers oppose Brexit."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Professor Stephen Hawking", "references": ["Professor Stephen Hawking"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Professor Stephen Hawking called the prospect of Brexit a 'disaster for UK science.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Professor Angus Dalgleish", "references": ["Professor Angus Dalgleish"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Professor Angus Dalgleish, of St George's Hospital at the University of London, who is campaigning for Brexit, argues: 'We are standing up against what is a very large body of people who feel that if we leave the EU it will be a disaster for funding and collaboration - and we completely refute that.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Royal Society", "references": ["Royal Society"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Professor Stephen Hawking called the prospect of Brexit a 'disaster for UK science' in a letter to the Times newspaper, signed by over 150 fellows of the Royal Society."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Venture capitalists", "references": ["Venture capitalists"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "'Venture capitalists will look at more certain, stable economies and avoid pouring money into London.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nature poll", "references": ["Nature poll"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "A Nature poll that revealed 83.46% of researchers oppose Brexit."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

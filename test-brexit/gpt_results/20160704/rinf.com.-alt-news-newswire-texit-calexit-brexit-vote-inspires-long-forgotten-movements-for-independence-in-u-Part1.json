@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "target": {"topic": "Texas secession", "references": ["Texit"]},
+      "justifications": ["Texas' and California's campaigns to secede from the US have been given a kiss of life.", "Texas was the 28th state to join the Union in 1845, following nine years as an independent republic."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "California secession movement", "references": ["Yes, California", "California secession movement"]},
+      "target": {"topic": "California secession", "references": ["Calexit"]},
+      "justifications": ["And Texas is not alone when it comes to following the Brexit example - some in California, the most populous US state, are ready to split, too.", "The 'Yes, California' Twitter community, which leads the campaign for the Golden State to secede from the United States, already compared the size of California to the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "target": {"topic": "Texas Governor Greg Abbott", "references": ["Texas Governor Greg Abbott"]},
+      "justifications": ["TNM is calling for more Texans to join and bring pressure on Texas Governor Greg Abbott to allow a vote on independence from the US."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "target": {"topic": "Federal bureaucracy", "references": ["sprawling Federal bureaucracy"]},
+      "justifications": ["TNM is calling for more Texans to join and bring pressure on Texas Governor Greg Abbott to allow a vote on independence from the US and its sprawling Federal bureaucracy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "target": {"topic": "Texas independence economy", "references": ["$1.6 trillion economy", "top economies in the world"]},
+      "justifications": ["based on its present day $1.6 trillion economy, if it did become a separate nation, it would be among the 10 top economies in the world, Miller said."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Yes, California", "references": ["Yes, California"]},
+      "target": {"topic": "California independence economy", "references": ["6th largest economy in world"]},
+      "justifications": ["Maybe a Calexit might not be a bad idea. 6th largest economy in world & an engine for economic growth."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Louis J. Marinelli", "references": ["Louis J. Marinelli"]},
+      "target": {"topic": "California independence economy", "references": ["losing tens, sometimes hundreds of billions of dollars every year to other states"]},
+      "justifications": ["We are here in California subsidizing the other states of this union, Louis J. Marinelli, president of the Yes, California independence campaign, told RT. \"As a result we are losing tens, sometimes hundreds of billions of dollars every year to other states.\""],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "entity2": {"entity": "California secession movement", "references": ["Yes, California"]},
+      "justifications": ["And Texas is not alone when it comes to following the Brexit example - some in California, the most populous US state, are ready to split, too."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement", "TNM"]},
+      "entity2": {"entity": "Texas Governor Greg Abbott", "references": ["Texas Governor Greg Abbott"]},
+      "justifications": ["TNM is calling for more Texans to join and bring pressure on Texas Governor Greg Abbott to allow a vote on independence from the US."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Louis J. Marinelli", "references": ["Louis J. Marinelli"]},
+      "entity2": {"entity": "Texas Nationalist Movement", "references": ["Texas Nationalist Movement"]},
+      "justifications": ["We are here in California subsidizing the other states of this union, Louis J. Marinelli, president of the Yes, California independence campaign, told RT."],
+      "attitude": "Neutral"
+    }
+  ]
+}

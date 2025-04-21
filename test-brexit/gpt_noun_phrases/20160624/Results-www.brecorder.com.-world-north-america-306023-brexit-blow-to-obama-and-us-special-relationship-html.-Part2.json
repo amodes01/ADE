@@ -1,0 +1,166 @@
+[
+    {
+        "sentence": "neglected European ties.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "European ties",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "European ties"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Britain -> European ties": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "retreated from the world.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Britain -> Brexit": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Much of the UK's political clout was related to its ability to steer European policy, said Rohac.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rohac",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rohac",
+                "types": [],
+                "wikid": "Rohac",
+                "dbpedia": "Rohac"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "European policy",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "European policy",
+                "types": [],
+                "wikid": "European policy",
+                "dbpedia": "European policy"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK's political clout",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK's political clout"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Britain -> European policy": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Rohac -> UK's political clout": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "That clout is gone once the UK leaves.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Rohac",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Rohac",
+                "types": [],
+                "wikid": "Rohac",
+                "dbpedia": "Rohac"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Britain",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Britain",
+                "types": [],
+                "wikid": "Britain",
+                "dbpedia": "Britain"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Rohac -> Britain": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

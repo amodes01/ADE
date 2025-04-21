@@ -1,0 +1,320 @@
+[
+    {
+        "sentence": "When you consider that the UK and France's military spending make up 50% of the overall EU spending on military and deterrence capabilities, the UK's exit from the EU is a blow to building-up an EU military.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU military development",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU military development",
+                "types": [],
+                "wikid": "EU military development",
+                "dbpedia": "EU military development"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "UK exit from EU",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "UK exit from EU"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "EU military development -> UK exit from EU": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "European countries preferred to rely heavily on existing NATO assets rather than fully developing the rapid reaction force concept.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "NATO military assets",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "NATO military assets",
+                "types": [],
+                "wikid": "NATO military assets",
+                "dbpedia": "NATO military assets"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU military development",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU military development",
+                "types": [],
+                "wikid": "EU military development",
+                "dbpedia": "EU military development"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU CSDP",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU CSDP"
+                ]
+            },
+            {
+                "ngram": "NATO assets",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "NATO assets"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "NATO military assets -> EU CSDP": [
+                1.0
+            ],
+            "EU military development -> NATO assets": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The Libya aerial bombardment further demonstrated that French and British jets were not enough to turn the tables around without US military support.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US military support",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US military support",
+                "types": [],
+                "wikid": "US military support",
+                "dbpedia": "US military support"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "EU military development",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "EU military development"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "US military support -> EU military development": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Many EU countries, primarily France until recently, chose to put the blame on the UK for the lack of development.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "France -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "UK always defended the primacy of NATO over the EU's CSDP.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "France",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "France",
+                "types": [],
+                "wikid": "France",
+                "dbpedia": "France"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "UK -> France": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "No wonder US President, Barack Obama, campaigned heavily against Brexit.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "UK",
+                "types": [],
+                "wikid": "UK",
+                "dbpedia": "UK"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "US -> UK": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Washington's changing pivot to Trans-Pacific envisions a militarily self-reliant European where NATO plays more of a supportive role.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "US",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "US",
+                "types": [],
+                "wikid": "US",
+                "dbpedia": "US"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU military development",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU military development",
+                "types": [],
+                "wikid": "EU military development",
+                "dbpedia": "EU military development"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "US -> EU military development": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "Baltic countries along with Poland who feel the re-emergence of the Russian firepower, prefer to rely on the proven NATO assets than fictitious EU CSDP tools.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Poland",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Poland",
+                "types": [],
+                "wikid": "Poland",
+                "dbpedia": "Poland"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "EU CSDP",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "EU CSDP",
+                "types": [],
+                "wikid": "EU CSDP",
+                "dbpedia": "EU CSDP"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Baltic countries",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Baltic countries",
+                "types": [],
+                "wikid": "Baltic countries",
+                "dbpedia": "Baltic countries"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Poland -> EU CSDP": [
+                -1.0
+            ],
+            "Baltic countries -> EU CSDP": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

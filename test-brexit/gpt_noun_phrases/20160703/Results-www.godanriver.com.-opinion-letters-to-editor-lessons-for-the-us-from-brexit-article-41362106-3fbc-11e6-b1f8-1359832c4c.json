@@ -1,0 +1,367 @@
+[
+    {
+        "sentence": "\"Take our country back!\" is one of Trump's jingoistic slogans, and it was also effective in the UK's recent vote.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "the UK",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "the UK",
+                "types": [],
+                "wikid": "the UK",
+                "dbpedia": "the UK"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "Brexit vote",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "Brexit vote"
+                ]
+            }
+        ],
+        "entity_attitudes": {
+            "Donald Trump -> the UK": [
+                1.0
+            ],
+            "the UK -> Donald Trump": [
+                1.0
+            ]
+        },
+        "noun_phrase_attitudes": {
+            "Donald Trump -> Brexit vote": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "It is simply not possible to maintain a position of isolationism.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "global economy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global economy"
+                ]
+            },
+            {
+                "ngram": "global politic",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global politic"
+                ]
+            },
+            {
+                "ngram": "global society",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "global society"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> global economy": [
+                -1.0
+            ],
+            "Donald Trump -> global politic": [
+                -1.0
+            ],
+            "Donald Trump -> global society": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "He has strengthened ties throughout the world through diplomacy, which in the long run is a far better policy than the bullying, threatening, disgustingly rude stance of Donald Trump.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "diplomacy",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "diplomacy"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> diplomacy": [
+                -1.0
+            ],
+            "Barack Obama -> diplomacy": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George W. Bush",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George W. Bush",
+                "types": [],
+                "wikid": "George W. Bush",
+                "dbpedia": "George W. Bush"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "economic condition",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "economic condition"
+                ]
+            },
+            {
+                "ngram": "world community",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "world community"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "George W. Bush -> economic condition": [
+                1.0
+            ],
+            "George W. Bush -> world community": [
+                1.0
+            ]
+        }
+    },
+    {
+        "sentence": "The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            }
+        ],
+        "noun_phrases": [
+            {
+                "ngram": "world community",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "world community"
+                ]
+            },
+            {
+                "ngram": "disabled people",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "disabled people"
+                ]
+            },
+            {
+                "ngram": "women",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "women"
+                ]
+            },
+            {
+                "ngram": "people of color",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "people of color"
+                ]
+            },
+            {
+                "ngram": "people of other nations",
+                "from": -1,
+                "to": -1,
+                "topics": [
+                    "people of other nations"
+                ]
+            }
+        ],
+        "entity_attitudes": {},
+        "noun_phrase_attitudes": {
+            "Donald Trump -> world community": [
+                -1.0
+            ],
+            "Donald Trump -> disabled people": [
+                -1.0
+            ],
+            "Donald Trump -> women": [
+                -1.0
+            ],
+            "Donald Trump -> people of color": [
+                -1.0
+            ],
+            "Donald Trump -> people of other nations": [
+                -1.0
+            ]
+        }
+    },
+    {
+        "sentence": "Feel as you may about President Barack Obama, but this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Barack Obama",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Barack Obama",
+                "types": [],
+                "wikid": "Barack Obama",
+                "dbpedia": "Barack Obama"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "George W. Bush",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "George W. Bush",
+                "types": [],
+                "wikid": "George W. Bush",
+                "dbpedia": "George W. Bush"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Barack Obama": [
+                -1.0
+            ],
+            "Donald Trump -> George W. Bush": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    },
+    {
+        "sentence": "I have heard so many people say they just are not going to vote this year, because they cannot stand Trump, but they do not like Secretary Hillary Clinton either.",
+        "from": -1,
+        "to": -1,
+        "entities": [
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Donald Trump",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Donald Trump",
+                "types": [],
+                "wikid": "Donald Trump",
+                "dbpedia": "Donald Trump"
+            },
+            {
+                "begin": -1,
+                "end": -1,
+                "title": "Hillary Clinton",
+                "score": 1.0,
+                "rank": 1.0,
+                "text": "Hillary Clinton",
+                "types": [],
+                "wikid": "Hillary Clinton",
+                "dbpedia": "Hillary Clinton"
+            }
+        ],
+        "noun_phrases": [],
+        "entity_attitudes": {
+            "Donald Trump -> Hillary Clinton": [
+                -1.0
+            ]
+        },
+        "noun_phrase_attitudes": {}
+    }
+]

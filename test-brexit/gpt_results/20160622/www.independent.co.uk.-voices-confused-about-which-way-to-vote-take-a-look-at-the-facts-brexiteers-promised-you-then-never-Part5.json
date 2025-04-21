@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit campaign", "references": ["Brexit campaign"]},
+      "target": {"topic": "immigration and sovereignty", "references": ["immigration and sovereignty"]},
+      "justifications": [
+        "The Brexit campaign has tried to get us to see immigration and sovereignty as powerful \"take control\" reasons to leave."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit campaign", "references": ["Brexit campaign"]},
+      "target": {"topic": "UK economy", "references": ["UK economy"]},
+      "justifications": [
+        "In reality, the Brexit campaign knows there are significant risks to the UK economy if we exit the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit campaign", "references": ["Brexit campaign"]},
+      "target": {"topic": "Brexit cost statistics", "references": ["dishonest statistic of a weekly outflow of £350m"]},
+      "justifications": [
+        "They have tried to dramatise the cost of membership by using a dishonest statistic of a weekly outflow of £350m while ignoring all the direct and indirect inflows."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Remain campaign", "references": ["Remain campaign"]},
+      "target": {"topic": "Brexit forecasts", "references": ["Brexit forecasts"]},
+      "justifications": [
+        "The Remain campaign got it wrong by publishing Brexit forecasts that gave the Leave campaign the ammunition to accuse them of scaremongering."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "target": {"topic": "Brexit forecasts", "references": ["Brexit forecasts"]},
+      "justifications": [
+        "The Leave campaign has failed to substantiate the case for Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "target": {"topic": "Brexit case", "references": ["the case for Brexit"]},
+      "justifications": [
+        "Their campaign has been emotive but it does not stand up to proper scrutiny."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit campaign", "references": ["Brexit campaign"]},
+      "entity2": {"entity": "Remain campaign", "references": ["Remain campaign"]},
+      "justifications": [
+        "The Remain campaign got it wrong by publishing Brexit forecasts that gave the Leave campaign the ammunition to accuse them of scaremongering."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "entity2": {"entity": "Remain campaign", "references": ["Remain campaign"]},
+      "justifications": [
+        "The Remain campaign got it wrong by publishing Brexit forecasts that gave the Leave campaign the ammunition to accuse them of scaremongering."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Brexit campaign", "references": ["Brexit campaign"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "In reality, the Brexit campaign knows there are significant risks to the UK economy if we exit the EU."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

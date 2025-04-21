@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Felicity Lawrence", "references": ["Felicity Lawrence"]},
+      "target": {"topic": "migrants", "references": ["migrants"]},
+      "justifications": ["Do not keep migrants out"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Felicity Lawrence", "references": ["Felicity Lawrence"]},
+      "target": {"topic": "workers' rights", "references": ["workers' rights"]},
+      "justifications": ["strengthen workers' rights"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Ken Hughes", "references": ["Ken Hughes"]},
+      "target": {"topic": "political system", "references": ["modern, fairer political system"]},
+      "justifications": ["is not it time we started to plan our own modern, fairer political system?"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "those opposing Jeremy Corbyn", "references": ["Those opposing Jeremy Corbyn"]},
+      "justifications": ["Those opposing Jeremy Corbyn argue that he is eroding Labour support"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Labour", "references": ["Labour"]},
+      "justifications": ["the facts reveal the opposite. Labour now has a mayor of London and Bristol and in the two byelections the Labour majority increased; indeed in Sadiq Khan's old seat the majority trebled"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["indeed in Sadiq Khan's old seat the majority trebled"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Malcolm Howard", "references": ["Malcolm Howard"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["The PLP needs to talk to resolve its differences, not constantly start phoney wars"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ken Hughes", "references": ["Ken Hughes"]},
+      "entity2": {"entity": "UK government", "references": ["UK"]},
+      "justifications": ["As a country that has an unelected head of state, an unelected House of Lords, a voting system that gave Tony Blair a stonking majority with 40% of the vote and Cameron a workable majority with 35% of the vote; devolution for Scotland, Wales and Northern Ireland but not for England, as well as no written constitution"],
+      "attitude": "Negative"
+    }
+  ]
+}

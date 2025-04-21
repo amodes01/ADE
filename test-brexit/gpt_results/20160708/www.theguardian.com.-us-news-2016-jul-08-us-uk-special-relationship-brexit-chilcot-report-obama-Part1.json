@@ -1,0 +1,114 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Obama had threatened that Britain would go the \"back of the queue\" in trade negotiations with the US if it left the European Union."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "EU political cohesion", "references": ["political cohesion after the UK exit"]},
+      "justifications": ["Obama met the presidents of the European council and the European commission to discuss how Europe can maintain political cohesion after the UK exit."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "transatlantic alliance", "references": ["transatlantic alliance"]},
+      "justifications": ["Obama described the combined challenges facing Europe as \"the most important moment for our transatlantic alliance since the end of the cold war\"."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "European security", "references": ["European security"]},
+      "justifications": ["Obama wrote in the Financial Times that he fully expects that Britain will continue to be a major contributor to European security."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": ["The United States and the United Kingdom have a special relationship."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": ["The United States and the United Kingdom have a special relationship."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "France", "references": ["France"]},
+      "justifications": ["He calls France the \"oldest ally\" - a pointed reminder that Britain and America have not always been on the same side of the battlefield."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": ["Germany's Angela Merkel is the \"trusted partner\"."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Canada", "references": ["Canada"]},
+      "justifications": ["Canada the \"closest of friends\"."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "China", "references": ["Chinese"]},
+      "justifications": ["It is the Chinese and Russians who tend to attract most media interest."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Russia", "references": ["Russians"]},
+      "justifications": ["It is the Chinese and Russians who tend to attract most media interest."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Israel", "references": ["Israelis"]},
+      "justifications": ["The awkward Israelis the most political attention."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Britain"]},
+      "justifications": ["Obama had threatened that Britain would go the \"back of the queue\" in trade negotiations with the US if it left the European Union."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "United Kingdom", "references": ["Britain"]},
+      "justifications": ["The special relationship between the US and the UK will endure."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["Obama met the presidents of the European council and the European commission to discuss how Europe can maintain political cohesion after the UK exit."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": ["Obama described the combined challenges facing Europe as \"the most important moment for our transatlantic alliance since the end of the cold war\"."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "White House", "references": ["White House"]},
+      "justifications": ["The White House had scheduled no private meeting with his beleaguered counterpart."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": ["Though outgoing UK prime minister David Cameron was there too, to announce the deployment of extra troops to Nato's eastern flank, the White House had scheduled no private meeting with his beleaguered counterpart."],
+      "attitude": "Negative"
+    }
+  ]
+}

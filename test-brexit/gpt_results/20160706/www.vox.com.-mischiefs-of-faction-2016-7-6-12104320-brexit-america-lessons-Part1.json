@@ -1,0 +1,89 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK Independence Party (UKIP)", "references": ["UKIP"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit referendum", "Leave vote"]},
+      "justifications": [
+        "UKIP mobilized a majority of voters to vote Leave in the referendum",
+        "The Brexit vote, then, offered much more than simply a referendum on EU membership."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "target": {"topic": "Brexit vote", "references": ["Brexit referendum", "Leave vote"]},
+      "justifications": [
+        "With Brexit, that group was UKIP and the Leave campaign."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Brexit vote", "references": ["Leave vote"]},
+      "justifications": [
+        "UKIP's former leader, Nigel Farage, has already dubbed 'one of the mistakes the Leave campaign made.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump supporters", "references": ["Trump supporters"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "Trump supporters share with Brexit supporters the conviction that immigration must be stemmed at nearly all costs."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "Trump supporters share with Brexit supporters the conviction that immigration must be stemmed at nearly all costs."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Trump supporters", "references": ["Trump supporters"]},
+      "target": {"topic": "deprivation", "references": ["feelings of deprivation"]},
+      "justifications": [
+        "Trump supporters share feelings of deprivation relative to those around them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "target": {"topic": "deprivation", "references": ["feelings of deprivation"]},
+      "justifications": [
+        "Trump supporters share feelings of deprivation relative to those around them."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK Independence Party (UKIP)", "references": ["UKIP"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "UKIP mobilized a majority of voters to vote Leave in the referendum",
+        "With Brexit, that group was UKIP and the Leave campaign."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Trump supporters", "references": ["Trump supporters"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": [
+        "Trump supporters share with Brexit supporters the conviction that immigration must be stemmed at nearly all costs.",
+        "Trump supporters share feelings of deprivation relative to those around them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "UK Independence Party (UKIP)", "references": ["UKIP"]},
+      "justifications": [
+        "UKIP's former leader, Nigel Farage, has already dubbed 'one of the mistakes the Leave campaign made.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

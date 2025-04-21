@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "OPP Finans", "references": ["OPP Finans"]},
+      "target": {"topic": "consumer financing", "references": ["forbrukerfinansiering"]},
+      "justifications": [
+        "OPP Finans er blant de eldste bankene som spesialiserer seg på forbrukerfinansiering, og også en av de absolutt største aktørene."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Gjensidige Bank", "references": ["Gjensidige Bank"]},
+      "target": {"topic": "consumer financing", "references": ["forbrukerfinansiering"]},
+      "justifications": [
+        "Denne banken er en del av Gjensidige Bank, som på sin side er en del av Gjensidige Forsikring."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Santander Consumer Bank", "references": ["Santander Consumer Bank"]},
+      "target": {"topic": "consumer financing", "references": ["forbrukslån"]},
+      "justifications": [
+        "Santander tilbyr flere typer kredittkort, store og små forbrukslån med ulike betingelser."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "OPP Finans", "references": ["OPP Finans"]},
+      "target": {"topic": "loan repayment", "references": ["nedbetaling"]},
+      "justifications": [
+        "De foretar grundig risikovurdering for å unngå å yte lån som låntakeren vil slite med å klare tilbakebetalingen på."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "OPP Finans", "references": ["OPP Finans"]},
+      "entity2": {"entity": "Gjensidige Forsikring", "references": ["Gjensidige Forsikring"]},
+      "justifications": [
+        "Denne banken er en del av Gjensidige Bank, som på sin side er en del av Gjensidige Forsikring."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "OPP Finans", "references": ["OPP Finans"]},
+      "entity2": {"entity": "Santander Consumer Bank", "references": ["Santander Consumer Bank"]},
+      "justifications": [
+        "OPP Finans er blant de eldste bankene som spesialiserer seg på forbrukerfinansiering, og også en av de absolutt største aktørene.",
+        "Santander tilbyr flere typer kredittkort, store og små forbrukslån med ulike betingelser."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}
