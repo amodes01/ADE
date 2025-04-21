@@ -1,0 +1,176 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "financial crisis, avoiding the need for further costly public bailouts that could cripple public finances; the UK public still owns around 10% of Lloyds bank."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "financial crisis",
+          "references": [
+            "financial crisis"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the need",
+          "references": [
+            "the need"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "further costly public bailouts",
+          "references": [
+            "further costly public bailouts"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "public finances",
+          "references": [
+            "public finances"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "around 10%",
+          "references": [
+            "around 10%"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "target": {
+          "topic": "financial crisis",
+          "references": [
+            "financial crisis"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "target": {
+          "topic": "the need",
+          "references": [
+            "the need"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "target": {
+          "topic": "further costly public bailouts",
+          "references": [
+            "further costly public bailouts"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "target": {
+          "topic": "public finances",
+          "references": [
+            "public finances"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lloyds bank",
+          "references": [
+            "http://dbpedia.org/resource/Lloyds_Banking_Group"
+          ]
+        },
+        "target": {
+          "topic": "around 10%",
+          "references": [
+            "around 10%"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,836 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "entity2": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "entity2": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "entity2": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "Insights from Al Jazeera, Bloomberg, Time Magazine, The Washington Post, Nikkei Asia, and Reuters Jul 29, 2024, 1:26pm EDT East Asia The News For a Chinese audience, the Paris Olympics opening ceremony Friday offered a rare glimpse of LGBTQ representation - and a chance to air grievances against state media censorship."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "Insights",
+          "references": [
+            "Insights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "Bloomberg",
+          "references": [
+            "Bloomberg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "Time Magazine",
+          "references": [
+            "Time Magazine"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "Nikkei Asia",
+          "references": [
+            "Nikkei Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "1:26pm EDT East Asia",
+          "references": [
+            "1:26pm EDT East Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "The News",
+          "references": [
+            "The News"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics opening ceremony",
+          "references": [
+            "the Paris Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "a rare glimpse",
+          "references": [
+            "a rare glimpse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "LGBTQ representation",
+          "references": [
+            "LGBTQ representation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "a chance",
+          "references": [
+            "a chance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "grievances",
+          "references": [
+            "grievances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Al Jazeera",
+          "references": [
+            "http://dbpedia.org/resource/Al_Jazeera"
+          ]
+        },
+        "target": {
+          "topic": "state media censorship",
+          "references": [
+            "state media censorship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "Insights",
+          "references": [
+            "Insights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "Bloomberg",
+          "references": [
+            "Bloomberg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "Time Magazine",
+          "references": [
+            "Time Magazine"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "Nikkei Asia",
+          "references": [
+            "Nikkei Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "1:26pm EDT East Asia",
+          "references": [
+            "1:26pm EDT East Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "The News",
+          "references": [
+            "The News"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics opening ceremony",
+          "references": [
+            "the Paris Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "a rare glimpse",
+          "references": [
+            "a rare glimpse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "LGBTQ representation",
+          "references": [
+            "LGBTQ representation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "a chance",
+          "references": [
+            "a chance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "grievances",
+          "references": [
+            "grievances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "The Washington Post",
+          "references": [
+            "http://dbpedia.org/resource/The_Washington_Post"
+          ]
+        },
+        "target": {
+          "topic": "state media censorship",
+          "references": [
+            "state media censorship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Insights",
+          "references": [
+            "Insights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Bloomberg",
+          "references": [
+            "Bloomberg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Time Magazine",
+          "references": [
+            "Time Magazine"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Nikkei Asia",
+          "references": [
+            "Nikkei Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "1:26pm EDT East Asia",
+          "references": [
+            "1:26pm EDT East Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "The News",
+          "references": [
+            "The News"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics opening ceremony",
+          "references": [
+            "the Paris Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "a rare glimpse",
+          "references": [
+            "a rare glimpse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "LGBTQ representation",
+          "references": [
+            "LGBTQ representation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "a chance",
+          "references": [
+            "a chance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "grievances",
+          "references": [
+            "grievances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "state media censorship",
+          "references": [
+            "state media censorship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "Insights",
+          "references": [
+            "Insights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "Bloomberg",
+          "references": [
+            "Bloomberg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "Time Magazine",
+          "references": [
+            "Time Magazine"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "Nikkei Asia",
+          "references": [
+            "Nikkei Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "1:26pm EDT East Asia",
+          "references": [
+            "1:26pm EDT East Asia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "The News",
+          "references": [
+            "The News"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics opening ceremony",
+          "references": [
+            "the Paris Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "a rare glimpse",
+          "references": [
+            "a rare glimpse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "LGBTQ representation",
+          "references": [
+            "LGBTQ representation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "a chance",
+          "references": [
+            "a chance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "grievances",
+          "references": [
+            "grievances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chinese",
+          "references": [
+            "http://dbpedia.org/resource/Chinese_language"
+          ]
+        },
+        "target": {
+          "topic": "state media censorship",
+          "references": [
+            "state media censorship"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

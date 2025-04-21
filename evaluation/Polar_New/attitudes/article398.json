@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Has the tone of UK media coverage shifted since the EU referendum?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the tone",
+          "references": [
+            "the tone"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the tone",
+          "references": [
+            "the tone"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

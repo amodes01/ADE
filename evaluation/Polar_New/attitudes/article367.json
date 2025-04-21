@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "Elon Musk has contributed $75 million to Donald Trump's 2024 presidential campaign through America PAC."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "America PAC",
+          "references": [
+            "America PAC"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "America PAC",
+          "references": [
+            "America PAC"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

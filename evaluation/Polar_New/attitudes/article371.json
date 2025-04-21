@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Nearly 13% of American tourists in Paris live in Oregon, Start.io analysis reveals NEW YORK, NY / ACCESSWIRE / July 30, 2024 / Oregonians are traveling to Paris for the Summer Olympics in higher numbers than expected, according to a new data analysis from Start.io."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Nearly 13% of American tourists in Paris live in Oregon, Start.io analysis reveals NEW YORK, NY / ACCESSWIRE / July 30, 2024 / Oregonians are traveling to Paris for the Summer Olympics in higher numbers than expected, according to a new data analysis from Start.io."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "justifications": [
+          "Nearly 13% of American tourists in Paris live in Oregon, Start.io analysis reveals NEW YORK, NY / ACCESSWIRE / July 30, 2024 / Oregonians are traveling to Paris for the Summer Olympics in higher numbers than expected, according to a new data analysis from Start.io."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Nearly 13%",
+          "references": [
+            "Nearly 13%"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "American tourists",
+          "references": [
+            "American tourists"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Start.io analysis",
+          "references": [
+            "Start.io analysis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Oregonians",
+          "references": [
+            "Oregonians"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "higher numbers",
+          "references": [
+            "higher numbers"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a new data analysis",
+          "references": [
+            "a new data analysis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Start.io",
+          "references": [
+            "Start.io"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "Nearly 13%",
+          "references": [
+            "Nearly 13%"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "American tourists",
+          "references": [
+            "American tourists"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "Start.io analysis",
+          "references": [
+            "Start.io analysis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "Oregonians",
+          "references": [
+            "Oregonians"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "higher numbers",
+          "references": [
+            "higher numbers"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "a new data analysis",
+          "references": [
+            "a new data analysis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "Start.io",
+          "references": [
+            "Start.io"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Nearly 13%",
+          "references": [
+            "Nearly 13%"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "American tourists",
+          "references": [
+            "American tourists"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Start.io analysis",
+          "references": [
+            "Start.io analysis"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Oregonians",
+          "references": [
+            "Oregonians"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "higher numbers",
+          "references": [
+            "higher numbers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "a new data analysis",
+          "references": [
+            "a new data analysis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NEW YORK, NY",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Start.io",
+          "references": [
+            "Start.io"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

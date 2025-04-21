@@ -1,0 +1,64 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Russian propaganda",
+          "references": ["Russian propaganda", "Domestic propaganda"]
+        },
+        "target": {
+          "topic": "war narrative",
+          "references": ["painting the war as an extension of an East-West struggle"]
+        },
+        "justifications": [
+          "This is a reflection of how successful Russian propaganda is at painting the war as an extension of an East-West struggle.",
+          "Domestic propaganda has attempted to paint it as a Western operation run by mercenaries."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Vladimir Putin",
+          "references": ["Putin", "Moscow"]
+        },
+        "target": {
+          "topic": "Kursk incursion",
+          "references": ["major provocation"]
+        },
+        "justifications": [
+          "Putin has said that Moscow will deliver a 'worthy response' to the Kursk incursion, which he has described as a major provocation."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Russian propaganda",
+          "references": ["Russian propaganda", "Domestic propaganda"]
+        },
+        "entity2": {
+          "entity": "Western powers",
+          "references": ["Western operation", "mercenaries"]
+        },
+        "justifications": [
+          "Domestic propaganda has attempted to paint it as a Western operation run by mercenaries and to redirect their fears towards humanitarian support for Kursk residents."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Vladimir Putin",
+          "references": ["Putin", "Moscow"]
+        },
+        "entity2": {
+          "entity": "Kursk residents",
+          "references": ["Kursk residents"]
+        },
+        "justifications": [
+          "Putin has said that Moscow will deliver a 'worthy response' to the Kursk incursion, which he has described as a major provocation."
+        ],
+        "attitude": "Neutral"
+      }
+    ]
+  }
+  

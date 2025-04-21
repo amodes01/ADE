@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "entity2": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "justifications": [
+          "California and makes invaluable contributions to our national security, so it's a no-brainer that Ken, like many others in the delegation, would support their mission at Vandenberg,\\\\\\\" said Calvin Moore, a Calvert campaign spokesman."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "entity2": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "justifications": [
+          "California and makes invaluable contributions to our national security, so it's a no-brainer that Ken, like many others in the delegation, would support their mission at Vandenberg,\\\\\\\" said Calvin Moore, a Calvert campaign spokesman."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "entity2": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "justifications": [
+          "California and makes invaluable contributions to our national security, so it's a no-brainer that Ken, like many others in the delegation, would support their mission at Vandenberg,\\\\\\\" said Calvin Moore, a Calvert campaign spokesman."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "invaluable contributions",
+          "references": [
+            "invaluable contributions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "our national security",
+          "references": [
+            "our national security"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "a no-brainer",
+          "references": [
+            "a no-brainer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Ken",
+          "references": [
+            "Ken"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "many others",
+          "references": [
+            "many others"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the delegation",
+          "references": [
+            "the delegation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "their mission",
+          "references": [
+            "their mission"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Vandenberg,\\\\\\",
+          "references": [
+            "Vandenberg,\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "invaluable contributions",
+          "references": [
+            "invaluable contributions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "our national security",
+          "references": [
+            "our national security"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "a no-brainer",
+          "references": [
+            "a no-brainer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "Ken",
+          "references": [
+            "Ken"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "many others",
+          "references": [
+            "many others"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "the delegation",
+          "references": [
+            "the delegation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "their mission",
+          "references": [
+            "their mission"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvin Moore",
+          "references": [
+            "http://dbpedia.org/resource/Calvin_C._Moore"
+          ]
+        },
+        "target": {
+          "topic": "Vandenberg,\\\\\\",
+          "references": [
+            "Vandenberg,\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "invaluable contributions",
+          "references": [
+            "invaluable contributions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "our national security",
+          "references": [
+            "our national security"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "a no-brainer",
+          "references": [
+            "a no-brainer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "Ken",
+          "references": [
+            "Ken"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "many others",
+          "references": [
+            "many others"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "the delegation",
+          "references": [
+            "the delegation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "their mission",
+          "references": [
+            "their mission"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Calvert",
+          "references": [
+            "http://dbpedia.org/resource/Baron_Baltimore"
+          ]
+        },
+        "target": {
+          "topic": "Vandenberg,\\\\\\",
+          "references": [
+            "Vandenberg,\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "entity2": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "justifications": [
+          "Suni Lee gave it her best shot at defending her women's all-around gold medal on Thursday, and while Simone Biles ended up capturing the gold, Lee walked out of the Olympic event with a bronze medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "entity2": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "justifications": [
+          "Suni Lee gave it her best shot at defending her women's all-around gold medal on Thursday, and while Simone Biles ended up capturing the gold, Lee walked out of the Olympic event with a bronze medal."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "entity2": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "justifications": [
+          "Suni Lee gave it her best shot at defending her women's all-around gold medal on Thursday, and while Simone Biles ended up capturing the gold, Lee walked out of the Olympic event with a bronze medal."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "her best shot",
+          "references": [
+            "her best shot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "her women's all-around gold medal",
+          "references": [
+            "her women's all-around gold medal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "the gold",
+          "references": [
+            "the gold"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "the Olympic event",
+          "references": [
+            "the Olympic event"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Suni Lee",
+          "references": [
+            "http://dbpedia.org/resource/Sunisa_Lee"
+          ]
+        },
+        "target": {
+          "topic": "a bronze medal",
+          "references": [
+            "a bronze medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "her best shot",
+          "references": [
+            "her best shot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "her women's all-around gold medal",
+          "references": [
+            "her women's all-around gold medal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the gold",
+          "references": [
+            "the gold"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the Olympic event",
+          "references": [
+            "the Olympic event"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "a bronze medal",
+          "references": [
+            "a bronze medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "her best shot",
+          "references": [
+            "her best shot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "her women's all-around gold medal",
+          "references": [
+            "her women's all-around gold medal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "the gold",
+          "references": [
+            "the gold"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "the Olympic event",
+          "references": [
+            "the Olympic event"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lee",
+          "references": [
+            "http://dbpedia.org/resource/Cliff_Lee"
+          ]
+        },
+        "target": {
+          "topic": "a bronze medal",
+          "references": [
+            "a bronze medal"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

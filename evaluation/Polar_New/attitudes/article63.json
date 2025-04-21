@@ -1,0 +1,196 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Black",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "entity2": {
+          "entity": "Jewish",
+          "references": [
+            "http://dbpedia.org/resource/American_Jews"
+          ]
+        },
+        "justifications": [
+          "known for his bestselling memoir, The Color of Water - about his immigrant Jewish mother and Black American father."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Jewish",
+          "references": [
+            "http://dbpedia.org/resource/American_Jews"
+          ]
+        },
+        "target": {
+          "topic": "his bestselling memoir",
+          "references": [
+            "his bestselling memoir"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jewish",
+          "references": [
+            "http://dbpedia.org/resource/American_Jews"
+          ]
+        },
+        "target": {
+          "topic": "The Color",
+          "references": [
+            "The Color"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jewish",
+          "references": [
+            "http://dbpedia.org/resource/American_Jews"
+          ]
+        },
+        "target": {
+          "topic": "Water",
+          "references": [
+            "Water"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "his bestselling memoir",
+          "references": [
+            "his bestselling memoir"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "The Color",
+          "references": [
+            "The Color"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "Water",
+          "references": [
+            "Water"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "McBride",
+          "references": [
+            "http://dbpedia.org/resource/Christian_McBride"
+          ]
+        },
+        "target": {
+          "topic": "the National Book Award",
+          "references": [
+            "the National Book Award"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "McBride",
+          "references": [
+            "http://dbpedia.org/resource/Christian_McBride"
+          ]
+        },
+        "target": {
+          "topic": "his novel",
+          "references": [
+            "his novel"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "McBride",
+          "references": [
+            "http://dbpedia.org/resource/Christian_McBride"
+          ]
+        },
+        "target": {
+          "topic": "The Good Lord Bird",
+          "references": [
+            "The Good Lord Bird"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "McBride",
+          "references": [
+            "http://dbpedia.org/resource/Christian_McBride"
+          ]
+        },
+        "target": {
+          "topic": "an irreverent portrayal",
+          "references": [
+            "an irreverent portrayal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "McBride",
+          "references": [
+            "http://dbpedia.org/resource/Christian_McBride"
+          ]
+        },
+        "target": {
+          "topic": "abolitionist John Brown",
+          "references": [
+            "abolitionist John Brown"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

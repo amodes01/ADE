@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 15445770,
+  "description": "",
+  "download_checksums": {
+    "/home/dpasch01/notebooks/Sentiment Attitude Classification/Alexandros BSc Thesis/./attitude-fine-tune-mixed_split.jsonl": {
+      "num_bytes": 16313407,
+      "checksum": null
+    }
+  },
+  "download_size": 16313407,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 31759177,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15445770,
+      "num_examples": 5778,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

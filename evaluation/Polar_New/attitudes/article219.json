@@ -1,0 +1,557 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "HARRISBURG, Pennsylvania (Reuters) - Billionaire Elon Musk promised on Saturday to give away $1 million each day until November's election to someone who signs his online petition, with the first prize awarded at a PAC event supporting Republican Donald Trump, raising questions about the legality of the payments."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "HARRISBURG, Pennsylvania (Reuters) - Billionaire Elon Musk promised on Saturday to give away $1 million each day until November's election to someone who signs his online petition, with the first prize awarded at a PAC event supporting Republican Donald Trump, raising questions about the legality of the payments."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "HARRISBURG, Pennsylvania (Reuters) - Billionaire Elon Musk promised on Saturday to give away $1 million each day until November's election to someone who signs his online petition, with the first prize awarded at a PAC event supporting Republican Donald Trump, raising questions about the legality of the payments."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "HARRISBURG",
+          "references": [
+            "HARRISBURG"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Billionaire Elon Musk",
+          "references": [
+            "Billionaire Elon Musk"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "November's election",
+          "references": [
+            "November's election"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "someone",
+          "references": [
+            "someone"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "his online petition",
+          "references": [
+            "his online petition"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the first prize",
+          "references": [
+            "the first prize"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "a PAC event",
+          "references": [
+            "a PAC event"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "questions",
+          "references": [
+            "questions"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the legality",
+          "references": [
+            "the legality"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the payments",
+          "references": [
+            "the payments"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "HARRISBURG",
+          "references": [
+            "HARRISBURG"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "Billionaire Elon Musk",
+          "references": [
+            "Billionaire Elon Musk"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "November's election",
+          "references": [
+            "November's election"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "someone",
+          "references": [
+            "someone"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "his online petition",
+          "references": [
+            "his online petition"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the first prize",
+          "references": [
+            "the first prize"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "a PAC event",
+          "references": [
+            "a PAC event"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "questions",
+          "references": [
+            "questions"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the legality",
+          "references": [
+            "the legality"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the payments",
+          "references": [
+            "the payments"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "HARRISBURG",
+          "references": [
+            "HARRISBURG"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Billionaire Elon Musk",
+          "references": [
+            "Billionaire Elon Musk"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "November's election",
+          "references": [
+            "November's election"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "someone",
+          "references": [
+            "someone"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "his online petition",
+          "references": [
+            "his online petition"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the first prize",
+          "references": [
+            "the first prize"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a PAC event",
+          "references": [
+            "a PAC event"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "questions",
+          "references": [
+            "questions"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the legality",
+          "references": [
+            "the legality"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the payments",
+          "references": [
+            "the payments"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

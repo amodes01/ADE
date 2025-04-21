@@ -1,0 +1,139 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "China Everbright Bank",
+          "references": [
+            "http://dbpedia.org/resource/China_Everbright_Bank"
+          ]
+        },
+        "entity2": {
+          "entity": "Hong Kong",
+          "references": [
+            "http://dbpedia.org/resource/Hong_Kong"
+          ]
+        },
+        "justifications": [
+          "China Everbright Bank's Hong Kong branch."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "joint venture",
+          "references": [
+            "http://dbpedia.org/resource/Joint_venture"
+          ]
+        },
+        "entity2": {
+          "entity": "Shanghai bourse",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai_Futures_Exchange"
+          ]
+        },
+        "justifications": [
+          "Germany's Deutsche Boerse Group has agreed to create a joint venture exchange operator with the Shanghai bourse, in what many saw as a major coup for Frankfurt."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "joint venture",
+          "references": [
+            "http://dbpedia.org/resource/Joint_venture"
+          ]
+        },
+        "target": {
+          "topic": "Germany's Deutsche Boerse Group",
+          "references": [
+            "Germany's Deutsche Boerse Group"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "joint venture",
+          "references": [
+            "http://dbpedia.org/resource/Joint_venture"
+          ]
+        },
+        "target": {
+          "topic": "a major coup",
+          "references": [
+            "a major coup"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "joint venture",
+          "references": [
+            "http://dbpedia.org/resource/Joint_venture"
+          ]
+        },
+        "target": {
+          "topic": "Frankfurt",
+          "references": [
+            "Frankfurt"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai bourse",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai_Futures_Exchange"
+          ]
+        },
+        "target": {
+          "topic": "Germany's Deutsche Boerse Group",
+          "references": [
+            "Germany's Deutsche Boerse Group"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Shanghai bourse",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai_Futures_Exchange"
+          ]
+        },
+        "target": {
+          "topic": "a major coup",
+          "references": [
+            "a major coup"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai bourse",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai_Futures_Exchange"
+          ]
+        },
+        "target": {
+          "topic": "Frankfurt",
+          "references": [
+            "Frankfurt"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

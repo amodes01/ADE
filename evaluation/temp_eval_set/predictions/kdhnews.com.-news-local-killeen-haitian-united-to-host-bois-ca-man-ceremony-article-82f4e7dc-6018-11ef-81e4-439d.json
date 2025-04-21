@@ -1,0 +1,76 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Respondent 1",
+          "references": ["Respondent 1"]
+        },
+        "target": {
+          "topic": "New city hall",
+          "references": ["new city hall", "current building"]
+        },
+        "justifications": [
+          "\"The city desperately needs a new city hall. The current building is old and deteriorating.\""
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Respondent 2",
+          "references": ["Respondent 2"]
+        },
+        "target": {
+          "topic": "New city hall",
+          "references": ["new city hall", "bond to build a new city hall"]
+        },
+        "justifications": [
+          "\"Yes. I would support a bond to build a new city hall, but not if it is located downtown.\""
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Respondent 3",
+          "references": ["Respondent 3"]
+        },
+        "target": {
+          "topic": "New city hall",
+          "references": ["new city hall"]
+        },
+        "justifications": [
+          "\"No. I would not support a new city hall. The city has more pressing needs to address.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Respondent 4",
+          "references": ["Respondent 4"]
+        },
+        "target": {
+          "topic": "New city hall",
+          "references": ["new city hall", "higher property tax bill"]
+        },
+        "justifications": [
+          "\"No. I never go to City Hall, so I cannot justify a higher property tax bill to build a new one.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Respondent 5",
+          "references": ["Respondent 5"]
+        },
+        "target": {
+          "topic": "New city hall",
+          "references": ["new city hall", "final design plans"]
+        },
+        "justifications": [
+          "\"Unsure. It's hard to say. It depends on what the final design plans look like.\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "entity_attitudes": []
+  }
+  

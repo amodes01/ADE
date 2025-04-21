@@ -1,0 +1,108 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Ferhat Mhenni",
+          "references": ["Ferhat Mhenni", "Mhenni"]
+        },
+        "target": {
+          "topic": "terrorism accusations",
+          "references": ["terrorism", "terrorist plot", "terrorist entities"]
+        },
+        "justifications": [
+          "\"Ferhat Mhenni rejected the recent recycled accusation of terrorism used by the Algerian regime to crackdown on independence activists at home.\"",
+          "\"The Algerian authorities recently claimed to have thwarted a MAK terrorist plot and seized weapons, which Mehenni vehemently denies, reaffirming MAK's commitment to non-violence.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Ferhat Mhenni",
+          "references": ["Ferhat Mhenni", "Mhenni"]
+        },
+        "target": {
+          "topic": "Algerian government policies",
+          "references": ["Algerian regime", "Algerian authorities", "Algerian military regime"]
+        },
+        "justifications": [
+          "\"Accusing the MAK of terrorism amid an electoral campaign by president Tebboune is another distraction tactic to further stigmatize the breakaway Kabylie region and its people, he said.\"",
+          "\"The Algerian military regime has been scapegoating the Kabylie region accusing the MAK of complicity with Morocco, France and Israel, in order to deflect the attention of the Algerian people away from self-inflicted problems, he said.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Human rights watchdogs",
+          "references": ["human rights watchdogs", "several human rights watchdogs"]
+        },
+        "target": {
+          "topic": "Algerian government's use of terrorism charges",
+          "references": ["terrorism charges", "fabricated terrorism charges"]
+        },
+        "justifications": [
+          "\"Several human rights watchdogs have denounced the use by the Algerian authorities of fabricated terrorism charges to silence journalists, human rights defenders, political activists, and peaceful pro-democracy protesters.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "European countries",
+          "references": ["European countries"]
+        },
+        "target": {
+          "topic": "Algerian terrorism charges against opposition groups",
+          "references": ["Algerian terrorism charges", "terrorism charges"]
+        },
+        "justifications": [
+          "\"Leaders of both movements are based in European countries, who have ignored the Algerian terrorism charges as unfounded.\""
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Ferhat Mhenni",
+          "references": ["Ferhat Mhenni", "Mhenni"]
+        },
+        "entity2": {
+          "entity": "Algerian regime",
+          "references": ["Algerian regime", "Algerian authorities", "Algerian military regime"]
+        },
+        "justifications": [
+          "\"Ferhat Mhenni rejected the recent recycled accusation of terrorism used by the Algerian regime to crackdown on independence activists at home.\"",
+          "\"The Algerian authorities recently claimed to have thwarted a MAK terrorist plot and seized weapons, which Mehenni vehemently denies, reaffirming MAK's commitment to non-violence.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Human rights watchdogs",
+          "references": ["human rights watchdogs", "several human rights watchdogs"]
+        },
+        "entity2": {
+          "entity": "Algerian authorities",
+          "references": ["Algerian authorities"]
+        },
+        "justifications": [
+          "\"Several human rights watchdogs have denounced the use by the Algerian authorities of fabricated terrorism charges to silence journalists, human rights defenders, political activists, and peaceful pro-democracy protesters.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "European countries",
+          "references": ["European countries"]
+        },
+        "entity2": {
+          "entity": "Algerian authorities",
+          "references": ["Algerian authorities"]
+        },
+        "justifications": [
+          "\"Leaders of both movements are based in European countries, who have ignored the Algerian terrorism charges as unfounded.\""
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

@@ -1,0 +1,406 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "entity2": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "entity2": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "entity2": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "justifications": [
+          "PARIS (France) - Defending women's champion USA ignited their Paris Olympics with a tough 17-11 victory over Spain on day three."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "a tough 17-11 victory",
+          "references": [
+            "a tough 17-11 victory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "day",
+          "references": [
+            "day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a tough 17-11 victory",
+          "references": [
+            "a tough 17-11 victory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "day",
+          "references": [
+            "day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "a tough 17-11 victory",
+          "references": [
+            "a tough 17-11 victory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1924_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "day",
+          "references": [
+            "day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "a tough 17-11 victory",
+          "references": [
+            "a tough 17-11 victory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Spain",
+          "references": [
+            "http://dbpedia.org/resource/Spain_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "day",
+          "references": [
+            "day"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "his compatriots",
+          "references": [
+            "his compatriots"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "USA",
+          "references": [
+            "USA"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "life",
+          "references": [
+            "life"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "their campaign",
+          "references": [
+            "their campaign"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "Spain",
+          "references": [
+            "Spain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "the second time",
+          "references": [
+            "the second time"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "LeBron James",
+          "references": [
+            "http://dbpedia.org/resource/LeBron_James"
+          ]
+        },
+        "target": {
+          "topic": "the day",
+          "references": [
+            "the day"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

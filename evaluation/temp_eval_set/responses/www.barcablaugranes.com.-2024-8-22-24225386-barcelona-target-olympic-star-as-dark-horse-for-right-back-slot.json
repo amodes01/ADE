@@ -1,0 +1,106 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Barcelona",
+          "references": ["Barcelona", "Barca"]
+        },
+        "target": {
+          "topic": "Marc Pubill transfer",
+          "references": ["move to Barcelona", "considering Pubill", "deal on the same terms"]
+        },
+        "justifications": [
+          "Relevo are reporting that Barca are still trying to add signings, despite their financial complications, and are considering Pubill as a back-up option at right-back.",
+          "Barcelona are said to be considering a deal on the same terms, and Pubill would be more than happy to head to Catalunya."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Marc Pubill",
+          "references": ["Marc Pubill", "Pubill"]
+        },
+        "target": {
+          "topic": "Joining Barcelona",
+          "references": ["head to Catalunya"]
+        },
+        "justifications": [
+          "Barcelona are said to be considering a deal on the same terms, and Pubill would be more than happy to head to Catalunya."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Atalanta",
+          "references": ["Atalanta"]
+        },
+        "target": {
+          "topic": "Marc Pubill transfer",
+          "references": ["join Atalanta", "deal worth €15 million fixed plus €5m in variables"]
+        },
+        "justifications": [
+          "The defender was set to join Atalanta this summer but a deal worth €15 million fixed plus €5m in variables fell through due to medical concerns."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Joao Cancelo",
+          "references": ["Joao Cancelo", "Cancelo"]
+        },
+        "target": {
+          "topic": "Barcelona future",
+          "references": ["future is still unclear", "looks to lie away from Barcelona"]
+        },
+        "justifications": [
+          "Joao Cancelo's future is still unclear but looks to lie away from Barcelona."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Barcelona",
+          "references": ["Barcelona", "Barca"]
+        },
+        "entity2": {
+          "entity": "Marc Pubill",
+          "references": ["Marc Pubill", "Pubill"]
+        },
+        "justifications": [
+          "Barcelona are said to be considering a deal on the same terms, and Pubill would be more than happy to head to Catalunya."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Atalanta",
+          "references": ["Atalanta"]
+        },
+        "entity2": {
+          "entity": "Marc Pubill",
+          "references": ["Marc Pubill", "Pubill"]
+        },
+        "justifications": [
+          "The defender was set to join Atalanta this summer but a deal worth €15 million fixed plus €5m in variables fell through due to medical concerns."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Barcelona",
+          "references": ["Barcelona", "Barca"]
+        },
+        "entity2": {
+          "entity": "Joao Cancelo",
+          "references": ["Joao Cancelo", "Cancelo"]
+        },
+        "justifications": [
+          "Joao Cancelo's future is still unclear but looks to lie away from Barcelona."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

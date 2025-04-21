@@ -1,0 +1,69 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Meredith Wolf",
+          "references": ["Wolf"]
+        },
+        "target": {
+          "topic": "marriage",
+          "references": ["wedding", "getting married"]
+        },
+        "justifications": [
+          "\"We would not trade a single moment of it and are deeply grateful for every experience.\"",
+          "\"She calls marrying Foster 'truly the greatest honor' of her life.\"",
+          "\"Marriage signifies the beginning of our forever.\""
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Carson Foster",
+          "references": ["Foster"]
+        },
+        "target": {
+          "topic": "marriage",
+          "references": ["wedding", "getting married"]
+        },
+        "justifications": [
+          "\"Getting married to Meredith means finally announcing for good that I get to start a family and a lifelong journey with the person who has been my best friend since I was 15 years old.\"",
+          "\"That unwavering constancy is the greatest gift I could ever ask for in a partner.\""
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Meredith Wolf",
+          "references": ["Wolf"]
+        },
+        "target": {
+          "topic": "long-distance relationship",
+          "references": ["challenges of a long-distance relationship"]
+        },
+        "justifications": [
+          "\"During our college years, we endured the challenges of a long-distance relationship - me at the University of South Carolina and Carson at the University of Texas.\"",
+          "\"There were days when the distance felt overwhelming, but now marriage signifies the beginning of our forever.\""
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Meredith Wolf",
+          "references": ["Wolf"]
+        },
+        "entity2": {
+          "entity": "Carson Foster",
+          "references": ["Foster"]
+        },
+        "justifications": [
+          "\"Carson is not only my best friend but also my home; wherever he is, that's where I want to be.\"",
+          "\"We are excited to embark on this new chapter of living life fully as a couple.\"",
+          "\"We have grown together and navigated so many experiences side by side.\""
+        ],
+        "attitude": "Positive"
+      }
+    ]
+  }
+  

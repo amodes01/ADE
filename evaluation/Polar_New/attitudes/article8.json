@@ -1,0 +1,476 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "entity2": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "entity2": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "justifications": [
+          "Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Sanders on Brexit, what it would take for him to endorse Clinton Bernie Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Sanders",
+          "references": [
+            "Sanders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Democrats",
+          "references": [
+            "Democrats"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "income inequality",
+          "references": [
+            "income inequality"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the same beliefs",
+          "references": [
+            "the same beliefs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the outcome",
+          "references": [
+            "the outcome"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "November",
+          "references": [
+            "November"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "Sanders",
+          "references": [
+            "Sanders"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "Democrats",
+          "references": [
+            "Democrats"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "income inequality",
+          "references": [
+            "income inequality"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "the same beliefs",
+          "references": [
+            "the same beliefs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "the outcome",
+          "references": [
+            "the outcome"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "November",
+          "references": [
+            "November"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "Sanders",
+          "references": [
+            "Sanders"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "Democrats",
+          "references": [
+            "Democrats"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "income inequality",
+          "references": [
+            "income inequality"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "the same beliefs",
+          "references": [
+            "the same beliefs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "the outcome",
+          "references": [
+            "the outcome"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "November",
+          "references": [
+            "November"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "Sanders",
+          "references": [
+            "Sanders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "Democrats",
+          "references": [
+            "Democrats"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "income inequality",
+          "references": [
+            "income inequality"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the same beliefs",
+          "references": [
+            "the same beliefs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the outcome",
+          "references": [
+            "the outcome"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "November",
+          "references": [
+            "November"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

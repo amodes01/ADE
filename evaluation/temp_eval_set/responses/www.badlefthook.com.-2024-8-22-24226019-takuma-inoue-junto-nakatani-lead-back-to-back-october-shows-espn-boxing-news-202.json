@@ -1,0 +1,31 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Takuma Inoue", "references": ["Takuma Inoue"]},
+        "target": {"topic": "bantamweight title fight", "references": ["defend his bantamweight title"]},
+        "justifications": ["Takuma Inoue (20-1, 5 KO), brother of Naoya, defend his bantamweight title against undefeated slugger Seiya Tsutsumi (11-0-2, 8 KO) in the main event."],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Junto Nakatani", "references": ["Junto Nakatani"]},
+        "target": {"topic": "frequent fighting", "references": ["second fight in under three months"]},
+        "justifications": ["Junto Nakatani (28-0, 21 KO) meets Petch Sor Chitpattana (76-1, 53 KO) for his second fight in under three months."],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Takuma Inoue", "references": ["Takuma Inoue"]},
+        "entity2": {"entity": "Seiya Tsutsumi", "references": ["Seiya Tsutsumi"]},
+        "justifications": ["Takuma Inoue (20-1, 5 KO), brother of Naoya, defend his bantamweight title against undefeated slugger Seiya Tsutsumi (11-0-2, 8 KO) in the main event."],
+        "attitude": "Competitive"
+      },
+      {
+        "entity1": {"entity": "Junto Nakatani", "references": ["Junto Nakatani"]},
+        "entity2": {"entity": "Petch Sor Chitpattana", "references": ["Petch Sor Chitpattana"]},
+        "justifications": ["Junto Nakatani (28-0, 21 KO) meets Petch Sor Chitpattana (76-1, 53 KO) for his second fight in under three months."],
+        "attitude": "Competitive"
+      }
+    ]
+  }
+  

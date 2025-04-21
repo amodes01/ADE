@@ -1,0 +1,14 @@
+{'entity_attitudes': [
+    {'entity1': {'entity': 'London Citizens', 'references': ['London Citizens']},
+     'entity2': {'entity': 'Sadiq Khan', 'references': ['Sadiq Khan']}, 
+     'justifications': ["Sadiq Khan praised the group's effort."], 
+     'attitude': 'Positive'}, 
+     
+     {'entity1': {'entity': 'Rev. Alexandra Lilley', 'references': ['Rev. Alexandra Lilley']}, 'entity2': {'entity': 'Canon Dr. Angus Ritchie', 'references': ['Canon Dr. Angus Ritchie']}, 'justifications': ['Rev. Alexandra Lilley and Canon Dr. Angus Ritchie both spoke out against hate crimes.'], 'attitude': 'Neutral'}, {'entity1': {'entity': 'London Citizens', 'references': ['London Citizens']}, 'entity2': {'entity': 'Christians', 'references': ['Christian groups']}, 'justifications': ['Christian groups and churches including Black Majority Churches, Roman Catholics, Anglicans, Methodists, Salvation Army and Independent churches.'], 'attitude': 'Neutral'}, {'entity1': {'entity': 'Sadiq Khan', 'references': ['Sadiq Khan']}, 'entity2': {'entity': 'Brexit referendum', 'references': ['Brexit referendum vote']}, 'justifications': ["Sadiq Khan praised the group's effort."], 'attitude': 'Positive'}, {'entity1': {'entity': 'Rev. Alexandra Lilley', 'references': ['Rev. Alexandra Lilley']}, 'entity2': {'entity': 'Brexit referendum', 'references': ['Brexit referendum vote']}, 'justifications': ['Rev. Alexandra Lilley spoke out against hate crimes since the U.K. announced the EU Referendum result June 24.'], 'attitude': 'Negative'}]}
+
+{'topical_attitudes': [
+    {'source': {'entity': 'Simone Biles', 'references': ['Simone Biles']}, 
+    'target': {'topic': "Trump's remarks on Black heritage", 'references': ["Trump's shocking remarks about Kamala Harris' racial heritage", 'scathing comments about Harris', "wildly and falsely claiming that she 'happened to turn Black'"]}, 
+    'attitude': 'Negative'}, 
+    
+    {'source': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 'target': {'topic': "Trump's remarks on Black heritage", 'references': ["Trump's shocking remarks about Kamala Harris' racial heritage", 'scathing comments about Harris', "wildly and falsely claiming that she 'happened to turn Black'"]}, 'attitude': 'Negative'}, {'source': {'entity': 'Simone Biles', 'references': ['Simone Biles']}, 'target': {'topic': 'Black jobs', 'references': ['Black job', "Trump's phrase 'Black jobs'"]}, 'attitude': 'Negative'}, {'source': {'entity': 'Donald Trump', 'references': ['Donald Trump']}, 'target': {'topic': 'Black jobs', 'references': ['Black job', "Trump's phrase 'Black jobs'"]}, 'attitude': 'Negative'}]}

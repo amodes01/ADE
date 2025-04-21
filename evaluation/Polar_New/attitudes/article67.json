@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "entity2": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "justifications": [
+          "American gymnast Simone Biles, a 23-time world champion and record holder, spoke to USA Today and allowed her participation in the 2028 Summer Olympics to be held in Los Angeles."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "justifications": [
+          "American gymnast Simone Biles, a 23-time world champion and record holder, spoke to USA Today and allowed her participation in the 2028 Summer Olympics to be held in Los Angeles."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "justifications": [
+          "American gymnast Simone Biles, a 23-time world champion and record holder, spoke to USA Today and allowed her participation in the 2028 Summer Olympics to be held in Los Angeles."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "a 23-time world champion",
+          "references": [
+            "a 23-time world champion"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "record holder",
+          "references": [
+            "record holder"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "her participation",
+          "references": [
+            "her participation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the 2028 Summer Olympics",
+          "references": [
+            "the 2028 Summer Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "target": {
+          "topic": "a 23-time world champion",
+          "references": [
+            "a 23-time world champion"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "target": {
+          "topic": "record holder",
+          "references": [
+            "record holder"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "target": {
+          "topic": "her participation",
+          "references": [
+            "her participation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "target": {
+          "topic": "the 2028 Summer Olympics",
+          "references": [
+            "the 2028 Summer Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "a 23-time world champion",
+          "references": [
+            "a 23-time world champion"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "record holder",
+          "references": [
+            "record holder"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "her participation",
+          "references": [
+            "her participation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the 2028 Summer Olympics",
+          "references": [
+            "the 2028 Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

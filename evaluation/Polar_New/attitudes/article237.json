@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "entity2": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise gave the Paris Olympics closing ceremony a Hollywood flair when he dove off the top of the Stade de France to mark the handover from the Paris Olympics to the L.A. Games in 2028."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics closing ceremony",
+          "references": [
+            "the Paris Olympics closing ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the top",
+          "references": [
+            "the top"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the handover",
+          "references": [
+            "the handover"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics closing ceremony",
+          "references": [
+            "the Paris Olympics closing ceremony"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the top",
+          "references": [
+            "the top"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the handover",
+          "references": [
+            "the handover"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hollywood",
+          "references": [
+            "http://dbpedia.org/resource/Cinema_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics closing ceremony",
+          "references": [
+            "the Paris Olympics closing ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "target": {
+          "topic": "the top",
+          "references": [
+            "the top"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "target": {
+          "topic": "the handover",
+          "references": [
+            "the handover"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Stade de France",
+          "references": [
+            "http://dbpedia.org/resource/Stade_de_France"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics closing ceremony",
+          "references": [
+            "the Paris Olympics closing ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the top",
+          "references": [
+            "the top"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the handover",
+          "references": [
+            "the handover"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

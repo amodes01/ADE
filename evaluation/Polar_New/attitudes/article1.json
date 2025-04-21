@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Gretchen",
+          "references": [
+            "http://dbpedia.org/resource/Gretchen_Walsh"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "sister, Gretchen, has won a gold medal and two silvers in Paris."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Gretchen",
+          "references": [
+            "http://dbpedia.org/resource/Gretchen_Walsh"
+          ]
+        },
+        "target": {
+          "topic": "sister",
+          "references": [
+            "sister"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Gretchen",
+          "references": [
+            "http://dbpedia.org/resource/Gretchen_Walsh"
+          ]
+        },
+        "target": {
+          "topic": "a gold medal",
+          "references": [
+            "a gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Gretchen",
+          "references": [
+            "http://dbpedia.org/resource/Gretchen_Walsh"
+          ]
+        },
+        "target": {
+          "topic": "two silvers",
+          "references": [
+            "two silvers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "sister",
+          "references": [
+            "sister"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a gold medal",
+          "references": [
+            "a gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "two silvers",
+          "references": [
+            "two silvers"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

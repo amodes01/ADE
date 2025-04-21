@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "PTI",
+          "references": [
+            "http://dbpedia.org/resource/Pakistan_Tehreek-e-Insaf"
+          ]
+        },
+        "target": {
+          "topic": "number",
+          "references": [
+            "number"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "PTI",
+          "references": [
+            "http://dbpedia.org/resource/Pakistan_Tehreek-e-Insaf"
+          ]
+        },
+        "target": {
+          "topic": "both national and party flags",
+          "references": [
+            "both national and party flags"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

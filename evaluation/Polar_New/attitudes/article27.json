@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "justifications": [
+          "Suits L.A. star Stephen Amell was overcome with emotion after swimmer Bobby Finke clinched gold in the 1,500-meter freestyle at the 2024 Paris Olympics."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "justifications": [
+          "Suits L.A. star Stephen Amell was overcome with emotion after swimmer Bobby Finke clinched gold in the 1,500-meter freestyle at the 2024 Paris Olympics."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "entity2": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "justifications": [
+          "Suits L.A. star Stephen Amell was overcome with emotion after swimmer Bobby Finke clinched gold in the 1,500-meter freestyle at the 2024 Paris Olympics."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "emotion",
+          "references": [
+            "emotion"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "gold",
+          "references": [
+            "gold"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the 1,500-meter freestyle",
+          "references": [
+            "the 1,500-meter freestyle"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "L.A.",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "target": {
+          "topic": "emotion",
+          "references": [
+            "emotion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "target": {
+          "topic": "gold",
+          "references": [
+            "gold"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "target": {
+          "topic": "the 1,500-meter freestyle",
+          "references": [
+            "the 1,500-meter freestyle"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Stephen Amell",
+          "references": [
+            "http://dbpedia.org/resource/Stephen_Amell"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "target": {
+          "topic": "emotion",
+          "references": [
+            "emotion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "target": {
+          "topic": "gold",
+          "references": [
+            "gold"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "target": {
+          "topic": "the 1,500-meter freestyle",
+          "references": [
+            "the 1,500-meter freestyle"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bobby Finke",
+          "references": [
+            "http://dbpedia.org/resource/Robert_Finke"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

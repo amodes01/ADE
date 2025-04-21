@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "COVID-19",
+          "references": [
+            "http://dbpedia.org/resource/COVID-19"
+          ]
+        },
+        "entity2": {
+          "entity": "Noah Lyles",
+          "references": [
+            "http://dbpedia.org/resource/Noah_Lyles"
+          ]
+        },
+        "justifications": [
+          "Noah Lyles said he was diagnosed with COVID-19 days before winning bronze in the men's 200m at the Paris Olympics."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Noah Lyles",
+          "references": [
+            "http://dbpedia.org/resource/Noah_Lyles"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Noah Lyles",
+          "references": [
+            "http://dbpedia.org/resource/Noah_Lyles"
+          ]
+        },
+        "target": {
+          "topic": "the men's 200m",
+          "references": [
+            "the men's 200m"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Noah Lyles",
+          "references": [
+            "http://dbpedia.org/resource/Noah_Lyles"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "COVID-19",
+          "references": [
+            "http://dbpedia.org/resource/COVID-19"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "COVID-19",
+          "references": [
+            "http://dbpedia.org/resource/COVID-19"
+          ]
+        },
+        "target": {
+          "topic": "the men's 200m",
+          "references": [
+            "the men's 200m"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "COVID-19",
+          "references": [
+            "http://dbpedia.org/resource/COVID-19"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

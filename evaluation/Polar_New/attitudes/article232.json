@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "FDA",
+          "references": [
+            "http://dbpedia.org/resource/Food_and_Drug_Administration"
+          ]
+        },
+        "entity2": {
+          "entity": "Pfizer-BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "justifications": [
+          "Medical experts advising the US Food and Drug Administration (FDA) have recommended emergency approval for the Pfizer-BioNTech coronavirus vaccine."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "FDA",
+          "references": [
+            "http://dbpedia.org/resource/Food_and_Drug_Administration"
+          ]
+        },
+        "target": {
+          "topic": "Medical experts",
+          "references": [
+            "Medical experts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FDA",
+          "references": [
+            "http://dbpedia.org/resource/Food_and_Drug_Administration"
+          ]
+        },
+        "target": {
+          "topic": "the US Food and Drug Administration",
+          "references": [
+            "the US Food and Drug Administration"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FDA",
+          "references": [
+            "http://dbpedia.org/resource/Food_and_Drug_Administration"
+          ]
+        },
+        "target": {
+          "topic": "emergency approval",
+          "references": [
+            "emergency approval"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Pfizer-BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "target": {
+          "topic": "Medical experts",
+          "references": [
+            "Medical experts"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Pfizer-BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "target": {
+          "topic": "the US Food and Drug Administration",
+          "references": [
+            "the US Food and Drug Administration"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Pfizer-BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "target": {
+          "topic": "emergency approval",
+          "references": [
+            "emergency approval"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

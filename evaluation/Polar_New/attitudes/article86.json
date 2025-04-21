@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Fort Apache",
+          "references": [
+            "http://dbpedia.org/resource/Fort_Apache_Indian_Reservation"
+          ]
+        },
+        "target": {
+          "topic": "a Western",
+          "references": [
+            "a Western"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Fort Apache",
+          "references": [
+            "http://dbpedia.org/resource/Fort_Apache_Indian_Reservation"
+          ]
+        },
+        "target": {
+          "topic": "John Wayne",
+          "references": [
+            "John Wayne"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Fort Apache",
+          "references": [
+            "http://dbpedia.org/resource/Fort_Apache_Indian_Reservation"
+          ]
+        },
+        "target": {
+          "topic": "Henry Fonda",
+          "references": [
+            "Henry Fonda"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Fort Apache",
+          "references": [
+            "http://dbpedia.org/resource/Fort_Apache_Indian_Reservation"
+          ]
+        },
+        "target": {
+          "topic": "the white man",
+          "references": [
+            "the white man"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Fort Apache",
+          "references": [
+            "http://dbpedia.org/resource/Fort_Apache_Indian_Reservation"
+          ]
+        },
+        "target": {
+          "topic": "the Indians",
+          "references": [
+            "the Indians"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

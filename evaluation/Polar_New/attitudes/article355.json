@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "entity2": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "justifications": [
+          "Tom Cruise abseiled down into the State de France during the closing ceremony at the Paris Olympics."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the closing ceremony",
+          "references": [
+            "the closing ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tom Cruise",
+          "references": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the closing ceremony",
+          "references": [
+            "the closing ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

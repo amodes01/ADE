@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "European Council",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "EU laws while losing its ability to influence those laws through the country's European Council and European Parliament voting rights."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "EU laws while losing its ability to influence those laws through the country's European Council and European Parliament voting rights."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "European Council",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "entity2": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "justifications": [
+          "EU laws while losing its ability to influence those laws through the country's European Council and European Parliament voting rights."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its ability",
+          "references": [
+            "its ability"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "those laws",
+          "references": [
+            "those laws"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "European Council",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "its ability",
+          "references": [
+            "its ability"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "European Council",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "those laws",
+          "references": [
+            "those laws"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "its ability",
+          "references": [
+            "its ability"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "those laws",
+          "references": [
+            "those laws"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "entity2": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "The political action committee funded by billionaire Elon Musk to help re-elect former US President Donald Trump is struggling in some swing states to meet doorknocking goals and is investigating claims that some canvassers lied about the number of voters they have contacted, according to people involved in the group's efforts."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "The political action committee funded by billionaire Elon Musk to help re-elect former US President Donald Trump is struggling in some swing states to meet doorknocking goals and is investigating claims that some canvassers lied about the number of voters they have contacted, according to people involved in the group's efforts."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "entity2": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "The political action committee funded by billionaire Elon Musk to help re-elect former US President Donald Trump is struggling in some swing states to meet doorknocking goals and is investigating claims that some canvassers lied about the number of voters they have contacted, according to people involved in the group's efforts."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "The political action committee",
+          "references": [
+            "The political action committee"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "some swing states",
+          "references": [
+            "some swing states"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "doorknocking goals",
+          "references": [
+            "doorknocking goals"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "claims",
+          "references": [
+            "claims"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "some canvassers",
+          "references": [
+            "some canvassers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the number",
+          "references": [
+            "the number"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "voters",
+          "references": [
+            "voters"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "people",
+          "references": [
+            "people"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the group's efforts",
+          "references": [
+            "the group's efforts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "The political action committee",
+          "references": [
+            "The political action committee"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "some swing states",
+          "references": [
+            "some swing states"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "doorknocking goals",
+          "references": [
+            "doorknocking goals"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "claims",
+          "references": [
+            "claims"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "some canvassers",
+          "references": [
+            "some canvassers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the number",
+          "references": [
+            "the number"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "voters",
+          "references": [
+            "voters"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "people",
+          "references": [
+            "people"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the group's efforts",
+          "references": [
+            "the group's efforts"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "The political action committee",
+          "references": [
+            "The political action committee"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "some swing states",
+          "references": [
+            "some swing states"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "doorknocking goals",
+          "references": [
+            "doorknocking goals"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "claims",
+          "references": [
+            "claims"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "some canvassers",
+          "references": [
+            "some canvassers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "the number",
+          "references": [
+            "the number"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "voters",
+          "references": [
+            "voters"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "people",
+          "references": [
+            "people"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "the group's efforts",
+          "references": [
+            "the group's efforts"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

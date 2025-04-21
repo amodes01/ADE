@@ -1,0 +1,332 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "entity2": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "justifications": [
+          "Simone Biles did not attempt one of her most breathtaking signature moves, the Biles II, during the team competition on Tuesday, but she will go for it during the vault to start today's all-around final, NBC analyst Laurie Hernandez confirmed during the competition."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "entity2": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "justifications": [
+          "Simone Biles did not attempt one of her most breathtaking signature moves, the Biles II, during the team competition on Tuesday, but she will go for it during the vault to start today's all-around final, NBC analyst Laurie Hernandez confirmed during the competition."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "entity2": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "justifications": [
+          "Simone Biles did not attempt one of her most breathtaking signature moves, the Biles II, during the team competition on Tuesday, but she will go for it during the vault to start today's all-around final, NBC analyst Laurie Hernandez confirmed during the competition."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "her most breathtaking signature moves",
+          "references": [
+            "her most breathtaking signature moves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the Biles II",
+          "references": [
+            "the Biles II"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the team competition",
+          "references": [
+            "the team competition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday",
+          "references": [
+            "Tuesday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the vault",
+          "references": [
+            "the vault"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Simone Biles",
+          "references": [
+            "http://dbpedia.org/resource/Simone_Biles"
+          ]
+        },
+        "target": {
+          "topic": "the competition",
+          "references": [
+            "the competition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "her most breathtaking signature moves",
+          "references": [
+            "her most breathtaking signature moves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "the Biles II",
+          "references": [
+            "the Biles II"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "the team competition",
+          "references": [
+            "the team competition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday",
+          "references": [
+            "Tuesday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "the vault",
+          "references": [
+            "the vault"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NBC",
+          "references": [
+            "http://dbpedia.org/resource/NBC"
+          ]
+        },
+        "target": {
+          "topic": "the competition",
+          "references": [
+            "the competition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "her most breathtaking signature moves",
+          "references": [
+            "her most breathtaking signature moves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "the Biles II",
+          "references": [
+            "the Biles II"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "the team competition",
+          "references": [
+            "the team competition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday",
+          "references": [
+            "Tuesday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "the vault",
+          "references": [
+            "the vault"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Laurie Hernandez",
+          "references": [
+            "http://dbpedia.org/resource/Laurie_Hernandez"
+          ]
+        },
+        "target": {
+          "topic": "the competition",
+          "references": [
+            "the competition"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

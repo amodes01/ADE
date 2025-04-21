@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "entity2": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "justifications": [
+          "regret.\\\\\\\" They thanked members of other religious denominations \\\\\\\"who have expressed their solidarity with us.\\\\\\\" Bishop Emmanuel Gobilliard of Digne, the special representative of the Holy See for the 2024 Paris Olympics, said that he was \\\\\\\"deeply hurt\\\\\\\" by the depiction."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "entity2": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "justifications": [
+          "regret.\\\\\\\" They thanked members of other religious denominations \\\\\\\"who have expressed their solidarity with us.\\\\\\\" Bishop Emmanuel Gobilliard of Digne, the special representative of the Holy See for the 2024 Paris Olympics, said that he was \\\\\\\"deeply hurt\\\\\\\" by the depiction."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "entity2": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "justifications": [
+          "regret.\\\\\\\" They thanked members of other religious denominations \\\\\\\"who have expressed their solidarity with us.\\\\\\\" Bishop Emmanuel Gobilliard of Digne, the special representative of the Holy See for the 2024 Paris Olympics, said that he was \\\\\\\"deeply hurt\\\\\\\" by the depiction."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "members",
+          "references": [
+            "members"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "other religious denominations",
+          "references": [
+            "other religious denominations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "their solidarity",
+          "references": [
+            "their solidarity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "us.\\\\\\",
+          "references": [
+            "us.\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "the special representative",
+          "references": [
+            "the special representative"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"deeply hurt\\\\\\",
+          "references": [
+            "\\\\\\\"deeply hurt\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel",
+          "references": [
+            "http://dbpedia.org/resource/Immanuel"
+          ]
+        },
+        "target": {
+          "topic": "the depiction",
+          "references": [
+            "the depiction"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "members",
+          "references": [
+            "members"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "other religious denominations",
+          "references": [
+            "other religious denominations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "their solidarity",
+          "references": [
+            "their solidarity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "us.\\\\\\",
+          "references": [
+            "us.\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "the special representative",
+          "references": [
+            "the special representative"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"deeply hurt\\\\\\",
+          "references": [
+            "\\\\\\\"deeply hurt\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Digne",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Digne"
+          ]
+        },
+        "target": {
+          "topic": "the depiction",
+          "references": [
+            "the depiction"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "members",
+          "references": [
+            "members"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "other religious denominations",
+          "references": [
+            "other religious denominations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "their solidarity",
+          "references": [
+            "their solidarity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "us.\\\\\\",
+          "references": [
+            "us.\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "the special representative",
+          "references": [
+            "the special representative"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Paris Olympics",
+          "references": [
+            "the 2024 Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"deeply hurt\\\\\\",
+          "references": [
+            "\\\\\\\"deeply hurt\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Holy See",
+          "references": [
+            "http://dbpedia.org/resource/Holy_See"
+          ]
+        },
+        "target": {
+          "topic": "the depiction",
+          "references": [
+            "the depiction"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

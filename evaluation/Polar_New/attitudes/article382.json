@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "It comes amid calls for the Government to set up an all-party Oireachtas committee to examine Brexit and the EU reforms now needed."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "calls",
+          "references": [
+            "calls"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the Government",
+          "references": [
+            "the Government"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "an all-party Oireachtas committee",
+          "references": [
+            "an all-party Oireachtas committee"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "calls",
+          "references": [
+            "calls"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the Government",
+          "references": [
+            "the Government"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "an all-party Oireachtas committee",
+          "references": [
+            "an all-party Oireachtas committee"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

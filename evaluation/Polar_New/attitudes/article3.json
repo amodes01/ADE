@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Alison Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Alison_Gibson"
+          ]
+        },
+        "entity2": {
+          "entity": "American diver",
+          "references": [
+            "http://dbpedia.org/resource/American_Diver"
+          ]
+        },
+        "justifications": [
+          "PARIS - The day did not start off well for American diver Alison Gibson."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "American diver",
+          "references": [
+            "http://dbpedia.org/resource/American_Diver"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "American diver",
+          "references": [
+            "http://dbpedia.org/resource/American_Diver"
+          ]
+        },
+        "target": {
+          "topic": "The day",
+          "references": [
+            "The day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Alison Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Alison_Gibson"
+          ]
+        },
+        "target": {
+          "topic": "PARIS",
+          "references": [
+            "PARIS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Alison Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Alison_Gibson"
+          ]
+        },
+        "target": {
+          "topic": "The day",
+          "references": [
+            "The day"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

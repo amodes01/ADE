@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Katie Ledecky continued to add to her incredible legacy on Thursday at the 2024 Summer Olympics in Paris."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "her incredible legacy",
+          "references": [
+            "her incredible legacy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Summer Olympics",
+          "references": [
+            "the 2024 Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "her incredible legacy",
+          "references": [
+            "her incredible legacy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the 2024 Summer Olympics",
+          "references": [
+            "the 2024 Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

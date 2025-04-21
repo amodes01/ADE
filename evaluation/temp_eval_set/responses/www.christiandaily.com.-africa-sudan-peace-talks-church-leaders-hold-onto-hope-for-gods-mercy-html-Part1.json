@@ -1,0 +1,60 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Sudanese Army", "references": ["SAF", "Sudanese Armed Forces"]},
+        "target": {"topic": "peace talks", "references": ["peace initiative", "Geneva delegation"]},
+        "justifications": [
+          "SAF boycotted the peace initiative.",
+          "The Sudanese Ministry of Foreign Affairs said the peace talks would be 'futile' if RSF is allowed to get away with crimes against humanity."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Rapid Support Forces", "references": ["RSF"]},
+        "target": {"topic": "peace talks", "references": ["peace initiative", "Geneva delegation"]},
+        "justifications": [
+          "RSF representatives attended the talks.",
+          "A joint statement from envoys commended RSF for attending the talks and urged them to protect civilians and infrastructure."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Sudanese Ministry of Foreign Affairs", "references": ["Ministry of Foreign Affairs"]},
+        "target": {"topic": "RSF", "references": ["Rapid Support Forces"]},
+        "justifications": [
+          "The Sudanese Ministry of Foreign Affairs said the peace talks would be 'futile' if RSF is allowed to get away with crimes against humanity."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Sudanese civilians", "references": ["civilians", "Sudanese people"]},
+        "target": {"topic": "war", "references": ["conflict", "violence"]},
+        "justifications": [
+          "Tens of thousands of Sudanese have lost their lives, and nearly 11 million people have been displaced.",
+          "People are suffering because there are new attacks (both from SAF and RSF) in new places."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Sudanese Army", "references": ["SAF", "Sudanese Armed Forces"]},
+        "entity2": {"entity": "Rapid Support Forces", "references": ["RSF"]},
+        "justifications": [
+          "The conflict pits the Sudanese Army, led by General Abdel Fattah al-Burhan, against the paramilitary Rapid Support Forces (RSF), commanded by former al-Burhan deputy, General Mohamed Hamdan Dagalo.",
+          "SAF also accused RSF of bombing residential areas in Kordofan and Khartoum, and two schools in Al-Obeid city as well as a hospital in Al-Thawra, Karrari."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Sudanese civilians", "references": ["civilians", "Sudanese people"]},
+        "entity2": {"entity": "Sudanese Army and Rapid Support Forces", "references": ["SAF and RSF", "warring parties"]},
+        "justifications": [
+          "People are suffering because there are new attacks (both from SAF and RSF) in new places.",
+          "The war has left Sudanese civilians without essential food, healthcare, or any semblance of peace."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

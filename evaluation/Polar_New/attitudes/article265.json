@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "entity2": {
+          "entity": "Imperium Europa",
+          "references": [
+            "http://dbpedia.org/resource/Imperium_Europa"
+          ]
+        },
+        "justifications": [
+          "Imperium Europa, all 45 parties that we surveyed hold at least one seat in their national parliaments or the European Parliament."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Imperium Europa",
+          "references": [
+            "http://dbpedia.org/resource/Imperium_Europa"
+          ]
+        },
+        "target": {
+          "topic": "all 45 parties",
+          "references": [
+            "all 45 parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Imperium Europa",
+          "references": [
+            "http://dbpedia.org/resource/Imperium_Europa"
+          ]
+        },
+        "target": {
+          "topic": "at least one seat",
+          "references": [
+            "at least one seat"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Imperium Europa",
+          "references": [
+            "http://dbpedia.org/resource/Imperium_Europa"
+          ]
+        },
+        "target": {
+          "topic": "their national parliaments",
+          "references": [
+            "their national parliaments"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "all 45 parties",
+          "references": [
+            "all 45 parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "at least one seat",
+          "references": [
+            "at least one seat"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "European Parliament",
+          "references": [
+            "http://dbpedia.org/resource/European_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "their national parliaments",
+          "references": [
+            "their national parliaments"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

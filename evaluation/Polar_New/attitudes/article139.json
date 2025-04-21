@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Eva Mendes",
+          "references": [
+            "http://dbpedia.org/resource/Eva_Mendes"
+          ]
+        },
+        "entity2": {
+          "entity": "Ryan Gosling",
+          "references": [
+            "http://dbpedia.org/resource/Ryan_Gosling"
+          ]
+        },
+        "justifications": [
+          "Ryan Gosling and Eva Mendes stepped out for a fun and rare date night!"
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Ryan Gosling",
+          "references": [
+            "http://dbpedia.org/resource/Ryan_Gosling"
+          ]
+        },
+        "target": {
+          "topic": "a fun and rare date night",
+          "references": [
+            "a fun and rare date night"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eva Mendes",
+          "references": [
+            "http://dbpedia.org/resource/Eva_Mendes"
+          ]
+        },
+        "target": {
+          "topic": "a fun and rare date night",
+          "references": [
+            "a fun and rare date night"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Milwaukee Downtown, BID #21",
+          "references": ["Milwaukee Downtown, Business Improvement District #21", "BID #21"]
+        },
+        "target": {
+          "topic": "Downtown Milwaukee Dog Park",
+          "references": ["dog park", "Downtown's first and only public dog park"]
+        },
+        "justifications": [
+          "Since announcing plans for Downtown's first dog park at this underutilized space, excitement for the project has continued to grow.",
+          "Businesses of all sizes, philanthropic partners and thousands of residents have pledged their support for this vital amenity."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Fromm Family Pet Food",
+          "references": ["Fromm"]
+        },
+        "target": {
+          "topic": "Downtown Milwaukee Dog Park",
+          "references": ["dog park", "Downtown's first and only public dog park"]
+        },
+        "justifications": [
+          "We are thrilled to be the title sponsor of the Downtown Milwaukee Dog Park.",
+          "As a family-owned business committed to the well-being of pets, we believe this new amenity will enhance the quality of life for both dogs and their owners in the community."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Milwaukee Downtown, BID #21 and Historic Third Ward BID #2",
+          "references": ["Milwaukee Downtown, BID #21", "Historic Third Ward BID #2"]
+        },
+        "target": {
+          "topic": "Connectivity between neighborhoods",
+          "references": ["connectivity", "enhance connectivity between the two neighborhoods"]
+        },
+        "justifications": [
+          "The Downtown Milwaukee Dog Park is the crown jewel in a series of projects that Milwaukee Downtown, BID #21 and the Historic Third Ward BID #2 have successfully undertaken to enhance connectivity between the two neighborhoods."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Fromm Family Pet Food",
+          "references": ["Fromm"]
+        },
+        "entity2": {
+          "entity": "Milwaukee Downtown, BID #21",
+          "references": ["Milwaukee Downtown, Business Improvement District #21", "BID #21"]
+        },
+        "justifications": [
+          "The development of the dog park was instrumental in attracting Fromm to the adjacent parcel, where they are now developing the 28,000-square-foot Foxtown Landing brewery, distillery and restaurant.",
+          "We are delighted to be part of the upward momentum taking place in the greater Downtown area."
+        ],
+        "attitude": "Positive"
+      }
+    ]
+  }
+  

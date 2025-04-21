@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "The morning after citizens of Great Britain voted by a slight majority to leave the European Union, U.S. President Barack Obama was realistic about the motivations behind the so-called 'Brexit.'"
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "target": {
+          "topic": "a slight majority",
+          "references": [
+            "a slight majority"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Great_Britain"
+          ]
+        },
+        "target": {
+          "topic": "the motivations",
+          "references": [
+            "the motivations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a slight majority",
+          "references": [
+            "a slight majority"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the motivations",
+          "references": [
+            "the motivations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "a slight majority",
+          "references": [
+            "a slight majority"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the motivations",
+          "references": [
+            "the motivations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a slight majority",
+          "references": [
+            "a slight majority"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the motivations",
+          "references": [
+            "the motivations"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

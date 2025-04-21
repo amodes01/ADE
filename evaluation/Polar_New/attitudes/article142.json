@@ -1,0 +1,121 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "entity2": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "justifications": [
+          "Jean-Claude Juncker traveled to Russia to attend the St. Petersburg International Economic Forum."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "target": {
+          "topic": "the St. Petersburg International Economic Forum",
+          "references": [
+            "the St. Petersburg International Economic Forum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "the St. Petersburg International Economic Forum",
+          "references": [
+            "the St. Petersburg International Economic Forum"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Foreign Minister",
+          "references": [
+            "http://dbpedia.org/resource/Ministry_for_Europe_and_Foreign_Affairs"
+          ]
+        },
+        "target": {
+          "topic": "NATO exercises",
+          "references": [
+            "NATO exercises"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Foreign Minister",
+          "references": [
+            "http://dbpedia.org/resource/Ministry_for_Europe_and_Foreign_Affairs"
+          ]
+        },
+        "target": {
+          "topic": "warmongering.\\\\\\",
+          "references": [
+            "warmongering.\\\\\\"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Foreign Minister",
+          "references": [
+            "http://dbpedia.org/resource/Ministry_for_Europe_and_Foreign_Affairs"
+          ]
+        },
+        "target": {
+          "topic": "\" The UK's voice",
+          "references": [
+            "\" The UK's voice"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Foreign Minister",
+          "references": [
+            "http://dbpedia.org/resource/Ministry_for_Europe_and_Foreign_Affairs"
+          ]
+        },
+        "target": {
+          "topic": "EU institutions",
+          "references": [
+            "EU institutions"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

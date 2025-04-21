@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Flavor Flav",
+          "references": [
+            "http://dbpedia.org/resource/Flavor_Flav"
+          ]
+        },
+        "entity2": {
+          "entity": "USA Water Polo",
+          "references": [
+            "http://dbpedia.org/resource/United_States_women's_national_water_polo_team"
+          ]
+        },
+        "justifications": [
+          "Why is American rapper Flavor Flav at the Paris Olympics and spending time with the USA Water Polo team?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Flavor Flav",
+          "references": [
+            "http://dbpedia.org/resource/Flavor_Flav"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Flavor Flav",
+          "references": [
+            "http://dbpedia.org/resource/Flavor_Flav"
+          ]
+        },
+        "target": {
+          "topic": "time",
+          "references": [
+            "time"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA Water Polo",
+          "references": [
+            "http://dbpedia.org/resource/United_States_women's_national_water_polo_team"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA Water Polo",
+          "references": [
+            "http://dbpedia.org/resource/United_States_women's_national_water_polo_team"
+          ]
+        },
+        "target": {
+          "topic": "time",
+          "references": [
+            "time"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

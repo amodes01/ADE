@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "entity2": {
+          "entity": "Liam Corrigan",
+          "references": [
+            "http://dbpedia.org/resource/Liam_Corrigan"
+          ]
+        },
+        "justifications": [
+          "Old Lyme's Liam Corrigan advanced to the final in men's four at the Paris Olympics on Sunday and a few other Connecticut athletes also competed."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Liam Corrigan",
+          "references": [
+            "http://dbpedia.org/resource/Liam_Corrigan"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Liam Corrigan",
+          "references": [
+            "http://dbpedia.org/resource/Liam_Corrigan"
+          ]
+        },
+        "target": {
+          "topic": "Sunday",
+          "references": [
+            "Sunday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "target": {
+          "topic": "Sunday",
+          "references": [
+            "Sunday"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

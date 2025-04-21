@@ -1,0 +1,287 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "entity2": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "New York CNN - Elon Musk's SpaceX has accused a California regulator of political discrimination after it voted to block the rocket company from conducting more launches on the state's central coast."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "entity2": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "New York CNN - Elon Musk's SpaceX has accused a California regulator of political discrimination after it voted to block the rocket company from conducting more launches on the state's central coast."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "entity2": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "justifications": [
+          "New York CNN - Elon Musk's SpaceX has accused a California regulator of political discrimination after it voted to block the rocket company from conducting more launches on the state's central coast."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Elon Musk's SpaceX",
+          "references": [
+            "Elon Musk's SpaceX"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "political discrimination",
+          "references": [
+            "political discrimination"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the rocket company",
+          "references": [
+            "the rocket company"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "more launches",
+          "references": [
+            "more launches"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the state's central coast",
+          "references": [
+            "the state's central coast"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "target": {
+          "topic": "Elon Musk's SpaceX",
+          "references": [
+            "Elon Musk's SpaceX"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "target": {
+          "topic": "political discrimination",
+          "references": [
+            "political discrimination"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "target": {
+          "topic": "the rocket company",
+          "references": [
+            "the rocket company"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "target": {
+          "topic": "more launches",
+          "references": [
+            "more launches"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "CNN",
+          "references": [
+            "http://dbpedia.org/resource/CNN"
+          ]
+        },
+        "target": {
+          "topic": "the state's central coast",
+          "references": [
+            "the state's central coast"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Elon Musk's SpaceX",
+          "references": [
+            "Elon Musk's SpaceX"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "political discrimination",
+          "references": [
+            "political discrimination"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the rocket company",
+          "references": [
+            "the rocket company"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "more launches",
+          "references": [
+            "more launches"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the state's central coast",
+          "references": [
+            "the state's central coast"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Vance",
+          "references": [
+            "http://dbpedia.org/resource/Zebulon_Baird_Vance"
+          ]
+        },
+        "justifications": [
+          "it?\\\\\\\" Despite being selected as Trump's running mate, another old video interview showed Vance admitting that there were \\\\\\\"definitely some people\\\\\\\" who voted for Trump in 2016 \\\\\\\"for racist reasons\\\\\\\"."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "another old video interview",
+          "references": [
+            "another old video interview"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"definitely some people\\\\\\",
+          "references": [
+            "\\\\\\\"definitely some people\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "racist reasons\\\\\\",
+          "references": [
+            "racist reasons\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Vance",
+          "references": [
+            "http://dbpedia.org/resource/Zebulon_Baird_Vance"
+          ]
+        },
+        "target": {
+          "topic": "another old video interview",
+          "references": [
+            "another old video interview"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Vance",
+          "references": [
+            "http://dbpedia.org/resource/Zebulon_Baird_Vance"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"definitely some people\\\\\\",
+          "references": [
+            "\\\\\\\"definitely some people\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Vance",
+          "references": [
+            "http://dbpedia.org/resource/Zebulon_Baird_Vance"
+          ]
+        },
+        "target": {
+          "topic": "racist reasons\\\\\\",
+          "references": [
+            "racist reasons\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

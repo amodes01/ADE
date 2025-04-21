@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "NEW YORK, New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "UNICEF",
+          "references": [
+            "http://dbpedia.org/resource/UNICEF"
+          ]
+        },
+        "justifications": [
+          "NEW YORK, New York - More than fifty children have been killed in the past 48 hours according to UNICEF, ..."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "NEW YORK, New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the past 48 hours",
+          "references": [
+            "the past 48 hours"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UNICEF",
+          "references": [
+            "http://dbpedia.org/resource/UNICEF"
+          ]
+        },
+        "target": {
+          "topic": "the past 48 hours",
+          "references": [
+            "the past 48 hours"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

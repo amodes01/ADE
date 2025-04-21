@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "entity2": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "justifications": [
+          "VW's $15.3 billion \\\\\\\"sorry\\\\\\\" to U.S. car owners, and other MoneyWatch headlines \\\\\\\"When life gives you lemons, make lemonade.\\\\\\\" Perhaps that was the thinking in British Airways' marketing offices after the pound plunged to a 31-year low following last week's Brexit vote."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "justifications": [
+          "VW's $15.3 billion \\\\\\\"sorry\\\\\\\" to U.S. car owners, and other MoneyWatch headlines \\\\\\\"When life gives you lemons, make lemonade.\\\\\\\" Perhaps that was the thinking in British Airways' marketing offices after the pound plunged to a 31-year low following last week's Brexit vote."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "justifications": [
+          "VW's $15.3 billion \\\\\\\"sorry\\\\\\\" to U.S. car owners, and other MoneyWatch headlines \\\\\\\"When life gives you lemons, make lemonade.\\\\\\\" Perhaps that was the thinking in British Airways' marketing offices after the pound plunged to a 31-year low following last week's Brexit vote."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "U.S. car owners",
+          "references": [
+            "U.S. car owners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "other MoneyWatch",
+          "references": [
+            "other MoneyWatch"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "life",
+          "references": [
+            "life"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "lemons",
+          "references": [
+            "lemons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "lemonade.\\\\\\",
+          "references": [
+            "lemonade.\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "the thinking",
+          "references": [
+            "the thinking"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "VW",
+          "references": [
+            "http://dbpedia.org/resource/Volkswagen"
+          ]
+        },
+        "target": {
+          "topic": "a 31-year low",
+          "references": [
+            "a 31-year low"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "U.S. car owners",
+          "references": [
+            "U.S. car owners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "other MoneyWatch",
+          "references": [
+            "other MoneyWatch"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "life",
+          "references": [
+            "life"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "lemons",
+          "references": [
+            "lemons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "lemonade.\\\\\\",
+          "references": [
+            "lemonade.\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "the thinking",
+          "references": [
+            "the thinking"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Airways",
+          "references": [
+            "http://dbpedia.org/resource/British_Airways"
+          ]
+        },
+        "target": {
+          "topic": "a 31-year low",
+          "references": [
+            "a 31-year low"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "U.S. car owners",
+          "references": [
+            "U.S. car owners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "other MoneyWatch",
+          "references": [
+            "other MoneyWatch"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "life",
+          "references": [
+            "life"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "lemons",
+          "references": [
+            "lemons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "lemonade.\\\\\\",
+          "references": [
+            "lemonade.\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the thinking",
+          "references": [
+            "the thinking"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a 31-year low",
+          "references": [
+            "a 31-year low"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

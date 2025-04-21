@@ -1,0 +1,55 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Algeria",
+          "references": ["Algeria"]
+        },
+        "target": {
+          "topic": "fuel aid to Lebanon",
+          "references": ["supplying Lebanon with fuel", "shipment of aid", "initial shipment of 30,000 tons of fuel oil"]
+        },
+        "justifications": [
+          "Algeria announced that it would immediately supply Lebanon with fuel to help the country overcome an electricity outage crisis.",
+          "Sonatrach said in a statement that the tanker Ain Aker will set off for Lebanon this evening with an initial shipment of 30,000 tons of fuel oil.",
+          "Supplying Lebanon with fuel 'follows the instructions of President Abdelmadjid Tebboune, who ordered the provision of the necessary quantities of fuel oil to Lebanon in order to operate power plants and restore electricity in the country.'"
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Lebanon",
+          "references": ["Lebanon"]
+        },
+        "target": {
+          "topic": "electricity crisis",
+          "references": ["electricity outage crisis", "nationwide power outage", "severe financial crisis"]
+        },
+        "justifications": [
+          "Electricité du Liban (EDL), a state-owned electricity company, announced a nationwide power outage in Lebanon following a complete shutdown of all power stations.",
+          "The power outage has affected essential facilities, including Rafic Hariri International Airport, Beirut Port, prisons, wastewater treatment plants, and drinking water pumping stations, EDL said.",
+          "Two years ago, the frequency of power outages in Lebanon significantly increased as the country faced a severe financial crisis, leaving it unable to secure the foreign currency needed to import fuel."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Algeria",
+          "references": ["Algeria"]
+        },
+        "entity2": {
+          "entity": "Lebanon",
+          "references": ["Lebanon"]
+        },
+        "justifications": [
+          "Algeria announced that it would immediately supply Lebanon with fuel to help the country overcome an electricity outage crisis.",
+          "Sonatrach said in a statement that the tanker Ain Aker will set off for Lebanon this evening with an initial shipment of 30,000 tons of fuel oil.",
+          "Supplying Lebanon with fuel 'follows the instructions of President Abdelmadjid Tebboune, who ordered the provision of the necessary quantities of fuel oil to Lebanon in order to operate power plants and restore electricity in the country.'"
+        ],
+        "attitude": "Positive"
+      }
+    ]
+  }
+  

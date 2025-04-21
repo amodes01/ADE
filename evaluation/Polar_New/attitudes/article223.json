@@ -1,0 +1,536 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Washington: Former US president Donald Trump has criticised the opening ceremony of the Summer Olympics in Paris, calling it a \\\\\\\"disgrace\\\\\\\", amidst outrage over a scene which critics say parodied Leonardo da Vinci's acclaimed painting \\\\\\\"The Last Supper.\\\\\\\" \\\\\\\"I thought that the opening ceremony was a disgrace, actually."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "the opening ceremony",
+          "references": [
+            "the opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a \\\\\\\"disgrace\\\\\\",
+          "references": [
+            "a \\\\\\\"disgrace\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "outrage",
+          "references": [
+            "outrage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a scene",
+          "references": [
+            "a scene"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "critics",
+          "references": [
+            "critics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a disgrace",
+          "references": [
+            "a disgrace"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the opening ceremony",
+          "references": [
+            "the opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a \\\\\\\"disgrace\\\\\\",
+          "references": [
+            "a \\\\\\\"disgrace\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "outrage",
+          "references": [
+            "outrage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a scene",
+          "references": [
+            "a scene"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "critics",
+          "references": [
+            "critics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a disgrace",
+          "references": [
+            "a disgrace"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the opening ceremony",
+          "references": [
+            "the opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a \\\\\\\"disgrace\\\\\\",
+          "references": [
+            "a \\\\\\\"disgrace\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "outrage",
+          "references": [
+            "outrage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a scene",
+          "references": [
+            "a scene"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "critics",
+          "references": [
+            "critics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a disgrace",
+          "references": [
+            "a disgrace"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "the opening ceremony",
+          "references": [
+            "the opening ceremony"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "the Summer Olympics",
+          "references": [
+            "the Summer Olympics"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "a \\\\\\\"disgrace\\\\\\",
+          "references": [
+            "a \\\\\\\"disgrace\\\\\\"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "outrage",
+          "references": [
+            "outrage"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "a scene",
+          "references": [
+            "a scene"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "critics",
+          "references": [
+            "critics"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Leonardo da Vinci",
+          "references": [
+            "http://dbpedia.org/resource/Leonardo_da_Vinci"
+          ]
+        },
+        "target": {
+          "topic": "a disgrace",
+          "references": [
+            "a disgrace"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Eva Mendes",
+          "references": [
+            "http://dbpedia.org/resource/Eva_Mendes"
+          ]
+        },
+        "entity2": {
+          "entity": "Ryan Gosling",
+          "references": [
+            "http://dbpedia.org/resource/Ryan_Gosling"
+          ]
+        },
+        "justifications": [
+          "Ryan Gosling has stepped out to cheer on Team USA with long-term high-commitment wife Eva Mendes."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Ryan Gosling",
+          "references": [
+            "http://dbpedia.org/resource/Ryan_Gosling"
+          ]
+        },
+        "target": {
+          "topic": "Team USA",
+          "references": [
+            "Team USA"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Eva Mendes",
+          "references": [
+            "http://dbpedia.org/resource/Eva_Mendes"
+          ]
+        },
+        "target": {
+          "topic": "Team USA",
+          "references": [
+            "Team USA"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

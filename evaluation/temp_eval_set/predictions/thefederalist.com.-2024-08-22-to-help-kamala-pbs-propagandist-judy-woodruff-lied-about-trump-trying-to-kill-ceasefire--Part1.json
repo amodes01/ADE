@@ -1,0 +1,64 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Judy Woodruff", "references": ["Woodruff"]},
+        "target": {"topic": "Trump's influence on Israel-Hamas ceasefire", "references": ["ceasefire deal", "peace talks"]},
+        "justifications": [
+          "Woodruff declared during her broadcast that Trump used a recent phone call with Israeli Prime Minister Benjamin Netanyahu to urge the cancellation of peace talks.",
+          "Woodruff also insisted that Trump \"believed that [a ceasefire deal] would help the Harris campaign.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Benjamin Netanyahu", "references": ["Netanyahu", "Israeli Prime Minister"]},
+        "target": {"topic": "Judy Woodruff's reporting", "references": ["reporting", "claims"]},
+        "justifications": [
+          "Netanyahu called it a \"complete lie.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Donald Trump", "references": ["Trump", "former President Donald Trump"]},
+        "target": {"topic": "Judy Woodruff's reporting", "references": ["reporting", "claims"]},
+        "justifications": [
+          "Trump said he actually \"encourage[d]\" the Israeli prime minister in July to \"get this over with.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "PBS", "references": ["PBS", "PBS NewsHour"]},
+        "target": {"topic": "Judy Woodruff's credibility", "references": ["credibility", "journalism ethics"]},
+        "justifications": [
+          "PBS has continued to platform her as a top analyst in a prime spot on the network's DNC programming this week."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Judy Woodruff", "references": ["Woodruff"]},
+        "entity2": {"entity": "Donald Trump", "references": ["Trump", "former President Donald Trump"]},
+        "justifications": [
+          "Woodruff declared during her broadcast that Trump used a recent phone call with Israeli Prime Minister Benjamin Netanyahu to urge the cancellation of peace talks."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Judy Woodruff", "references": ["Woodruff"]},
+        "entity2": {"entity": "Benjamin Netanyahu", "references": ["Netanyahu", "Israeli Prime Minister"]},
+        "justifications": [
+          "Woodruff declared during her broadcast that Trump used a recent phone call with Israeli Prime Minister Benjamin Netanyahu to urge the cancellation of peace talks."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "PBS", "references": ["PBS", "PBS NewsHour"]},
+        "entity2": {"entity": "Judy Woodruff", "references": ["Woodruff"]},
+        "justifications": [
+          "PBS has continued to platform her as a top analyst in a prime spot on the network's DNC programming this week."
+        ],
+        "attitude": "Neutral"
+      }
+    ]
+  }
+  

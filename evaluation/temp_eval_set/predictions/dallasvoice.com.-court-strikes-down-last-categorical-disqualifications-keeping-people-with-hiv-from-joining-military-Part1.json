@@ -1,0 +1,152 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "U.S. District Court for the Eastern District of Virginia",
+          "references": ["U.S. District Court"]
+        },
+        "target": {
+          "topic": "HIV enlistment ban",
+          "references": ["categorical disqualification preventing people living with HIV from joining the U.S. Armed Services"]
+        },
+        "justifications": [
+          "\"Defendants' policies prohibiting the accession of asymptomatic HIV-positive individuals with undetectable viral loads into the military are irrational, arbitrary, and capricious.\"",
+          "\"Even worse, they contribute to the ongoing stigma surrounding HIV-positive individuals while actively hampering the military's own recruitment goals.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lambda Legal",
+          "references": ["Lambda Legal"]
+        },
+        "target": {
+          "topic": "HIV enlistment ban",
+          "references": ["bans on enlisting"]
+        },
+        "justifications": [
+          "\"We are pleased the court has eliminated the last discriminatory policy that barred people living with HIV from seeking enlistment or appointment to the military.\"",
+          "\"Americans living with HIV no longer face categorical barriers to service careers - discharge, bans on commissioning, bans on deployment and finally bans on enlisting.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Isaiah Wilkins",
+          "references": ["Wilkins"]
+        },
+        "target": {
+          "topic": "HIV enlistment ban",
+          "references": ["discriminatory policy"]
+        },
+        "justifications": [
+          "\"This is a victory not only for me but for other people living with HIV who want to serve.\"",
+          "\"Giving up on my dream to serve my country was never an option.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Peter Perkowski",
+          "references": ["Peter Perkowski"]
+        },
+        "target": {
+          "topic": "HIV enlistment ban",
+          "references": ["military's outdated policies"]
+        },
+        "justifications": [
+          "\"We are thrilled the court has ruled in our favor and agreed that the military's outdated policies blocking people living with HIV from enlisting are unconstitutional.\"",
+          "\"Thanks to modern science, there is no legitimate reason to continue denying people living with HIV the ability to enlist.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Scott Schoettes",
+          "references": ["Scott Schoettes"]
+        },
+        "target": {
+          "topic": "HIV enlistment ban",
+          "references": ["DoD's discriminatory policy"]
+        },
+        "justifications": [
+          "\"We are pleased the court rejected the DoD's attempts to justify this discriminatory policy based on the costs of HIV-related healthcare for new members.\"",
+          "\"The cost of providing health insurance or health care is never a valid excuse for refusing to hire a qualified individual capable of doing the job.\""
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "U.S. District Court for the Eastern District of Virginia",
+          "references": ["U.S. District Court"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"Defendants' policies prohibiting the accession of asymptomatic HIV-positive individuals with undetectable viral loads into the military are irrational, arbitrary, and capricious.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Lambda Legal",
+          "references": ["Lambda Legal"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"We are pleased the court has eliminated the last discriminatory policy that barred people living with HIV from seeking enlistment or appointment to the military.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Isaiah Wilkins",
+          "references": ["Wilkins"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"This is a victory not only for me but for other people living with HIV who want to serve.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Peter Perkowski",
+          "references": ["Peter Perkowski"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"We are thrilled the court has ruled in our favor and agreed that the military's outdated policies blocking people living with HIV from enlisting are unconstitutional.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Scott Schoettes",
+          "references": ["Scott Schoettes"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"We are pleased the court rejected the DoD's attempts to justify this discriminatory policy based on the costs of HIV-related healthcare for new members.\""
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

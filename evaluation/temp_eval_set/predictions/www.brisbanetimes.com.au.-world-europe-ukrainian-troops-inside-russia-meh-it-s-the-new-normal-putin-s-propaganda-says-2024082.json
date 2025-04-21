@@ -1,0 +1,53 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Vladimir Putin's regime",
+          "references": ["Putin's regime", "The Kremlin", "Russian government"]
+        },
+        "target": {
+          "topic": "Ukrainian troop presence on Russian soil",
+          "references": ["presence of Ukrainian troops on Russian soil", "surprise occupation of its territory", "incursion into Russia's Kursk region"]
+        },
+        "justifications": [
+          "Vladimir Putin's regime has launched a propaganda campaign describing the presence of Ukrainian troops on Russian soil as the 'new normal'.",
+          "The Kremlin's messaging is directed at the local Russian population and suggests that Moscow expects the surprise occupation of its territory to last for months.",
+          "The Russian government has been trying to downplay the significance of the incursion."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Ukrainian forces",
+          "references": ["Ukrainian forces", "Ukraine", "Ukrainian soldiers"]
+        },
+        "target": {
+          "topic": "Military gains in the Kursk region",
+          "references": ["expands its military gains in the Kursk region", "surprise incursion into Russia's Kursk region"]
+        },
+        "justifications": [
+          "Early this month, Ukrainian forces made a surprise incursion into Russia's Kursk region from where Russia has been forced to evacuate more than 130,000 people.",
+          "As Ukraine expands its military gains in the Kursk region, the Russian government has been trying to downplay the significance of the incursion."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Vladimir Putin's regime",
+          "references": ["Putin's regime", "The Kremlin", "Russian government"]
+        },
+        "entity2": {
+          "entity": "Ukrainian forces",
+          "references": ["Ukrainian forces", "Ukraine", "Ukrainian soldiers"]
+        },
+        "justifications": [
+          "Vladimir Putin's regime has launched a propaganda campaign describing the presence of Ukrainian troops on Russian soil as the 'new normal'.",
+          "The Russian government has been trying to downplay the significance of the incursion."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

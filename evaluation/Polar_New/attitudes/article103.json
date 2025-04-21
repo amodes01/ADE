@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "Elon Musk's X has updated its terms of service to steer any disputes from users of the social media platform formerly known as Twitter to a federal court in Texas whose judges frequently deliver victories to conservative litigants in political cases."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "its terms",
+          "references": [
+            "its terms"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "service",
+          "references": [
+            "service"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "any disputes",
+          "references": [
+            "any disputes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "users",
+          "references": [
+            "users"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the social media platform",
+          "references": [
+            "the social media platform"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "Twitter",
+          "references": [
+            "Twitter"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "a federal court",
+          "references": [
+            "a federal court"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "whose judges",
+          "references": [
+            "whose judges"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "victories",
+          "references": [
+            "victories"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "conservative litigants",
+          "references": [
+            "conservative litigants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "political cases",
+          "references": [
+            "political cases"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "its terms",
+          "references": [
+            "its terms"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "service",
+          "references": [
+            "service"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "any disputes",
+          "references": [
+            "any disputes"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "users",
+          "references": [
+            "users"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the social media platform",
+          "references": [
+            "the social media platform"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "Twitter",
+          "references": [
+            "Twitter"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "a federal court",
+          "references": [
+            "a federal court"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "whose judges",
+          "references": [
+            "whose judges"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "victories",
+          "references": [
+            "victories"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "conservative litigants",
+          "references": [
+            "conservative litigants"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "political cases",
+          "references": [
+            "political cases"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

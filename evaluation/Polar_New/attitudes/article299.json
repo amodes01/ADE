@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Vatican Radio",
+          "references": [
+            "http://dbpedia.org/resource/Vatican_Radio"
+          ]
+        },
+        "justifications": [
+          "2016-06-25 09:30:00 (Vatican Radio) World markets and world leaders have been shaken by Britain's decision to leave the European Union, adding to concerns over the European project's future."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Vatican Radio",
+          "references": [
+            "http://dbpedia.org/resource/Vatican_Radio"
+          ]
+        },
+        "target": {
+          "topic": "world leaders",
+          "references": [
+            "world leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Vatican Radio",
+          "references": [
+            "http://dbpedia.org/resource/Vatican_Radio"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Vatican Radio",
+          "references": [
+            "http://dbpedia.org/resource/Vatican_Radio"
+          ]
+        },
+        "target": {
+          "topic": "concerns",
+          "references": [
+            "concerns"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Vatican Radio",
+          "references": [
+            "http://dbpedia.org/resource/Vatican_Radio"
+          ]
+        },
+        "target": {
+          "topic": "the European project's future",
+          "references": [
+            "the European project's future"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "world leaders",
+          "references": [
+            "world leaders"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "concerns",
+          "references": [
+            "concerns"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the European project's future",
+          "references": [
+            "the European project's future"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Unnamed Actress", "references": ["I", "me"]},
+        "target": {"topic": "Age bias in film industry", "references": ["screen age", "30s", "20s", "young superstars"]},
+        "justifications": [
+          "There are so many times that actresses are not chosen opposite certain stars saying that iski screen age zyada lagti hai.",
+          "But even now, the big so-called young superstars who are 40+ do not want to star opposite girls who are 30+."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Unnamed Actress", "references": ["I", "me"]},
+        "target": {"topic": "Romantic Comedy Roles", "references": ["rom-com", "Judwaa 2"]},
+        "justifications": [
+          "But yeah, I miss having those rom-coms in my kitty where I could look like a college girl and dance around.",
+          "Last I tried to do it in Judwaa 2 (2017), when I was 30. And people just could not digest it at that point."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Unnamed Actress", "references": ["I", "me"]},
+        "target": {"topic": "Industry Perception of Women", "references": ["women in films", "female roles"]},
+        "justifications": [
+          "Matlab, even women will not see a woman as a normal human being who can make mistakes. She should always be projected and presented like a devi."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "OTT Platform", "references": ["major platform", "OTT platform"]},
+        "target": {"topic": "Ethical Censorship in Film", "references": ["script rejection", "ethical concerns"]},
+        "justifications": [
+          "Ek major platform se toh we got a mandate like - how is this even right? Because a mid-30s woman - she was married and had a kid with someone else, and later on, she falls in love with someone else. It was rejected on ethical grounds."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Unnamed Actress", "references": ["I", "me"]},
+        "entity2": {"entity": "Young Superstars", "references": ["young superstars", "big stars"]},
+        "justifications": [
+          "But even now, the big so-called young superstars who are 40+ do not want to star opposite girls who are 30+."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Unnamed Actress", "references": ["I", "me"]},
+        "entity2": {"entity": "OTT Platform", "references": ["major platform", "OTT platform"]},
+        "justifications": [
+          "Ek major platform se toh we got a mandate like - how is this even right? Because a mid-30s woman - she was married and had a kid with someone else, and later on, she falls in love with someone else. It was rejected on ethical grounds."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

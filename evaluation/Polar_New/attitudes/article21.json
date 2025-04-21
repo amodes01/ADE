@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Anakonda",
+          "references": [
+            "http://dbpedia.org/resource/Anakonda"
+          ]
+        },
+        "entity2": {
+          "entity": "Poland",
+          "references": [
+            "http://dbpedia.org/resource/Poland"
+          ]
+        },
+        "justifications": [
+          "military exercises-known collectively as Anakonda-2016-in Poland and a separate exercise-BALTOPS-in the Baltic Sea."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Anakonda",
+          "references": [
+            "http://dbpedia.org/resource/Anakonda"
+          ]
+        },
+        "target": {
+          "topic": "military exercises",
+          "references": [
+            "military exercises"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Anakonda",
+          "references": [
+            "http://dbpedia.org/resource/Anakonda"
+          ]
+        },
+        "target": {
+          "topic": "a separate exercise-BALTOPS",
+          "references": [
+            "a separate exercise-BALTOPS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Anakonda",
+          "references": [
+            "http://dbpedia.org/resource/Anakonda"
+          ]
+        },
+        "target": {
+          "topic": "the Baltic Sea",
+          "references": [
+            "the Baltic Sea"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Poland",
+          "references": [
+            "http://dbpedia.org/resource/Poland"
+          ]
+        },
+        "target": {
+          "topic": "military exercises",
+          "references": [
+            "military exercises"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Poland",
+          "references": [
+            "http://dbpedia.org/resource/Poland"
+          ]
+        },
+        "target": {
+          "topic": "a separate exercise-BALTOPS",
+          "references": [
+            "a separate exercise-BALTOPS"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Poland",
+          "references": [
+            "http://dbpedia.org/resource/Poland"
+          ]
+        },
+        "target": {
+          "topic": "the Baltic Sea",
+          "references": [
+            "the Baltic Sea"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "fact the country will probably lose duty-free access to the EU's \\\\\\\"single market.\\\\\\\" Further down the road, more pain will follow, as jobs disappear abroad, the British economy goes into recession and the City of London starts to lose its status as a global financial centre rivalled only by New York."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "fact the country will probably lose duty-free access to the EU's \\\\\\\"single market.\\\\\\\" Further down the road, more pain will follow, as jobs disappear abroad, the British economy goes into recession and the City of London starts to lose its status as a global financial centre rivalled only by New York."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "fact the country will probably lose duty-free access to the EU's \\\\\\\"single market.\\\\\\\" Further down the road, more pain will follow, as jobs disappear abroad, the British economy goes into recession and the City of London starts to lose its status as a global financial centre rivalled only by New York."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "duty-free access",
+          "references": [
+            "duty-free access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the road",
+          "references": [
+            "the road"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "more pain",
+          "references": [
+            "more pain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "recession",
+          "references": [
+            "recession"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the City",
+          "references": [
+            "the City"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its status",
+          "references": [
+            "its status"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a global financial centre",
+          "references": [
+            "a global financial centre"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "duty-free access",
+          "references": [
+            "duty-free access"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the road",
+          "references": [
+            "the road"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "more pain",
+          "references": [
+            "more pain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "recession",
+          "references": [
+            "recession"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the City",
+          "references": [
+            "the City"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "its status",
+          "references": [
+            "its status"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British economy",
+          "references": [
+            "http://dbpedia.org/resource/Economy_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a global financial centre",
+          "references": [
+            "a global financial centre"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "duty-free access",
+          "references": [
+            "duty-free access"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the road",
+          "references": [
+            "the road"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "more pain",
+          "references": [
+            "more pain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "recession",
+          "references": [
+            "recession"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the City",
+          "references": [
+            "the City"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "its status",
+          "references": [
+            "its status"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "a global financial centre",
+          "references": [
+            "a global financial centre"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

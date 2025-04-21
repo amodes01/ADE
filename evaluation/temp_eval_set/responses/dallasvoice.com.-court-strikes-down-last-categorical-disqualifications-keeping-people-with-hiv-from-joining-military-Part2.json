@@ -1,0 +1,105 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Biden administration",
+          "references": ["Biden administration"]
+        },
+        "target": {
+          "topic": "HIV-related military restrictions",
+          "references": ["discriminatory restrictions", "restrictions preventing servicemembers living with HIV from deploying and commissioning"]
+        },
+        "justifications": [
+          "\"The Biden administration's announcement in July 2022 that it would no longer defend discriminatory restrictions that prevented servicemembers living with HIV from deploying and commissioning as officers.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lloyd J. Austin III",
+          "references": ["Defense Secretary Lloyd J. Austin III"]
+        },
+        "target": {
+          "topic": "HIV-related military restrictions",
+          "references": ["relevant regulations", "medical restrictions applied to deployability"]
+        },
+        "justifications": [
+          "\"Defense Secretary Lloyd J. Austin III issued a memorandum outlining changes to the relevant regulations, which stated that individuals who have been identified as HIV-positive, are asymptomatic, and who have a clinically confirmed undetectable viral load will have no medical restrictions applied to their deployability or to their ability to commission while a servicemember based on their HIV-positive status.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Federal district court",
+          "references": ["federal district court"]
+        },
+        "target": {
+          "topic": "HIV-related military discrimination",
+          "references": ["Department of Defense discrimination", "servicemembers living with HIV"]
+        },
+        "justifications": [
+          "\"The rulings ordered the Department of Defense, the world's largest employer, to stop discriminating against servicemembers living with HIV and to allow them to deploy and commission as officers in the U.S. military.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Lambda Legal",
+          "references": ["Lambda Legal"]
+        },
+        "target": {
+          "topic": "HIV-related military discrimination",
+          "references": ["Department of Defense discrimination", "servicemembers living with HIV"]
+        },
+        "justifications": [
+          "\"That was a 'groundbreaking ruling representing a landmark moment in the fight to advance the rights of people living with HIV. It reflected the reality that HIV is a chronic, treatable condition, not a reason to discriminate,' according to a Lambda Legal press release announcing this week's ruling.\""
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Biden administration",
+          "references": ["Biden administration"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"The Biden administration's announcement in July 2022 that it would no longer defend discriminatory restrictions that prevented servicemembers living with HIV from deploying and commissioning as officers.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Federal district court",
+          "references": ["federal district court"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"The rulings ordered the Department of Defense, the world's largest employer, to stop discriminating against servicemembers living with HIV and to allow them to deploy and commission as officers in the U.S. military.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Lambda Legal",
+          "references": ["Lambda Legal"]
+        },
+        "entity2": {
+          "entity": "Department of Defense",
+          "references": ["DoD"]
+        },
+        "justifications": [
+          "\"That was a 'groundbreaking ruling representing a landmark moment in the fight to advance the rights of people living with HIV. It reflected the reality that HIV is a chronic, treatable condition, not a reason to discriminate,' according to a Lambda Legal press release announcing this week's ruling.\""
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

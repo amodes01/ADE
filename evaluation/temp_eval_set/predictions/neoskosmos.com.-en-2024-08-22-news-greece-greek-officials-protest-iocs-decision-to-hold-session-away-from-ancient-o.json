@@ -1,0 +1,92 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Greek Olympic officials",
+          "references": ["Greek Olympic officials"]
+        },
+        "target": {
+          "topic": "IOC session location",
+          "references": ["session's location", "venue decision"]
+        },
+        "justifications": [
+          "\"Greek Olympic officials are protesting the session's location, arguing that they wish to include Ancient Olympia in the four-day meetings, despite its lack of facilities large enough to host the event.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Nektarios Farmakis",
+          "references": ["Regional Governor Nektarios Farmakis", "Farmakis"]
+        },
+        "target": {
+          "topic": "IOC session location",
+          "references": ["session's location", "venue decision"]
+        },
+        "justifications": [
+          "\"Regional Governor Nektarios Farmakis expressed disappointment over the session's location, labeling it 'a missed opportunity for something significant.'\"",
+          "\"Farmakis wrote in an online post: 'For all of us, the land of the Olympics, Ancient Olympia, is not just a museum of old values. It is a living place of deep spiritual significance, a beacon that draws visitors from all over the world.'\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mayor of Ancient Olympia and other local officials",
+          "references": ["town's mayor", "local officials"]
+        },
+        "target": {
+          "topic": "IOC session location",
+          "references": ["session's location", "venue decision"]
+        },
+        "justifications": [
+          "\"The town's mayor and other local officials also publicly voiced their disappointment on Tuesday and Wednesday regarding the venue decision.\""
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Greek Olympic officials",
+          "references": ["Greek Olympic officials"]
+        },
+        "entity2": {
+          "entity": "International Olympic Committee",
+          "references": ["IOC", "International Olympic Committee"]
+        },
+        "justifications": [
+          "\"Greek Olympic officials are protesting the session's location, arguing that they wish to include Ancient Olympia in the four-day meetings, despite its lack of facilities large enough to host the event.\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Nektarios Farmakis",
+          "references": ["Regional Governor Nektarios Farmakis", "Farmakis"]
+        },
+        "entity2": {
+          "entity": "International Olympic Committee",
+          "references": ["IOC", "International Olympic Committee"]
+        },
+        "justifications": [
+          "\"Regional Governor Nektarios Farmakis expressed disappointment over the session's location, labeling it 'a missed opportunity for something significant.'\""
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Mayor of Ancient Olympia and other local officials",
+          "references": ["town's mayor", "local officials"]
+        },
+        "entity2": {
+          "entity": "International Olympic Committee",
+          "references": ["IOC", "International Olympic Committee"]
+        },
+        "justifications": [
+          "\"The town's mayor and other local officials also publicly voiced their disappointment on Tuesday and Wednesday regarding the venue decision.\""
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

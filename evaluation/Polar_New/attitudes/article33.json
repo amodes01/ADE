@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Josie Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Josie_Gibson"
+          ]
+        },
+        "entity2": {
+          "entity": "Pfizer/BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "justifications": [
+          "Josie Gibson got into a Twitter spat on Thursday after she was accused of spreading 'dangerous misinformation' abut Pfizer/BioNTech's breakthrough coronavirus vaccine."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Josie Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Josie_Gibson"
+          ]
+        },
+        "target": {
+          "topic": "a Twitter spat",
+          "references": [
+            "a Twitter spat"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Josie Gibson",
+          "references": [
+            "http://dbpedia.org/resource/Josie_Gibson"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Pfizer/BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "target": {
+          "topic": "a Twitter spat",
+          "references": [
+            "a Twitter spat"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Pfizer/BioNTech",
+          "references": [
+            "http://dbpedia.org/resource/Pfizer–BioNTech_COVID-19_vaccine"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

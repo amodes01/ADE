@@ -1,0 +1,52 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the downside",
+          "references": [
+            "the downside"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the benefits",
+          "references": [
+            "the benefits"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the costs",
+          "references": [
+            "the costs"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

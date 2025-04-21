@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "justifications": [
+          "Brexit: \\\\\\\"Scots need to drink more Scotch\\\\\\\" By Jo Gilbert A leading figure in global spirits branding has issued some advice to ensure the future prosperity of the Scotch whisky industry in a post-referendum market - to drink more Scotch domestically."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "justifications": [
+          "Brexit: \\\\\\\"Scots need to drink more Scotch\\\\\\\" By Jo Gilbert A leading figure in global spirits branding has issued some advice to ensure the future prosperity of the Scotch whisky industry in a post-referendum market - to drink more Scotch domestically."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "entity2": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "justifications": [
+          "Brexit: \\\\\\\"Scots need to drink more Scotch\\\\\\\" By Jo Gilbert A leading figure in global spirits branding has issued some advice to ensure the future prosperity of the Scotch whisky industry in a post-referendum market - to drink more Scotch domestically."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"Scots",
+          "references": [
+            "\\\\\\\"Scots"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch\\\\\\",
+          "references": [
+            "more Scotch\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "A leading figure",
+          "references": [
+            "A leading figure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "global spirits branding",
+          "references": [
+            "global spirits branding"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "some advice",
+          "references": [
+            "some advice"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the future prosperity",
+          "references": [
+            "the future prosperity"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a post-referendum market",
+          "references": [
+            "a post-referendum market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch",
+          "references": [
+            "more Scotch"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"Scots",
+          "references": [
+            "\\\\\\\"Scots"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch\\\\\\",
+          "references": [
+            "more Scotch\\\\\\"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "A leading figure",
+          "references": [
+            "A leading figure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "global spirits branding",
+          "references": [
+            "global spirits branding"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "some advice",
+          "references": [
+            "some advice"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "the future prosperity",
+          "references": [
+            "the future prosperity"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "a post-referendum market",
+          "references": [
+            "a post-referendum market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Jo Gilbert",
+          "references": [
+            "http://dbpedia.org/resource/Jo_Gilbert"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch",
+          "references": [
+            "more Scotch"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "\\\\\\\"Scots",
+          "references": [
+            "\\\\\\\"Scots"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch\\\\\\",
+          "references": [
+            "more Scotch\\\\\\"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "A leading figure",
+          "references": [
+            "A leading figure"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "global spirits branding",
+          "references": [
+            "global spirits branding"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "some advice",
+          "references": [
+            "some advice"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "the future prosperity",
+          "references": [
+            "the future prosperity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "a post-referendum market",
+          "references": [
+            "a post-referendum market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotch whisky",
+          "references": [
+            "http://dbpedia.org/resource/Scotch_whisky"
+          ]
+        },
+        "target": {
+          "topic": "more Scotch",
+          "references": [
+            "more Scotch"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

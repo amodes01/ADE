@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "entity2": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "entity2": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "entity2": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "entity2": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "entity2": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "justifications": [
+          "By PAUL NEWBERRY NANTERRE, France (AP) - Every year on Aug. 3, Katie Ledecky is reminded of her first Olympic gold medal."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "target": {
+          "topic": "PAUL",
+          "references": [
+            "PAUL"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NANTERRE",
+          "references": [
+            "http://dbpedia.org/resource/Nanterre"
+          ]
+        },
+        "target": {
+          "topic": "her first Olympic gold medal",
+          "references": [
+            "her first Olympic gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "PAUL",
+          "references": [
+            "PAUL"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "her first Olympic gold medal",
+          "references": [
+            "her first Olympic gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "target": {
+          "topic": "PAUL",
+          "references": [
+            "PAUL"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "AP",
+          "references": [
+            "http://dbpedia.org/resource/Associated_Press"
+          ]
+        },
+        "target": {
+          "topic": "her first Olympic gold medal",
+          "references": [
+            "her first Olympic gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "PAUL",
+          "references": [
+            "PAUL"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Katie Ledecky",
+          "references": [
+            "http://dbpedia.org/resource/Katie_Ledecky"
+          ]
+        },
+        "target": {
+          "topic": "her first Olympic gold medal",
+          "references": [
+            "her first Olympic gold medal"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

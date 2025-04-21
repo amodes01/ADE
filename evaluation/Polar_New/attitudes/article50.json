@@ -1,0 +1,90 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "2028 Summer Games",
+          "references": [
+            "http://dbpedia.org/resource/2028_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "justifications": [
+          "When asked if she would compete in the 2028 Summer Games in Los Angeles, California, Biles was noncommittal."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "2028 Summer Games",
+          "references": [
+            "http://dbpedia.org/resource/2028_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "Los Angeles",
+          "references": [
+            "Los Angeles"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "2028 Summer Games",
+          "references": [
+            "http://dbpedia.org/resource/2028_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "Biles",
+          "references": [
+            "Biles"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Los Angeles",
+          "references": [
+            "Los Angeles"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Biles",
+          "references": [
+            "Biles"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

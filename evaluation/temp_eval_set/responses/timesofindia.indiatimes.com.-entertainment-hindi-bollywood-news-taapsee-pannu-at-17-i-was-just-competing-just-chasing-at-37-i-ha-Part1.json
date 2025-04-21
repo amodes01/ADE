@@ -1,0 +1,44 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Taapsee Pannu", "references": ["Taapsee"]},
+        "target": {"topic": "age in film industry", "references": ["30s transition", "age-related stereotyping", "older roles"]},
+        "justifications": [
+          "The 30s is a tricky space - so much is written about it on social media.",
+          "I was forced to get older roles because those were the only parts open for someone like me.",
+          "My age was actually defined by my co-actors who I work with!"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Vidya Balan", "references": ["Vidya"]},
+        "target": {"topic": "age in film industry", "references": ["confidence in 30s"]},
+        "justifications": [
+          "At 34, I feel much more confident than I was at 17 - I do not miss the younger years, I do not regret ageing."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Taapsee Pannu", "references": ["Taapsee"]},
+        "target": {"topic": "gender biases in film industry", "references": ["women in showbiz", "stereotypes about women"]},
+        "justifications": [
+          "Even women will not see a woman as a normal human being who can make mistakes.",
+          "She should always be projected and presented like a devi.",
+          "There are the two Ds - Devi or Daayan. It cannot be midway."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Taapsee Pannu", "references": ["Taapsee"]},
+        "entity2": {"entity": "Vidya Balan", "references": ["Vidya"]},
+        "justifications": [
+          "Vidya had said in an interview to us that 'at 34, I feel much more confident than I was at 17 - I do not miss the younger years, I do not regret ageing.' Is the sentiment the same with you?",
+          "This comes with contradictions, does not it?"
+        ],
+        "attitude": "Neutral"
+      }
+    ]
+  }
+  

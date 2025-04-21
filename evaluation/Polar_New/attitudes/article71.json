@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the best Olympic games",
+          "references": [
+            "the best Olympic games"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "history",
+          "references": [
+            "history"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

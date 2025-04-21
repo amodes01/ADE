@@ -1,0 +1,59 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Gali Rahim", "references": ["Gali Rahim", "Rahim"]},
+        "target": {"topic": "Tengri as the supreme deity", "references": ["Tengri", "the eternal blue sky"]},
+        "justifications": [
+          "Rahim's lectures on 'The Folklore of the Kazan Tatars' describe Tengri as the primary god in Turkic cosmology."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Tatar scientist and writer Gali Rahim", "references": ["Gali Rahim"]},
+        "target": {"topic": "Shamanism", "references": ["shamanism", "spirits and deities"]},
+        "justifications": [
+          "Rahim attributes significant roles to various spirits and deities in shamanism."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Ancient Turkic peoples", "references": ["Turkic peoples", "Teleut pagans", "Kyrgyz", "Shorian shamans"]},
+        "target": {"topic": "Umai as a protective goddess", "references": ["Umai", "protective figure for children"]},
+        "justifications": [
+          "Ancient Turkic inscriptions and symbolic artifacts depict her as a protective figure for children.",
+          "Teleut pagans represented her as a silver-haired, young woman who descended from heaven on a rainbow to guard children."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Turkic, Mongolian, and Altaic mythology", "references": ["Turkic mythology", "Mongolian mythology", "Altaic mythology"]},
+        "target": {"topic": "Erlik as the ruler of the underworld", "references": ["Erlik", "Yerlik Khan", "horned deity"]},
+        "justifications": [
+          "Erlik presides over the realm of the dead from a palace of black mud or blue-black iron.",
+          "Erlik's breath was believed to paralyze anyone who inhaled it."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "source": {"entity": "Turkic pantheon", "references": ["Turkic pantheon"]},
+        "target": {"topic": "Demonic entities", "references": ["Al Basty", "Zhalmauyz Kempir", "Zheztyrnak", "Kuldyrgysh"]},
+        "justifications": [
+          "Al Basty, evil female spirits, were believed to cause illnesses and nightmares.",
+          "Zhalmauyz Kempir is described as a creature with seven heads and an appetite for human flesh."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Kudai", "references": ["Kudai", "Khudai", "Ulgen"]},
+        "entity2": {"entity": "Erlik", "references": ["Erlik", "Yerlik Khan"]},
+        "justifications": [
+          "Kudai and Erlik had a dispute over who was the mightiest creator.",
+          "After the dispute, Kudai won and became the creator of humanity."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

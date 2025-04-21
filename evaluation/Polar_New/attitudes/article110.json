@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brittney Griner",
+          "references": [
+            "http://dbpedia.org/resource/Brittney_Griner"
+          ]
+        },
+        "entity2": {
+          "entity": "WNBA",
+          "references": [
+            "http://dbpedia.org/resource/Women's_National_Basketball_Association"
+          ]
+        },
+        "justifications": [
+          "WNBA star Brittney Griner was famously sentenced to nine years in a Russian prison in Aug. 2022 for carrying cannabis oil."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Russian",
+          "references": [
+            "http://dbpedia.org/resource/Russian_language"
+          ]
+        },
+        "entity2": {
+          "entity": "WNBA",
+          "references": [
+            "http://dbpedia.org/resource/Women's_National_Basketball_Association"
+          ]
+        },
+        "justifications": [
+          "WNBA star Brittney Griner was famously sentenced to nine years in a Russian prison in Aug. 2022 for carrying cannabis oil."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brittney Griner",
+          "references": [
+            "http://dbpedia.org/resource/Brittney_Griner"
+          ]
+        },
+        "entity2": {
+          "entity": "Russian",
+          "references": [
+            "http://dbpedia.org/resource/Russian_language"
+          ]
+        },
+        "justifications": [
+          "WNBA star Brittney Griner was famously sentenced to nine years in a Russian prison in Aug. 2022 for carrying cannabis oil."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "WNBA",
+          "references": [
+            "http://dbpedia.org/resource/Women's_National_Basketball_Association"
+          ]
+        },
+        "target": {
+          "topic": "nine years",
+          "references": [
+            "nine years"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "WNBA",
+          "references": [
+            "http://dbpedia.org/resource/Women's_National_Basketball_Association"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "WNBA",
+          "references": [
+            "http://dbpedia.org/resource/Women's_National_Basketball_Association"
+          ]
+        },
+        "target": {
+          "topic": "cannabis oil",
+          "references": [
+            "cannabis oil"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brittney Griner",
+          "references": [
+            "http://dbpedia.org/resource/Brittney_Griner"
+          ]
+        },
+        "target": {
+          "topic": "nine years",
+          "references": [
+            "nine years"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brittney Griner",
+          "references": [
+            "http://dbpedia.org/resource/Brittney_Griner"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brittney Griner",
+          "references": [
+            "http://dbpedia.org/resource/Brittney_Griner"
+          ]
+        },
+        "target": {
+          "topic": "cannabis oil",
+          "references": [
+            "cannabis oil"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russian",
+          "references": [
+            "http://dbpedia.org/resource/Russian_language"
+          ]
+        },
+        "target": {
+          "topic": "nine years",
+          "references": [
+            "nine years"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Russian",
+          "references": [
+            "http://dbpedia.org/resource/Russian_language"
+          ]
+        },
+        "target": {
+          "topic": "Aug.",
+          "references": [
+            "Aug."
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Russian",
+          "references": [
+            "http://dbpedia.org/resource/Russian_language"
+          ]
+        },
+        "target": {
+          "topic": "cannabis oil",
+          "references": [
+            "cannabis oil"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

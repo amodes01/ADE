@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "Elon Musk donated roughly $75m over the last three months to America Pac, the political action committee he founded that is supporting Donald Trump's 2024 presidential campaign, as he seeks to gain an outsized influence in Republican politics and a possible second Trump administration."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "Elon Musk donated roughly $75m over the last three months to America Pac, the political action committee he founded that is supporting Donald Trump's 2024 presidential campaign, as he seeks to gain an outsized influence in Republican politics and a possible second Trump administration."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Elon Musk donated roughly $75m over the last three months to America Pac, the political action committee he founded that is supporting Donald Trump's 2024 presidential campaign, as he seeks to gain an outsized influence in Republican politics and a possible second Trump administration."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the last three months",
+          "references": [
+            "the last three months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "America Pac",
+          "references": [
+            "America Pac"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the political action committee",
+          "references": [
+            "the political action committee"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "an outsized influence",
+          "references": [
+            "an outsized influence"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the last three months",
+          "references": [
+            "the last three months"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "America Pac",
+          "references": [
+            "America Pac"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the political action committee",
+          "references": [
+            "the political action committee"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "an outsized influence",
+          "references": [
+            "an outsized influence"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the last three months",
+          "references": [
+            "the last three months"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "America Pac",
+          "references": [
+            "America Pac"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the political action committee",
+          "references": [
+            "the political action committee"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "an outsized influence",
+          "references": [
+            "an outsized influence"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

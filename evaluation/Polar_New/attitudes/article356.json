@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "California Coastal Commission",
+          "references": [
+            "http://dbpedia.org/resource/California_Coastal_Commission"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "Elon Musk is suing the California Coastal Commission, alleging political bias led them to block additional SpaceX launches at Vandenberg Space Force Base."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "political bias",
+          "references": [
+            "political bias"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "additional SpaceX launches",
+          "references": [
+            "additional SpaceX launches"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "Vandenberg Space Force Base",
+          "references": [
+            "Vandenberg Space Force Base"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California Coastal Commission",
+          "references": [
+            "http://dbpedia.org/resource/California_Coastal_Commission"
+          ]
+        },
+        "target": {
+          "topic": "political bias",
+          "references": [
+            "political bias"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California Coastal Commission",
+          "references": [
+            "http://dbpedia.org/resource/California_Coastal_Commission"
+          ]
+        },
+        "target": {
+          "topic": "additional SpaceX launches",
+          "references": [
+            "additional SpaceX launches"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "California Coastal Commission",
+          "references": [
+            "http://dbpedia.org/resource/California_Coastal_Commission"
+          ]
+        },
+        "target": {
+          "topic": "Vandenberg Space Force Base",
+          "references": [
+            "Vandenberg Space Force Base"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

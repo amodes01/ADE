@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "To the editor: There are a number of lessons to be learned from the recent Brexit vote, which we in the United States would be wise to heed."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the editor",
+          "references": [
+            "the editor"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a number",
+          "references": [
+            "a number"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "lessons",
+          "references": [
+            "lessons"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the editor",
+          "references": [
+            "the editor"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a number",
+          "references": [
+            "a number"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "lessons",
+          "references": [
+            "lessons"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

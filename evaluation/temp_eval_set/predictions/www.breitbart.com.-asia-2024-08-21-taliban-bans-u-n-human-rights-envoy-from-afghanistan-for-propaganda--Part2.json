@@ -1,0 +1,80 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "The Taliban",
+          "references": ["junta", "Taliban", "Supreme Leader Hibatullah Akhundzada"]
+        },
+        "target": {
+          "topic": "treatment of women",
+          "references": ["treatment of women", "oppressive tactics", "restrictions on women and girls"]
+        },
+        "justifications": [
+          "The junta now insists its treatment of women is consistent with Islamic law and rejects all criticism of its oppressive tactics.",
+          "Supreme Leader Hibatullah Akhundzada claimed in 2023 that Taliban rule has provided Afghan women with a 'comfortable and prosperous life according to Islamic Sharia.'"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Richard Bennett",
+          "references": ["Bennett"]
+        },
+        "target": {
+          "topic": "treatment of women",
+          "references": ["abysmal treatment of women and girls", "gender apartheid"]
+        },
+        "justifications": [
+          "Bennett responded to the Taliban banning him on Tuesday by advising the U.N. Human Rights Council to send a 'message' that the 'abysmal treatment of women and girls is intolerable and unjustifiable on any ground, including religion.'",
+          "'The cumulative effect of the restrictions on women and girls has a devastating, long-term impact on the whole population, and it is tantamount to gender apartheid,' he declared."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Antonio Guterres",
+          "references": ["Guterres", "U.N. Secretary-General", "Guterres spokesman"]
+        },
+        "target": {
+          "topic": "Taliban ban on Bennett",
+          "references": ["Taliban ban on Bennett"]
+        },
+        "justifications": [
+          "The office of U.N. Secretary-General Antonio Guterres did not acknowledge or criticize the Taliban ban on Bennett.",
+          "Instead, a Guterres spokesman merely insisted that 'special rapporteurs play a very critical part in the global human rights architecture,' so all states should fully cooperate with them."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "The Taliban",
+          "references": ["junta", "Taliban", "Supreme Leader Hibatullah Akhundzada"]
+        },
+        "entity2": {
+          "entity": "Richard Bennett",
+          "references": ["Bennett"]
+        },
+        "justifications": [
+          "Bennett responded to the Taliban banning him on Tuesday by advising the U.N. Human Rights Council to send a 'message' that the 'abysmal treatment of women and girls is intolerable and unjustifiable on any ground, including religion.'"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "The Taliban",
+          "references": ["junta", "Taliban", "Supreme Leader Hibatullah Akhundzada"]
+        },
+        "entity2": {
+          "entity": "Antonio Guterres",
+          "references": ["Guterres", "U.N. Secretary-General", "Guterres spokesman"]
+        },
+        "justifications": [
+          "The office of U.N. Secretary-General Antonio Guterres did not acknowledge or criticize the Taliban ban on Bennett."
+        ],
+        "attitude": "Neutral"
+      }
+    ]
+  }
+  

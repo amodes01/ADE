@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "exiting the E.U., and mounting evidence that some elected officials misrepresented the benefits and costs of Brexit."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "mounting evidence",
+          "references": [
+            "mounting evidence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "some elected officials",
+          "references": [
+            "some elected officials"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the benefits",
+          "references": [
+            "the benefits"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "costs",
+          "references": [
+            "costs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "mounting evidence",
+          "references": [
+            "mounting evidence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "some elected officials",
+          "references": [
+            "some elected officials"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the benefits",
+          "references": [
+            "the benefits"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "costs",
+          "references": [
+            "costs"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

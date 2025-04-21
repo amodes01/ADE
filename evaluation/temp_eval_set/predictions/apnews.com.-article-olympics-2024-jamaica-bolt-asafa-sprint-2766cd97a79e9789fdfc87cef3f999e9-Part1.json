@@ -1,0 +1,49 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Asafa Powell", "references": ["Powell"]},
+        "target": {"topic": "Jamaican sprinting decline", "references": ["down period", "Jamaica winning"]},
+        "justifications": [
+          "I know the world is used to Jamaica winning, and Jamaica always celebrating, but believe me, it's going to happen again.",
+          "I think people appreciate us more when they see a down period like this."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Lanae Tava-Thomas", "references": ["Tava-Thomas"]},
+        "target": {"topic": "future of Jamaican sprinting", "references": ["young team", "time to develop"]},
+        "justifications": [
+          "It's a very young team.",
+          "We definitely have time to develop. It's going to be a very strong team when we get actually fully developed."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Elaine Thompson-Herah", "references": ["Thompson-Herah"]},
+        "entity2": {"entity": "Jamaican Olympic Team", "references": ["Jamaican team"]},
+        "justifications": [
+          "The pieces started crumbling on June 9, when Thompson-Herah, the two-time defending champion at 100 and 200 meters, hurt her Achilles at a meet in New York."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Shericka Jackson", "references": ["Jackson"]},
+        "entity2": {"entity": "Jamaican Olympic Team", "references": ["Jamaican team"]},
+        "justifications": [
+          "Exactly a month later, Jackson, the second-fastest woman of all time at 200 meters, pulled up lame in a race in Hungary. She arrived in Paris, only to pull out of the 100 first, then the 200."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Shelly-Ann Fraser-Pryce", "references": ["Fraser-Pryce"]},
+        "entity2": {"entity": "Jamaican Olympic Team", "references": ["Jamaican team"]},
+        "justifications": [
+          "It left 37-year-old Fraser-Pryce as the only healthy member left from the group. But that ended Saturday when, shortly before the 100 semifinals, she pulled out with an undisclosed injury, saying on social media it was 'difficult for me to describe the depth of my disappointment.'"
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

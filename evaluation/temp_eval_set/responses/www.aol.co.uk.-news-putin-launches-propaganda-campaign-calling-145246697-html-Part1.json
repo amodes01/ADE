@@ -1,0 +1,51 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Vladimir Putin", "references": ["Putin", "Vladimir Putin"]},
+        "target": {"topic": "Ukrainian incursion into Kursk", "references": ["Ukrainian troops on Russian soil", "Ukraine's occupation"]},
+        "justifications": [
+          "Vladimir Putin has been trying to downplay the significance of the incursion.",
+          "The Kremlin's messaging is directed at the local Russian population and suggests that Moscow expects the surprise occupation of its territory to last for months."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {"entity": "Volodymyr Zelensky", "references": ["Zelensky", "Volodymyr Zelensky"]},
+        "target": {"topic": "Buffer zone inside Russia", "references": ["buffer zone"]},
+        "justifications": [
+          "Volodymyr Zelensky, the Ukrainian president, has stated that the goal is to create a 'buffer zone' inside Russia."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "The Kremlin", "references": ["Kremlin", "Putin's regime"]},
+        "target": {"topic": "Public acceptance of the war", "references": ["public mood", "apathetic Russian public"]},
+        "justifications": [
+          "The Kremlin strongly believes that it can get the public to accept almost anything.",
+          "The new propaganda effort is designed to paint the occupation as the 'new normal' to settle the public mood."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "The Kremlin", "references": ["Kremlin", "Putin's regime"]},
+        "entity2": {"entity": "Ukrainian forces", "references": ["Ukraine", "Ukrainian troops"]},
+        "justifications": [
+          "Moscow has also been trying to justify its continued military focus on eastern Ukraine, where Russia is still advancing, over the expulsion of Ukrainian troops in Kursk.",
+          "Vladimir Putin has been trying to downplay the significance of the incursion."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {"entity": "Russian civilians in Kursk", "references": ["locals in Kursk", "people in Kursk"]},
+        "entity2": {"entity": "The Kremlin", "references": ["Kremlin", "Putin's regime"]},
+        "justifications": [
+          "There have been no patriotic surge from locals in Kursk.",
+          "Putin has not been humiliated, yet there is also not enough anger at the Ukrainian operation to persuade people to join the fight."
+        ],
+        "attitude": "Neutral"
+      }
+    ]
+  }
+  

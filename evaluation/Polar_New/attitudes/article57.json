@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "entity2": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "justifications": [
+          "Elon Musk has given nearly $75 million to America PAC, the super PAC he created to support former President Donald Trump, according to a campaign finance filing from the group late Tuesday."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "America PAC",
+          "references": [
+            "America PAC"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the super PAC",
+          "references": [
+            "the super PAC"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "a campaign finance filing",
+          "references": [
+            "a campaign finance filing"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Elon Musk",
+          "references": [
+            "http://dbpedia.org/resource/Elon_Musk"
+          ]
+        },
+        "target": {
+          "topic": "the group",
+          "references": [
+            "the group"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "America PAC",
+          "references": [
+            "America PAC"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "the super PAC",
+          "references": [
+            "the super PAC"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "a campaign finance filing",
+          "references": [
+            "a campaign finance filing"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump_2020_presidential_campaign"
+          ]
+        },
+        "target": {
+          "topic": "the group",
+          "references": [
+            "the group"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

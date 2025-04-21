@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Egyptian",
+          "references": [
+            "http://dbpedia.org/resource/Egyptians"
+          ]
+        },
+        "entity2": {
+          "entity": "Nada Hafez",
+          "references": [
+            "http://dbpedia.org/resource/Nada_Hafez"
+          ]
+        },
+        "justifications": [
+          "In an inspiring revelation, Egyptian fencer Nada Hafez announced that she competed in the Paris Olympics while seven months pregnant."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Egyptian",
+          "references": [
+            "http://dbpedia.org/resource/Egyptians"
+          ]
+        },
+        "target": {
+          "topic": "an inspiring revelation",
+          "references": [
+            "an inspiring revelation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Egyptian",
+          "references": [
+            "http://dbpedia.org/resource/Egyptians"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Nada Hafez",
+          "references": [
+            "http://dbpedia.org/resource/Nada_Hafez"
+          ]
+        },
+        "target": {
+          "topic": "an inspiring revelation",
+          "references": [
+            "an inspiring revelation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Nada Hafez",
+          "references": [
+            "http://dbpedia.org/resource/Nada_Hafez"
+          ]
+        },
+        "target": {
+          "topic": "the Paris Olympics",
+          "references": [
+            "the Paris Olympics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

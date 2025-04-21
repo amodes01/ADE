@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Autodesk",
+          "references": [
+            "http://dbpedia.org/resource/Autodesk"
+          ]
+        },
+        "entity2": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "justifications": [
+          "Over the next four years, Autodesk's software will support LA28's \\\\\\\"no-new-permanent-venues\\\\\\\" plan, which will adapt existing infrastructure and build temporary facilities throughout Los Angeles."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Autodesk",
+          "references": [
+            "http://dbpedia.org/resource/Autodesk"
+          ]
+        },
+        "target": {
+          "topic": "the next four years",
+          "references": [
+            "the next four years"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Autodesk",
+          "references": [
+            "http://dbpedia.org/resource/Autodesk"
+          ]
+        },
+        "target": {
+          "topic": "LA28's \\\\\\\"no-new-permanent-venues\\\\\\\" plan",
+          "references": [
+            "LA28's \\\\\\\"no-new-permanent-venues\\\\\\\" plan"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Autodesk",
+          "references": [
+            "http://dbpedia.org/resource/Autodesk"
+          ]
+        },
+        "target": {
+          "topic": "existing infrastructure",
+          "references": [
+            "existing infrastructure"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Autodesk",
+          "references": [
+            "http://dbpedia.org/resource/Autodesk"
+          ]
+        },
+        "target": {
+          "topic": "temporary facilities",
+          "references": [
+            "temporary facilities"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "the next four years",
+          "references": [
+            "the next four years"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "LA28's \\\\\\\"no-new-permanent-venues\\\\\\\" plan",
+          "references": [
+            "LA28's \\\\\\\"no-new-permanent-venues\\\\\\\" plan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "existing infrastructure",
+          "references": [
+            "existing infrastructure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "temporary facilities",
+          "references": [
+            "temporary facilities"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

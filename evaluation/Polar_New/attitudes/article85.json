@@ -1,0 +1,416 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "entity2": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Two were killed and hundreds were injured after a bomb exploded in Atlanta's Centennial Olympic Park Dimitri Iundt/Corbis/VCG via Getty 1996 Olympics bombing The 2024 Summer Olympic Games are underway in Paris, as the world gets set to celebrate the greatest athletes in the world."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "target": {
+          "topic": "hundreds",
+          "references": [
+            "hundreds"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "target": {
+          "topic": "a bomb",
+          "references": [
+            "a bomb"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "target": {
+          "topic": "The 2024 Summer Olympic Games",
+          "references": [
+            "The 2024 Summer Olympic Games"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Atlanta",
+          "references": [
+            "http://dbpedia.org/resource/Atlanta"
+          ]
+        },
+        "target": {
+          "topic": "the greatest athletes",
+          "references": [
+            "the greatest athletes"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "hundreds",
+          "references": [
+            "hundreds"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "a bomb",
+          "references": [
+            "a bomb"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "The 2024 Summer Olympic Games",
+          "references": [
+            "The 2024 Summer Olympic Games"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "the greatest athletes",
+          "references": [
+            "the greatest athletes"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "hundreds",
+          "references": [
+            "hundreds"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "a bomb",
+          "references": [
+            "a bomb"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "The 2024 Summer Olympic Games",
+          "references": [
+            "The 2024 Summer Olympic Games"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "1996 Olympics",
+          "references": [
+            "http://dbpedia.org/resource/1996_Summer_Olympics"
+          ]
+        },
+        "target": {
+          "topic": "the greatest athletes",
+          "references": [
+            "the greatest athletes"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "hundreds",
+          "references": [
+            "hundreds"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a bomb",
+          "references": [
+            "a bomb"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "The 2024 Summer Olympic Games",
+          "references": [
+            "The 2024 Summer Olympic Games"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the greatest athletes",
+          "references": [
+            "the greatest athletes"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

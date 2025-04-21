@@ -1,0 +1,416 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "entity2": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "entity2": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "entity2": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "entity2": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Former Penn State four-time NCAA champ Aaron Brooks pushes for the next-best thing after a late loss in his Olympic semifinal, wrestling for bronze in Friday's afternoon session in Paris."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "target": {
+          "topic": "the next-best thing",
+          "references": [
+            "the next-best thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "target": {
+          "topic": "a late loss",
+          "references": [
+            "a late loss"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "target": {
+          "topic": "his Olympic semifinal",
+          "references": [
+            "his Olympic semifinal"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Penn State",
+          "references": [
+            "http://dbpedia.org/resource/Penn_State_Nittany_Lions_wrestling"
+          ]
+        },
+        "target": {
+          "topic": "Friday's afternoon session",
+          "references": [
+            "Friday's afternoon session"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "target": {
+          "topic": "the next-best thing",
+          "references": [
+            "the next-best thing"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "target": {
+          "topic": "a late loss",
+          "references": [
+            "a late loss"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "target": {
+          "topic": "his Olympic semifinal",
+          "references": [
+            "his Olympic semifinal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NCAA",
+          "references": [
+            "http://dbpedia.org/resource/NCAA_Division_I_Wrestling_Championships"
+          ]
+        },
+        "target": {
+          "topic": "Friday's afternoon session",
+          "references": [
+            "Friday's afternoon session"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "target": {
+          "topic": "the next-best thing",
+          "references": [
+            "the next-best thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "target": {
+          "topic": "a late loss",
+          "references": [
+            "a late loss"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "target": {
+          "topic": "his Olympic semifinal",
+          "references": [
+            "his Olympic semifinal"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Aaron",
+          "references": [
+            "http://dbpedia.org/resource/Aaron_Boone"
+          ]
+        },
+        "target": {
+          "topic": "Friday's afternoon session",
+          "references": [
+            "Friday's afternoon session"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "the next-best thing",
+          "references": [
+            "the next-best thing"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a late loss",
+          "references": [
+            "a late loss"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "his Olympic semifinal",
+          "references": [
+            "his Olympic semifinal"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "bronze",
+          "references": [
+            "bronze"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Friday's afternoon session",
+          "references": [
+            "Friday's afternoon session"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

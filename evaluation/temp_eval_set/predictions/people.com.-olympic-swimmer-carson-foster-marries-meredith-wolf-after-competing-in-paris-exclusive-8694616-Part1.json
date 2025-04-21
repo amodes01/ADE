@@ -1,0 +1,37 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {"entity": "Carson Foster", "references": ["Carson Foster", "Foster"]},
+        "target": {"topic": "Wedding Planning", "references": ["wedding planning", "planning process"]},
+        "justifications": [
+          "Foster praised his now-wife and their respective mothers for taking much of the load from his shoulders, allowing him to focus on his training and competing.",
+          "Foster says he appreciated the distractions that wedding planning brought amid his rigorous swimming schedule.",
+          "Planning the wedding to happen right after these meets was the best thing I could have asked for because throughout the stresses of the meets, I kept reminding myself the best and biggest things come in August in Cincinnati."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {"entity": "Meredith Wolf", "references": ["Meredith Wolf", "Wolf"]},
+        "target": {"topic": "Cincinnati", "references": ["Queen City", "hometown"]},
+        "justifications": [
+          "Carson and I both grew up in Cincinnati, where most of our family still resides.",
+          "No matter where life takes us, Cincinnati will always be considered home.",
+          "We love bragging about our hometown, and it's a joy to share the unique charm and warmth of Cincinnati with our friends."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {"entity": "Carson Foster", "references": ["Carson Foster", "Foster"]},
+        "entity2": {"entity": "Meredith Wolf", "references": ["Meredith Wolf", "Wolf"]},
+        "justifications": [
+          "Fresh off competing in the Summer Olympics in Paris, the 22-year-old athlete married his high school sweetheart, Meredith Wolf.",
+          "Foster praised his now-wife and their respective mothers for taking much of the load from his shoulders, allowing him to focus on his training and competing.",
+          "Planning the wedding to happen right after these meets was the best thing I could have asked for."
+        ],
+        "attitude": "Positive"
+      }
+    ]
+  }
+  

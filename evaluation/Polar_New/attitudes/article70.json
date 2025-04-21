@@ -1,0 +1,647 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Former White House advisor to her father, former President Donald Trump, Ivanka Trump, wore a striped crop top sweater in Western North Carolina this week, where she met disaster relief organizations (CityServe, Love and Life, Mercy Chefs) who were providing hot meals and emergency supplies to those in need after the destruction wreaked by Hurricane Helene."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Former White House advisor to her father, former President Donald Trump, Ivanka Trump, wore a striped crop top sweater in Western North Carolina this week, where she met disaster relief organizations (CityServe, Love and Life, Mercy Chefs) who were providing hot meals and emergency supplies to those in need after the destruction wreaked by Hurricane Helene."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "justifications": [
+          "Former White House advisor to her father, former President Donald Trump, Ivanka Trump, wore a striped crop top sweater in Western North Carolina this week, where she met disaster relief organizations (CityServe, Love and Life, Mercy Chefs) who were providing hot meals and emergency supplies to those in need after the destruction wreaked by Hurricane Helene."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "her father",
+          "references": [
+            "her father"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a striped crop top sweater",
+          "references": [
+            "a striped crop top sweater"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Western North Carolina",
+          "references": [
+            "Western North Carolina"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "disaster relief organizations",
+          "references": [
+            "disaster relief organizations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "CityServe",
+          "references": [
+            "CityServe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Love",
+          "references": [
+            "Love"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Life",
+          "references": [
+            "Life"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Mercy Chefs",
+          "references": [
+            "Mercy Chefs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "hot meals",
+          "references": [
+            "hot meals"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "emergency supplies",
+          "references": [
+            "emergency supplies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "need",
+          "references": [
+            "need"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the destruction",
+          "references": [
+            "the destruction"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White House",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Hurricane Helene",
+          "references": [
+            "Hurricane Helene"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "her father",
+          "references": [
+            "her father"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a striped crop top sweater",
+          "references": [
+            "a striped crop top sweater"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Western North Carolina",
+          "references": [
+            "Western North Carolina"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "disaster relief organizations",
+          "references": [
+            "disaster relief organizations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "CityServe",
+          "references": [
+            "CityServe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Love",
+          "references": [
+            "Love"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Life",
+          "references": [
+            "Life"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Mercy Chefs",
+          "references": [
+            "Mercy Chefs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "hot meals",
+          "references": [
+            "hot meals"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "emergency supplies",
+          "references": [
+            "emergency supplies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "need",
+          "references": [
+            "need"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the destruction",
+          "references": [
+            "the destruction"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Hurricane Helene",
+          "references": [
+            "Hurricane Helene"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "her father",
+          "references": [
+            "her father"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a striped crop top sweater",
+          "references": [
+            "a striped crop top sweater"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Western North Carolina",
+          "references": [
+            "Western North Carolina"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "disaster relief organizations",
+          "references": [
+            "disaster relief organizations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "CityServe",
+          "references": [
+            "CityServe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Love",
+          "references": [
+            "Love"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Life",
+          "references": [
+            "Life"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Mercy Chefs",
+          "references": [
+            "Mercy Chefs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "hot meals",
+          "references": [
+            "hot meals"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "emergency supplies",
+          "references": [
+            "emergency supplies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "need",
+          "references": [
+            "need"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the destruction",
+          "references": [
+            "the destruction"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ivanka Trump",
+          "references": [
+            "http://dbpedia.org/resource/Ivanka_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Hurricane Helene",
+          "references": [
+            "Hurricane Helene"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

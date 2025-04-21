@@ -1,0 +1,336 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "entity2": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "justifications": [
+          "After giving his blood, sweat, and tears for 18 months, Thomas Jolly, the artistic director of Paris's Olympics opening ceremony, the first one not to take place in a closed stadium, can be proud."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "entity2": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "justifications": [
+          "After giving his blood, sweat, and tears for 18 months, Thomas Jolly, the artistic director of Paris's Olympics opening ceremony, the first one not to take place in a closed stadium, can be proud."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "entity2": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "justifications": [
+          "After giving his blood, sweat, and tears for 18 months, Thomas Jolly, the artistic director of Paris's Olympics opening ceremony, the first one not to take place in a closed stadium, can be proud."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "tears",
+          "references": [
+            "tears"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "18 months",
+          "references": [
+            "18 months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "the artistic director",
+          "references": [
+            "the artistic director"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "Paris's Olympics opening ceremony",
+          "references": [
+            "Paris's Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "blood",
+          "references": [
+            "http://dbpedia.org/resource/Blood"
+          ]
+        },
+        "target": {
+          "topic": "a closed stadium",
+          "references": [
+            "a closed stadium"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "tears",
+          "references": [
+            "tears"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "18 months",
+          "references": [
+            "18 months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "the artistic director",
+          "references": [
+            "the artistic director"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "Paris's Olympics opening ceremony",
+          "references": [
+            "Paris's Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "sweat",
+          "references": [
+            "http://dbpedia.org/resource/Perspiration"
+          ]
+        },
+        "target": {
+          "topic": "a closed stadium",
+          "references": [
+            "a closed stadium"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "tears",
+          "references": [
+            "tears"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "18 months",
+          "references": [
+            "18 months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "the artistic director",
+          "references": [
+            "the artistic director"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "Paris's Olympics opening ceremony",
+          "references": [
+            "Paris's Olympics opening ceremony"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Thomas",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_the_Apostle"
+          ]
+        },
+        "target": {
+          "topic": "a closed stadium",
+          "references": [
+            "a closed stadium"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

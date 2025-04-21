@@ -1,0 +1,782 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "entity2": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "justifications": [
+          "Kamloops News ANDERSON: Brexit: goodbye, yellow brick road Part 2 Image Credit: Contributed by author July 05, 2016 - 10:13 AM 'THE SAME BACKLASH IS COMING TO NORTH AMERICA' OPINION So goodbye yellow brick road Where the dogs of society howl You can not plant me in your penthouse I am going back to my plough ... Oh I have finally decided my future lies Beyond the yellow brick road ~ Elton John So what went wrong with the European Union?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Kamloops News ANDERSON: Brexit: goodbye, yellow brick road Part 2 Image Credit: Contributed by author July 05, 2016 - 10:13 AM 'THE SAME BACKLASH IS COMING TO NORTH AMERICA' OPINION So goodbye yellow brick road Where the dogs of society howl You can not plant me in your penthouse I am going back to my plough ... Oh I have finally decided my future lies Beyond the yellow brick road ~ Elton John So what went wrong with the European Union?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Kamloops News ANDERSON: Brexit: goodbye, yellow brick road Part 2 Image Credit: Contributed by author July 05, 2016 - 10:13 AM 'THE SAME BACKLASH IS COMING TO NORTH AMERICA' OPINION So goodbye yellow brick road Where the dogs of society howl You can not plant me in your penthouse I am going back to my plough ... Oh I have finally decided my future lies Beyond the yellow brick road ~ Elton John So what went wrong with the European Union?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "goodbye",
+          "references": [
+            "goodbye"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "yellow brick road",
+          "references": [
+            "yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "Part 2 Image Credit",
+          "references": [
+            "Part 2 Image Credit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "author",
+          "references": [
+            "author"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "July 05, 2016 - 10:13 AM",
+          "references": [
+            "July 05, 2016 - 10:13 AM"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "THE SAME BACKLASH",
+          "references": [
+            "THE SAME BACKLASH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "NORTH AMERICA' OPINION",
+          "references": [
+            "NORTH AMERICA' OPINION"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "So goodbye yellow brick road",
+          "references": [
+            "So goodbye yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "the dogs",
+          "references": [
+            "the dogs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "society",
+          "references": [
+            "society"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "your penthouse",
+          "references": [
+            "your penthouse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "my plough",
+          "references": [
+            "my plough"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "my future",
+          "references": [
+            "my future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "the yellow brick road",
+          "references": [
+            "the yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "Elton John",
+          "references": [
+            "Elton John"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kamloops",
+          "references": [
+            "http://dbpedia.org/resource/Kamloops"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "goodbye",
+          "references": [
+            "goodbye"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "yellow brick road",
+          "references": [
+            "yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "Part 2 Image Credit",
+          "references": [
+            "Part 2 Image Credit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "author",
+          "references": [
+            "author"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "July 05, 2016 - 10:13 AM",
+          "references": [
+            "July 05, 2016 - 10:13 AM"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "THE SAME BACKLASH",
+          "references": [
+            "THE SAME BACKLASH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "NORTH AMERICA' OPINION",
+          "references": [
+            "NORTH AMERICA' OPINION"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "So goodbye yellow brick road",
+          "references": [
+            "So goodbye yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "the dogs",
+          "references": [
+            "the dogs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "society",
+          "references": [
+            "society"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "your penthouse",
+          "references": [
+            "your penthouse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "my plough",
+          "references": [
+            "my plough"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "my future",
+          "references": [
+            "my future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "the yellow brick road",
+          "references": [
+            "the yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "Elton John",
+          "references": [
+            "Elton John"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Elton John",
+          "references": [
+            "http://dbpedia.org/resource/Elton_John"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "goodbye",
+          "references": [
+            "goodbye"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "yellow brick road",
+          "references": [
+            "yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Part 2 Image Credit",
+          "references": [
+            "Part 2 Image Credit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "author",
+          "references": [
+            "author"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "July 05, 2016 - 10:13 AM",
+          "references": [
+            "July 05, 2016 - 10:13 AM"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "THE SAME BACKLASH",
+          "references": [
+            "THE SAME BACKLASH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "NORTH AMERICA' OPINION",
+          "references": [
+            "NORTH AMERICA' OPINION"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "So goodbye yellow brick road",
+          "references": [
+            "So goodbye yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the dogs",
+          "references": [
+            "the dogs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "society",
+          "references": [
+            "society"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "your penthouse",
+          "references": [
+            "your penthouse"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "my plough",
+          "references": [
+            "my plough"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "my future",
+          "references": [
+            "my future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the yellow brick road",
+          "references": [
+            "the yellow brick road"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Elton John",
+          "references": [
+            "Elton John"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

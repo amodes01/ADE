@@ -1,0 +1,128 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Sudanese Army",
+          "references": ["Sudanese Army"]
+        },
+        "target": {
+          "topic": "Christian congregations",
+          "references": ["church meeting", "congregation"]
+        },
+        "justifications": [
+          "The bus was halted by the Sudanese Army.",
+          "They sent the people home, saying it was too dangerous to hold a congregation."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Youssef",
+          "references": ["Youssef"]
+        },
+        "target": {
+          "topic": "humanitarian crisis",
+          "references": ["suffering", "food shortages", "famine"]
+        },
+        "justifications": [
+          "His greatest worry is the suffering of people already on the brink of starvation.",
+          "Approximately 8.5 million people are facing extreme food shortages.",
+          "What troubles Youssef most, however, is the deafening silence surrounding this devastation."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "RSF",
+          "references": ["RSF"]
+        },
+        "target": {
+          "topic": "destruction and economic hardship",
+          "references": ["destruction", "economic crisis"]
+        },
+        "justifications": [
+          "The prices for basic goods have skyrocketed alongside the destruction wrought by the RSF.",
+          "The infrastructure, painstakingly built over decades, lies in ruins."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations' World Food Program",
+          "references": ["United Nations' World Food Program"]
+        },
+        "target": {
+          "topic": "food shortages",
+          "references": ["extreme food shortages", "famine"]
+        },
+        "justifications": [
+          "The United Nations' World Food Program warns that approximately 8.5 million people are facing extreme food shortages.",
+          "The risk of famine is looming if the conflict escalates further."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Youssef",
+          "references": ["Youssef"]
+        },
+        "target": {
+          "topic": "faith and divine intervention",
+          "references": ["God's mercy", "prayer"]
+        },
+        "justifications": [
+          "\"It really needs God's hand, God's mercy. Prayer is the only thing that will change this,\" he asserts.",
+          "He places his faith in divine intervention over NGO projects or peace talks."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Sudanese Army",
+          "references": ["Sudanese Army"]
+        },
+        "entity2": {
+          "entity": "Christian community",
+          "references": ["Christian community", "Christians"]
+        },
+        "justifications": [
+          "The bus was halted by the Sudanese Army.",
+          "They sent the people home, saying it was too dangerous to hold a congregation."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "RSF",
+          "references": ["RSF"]
+        },
+        "entity2": {
+          "entity": "Youssef",
+          "references": ["Youssef"]
+        },
+        "justifications": [
+          "The prices for basic goods have skyrocketed alongside the destruction wrought by the RSF.",
+          "The infrastructure, painstakingly built over decades, lies in ruins."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "International community",
+          "references": ["international community"]
+        },
+        "entity2": {
+          "entity": "Sudan",
+          "references": ["Sudan"]
+        },
+        "justifications": [
+          "A joint report by 21 Christian humanitarian organizations listed Sudan as one of the six crisis-hit African countries that have been neglected by the international community.",
+          "\"What really kills me is that despite all this suffering, nobody talks about it,\" wonders Youssef."
+        ],
+        "attitude": "Negative"
+      }
+    ]
+  }
+  

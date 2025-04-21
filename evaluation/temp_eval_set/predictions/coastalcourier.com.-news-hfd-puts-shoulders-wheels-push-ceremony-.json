@@ -1,0 +1,79 @@
+{
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Chief Robert Kitchings",
+          "references": ["Chief Kitchings"]
+        },
+        "target": {
+          "topic": "new fire trucks",
+          "references": ["new vehicles", "rescue pumper", "quint"]
+        },
+        "justifications": [
+          "\"These specifically meet the needs of our city and our citizens,\" Chief Kitchings said.",
+          "\"We would not have been able to get it without the partnership the city has with the City of Flemington,\" Kitchings said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Chief Robert Kitchings",
+          "references": ["Chief Kitchings"]
+        },
+        "target": {
+          "topic": "fire department support",
+          "references": ["support from city administration and city council"]
+        },
+        "justifications": [
+          "Kitchings said he and assistant chief Andy Fowler are appreciative of the support from city administration and city council."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Chief Robert Kitchings",
+          "references": ["Chief Kitchings"]
+        },
+        "target": {
+          "topic": "fire department service quality",
+          "references": ["best fire department", "best service in the state of Georgia"]
+        },
+        "justifications": [
+          "\"Any time you ride through (Hinesville), you know you are protected by the best fire department in the state of Georgia,\" he said.",
+          "\"We will continue to provide the best service in the state of Georgia.\""
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Chief Robert Kitchings",
+          "references": ["Chief Kitchings"]
+        },
+        "entity2": {
+          "entity": "City of Flemington",
+          "references": ["City of Flemington"]
+        },
+        "justifications": [
+          "\"We would not have been able to get it without the partnership the city has with the City of Flemington,\" Kitchings said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Chief Robert Kitchings",
+          "references": ["Chief Kitchings"]
+        },
+        "entity2": {
+          "entity": "Andy Fowler",
+          "references": ["assistant chief Andy Fowler"]
+        },
+        "justifications": [
+          "Kitchings said he and assistant chief Andy Fowler are appreciative of the support from city administration and city council."
+        ],
+        "attitude": "Positive"
+      }
+    ]
+  }
+  

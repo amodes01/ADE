@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_people"
+          ]
+        },
+        "entity2": {
+          "entity": "Netherlands",
+          "references": [
+            "http://dbpedia.org/resource/Netherlands_national_football_team"
+          ]
+        },
+        "justifications": [
+          "The British side battled with the Netherlands throughout the 2000-metre race but just managed to move clear with 500m to go to secure victory."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_people"
+          ]
+        },
+        "target": {
+          "topic": "the 2000-metre race",
+          "references": [
+            "the 2000-metre race"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_people"
+          ]
+        },
+        "target": {
+          "topic": "500m",
+          "references": [
+            "500m"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_people"
+          ]
+        },
+        "target": {
+          "topic": "victory",
+          "references": [
+            "victory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Netherlands",
+          "references": [
+            "http://dbpedia.org/resource/Netherlands_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "the 2000-metre race",
+          "references": [
+            "the 2000-metre race"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Netherlands",
+          "references": [
+            "http://dbpedia.org/resource/Netherlands_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "500m",
+          "references": [
+            "500m"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Netherlands",
+          "references": [
+            "http://dbpedia.org/resource/Netherlands_national_football_team"
+          ]
+        },
+        "target": {
+          "topic": "victory",
+          "references": [
+            "victory"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]
