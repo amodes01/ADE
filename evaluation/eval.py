@@ -1430,11 +1430,13 @@ if __name__ == "__main__":
     with open("brexit_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(brexit_results), f, indent=4)
 
-    polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
     # Save results to a JSON file with type conversion
     # with open("detailed_evaluation_results.json", "w") as f:
     #     json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
-    with open("polar_detailed_evaluation_results.json", "w") as f:
-        json.dump(convert_numpy_types(polar_results), f, indent=4)
+    # polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
+
+
+    # with open("polar_detailed_evaluation_results.json", "w") as f:
+    #     json.dump(convert_numpy_types(polar_results), f, indent=4)
     
