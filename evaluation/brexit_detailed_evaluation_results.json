@@ -1,1 +1,141 @@
-null
+{
+    "entity": {
+        "pair_counts": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+        },
+        "attitude_counts": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+        },
+        "justification_counts": {
+            "matched": 0,
+            "total": 0
+        },
+        "sample_counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        },
+        "total_counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        },
+        "pair_matching": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "attitude_prediction": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "accuracy": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "justification": {
+            "overlap": 0,
+            "matched_justifications": 0,
+            "total_justifications": 0
+        },
+        "counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        }
+    },
+    "topical": {
+        "pair_counts": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+        },
+        "attitude_counts": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+        },
+        "justification_counts": {
+            "matched": 0,
+            "total": 0
+        },
+        "sample_counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        },
+        "total_counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        },
+        "pair_matching": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "attitude_prediction": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "accuracy": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "justification": {
+            "overlap": 0,
+            "matched_justifications": 0,
+            "total_justifications": 0
+        },
+        "counts": {
+            "true_pairs": 0,
+            "pred_pairs": 0,
+            "true_attitudes": 0,
+            "pred_attitudes": 0
+        }
+    },
+    "samples": {},
+    "attitude_summary": {
+        "true_data": {
+            "entity": {
+                "Positive": 0,
+                "Neutral": 0,
+                "Negative": 0
+            },
+            "topical": {
+                "Positive": 0,
+                "Neutral": 0,
+                "Negative": 0
+            }
+        },
+        "pred_data": {
+            "entity": {
+                "Positive": 0,
+                "Neutral": 0,
+                "Negative": 0
+            },
+            "topical": {
+                "Positive": 0,
+                "Neutral": 0,
+                "Negative": 0
+            }
+        }
+    }
+}

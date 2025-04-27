@@ -1131,20 +1131,45 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
         pkl_paths = {}
         for root, _, files in os.walk(base_path):
             for file in files:
-                if file.endswith(".PCKL"):
+                if file.lower().endswith(".pckl"):
                     rel_path = os.path.relpath(os.path.join(root, file), base_path)
-                    pkl_paths[rel_path] = os.path.join(root, file)
+                    # Preserve original path for later use
+                    original_path = os.path.join(root, file)
+                    # Remove "polar_Results-" ONLY for comparison
+                    clean_rel_path = rel_path.replace("polar_Results-", "")
+                    # Normalize to lowercase for case-insensitive comparison
+                    normalized_key = clean_rel_path.lower()
+                    pkl_paths[normalized_key] = original_path  # Store original path
         return pkl_paths
 
     true_paths = collect_pickle_paths(true_dataset_root)
     polar_paths = collect_pickle_paths(polar_dir_root)
 
-    # Find common files only
+    print(f"Found {len(true_paths)} true dataset files and {len(polar_paths)} POLAR prediction files.")
+    print(f"True dataset path: {true_dataset_root}")
+    print(f"POLAR prediction path: {polar_dir_root}")
+
+    # Find common files (case-insensitive + polar_Results- removed for comparison)
     common_files = set(true_paths.keys()) & set(polar_paths.keys())
 
     if not common_files:
         print("No matching files found between the true dataset and the POLAR predictions.")
         return
+    
+        # After collecting paths, add this diagnostic:
+    print("First 10 true paths:", list(true_paths.keys())[:10])
+    print("-"*50)
+    print("First 10 polar paths:", list(polar_paths.keys())[:10])
+
+    # Check for files in one set but not the other
+    only_in_true = set(true_paths.keys()) - set(polar_paths.keys())
+    only_in_polar = set(polar_paths.keys()) - set(true_paths.keys())
+    print(f"Files only in true: {len(only_in_true)}, only in polar: {len(only_in_polar)}")
+
+    # Example: Save mismatches to a file for inspection
+    with open("path_mismatches.txt", "w") as f:
+        f.write("TRUE ONLY:\n" + "\n".join(sorted(only_in_true))) 
+        f.write("\n\nPOLAR ONLY:\n" + "\n".join(sorted(only_in_polar)))
 
     # Initialize results storage
     all_metrics = {
