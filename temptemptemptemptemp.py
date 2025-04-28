@@ -7,8 +7,8 @@ def rename_files_in_directory(root_dir):
     """
     for root, dirs, files in os.walk(root_dir):
         for filename in files:
-            if '.-Part' in filename:
-                new_filename = filename.replace('.-Part', '-Part')
+            if 'polar_Results-' in filename:
+                new_filename = filename.replace('polar_Results-', '')
                 print("a")
                 old_path = os.path.join(root, filename)
                 new_path = os.path.join(root, new_filename)

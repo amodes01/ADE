@@ -1156,10 +1156,6 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
         print("No matching files found between the true dataset and the POLAR predictions.")
         return
     
-        # After collecting paths, add this diagnostic:
-    print("First 10 true paths:", list(true_paths.keys())[:10])
-    print("-"*50)
-    print("First 10 polar paths:", list(polar_paths.keys())[:10])
 
     # Check for files in one set but not the other
     only_in_true = set(true_paths.keys()) - set(polar_paths.keys())
@@ -1198,19 +1194,29 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
     }
 
     for i, rel_path in enumerate(tqdm(sorted(common_files), desc="Evaluating samples", unit="file")):
-        with open(true_paths[rel_path], 'r', encoding='utf-8') as f:
-            try:
-                true_json = json.load(f)
-                true_data, _ = LLMJsonParser.parse_json(true_json["output"])
-            except:
-                continue
 
-        with open(polar_paths[rel_path], 'r', encoding='utf-8') as f:
-            try:
-                polar_json = json.load(f)
-                pred_data, _ = LLMJsonParser.parse_json(json.dumps(polar_json))
-            except:
-                continue
+        if i>3:
+            continue
+        try:
+            true_data = unpickle(true_paths[rel_path])
+        except Exception as e:
+            print(f"Failed to unpickle true file {true_paths[rel_path]}: {e}")
+            continue
+
+        try:
+            pred_data = unpickle(polar_paths[rel_path])
+        except Exception as e:
+            print(f"Failed to unpickle pred file {polar_paths[rel_path]}: {e}")
+            continue
+        
+        print("TRUE DATA SAMPLE:")
+        print(true_data)
+        print(type(true_data))
+        print("="*50)
+        print("PRED DATA SAMPLE:")
+        print(pred_data)
+        print(type(pred_data))
+
 
         if not true_data or not pred_data:
             continue
