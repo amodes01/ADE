@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "entity2": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "entity2": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "entity2": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "WARSAW:NATO leaders met Friday for a crucial summit in Warsaw to send a clear message to a resurgent Russia while trying to contain the fallout from Britain's dramatic divorce from the European Union."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "target": {
+          "topic": "a crucial summit",
+          "references": [
+            "a crucial summit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "target": {
+          "topic": "a clear message",
+          "references": [
+            "a clear message"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "target": {
+          "topic": "the fallout",
+          "references": [
+            "the fallout"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "WARSAW",
+          "references": [
+            "http://dbpedia.org/resource/Warsaw"
+          ]
+        },
+        "target": {
+          "topic": "Britain's dramatic divorce",
+          "references": [
+            "Britain's dramatic divorce"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "a crucial summit",
+          "references": [
+            "a crucial summit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "a clear message",
+          "references": [
+            "a clear message"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "the fallout",
+          "references": [
+            "the fallout"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "Britain's dramatic divorce",
+          "references": [
+            "Britain's dramatic divorce"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "a crucial summit",
+          "references": [
+            "a crucial summit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "a clear message",
+          "references": [
+            "a clear message"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "the fallout",
+          "references": [
+            "the fallout"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "Britain's dramatic divorce",
+          "references": [
+            "Britain's dramatic divorce"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a crucial summit",
+          "references": [
+            "a crucial summit"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a clear message",
+          "references": [
+            "a clear message"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the fallout",
+          "references": [
+            "the fallout"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's dramatic divorce",
+          "references": [
+            "Britain's dramatic divorce"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

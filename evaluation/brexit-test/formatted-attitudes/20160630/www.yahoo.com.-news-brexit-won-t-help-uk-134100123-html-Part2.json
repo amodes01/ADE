@@ -1,0 +1,346 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "rules for UK businesses to gain access to the European market, because it all hinges on the trade deal post-Brexit Britain strikes with the EU."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "rules",
+          "references": [
+            "rules"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "access",
+          "references": [
+            "access"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the European market",
+          "references": [
+            "the European market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the trade deal",
+          "references": [
+            "the trade deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit Britain",
+          "references": [
+            "post-Brexit Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "rules",
+          "references": [
+            "rules"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "access",
+          "references": [
+            "access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the European market",
+          "references": [
+            "the European market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the trade deal",
+          "references": [
+            "the trade deal"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit Britain",
+          "references": [
+            "post-Brexit Britain"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the backdrop",
+          "references": [
+            "the backdrop"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the Panama Papers revelations",
+          "references": [
+            "the Panama Papers revelations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his name",
+          "references": [
+            "his name"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his tax returns",
+          "references": [
+            "his tax returns"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Iceland's prime minister",
+          "references": [
+            "Iceland's prime minister"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the idea",
+          "references": [
+            "the idea"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the UK",
+          "references": [
+            "the UK"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "a Panama-esque haven",
+          "references": [
+            "a Panama-esque haven"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "global companies",
+          "references": [
+            "global companies"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

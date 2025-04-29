@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU-Turkey deal",
+          "references": [
+            "http://dbpedia.org/resource/2015_European_migrant_crisis"
+          ]
+        },
+        "entity2": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "justifications": [
+          "(TTIP) - a planned EU-US trade agreement - or the EU-Turkey deal to manage refugee flows."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "target": {
+          "topic": "a planned EU-US trade agreement",
+          "references": [
+            "a planned EU-US trade agreement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "target": {
+          "topic": "refugee flows",
+          "references": [
+            "refugee flows"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU-Turkey deal",
+          "references": [
+            "http://dbpedia.org/resource/2015_European_migrant_crisis"
+          ]
+        },
+        "target": {
+          "topic": "a planned EU-US trade agreement",
+          "references": [
+            "a planned EU-US trade agreement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU-Turkey deal",
+          "references": [
+            "http://dbpedia.org/resource/2015_European_migrant_crisis"
+          ]
+        },
+        "target": {
+          "topic": "refugee flows",
+          "references": [
+            "refugee flows"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

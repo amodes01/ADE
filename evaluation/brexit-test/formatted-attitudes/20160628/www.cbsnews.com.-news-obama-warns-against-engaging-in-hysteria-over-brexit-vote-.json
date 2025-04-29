@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "President Obama warned against engaging in \"hysteria\" after the United Kingdom's historic \"Brexit\" vote last Thursday."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "President Obama warned against engaging in \"hysteria\" after the United Kingdom's historic \"Brexit\" vote last Thursday."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "President Obama warned against engaging in \"hysteria\" after the United Kingdom's historic \"Brexit\" vote last Thursday."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "\"hysteria",
+          "references": [
+            "\"hysteria"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "\"hysteria",
+          "references": [
+            "\"hysteria"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "\"hysteria",
+          "references": [
+            "\"hysteria"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

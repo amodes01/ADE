@@ -1,0 +1,25 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "entity2": {
+          "entity": "U.S. dollar",
+          "references": [
+            "http://dbpedia.org/resource/United_States_dollar"
+          ]
+        },
+        "justifications": [
+          "one U.S. dollar has been worth less than one British pound."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": []
+  }
+]

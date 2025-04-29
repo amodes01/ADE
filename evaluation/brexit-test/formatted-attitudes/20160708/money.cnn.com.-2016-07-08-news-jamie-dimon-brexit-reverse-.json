@@ -1,0 +1,211 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Jamie Dimon",
+          "references": [
+            "http://dbpedia.org/resource/Jamie_Dimon"
+          ]
+        },
+        "justifications": [
+          "Jamie Dimon has a message for Brexit Britain: There is nothing wrong with changing your mind."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Jamie Dimon",
+          "references": [
+            "http://dbpedia.org/resource/Jamie_Dimon"
+          ]
+        },
+        "target": {
+          "topic": "a message",
+          "references": [
+            "a message"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jamie Dimon",
+          "references": [
+            "http://dbpedia.org/resource/Jamie_Dimon"
+          ]
+        },
+        "target": {
+          "topic": "nothing",
+          "references": [
+            "nothing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jamie Dimon",
+          "references": [
+            "http://dbpedia.org/resource/Jamie_Dimon"
+          ]
+        },
+        "target": {
+          "topic": "your mind",
+          "references": [
+            "your mind"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a message",
+          "references": [
+            "a message"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "nothing",
+          "references": [
+            "nothing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "your mind",
+          "references": [
+            "your mind"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "The chief executive",
+          "references": [
+            "The chief executive"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "JPMorgan",
+          "references": [
+            "JPMorgan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "the June 23 referendum",
+          "references": [
+            "the June 23 referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "a \"terrible deal",
+          "references": [
+            "a \"terrible deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "JPM",
+          "references": [
+            "http://dbpedia.org/resource/JPMorgan_Chase"
+          ]
+        },
+        "target": {
+          "topic": "the British economy",
+          "references": [
+            "the British economy"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

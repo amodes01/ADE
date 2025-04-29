@@ -1,0 +1,547 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the trade deal",
+          "references": [
+            "the trade deal"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit Britain",
+          "references": [
+            "post-Brexit Britain"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "justifications": [
+          "With all this taking place against the backdrop of the Panama Papers revelations, which forced David Cameron to clear his name by publishing his tax returns and Iceland's prime minister to resign, the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "With all this taking place against the backdrop of the Panama Papers revelations, which forced David Cameron to clear his name by publishing his tax returns and Iceland's prime minister to resign, the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "entity2": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "With all this taking place against the backdrop of the Panama Papers revelations, which forced David Cameron to clear his name by publishing his tax returns and Iceland's prime minister to resign, the idea of using Brexit to turn the UK into a Panama-esque haven for global companies, appears to be a non-starter."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the backdrop",
+          "references": [
+            "the backdrop"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the Panama Papers revelations",
+          "references": [
+            "the Panama Papers revelations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his name",
+          "references": [
+            "his name"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his tax returns",
+          "references": [
+            "his tax returns"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the idea",
+          "references": [
+            "the idea"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the UK",
+          "references": [
+            "the UK"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "a Panama-esque haven",
+          "references": [
+            "a Panama-esque haven"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "global companies",
+          "references": [
+            "global companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "the backdrop",
+          "references": [
+            "the backdrop"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "the Panama Papers revelations",
+          "references": [
+            "the Panama Papers revelations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "his name",
+          "references": [
+            "his name"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "his tax returns",
+          "references": [
+            "his tax returns"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "the idea",
+          "references": [
+            "the idea"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "the UK",
+          "references": [
+            "the UK"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "a Panama-esque haven",
+          "references": [
+            "a Panama-esque haven"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Iceland",
+          "references": [
+            "http://dbpedia.org/resource/Iceland"
+          ]
+        },
+        "target": {
+          "topic": "global companies",
+          "references": [
+            "global companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "place",
+          "references": [
+            "place"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the backdrop",
+          "references": [
+            "the backdrop"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the Panama Papers revelations",
+          "references": [
+            "the Panama Papers revelations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "his name",
+          "references": [
+            "his name"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "his tax returns",
+          "references": [
+            "his tax returns"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the idea",
+          "references": [
+            "the idea"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the UK",
+          "references": [
+            "the UK"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a Panama-esque haven",
+          "references": [
+            "a Panama-esque haven"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "global companies",
+          "references": [
+            "global companies"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

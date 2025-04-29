@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "By Trevor Hunnicutt NEW YORK (Reuters) - U.S. fund investors pulled out of riskier markets over the last week, data from Lipper showed on Thursday, as they braced for a British vote on its European Union membership even as stocks rallied."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "By Trevor Hunnicutt NEW YORK (Reuters) - U.S. fund investors pulled out of riskier markets over the last week, data from Lipper showed on Thursday, as they braced for a British vote on its European Union membership even as stocks rallied."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "By Trevor Hunnicutt NEW YORK (Reuters) - U.S. fund investors pulled out of riskier markets over the last week, data from Lipper showed on Thursday, as they braced for a British vote on its European Union membership even as stocks rallied."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Trevor Hunnicutt NEW YORK",
+          "references": [
+            "Trevor Hunnicutt NEW YORK"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "U.S. fund investors",
+          "references": [
+            "U.S. fund investors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "riskier markets",
+          "references": [
+            "riskier markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the last week",
+          "references": [
+            "the last week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "data",
+          "references": [
+            "data"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Lipper",
+          "references": [
+            "Lipper"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "stocks",
+          "references": [
+            "stocks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Trevor Hunnicutt NEW YORK",
+          "references": [
+            "Trevor Hunnicutt NEW YORK"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "U.S. fund investors",
+          "references": [
+            "U.S. fund investors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "riskier markets",
+          "references": [
+            "riskier markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the last week",
+          "references": [
+            "the last week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "data",
+          "references": [
+            "data"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Lipper",
+          "references": [
+            "Lipper"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "stocks",
+          "references": [
+            "stocks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Trevor Hunnicutt NEW YORK",
+          "references": [
+            "Trevor Hunnicutt NEW YORK"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "U.S. fund investors",
+          "references": [
+            "U.S. fund investors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "riskier markets",
+          "references": [
+            "riskier markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the last week",
+          "references": [
+            "the last week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "data",
+          "references": [
+            "data"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Lipper",
+          "references": [
+            "Lipper"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "stocks",
+          "references": [
+            "stocks"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

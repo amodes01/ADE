@@ -1,0 +1,180 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "entity2": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "justifications": [
+          "she ranted at lawmakers who dared to question her lies and incompetence in the deaths of Ambassador Chris Stevens and his heroic security team in Benghazi."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "target": {
+          "topic": "lawmakers",
+          "references": [
+            "lawmakers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "target": {
+          "topic": "her lies",
+          "references": [
+            "her lies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "target": {
+          "topic": "incompetence",
+          "references": [
+            "incompetence"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "target": {
+          "topic": "the deaths",
+          "references": [
+            "the deaths"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Chris Stevens",
+          "references": [
+            "http://dbpedia.org/resource/J._Christopher_Stevens"
+          ]
+        },
+        "target": {
+          "topic": "his heroic security team",
+          "references": [
+            "his heroic security team"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "target": {
+          "topic": "lawmakers",
+          "references": [
+            "lawmakers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "target": {
+          "topic": "her lies",
+          "references": [
+            "her lies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "target": {
+          "topic": "incompetence",
+          "references": [
+            "incompetence"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "target": {
+          "topic": "the deaths",
+          "references": [
+            "the deaths"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Benghazi",
+          "references": [
+            "http://dbpedia.org/resource/2012_Benghazi_attack"
+          ]
+        },
+        "target": {
+          "topic": "his heroic security team",
+          "references": [
+            "his heroic security team"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

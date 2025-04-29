@@ -1,0 +1,52 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Canadian government",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "justice",
+          "references": [
+            "justice"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Canadian government",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "the rule",
+          "references": [
+            "the rule"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Canadian government",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "law",
+          "references": [
+            "law"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

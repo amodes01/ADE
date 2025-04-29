@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_England"
+          ]
+        },
+        "entity2": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "justifications": [
+          "have a small country … England and Wales perhaps.\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_England"
+          ]
+        },
+        "target": {
+          "topic": "a small country",
+          "references": [
+            "a small country"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "a small country",
+          "references": [
+            "a small country"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

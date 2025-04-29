@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the UK",
+          "references": [
+            "the UK"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "a referendum",
+          "references": [
+            "a referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

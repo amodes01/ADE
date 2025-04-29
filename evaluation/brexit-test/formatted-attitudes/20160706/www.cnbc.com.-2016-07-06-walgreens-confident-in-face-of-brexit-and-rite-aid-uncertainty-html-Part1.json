@@ -1,0 +1,287 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "justifications": [
+          "Walgreens Boots Alliance executives say they are confident about the second half of the year, despite the uncertainty raised by last month's Brexit vote, and the ongoing regulatory review of their pending $9.5 billion acquisition of rival Rite Aid ."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "entity2": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "justifications": [
+          "Walgreens Boots Alliance executives say they are confident about the second half of the year, despite the uncertainty raised by last month's Brexit vote, and the ongoing regulatory review of their pending $9.5 billion acquisition of rival Rite Aid ."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "justifications": [
+          "Walgreens Boots Alliance executives say they are confident about the second half of the year, despite the uncertainty raised by last month's Brexit vote, and the ongoing regulatory review of their pending $9.5 billion acquisition of rival Rite Aid ."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "target": {
+          "topic": "the second half",
+          "references": [
+            "the second half"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "target": {
+          "topic": "the year",
+          "references": [
+            "the year"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "target": {
+          "topic": "the uncertainty",
+          "references": [
+            "the uncertainty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "target": {
+          "topic": "the ongoing regulatory review",
+          "references": [
+            "the ongoing regulatory review"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Walgreens Boots Alliance",
+          "references": [
+            "http://dbpedia.org/resource/Walgreens_Boots_Alliance"
+          ]
+        },
+        "target": {
+          "topic": "their pending $9.5 billion acquisition",
+          "references": [
+            "their pending $9.5 billion acquisition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the second half",
+          "references": [
+            "the second half"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the year",
+          "references": [
+            "the year"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the uncertainty",
+          "references": [
+            "the uncertainty"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the ongoing regulatory review",
+          "references": [
+            "the ongoing regulatory review"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "their pending $9.5 billion acquisition",
+          "references": [
+            "their pending $9.5 billion acquisition"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "target": {
+          "topic": "the second half",
+          "references": [
+            "the second half"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "target": {
+          "topic": "the year",
+          "references": [
+            "the year"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "target": {
+          "topic": "the uncertainty",
+          "references": [
+            "the uncertainty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "target": {
+          "topic": "the ongoing regulatory review",
+          "references": [
+            "the ongoing regulatory review"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Rite Aid",
+          "references": [
+            "http://dbpedia.org/resource/Rite_Aid"
+          ]
+        },
+        "target": {
+          "topic": "their pending $9.5 billion acquisition",
+          "references": [
+            "their pending $9.5 billion acquisition"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

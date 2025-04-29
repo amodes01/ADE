@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As the U.K. decides to leave the European Union, the question in Oregon is: What does it mean for the state?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As the U.K. decides to leave the European Union, the question in Oregon is: What does it mean for the state?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As the U.K. decides to leave the European Union, the question in Oregon is: What does it mean for the state?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the question",
+          "references": [
+            "the question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the state",
+          "references": [
+            "the state"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the question",
+          "references": [
+            "the question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the state",
+          "references": [
+            "the state"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "the question",
+          "references": [
+            "the question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Oregon",
+          "references": [
+            "http://dbpedia.org/resource/Oregon"
+          ]
+        },
+        "target": {
+          "topic": "the state",
+          "references": [
+            "the state"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

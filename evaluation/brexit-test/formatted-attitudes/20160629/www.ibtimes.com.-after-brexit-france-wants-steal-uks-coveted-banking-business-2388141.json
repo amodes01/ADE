@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Following the vote by the U.K. to leave the European Union, French politicians have maneuvered to wrest away a share of Britain's coveted banking industry."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Following the vote by the U.K. to leave the European Union, French politicians have maneuvered to wrest away a share of Britain's coveted banking industry."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Following the vote by the U.K. to leave the European Union, French politicians have maneuvered to wrest away a share of Britain's coveted banking industry."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the vote",
+          "references": [
+            "the vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a share",
+          "references": [
+            "a share"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain's coveted banking industry",
+          "references": [
+            "Britain's coveted banking industry"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the vote",
+          "references": [
+            "the vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a share",
+          "references": [
+            "a share"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's coveted banking industry",
+          "references": [
+            "Britain's coveted banking industry"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the vote",
+          "references": [
+            "the vote"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "a share",
+          "references": [
+            "a share"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "Britain's coveted banking industry",
+          "references": [
+            "Britain's coveted banking industry"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "American Airlines",
+          "references": [
+            "http://dbpedia.org/resource/American_Airlines"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "An American Airlines airplane takes off from Heathrow Airport in London."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "American Airlines",
+          "references": [
+            "http://dbpedia.org/resource/American_Airlines"
+          ]
+        },
+        "target": {
+          "topic": "Heathrow Airport",
+          "references": [
+            "Heathrow Airport"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Heathrow Airport",
+          "references": [
+            "Heathrow Airport"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Thomson Reuters",
+          "references": [
+            "Thomson Reuters"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a lot",
+          "references": [
+            "a lot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "no one",
+          "references": [
+            "no one"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the negotiations",
+          "references": [
+            "the negotiations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the following months",
+          "references": [
+            "the following months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "years",
+          "references": [
+            "years"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

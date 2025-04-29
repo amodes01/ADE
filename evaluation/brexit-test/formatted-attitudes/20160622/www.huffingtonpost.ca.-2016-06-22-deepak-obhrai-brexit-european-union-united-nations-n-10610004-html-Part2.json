@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Huffington Post",
+          "references": [
+            "http://dbpedia.org/resource/HuffPost"
+          ]
+        },
+        "entity2": {
+          "entity": "Germany",
+          "references": [
+            "http://dbpedia.org/resource/Nazi_Germany"
+          ]
+        },
+        "justifications": [
+          "Germany) certainly exposed us to that dynamic,\" he told The Huffington Post Canada."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "Germany",
+          "references": [
+            "http://dbpedia.org/resource/Nazi_Germany"
+          ]
+        },
+        "justifications": [
+          "Germany) certainly exposed us to that dynamic,\" he told The Huffington Post Canada."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "Huffington Post",
+          "references": [
+            "http://dbpedia.org/resource/HuffPost"
+          ]
+        },
+        "justifications": [
+          "Germany) certainly exposed us to that dynamic,\" he told The Huffington Post Canada."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Germany",
+          "references": [
+            "http://dbpedia.org/resource/Nazi_Germany"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Germany",
+          "references": [
+            "http://dbpedia.org/resource/Nazi_Germany"
+          ]
+        },
+        "target": {
+          "topic": "that dynamic",
+          "references": [
+            "that dynamic"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Huffington Post",
+          "references": [
+            "http://dbpedia.org/resource/HuffPost"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Huffington Post",
+          "references": [
+            "http://dbpedia.org/resource/HuffPost"
+          ]
+        },
+        "target": {
+          "topic": "that dynamic",
+          "references": [
+            "that dynamic"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "that dynamic",
+          "references": [
+            "that dynamic"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

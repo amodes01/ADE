@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The British electorate's stunning vote to leave the European Union has been followed by predictions in the United States about the dire consequences of this choice."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "target": {
+          "topic": "predictions",
+          "references": [
+            "predictions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "target": {
+          "topic": "the dire consequences",
+          "references": [
+            "the dire consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "target": {
+          "topic": "this choice",
+          "references": [
+            "this choice"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "predictions",
+          "references": [
+            "predictions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the dire consequences",
+          "references": [
+            "the dire consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "this choice",
+          "references": [
+            "this choice"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

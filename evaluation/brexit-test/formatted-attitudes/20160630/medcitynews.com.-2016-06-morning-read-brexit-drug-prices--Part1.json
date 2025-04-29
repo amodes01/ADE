@@ -1,0 +1,106 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "National Health Service",
+          "references": [
+            "http://dbpedia.org/resource/National_Health_Service"
+          ]
+        },
+        "justifications": [
+          "TOP STORIES The latest Brexit fallout could be higher drug prices for the National Health Service."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "higher drug prices",
+          "references": [
+            "higher drug prices"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "National Health Service",
+          "references": [
+            "http://dbpedia.org/resource/National_Health_Service"
+          ]
+        },
+        "target": {
+          "topic": "higher drug prices",
+          "references": [
+            "higher drug prices"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "target": {
+          "topic": "traders",
+          "references": [
+            "traders"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "target": {
+          "topic": "medications",
+          "references": [
+            "medications"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "target": {
+          "topic": "other European countries",
+          "references": [
+            "other European countries"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

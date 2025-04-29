@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Trump presidency",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Early this spring, when a Trump presidency seemed still just a chimera, I hosted a private dinner for over two dozen sitting ambassadors at a Washington hotel."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Trump presidency",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "just a chimera",
+          "references": [
+            "just a chimera"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trump presidency",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a private dinner",
+          "references": [
+            "a private dinner"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trump presidency",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "ambassadors",
+          "references": [
+            "ambassadors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "just a chimera",
+          "references": [
+            "just a chimera"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a private dinner",
+          "references": [
+            "a private dinner"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "ambassadors",
+          "references": [
+            "ambassadors"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

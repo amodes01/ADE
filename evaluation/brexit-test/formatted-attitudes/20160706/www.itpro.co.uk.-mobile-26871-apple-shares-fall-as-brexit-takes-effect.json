@@ -1,0 +1,232 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Apple could take a financial hit following the UK's decision to leave the European Union last month."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Apple could take a financial hit following the UK's decision to leave the European Union last month."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Apple could take a financial hit following the UK's decision to leave the European Union last month."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "a financial hit",
+          "references": [
+            "a financial hit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a financial hit",
+          "references": [
+            "a financial hit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a financial hit",
+          "references": [
+            "a financial hit"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "The demand",
+          "references": [
+            "The demand"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the economic downturn",
+          "references": [
+            "the economic downturn"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "instability",
+          "references": [
+            "instability"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "23 June",
+          "references": [
+            "23 June"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "Citigroup Global Markets analyst Jim Suva",
+          "references": [
+            "Citigroup Global Markets analyst Jim Suva"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "Bloomberg",
+          "references": [
+            "Bloomberg"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

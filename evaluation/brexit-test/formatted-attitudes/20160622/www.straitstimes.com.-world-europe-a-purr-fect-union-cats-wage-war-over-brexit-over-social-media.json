@@ -1,0 +1,502 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "LONDON (Reuters) - The fur is flying on social media as Britons prepare to vote on Thursday (June 23) on whether the United Kingdom should remain in the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "LONDON (Reuters) - The fur is flying on social media as Britons prepare to vote on Thursday (June 23) on whether the United Kingdom should remain in the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "LONDON (Reuters) - The fur is flying on social media as Britons prepare to vote on Thursday (June 23) on whether the United Kingdom should remain in the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "The fur",
+          "references": [
+            "The fur"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "social media",
+          "references": [
+            "social media"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "June",
+          "references": [
+            "June"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "The fur",
+          "references": [
+            "The fur"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "social media",
+          "references": [
+            "social media"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "June",
+          "references": [
+            "June"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "The fur",
+          "references": [
+            "The fur"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "social media",
+          "references": [
+            "social media"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "June",
+          "references": [
+            "June"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "The hashtags",
+          "references": [
+            "The hashtags"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "#CatsAgainstBrexit",
+          "references": [
+            "#CatsAgainstBrexit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "#CatsForBrexit",
+          "references": [
+            "#CatsForBrexit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "Monday",
+          "references": [
+            "Monday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday",
+          "references": [
+            "Tuesday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "pro-",
+          "references": [
+            "pro-"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "anti-independence citizens",
+          "references": [
+            "anti-independence citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "feline photos",
+          "references": [
+            "feline photos"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "messages",
+          "references": [
+            "messages"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "voters",
+          "references": [
+            "voters"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "a British exit",
+          "references": [
+            "a British exit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "\"Brexit",
+          "references": [
+            "\"Brexit"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

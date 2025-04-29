@@ -1,0 +1,240 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "entity2": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "justifications": [
+          "Related Experts: Richard LeBaron Image: British Queen Elizabeth II arrived to attend the opening of the fifth session of the Scottish Parliament in Edinburgh, Scotland, on July 2."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "Related Experts",
+          "references": [
+            "Related Experts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "British Queen Elizabeth II",
+          "references": [
+            "British Queen Elizabeth II"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "the opening",
+          "references": [
+            "the opening"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "the fifth session",
+          "references": [
+            "the fifth session"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "Edinburgh",
+          "references": [
+            "Edinburgh"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "Scotland",
+          "references": [
+            "Scotland"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "LeBaron",
+          "references": [
+            "http://dbpedia.org/resource/LeBaron_Incorporated"
+          ]
+        },
+        "target": {
+          "topic": "July",
+          "references": [
+            "July"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "Related Experts",
+          "references": [
+            "Related Experts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "British Queen Elizabeth II",
+          "references": [
+            "British Queen Elizabeth II"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "the opening",
+          "references": [
+            "the opening"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "the fifth session",
+          "references": [
+            "the fifth session"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "Edinburgh",
+          "references": [
+            "Edinburgh"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "Scotland",
+          "references": [
+            "Scotland"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "July",
+          "references": [
+            "July"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

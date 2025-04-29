@@ -1,0 +1,176 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Leaders of NATO and the European Union nations have signed a \"historic deal\" to boost their cooperation in defense against new challenges."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "Leaders",
+          "references": [
+            "Leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "a \"historic deal",
+          "references": [
+            "a \"historic deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "their cooperation",
+          "references": [
+            "their cooperation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "defense",
+          "references": [
+            "defense"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "new challenges",
+          "references": [
+            "new challenges"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Leaders",
+          "references": [
+            "Leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a \"historic deal",
+          "references": [
+            "a \"historic deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "their cooperation",
+          "references": [
+            "their cooperation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "defense",
+          "references": [
+            "defense"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "new challenges",
+          "references": [
+            "new challenges"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

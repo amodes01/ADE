@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Empire",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Empire",
+          "references": [
+            "http://dbpedia.org/resource/British_Empire"
+          ]
+        },
+        "target": {
+          "topic": "a role",
+          "references": [
+            "a role"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

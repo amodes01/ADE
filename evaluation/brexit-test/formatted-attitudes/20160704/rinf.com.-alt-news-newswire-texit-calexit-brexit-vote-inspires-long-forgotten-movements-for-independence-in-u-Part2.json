@@ -1,0 +1,263 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "North Dakota",
+          "references": [
+            "http://dbpedia.org/resource/North_Dakota"
+          ]
+        },
+        "entity2": {
+          "entity": "South Dakota",
+          "references": [
+            "http://dbpedia.org/resource/South_Dakota"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Nebraska",
+          "references": [
+            "http://dbpedia.org/resource/Nebraska_Territory"
+          ]
+        },
+        "entity2": {
+          "entity": "North Dakota",
+          "references": [
+            "http://dbpedia.org/resource/North_Dakota"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "North Dakota",
+          "references": [
+            "http://dbpedia.org/resource/North_Dakota"
+          ]
+        },
+        "entity2": {
+          "entity": "Wyoming",
+          "references": [
+            "http://dbpedia.org/resource/Wyoming"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Montana",
+          "references": [
+            "http://dbpedia.org/resource/Montana"
+          ]
+        },
+        "entity2": {
+          "entity": "North Dakota",
+          "references": [
+            "http://dbpedia.org/resource/North_Dakota"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Nebraska",
+          "references": [
+            "http://dbpedia.org/resource/Nebraska_Territory"
+          ]
+        },
+        "entity2": {
+          "entity": "South Dakota",
+          "references": [
+            "http://dbpedia.org/resource/South_Dakota"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "South Dakota",
+          "references": [
+            "http://dbpedia.org/resource/South_Dakota"
+          ]
+        },
+        "entity2": {
+          "entity": "Wyoming",
+          "references": [
+            "http://dbpedia.org/resource/Wyoming"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Montana",
+          "references": [
+            "http://dbpedia.org/resource/Montana"
+          ]
+        },
+        "entity2": {
+          "entity": "South Dakota",
+          "references": [
+            "http://dbpedia.org/resource/South_Dakota"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Nebraska",
+          "references": [
+            "http://dbpedia.org/resource/Nebraska_Territory"
+          ]
+        },
+        "entity2": {
+          "entity": "Wyoming",
+          "references": [
+            "http://dbpedia.org/resource/Wyoming"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Montana",
+          "references": [
+            "http://dbpedia.org/resource/Montana"
+          ]
+        },
+        "entity2": {
+          "entity": "Nebraska",
+          "references": [
+            "http://dbpedia.org/resource/Nebraska_Territory"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Montana",
+          "references": [
+            "http://dbpedia.org/resource/Montana"
+          ]
+        },
+        "entity2": {
+          "entity": "Wyoming",
+          "references": [
+            "http://dbpedia.org/resource/Wyoming"
+          ]
+        },
+        "justifications": [
+          "territories of North Dakota, South Dakota, Nebraska, Wyoming and Montana."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "North Dakota",
+          "references": [
+            "http://dbpedia.org/resource/North_Dakota"
+          ]
+        },
+        "target": {
+          "topic": "territories",
+          "references": [
+            "territories"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "South Dakota",
+          "references": [
+            "http://dbpedia.org/resource/South_Dakota"
+          ]
+        },
+        "target": {
+          "topic": "territories",
+          "references": [
+            "territories"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Nebraska",
+          "references": [
+            "http://dbpedia.org/resource/Nebraska_Territory"
+          ]
+        },
+        "target": {
+          "topic": "territories",
+          "references": [
+            "territories"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wyoming",
+          "references": [
+            "http://dbpedia.org/resource/Wyoming"
+          ]
+        },
+        "target": {
+          "topic": "territories",
+          "references": [
+            "territories"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Montana",
+          "references": [
+            "http://dbpedia.org/resource/Montana"
+          ]
+        },
+        "target": {
+          "topic": "territories",
+          "references": [
+            "territories"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

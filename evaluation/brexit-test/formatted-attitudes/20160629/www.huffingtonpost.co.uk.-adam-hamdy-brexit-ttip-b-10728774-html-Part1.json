@@ -1,0 +1,263 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "Transatlantic",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_crossing"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Transatlantic",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_crossing"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "entity2": {
+          "entity": "Transatlantic",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_crossing"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Transatlantic",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_crossing"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "justifications": [
+          "Reports coming out of Brussels and Washington suggest that the Transatlantic Trade and Investment Partnership, otherwise known as TTIP, has been crippled, possibly killed, by Brexit."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "Reports",
+          "references": [
+            "Reports"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "Reports",
+          "references": [
+            "Reports"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Transatlantic",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_crossing"
+          ]
+        },
+        "target": {
+          "topic": "Reports",
+          "references": [
+            "Reports"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "TTIP",
+          "references": [
+            "http://dbpedia.org/resource/Transatlantic_Trade_and_Investment_Partnership"
+          ]
+        },
+        "target": {
+          "topic": "Reports",
+          "references": [
+            "Reports"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Reports",
+          "references": [
+            "Reports"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "entity2": {
+          "entity": "Sunderland",
+          "references": [
+            "http://dbpedia.org/resource/Sunderland"
+          ]
+        },
+        "justifications": [
+          "world-class factory in Sunderland in northeast England."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Sunderland",
+          "references": [
+            "http://dbpedia.org/resource/Sunderland"
+          ]
+        },
+        "target": {
+          "topic": "world-class factory",
+          "references": [
+            "world-class factory"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "world-class factory",
+          "references": [
+            "world-class factory"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

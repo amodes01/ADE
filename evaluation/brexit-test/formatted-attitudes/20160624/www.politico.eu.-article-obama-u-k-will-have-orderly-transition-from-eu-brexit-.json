@@ -1,0 +1,262 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "President Barack Obama on Friday said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "President Barack Obama on Friday said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "President Barack Obama on Friday said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "an orderly transition",
+          "references": [
+            "an orderly transition"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "an orderly transition",
+          "references": [
+            "an orderly transition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "an orderly transition",
+          "references": [
+            "an orderly transition"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "Stanford University",
+          "references": [
+            "Stanford University"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "Obama",
+          "references": [
+            "Obama"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "British Prime Minister David Cameron",
+          "references": [
+            "British Prime Minister David Cameron"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "German Chancellor Angela Merkel",
+          "references": [
+            "German Chancellor Angela Merkel"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "the U.K.",
+          "references": [
+            "the U.K."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Global Entrepreneurship Summit",
+          "references": [
+            "http://dbpedia.org/resource/Global_Entrepreneurship_Summit"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

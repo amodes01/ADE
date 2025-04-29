@@ -1,0 +1,602 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "justifications": [
+          "In a rare editorial for EnergyDesk, its editor Damian Kahya spells out the implications of what Brexit would mean for climate policies: \"Whilst the most urgent environmental problems of our time demand collective action, many who support the Out campaign do so because they want to free us from what they see as the EU's burdensome regulations on climate change and the environment."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "In a rare editorial for EnergyDesk, its editor Damian Kahya spells out the implications of what Brexit would mean for climate policies: \"Whilst the most urgent environmental problems of our time demand collective action, many who support the Out campaign do so because they want to free us from what they see as the EU's burdensome regulations on climate change and the environment."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "In a rare editorial for EnergyDesk, its editor Damian Kahya spells out the implications of what Brexit would mean for climate policies: \"Whilst the most urgent environmental problems of our time demand collective action, many who support the Out campaign do so because they want to free us from what they see as the EU's burdensome regulations on climate change and the environment."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "a rare editorial",
+          "references": [
+            "a rare editorial"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "EnergyDesk",
+          "references": [
+            "EnergyDesk"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "its editor",
+          "references": [
+            "its editor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "climate policies",
+          "references": [
+            "climate policies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "the most urgent environmental problems",
+          "references": [
+            "the most urgent environmental problems"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "our time",
+          "references": [
+            "our time"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "collective action",
+          "references": [
+            "collective action"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "the Out campaign",
+          "references": [
+            "the Out campaign"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "climate change",
+          "references": [
+            "climate change"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Damian",
+          "references": [
+            "http://dbpedia.org/resource/Damian_Wayne"
+          ]
+        },
+        "target": {
+          "topic": "the environment",
+          "references": [
+            "the environment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a rare editorial",
+          "references": [
+            "a rare editorial"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "EnergyDesk",
+          "references": [
+            "EnergyDesk"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "its editor",
+          "references": [
+            "its editor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "climate policies",
+          "references": [
+            "climate policies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the most urgent environmental problems",
+          "references": [
+            "the most urgent environmental problems"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "our time",
+          "references": [
+            "our time"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "collective action",
+          "references": [
+            "collective action"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the Out campaign",
+          "references": [
+            "the Out campaign"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "climate change",
+          "references": [
+            "climate change"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the environment",
+          "references": [
+            "the environment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a rare editorial",
+          "references": [
+            "a rare editorial"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "EnergyDesk",
+          "references": [
+            "EnergyDesk"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its editor",
+          "references": [
+            "its editor"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "climate policies",
+          "references": [
+            "climate policies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the most urgent environmental problems",
+          "references": [
+            "the most urgent environmental problems"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "our time",
+          "references": [
+            "our time"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "collective action",
+          "references": [
+            "collective action"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the Out campaign",
+          "references": [
+            "the Out campaign"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "us",
+          "references": [
+            "us"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "climate change",
+          "references": [
+            "climate change"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the environment",
+          "references": [
+            "the environment"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

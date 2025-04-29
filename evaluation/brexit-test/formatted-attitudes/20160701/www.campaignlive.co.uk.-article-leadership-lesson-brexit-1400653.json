@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Singapore",
+          "references": [
+            "http://dbpedia.org/resource/Singapore"
+          ]
+        },
+        "justifications": [
+          "I agreed to write this piece on the flight from London to Singapore."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "this piece",
+          "references": [
+            "this piece"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the flight",
+          "references": [
+            "the flight"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Singapore",
+          "references": [
+            "http://dbpedia.org/resource/Singapore"
+          ]
+        },
+        "target": {
+          "topic": "this piece",
+          "references": [
+            "this piece"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Singapore",
+          "references": [
+            "http://dbpedia.org/resource/Singapore"
+          ]
+        },
+        "target": {
+          "topic": "the flight",
+          "references": [
+            "the flight"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

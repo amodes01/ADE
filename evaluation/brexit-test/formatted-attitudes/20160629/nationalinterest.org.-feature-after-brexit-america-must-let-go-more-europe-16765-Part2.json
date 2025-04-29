@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "entity2": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "entity2": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "justifications": [
+          "Republicans under Eisenhower were still shedding the isolationism that had made them fierce opponents of aid to Britain and France against Hitler."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "target": {
+          "topic": "the isolationism",
+          "references": [
+            "the isolationism"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "target": {
+          "topic": "aid",
+          "references": [
+            "aid"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Republicans",
+          "references": [
+            "http://dbpedia.org/resource/Republicanism"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "target": {
+          "topic": "the isolationism",
+          "references": [
+            "the isolationism"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "target": {
+          "topic": "aid",
+          "references": [
+            "aid"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Eisenhower",
+          "references": [
+            "http://dbpedia.org/resource/Dwight_D._Eisenhower"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "target": {
+          "topic": "the isolationism",
+          "references": [
+            "the isolationism"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "target": {
+          "topic": "aid",
+          "references": [
+            "aid"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "the isolationism",
+          "references": [
+            "the isolationism"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "aid",
+          "references": [
+            "aid"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

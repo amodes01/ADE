@@ -1,0 +1,406 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UN",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "PassBlue",
+          "references": [
+            "PassBlue"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "justifications": [
+          "\"Now, having said that, if this referendum - based in some part on (presumptive US Republican presidential nominee Donald) Trumpesque lies or fabrications in the Brexit camp - as commentators are suggesting and some British people who voted to leave are now regretting and wanting to reverse - brings on an unexpected global recession, and London loses a lot of financial clout, that may set back British credibility and influence more generally."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "some part",
+          "references": [
+            "some part"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "Donald",
+          "references": [
+            "Donald"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "fabrications",
+          "references": [
+            "fabrications"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit camp",
+          "references": [
+            "the Brexit camp"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "commentators",
+          "references": [
+            "commentators"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "some British people",
+          "references": [
+            "some British people"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "an unexpected global recession",
+          "references": [
+            "an unexpected global recession"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "a lot",
+          "references": [
+            "a lot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "financial clout",
+          "references": [
+            "financial clout"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "British credibility",
+          "references": [
+            "British credibility"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/Second_Spanish_Republic"
+          ]
+        },
+        "target": {
+          "topic": "influence",
+          "references": [
+            "influence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "some part",
+          "references": [
+            "some part"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "Donald",
+          "references": [
+            "Donald"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "fabrications",
+          "references": [
+            "fabrications"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit camp",
+          "references": [
+            "the Brexit camp"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "commentators",
+          "references": [
+            "commentators"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "some British people",
+          "references": [
+            "some British people"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "an unexpected global recession",
+          "references": [
+            "an unexpected global recession"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a lot",
+          "references": [
+            "a lot"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "financial clout",
+          "references": [
+            "financial clout"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "British credibility",
+          "references": [
+            "British credibility"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Trumpesque",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "influence",
+          "references": [
+            "influence"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

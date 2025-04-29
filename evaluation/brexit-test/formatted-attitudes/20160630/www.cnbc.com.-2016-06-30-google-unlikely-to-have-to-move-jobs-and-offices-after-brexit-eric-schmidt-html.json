@@ -1,0 +1,596 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "entity2": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Google is unlikely to change any of its operations in Europe as a result of Britain's decision to leave the European Union (EU), Eric Schmidt, executive chairman of parent company Alphabet said on Thursday."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "its operations",
+          "references": [
+            "its operations"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "executive chairman",
+          "references": [
+            "executive chairman"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "parent company",
+          "references": [
+            "parent company"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "Alphabet",
+          "references": [
+            "Alphabet"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Google",
+          "references": [
+            "http://dbpedia.org/resource/Google"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "its operations",
+          "references": [
+            "its operations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "executive chairman",
+          "references": [
+            "executive chairman"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "parent company",
+          "references": [
+            "parent company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Alphabet",
+          "references": [
+            "Alphabet"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its operations",
+          "references": [
+            "its operations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "executive chairman",
+          "references": [
+            "executive chairman"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "parent company",
+          "references": [
+            "parent company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Alphabet",
+          "references": [
+            "Alphabet"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "its operations",
+          "references": [
+            "its operations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "executive chairman",
+          "references": [
+            "executive chairman"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "parent company",
+          "references": [
+            "parent company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "Alphabet",
+          "references": [
+            "Alphabet"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Eric Schmidt",
+          "references": [
+            "http://dbpedia.org/resource/Eric_Schmidt"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

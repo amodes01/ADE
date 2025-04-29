@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Syrian refugees",
+          "references": [
+            "http://dbpedia.org/resource/Refugees_of_the_Syrian_civil_war"
+          ]
+        },
+        "justifications": [
+          "Bernardino last December, Trump amped up warnings about Syrian refugees immigrating to the United States."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Bernardino last December, Trump amped up warnings about Syrian refugees immigrating to the United States."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Syrian refugees",
+          "references": [
+            "http://dbpedia.org/resource/Refugees_of_the_Syrian_civil_war"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Bernardino last December, Trump amped up warnings about Syrian refugees immigrating to the United States."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "warnings",
+          "references": [
+            "warnings"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Syrian refugees",
+          "references": [
+            "http://dbpedia.org/resource/Refugees_of_the_Syrian_civil_war"
+          ]
+        },
+        "target": {
+          "topic": "warnings",
+          "references": [
+            "warnings"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "warnings",
+          "references": [
+            "warnings"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

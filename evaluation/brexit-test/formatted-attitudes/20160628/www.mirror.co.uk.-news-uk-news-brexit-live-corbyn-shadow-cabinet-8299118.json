@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "entity2": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "entity2": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "entity2": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "entity2": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "entity2": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "entity2": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "justifications": [
+          "17:16 Alastair Campbell: \"We are becoming a laughing stock\" Labour's Alastair Campbell has had a passionate rant about Jeremy Corbyn and the future of the Labour party on BBC News He said: \"We are becoming a laughing stock."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "target": {
+          "topic": "a laughing stock",
+          "references": [
+            "a laughing stock"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "target": {
+          "topic": "a passionate rant",
+          "references": [
+            "a passionate rant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Labour"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "target": {
+          "topic": "a laughing stock",
+          "references": [
+            "a laughing stock"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "target": {
+          "topic": "a passionate rant",
+          "references": [
+            "a passionate rant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Alastair Campbell",
+          "references": [
+            "http://dbpedia.org/resource/Alastair_Campbell"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "target": {
+          "topic": "a laughing stock",
+          "references": [
+            "a laughing stock"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "target": {
+          "topic": "a passionate rant",
+          "references": [
+            "a passionate rant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jeremy Corbyn",
+          "references": [
+            "http://dbpedia.org/resource/Jeremy_Corbyn"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "a laughing stock",
+          "references": [
+            "a laughing stock"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "a passionate rant",
+          "references": [
+            "a passionate rant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BBC News",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

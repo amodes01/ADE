@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As Donald Trump presses the attack in cruising toward the Republican presidential nomination, millions of British voters headed to the polls Thursday to decide on whether to wrench the United Kingdom out of the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the attack",
+          "references": [
+            "the attack"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the polls",
+          "references": [
+            "the polls"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the attack",
+          "references": [
+            "the attack"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Republican",
+          "references": [
+            "http://dbpedia.org/resource/California_Republican_Party"
+          ]
+        },
+        "target": {
+          "topic": "the polls",
+          "references": [
+            "the polls"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the attack",
+          "references": [
+            "the attack"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the polls",
+          "references": [
+            "the polls"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the attack",
+          "references": [
+            "the attack"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the polls",
+          "references": [
+            "the polls"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "AAA",
+          "references": [
+            "http://dbpedia.org/resource/American_Automobile_Association"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "significant risks to the UK economy as evidenced by the credit rating downgrades the AAA UK has just been dealt."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "significant risks",
+          "references": [
+            "significant risks"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the credit rating",
+          "references": [
+            "the credit rating"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "AAA",
+          "references": [
+            "http://dbpedia.org/resource/American_Automobile_Association"
+          ]
+        },
+        "target": {
+          "topic": "significant risks",
+          "references": [
+            "significant risks"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "AAA",
+          "references": [
+            "http://dbpedia.org/resource/American_Automobile_Association"
+          ]
+        },
+        "target": {
+          "topic": "the credit rating",
+          "references": [
+            "the credit rating"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

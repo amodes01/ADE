@@ -1124,48 +1124,63 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
 
 
 
-def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
-    """Evaluate POLAR predictions when both paths contain subdirectories of JSON files."""
+def evaluate_predictions_two_dirs(true_dir, pred_dir):
+    """Evaluate predictions in pred_dir against ground truths in true_dir."""
+
+    # Get all subdirectories
+    true_subdirs = [os.path.join(true_dir, d) for d in os.listdir(true_dir) if os.path.isdir(os.path.join(true_dir, d))]
+    pred_subdirs = [os.path.join(pred_dir, d) for d in os.listdir(pred_dir) if os.path.isdir(os.path.join(pred_dir, d))]
     
-    def collect_pickle_paths(base_path):
-        pkl_paths = {}
-        for root, _, files in os.walk(base_path):
-            for file in files:
-                if file.lower().endswith(".pckl"):
-                    rel_path = os.path.relpath(os.path.join(root, file), base_path)
-                    # Preserve original path for later use
-                    original_path = os.path.join(root, file)
-                    # Remove "polar_Results-" ONLY for comparison
-                    clean_rel_path = rel_path.replace("polar_Results-", "")
-                    # Normalize to lowercase for case-insensitive comparison
-                    normalized_key = clean_rel_path.lower()
-                    pkl_paths[normalized_key] = original_path  # Store original path
-        return pkl_paths
-
-    true_paths = collect_pickle_paths(true_dataset_root)
-    polar_paths = collect_pickle_paths(polar_dir_root)
-
-    print(f"Found {len(true_paths)} true dataset files and {len(polar_paths)} POLAR prediction files.")
-    print(f"True dataset path: {true_dataset_root}")
-    print(f"POLAR prediction path: {polar_dir_root}")
-
-    # Find common files (case-insensitive + polar_Results- removed for comparison)
-    common_files = set(true_paths.keys()) & set(polar_paths.keys())
-
-    if not common_files:
-        print("No matching files found between the true dataset and the POLAR predictions.")
-        return
+    # Sort for matching order
+    true_subdirs.sort()
+    pred_subdirs.sort()
     
+    # Mapping from subdirectory name to path for faster lookup
+    pred_subdir_map = {os.path.basename(d): d for d in pred_subdirs}
+    
+    # Storage
+    true_pred_pairs = []
 
-    # Check for files in one set but not the other
-    only_in_true = set(true_paths.keys()) - set(polar_paths.keys())
-    only_in_polar = set(polar_paths.keys()) - set(true_paths.keys())
-    print(f"Files only in true: {len(only_in_true)}, only in polar: {len(only_in_polar)}")
+    for true_subdir in true_subdirs:
+        subdir_name = os.path.basename(true_subdir)
+        pred_subdir = pred_subdir_map.get(subdir_name)
+        if not pred_subdir:
+            continue  # No matching subdir
 
-    # Example: Save mismatches to a file for inspection
-    with open("path_mismatches.txt", "w") as f:
-        f.write("TRUE ONLY:\n" + "\n".join(sorted(only_in_true))) 
-        f.write("\n\nPOLAR ONLY:\n" + "\n".join(sorted(only_in_polar)))
+        # List JSON files inside
+        true_files = [f for f in os.listdir(true_subdir) if f.endswith('.json')]
+        true_files.sort()
+
+        for true_file in true_files:
+            true_file_path = os.path.join(true_subdir, true_file)
+            pred_file_path = os.path.join(pred_subdir, true_file)
+
+            if os.path.exists(pred_file_path):
+                with open(true_file_path, 'r', encoding='utf-8') as f_true:
+                    try:
+                        true_data = json.load(f_true)
+                    except json.JSONDecodeError:
+                        true_data = {}
+                with open(pred_file_path, 'r', encoding='utf-8') as f_pred:
+                    try:
+                        pred_data = json.load(f_pred)
+                    except json.JSONDecodeError:
+                        pred_data = {}
+
+                true_pred_pairs.append((true_data, pred_data))
+            else:
+                # If pred file missing, compare to empty dict
+                with open(true_file_path, 'r', encoding='utf-8') as f_true:
+                    try:
+                        true_data = json.load(f_true)
+                    except json.JSONDecodeError:
+                        true_data = {}
+                pred_data = {}
+
+                true_pred_pairs.append((true_data, pred_data))
+
+
+    num_samples = len(true_pred_pairs)
 
     # Initialize results storage
     all_metrics = {
@@ -1187,41 +1202,34 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
     }
 
     overall_attitude_summary = {
-        "true_data": {"entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-                      "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}},
-        "pred_data": {"entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-                      "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}}
+        "true_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        },
+        "pred_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        }
     }
 
-    for i, rel_path in enumerate(tqdm(sorted(common_files), desc="Evaluating samples", unit="file")):
-
-        if i>3:
-            continue
-        try:
-            true_data = unpickle(true_paths[rel_path])
-        except Exception as e:
-            print(f"Failed to unpickle true file {true_paths[rel_path]}: {e}")
-            continue
-
-        try:
-            pred_data = unpickle(polar_paths[rel_path])
-        except Exception as e:
-            print(f"Failed to unpickle pred file {polar_paths[rel_path]}: {e}")
-            continue
+    # for idx, (true_json, pred_json) in enumerate(tqdm(true_pred_pairs, desc="Evaluating samples", unit="sample")):
+    #     # true_json and pred_json are dictionaries here
         
-        print("TRUE DATA SAMPLE:")
-        print(true_data)
-        print(type(true_data))
-        print("="*50)
-        print("PRED DATA SAMPLE:")
-        print(pred_data)
-        print(type(pred_data))
+    #     if not true_json or not pred_json:
+    #         continue
 
 
-        if not true_data or not pred_data:
+    #     metrics = calculate_metrics_polar(true_json, pred_json)
+
+    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
+        # Extract JSON for ground truth
+        true_data, pred_data = true_pred_pairs[i]
+
+        if not true_data:
             continue
 
-# Extract all unique entities and topics from true and pred data
+
+        # Extract all unique entities and topics from true and pred data
         def extract_unique_items(data,Polar=False):
             entities = set()
             topics = set()
@@ -1403,7 +1411,7 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
             }
         }
 
-        # Final aggregation
+        # Aggregate counts
         for category in ["entity", "topical"]:
             for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
                 for metric, value in metrics[category][count_type].items():
@@ -1432,18 +1440,19 @@ def evaluate_predictions_polar_recursive(true_dataset_root, polar_dir_root):
             "sample_counts": all_metrics["topical"]["total_counts"]
         }
     })
-
+    
     for category in ["entity", "topical"]:
         all_metrics[category].update(final_metrics.get(category, {}))
 
-    all_metrics["attitude_summary"] = overall_attitude_summary
-
+    # Print summary and visualize
     print("\nEvaluation Summary:")
-    print("=" * 50)
+    print("="*50)
+    
+    # ... (rest of your existing summary printing code)
+
     visualize_metrics(all_metrics, True)
-
+    
     return all_metrics
-
 
 
 if __name__ == "__main__":
@@ -1451,12 +1460,12 @@ if __name__ == "__main__":
     pred_files_path = "./test.dataset.pckl"
     polar_files_path = "./Polar_New/attitudes"
 
-    brexit_dataset_path = "../test-brexit/gpt_attitudes"
-    brexit_polar_path = "./brexit-test/attitudes"
+    brexit_dataset_path = "../test-brexit/gpt_results"
+    brexit_polar_path = "./brexit-test/formatted-attitudes"
 
     # evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
 
-    brexit_results = evaluate_predictions_polar_recursive(brexit_dataset_path, brexit_polar_path)
+    brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
 
     with open("brexit_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(brexit_results), f, indent=4)

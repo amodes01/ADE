@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_Great_Britain"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "When Great Britain surprisingly voted to leave the European Union, the eyes of the nation quickly turned to Texas."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_Great_Britain"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "When Great Britain surprisingly voted to leave the European Union, the eyes of the nation quickly turned to Texas."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "When Great Britain surprisingly voted to leave the European Union, the eyes of the nation quickly turned to Texas."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_Great_Britain"
+          ]
+        },
+        "target": {
+          "topic": "the eyes",
+          "references": [
+            "the eyes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Great Britain",
+          "references": [
+            "http://dbpedia.org/resource/Kingdom_of_Great_Britain"
+          ]
+        },
+        "target": {
+          "topic": "the nation",
+          "references": [
+            "the nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the eyes",
+          "references": [
+            "the eyes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the nation",
+          "references": [
+            "the nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the eyes",
+          "references": [
+            "the eyes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the nation",
+          "references": [
+            "the nation"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

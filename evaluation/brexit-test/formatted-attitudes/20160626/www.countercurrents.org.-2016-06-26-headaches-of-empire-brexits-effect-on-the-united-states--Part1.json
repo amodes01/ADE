@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "President Barack Obama, like other leaders who were taking the gruel of Brexit for his breakfast serving, did not react well to the referendum result."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "other leaders",
+          "references": [
+            "other leaders"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the gruel",
+          "references": [
+            "the gruel"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the referendum result",
+          "references": [
+            "the referendum result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "other leaders",
+          "references": [
+            "other leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the gruel",
+          "references": [
+            "the gruel"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the referendum result",
+          "references": [
+            "the referendum result"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

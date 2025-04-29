@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Israel",
+          "references": [
+            "http://dbpedia.org/resource/Israel"
+          ]
+        },
+        "entity2": {
+          "entity": "Palestine",
+          "references": [
+            "http://dbpedia.org/resource/State_of_Palestine"
+          ]
+        },
+        "justifications": [
+          "of Israel/Palestine, the Middle East, or agricultural or education policy."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Israel",
+          "references": [
+            "http://dbpedia.org/resource/Israel"
+          ]
+        },
+        "target": {
+          "topic": "the Middle East",
+          "references": [
+            "the Middle East"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Israel",
+          "references": [
+            "http://dbpedia.org/resource/Israel"
+          ]
+        },
+        "target": {
+          "topic": "agricultural or education policy",
+          "references": [
+            "agricultural or education policy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Palestine",
+          "references": [
+            "http://dbpedia.org/resource/State_of_Palestine"
+          ]
+        },
+        "target": {
+          "topic": "the Middle East",
+          "references": [
+            "the Middle East"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Palestine",
+          "references": [
+            "http://dbpedia.org/resource/State_of_Palestine"
+          ]
+        },
+        "target": {
+          "topic": "agricultural or education policy",
+          "references": [
+            "agricultural or education policy"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

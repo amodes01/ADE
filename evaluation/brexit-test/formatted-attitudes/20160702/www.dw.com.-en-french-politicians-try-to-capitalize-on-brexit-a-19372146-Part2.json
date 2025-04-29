@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "DW",
+          "references": [
+            "http://dbpedia.org/resource/Deutsche_Welle"
+          ]
+        },
+        "target": {
+          "topic": "the far right",
+          "references": [
+            "the far right"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "DW",
+          "references": [
+            "http://dbpedia.org/resource/Deutsche_Welle"
+          ]
+        },
+        "target": {
+          "topic": "a very dangerous trend",
+          "references": [
+            "a very dangerous trend"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

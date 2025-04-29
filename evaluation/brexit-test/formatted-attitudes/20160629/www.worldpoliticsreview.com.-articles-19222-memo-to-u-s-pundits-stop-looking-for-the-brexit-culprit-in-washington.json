@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "U.S. foreign policy",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_policy_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "In the aftermath of the Brexit referendum, the debate among U.S. foreign policy pundits has taken a predictable and customary turn: looking for who is to blame."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the aftermath",
+          "references": [
+            "the aftermath"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the debate",
+          "references": [
+            "the debate"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "a predictable and customary turn",
+          "references": [
+            "a predictable and customary turn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.S. foreign policy",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_policy_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the aftermath",
+          "references": [
+            "the aftermath"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.S. foreign policy",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_policy_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the debate",
+          "references": [
+            "the debate"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.S. foreign policy",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_policy_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "a predictable and customary turn",
+          "references": [
+            "a predictable and customary turn"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

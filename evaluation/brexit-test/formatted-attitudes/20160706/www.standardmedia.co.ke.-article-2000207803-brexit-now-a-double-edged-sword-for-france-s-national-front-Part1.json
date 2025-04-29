@@ -1,0 +1,236 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "National Front",
+          "references": [
+            "http://dbpedia.org/resource/National_Rally"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "National Front",
+          "references": [
+            "http://dbpedia.org/resource/National_Rally"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "entity2": {
+          "entity": "National Front",
+          "references": [
+            "http://dbpedia.org/resource/National_Rally"
+          ]
+        },
+        "justifications": [
+          "Paris: Britain's vote to leave the European Union looks like a boost for France's eurosceptic National Front."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a boost",
+          "references": [
+            "a boost"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a boost",
+          "references": [
+            "a boost"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/French_Third_Republic"
+          ]
+        },
+        "target": {
+          "topic": "a boost",
+          "references": [
+            "a boost"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "National Front",
+          "references": [
+            "http://dbpedia.org/resource/National_Rally"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "National Front",
+          "references": [
+            "http://dbpedia.org/resource/National_Rally"
+          ]
+        },
+        "target": {
+          "topic": "a boost",
+          "references": [
+            "a boost"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

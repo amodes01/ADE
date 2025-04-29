@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "justifications": [
+          "independence referendum, the EU said Scotland could apply for membership but would go to the \"back of the queue\", behind the likes of Serbia, and that its hope of keeping the pound rather than the euro was a non-starter."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "justifications": [
+          "independence referendum, the EU said Scotland could apply for membership but would go to the \"back of the queue\", behind the likes of Serbia, and that its hope of keeping the pound rather than the euro was a non-starter."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "entity2": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "justifications": [
+          "independence referendum, the EU said Scotland could apply for membership but would go to the \"back of the queue\", behind the likes of Serbia, and that its hope of keeping the pound rather than the euro was a non-starter."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "membership",
+          "references": [
+            "membership"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the \"back",
+          "references": [
+            "the \"back"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the queue",
+          "references": [
+            "the queue"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the likes",
+          "references": [
+            "the likes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its hope",
+          "references": [
+            "its hope"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the euro",
+          "references": [
+            "the euro"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "starter",
+          "references": [
+            "starter"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "membership",
+          "references": [
+            "membership"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "the \"back",
+          "references": [
+            "the \"back"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "the queue",
+          "references": [
+            "the queue"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "the likes",
+          "references": [
+            "the likes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "its hope",
+          "references": [
+            "its hope"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "the euro",
+          "references": [
+            "the euro"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "starter",
+          "references": [
+            "starter"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "membership",
+          "references": [
+            "membership"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "the \"back",
+          "references": [
+            "the \"back"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "the queue",
+          "references": [
+            "the queue"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "the likes",
+          "references": [
+            "the likes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "its hope",
+          "references": [
+            "its hope"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "the pound",
+          "references": [
+            "the pound"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "the euro",
+          "references": [
+            "the euro"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Serbia",
+          "references": [
+            "http://dbpedia.org/resource/Serbia"
+          ]
+        },
+        "target": {
+          "topic": "starter",
+          "references": [
+            "starter"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

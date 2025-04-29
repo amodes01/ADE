@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "TNM",
+          "references": [
+            "http://dbpedia.org/resource/TNM_staging_system"
+          ]
+        },
+        "entity2": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "justifications": [
+          "National Movement, TNM, is calling for a Texit secession through a referendum, just like the British have done in the UK."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "TNM",
+          "references": [
+            "http://dbpedia.org/resource/TNM_staging_system"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "National Movement, TNM, is calling for a Texit secession through a referendum, just like the British have done in the UK."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "National Movement, TNM, is calling for a Texit secession through a referendum, just like the British have done in the UK."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "TNM",
+          "references": [
+            "http://dbpedia.org/resource/TNM_staging_system"
+          ]
+        },
+        "target": {
+          "topic": "National Movement",
+          "references": [
+            "National Movement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "TNM",
+          "references": [
+            "http://dbpedia.org/resource/TNM_staging_system"
+          ]
+        },
+        "target": {
+          "topic": "a referendum",
+          "references": [
+            "a referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "National Movement",
+          "references": [
+            "National Movement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "a referendum",
+          "references": [
+            "a referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "National Movement",
+          "references": [
+            "National Movement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a referendum",
+          "references": [
+            "a referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "entity2": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "justifications": [
+          "United Nations envoy Mary Robinson has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "justifications": [
+          "United Nations envoy Mary Robinson has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "justifications": [
+          "United Nations envoy Mary Robinson has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "the international community",
+          "references": [
+            "the international community"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "events",
+          "references": [
+            "events"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "Ethiopians",
+          "references": [
+            "Ethiopians"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "the worst drought",
+          "references": [
+            "the worst drought"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Nations",
+          "references": [
+            "http://dbpedia.org/resource/United_Nations"
+          ]
+        },
+        "target": {
+          "topic": "half a century",
+          "references": [
+            "half a century"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "the international community",
+          "references": [
+            "the international community"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "events",
+          "references": [
+            "events"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "Ethiopians",
+          "references": [
+            "Ethiopians"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "the worst drought",
+          "references": [
+            "the worst drought"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Mary Robinson",
+          "references": [
+            "http://dbpedia.org/resource/Mary_Robinson"
+          ]
+        },
+        "target": {
+          "topic": "half a century",
+          "references": [
+            "half a century"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the international community",
+          "references": [
+            "the international community"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "events",
+          "references": [
+            "events"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "millions",
+          "references": [
+            "millions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Ethiopians",
+          "references": [
+            "Ethiopians"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the worst drought",
+          "references": [
+            "the worst drought"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "half a century",
+          "references": [
+            "half a century"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

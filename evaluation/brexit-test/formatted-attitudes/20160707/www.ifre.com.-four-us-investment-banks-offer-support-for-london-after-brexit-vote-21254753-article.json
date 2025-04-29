@@ -1,0 +1,536 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "(Reuters) - Four US investment banks promised British finance minister George Osborne on Thursday that they would try to help London keep its top spot as a financial centre, but gave no commitment on jobs following Britain's vote to leave the European Union."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Four US investment banks",
+          "references": [
+            "Four US investment banks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "its top spot",
+          "references": [
+            "its top spot"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a financial centre",
+          "references": [
+            "a financial centre"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "no commitment",
+          "references": [
+            "no commitment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "Four US investment banks",
+          "references": [
+            "Four US investment banks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "its top spot",
+          "references": [
+            "its top spot"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "a financial centre",
+          "references": [
+            "a financial centre"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "no commitment",
+          "references": [
+            "no commitment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "George Osborne",
+          "references": [
+            "http://dbpedia.org/resource/George_Osborne"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Four US investment banks",
+          "references": [
+            "Four US investment banks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "its top spot",
+          "references": [
+            "its top spot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "a financial centre",
+          "references": [
+            "a financial centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "no commitment",
+          "references": [
+            "no commitment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Four US investment banks",
+          "references": [
+            "Four US investment banks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "its top spot",
+          "references": [
+            "its top spot"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a financial centre",
+          "references": [
+            "a financial centre"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "no commitment",
+          "references": [
+            "no commitment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "jobs",
+          "references": [
+            "jobs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

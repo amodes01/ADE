@@ -1,0 +1,126 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Lionel Barber",
+          "references": [
+            "http://dbpedia.org/resource/Lionel_Barber"
+          ]
+        },
+        "entity2": {
+          "entity": "Roger Cohen",
+          "references": [
+            "http://dbpedia.org/resource/Roger_Cohen"
+          ]
+        },
+        "justifications": [
+          "Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Lionel Barber",
+          "references": [
+            "http://dbpedia.org/resource/Lionel_Barber"
+          ]
+        },
+        "justifications": [
+          "Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Roger Cohen",
+          "references": [
+            "http://dbpedia.org/resource/Roger_Cohen"
+          ]
+        },
+        "justifications": [
+          "Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Fishmonger",
+          "references": [
+            "http://dbpedia.org/resource/Fishmonger"
+          ]
+        },
+        "target": {
+          "topic": "the Associated Press",
+          "references": [
+            "the Associated Press"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Fishmonger",
+          "references": [
+            "http://dbpedia.org/resource/Fishmonger"
+          ]
+        },
+        "target": {
+          "topic": "the market",
+          "references": [
+            "the market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Fishmonger",
+          "references": [
+            "http://dbpedia.org/resource/Fishmonger"
+          ]
+        },
+        "target": {
+          "topic": "Havering's Romford street market",
+          "references": [
+            "Havering's Romford street market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Fishmonger",
+          "references": [
+            "http://dbpedia.org/resource/Fishmonger"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

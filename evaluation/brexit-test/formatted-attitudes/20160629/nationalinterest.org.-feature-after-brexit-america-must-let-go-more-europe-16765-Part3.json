@@ -1,0 +1,416 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "entity2": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "entity2": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "entity2": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "justifications": [
+          "WTO rules, and post-Brexit arrangements must not result in market access for the United States or other third parties worse than those currently in force and established by bargaining in the Uruguay round and previous GATT rounds."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit arrangements",
+          "references": [
+            "post-Brexit arrangements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "target": {
+          "topic": "market access",
+          "references": [
+            "market access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "target": {
+          "topic": "other third parties",
+          "references": [
+            "other third parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "target": {
+          "topic": "force",
+          "references": [
+            "force"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "WTO",
+          "references": [
+            "http://dbpedia.org/resource/World_Trade_Organization"
+          ]
+        },
+        "target": {
+          "topic": "bargaining",
+          "references": [
+            "bargaining"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit arrangements",
+          "references": [
+            "post-Brexit arrangements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "market access",
+          "references": [
+            "market access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "other third parties",
+          "references": [
+            "other third parties"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "force",
+          "references": [
+            "force"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "bargaining",
+          "references": [
+            "bargaining"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit arrangements",
+          "references": [
+            "post-Brexit arrangements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "target": {
+          "topic": "market access",
+          "references": [
+            "market access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "target": {
+          "topic": "other third parties",
+          "references": [
+            "other third parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "target": {
+          "topic": "force",
+          "references": [
+            "force"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Uruguay",
+          "references": [
+            "http://dbpedia.org/resource/Uruguay"
+          ]
+        },
+        "target": {
+          "topic": "bargaining",
+          "references": [
+            "bargaining"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "target": {
+          "topic": "post-Brexit arrangements",
+          "references": [
+            "post-Brexit arrangements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "target": {
+          "topic": "market access",
+          "references": [
+            "market access"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "target": {
+          "topic": "other third parties",
+          "references": [
+            "other third parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "target": {
+          "topic": "force",
+          "references": [
+            "force"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "GATT",
+          "references": [
+            "http://dbpedia.org/resource/General_Agreement_on_Tariffs_and_Trade"
+          ]
+        },
+        "target": {
+          "topic": "bargaining",
+          "references": [
+            "bargaining"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

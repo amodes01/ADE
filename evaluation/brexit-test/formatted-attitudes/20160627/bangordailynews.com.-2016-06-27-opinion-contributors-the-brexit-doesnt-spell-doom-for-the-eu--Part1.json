@@ -1,0 +1,120 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom Independence Party",
+          "references": [
+            "http://dbpedia.org/resource/UK_Independence_Party"
+          ]
+        },
+        "justifications": [
+          "I hope we have knocked the first brick out of the wall,\" Nigel Farage, leader of the United Kingdom Independence Party, exulted."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "target": {
+          "topic": "the first brick",
+          "references": [
+            "the first brick"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "target": {
+          "topic": "the wall",
+          "references": [
+            "the wall"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "target": {
+          "topic": "leader",
+          "references": [
+            "leader"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom Independence Party",
+          "references": [
+            "http://dbpedia.org/resource/UK_Independence_Party"
+          ]
+        },
+        "target": {
+          "topic": "the first brick",
+          "references": [
+            "the first brick"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom Independence Party",
+          "references": [
+            "http://dbpedia.org/resource/UK_Independence_Party"
+          ]
+        },
+        "target": {
+          "topic": "the wall",
+          "references": [
+            "the wall"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom Independence Party",
+          "references": [
+            "http://dbpedia.org/resource/UK_Independence_Party"
+          ]
+        },
+        "target": {
+          "topic": "leader",
+          "references": [
+            "leader"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

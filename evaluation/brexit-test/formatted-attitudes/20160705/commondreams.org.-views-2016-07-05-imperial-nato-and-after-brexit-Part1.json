@@ -1,0 +1,176 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "justifications": [
+          "In his first public response to the Brexit vote that has shaken Europe and much of the world, President Obama sought to reassure Americans and others."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "his first public response",
+          "references": [
+            "his first public response"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Americans",
+          "references": [
+            "Americans"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "others",
+          "references": [
+            "others"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "his first public response",
+          "references": [
+            "his first public response"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Americans",
+          "references": [
+            "Americans"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "others",
+          "references": [
+            "others"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

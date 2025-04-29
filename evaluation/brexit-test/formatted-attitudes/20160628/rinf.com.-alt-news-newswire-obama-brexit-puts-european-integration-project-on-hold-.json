@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "Britain's decision to leave the EU has paused the project of full European integration, but will not cause \"major cataclysmic changes,\" US President Barack Obama said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Britain's decision to leave the EU has paused the project of full European integration, but will not cause \"major cataclysmic changes,\" US President Barack Obama said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "Britain's decision to leave the EU has paused the project of full European integration, but will not cause \"major cataclysmic changes,\" US President Barack Obama said."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the project",
+          "references": [
+            "the project"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "major cataclysmic changes",
+          "references": [
+            "major cataclysmic changes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "the project",
+          "references": [
+            "the project"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "major cataclysmic changes",
+          "references": [
+            "major cataclysmic changes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the project",
+          "references": [
+            "the project"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Barack Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "major cataclysmic changes",
+          "references": [
+            "major cataclysmic changes"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

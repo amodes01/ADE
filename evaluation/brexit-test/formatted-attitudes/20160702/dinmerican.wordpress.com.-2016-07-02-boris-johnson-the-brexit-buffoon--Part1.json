@@ -1,0 +1,120 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "DC",
+          "references": [
+            "http://dbpedia.org/resource/DC_Comics"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "Washington DC July 1."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "2016 Boris Johnson",
+          "references": [
+            "2016 Boris Johnson"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "D. D. Guttenplan",
+          "references": [
+            "D. D. Guttenplan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "THE problem",
+          "references": [
+            "THE problem"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "your whole life",
+          "references": [
+            "your whole life"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a buffoon",
+          "references": [
+            "a buffoon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BREXIT",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "people",
+          "references": [
+            "people"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

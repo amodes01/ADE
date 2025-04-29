@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Warren Buffett",
+          "references": [
+            "http://dbpedia.org/resource/Warren_Buffett"
+          ]
+        },
+        "justifications": [
+          "Warren Buffett sounded like many investors when he was asked this spring whether the United Kingdom should leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Warren Buffett",
+          "references": [
+            "http://dbpedia.org/resource/Warren_Buffett"
+          ]
+        },
+        "justifications": [
+          "Warren Buffett sounded like many investors when he was asked this spring whether the United Kingdom should leave the European Union."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Warren Buffett sounded like many investors when he was asked this spring whether the United Kingdom should leave the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Warren Buffett",
+          "references": [
+            "http://dbpedia.org/resource/Warren_Buffett"
+          ]
+        },
+        "target": {
+          "topic": "many investors",
+          "references": [
+            "many investors"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "many investors",
+          "references": [
+            "many investors"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "many investors",
+          "references": [
+            "many investors"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

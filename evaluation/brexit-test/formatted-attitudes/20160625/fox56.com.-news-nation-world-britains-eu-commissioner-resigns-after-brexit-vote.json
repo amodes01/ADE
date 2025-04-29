@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Lord Hill",
+          "references": [
+            "http://dbpedia.org/resource/Rowland_Hill,_1st_Viscount_Hill"
+          ]
+        },
+        "justifications": [
+          "LONDON Britain's EU commissioner, Lord Hill, has announced his resignation Saturday morning."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lord Hill",
+          "references": [
+            "http://dbpedia.org/resource/Rowland_Hill,_1st_Viscount_Hill"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,721 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "entity2": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "BERLIN (Reuters) - Senior German politicians called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens, just a week after Britons stunned the world with a vote to leave the bloc."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "Senior German politicians",
+          "references": [
+            "Senior German politicians"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "improvements",
+          "references": [
+            "improvements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "decision making",
+          "references": [
+            "decision making"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "its appeal",
+          "references": [
+            "its appeal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BERLIN",
+          "references": [
+            "http://dbpedia.org/resource/Berlin"
+          ]
+        },
+        "target": {
+          "topic": "the bloc",
+          "references": [
+            "the bloc"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Senior German politicians",
+          "references": [
+            "Senior German politicians"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "improvements",
+          "references": [
+            "improvements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "decision making",
+          "references": [
+            "decision making"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "its appeal",
+          "references": [
+            "its appeal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the bloc",
+          "references": [
+            "the bloc"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Senior German politicians",
+          "references": [
+            "Senior German politicians"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "improvements",
+          "references": [
+            "improvements"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "decision making",
+          "references": [
+            "decision making"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "its appeal",
+          "references": [
+            "its appeal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the bloc",
+          "references": [
+            "the bloc"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Senior German politicians",
+          "references": [
+            "Senior German politicians"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "improvements",
+          "references": [
+            "improvements"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "decision making",
+          "references": [
+            "decision making"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "its appeal",
+          "references": [
+            "its appeal"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the bloc",
+          "references": [
+            "the bloc"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "member states",
+          "references": [
+            "member states"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "an \"intergovernmental approach",
+          "references": [
+            "an \"intergovernmental approach"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "problems",
+          "references": [
+            "problems"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "EU politicians",
+          "references": [
+            "EU politicians"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "decisions",
+          "references": [
+            "decisions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "the migrant crisis",
+          "references": [
+            "the migrant crisis"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "Brussels",
+          "references": [
+            "Brussels"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Finance Minister",
+          "references": [
+            "http://dbpedia.org/resource/Finance_minister"
+          ]
+        },
+        "target": {
+          "topic": "timeframes",
+          "references": [
+            "timeframes"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

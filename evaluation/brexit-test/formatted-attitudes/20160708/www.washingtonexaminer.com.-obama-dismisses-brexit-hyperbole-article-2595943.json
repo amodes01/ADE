@@ -1,0 +1,728 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "President Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "French President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "President Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Emmanuel Macron",
+          "references": [
+            "http://dbpedia.org/resource/Emmanuel_Macron"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Biarritz",
+          "references": [
+            "http://dbpedia.org/resource/Biarritz"
+          ]
+        },
+        "entity2": {
+          "entity": "President Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "President Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Emmanuel Macron",
+          "references": [
+            "http://dbpedia.org/resource/Emmanuel_Macron"
+          ]
+        },
+        "entity2": {
+          "entity": "French President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Biarritz",
+          "references": [
+            "http://dbpedia.org/resource/Biarritz"
+          ]
+        },
+        "entity2": {
+          "entity": "French President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "entity2": {
+          "entity": "French President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Biarritz",
+          "references": [
+            "http://dbpedia.org/resource/Biarritz"
+          ]
+        },
+        "entity2": {
+          "entity": "Emmanuel Macron",
+          "references": [
+            "http://dbpedia.org/resource/Emmanuel_Macron"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Emmanuel Macron",
+          "references": [
+            "http://dbpedia.org/resource/Emmanuel_Macron"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Biarritz",
+          "references": [
+            "http://dbpedia.org/resource/Biarritz"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "justifications": [
+          "U.S. President Trump and French President Emmanuel Macron will hold a joint press conference from Biarritz, France."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "President Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a joint press conference",
+          "references": [
+            "a joint press conference"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "French President",
+          "references": [
+            "http://dbpedia.org/resource/President_of_France"
+          ]
+        },
+        "target": {
+          "topic": "a joint press conference",
+          "references": [
+            "a joint press conference"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Emmanuel Macron",
+          "references": [
+            "http://dbpedia.org/resource/Emmanuel_Macron"
+          ]
+        },
+        "target": {
+          "topic": "a joint press conference",
+          "references": [
+            "a joint press conference"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Biarritz",
+          "references": [
+            "http://dbpedia.org/resource/Biarritz"
+          ]
+        },
+        "target": {
+          "topic": "a joint press conference",
+          "references": [
+            "a joint press conference"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "a joint press conference",
+          "references": [
+            "a joint press conference"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "justifications": [
+          "World leaders from Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, as well as top officials from the European Union, have gathered in France for the 2019 G-7 summit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "justifications": [
+          "World leaders from Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, as well as top officials from the European Union, have gathered in France for the 2019 G-7 summit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "entity2": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "justifications": [
+          "World leaders from Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, as well as top officials from the European Union, have gathered in France for the 2019 G-7 summit."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "World leaders",
+          "references": [
+            "World leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "Germany",
+          "references": [
+            "Germany"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "Italy",
+          "references": [
+            "Italy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "top officials",
+          "references": [
+            "top officials"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "France",
+          "references": [
+            "France"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canada",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the 2019 G-7 summit",
+          "references": [
+            "the 2019 G-7 summit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "World leaders",
+          "references": [
+            "World leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "Germany",
+          "references": [
+            "Germany"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "Italy",
+          "references": [
+            "Italy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "top officials",
+          "references": [
+            "top officials"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "France",
+          "references": [
+            "France"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "France",
+          "references": [
+            "http://dbpedia.org/resource/France"
+          ]
+        },
+        "target": {
+          "topic": "the 2019 G-7 summit",
+          "references": [
+            "the 2019 G-7 summit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "World leaders",
+          "references": [
+            "World leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "Germany",
+          "references": [
+            "Germany"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "Italy",
+          "references": [
+            "Italy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "top officials",
+          "references": [
+            "top officials"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "France",
+          "references": [
+            "France"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Japan",
+          "references": [
+            "http://dbpedia.org/resource/Japan"
+          ]
+        },
+        "target": {
+          "topic": "the 2019 G-7 summit",
+          "references": [
+            "the 2019 G-7 summit"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "justifications": [
+          "In the wake of Britain's vote to leave the European Union, Prime Minister David Cameron has announced his resignation - and former mayor of London Boris Johnson is a leading contender to take Cameron's place."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "former mayor",
+          "references": [
+            "former mayor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a leading contender",
+          "references": [
+            "a leading contender"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "former mayor",
+          "references": [
+            "former mayor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "a leading contender",
+          "references": [
+            "a leading contender"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "former mayor",
+          "references": [
+            "former mayor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "a leading contender",
+          "references": [
+            "a leading contender"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "former mayor",
+          "references": [
+            "former mayor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "a leading contender",
+          "references": [
+            "a leading contender"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his resignation",
+          "references": [
+            "his resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "former mayor",
+          "references": [
+            "former mayor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Cameron",
+          "references": [
+            "http://dbpedia.org/resource/Clan_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "a leading contender",
+          "references": [
+            "a leading contender"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

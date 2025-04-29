@@ -1,0 +1,90 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "entity2": {
+          "entity": "rally",
+          "references": [
+            "http://dbpedia.org/resource/Protest"
+          ]
+        },
+        "justifications": [
+          "It aims to rally \"young French and Europeans who are proud of their heritage.\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "rally",
+          "references": [
+            "http://dbpedia.org/resource/Protest"
+          ]
+        },
+        "target": {
+          "topic": "Europeans",
+          "references": [
+            "Europeans"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "rally",
+          "references": [
+            "http://dbpedia.org/resource/Protest"
+          ]
+        },
+        "target": {
+          "topic": "their heritage",
+          "references": [
+            "their heritage"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "target": {
+          "topic": "Europeans",
+          "references": [
+            "Europeans"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "target": {
+          "topic": "their heritage",
+          "references": [
+            "their heritage"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

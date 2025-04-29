@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Tech Mahindra",
+          "references": [
+            "http://dbpedia.org/resource/Tech_Mahindra"
+          ]
+        },
+        "entity2": {
+          "entity": "Vedanta Resources",
+          "references": [
+            "http://dbpedia.org/resource/Vedanta_Resources"
+          ]
+        },
+        "justifications": [
+          "Rover), IT companies like Tech Mahindra, and mining giant Vedanta Resources - which together generate a turnover of £19 billion[6] ($25.4 billion) from their UK-based operations."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Tech Mahindra",
+          "references": [
+            "http://dbpedia.org/resource/Tech_Mahindra"
+          ]
+        },
+        "target": {
+          "topic": "Rover), IT companies",
+          "references": [
+            "Rover), IT companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Tech Mahindra",
+          "references": [
+            "http://dbpedia.org/resource/Tech_Mahindra"
+          ]
+        },
+        "target": {
+          "topic": "a turnover",
+          "references": [
+            "a turnover"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tech Mahindra",
+          "references": [
+            "http://dbpedia.org/resource/Tech_Mahindra"
+          ]
+        },
+        "target": {
+          "topic": "their UK-based operations",
+          "references": [
+            "their UK-based operations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Vedanta Resources",
+          "references": [
+            "http://dbpedia.org/resource/Vedanta_Resources"
+          ]
+        },
+        "target": {
+          "topic": "Rover), IT companies",
+          "references": [
+            "Rover), IT companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Vedanta Resources",
+          "references": [
+            "http://dbpedia.org/resource/Vedanta_Resources"
+          ]
+        },
+        "target": {
+          "topic": "a turnover",
+          "references": [
+            "a turnover"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Vedanta Resources",
+          "references": [
+            "http://dbpedia.org/resource/Vedanta_Resources"
+          ]
+        },
+        "target": {
+          "topic": "their UK-based operations",
+          "references": [
+            "their UK-based operations"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

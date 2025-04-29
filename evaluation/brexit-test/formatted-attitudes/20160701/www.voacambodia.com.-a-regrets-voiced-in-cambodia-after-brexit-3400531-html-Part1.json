@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Jeremy Chea was transfixed to the television screen when the result of the United Kingdom referendum on leaving the European Union was announced."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Jeremy Chea",
+          "references": [
+            "Jeremy Chea"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the television screen",
+          "references": [
+            "the television screen"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the result",
+          "references": [
+            "the result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Jeremy Chea",
+          "references": [
+            "Jeremy Chea"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the television screen",
+          "references": [
+            "the television screen"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the result",
+          "references": [
+            "the result"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

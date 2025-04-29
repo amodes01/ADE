@@ -1,0 +1,52 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Lots",
+          "references": [
+            "Lots"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "countries",
+          "references": [
+            "countries"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "trade deals",
+          "references": [
+            "trade deals"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

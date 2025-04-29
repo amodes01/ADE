@@ -1,0 +1,377 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "entity2": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "justifications": [
+          "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact: Patrick Collins, [email protected]; or Kalimah Knight, [email protected] MEDIA JOBS: Following are links to job listings for staff and freelance writers, editors and producers."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "entity2": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "justifications": [
+          "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact: Patrick Collins, [email protected]; or Kalimah Knight, [email protected] MEDIA JOBS: Following are links to job listings for staff and freelance writers, editors and producers."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "entity2": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "justifications": [
+          "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact: Patrick Collins, [email protected]; or Kalimah Knight, [email protected] MEDIA JOBS: Following are links to job listings for staff and freelance writers, editors and producers."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact",
+          "references": [
+            "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "MEDIA JOBS",
+          "references": [
+            "MEDIA JOBS"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "links",
+          "references": [
+            "links"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "job listings",
+          "references": [
+            "job listings"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "staff and freelance writers",
+          "references": [
+            "staff and freelance writers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "editors",
+          "references": [
+            "editors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Patrick",
+          "references": [
+            "http://dbpedia.org/resource/Patrick_Drake"
+          ]
+        },
+        "target": {
+          "topic": "producers",
+          "references": [
+            "producers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact",
+          "references": [
+            "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "MEDIA JOBS",
+          "references": [
+            "MEDIA JOBS"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "links",
+          "references": [
+            "links"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "job listings",
+          "references": [
+            "job listings"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "staff and freelance writers",
+          "references": [
+            "staff and freelance writers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "editors",
+          "references": [
+            "editors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Collins",
+          "references": [
+            "http://dbpedia.org/resource/HarperCollins"
+          ]
+        },
+        "target": {
+          "topic": "producers",
+          "references": [
+            "producers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact",
+          "references": [
+            "http://as.tufts.edu/politicalscience/people/faculty/schildkraut Contact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "MEDIA JOBS",
+          "references": [
+            "MEDIA JOBS"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "links",
+          "references": [
+            "links"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "job listings",
+          "references": [
+            "job listings"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "staff and freelance writers",
+          "references": [
+            "staff and freelance writers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "editors",
+          "references": [
+            "editors"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kalimah",
+          "references": [
+            "http://dbpedia.org/resource/Six_Kalimas"
+          ]
+        },
+        "target": {
+          "topic": "producers",
+          "references": [
+            "producers"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The shockwaves felt by the United Kingdom's stunning decision to leave the European Union reverberated around the world late last week, eventually finding their way to Connecticut."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "The shockwaves felt by the United Kingdom's stunning decision to leave the European Union reverberated around the world late last week, eventually finding their way to Connecticut."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The shockwaves felt by the United Kingdom's stunning decision to leave the European Union reverberated around the world late last week, eventually finding their way to Connecticut."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "The shockwaves",
+          "references": [
+            "The shockwaves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their way",
+          "references": [
+            "their way"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "The shockwaves",
+          "references": [
+            "The shockwaves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "their way",
+          "references": [
+            "their way"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "target": {
+          "topic": "The shockwaves",
+          "references": [
+            "The shockwaves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Connecticut",
+          "references": [
+            "http://dbpedia.org/resource/Connecticut"
+          ]
+        },
+        "target": {
+          "topic": "their way",
+          "references": [
+            "their way"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

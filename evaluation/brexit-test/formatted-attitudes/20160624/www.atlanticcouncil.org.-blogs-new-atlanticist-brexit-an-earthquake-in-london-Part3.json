@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Morningstar",
+          "references": [
+            "http://dbpedia.org/resource/Morningstar,_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "special relationship, the question is how effective will it be in the future and will the United Kingdom become isolated on foreign policy, said Morningstar."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the question",
+          "references": [
+            "the question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "foreign policy",
+          "references": [
+            "foreign policy"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morningstar",
+          "references": [
+            "http://dbpedia.org/resource/Morningstar,_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the question",
+          "references": [
+            "the question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Morningstar",
+          "references": [
+            "http://dbpedia.org/resource/Morningstar,_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Morningstar",
+          "references": [
+            "http://dbpedia.org/resource/Morningstar,_Inc."
+          ]
+        },
+        "target": {
+          "topic": "foreign policy",
+          "references": [
+            "foreign policy"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

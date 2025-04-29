@@ -1,0 +1,512 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "GETTY Brexit could spark the break-up of the United States of America Campaign groups in Texas and California are both pushing for the independence of their states in the wake of last month's 52 to 48 per cent Brexit vote, which has reinvigorated long-running campaigns to \"take control of our destiny.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "justifications": [
+          "GETTY Brexit could spark the break-up of the United States of America Campaign groups in Texas and California are both pushing for the independence of their states in the wake of last month's 52 to 48 per cent Brexit vote, which has reinvigorated long-running campaigns to \"take control of our destiny.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "GETTY Brexit could spark the break-up of the United States of America Campaign groups in Texas and California are both pushing for the independence of their states in the wake of last month's 52 to 48 per cent Brexit vote, which has reinvigorated long-running campaigns to \"take control of our destiny.\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the break-up",
+          "references": [
+            "the break-up"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "America",
+          "references": [
+            "America"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Campaign groups",
+          "references": [
+            "Campaign groups"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the independence",
+          "references": [
+            "the independence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "their states",
+          "references": [
+            "their states"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "long-running campaigns",
+          "references": [
+            "long-running campaigns"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "our destiny",
+          "references": [
+            "our destiny"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the break-up",
+          "references": [
+            "the break-up"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "America",
+          "references": [
+            "America"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "Campaign groups",
+          "references": [
+            "Campaign groups"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the independence",
+          "references": [
+            "the independence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "their states",
+          "references": [
+            "their states"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "long-running campaigns",
+          "references": [
+            "long-running campaigns"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "our destiny",
+          "references": [
+            "our destiny"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the break-up",
+          "references": [
+            "the break-up"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the United States",
+          "references": [
+            "the United States"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "America",
+          "references": [
+            "America"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "Campaign groups",
+          "references": [
+            "Campaign groups"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the independence",
+          "references": [
+            "the independence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "their states",
+          "references": [
+            "their states"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "long-running campaigns",
+          "references": [
+            "long-running campaigns"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "California",
+          "references": [
+            "http://dbpedia.org/resource/California"
+          ]
+        },
+        "target": {
+          "topic": "our destiny",
+          "references": [
+            "our destiny"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

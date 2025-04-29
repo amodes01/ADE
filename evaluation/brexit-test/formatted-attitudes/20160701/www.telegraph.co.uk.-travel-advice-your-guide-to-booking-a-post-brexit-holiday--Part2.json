@@ -1,0 +1,71 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "hotel",
+          "references": [
+            "http://dbpedia.org/resource/Hotel"
+          ]
+        },
+        "target": {
+          "topic": "the weaker pound",
+          "references": [
+            "the weaker pound"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "hotel",
+          "references": [
+            "http://dbpedia.org/resource/Hotel"
+          ]
+        },
+        "target": {
+          "topic": "the cost",
+          "references": [
+            "the cost"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "hotel",
+          "references": [
+            "http://dbpedia.org/resource/Hotel"
+          ]
+        },
+        "target": {
+          "topic": "holiday cottages",
+          "references": [
+            "holiday cottages"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "hotel",
+          "references": [
+            "http://dbpedia.org/resource/Hotel"
+          ]
+        },
+        "target": {
+          "topic": "most European countries",
+          "references": [
+            "most European countries"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

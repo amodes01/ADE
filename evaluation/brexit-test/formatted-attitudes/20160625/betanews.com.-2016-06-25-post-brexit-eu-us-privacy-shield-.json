@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU-US Privacy Shield",
+          "references": [
+            "http://dbpedia.org/resource/EU–US_Privacy_Shield"
+          ]
+        },
+        "entity2": {
+          "entity": "Safe Harbour",
+          "references": [
+            "http://dbpedia.org/resource/Safe_Harbour_(TV_series)"
+          ]
+        },
+        "justifications": [
+          "The replacement for data protection arrangement Safe Harbour, the EU-US Privacy Shield, has undergone final amendments."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Safe Harbour",
+          "references": [
+            "http://dbpedia.org/resource/Safe_Harbour_(TV_series)"
+          ]
+        },
+        "target": {
+          "topic": "The replacement",
+          "references": [
+            "The replacement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Safe Harbour",
+          "references": [
+            "http://dbpedia.org/resource/Safe_Harbour_(TV_series)"
+          ]
+        },
+        "target": {
+          "topic": "final amendments",
+          "references": [
+            "final amendments"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU-US Privacy Shield",
+          "references": [
+            "http://dbpedia.org/resource/EU–US_Privacy_Shield"
+          ]
+        },
+        "target": {
+          "topic": "The replacement",
+          "references": [
+            "The replacement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU-US Privacy Shield",
+          "references": [
+            "http://dbpedia.org/resource/EU–US_Privacy_Shield"
+          ]
+        },
+        "target": {
+          "topic": "final amendments",
+          "references": [
+            "final amendments"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

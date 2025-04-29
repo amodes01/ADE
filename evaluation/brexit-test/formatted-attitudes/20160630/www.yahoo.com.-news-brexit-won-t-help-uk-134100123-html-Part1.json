@@ -1,0 +1,557 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "A customer enters the new Apple store, which is the world's largest, on its opening day at Covent Garden in London With the widespread perception that Apple enjoys a tiny tax bill in the United Kingdom, even as it earns hundreds of millions from consumers here, the tech giant usually sees some public scrutiny when it files its accounts."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "justifications": [
+          "A customer enters the new Apple store, which is the world's largest, on its opening day at Covent Garden in London With the widespread perception that Apple enjoys a tiny tax bill in the United Kingdom, even as it earns hundreds of millions from consumers here, the tech giant usually sees some public scrutiny when it files its accounts."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "A customer enters the new Apple store, which is the world's largest, on its opening day at Covent Garden in London With the widespread perception that Apple enjoys a tiny tax bill in the United Kingdom, even as it earns hundreds of millions from consumers here, the tech giant usually sees some public scrutiny when it files its accounts."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "A customer",
+          "references": [
+            "A customer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "its opening day",
+          "references": [
+            "its opening day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "Covent Garden",
+          "references": [
+            "Covent Garden"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "the widespread perception",
+          "references": [
+            "the widespread perception"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "a tiny tax bill",
+          "references": [
+            "a tiny tax bill"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "hundreds of millions",
+          "references": [
+            "hundreds of millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "consumers",
+          "references": [
+            "consumers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "the tech giant",
+          "references": [
+            "the tech giant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "some public scrutiny",
+          "references": [
+            "some public scrutiny"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple store",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Store"
+          ]
+        },
+        "target": {
+          "topic": "its accounts",
+          "references": [
+            "its accounts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "A customer",
+          "references": [
+            "A customer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "its opening day",
+          "references": [
+            "its opening day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Covent Garden",
+          "references": [
+            "Covent Garden"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the widespread perception",
+          "references": [
+            "the widespread perception"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "a tiny tax bill",
+          "references": [
+            "a tiny tax bill"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "hundreds of millions",
+          "references": [
+            "hundreds of millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "consumers",
+          "references": [
+            "consumers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the tech giant",
+          "references": [
+            "the tech giant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "some public scrutiny",
+          "references": [
+            "some public scrutiny"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "its accounts",
+          "references": [
+            "its accounts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "A customer",
+          "references": [
+            "A customer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "its opening day",
+          "references": [
+            "its opening day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "Covent Garden",
+          "references": [
+            "Covent Garden"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the widespread perception",
+          "references": [
+            "the widespread perception"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "a tiny tax bill",
+          "references": [
+            "a tiny tax bill"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "hundreds of millions",
+          "references": [
+            "hundreds of millions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "consumers",
+          "references": [
+            "consumers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the tech giant",
+          "references": [
+            "the tech giant"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "some public scrutiny",
+          "references": [
+            "some public scrutiny"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "its accounts",
+          "references": [
+            "its accounts"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

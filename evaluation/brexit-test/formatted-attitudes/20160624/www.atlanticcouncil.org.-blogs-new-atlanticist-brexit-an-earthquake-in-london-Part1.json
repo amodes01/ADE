@@ -1,0 +1,226 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "A vote by the British to leave the European Union should not be viewed as an isolated incident."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "A vote",
+          "references": [
+            "A vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "an isolated incident",
+          "references": [
+            "an isolated incident"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "A vote",
+          "references": [
+            "A vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "an isolated incident",
+          "references": [
+            "an isolated incident"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "52 percent",
+          "references": [
+            "52 percent"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "48 percent",
+          "references": [
+            "48 percent"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "overwhelming support",
+          "references": [
+            "overwhelming support"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "voters",
+          "references": [
+            "voters"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Scotland",
+          "references": [
+            "Scotland"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Northern Ireland",
+          "references": [
+            "Northern Ireland"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Prime Minister",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "London",
+          "references": [
+            "London"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

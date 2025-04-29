@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Puerto Rico",
+          "references": [
+            "http://dbpedia.org/resource/Puerto_Rico"
+          ]
+        },
+        "entity2": {
+          "entity": "Congress",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Congress"
+          ]
+        },
+        "justifications": [
+          "years in Congress as the sole elected delegate from Puerto Rico."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Congress",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Congress"
+          ]
+        },
+        "target": {
+          "topic": "years",
+          "references": [
+            "years"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Congress",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Congress"
+          ]
+        },
+        "target": {
+          "topic": "the sole elected delegate",
+          "references": [
+            "the sole elected delegate"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Puerto Rico",
+          "references": [
+            "http://dbpedia.org/resource/Puerto_Rico"
+          ]
+        },
+        "target": {
+          "topic": "years",
+          "references": [
+            "years"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Puerto Rico",
+          "references": [
+            "http://dbpedia.org/resource/Puerto_Rico"
+          ]
+        },
+        "target": {
+          "topic": "the sole elected delegate",
+          "references": [
+            "the sole elected delegate"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

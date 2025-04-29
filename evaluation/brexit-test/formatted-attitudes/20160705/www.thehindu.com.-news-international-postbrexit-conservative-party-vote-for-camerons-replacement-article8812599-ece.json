@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "justifications": [
+          "The post-Brexit political churn in Britain has seen a Prime Minister resign, two prominent leaders of the 'Leave' camp step aside, a lot of backroom political manoeuvring in leadership contests in both the Conservative and Labour parties, and the distinct possibility of a 'Remain' Prime Minister from the Conservative party replacing the incumbent Prime Minister."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "The post-Brexit political churn",
+          "references": [
+            "The post-Brexit political churn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "a Prime Minister resign",
+          "references": [
+            "a Prime Minister resign"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "two prominent leaders",
+          "references": [
+            "two prominent leaders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "the 'Leave' camp step",
+          "references": [
+            "the 'Leave' camp step"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "a lot",
+          "references": [
+            "a lot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "backroom political manoeuvring",
+          "references": [
+            "backroom political manoeuvring"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "leadership contests",
+          "references": [
+            "leadership contests"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "the distinct possibility",
+          "references": [
+            "the distinct possibility"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "a 'Remain' Prime Minister",
+          "references": [
+            "a 'Remain' Prime Minister"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Labour",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_Labour_Party"
+          ]
+        },
+        "target": {
+          "topic": "the incumbent Prime Minister",
+          "references": [
+            "the incumbent Prime Minister"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "The post-Brexit political churn",
+          "references": [
+            "The post-Brexit political churn"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "a Prime Minister resign",
+          "references": [
+            "a Prime Minister resign"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "two prominent leaders",
+          "references": [
+            "two prominent leaders"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "the 'Leave' camp step",
+          "references": [
+            "the 'Leave' camp step"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "a lot",
+          "references": [
+            "a lot"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "backroom political manoeuvring",
+          "references": [
+            "backroom political manoeuvring"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "leadership contests",
+          "references": [
+            "leadership contests"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "the distinct possibility",
+          "references": [
+            "the distinct possibility"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "a 'Remain' Prime Minister",
+          "references": [
+            "a 'Remain' Prime Minister"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Conservative party",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_of_Canada"
+          ]
+        },
+        "target": {
+          "topic": "the incumbent Prime Minister",
+          "references": [
+            "the incumbent Prime Minister"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

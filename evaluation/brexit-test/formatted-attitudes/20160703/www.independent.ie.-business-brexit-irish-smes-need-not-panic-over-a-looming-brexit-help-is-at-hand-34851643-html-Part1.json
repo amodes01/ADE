@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "entity2": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "clients",
+          "references": [
+            "clients"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the situation",
+          "references": [
+            "the situation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "clients",
+          "references": [
+            "clients"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the situation",
+          "references": [
+            "the situation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "clients",
+          "references": [
+            "clients"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the situation",
+          "references": [
+            "the situation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the implications",
+          "references": [
+            "the implications"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "clients",
+          "references": [
+            "clients"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Enterprise_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the situation",
+          "references": [
+            "the situation"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

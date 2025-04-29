@@ -1,0 +1,263 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Ringo Starr",
+          "references": [
+            "http://dbpedia.org/resource/Ringo_Starr"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Ringo Starr",
+          "references": [
+            "http://dbpedia.org/resource/Ringo_Starr"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Ringo Starr",
+          "references": [
+            "http://dbpedia.org/resource/Ringo_Starr"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Ringo Starr",
+          "references": [
+            "http://dbpedia.org/resource/Ringo_Starr"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Los Angeles: Former Beatles drummer Ringo Starr says that earlier he was a huge fan of the European Union (EU) when it started, but now he supports the Brexit move."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Los Angeles",
+          "references": [
+            "http://dbpedia.org/resource/Los_Angeles"
+          ]
+        },
+        "target": {
+          "topic": "a huge fan",
+          "references": [
+            "a huge fan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ringo Starr",
+          "references": [
+            "http://dbpedia.org/resource/Ringo_Starr"
+          ]
+        },
+        "target": {
+          "topic": "a huge fan",
+          "references": [
+            "a huge fan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a huge fan",
+          "references": [
+            "a huge fan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a huge fan",
+          "references": [
+            "a huge fan"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a huge fan",
+          "references": [
+            "a huge fan"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

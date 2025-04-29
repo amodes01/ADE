@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Fun Lovin' Criminals",
+          "references": [
+            "http://dbpedia.org/resource/Fun_Lovin'_Criminals"
+          ]
+        },
+        "entity2": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "justifications": [
+          "American rockers Fun Lovin' Criminals have pledged their support to Scotland over Brexit."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Fun Lovin' Criminals",
+          "references": [
+            "http://dbpedia.org/resource/Fun_Lovin'_Criminals"
+          ]
+        },
+        "justifications": [
+          "American rockers Fun Lovin' Criminals have pledged their support to Scotland over Brexit."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "justifications": [
+          "American rockers Fun Lovin' Criminals have pledged their support to Scotland over Brexit."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Fun Lovin' Criminals",
+          "references": [
+            "http://dbpedia.org/resource/Fun_Lovin'_Criminals"
+          ]
+        },
+        "target": {
+          "topic": "their support",
+          "references": [
+            "their support"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scotland",
+          "references": [
+            "http://dbpedia.org/resource/Scotland"
+          ]
+        },
+        "target": {
+          "topic": "their support",
+          "references": [
+            "their support"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "their support",
+          "references": [
+            "their support"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

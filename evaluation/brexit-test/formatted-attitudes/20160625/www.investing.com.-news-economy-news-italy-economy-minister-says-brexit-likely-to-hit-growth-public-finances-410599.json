@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "MILAN (Reuters) - Italy's Economy Minister Pier Carlo Padoan said on Saturday that Britain's vote to leave the European Union could lead to the Italian economy growing less than initially forecast, with a negative impact on public finances."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "entity2": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "justifications": [
+          "MILAN (Reuters) - Italy's Economy Minister Pier Carlo Padoan said on Saturday that Britain's vote to leave the European Union could lead to the Italian economy growing less than initially forecast, with a negative impact on public finances."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "MILAN (Reuters) - Italy's Economy Minister Pier Carlo Padoan said on Saturday that Britain's vote to leave the European Union could lead to the Italian economy growing less than initially forecast, with a negative impact on public finances."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "a negative impact",
+          "references": [
+            "a negative impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "public finances",
+          "references": [
+            "public finances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a negative impact",
+          "references": [
+            "a negative impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "public finances",
+          "references": [
+            "public finances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "target": {
+          "topic": "Saturday",
+          "references": [
+            "Saturday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "target": {
+          "topic": "a negative impact",
+          "references": [
+            "a negative impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Italian",
+          "references": [
+            "http://dbpedia.org/resource/Italian_language"
+          ]
+        },
+        "target": {
+          "topic": "public finances",
+          "references": [
+            "public finances"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Donald Trump supporter Wayne Allyn Root warned over the weekend that conservatives would punish Apple after the computer company reportedly pulled support for the Republican National Convention."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Donald Trump supporter Wayne Allyn Root warned over the weekend that conservatives would punish Apple after the computer company reportedly pulled support for the Republican National Convention."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "entity2": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "justifications": [
+          "Donald Trump supporter Wayne Allyn Root warned over the weekend that conservatives would punish Apple after the computer company reportedly pulled support for the Republican National Convention."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the weekend",
+          "references": [
+            "the weekend"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "conservatives",
+          "references": [
+            "conservatives"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the computer company",
+          "references": [
+            "the computer company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "support",
+          "references": [
+            "support"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the weekend",
+          "references": [
+            "the weekend"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "conservatives",
+          "references": [
+            "conservatives"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "the computer company",
+          "references": [
+            "the computer company"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Apple",
+          "references": [
+            "http://dbpedia.org/resource/Apple_Inc."
+          ]
+        },
+        "target": {
+          "topic": "support",
+          "references": [
+            "support"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "target": {
+          "topic": "the weekend",
+          "references": [
+            "the weekend"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "target": {
+          "topic": "conservatives",
+          "references": [
+            "conservatives"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "target": {
+          "topic": "the computer company",
+          "references": [
+            "the computer company"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Republican National Convention",
+          "references": [
+            "http://dbpedia.org/resource/2016_Republican_National_Convention"
+          ]
+        },
+        "target": {
+          "topic": "support",
+          "references": [
+            "support"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

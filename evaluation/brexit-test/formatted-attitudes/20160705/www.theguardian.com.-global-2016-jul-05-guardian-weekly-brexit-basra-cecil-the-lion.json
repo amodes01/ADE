@@ -1,0 +1,412 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "It's been another week of political upheaval here in London as the dust refuses to settle on the UK's vote to leave the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "It's been another week of political upheaval here in London as the dust refuses to settle on the UK's vote to leave the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "It's been another week of political upheaval here in London as the dust refuses to settle on the UK's vote to leave the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "another week",
+          "references": [
+            "another week"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "political upheaval",
+          "references": [
+            "political upheaval"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the dust",
+          "references": [
+            "the dust"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "another week",
+          "references": [
+            "another week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "political upheaval",
+          "references": [
+            "political upheaval"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the dust",
+          "references": [
+            "the dust"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "another week",
+          "references": [
+            "another week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "political upheaval",
+          "references": [
+            "political upheaval"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the dust",
+          "references": [
+            "the dust"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "sterling",
+          "references": [
+            "sterling"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "the main political parties",
+          "references": [
+            "the main political parties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "leadership struggles",
+          "references": [
+            "leadership struggles"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "Game",
+          "references": [
+            "Game"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "Thrones",
+          "references": [
+            "Thrones"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "polite society",
+          "references": [
+            "polite society"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "even talk",
+          "references": [
+            "even talk"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "a legal challenge",
+          "references": [
+            "a legal challenge"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "the government",
+          "references": [
+            "the government"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "activating article",
+          "references": [
+            "activating article"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "the clause",
+          "references": [
+            "the clause"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "train",
+          "references": [
+            "train"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "the UK's departure",
+          "references": [
+            "the UK's departure"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "currency",
+          "references": [
+            "http://dbpedia.org/resource/Currency"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

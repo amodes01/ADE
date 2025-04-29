@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "entity2": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "justifications": [
+          "The euro, the pound and commodity currencies such as the Australian, the New Zealand and the Canadian dollars weakened against their major counterparts in the Asian session on Wednesday, as investors fled risky assets and commodity prices fell amid renewed Brexit fears."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "entity2": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "justifications": [
+          "The euro, the pound and commodity currencies such as the Australian, the New Zealand and the Canadian dollars weakened against their major counterparts in the Asian session on Wednesday, as investors fled risky assets and commodity prices fell amid renewed Brexit fears."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "entity2": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "justifications": [
+          "The euro, the pound and commodity currencies such as the Australian, the New Zealand and the Canadian dollars weakened against their major counterparts in the Asian session on Wednesday, as investors fled risky assets and commodity prices fell amid renewed Brexit fears."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "The euro",
+          "references": [
+            "The euro"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "the pound and commodity currencies",
+          "references": [
+            "the pound and commodity currencies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "the Australian",
+          "references": [
+            "the Australian"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "their major counterparts",
+          "references": [
+            "their major counterparts"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday",
+          "references": [
+            "Wednesday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "investors",
+          "references": [
+            "investors"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "risky assets",
+          "references": [
+            "risky assets"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "New Zealand",
+          "references": [
+            "http://dbpedia.org/resource/New_Zealand_national_cricket_team"
+          ]
+        },
+        "target": {
+          "topic": "commodity prices",
+          "references": [
+            "commodity prices"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "The euro",
+          "references": [
+            "The euro"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the pound and commodity currencies",
+          "references": [
+            "the pound and commodity currencies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "the Australian",
+          "references": [
+            "the Australian"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "their major counterparts",
+          "references": [
+            "their major counterparts"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday",
+          "references": [
+            "Wednesday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "investors",
+          "references": [
+            "investors"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "risky assets",
+          "references": [
+            "risky assets"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Canadian",
+          "references": [
+            "http://dbpedia.org/resource/Canada"
+          ]
+        },
+        "target": {
+          "topic": "commodity prices",
+          "references": [
+            "commodity prices"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "The euro",
+          "references": [
+            "The euro"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "the pound and commodity currencies",
+          "references": [
+            "the pound and commodity currencies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "the Australian",
+          "references": [
+            "the Australian"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "their major counterparts",
+          "references": [
+            "their major counterparts"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday",
+          "references": [
+            "Wednesday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "investors",
+          "references": [
+            "investors"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "risky assets",
+          "references": [
+            "risky assets"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Asian",
+          "references": [
+            "http://dbpedia.org/resource/Asia"
+          ]
+        },
+        "target": {
+          "topic": "commodity prices",
+          "references": [
+            "commodity prices"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

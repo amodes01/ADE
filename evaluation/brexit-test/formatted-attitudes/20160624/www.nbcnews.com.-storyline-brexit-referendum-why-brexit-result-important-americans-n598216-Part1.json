@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "entity2": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Federal Reserve Chair Janet Yellen said earlier this month that a British exit from the EU \"could have consequences in turn for the U.S. economic outlook.\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "target": {
+          "topic": "consequences",
+          "references": [
+            "consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "target": {
+          "topic": "turn",
+          "references": [
+            "turn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Federal Reserve",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Reserve"
+          ]
+        },
+        "target": {
+          "topic": "the U.S. economic outlook",
+          "references": [
+            "the U.S. economic outlook"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "target": {
+          "topic": "consequences",
+          "references": [
+            "consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "target": {
+          "topic": "turn",
+          "references": [
+            "turn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Janet Yellen",
+          "references": [
+            "http://dbpedia.org/resource/Janet_Yellen"
+          ]
+        },
+        "target": {
+          "topic": "the U.S. economic outlook",
+          "references": [
+            "the U.S. economic outlook"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "consequences",
+          "references": [
+            "consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "turn",
+          "references": [
+            "turn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the U.S. economic outlook",
+          "references": [
+            "the U.S. economic outlook"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "consequences",
+          "references": [
+            "consequences"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "turn",
+          "references": [
+            "turn"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the U.S. economic outlook",
+          "references": [
+            "the U.S. economic outlook"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

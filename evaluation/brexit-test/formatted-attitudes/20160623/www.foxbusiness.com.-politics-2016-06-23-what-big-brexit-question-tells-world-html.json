@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "justifications": [
+          "As the United Kingdom votes on whether to cut ties with the European Union, former Senior Advisor to Prime Minister David Cameron, Steve Hilton, says the most important question facing U.K. voters is who's really in control?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "ties",
+          "references": [
+            "ties"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "former Senior Advisor",
+          "references": [
+            "former Senior Advisor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the most important question",
+          "references": [
+            "the most important question"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "ties",
+          "references": [
+            "ties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "former Senior Advisor",
+          "references": [
+            "former Senior Advisor"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the most important question",
+          "references": [
+            "the most important question"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "ties",
+          "references": [
+            "ties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "former Senior Advisor",
+          "references": [
+            "former Senior Advisor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the most important question",
+          "references": [
+            "the most important question"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "target": {
+          "topic": "ties",
+          "references": [
+            "ties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "target": {
+          "topic": "former Senior Advisor",
+          "references": [
+            "former Senior Advisor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "target": {
+          "topic": "the most important question",
+          "references": [
+            "the most important question"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Steve Hilton",
+          "references": [
+            "http://dbpedia.org/resource/Steve_Hilton"
+          ]
+        },
+        "target": {
+          "topic": "control",
+          "references": [
+            "control"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

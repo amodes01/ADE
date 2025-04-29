@@ -1,0 +1,176 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "entity2": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "justifications": [
+          "The hotel will facilitate a uniquely frictionless journey to the 'White Continent,' allowing guests to enjoy Silversea's personalized service and warm hospitality throughout their voyage."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "target": {
+          "topic": "The hotel",
+          "references": [
+            "The hotel"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "target": {
+          "topic": "a uniquely frictionless journey",
+          "references": [
+            "a uniquely frictionless journey"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "target": {
+          "topic": "guests",
+          "references": [
+            "guests"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "target": {
+          "topic": "warm hospitality",
+          "references": [
+            "warm hospitality"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "White",
+          "references": [
+            "http://dbpedia.org/resource/White_people"
+          ]
+        },
+        "target": {
+          "topic": "their voyage",
+          "references": [
+            "their voyage"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "target": {
+          "topic": "The hotel",
+          "references": [
+            "The hotel"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "target": {
+          "topic": "a uniquely frictionless journey",
+          "references": [
+            "a uniquely frictionless journey"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "target": {
+          "topic": "guests",
+          "references": [
+            "guests"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "target": {
+          "topic": "warm hospitality",
+          "references": [
+            "warm hospitality"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Silversea",
+          "references": [
+            "http://dbpedia.org/resource/Silversea_Cruises"
+          ]
+        },
+        "target": {
+          "topic": "their voyage",
+          "references": [
+            "their voyage"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

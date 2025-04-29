@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "EU vs. UK Tax Base Erosion and Profit Shifting (BEPS) The Organization for Economic Cooperation and Development has been pushing its BEPS initiative."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "BEPS",
+          "references": [
+            "http://dbpedia.org/resource/Base_erosion_and_profit_shifting"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "EU vs. UK Tax Base Erosion and Profit Shifting (BEPS) The Organization for Economic Cooperation and Development has been pushing its BEPS initiative."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "BEPS",
+          "references": [
+            "http://dbpedia.org/resource/Base_erosion_and_profit_shifting"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "EU vs. UK Tax Base Erosion and Profit Shifting (BEPS) The Organization for Economic Cooperation and Development has been pushing its BEPS initiative."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Profit Shifting",
+          "references": [
+            "Profit Shifting"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Economic Cooperation",
+          "references": [
+            "Economic Cooperation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Development",
+          "references": [
+            "Development"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Profit Shifting",
+          "references": [
+            "Profit Shifting"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Economic Cooperation",
+          "references": [
+            "Economic Cooperation"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Development",
+          "references": [
+            "Development"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BEPS",
+          "references": [
+            "http://dbpedia.org/resource/Base_erosion_and_profit_shifting"
+          ]
+        },
+        "target": {
+          "topic": "Profit Shifting",
+          "references": [
+            "Profit Shifting"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BEPS",
+          "references": [
+            "http://dbpedia.org/resource/Base_erosion_and_profit_shifting"
+          ]
+        },
+        "target": {
+          "topic": "Economic Cooperation",
+          "references": [
+            "Economic Cooperation"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "BEPS",
+          "references": [
+            "http://dbpedia.org/resource/Base_erosion_and_profit_shifting"
+          ]
+        },
+        "target": {
+          "topic": "Development",
+          "references": [
+            "Development"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

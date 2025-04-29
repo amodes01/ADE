@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Baroness Neville-Rolfe",
+          "references": [
+            "http://dbpedia.org/resource/Lucy_Neville-Rolfe"
+          ]
+        },
+        "justifications": [
+          "Baroness Neville-Rolfe The world has been changed by Brexit and for a period the future will be more uncertain."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Baroness Neville-Rolfe",
+          "references": [
+            "http://dbpedia.org/resource/Lucy_Neville-Rolfe"
+          ]
+        },
+        "target": {
+          "topic": "The world",
+          "references": [
+            "The world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Baroness Neville-Rolfe",
+          "references": [
+            "http://dbpedia.org/resource/Lucy_Neville-Rolfe"
+          ]
+        },
+        "target": {
+          "topic": "a period",
+          "references": [
+            "a period"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Baroness Neville-Rolfe",
+          "references": [
+            "http://dbpedia.org/resource/Lucy_Neville-Rolfe"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "The world",
+          "references": [
+            "The world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a period",
+          "references": [
+            "a period"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the future",
+          "references": [
+            "the future"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

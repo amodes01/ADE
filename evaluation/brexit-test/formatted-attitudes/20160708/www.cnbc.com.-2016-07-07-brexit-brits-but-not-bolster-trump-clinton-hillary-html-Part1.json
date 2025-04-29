@@ -1,0 +1,536 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "watch now The U.K. economy will be negatively affected by the country's vote to leave the EU, according to a new CNBC survey of chief financial officers (CFOs), with the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the country's vote",
+          "references": [
+            "the country's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "chief financial officers",
+          "references": [
+            "chief financial officers"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "CFOs",
+          "references": [
+            "CFOs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the results",
+          "references": [
+            "the results"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the recent referendum",
+          "references": [
+            "the recent referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the chances",
+          "references": [
+            "the chances"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the next U.S. president",
+          "references": [
+            "the next U.S. president"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the country's vote",
+          "references": [
+            "the country's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "chief financial officers",
+          "references": [
+            "chief financial officers"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "CFOs",
+          "references": [
+            "CFOs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the results",
+          "references": [
+            "the results"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the recent referendum",
+          "references": [
+            "the recent referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the chances",
+          "references": [
+            "the chances"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the next U.S. president",
+          "references": [
+            "the next U.S. president"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "the country's vote",
+          "references": [
+            "the country's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "chief financial officers",
+          "references": [
+            "chief financial officers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "CFOs",
+          "references": [
+            "CFOs"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "the results",
+          "references": [
+            "the results"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "the recent referendum",
+          "references": [
+            "the recent referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "the chances",
+          "references": [
+            "the chances"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "CNBC",
+          "references": [
+            "http://dbpedia.org/resource/CNBC"
+          ]
+        },
+        "target": {
+          "topic": "the next U.S. president",
+          "references": [
+            "the next U.S. president"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the country's vote",
+          "references": [
+            "the country's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "chief financial officers",
+          "references": [
+            "chief financial officers"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "CFOs",
+          "references": [
+            "CFOs"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the results",
+          "references": [
+            "the results"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the recent referendum",
+          "references": [
+            "the recent referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the chances",
+          "references": [
+            "the chances"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the next U.S. president",
+          "references": [
+            "the next U.S. president"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

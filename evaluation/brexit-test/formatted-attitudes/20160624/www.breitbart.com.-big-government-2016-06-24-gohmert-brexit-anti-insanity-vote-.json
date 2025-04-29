@@ -1,0 +1,61 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The British people's decision to leave the European Union (E.U.)"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "The British people's decision to leave the European Union (E.U.)"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The British people's decision to leave the European Union (E.U.)"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": []
+  }
+]

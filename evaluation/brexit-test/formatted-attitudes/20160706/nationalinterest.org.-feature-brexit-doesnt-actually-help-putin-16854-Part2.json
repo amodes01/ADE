@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "entity2": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "justifications": [
+          "Jean-Claude Juncker traveled to Russia to attend the St. Petersburg International Economic Forum."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "target": {
+          "topic": "the St. Petersburg International Economic Forum",
+          "references": [
+            "the St. Petersburg International Economic Forum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "the St. Petersburg International Economic Forum",
+          "references": [
+            "the St. Petersburg International Economic Forum"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

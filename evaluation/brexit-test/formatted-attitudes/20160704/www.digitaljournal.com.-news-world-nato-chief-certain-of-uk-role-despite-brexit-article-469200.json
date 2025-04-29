@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "entity2": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "justifications": [
+          "- NATO chief Jens Stoltenberg said Monday he was sure Britain's new government would remain committed to the alliance despite the Brexit vote and the resignation of Prime Minister David Cameron."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "Britain's new government",
+          "references": [
+            "Britain's new government"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "the alliance",
+          "references": [
+            "the alliance"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NATO",
+          "references": [
+            "http://dbpedia.org/resource/NATO"
+          ]
+        },
+        "target": {
+          "topic": "the resignation",
+          "references": [
+            "the resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "target": {
+          "topic": "Britain's new government",
+          "references": [
+            "Britain's new government"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "target": {
+          "topic": "the alliance",
+          "references": [
+            "the alliance"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Jens Stoltenberg",
+          "references": [
+            "http://dbpedia.org/resource/Jens_Stoltenberg"
+          ]
+        },
+        "target": {
+          "topic": "the resignation",
+          "references": [
+            "the resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Britain's new government",
+          "references": [
+            "Britain's new government"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the alliance",
+          "references": [
+            "the alliance"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the resignation",
+          "references": [
+            "the resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Britain's new government",
+          "references": [
+            "Britain's new government"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the alliance",
+          "references": [
+            "the alliance"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the resignation",
+          "references": [
+            "the resignation"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

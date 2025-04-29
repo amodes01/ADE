@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "TRS",
+          "references": [
+            "http://dbpedia.org/resource/Telangana_Rashtra_Samithi"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "Last fall, with little fanfare, the Texas Teachers Retirement System, or TRS, set up an office in London."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "Last fall, with little fanfare, the Texas Teachers Retirement System, or TRS, set up an office in London."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "TRS",
+          "references": [
+            "http://dbpedia.org/resource/Telangana_Rashtra_Samithi"
+          ]
+        },
+        "justifications": [
+          "Last fall, with little fanfare, the Texas Teachers Retirement System, or TRS, set up an office in London."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "little fanfare",
+          "references": [
+            "little fanfare"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "an office",
+          "references": [
+            "an office"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "TRS",
+          "references": [
+            "http://dbpedia.org/resource/Telangana_Rashtra_Samithi"
+          ]
+        },
+        "target": {
+          "topic": "little fanfare",
+          "references": [
+            "little fanfare"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "TRS",
+          "references": [
+            "http://dbpedia.org/resource/Telangana_Rashtra_Samithi"
+          ]
+        },
+        "target": {
+          "topic": "an office",
+          "references": [
+            "an office"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "little fanfare",
+          "references": [
+            "little fanfare"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "an office",
+          "references": [
+            "an office"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

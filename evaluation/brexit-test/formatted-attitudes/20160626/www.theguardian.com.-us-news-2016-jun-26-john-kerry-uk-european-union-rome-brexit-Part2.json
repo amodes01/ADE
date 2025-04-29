@@ -1,0 +1,467 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "unity among 27 remaining EU countries that represent a market of 450 million people, and help the US provide security to unstable places in north Africa and the Middle East, and far-flung areas of conflict such as Afghanistan."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "unity among 27 remaining EU countries that represent a market of 450 million people, and help the US provide security to unstable places in north Africa and the Middle East, and far-flung areas of conflict such as Afghanistan."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "entity2": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "justifications": [
+          "unity among 27 remaining EU countries that represent a market of 450 million people, and help the US provide security to unstable places in north Africa and the Middle East, and far-flung areas of conflict such as Afghanistan."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "unity",
+          "references": [
+            "unity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a market",
+          "references": [
+            "a market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "450 million people",
+          "references": [
+            "450 million people"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the US",
+          "references": [
+            "the US"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "security",
+          "references": [
+            "security"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "unstable places",
+          "references": [
+            "unstable places"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the Middle East",
+          "references": [
+            "the Middle East"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "far-flung areas",
+          "references": [
+            "far-flung areas"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "conflict",
+          "references": [
+            "conflict"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "unity",
+          "references": [
+            "unity"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "a market",
+          "references": [
+            "a market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "450 million people",
+          "references": [
+            "450 million people"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "the US",
+          "references": [
+            "the US"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "security",
+          "references": [
+            "security"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "unstable places",
+          "references": [
+            "unstable places"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "the Middle East",
+          "references": [
+            "the Middle East"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "far-flung areas",
+          "references": [
+            "far-flung areas"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Africa",
+          "references": [
+            "http://dbpedia.org/resource/Africa"
+          ]
+        },
+        "target": {
+          "topic": "conflict",
+          "references": [
+            "conflict"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "unity",
+          "references": [
+            "unity"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "a market",
+          "references": [
+            "a market"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "450 million people",
+          "references": [
+            "450 million people"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "the US",
+          "references": [
+            "the US"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "security",
+          "references": [
+            "security"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "unstable places",
+          "references": [
+            "unstable places"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "the Middle East",
+          "references": [
+            "the Middle East"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "far-flung areas",
+          "references": [
+            "far-flung areas"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Afghanistan",
+          "references": [
+            "http://dbpedia.org/resource/Afghanistan"
+          ]
+        },
+        "target": {
+          "topic": "conflict",
+          "references": [
+            "conflict"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

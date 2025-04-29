@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "justifications": [
+          "The past week has thrown up new and significant threats to the prospect of Ireland capitalising on Brexit."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "The past week",
+          "references": [
+            "The past week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "new and significant threats",
+          "references": [
+            "new and significant threats"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the prospect",
+          "references": [
+            "the prospect"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "The past week",
+          "references": [
+            "The past week"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "new and significant threats",
+          "references": [
+            "new and significant threats"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the prospect",
+          "references": [
+            "the prospect"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

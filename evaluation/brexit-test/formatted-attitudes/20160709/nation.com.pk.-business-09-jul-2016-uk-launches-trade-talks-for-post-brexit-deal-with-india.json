@@ -1,0 +1,467 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "LONDON - Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal after last month's referendum vote to leave the European Union, which has forced London to rethink its trade ties with the rest of the world."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "LONDON - Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal after last month's referendum vote to leave the European Union, which has forced London to rethink its trade ties with the rest of the world."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "LONDON - Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal after last month's referendum vote to leave the European Union, which has forced London to rethink its trade ties with the rest of the world."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "preliminary talks",
+          "references": [
+            "preliminary talks"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "an eventual bilateral trade deal",
+          "references": [
+            "an eventual bilateral trade deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "last month's referendum vote",
+          "references": [
+            "last month's referendum vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "its trade ties",
+          "references": [
+            "its trade ties"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "the rest",
+          "references": [
+            "the rest"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "preliminary talks",
+          "references": [
+            "preliminary talks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "an eventual bilateral trade deal",
+          "references": [
+            "an eventual bilateral trade deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "last month's referendum vote",
+          "references": [
+            "last month's referendum vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "its trade ties",
+          "references": [
+            "its trade ties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the rest",
+          "references": [
+            "the rest"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "LONDON",
+          "references": [
+            "LONDON"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "preliminary talks",
+          "references": [
+            "preliminary talks"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "an eventual bilateral trade deal",
+          "references": [
+            "an eventual bilateral trade deal"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "last month's referendum vote",
+          "references": [
+            "last month's referendum vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "its trade ties",
+          "references": [
+            "its trade ties"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the rest",
+          "references": [
+            "the rest"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the world",
+          "references": [
+            "the world"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

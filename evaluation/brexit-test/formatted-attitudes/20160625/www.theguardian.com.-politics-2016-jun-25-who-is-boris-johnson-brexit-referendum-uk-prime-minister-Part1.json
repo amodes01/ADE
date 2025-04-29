@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "Four years ago almost to the day, the then mayor of London, Boris Johnson, appeared on the David Letterman show."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Letterman",
+          "references": [
+            "http://dbpedia.org/resource/David_Letterman"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "Four years ago almost to the day, the then mayor of London, Boris Johnson, appeared on the David Letterman show."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "entity2": {
+          "entity": "David Letterman",
+          "references": [
+            "http://dbpedia.org/resource/David_Letterman"
+          ]
+        },
+        "justifications": [
+          "Four years ago almost to the day, the then mayor of London, Boris Johnson, appeared on the David Letterman show."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the day",
+          "references": [
+            "the day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the then mayor",
+          "references": [
+            "the then mayor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "the day",
+          "references": [
+            "the day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boris Johnson",
+          "references": [
+            "http://dbpedia.org/resource/Boris_Johnson"
+          ]
+        },
+        "target": {
+          "topic": "the then mayor",
+          "references": [
+            "the then mayor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Letterman",
+          "references": [
+            "http://dbpedia.org/resource/David_Letterman"
+          ]
+        },
+        "target": {
+          "topic": "the day",
+          "references": [
+            "the day"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Letterman",
+          "references": [
+            "http://dbpedia.org/resource/David_Letterman"
+          ]
+        },
+        "target": {
+          "topic": "the then mayor",
+          "references": [
+            "the then mayor"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

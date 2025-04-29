@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "A Brexit could have a very real impact on British people who live and work in Brussels."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "justifications": [
+          "A Brexit could have a very real impact on British people who live and work in Brussels."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "A Brexit could have a very real impact on British people who live and work in Brussels."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a very real impact",
+          "references": [
+            "a very real impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a very real impact",
+          "references": [
+            "a very real impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "a very real impact",
+          "references": [
+            "a very real impact"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "London: The impact of Britain's vote to leave the European Union was swift and painful for many businesses in the UK."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "The impact",
+          "references": [
+            "The impact"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "many businesses",
+          "references": [
+            "many businesses"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "The impact",
+          "references": [
+            "The impact"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "many businesses",
+          "references": [
+            "many businesses"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "his Virgin Group",
+          "references": [
+            "his Virgin Group"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "a third",
+          "references": [
+            "a third"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "its value",
+          "references": [
+            "its value"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "favour",
+          "references": [
+            "favour"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Richard Branson",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Branson"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

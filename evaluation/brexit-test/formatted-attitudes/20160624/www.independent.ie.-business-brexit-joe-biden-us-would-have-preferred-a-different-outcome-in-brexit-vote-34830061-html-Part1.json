@@ -1,0 +1,236 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "US Vice President",
+          "references": [
+            "http://dbpedia.org/resource/Vice_President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "Joe",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Duplantier"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "Biden",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Biden"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Joe",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Duplantier"
+          ]
+        },
+        "entity2": {
+          "entity": "US Vice President",
+          "references": [
+            "http://dbpedia.org/resource/Vice_President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Biden",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Biden"
+          ]
+        },
+        "entity2": {
+          "entity": "US Vice President",
+          "references": [
+            "http://dbpedia.org/resource/Vice_President_of_the_United_States"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Biden",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Biden"
+          ]
+        },
+        "entity2": {
+          "entity": "Joe",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Duplantier"
+          ]
+        },
+        "justifications": [
+          "The US would have preferred a Remain vote in the EU referendum, US Vice President Joe Biden has said."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "The US",
+          "references": [
+            "The US"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "a Remain vote",
+          "references": [
+            "a Remain vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US Vice President",
+          "references": [
+            "http://dbpedia.org/resource/Vice_President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "The US",
+          "references": [
+            "The US"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "US Vice President",
+          "references": [
+            "http://dbpedia.org/resource/Vice_President_of_the_United_States"
+          ]
+        },
+        "target": {
+          "topic": "a Remain vote",
+          "references": [
+            "a Remain vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Joe",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Duplantier"
+          ]
+        },
+        "target": {
+          "topic": "The US",
+          "references": [
+            "The US"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Joe",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Duplantier"
+          ]
+        },
+        "target": {
+          "topic": "a Remain vote",
+          "references": [
+            "a Remain vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Biden",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Biden"
+          ]
+        },
+        "target": {
+          "topic": "The US",
+          "references": [
+            "The US"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Biden",
+          "references": [
+            "http://dbpedia.org/resource/Joe_Biden"
+          ]
+        },
+        "target": {
+          "topic": "a Remain vote",
+          "references": [
+            "a Remain vote"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

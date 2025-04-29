@@ -1,0 +1,386 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "It's easy for Americans to see the Brexit debate as a British issue."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Americans",
+          "references": [
+            "Americans"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Americans",
+          "references": [
+            "Americans"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "entity2": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "justifications": [
+          "But the personal finance website Bankrate.com says if Britons vote tomorrow to exit the European Union, European vacations will likely be cheaper, mortgage rates might fall, the stock market could drop, and it would be harder to find a job in Britain."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "entity2": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "justifications": [
+          "But the personal finance website Bankrate.com says if Britons vote tomorrow to exit the European Union, European vacations will likely be cheaper, mortgage rates might fall, the stock market could drop, and it would be harder to find a job in Britain."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "entity2": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "justifications": [
+          "But the personal finance website Bankrate.com says if Britons vote tomorrow to exit the European Union, European vacations will likely be cheaper, mortgage rates might fall, the stock market could drop, and it would be harder to find a job in Britain."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "Britons",
+          "references": [
+            "Britons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "European vacations",
+          "references": [
+            "European vacations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "mortgage rates",
+          "references": [
+            "mortgage rates"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "a job",
+          "references": [
+            "a job"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "personal finance",
+          "references": [
+            "http://dbpedia.org/resource/Personal_finance"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "Britons",
+          "references": [
+            "Britons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "European vacations",
+          "references": [
+            "European vacations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "mortgage rates",
+          "references": [
+            "mortgage rates"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "a job",
+          "references": [
+            "a job"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bankrate.com",
+          "references": [
+            "http://dbpedia.org/resource/Bankrate"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "Britons",
+          "references": [
+            "Britons"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "European vacations",
+          "references": [
+            "European vacations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "mortgage rates",
+          "references": [
+            "mortgage rates"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "a job",
+          "references": [
+            "a job"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "stock market",
+          "references": [
+            "http://dbpedia.org/resource/Stock_market"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "If Britain were to leave the EU, little would change in its core security and intelligence relationship with Washington, but it could take a serious hit on various economic and diplomatic issues."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its core security and intelligence relationship",
+          "references": [
+            "its core security and intelligence relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a serious hit",
+          "references": [
+            "a serious hit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "various economic and diplomatic issues",
+          "references": [
+            "various economic and diplomatic issues"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "its core security and intelligence relationship",
+          "references": [
+            "its core security and intelligence relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a serious hit",
+          "references": [
+            "a serious hit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "various economic and diplomatic issues",
+          "references": [
+            "various economic and diplomatic issues"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

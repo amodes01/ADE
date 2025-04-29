@@ -1,0 +1,422 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "justifications": [
+          "home Faith Christians and Londoners protest surge in racism and hate crimes since Brexit referendum vote Christians and Londoners took to the streets Monday, July 4 to combat the surge of racism and hatred that resulted from the nation's historic vote to leave the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "home Faith Christians and Londoners protest surge in racism and hate crimes since Brexit referendum vote Christians and Londoners took to the streets Monday, July 4 to combat the surge of racism and hatred that resulted from the nation's historic vote to leave the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "home Faith Christians and Londoners protest surge in racism and hate crimes since Brexit referendum vote Christians and Londoners took to the streets Monday, July 4 to combat the surge of racism and hatred that resulted from the nation's historic vote to leave the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "racism",
+          "references": [
+            "racism"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "crimes",
+          "references": [
+            "crimes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "Londoners",
+          "references": [
+            "Londoners"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "the streets",
+          "references": [
+            "the streets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "July",
+          "references": [
+            "July"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "the surge",
+          "references": [
+            "the surge"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "hatred",
+          "references": [
+            "hatred"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christians",
+          "references": [
+            "http://dbpedia.org/resource/Christians"
+          ]
+        },
+        "target": {
+          "topic": "the nation's historic vote",
+          "references": [
+            "the nation's historic vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "racism",
+          "references": [
+            "racism"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "crimes",
+          "references": [
+            "crimes"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "Londoners",
+          "references": [
+            "Londoners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the streets",
+          "references": [
+            "the streets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "July",
+          "references": [
+            "July"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the surge",
+          "references": [
+            "the surge"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "hatred",
+          "references": [
+            "hatred"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit referendum",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the nation's historic vote",
+          "references": [
+            "the nation's historic vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "racism",
+          "references": [
+            "racism"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "crimes",
+          "references": [
+            "crimes"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Londoners",
+          "references": [
+            "Londoners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the streets",
+          "references": [
+            "the streets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "July",
+          "references": [
+            "July"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the surge",
+          "references": [
+            "the surge"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "hatred",
+          "references": [
+            "hatred"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the nation's historic vote",
+          "references": [
+            "the nation's historic vote"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "Putin",
+          "references": [
+            "http://dbpedia.org/resource/Vladimir_Putin"
+          ]
+        },
+        "justifications": [
+          "Will Britain's vote to leave the European Union be a boon for Putin's Russia?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Will Britain's vote to leave the European Union be a boon for Putin's Russia?"
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "entity2": {
+          "entity": "Putin",
+          "references": [
+            "http://dbpedia.org/resource/Vladimir_Putin"
+          ]
+        },
+        "justifications": [
+          "Will Britain's vote to leave the European Union be a boon for Putin's Russia?"
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Will Britain's vote",
+          "references": [
+            "Will Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a boon",
+          "references": [
+            "a boon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Putin",
+          "references": [
+            "http://dbpedia.org/resource/Vladimir_Putin"
+          ]
+        },
+        "target": {
+          "topic": "Will Britain's vote",
+          "references": [
+            "Will Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Putin",
+          "references": [
+            "http://dbpedia.org/resource/Vladimir_Putin"
+          ]
+        },
+        "target": {
+          "topic": "a boon",
+          "references": [
+            "a boon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "Will Britain's vote",
+          "references": [
+            "Will Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russia",
+          "references": [
+            "http://dbpedia.org/resource/Russia"
+          ]
+        },
+        "target": {
+          "topic": "a boon",
+          "references": [
+            "a boon"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

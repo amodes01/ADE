@@ -1,0 +1,476 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "entity2": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "\"One thing that will not change is the special relationship between our two countries\" President Obama said on Friday that the recent \"Brexit\" vote in the United Kingdom to leave the European Union will not change the \"special relationship\" between the two nations."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "One thing",
+          "references": [
+            "One thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the special relationship",
+          "references": [
+            "the special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "our two countries",
+          "references": [
+            "our two countries"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the \"special relationship",
+          "references": [
+            "the \"special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "President Obama",
+          "references": [
+            "http://dbpedia.org/resource/Presidency_of_Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the two nations",
+          "references": [
+            "the two nations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "One thing",
+          "references": [
+            "One thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the special relationship",
+          "references": [
+            "the special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "our two countries",
+          "references": [
+            "our two countries"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the \"special relationship",
+          "references": [
+            "the \"special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the two nations",
+          "references": [
+            "the two nations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "One thing",
+          "references": [
+            "One thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the special relationship",
+          "references": [
+            "the special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "our two countries",
+          "references": [
+            "our two countries"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the \"special relationship",
+          "references": [
+            "the \"special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the two nations",
+          "references": [
+            "the two nations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "One thing",
+          "references": [
+            "One thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "the special relationship",
+          "references": [
+            "the special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "our two countries",
+          "references": [
+            "our two countries"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "Friday",
+          "references": [
+            "Friday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "the \"special relationship",
+          "references": [
+            "the \"special relationship"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1800"
+          ]
+        },
+        "target": {
+          "topic": "the two nations",
+          "references": [
+            "the two nations"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

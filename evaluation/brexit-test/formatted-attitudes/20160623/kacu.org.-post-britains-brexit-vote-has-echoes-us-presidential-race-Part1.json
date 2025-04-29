@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "U.S. presidential race",
+          "references": [
+            "http://dbpedia.org/resource/2020_United_States_presidential_election"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "When American Erik Bidenkap arrived in London from the U.S. six weeks ago, he thought he was leaving behind the toxic politics of the U.S. presidential race."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "American Erik Bidenkap",
+          "references": [
+            "American Erik Bidenkap"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the U.S.",
+          "references": [
+            "the U.S."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the toxic politics",
+          "references": [
+            "the toxic politics"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.S. presidential race",
+          "references": [
+            "http://dbpedia.org/resource/2020_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "American Erik Bidenkap",
+          "references": [
+            "American Erik Bidenkap"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.S. presidential race",
+          "references": [
+            "http://dbpedia.org/resource/2020_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "the U.S.",
+          "references": [
+            "the U.S."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.S. presidential race",
+          "references": [
+            "http://dbpedia.org/resource/2020_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "the toxic politics",
+          "references": [
+            "the toxic politics"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

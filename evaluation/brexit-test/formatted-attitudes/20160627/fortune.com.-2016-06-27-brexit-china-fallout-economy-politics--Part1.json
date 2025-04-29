@@ -1,0 +1,176 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_China"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "entity2": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_China"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_China"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "justifications": [
+          "Beijing may be 5,000 miles away from London, but China cannot escape the shock waves of Brexit."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Government_of_China"
+          ]
+        },
+        "target": {
+          "topic": "the shock waves",
+          "references": [
+            "the shock waves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "London",
+          "references": [
+            "http://dbpedia.org/resource/London"
+          ]
+        },
+        "target": {
+          "topic": "the shock waves",
+          "references": [
+            "the shock waves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "target": {
+          "topic": "the shock waves",
+          "references": [
+            "the shock waves"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the shock waves",
+          "references": [
+            "the shock waves"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

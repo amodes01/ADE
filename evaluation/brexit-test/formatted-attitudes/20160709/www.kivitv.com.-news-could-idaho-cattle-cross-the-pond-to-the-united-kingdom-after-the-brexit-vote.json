@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Idaho",
+          "references": [
+            "http://dbpedia.org/resource/Idaho"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Beef it's what's for dinner, but could Idaho cattle cross the pond to the United Kingdom after the Brexit vote?"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Idaho",
+          "references": [
+            "http://dbpedia.org/resource/Idaho"
+          ]
+        },
+        "justifications": [
+          "Beef it's what's for dinner, but could Idaho cattle cross the pond to the United Kingdom after the Brexit vote?"
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Beef it's what's for dinner, but could Idaho cattle cross the pond to the United Kingdom after the Brexit vote?"
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Idaho",
+          "references": [
+            "http://dbpedia.org/resource/Idaho"
+          ]
+        },
+        "target": {
+          "topic": "dinner",
+          "references": [
+            "dinner"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Idaho",
+          "references": [
+            "http://dbpedia.org/resource/Idaho"
+          ]
+        },
+        "target": {
+          "topic": "the pond",
+          "references": [
+            "the pond"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "dinner",
+          "references": [
+            "dinner"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the pond",
+          "references": [
+            "the pond"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "dinner",
+          "references": [
+            "dinner"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the pond",
+          "references": [
+            "the pond"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

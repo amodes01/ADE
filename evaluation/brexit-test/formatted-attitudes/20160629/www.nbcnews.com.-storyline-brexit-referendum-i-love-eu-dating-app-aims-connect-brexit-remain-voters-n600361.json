@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "a new dating app",
+          "references": [
+            "a new dating app"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_Kingdom_European_Union_membership_referendum"
+          ]
+        },
+        "target": {
+          "topic": "the 'heart",
+          "references": [
+            "the 'heart"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

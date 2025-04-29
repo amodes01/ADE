@@ -1,0 +1,656 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "entity2": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "entity2": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "entity2": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "I am Fred Raillard, Creative CEO, Co-founder and Creative Chief Officer of FRED & FARID, a social, content, tech solutions for brands company based in Paris, Shanghai, Beijing and New York."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Fred Raillard",
+          "references": [
+            "Fred Raillard"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Creative CEO",
+          "references": [
+            "Creative CEO"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Co",
+          "references": [
+            "Co"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "founder",
+          "references": [
+            "founder"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "Creative Chief Officer",
+          "references": [
+            "Creative Chief Officer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "FRED",
+          "references": [
+            "FRED"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "FARID",
+          "references": [
+            "FARID"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "a social, content, tech solutions",
+          "references": [
+            "a social, content, tech solutions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Paris",
+          "references": [
+            "http://dbpedia.org/resource/Paris"
+          ]
+        },
+        "target": {
+          "topic": "brands company",
+          "references": [
+            "brands company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "Fred Raillard",
+          "references": [
+            "Fred Raillard"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "Creative CEO",
+          "references": [
+            "Creative CEO"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "Co",
+          "references": [
+            "Co"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "founder",
+          "references": [
+            "founder"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "Creative Chief Officer",
+          "references": [
+            "Creative Chief Officer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "FRED",
+          "references": [
+            "FRED"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "FARID",
+          "references": [
+            "FARID"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "a social, content, tech solutions",
+          "references": [
+            "a social, content, tech solutions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Shanghai",
+          "references": [
+            "http://dbpedia.org/resource/Shanghai"
+          ]
+        },
+        "target": {
+          "topic": "brands company",
+          "references": [
+            "brands company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "Fred Raillard",
+          "references": [
+            "Fred Raillard"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "Creative CEO",
+          "references": [
+            "Creative CEO"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "Co",
+          "references": [
+            "Co"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "founder",
+          "references": [
+            "founder"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "Creative Chief Officer",
+          "references": [
+            "Creative Chief Officer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "FRED",
+          "references": [
+            "FRED"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "FARID",
+          "references": [
+            "FARID"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "a social, content, tech solutions",
+          "references": [
+            "a social, content, tech solutions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Beijing",
+          "references": [
+            "http://dbpedia.org/resource/Beijing"
+          ]
+        },
+        "target": {
+          "topic": "brands company",
+          "references": [
+            "brands company"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Fred Raillard",
+          "references": [
+            "Fred Raillard"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Creative CEO",
+          "references": [
+            "Creative CEO"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Co",
+          "references": [
+            "Co"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "founder",
+          "references": [
+            "founder"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Creative Chief Officer",
+          "references": [
+            "Creative Chief Officer"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "FRED",
+          "references": [
+            "FRED"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "FARID",
+          "references": [
+            "FARID"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "a social, content, tech solutions",
+          "references": [
+            "a social, content, tech solutions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "brands company",
+          "references": [
+            "brands company"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

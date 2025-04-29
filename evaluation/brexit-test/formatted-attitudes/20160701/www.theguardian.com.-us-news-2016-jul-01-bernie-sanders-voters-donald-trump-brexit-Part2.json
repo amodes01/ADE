@@ -1,0 +1,251 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "in the EU offered the same uninspiring choice to Britons."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the same uninspiring choice",
+          "references": [
+            "the same uninspiring choice"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the same uninspiring choice",
+          "references": [
+            "the same uninspiring choice"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "John Bolger",
+          "references": [
+            "http://dbpedia.org/resource/John_Michael_Bolger"
+          ]
+        },
+        "entity2": {
+          "entity": "software developer",
+          "references": [
+            "http://dbpedia.org/resource/Software_development"
+          ]
+        },
+        "justifications": [
+          "John Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "John Bolger",
+          "references": [
+            "http://dbpedia.org/resource/John_Michael_Bolger"
+          ]
+        },
+        "entity2": {
+          "entity": "New York City",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "justifications": [
+          "John Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "New York City",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "entity2": {
+          "entity": "software developer",
+          "references": [
+            "http://dbpedia.org/resource/Software_development"
+          ]
+        },
+        "justifications": [
+          "John Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "John Bolger",
+          "references": [
+            "http://dbpedia.org/resource/John_Michael_Bolger"
+          ]
+        },
+        "target": {
+          "topic": "the similarities",
+          "references": [
+            "the similarities"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "John Bolger",
+          "references": [
+            "http://dbpedia.org/resource/John_Michael_Bolger"
+          ]
+        },
+        "target": {
+          "topic": "Trump",
+          "references": [
+            "Trump"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "John Bolger",
+          "references": [
+            "http://dbpedia.org/resource/John_Michael_Bolger"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit campaign",
+          "references": [
+            "the Brexit campaign"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "software developer",
+          "references": [
+            "http://dbpedia.org/resource/Software_development"
+          ]
+        },
+        "target": {
+          "topic": "the similarities",
+          "references": [
+            "the similarities"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "software developer",
+          "references": [
+            "http://dbpedia.org/resource/Software_development"
+          ]
+        },
+        "target": {
+          "topic": "Trump",
+          "references": [
+            "Trump"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "software developer",
+          "references": [
+            "http://dbpedia.org/resource/Software_development"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit campaign",
+          "references": [
+            "the Brexit campaign"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "New York City",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the similarities",
+          "references": [
+            "the similarities"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York City",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "Trump",
+          "references": [
+            "Trump"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "New York City",
+          "references": [
+            "http://dbpedia.org/resource/New_York_City"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit campaign",
+          "references": [
+            "the Brexit campaign"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

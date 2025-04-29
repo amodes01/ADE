@@ -1,0 +1,557 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "justifications": [
+          "Washington, DC - The National Black Church Initiative (NBCI), a faith-based coalition of 34,000 churches comprised of 15 denominations and 15.7 million African Americans, is shocked to know that white Europeans are willing to destroy their own country to underscore their racist nature against immigrants and against the inevitably changing waves of societies into a more pluralistic one."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "justifications": [
+          "Washington, DC - The National Black Church Initiative (NBCI), a faith-based coalition of 34,000 churches comprised of 15 denominations and 15.7 million African Americans, is shocked to know that white Europeans are willing to destroy their own country to underscore their racist nature against immigrants and against the inevitably changing waves of societies into a more pluralistic one."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "entity2": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "justifications": [
+          "Washington, DC - The National Black Church Initiative (NBCI), a faith-based coalition of 34,000 churches comprised of 15 denominations and 15.7 million African Americans, is shocked to know that white Europeans are willing to destroy their own country to underscore their racist nature against immigrants and against the inevitably changing waves of societies into a more pluralistic one."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "NBCI",
+          "references": [
+            "NBCI"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "a faith-based coalition",
+          "references": [
+            "a faith-based coalition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "34,000 churches",
+          "references": [
+            "34,000 churches"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "15 denominations",
+          "references": [
+            "15 denominations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "white Europeans",
+          "references": [
+            "white Europeans"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "their own country",
+          "references": [
+            "their own country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "their racist nature",
+          "references": [
+            "their racist nature"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "the inevitably changing waves",
+          "references": [
+            "the inevitably changing waves"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "societies",
+          "references": [
+            "societies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington, DC",
+          "references": [
+            "http://dbpedia.org/resource/Washington_metropolitan_area"
+          ]
+        },
+        "target": {
+          "topic": "a more pluralistic one",
+          "references": [
+            "a more pluralistic one"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "NBCI",
+          "references": [
+            "NBCI"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "a faith-based coalition",
+          "references": [
+            "a faith-based coalition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "34,000 churches",
+          "references": [
+            "34,000 churches"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "15 denominations",
+          "references": [
+            "15 denominations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "white Europeans",
+          "references": [
+            "white Europeans"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "their own country",
+          "references": [
+            "their own country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "their racist nature",
+          "references": [
+            "their racist nature"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "the inevitably changing waves",
+          "references": [
+            "the inevitably changing waves"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "societies",
+          "references": [
+            "societies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Black Church",
+          "references": [
+            "http://dbpedia.org/resource/Black_church"
+          ]
+        },
+        "target": {
+          "topic": "a more pluralistic one",
+          "references": [
+            "a more pluralistic one"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "NBCI",
+          "references": [
+            "NBCI"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "a faith-based coalition",
+          "references": [
+            "a faith-based coalition"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "34,000 churches",
+          "references": [
+            "34,000 churches"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "15 denominations",
+          "references": [
+            "15 denominations"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "white Europeans",
+          "references": [
+            "white Europeans"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "their own country",
+          "references": [
+            "their own country"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "their racist nature",
+          "references": [
+            "their racist nature"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "the inevitably changing waves",
+          "references": [
+            "the inevitably changing waves"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "societies",
+          "references": [
+            "societies"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "African Americans",
+          "references": [
+            "http://dbpedia.org/resource/African_Americans"
+          ]
+        },
+        "target": {
+          "topic": "a more pluralistic one",
+          "references": [
+            "a more pluralistic one"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Edison",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_Edison"
+          ]
+        },
+        "target": {
+          "topic": "years",
+          "references": [
+            "years"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Edison",
+          "references": [
+            "http://dbpedia.org/resource/Thomas_Edison"
+          ]
+        },
+        "target": {
+          "topic": "test results",
+          "references": [
+            "test results"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

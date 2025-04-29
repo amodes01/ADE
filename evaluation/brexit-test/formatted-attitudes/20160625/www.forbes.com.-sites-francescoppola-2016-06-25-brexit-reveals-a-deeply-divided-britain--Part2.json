@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "back\" resonates with older people who remember with nostalgia the UK of old, before the evil EU deprived it of its sovereignty."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "older people",
+          "references": [
+            "older people"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "nostalgia",
+          "references": [
+            "nostalgia"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "its sovereignty",
+          "references": [
+            "its sovereignty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "older people",
+          "references": [
+            "older people"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "nostalgia",
+          "references": [
+            "nostalgia"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its sovereignty",
+          "references": [
+            "its sovereignty"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

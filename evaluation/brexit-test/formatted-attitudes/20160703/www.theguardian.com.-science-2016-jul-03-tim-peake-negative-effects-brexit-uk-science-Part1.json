@@ -1,0 +1,382 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Britain must ensure that its world class scientific research is not harmed as a result of the UK's decision to leave the EU, the astronaut Tim Peake has said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Britain must ensure that its world class scientific research is not harmed as a result of the UK's decision to leave the EU, the astronaut Tim Peake has said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "justifications": [
+          "Britain must ensure that its world class scientific research is not harmed as a result of the UK's decision to leave the EU, the astronaut Tim Peake has said."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "its world class scientific research",
+          "references": [
+            "its world class scientific research"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the astronaut",
+          "references": [
+            "the astronaut"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "its world class scientific research",
+          "references": [
+            "its world class scientific research"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the astronaut",
+          "references": [
+            "the astronaut"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "target": {
+          "topic": "its world class scientific research",
+          "references": [
+            "its world class scientific research"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "target": {
+          "topic": "a result",
+          "references": [
+            "a result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tim Peake",
+          "references": [
+            "http://dbpedia.org/resource/Tim_Peake"
+          ]
+        },
+        "target": {
+          "topic": "the astronaut",
+          "references": [
+            "the astronaut"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "The former helicopter test pilot",
+          "references": [
+            "The former helicopter test pilot"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "a six-month mission",
+          "references": [
+            "a six-month mission"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "June",
+          "references": [
+            "June"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "result",
+          "references": [
+            "result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "a surprising decision",
+          "references": [
+            "a surprising decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "everybody",
+          "references": [
+            "everybody"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "the best future",
+          "references": [
+            "the best future"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "International Space Station",
+          "references": [
+            "http://dbpedia.org/resource/International_Space_Station"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

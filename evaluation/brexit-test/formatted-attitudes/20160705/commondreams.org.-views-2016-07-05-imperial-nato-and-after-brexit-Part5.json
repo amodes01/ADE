@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "entity2": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "entity2": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "justifications": [
+          "allied with Hitler now part of Ukraine's ruling elite, and hardliners in Washington, Moscow, and across Europe reinforced."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "part",
+          "references": [
+            "part"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "hardliners",
+          "references": [
+            "hardliners"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hitler",
+          "references": [
+            "http://dbpedia.org/resource/Adolf_Hitler"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "target": {
+          "topic": "part",
+          "references": [
+            "part"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "target": {
+          "topic": "hardliners",
+          "references": [
+            "hardliners"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Ukraine",
+          "references": [
+            "http://dbpedia.org/resource/Ukraine"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "part",
+          "references": [
+            "part"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "hardliners",
+          "references": [
+            "hardliners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "target": {
+          "topic": "part",
+          "references": [
+            "part"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "target": {
+          "topic": "hardliners",
+          "references": [
+            "hardliners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

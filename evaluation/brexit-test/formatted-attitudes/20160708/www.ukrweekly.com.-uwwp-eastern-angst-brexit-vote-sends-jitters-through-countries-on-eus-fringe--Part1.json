@@ -1,0 +1,241 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Kyiv",
+          "references": [
+            "http://dbpedia.org/resource/Kyiv"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "The mood in Kyiv was glum after Britain's shock decision to leave the European Union following a countrywide referendum."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Kyiv",
+          "references": [
+            "http://dbpedia.org/resource/Kyiv"
+          ]
+        },
+        "target": {
+          "topic": "The mood",
+          "references": [
+            "The mood"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kyiv",
+          "references": [
+            "http://dbpedia.org/resource/Kyiv"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock decision",
+          "references": [
+            "Britain's shock decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Kyiv",
+          "references": [
+            "http://dbpedia.org/resource/Kyiv"
+          ]
+        },
+        "target": {
+          "topic": "a countrywide referendum",
+          "references": [
+            "a countrywide referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "The mood",
+          "references": [
+            "The mood"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock decision",
+          "references": [
+            "Britain's shock decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a countrywide referendum",
+          "references": [
+            "a countrywide referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "deadly mass protests",
+          "references": [
+            "deadly mass protests"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "defense",
+          "references": [
+            "defense"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "Ukraine's rapprochement",
+          "references": [
+            "Ukraine's rapprochement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "the European Union",
+          "references": [
+            "the European Union"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "news",
+          "references": [
+            "news"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "the Brexit vote",
+          "references": [
+            "the Brexit vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "dismay",
+          "references": [
+            "dismay"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "city",
+          "references": [
+            "http://dbpedia.org/resource/City"
+          ]
+        },
+        "target": {
+          "topic": "the Ukrainian capital",
+          "references": [
+            "the Ukrainian capital"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

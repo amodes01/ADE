@@ -1,0 +1,256 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1707"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "The result of the UK referendum on the European Union membership came as a shock to Europe and the World."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "The result",
+          "references": [
+            "The result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a shock",
+          "references": [
+            "a shock"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the World",
+          "references": [
+            "the World"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1707"
+          ]
+        },
+        "target": {
+          "topic": "The result",
+          "references": [
+            "The result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1707"
+          ]
+        },
+        "target": {
+          "topic": "a shock",
+          "references": [
+            "a shock"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1707"
+          ]
+        },
+        "target": {
+          "topic": "Europe",
+          "references": [
+            "Europe"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/Acts_of_Union_1707"
+          ]
+        },
+        "target": {
+          "topic": "the World",
+          "references": [
+            "the World"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "someone",
+          "references": [
+            "someone"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "twelve years",
+          "references": [
+            "twelve years"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "eight years",
+          "references": [
+            "eight years"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "the perceptions",
+          "references": [
+            "the perceptions"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "both sides",
+          "references": [
+            "both sides"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "the English Channel",
+          "references": [
+            "the English Channel"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

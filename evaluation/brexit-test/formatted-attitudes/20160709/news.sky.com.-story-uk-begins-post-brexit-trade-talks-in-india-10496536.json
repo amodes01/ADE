@@ -1,0 +1,277 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Sajid Javid",
+          "references": [
+            "http://dbpedia.org/resource/Sajid_Javid"
+          ]
+        },
+        "entity2": {
+          "entity": "UK Business Secretary",
+          "references": [
+            "http://dbpedia.org/resource/Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy"
+          ]
+        },
+        "justifications": [
+          "UK Business Secretary Sajid Javid has kicked off preliminary trade talks with India post-Brexit."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "entity2": {
+          "entity": "UK Business Secretary",
+          "references": [
+            "http://dbpedia.org/resource/Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy"
+          ]
+        },
+        "justifications": [
+          "UK Business Secretary Sajid Javid has kicked off preliminary trade talks with India post-Brexit."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "entity2": {
+          "entity": "Sajid Javid",
+          "references": [
+            "http://dbpedia.org/resource/Sajid_Javid"
+          ]
+        },
+        "justifications": [
+          "UK Business Secretary Sajid Javid has kicked off preliminary trade talks with India post-Brexit."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK Business Secretary",
+          "references": [
+            "http://dbpedia.org/resource/Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy"
+          ]
+        },
+        "target": {
+          "topic": "preliminary trade talks",
+          "references": [
+            "preliminary trade talks"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK Business Secretary",
+          "references": [
+            "http://dbpedia.org/resource/Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Sajid Javid",
+          "references": [
+            "http://dbpedia.org/resource/Sajid_Javid"
+          ]
+        },
+        "target": {
+          "topic": "preliminary trade talks",
+          "references": [
+            "preliminary trade talks"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Sajid Javid",
+          "references": [
+            "http://dbpedia.org/resource/Sajid_Javid"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "preliminary trade talks",
+          "references": [
+            "preliminary trade talks"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "India",
+          "references": [
+            "http://dbpedia.org/resource/India"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "his counterpart",
+          "references": [
+            "his counterpart"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "Nirmala Sitharaman",
+          "references": [
+            "Nirmala Sitharaman"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "finance minister Arun Jaitley",
+          "references": [
+            "finance minister Arun Jaitley"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "other government officials",
+          "references": [
+            "other government officials"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "a free trade agreement",
+          "references": [
+            "a free trade agreement"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "the two countries",
+          "references": [
+            "the two countries"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Delhi",
+          "references": [
+            "http://dbpedia.org/resource/Delhi"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

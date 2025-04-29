@@ -1,0 +1,236 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "entity2": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "justifications": [
+          "Gunmen kill four police officers in Dallas: \"This is a nightmare: The nightmare of a terrorist attack at a peaceful, familiar street intersection where we have all been a thousand times,\" wrote Dallas Morning News columnist Jacquielynn Floyd early this morning."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "Gunmen",
+          "references": [
+            "Gunmen"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "four police officers",
+          "references": [
+            "four police officers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "a nightmare",
+          "references": [
+            "a nightmare"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "The nightmare",
+          "references": [
+            "The nightmare"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "a terrorist attack",
+          "references": [
+            "a terrorist attack"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "a peaceful, familiar street intersection",
+          "references": [
+            "a peaceful, familiar street intersection"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Dallas",
+          "references": [
+            "http://dbpedia.org/resource/Dallas"
+          ]
+        },
+        "target": {
+          "topic": "a thousand times",
+          "references": [
+            "a thousand times"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "Gunmen",
+          "references": [
+            "Gunmen"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "four police officers",
+          "references": [
+            "four police officers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "a nightmare",
+          "references": [
+            "a nightmare"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "The nightmare",
+          "references": [
+            "The nightmare"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "a terrorist attack",
+          "references": [
+            "a terrorist attack"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "a peaceful, familiar street intersection",
+          "references": [
+            "a peaceful, familiar street intersection"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Morning",
+          "references": [
+            "http://dbpedia.org/resource/The_Early_Show"
+          ]
+        },
+        "target": {
+          "topic": "a thousand times",
+          "references": [
+            "a thousand times"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

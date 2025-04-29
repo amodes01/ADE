@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "LaGrange College",
+          "references": [
+            "http://dbpedia.org/resource/LaGrange_College"
+          ]
+        },
+        "entity2": {
+          "entity": "Tures",
+          "references": [
+            "http://dbpedia.org/resource/Tures"
+          ]
+        },
+        "justifications": [
+          "http://lagrangenews.com/wp-content/uploads/sites/37/2016/06/web1_WEBTuresJohn2014RGB-4.jpg By John A. Tures Contributing columnist John A. Tures is a professor of political science at LaGrange College."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Tures",
+          "references": [
+            "http://dbpedia.org/resource/Tures"
+          ]
+        },
+        "target": {
+          "topic": "http://lagrangenews.com/wp-content/uploads/sites/37/2016/06/web1_WEBTuresJohn2014RGB-4.jpg",
+          "references": [
+            "http://lagrangenews.com/wp-content/uploads/sites/37/2016/06/web1_WEBTuresJohn2014RGB-4.jpg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tures",
+          "references": [
+            "http://dbpedia.org/resource/Tures"
+          ]
+        },
+        "target": {
+          "topic": "a professor",
+          "references": [
+            "a professor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tures",
+          "references": [
+            "http://dbpedia.org/resource/Tures"
+          ]
+        },
+        "target": {
+          "topic": "political science",
+          "references": [
+            "political science"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LaGrange College",
+          "references": [
+            "http://dbpedia.org/resource/LaGrange_College"
+          ]
+        },
+        "target": {
+          "topic": "http://lagrangenews.com/wp-content/uploads/sites/37/2016/06/web1_WEBTuresJohn2014RGB-4.jpg",
+          "references": [
+            "http://lagrangenews.com/wp-content/uploads/sites/37/2016/06/web1_WEBTuresJohn2014RGB-4.jpg"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LaGrange College",
+          "references": [
+            "http://dbpedia.org/resource/LaGrange_College"
+          ]
+        },
+        "target": {
+          "topic": "a professor",
+          "references": [
+            "a professor"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "LaGrange College",
+          "references": [
+            "http://dbpedia.org/resource/LaGrange_College"
+          ]
+        },
+        "target": {
+          "topic": "political science",
+          "references": [
+            "political science"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

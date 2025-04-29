@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Asked if Brexit will make the EU more pro-Russian, international experts with different backgrounds approached by EURACTIV were not unanimous in their assessment."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EURACTIV",
+          "references": [
+            "http://dbpedia.org/resource/Euractiv"
+          ]
+        },
+        "justifications": [
+          "Asked if Brexit will make the EU more pro-Russian, international experts with different backgrounds approached by EURACTIV were not unanimous in their assessment."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "EURACTIV",
+          "references": [
+            "http://dbpedia.org/resource/Euractiv"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Asked if Brexit will make the EU more pro-Russian, international experts with different backgrounds approached by EURACTIV were not unanimous in their assessment."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "different backgrounds",
+          "references": [
+            "different backgrounds"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "their assessment",
+          "references": [
+            "their assessment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "different backgrounds",
+          "references": [
+            "different backgrounds"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "their assessment",
+          "references": [
+            "their assessment"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "EURACTIV",
+          "references": [
+            "http://dbpedia.org/resource/Euractiv"
+          ]
+        },
+        "target": {
+          "topic": "different backgrounds",
+          "references": [
+            "different backgrounds"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EURACTIV",
+          "references": [
+            "http://dbpedia.org/resource/Euractiv"
+          ]
+        },
+        "target": {
+          "topic": "their assessment",
+          "references": [
+            "their assessment"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

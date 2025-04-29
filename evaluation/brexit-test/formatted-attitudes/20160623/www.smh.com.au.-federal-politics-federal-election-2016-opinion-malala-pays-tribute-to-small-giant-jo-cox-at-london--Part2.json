@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Malcolm Turnbull",
+          "references": [
+            "http://dbpedia.org/resource/Malcolm_Turnbull"
+          ]
+        },
+        "entity2": {
+          "entity": "Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Parliament_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Malcolm Turnbull might be able to bring on a vote in Parliament if the Senate rejects plebiscite bills."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Senate",
+          "references": [
+            "http://dbpedia.org/resource/Australian_Senate"
+          ]
+        },
+        "entity2": {
+          "entity": "Malcolm Turnbull",
+          "references": [
+            "http://dbpedia.org/resource/Malcolm_Turnbull"
+          ]
+        },
+        "justifications": [
+          "Malcolm Turnbull might be able to bring on a vote in Parliament if the Senate rejects plebiscite bills."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Senate",
+          "references": [
+            "http://dbpedia.org/resource/Australian_Senate"
+          ]
+        },
+        "entity2": {
+          "entity": "Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Parliament_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Malcolm Turnbull might be able to bring on a vote in Parliament if the Senate rejects plebiscite bills."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Malcolm Turnbull",
+          "references": [
+            "http://dbpedia.org/resource/Malcolm_Turnbull"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Malcolm Turnbull",
+          "references": [
+            "http://dbpedia.org/resource/Malcolm_Turnbull"
+          ]
+        },
+        "target": {
+          "topic": "plebiscite bills",
+          "references": [
+            "plebiscite bills"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Parliament_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Parliament_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "plebiscite bills",
+          "references": [
+            "plebiscite bills"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Senate",
+          "references": [
+            "http://dbpedia.org/resource/Australian_Senate"
+          ]
+        },
+        "target": {
+          "topic": "a vote",
+          "references": [
+            "a vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Senate",
+          "references": [
+            "http://dbpedia.org/resource/Australian_Senate"
+          ]
+        },
+        "target": {
+          "topic": "plebiscite bills",
+          "references": [
+            "plebiscite bills"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Foreign Office",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_Secretary"
+          ]
+        },
+        "entity2": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "justifications": [
+          "My last meeting was with the number three man in the French Foreign Office, Olivier Wormser."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "target": {
+          "topic": "My last meeting",
+          "references": [
+            "My last meeting"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "target": {
+          "topic": "the number three man",
+          "references": [
+            "the number three man"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "French",
+          "references": [
+            "http://dbpedia.org/resource/French_language"
+          ]
+        },
+        "target": {
+          "topic": "Olivier Wormser",
+          "references": [
+            "Olivier Wormser"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Foreign Office",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_Secretary"
+          ]
+        },
+        "target": {
+          "topic": "My last meeting",
+          "references": [
+            "My last meeting"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Foreign Office",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_Secretary"
+          ]
+        },
+        "target": {
+          "topic": "the number three man",
+          "references": [
+            "the number three man"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Foreign Office",
+          "references": [
+            "http://dbpedia.org/resource/Foreign_Secretary"
+          ]
+        },
+        "target": {
+          "topic": "Olivier Wormser",
+          "references": [
+            "Olivier Wormser"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

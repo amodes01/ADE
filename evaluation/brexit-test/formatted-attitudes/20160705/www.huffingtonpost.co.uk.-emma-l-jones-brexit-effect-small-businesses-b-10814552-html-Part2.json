@@ -1,0 +1,938 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "entity2": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "entity2": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "entity2": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "entity2": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "entity2": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "entity2": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "entity2": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "entity2": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "entity2": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "entity2": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "justifications": [
+          "Nation, FSB, IPSE, National Enterprise Network, Open to Export, The Entrepreneurs Network (TEN), the Institute of Chartered Accountants, England and Wales (ICAEW), British Library Business and IP Centre, and Coadec."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "Nation",
+          "references": [
+            "Nation"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "IPSE",
+          "references": [
+            "IPSE"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "Export",
+          "references": [
+            "Export"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "The Entrepreneurs Network",
+          "references": [
+            "The Entrepreneurs Network"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "TEN",
+          "references": [
+            "TEN"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "the Institute",
+          "references": [
+            "the Institute"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "Chartered Accountants",
+          "references": [
+            "Chartered Accountants"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "(ICAEW",
+          "references": [
+            "(ICAEW"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "IP Centre",
+          "references": [
+            "IP Centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "FSB",
+          "references": [
+            "http://dbpedia.org/resource/Federal_Security_Service"
+          ]
+        },
+        "target": {
+          "topic": "Coadec",
+          "references": [
+            "Coadec"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "Nation",
+          "references": [
+            "Nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "IPSE",
+          "references": [
+            "IPSE"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "Export",
+          "references": [
+            "Export"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "The Entrepreneurs Network",
+          "references": [
+            "The Entrepreneurs Network"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "TEN",
+          "references": [
+            "TEN"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "the Institute",
+          "references": [
+            "the Institute"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "Chartered Accountants",
+          "references": [
+            "Chartered Accountants"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "(ICAEW",
+          "references": [
+            "(ICAEW"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "IP Centre",
+          "references": [
+            "IP Centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Enterprise",
+          "references": [
+            "http://dbpedia.org/resource/Space_Shuttle_Enterprise"
+          ]
+        },
+        "target": {
+          "topic": "Coadec",
+          "references": [
+            "Coadec"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "Nation",
+          "references": [
+            "Nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "IPSE",
+          "references": [
+            "IPSE"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "Export",
+          "references": [
+            "Export"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "The Entrepreneurs Network",
+          "references": [
+            "The Entrepreneurs Network"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "TEN",
+          "references": [
+            "TEN"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "the Institute",
+          "references": [
+            "the Institute"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "Chartered Accountants",
+          "references": [
+            "Chartered Accountants"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "(ICAEW",
+          "references": [
+            "(ICAEW"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "IP Centre",
+          "references": [
+            "IP Centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "England",
+          "references": [
+            "http://dbpedia.org/resource/England"
+          ]
+        },
+        "target": {
+          "topic": "Coadec",
+          "references": [
+            "Coadec"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "Nation",
+          "references": [
+            "Nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "IPSE",
+          "references": [
+            "IPSE"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "Export",
+          "references": [
+            "Export"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "The Entrepreneurs Network",
+          "references": [
+            "The Entrepreneurs Network"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "TEN",
+          "references": [
+            "TEN"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "the Institute",
+          "references": [
+            "the Institute"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "Chartered Accountants",
+          "references": [
+            "Chartered Accountants"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "(ICAEW",
+          "references": [
+            "(ICAEW"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "IP Centre",
+          "references": [
+            "IP Centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wales",
+          "references": [
+            "http://dbpedia.org/resource/Wales"
+          ]
+        },
+        "target": {
+          "topic": "Coadec",
+          "references": [
+            "Coadec"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "Nation",
+          "references": [
+            "Nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "IPSE",
+          "references": [
+            "IPSE"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "Export",
+          "references": [
+            "Export"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "The Entrepreneurs Network",
+          "references": [
+            "The Entrepreneurs Network"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "TEN",
+          "references": [
+            "TEN"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "the Institute",
+          "references": [
+            "the Institute"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "Chartered Accountants",
+          "references": [
+            "Chartered Accountants"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "(ICAEW",
+          "references": [
+            "(ICAEW"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "IP Centre",
+          "references": [
+            "IP Centre"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Library",
+          "references": [
+            "http://dbpedia.org/resource/British_Library"
+          ]
+        },
+        "target": {
+          "topic": "Coadec",
+          "references": [
+            "Coadec"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

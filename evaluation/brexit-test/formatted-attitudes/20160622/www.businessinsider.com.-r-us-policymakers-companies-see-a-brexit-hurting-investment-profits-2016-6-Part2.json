@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "IMF",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "justifications": [
+          "the UK because the UK provides a gateway to the single market,\" of 500 million consumers, the IMF said."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "a gateway",
+          "references": [
+            "a gateway"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the single market",
+          "references": [
+            "the single market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "500 million consumers",
+          "references": [
+            "500 million consumers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "IMF",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "a gateway",
+          "references": [
+            "a gateway"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "IMF",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "the single market",
+          "references": [
+            "the single market"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "IMF",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "500 million consumers",
+          "references": [
+            "500 million consumers"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "entity2": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "entity2": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "entity2": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "SAN FRANCISCO - Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union, and some might have to leave London to attract the best employees."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "target": {
+          "topic": "tougher regulations",
+          "references": [
+            "tougher regulations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "SAN FRANCISCO",
+          "references": [
+            "http://dbpedia.org/resource/San_Francisco"
+          ]
+        },
+        "target": {
+          "topic": "the best employees",
+          "references": [
+            "the best employees"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "target": {
+          "topic": "tougher regulations",
+          "references": [
+            "tougher regulations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Silicon Valley",
+          "references": [
+            "http://dbpedia.org/resource/Silicon_Valley"
+          ]
+        },
+        "target": {
+          "topic": "the best employees",
+          "references": [
+            "the best employees"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "tougher regulations",
+          "references": [
+            "tougher regulations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the best employees",
+          "references": [
+            "the best employees"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "target": {
+          "topic": "tougher regulations",
+          "references": [
+            "tougher regulations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "target": {
+          "topic": "Britain's decision",
+          "references": [
+            "Britain's decision"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "leave London",
+          "references": [
+            "http://dbpedia.org/resource/Leave_London"
+          ]
+        },
+        "target": {
+          "topic": "the best employees",
+          "references": [
+            "the best employees"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

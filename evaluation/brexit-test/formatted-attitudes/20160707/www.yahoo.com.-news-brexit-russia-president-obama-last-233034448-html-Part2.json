@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Russian General Staff",
+          "references": [
+            "http://dbpedia.org/resource/General_Staff_of_the_Armed_Forces_of_the_Russian_Federation"
+          ]
+        },
+        "entity2": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "justifications": [
+          "\"looks a bit funny,\" says Konstantin Sivkov, a Moscow military strategist who served in the Russian General Staff between 1993 and 2005."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Moscow",
+          "references": [
+            "http://dbpedia.org/resource/Moscow"
+          ]
+        },
+        "target": {
+          "topic": "Konstantin Sivkov",
+          "references": [
+            "Konstantin Sivkov"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Russian General Staff",
+          "references": [
+            "http://dbpedia.org/resource/General_Staff_of_the_Armed_Forces_of_the_Russian_Federation"
+          ]
+        },
+        "target": {
+          "topic": "Konstantin Sivkov",
+          "references": [
+            "Konstantin Sivkov"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

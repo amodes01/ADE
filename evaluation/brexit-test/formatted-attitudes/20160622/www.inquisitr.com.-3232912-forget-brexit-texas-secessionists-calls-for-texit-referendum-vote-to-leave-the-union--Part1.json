@@ -1,0 +1,481 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "entity2": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "justifications": [
+          "Britain will soon decide whether to remain in the European Union, with a process known as Brexit, and the leader of a state nationalist movement hopes Texas will one day have its own Texit vote."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a process",
+          "references": [
+            "a process"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a state nationalist movement",
+          "references": [
+            "a state nationalist movement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a process",
+          "references": [
+            "a process"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a state nationalist movement",
+          "references": [
+            "a state nationalist movement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "a process",
+          "references": [
+            "a process"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texas",
+          "references": [
+            "http://dbpedia.org/resource/Texas"
+          ]
+        },
+        "target": {
+          "topic": "a state nationalist movement",
+          "references": [
+            "a state nationalist movement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "a process",
+          "references": [
+            "a process"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Texit",
+          "references": [
+            "http://dbpedia.org/resource/Texas_secession_movements"
+          ]
+        },
+        "target": {
+          "topic": "a state nationalist movement",
+          "references": [
+            "a state nationalist movement"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "Daniel Miller",
+          "references": [
+            "Daniel Miller"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "the secessionist Brexit movement",
+          "references": [
+            "the secessionist Brexit movement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "Texas",
+          "references": [
+            "Texas"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "their own Texit referendum",
+          "references": [
+            "their own Texit referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "the union",
+          "references": [
+            "the union"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "their own independent country",
+          "references": [
+            "their own independent country"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "hopes",
+          "references": [
+            "http://dbpedia.org/resource/USA_Gymnastics"
+          ]
+        },
+        "target": {
+          "topic": "the Guardian",
+          "references": [
+            "the Guardian"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

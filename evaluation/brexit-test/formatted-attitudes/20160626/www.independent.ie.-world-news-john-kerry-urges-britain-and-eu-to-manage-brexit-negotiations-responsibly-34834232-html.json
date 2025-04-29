@@ -1,0 +1,536 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens, a day before he was to become the first senior American official to visit London and Brussels since the UK's historic referendum."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "State",
+          "references": [
+            "State"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "their divorce",
+          "references": [
+            "their divorce"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the sake",
+          "references": [
+            "the sake"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "global markets",
+          "references": [
+            "global markets"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the first senior American official",
+          "references": [
+            "the first senior American official"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "State",
+          "references": [
+            "State"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "their divorce",
+          "references": [
+            "their divorce"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "the sake",
+          "references": [
+            "the sake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "global markets",
+          "references": [
+            "global markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "visit London",
+          "references": [
+            "http://dbpedia.org/resource/London_and_Partners"
+          ]
+        },
+        "target": {
+          "topic": "the first senior American official",
+          "references": [
+            "the first senior American official"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "State",
+          "references": [
+            "State"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "their divorce",
+          "references": [
+            "their divorce"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "the sake",
+          "references": [
+            "the sake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "global markets",
+          "references": [
+            "global markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brussels",
+          "references": [
+            "http://dbpedia.org/resource/Brussels"
+          ]
+        },
+        "target": {
+          "topic": "the first senior American official",
+          "references": [
+            "the first senior American official"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "State",
+          "references": [
+            "State"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their divorce",
+          "references": [
+            "their divorce"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the sake",
+          "references": [
+            "the sake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "global markets",
+          "references": [
+            "global markets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "citizens",
+          "references": [
+            "citizens"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the first senior American official",
+          "references": [
+            "the first senior American official"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

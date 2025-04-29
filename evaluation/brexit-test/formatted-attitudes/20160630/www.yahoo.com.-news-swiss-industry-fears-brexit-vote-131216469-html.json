@@ -1,0 +1,332 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "justifications": [
+          "By John Revill ZURICH (Reuters) - The recovery of Swiss industry in recent months could be hurt by Britain's vote to quit the European Union, the country's manufacturers' association said on Thursday."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "By John Revill ZURICH (Reuters) - The recovery of Swiss industry in recent months could be hurt by Britain's vote to quit the European Union, the country's manufacturers' association said on Thursday."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "By John Revill ZURICH (Reuters) - The recovery of Swiss industry in recent months could be hurt by Britain's vote to quit the European Union, the country's manufacturers' association said on Thursday."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "John Revill ZURICH",
+          "references": [
+            "John Revill ZURICH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "The recovery",
+          "references": [
+            "The recovery"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "recent months",
+          "references": [
+            "recent months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "the country's manufacturers' association",
+          "references": [
+            "the country's manufacturers' association"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Reuters",
+          "references": [
+            "http://dbpedia.org/resource/Reuters"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "John Revill ZURICH",
+          "references": [
+            "John Revill ZURICH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "The recovery",
+          "references": [
+            "The recovery"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "recent months",
+          "references": [
+            "recent months"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "the country's manufacturers' association",
+          "references": [
+            "the country's manufacturers' association"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Swiss",
+          "references": [
+            "http://dbpedia.org/resource/Switzerland"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "John Revill ZURICH",
+          "references": [
+            "John Revill ZURICH"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "The recovery",
+          "references": [
+            "The recovery"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "recent months",
+          "references": [
+            "recent months"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's vote",
+          "references": [
+            "Britain's vote"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the country's manufacturers' association",
+          "references": [
+            "the country's manufacturers' association"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

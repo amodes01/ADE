@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Chicago Mayor",
+          "references": [
+            "http://dbpedia.org/resource/Mayor_of_Chicago"
+          ]
+        },
+        "justifications": [
+          "\"You never want a serious crisis to go to waste,\" Chicago Mayor and long-time Obama confidant Rahm Emanuel once said."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Chicago Mayor",
+          "references": [
+            "http://dbpedia.org/resource/Mayor_of_Chicago"
+          ]
+        },
+        "entity2": {
+          "entity": "Rahm Emanuel",
+          "references": [
+            "http://dbpedia.org/resource/Rahm_Emanuel"
+          ]
+        },
+        "justifications": [
+          "\"You never want a serious crisis to go to waste,\" Chicago Mayor and long-time Obama confidant Rahm Emanuel once said."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Rahm Emanuel",
+          "references": [
+            "http://dbpedia.org/resource/Rahm_Emanuel"
+          ]
+        },
+        "justifications": [
+          "\"You never want a serious crisis to go to waste,\" Chicago Mayor and long-time Obama confidant Rahm Emanuel once said."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Chicago Mayor",
+          "references": [
+            "http://dbpedia.org/resource/Mayor_of_Chicago"
+          ]
+        },
+        "target": {
+          "topic": "a serious crisis",
+          "references": [
+            "a serious crisis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Chicago Mayor",
+          "references": [
+            "http://dbpedia.org/resource/Mayor_of_Chicago"
+          ]
+        },
+        "target": {
+          "topic": "waste",
+          "references": [
+            "waste"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "a serious crisis",
+          "references": [
+            "a serious crisis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "waste",
+          "references": [
+            "waste"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Rahm Emanuel",
+          "references": [
+            "http://dbpedia.org/resource/Rahm_Emanuel"
+          ]
+        },
+        "target": {
+          "topic": "a serious crisis",
+          "references": [
+            "a serious crisis"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Rahm Emanuel",
+          "references": [
+            "http://dbpedia.org/resource/Rahm_Emanuel"
+          ]
+        },
+        "target": {
+          "topic": "waste",
+          "references": [
+            "waste"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

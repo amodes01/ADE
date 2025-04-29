@@ -1,0 +1,377 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "entity2": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "ALLENTOWN, Pa., June 28, 2016 /PRNewswire/ -- Creditsafe USA Inc., the world's most used supplier of company business intelligence, today released guidance to US companies looking to do business with companies in the United Kingdom."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "entity2": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "ALLENTOWN, Pa., June 28, 2016 /PRNewswire/ -- Creditsafe USA Inc., the world's most used supplier of company business intelligence, today released guidance to US companies looking to do business with companies in the United Kingdom."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "ALLENTOWN, Pa., June 28, 2016 /PRNewswire/ -- Creditsafe USA Inc., the world's most used supplier of company business intelligence, today released guidance to US companies looking to do business with companies in the United Kingdom."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "Pa.",
+          "references": [
+            "Pa."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "the world's most used supplier",
+          "references": [
+            "the world's most used supplier"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "company business intelligence",
+          "references": [
+            "company business intelligence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "guidance",
+          "references": [
+            "guidance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "US companies",
+          "references": [
+            "US companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "business",
+          "references": [
+            "business"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "ALLENTOWN",
+          "references": [
+            "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Allentown"
+          ]
+        },
+        "target": {
+          "topic": "companies",
+          "references": [
+            "companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Pa.",
+          "references": [
+            "Pa."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the world's most used supplier",
+          "references": [
+            "the world's most used supplier"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "company business intelligence",
+          "references": [
+            "company business intelligence"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "guidance",
+          "references": [
+            "guidance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "US companies",
+          "references": [
+            "US companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "business",
+          "references": [
+            "business"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "USA",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "companies",
+          "references": [
+            "companies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Pa.",
+          "references": [
+            "Pa."
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the world's most used supplier",
+          "references": [
+            "the world's most used supplier"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "company business intelligence",
+          "references": [
+            "company business intelligence"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "guidance",
+          "references": [
+            "guidance"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "US companies",
+          "references": [
+            "US companies"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "business",
+          "references": [
+            "business"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "United Kingdom",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "companies",
+          "references": [
+            "companies"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

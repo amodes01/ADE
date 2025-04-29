@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Abbas Kiarostami",
+          "references": [
+            "http://dbpedia.org/resource/Abbas_Kiarostami"
+          ]
+        },
+        "entity2": {
+          "entity": "Colombia",
+          "references": [
+            "http://dbpedia.org/resource/Colombia"
+          ]
+        },
+        "justifications": [
+          "Film director Abbas Kiarostami during his visit to the 54th Cartagena Film Festival in Colombia in 2014."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Abbas Kiarostami",
+          "references": [
+            "http://dbpedia.org/resource/Abbas_Kiarostami"
+          ]
+        },
+        "target": {
+          "topic": "his visit",
+          "references": [
+            "his visit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Abbas Kiarostami",
+          "references": [
+            "http://dbpedia.org/resource/Abbas_Kiarostami"
+          ]
+        },
+        "target": {
+          "topic": "the 54th Cartagena Film Festival",
+          "references": [
+            "the 54th Cartagena Film Festival"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Colombia",
+          "references": [
+            "http://dbpedia.org/resource/Colombia"
+          ]
+        },
+        "target": {
+          "topic": "his visit",
+          "references": [
+            "his visit"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Colombia",
+          "references": [
+            "http://dbpedia.org/resource/Colombia"
+          ]
+        },
+        "target": {
+          "topic": "the 54th Cartagena Film Festival",
+          "references": [
+            "the 54th Cartagena Film Festival"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

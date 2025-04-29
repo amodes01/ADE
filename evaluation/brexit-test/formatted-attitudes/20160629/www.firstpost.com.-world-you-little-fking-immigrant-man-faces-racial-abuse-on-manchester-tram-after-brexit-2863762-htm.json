@@ -1,0 +1,350 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "entity2": {
+          "entity": "US Army",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Army"
+          ]
+        },
+        "justifications": [
+          "A US Army veteran was racially abused on a tram in Manchester by three teenagers on Tuesday morning."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "US Army",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Army"
+          ]
+        },
+        "target": {
+          "topic": "a tram",
+          "references": [
+            "a tram"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US Army",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Army"
+          ]
+        },
+        "target": {
+          "topic": "three teenagers",
+          "references": [
+            "three teenagers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US Army",
+          "references": [
+            "http://dbpedia.org/resource/United_States_Army"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday morning",
+          "references": [
+            "Tuesday morning"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "a tram",
+          "references": [
+            "a tram"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "three teenagers",
+          "references": [
+            "three teenagers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday morning",
+          "references": [
+            "Tuesday morning"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "entity2": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "justifications": [
+          "A US Army veteran was racially abused on a tram in Manchester by three teenagers on Tuesday morning as reports talked about rising racism in Britain after Brexit."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "A US Army veteran",
+          "references": [
+            "A US Army veteran"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "three teenagers",
+          "references": [
+            "three teenagers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday morning",
+          "references": [
+            "Tuesday morning"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "reports",
+          "references": [
+            "reports"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "rising racism",
+          "references": [
+            "rising racism"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "tram",
+          "references": [
+            "http://dbpedia.org/resource/Tram"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "A US Army veteran",
+          "references": [
+            "A US Army veteran"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "three teenagers",
+          "references": [
+            "three teenagers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "Tuesday morning",
+          "references": [
+            "Tuesday morning"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "reports",
+          "references": [
+            "reports"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "rising racism",
+          "references": [
+            "rising racism"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Manchester",
+          "references": [
+            "http://dbpedia.org/resource/Manchester"
+          ]
+        },
+        "target": {
+          "topic": "Brexit",
+          "references": [
+            "Brexit"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

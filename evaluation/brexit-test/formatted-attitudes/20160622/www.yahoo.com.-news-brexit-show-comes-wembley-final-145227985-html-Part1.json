@@ -1,0 +1,287 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "With less than two days till the referendum, campaigners did their utmost to project their messages in the BBC debate Less than 48 hours before the U.K. decides the E.U."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "entity2": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "With less than two days till the referendum, campaigners did their utmost to project their messages in the BBC debate Less than 48 hours before the U.K. decides the E.U."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "With less than two days till the referendum, campaigners did their utmost to project their messages in the BBC debate Less than 48 hours before the U.K. decides the E.U."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "less than two days",
+          "references": [
+            "less than two days"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "campaigners",
+          "references": [
+            "campaigners"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "their utmost",
+          "references": [
+            "their utmost"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "BBC",
+          "references": [
+            "http://dbpedia.org/resource/BBC_News"
+          ]
+        },
+        "target": {
+          "topic": "their messages",
+          "references": [
+            "their messages"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "less than two days",
+          "references": [
+            "less than two days"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "campaigners",
+          "references": [
+            "campaigners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their utmost",
+          "references": [
+            "their utmost"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their messages",
+          "references": [
+            "their messages"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "less than two days",
+          "references": [
+            "less than two days"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "campaigners",
+          "references": [
+            "campaigners"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "their utmost",
+          "references": [
+            "their utmost"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "E.U.",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "their messages",
+          "references": [
+            "their messages"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

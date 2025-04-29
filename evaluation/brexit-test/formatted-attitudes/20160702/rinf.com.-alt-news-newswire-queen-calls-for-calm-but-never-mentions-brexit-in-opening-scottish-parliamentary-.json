@@ -1,0 +1,242 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "justifications": [
+          "Queen Elizabeth II avoided making any direct comments on last week's historic Brexit vote as she opened a new session of the Scottish Parliament, but stressed the importance of staying \"calm and collected\" in a \"complex and demanding\" world."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "entity2": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "justifications": [
+          "Queen Elizabeth II avoided making any direct comments on last week's historic Brexit vote as she opened a new session of the Scottish Parliament, but stressed the importance of staying \"calm and collected\" in a \"complex and demanding\" world."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "justifications": [
+          "Queen Elizabeth II avoided making any direct comments on last week's historic Brexit vote as she opened a new session of the Scottish Parliament, but stressed the importance of staying \"calm and collected\" in a \"complex and demanding\" world."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "target": {
+          "topic": "any direct comments",
+          "references": [
+            "any direct comments"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "target": {
+          "topic": "a new session",
+          "references": [
+            "a new session"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "target": {
+          "topic": "the importance",
+          "references": [
+            "the importance"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Queen Elizabeth II",
+          "references": [
+            "http://dbpedia.org/resource/Elizabeth_II"
+          ]
+        },
+        "target": {
+          "topic": "a \"complex and demanding\" world",
+          "references": [
+            "a \"complex and demanding\" world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "any direct comments",
+          "references": [
+            "any direct comments"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a new session",
+          "references": [
+            "a new session"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the importance",
+          "references": [
+            "the importance"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a \"complex and demanding\" world",
+          "references": [
+            "a \"complex and demanding\" world"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "any direct comments",
+          "references": [
+            "any direct comments"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "a new session",
+          "references": [
+            "a new session"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "the importance",
+          "references": [
+            "the importance"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Scottish Parliament",
+          "references": [
+            "http://dbpedia.org/resource/Scottish_Parliament"
+          ]
+        },
+        "target": {
+          "topic": "a \"complex and demanding\" world",
+          "references": [
+            "a \"complex and demanding\" world"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

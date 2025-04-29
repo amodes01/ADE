@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "entity2": {
+          "entity": "U.S. dollar",
+          "references": [
+            "http://dbpedia.org/resource/United_States_dollar"
+          ]
+        },
+        "justifications": [
+          "Historically, the British pound (GBP) has been stronger than most currencies, including the U.S. dollar."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British pound",
+          "references": [
+            "http://dbpedia.org/resource/Pound_sterling"
+          ]
+        },
+        "target": {
+          "topic": "most currencies",
+          "references": [
+            "most currencies"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "U.S. dollar",
+          "references": [
+            "http://dbpedia.org/resource/United_States_dollar"
+          ]
+        },
+        "target": {
+          "topic": "most currencies",
+          "references": [
+            "most currencies"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

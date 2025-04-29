@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "In the wake of Brexit and with the rise of Donald Trump, Richard Nixon now seems like a quaint historical curiosity."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Richard Nixon",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Nixon"
+          ]
+        },
+        "justifications": [
+          "In the wake of Brexit and with the rise of Donald Trump, Richard Nixon now seems like a quaint historical curiosity."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Richard Nixon",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Nixon"
+          ]
+        },
+        "justifications": [
+          "In the wake of Brexit and with the rise of Donald Trump, Richard Nixon now seems like a quaint historical curiosity."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the rise",
+          "references": [
+            "the rise"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a quaint historical curiosity",
+          "references": [
+            "a quaint historical curiosity"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the rise",
+          "references": [
+            "the rise"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "a quaint historical curiosity",
+          "references": [
+            "a quaint historical curiosity"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Richard Nixon",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Nixon"
+          ]
+        },
+        "target": {
+          "topic": "the wake",
+          "references": [
+            "the wake"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Richard Nixon",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Nixon"
+          ]
+        },
+        "target": {
+          "topic": "the rise",
+          "references": [
+            "the rise"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Richard Nixon",
+          "references": [
+            "http://dbpedia.org/resource/Richard_Nixon"
+          ]
+        },
+        "target": {
+          "topic": "a quaint historical curiosity",
+          "references": [
+            "a quaint historical curiosity"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

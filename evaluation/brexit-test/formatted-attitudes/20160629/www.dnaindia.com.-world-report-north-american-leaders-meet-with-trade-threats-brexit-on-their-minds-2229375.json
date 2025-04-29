@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "NAFTA",
+          "references": [
+            "http://dbpedia.org/resource/North_American_Free_Trade_Agreement"
+          ]
+        },
+        "justifications": [
+          "The American nations belong to the NAFTA and the US presidential hopeful Donald Trump has vowed to scrap the agreement."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "NAFTA",
+          "references": [
+            "http://dbpedia.org/resource/North_American_Free_Trade_Agreement"
+          ]
+        },
+        "target": {
+          "topic": "The American nations",
+          "references": [
+            "The American nations"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "NAFTA",
+          "references": [
+            "http://dbpedia.org/resource/North_American_Free_Trade_Agreement"
+          ]
+        },
+        "target": {
+          "topic": "the US presidential hopeful",
+          "references": [
+            "the US presidential hopeful"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "NAFTA",
+          "references": [
+            "http://dbpedia.org/resource/North_American_Free_Trade_Agreement"
+          ]
+        },
+        "target": {
+          "topic": "the agreement",
+          "references": [
+            "the agreement"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "The American nations",
+          "references": [
+            "The American nations"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the US presidential hopeful",
+          "references": [
+            "the US presidential hopeful"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the agreement",
+          "references": [
+            "the agreement"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

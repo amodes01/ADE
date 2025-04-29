@@ -1,0 +1,107 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "entity2": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "justifications": [
+          "Earlier this year, the Guardian sought out Bernie Sanders supporters who said they would rather vote for Donald Trump than Hillary Clinton."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "entity2": {
+          "entity": "Hillary Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "justifications": [
+          "Earlier this year, the Guardian sought out Bernie Sanders supporters who said they would rather vote for Donald Trump than Hillary Clinton."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "entity2": {
+          "entity": "Hillary Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "justifications": [
+          "Earlier this year, the Guardian sought out Bernie Sanders supporters who said they would rather vote for Donald Trump than Hillary Clinton."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Bernie Sanders",
+          "references": [
+            "http://dbpedia.org/resource/Bernie_Sanders"
+          ]
+        },
+        "target": {
+          "topic": "the Guardian",
+          "references": [
+            "the Guardian"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Donald Trump",
+          "references": [
+            "http://dbpedia.org/resource/Donald_Trump"
+          ]
+        },
+        "target": {
+          "topic": "the Guardian",
+          "references": [
+            "the Guardian"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Hillary Clinton",
+          "references": [
+            "http://dbpedia.org/resource/Hillary_Clinton"
+          ]
+        },
+        "target": {
+          "topic": "the Guardian",
+          "references": [
+            "the Guardian"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  }
+]

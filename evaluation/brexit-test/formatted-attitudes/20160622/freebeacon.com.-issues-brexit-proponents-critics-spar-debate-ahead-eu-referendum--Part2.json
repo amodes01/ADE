@@ -1,0 +1,416 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "entity2": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "Brexit has become a contentious subject of discussion on the international stage, with Obama warning Britain against leaving the EU in April and British Conservatives rebuking him for doing so."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a contentious subject",
+          "references": [
+            "a contentious subject"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "discussion",
+          "references": [
+            "discussion"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the international stage",
+          "references": [
+            "the international stage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "April",
+          "references": [
+            "April"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "a contentious subject",
+          "references": [
+            "a contentious subject"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "discussion",
+          "references": [
+            "discussion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "the international stage",
+          "references": [
+            "the international stage"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Obama",
+          "references": [
+            "http://dbpedia.org/resource/Barack_Obama"
+          ]
+        },
+        "target": {
+          "topic": "April",
+          "references": [
+            "April"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "a contentious subject",
+          "references": [
+            "a contentious subject"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "discussion",
+          "references": [
+            "discussion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the international stage",
+          "references": [
+            "the international stage"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "April",
+          "references": [
+            "April"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "target": {
+          "topic": "a contentious subject",
+          "references": [
+            "a contentious subject"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "target": {
+          "topic": "discussion",
+          "references": [
+            "discussion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "target": {
+          "topic": "the international stage",
+          "references": [
+            "the international stage"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British Conservatives",
+          "references": [
+            "http://dbpedia.org/resource/Conservative_Party_(UK)"
+          ]
+        },
+        "target": {
+          "topic": "April",
+          "references": [
+            "April"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

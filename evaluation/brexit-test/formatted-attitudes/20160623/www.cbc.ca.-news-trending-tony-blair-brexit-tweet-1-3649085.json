@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "British prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Tony Blair",
+          "references": [
+            "http://dbpedia.org/resource/Tony_Blair"
+          ]
+        },
+        "justifications": [
+          "Former British prime minister Tony Blair is the latest politician to become prey to Twitter users' penchant for Photoshop memes."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "British prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "justifications": [
+          "Former British prime minister Tony Blair is the latest politician to become prey to Twitter users' penchant for Photoshop memes."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Tony Blair",
+          "references": [
+            "http://dbpedia.org/resource/Tony_Blair"
+          ]
+        },
+        "entity2": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "justifications": [
+          "Former British prime minister Tony Blair is the latest politician to become prey to Twitter users' penchant for Photoshop memes."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the latest politician",
+          "references": [
+            "the latest politician"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "British prime minister",
+          "references": [
+            "http://dbpedia.org/resource/Prime_Minister_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "prey",
+          "references": [
+            "prey"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tony Blair",
+          "references": [
+            "http://dbpedia.org/resource/Tony_Blair"
+          ]
+        },
+        "target": {
+          "topic": "the latest politician",
+          "references": [
+            "the latest politician"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Tony Blair",
+          "references": [
+            "http://dbpedia.org/resource/Tony_Blair"
+          ]
+        },
+        "target": {
+          "topic": "prey",
+          "references": [
+            "prey"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "the latest politician",
+          "references": [
+            "the latest politician"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Twitter",
+          "references": [
+            "http://dbpedia.org/resource/Twitter"
+          ]
+        },
+        "target": {
+          "topic": "prey",
+          "references": [
+            "prey"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

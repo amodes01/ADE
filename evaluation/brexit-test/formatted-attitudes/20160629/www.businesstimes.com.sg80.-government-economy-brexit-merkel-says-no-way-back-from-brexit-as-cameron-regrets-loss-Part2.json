@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "entity2": {
+          "entity": "Wall Street Journal",
+          "references": [
+            "http://dbpedia.org/resource/The_Wall_Street_Journal"
+          ]
+        },
+        "justifications": [
+          "Jean-Claude Juncker on Wednesday afternoon to discuss regional policy, the Wall Street Journal reported, citing an unidentified senior EU official."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "entity2": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "justifications": [
+          "Jean-Claude Juncker on Wednesday afternoon to discuss regional policy, the Wall Street Journal reported, citing an unidentified senior EU official."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "entity2": {
+          "entity": "Wall Street Journal",
+          "references": [
+            "http://dbpedia.org/resource/The_Wall_Street_Journal"
+          ]
+        },
+        "justifications": [
+          "Jean-Claude Juncker on Wednesday afternoon to discuss regional policy, the Wall Street Journal reported, citing an unidentified senior EU official."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday afternoon",
+          "references": [
+            "Wednesday afternoon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Juncker",
+          "references": [
+            "http://dbpedia.org/resource/Jean-Claude_Juncker"
+          ]
+        },
+        "target": {
+          "topic": "regional policy",
+          "references": [
+            "regional policy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wall Street Journal",
+          "references": [
+            "http://dbpedia.org/resource/The_Wall_Street_Journal"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday afternoon",
+          "references": [
+            "Wednesday afternoon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Wall Street Journal",
+          "references": [
+            "http://dbpedia.org/resource/The_Wall_Street_Journal"
+          ]
+        },
+        "target": {
+          "topic": "regional policy",
+          "references": [
+            "regional policy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "Wednesday afternoon",
+          "references": [
+            "Wednesday afternoon"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "regional policy",
+          "references": [
+            "regional policy"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

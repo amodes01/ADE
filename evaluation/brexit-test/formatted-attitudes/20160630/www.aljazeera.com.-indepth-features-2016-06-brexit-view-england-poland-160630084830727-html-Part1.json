@@ -1,0 +1,197 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Boston",
+          "references": [
+            "http://dbpedia.org/resource/Boston"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "In last week's referendum, Boston recorded the highest percentage of votes in the UK to leave the EU."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Boston",
+          "references": [
+            "http://dbpedia.org/resource/Boston"
+          ]
+        },
+        "entity2": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "justifications": [
+          "In last week's referendum, Boston recorded the highest percentage of votes in the UK to leave the EU."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "In last week's referendum, Boston recorded the highest percentage of votes in the UK to leave the EU."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Boston",
+          "references": [
+            "http://dbpedia.org/resource/Boston"
+          ]
+        },
+        "target": {
+          "topic": "last week's referendum",
+          "references": [
+            "last week's referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boston",
+          "references": [
+            "http://dbpedia.org/resource/Boston"
+          ]
+        },
+        "target": {
+          "topic": "the highest percentage",
+          "references": [
+            "the highest percentage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Boston",
+          "references": [
+            "http://dbpedia.org/resource/Boston"
+          ]
+        },
+        "target": {
+          "topic": "votes",
+          "references": [
+            "votes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "last week's referendum",
+          "references": [
+            "last week's referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the highest percentage",
+          "references": [
+            "the highest percentage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "votes",
+          "references": [
+            "votes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "last week's referendum",
+          "references": [
+            "last week's referendum"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the highest percentage",
+          "references": [
+            "the highest percentage"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "votes",
+          "references": [
+            "votes"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

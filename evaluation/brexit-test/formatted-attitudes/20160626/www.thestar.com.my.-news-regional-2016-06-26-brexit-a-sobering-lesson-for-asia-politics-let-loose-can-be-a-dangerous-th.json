@@ -1,0 +1,707 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "neo-Nazi",
+          "references": [
+            "http://dbpedia.org/resource/Neo-Nazism"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she spoke up for immigrants and favoured her nation staying in the European Union."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she spoke up for immigrants and favoured her nation staying in the European Union."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "neo-Nazi",
+          "references": [
+            "http://dbpedia.org/resource/Neo-Nazism"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she spoke up for immigrants and favoured her nation staying in the European Union."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "her constituency",
+          "references": [
+            "her constituency"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "her nation",
+          "references": [
+            "her nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "neo-Nazi",
+          "references": [
+            "http://dbpedia.org/resource/Neo-Nazism"
+          ]
+        },
+        "target": {
+          "topic": "her constituency",
+          "references": [
+            "her constituency"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "neo-Nazi",
+          "references": [
+            "http://dbpedia.org/resource/Neo-Nazism"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "neo-Nazi",
+          "references": [
+            "http://dbpedia.org/resource/Neo-Nazism"
+          ]
+        },
+        "target": {
+          "topic": "her nation",
+          "references": [
+            "her nation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "her constituency",
+          "references": [
+            "her constituency"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "immigrants",
+          "references": [
+            "immigrants"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "her nation",
+          "references": [
+            "her nation"
+          ]
+        },
+        "attitude": "Positive"
+      }
+    ]
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the United States, the presumptive Republican Party frontrunner for the US presidential election is coarse of tongue, deeply divisive in his positions, stokes suspicions about Muslims and is on record saying he thought the United Kingdom should leave the EU because migration had been a \"terrible thing\" for the country."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "entity2": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "In the United States, the presumptive Republican Party frontrunner for the US presidential election is coarse of tongue, deeply divisive in his positions, stokes suspicions about Muslims and is on record saying he thought the United Kingdom should leave the EU because migration had been a \"terrible thing\" for the country."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "entity2": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "justifications": [
+          "In the United States, the presumptive Republican Party frontrunner for the US presidential election is coarse of tongue, deeply divisive in his positions, stokes suspicions about Muslims and is on record saying he thought the United Kingdom should leave the EU because migration had been a \"terrible thing\" for the country."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "tongue",
+          "references": [
+            "tongue"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "his positions",
+          "references": [
+            "his positions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "stokes suspicions",
+          "references": [
+            "stokes suspicions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Muslims",
+          "references": [
+            "Muslims"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "record",
+          "references": [
+            "record"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "migration",
+          "references": [
+            "migration"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a \"terrible thing",
+          "references": [
+            "a \"terrible thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "United States",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "tongue",
+          "references": [
+            "tongue"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "his positions",
+          "references": [
+            "his positions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "stokes suspicions",
+          "references": [
+            "stokes suspicions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "Muslims",
+          "references": [
+            "Muslims"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "record",
+          "references": [
+            "record"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "migration",
+          "references": [
+            "migration"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "a \"terrible thing",
+          "references": [
+            "a \"terrible thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Republican Party",
+          "references": [
+            "http://dbpedia.org/resource/Republican_Party_of_Florida"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "tongue",
+          "references": [
+            "tongue"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "his positions",
+          "references": [
+            "his positions"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "stokes suspicions",
+          "references": [
+            "stokes suspicions"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "Muslims",
+          "references": [
+            "Muslims"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "record",
+          "references": [
+            "record"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "the United Kingdom",
+          "references": [
+            "the United Kingdom"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "the EU",
+          "references": [
+            "the EU"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "migration",
+          "references": [
+            "migration"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "a \"terrible thing",
+          "references": [
+            "a \"terrible thing"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "US presidential election",
+          "references": [
+            "http://dbpedia.org/resource/2016_United_States_presidential_election"
+          ]
+        },
+        "target": {
+          "topic": "the country",
+          "references": [
+            "the country"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "entity2": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "entity2": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "Washington: International Monetary Fund chief Christine Lagarde said that Britain's shock vote to quit the European Union has injected significant uncertainty into the global economy but is unlikely to cause a world recession."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock vote",
+          "references": [
+            "Britain's shock vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "significant uncertainty",
+          "references": [
+            "significant uncertainty"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "the global economy",
+          "references": [
+            "the global economy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Washington",
+          "references": [
+            "http://dbpedia.org/resource/George_Washington"
+          ]
+        },
+        "target": {
+          "topic": "a world recession",
+          "references": [
+            "a world recession"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock vote",
+          "references": [
+            "Britain's shock vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "significant uncertainty",
+          "references": [
+            "significant uncertainty"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "the global economy",
+          "references": [
+            "the global economy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "International Monetary Fund",
+          "references": [
+            "http://dbpedia.org/resource/International_Monetary_Fund"
+          ]
+        },
+        "target": {
+          "topic": "a world recession",
+          "references": [
+            "a world recession"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock vote",
+          "references": [
+            "Britain's shock vote"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "target": {
+          "topic": "significant uncertainty",
+          "references": [
+            "significant uncertainty"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "target": {
+          "topic": "the global economy",
+          "references": [
+            "the global economy"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Christine Lagarde",
+          "references": [
+            "http://dbpedia.org/resource/Christine_Lagarde"
+          ]
+        },
+        "target": {
+          "topic": "a world recession",
+          "references": [
+            "a world recession"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's shock vote",
+          "references": [
+            "Britain's shock vote"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "significant uncertainty",
+          "references": [
+            "significant uncertainty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the global economy",
+          "references": [
+            "the global economy"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "a world recession",
+          "references": [
+            "a world recession"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

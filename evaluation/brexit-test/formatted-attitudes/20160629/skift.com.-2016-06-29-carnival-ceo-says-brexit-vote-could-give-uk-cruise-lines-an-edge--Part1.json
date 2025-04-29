@@ -1,0 +1,146 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Carnival Corporation",
+          "references": [
+            "http://dbpedia.org/resource/Carnival_Cruise_Line"
+          ]
+        },
+        "entity2": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "justifications": [
+          "Carnival Corporation pulled off a surprisingly good quarter despite global uncertainty, though capacity growth in China seems to be worrying some on Wall Street."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Carnival Corporation",
+          "references": [
+            "http://dbpedia.org/resource/Carnival_Cruise_Line"
+          ]
+        },
+        "target": {
+          "topic": "a surprisingly good quarter",
+          "references": [
+            "a surprisingly good quarter"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Carnival Corporation",
+          "references": [
+            "http://dbpedia.org/resource/Carnival_Cruise_Line"
+          ]
+        },
+        "target": {
+          "topic": "global uncertainty",
+          "references": [
+            "global uncertainty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Carnival Corporation",
+          "references": [
+            "http://dbpedia.org/resource/Carnival_Cruise_Line"
+          ]
+        },
+        "target": {
+          "topic": "capacity growth",
+          "references": [
+            "capacity growth"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Carnival Corporation",
+          "references": [
+            "http://dbpedia.org/resource/Carnival_Cruise_Line"
+          ]
+        },
+        "target": {
+          "topic": "Wall Street",
+          "references": [
+            "Wall Street"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "target": {
+          "topic": "a surprisingly good quarter",
+          "references": [
+            "a surprisingly good quarter"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "target": {
+          "topic": "global uncertainty",
+          "references": [
+            "global uncertainty"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "target": {
+          "topic": "capacity growth",
+          "references": [
+            "capacity growth"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "China",
+          "references": [
+            "http://dbpedia.org/resource/China"
+          ]
+        },
+        "target": {
+          "topic": "Wall Street",
+          "references": [
+            "Wall Street"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

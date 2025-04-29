@@ -1,0 +1,120 @@
+[
+  {
+    "entity_attitudes": [],
+    "topical_attitudes": []
+  },
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "entity2": {
+          "entity": "Northern Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Northern_Ireland"
+          ]
+        },
+        "justifications": [
+          "Irish \"republicans\" in Northern Ireland also are denouncing the English, while their long-time unionist rivals are trashing the republicans."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the English",
+          "references": [
+            "the English"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "their long-time unionist rivals",
+          "references": [
+            "their long-time unionist rivals"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Irish",
+          "references": [
+            "http://dbpedia.org/resource/Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the republicans",
+          "references": [
+            "the republicans"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Northern Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Northern_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the English",
+          "references": [
+            "the English"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Northern Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Northern_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "their long-time unionist rivals",
+          "references": [
+            "their long-time unionist rivals"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Northern Ireland",
+          "references": [
+            "http://dbpedia.org/resource/Northern_Ireland"
+          ]
+        },
+        "target": {
+          "topic": "the republicans",
+          "references": [
+            "the republicans"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

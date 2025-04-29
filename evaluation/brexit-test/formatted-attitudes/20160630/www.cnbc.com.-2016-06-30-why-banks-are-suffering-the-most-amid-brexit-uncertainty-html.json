@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Bloomberg",
+          "references": [
+            "http://dbpedia.org/resource/Bloomberg_News"
+          ]
+        },
+        "entity2": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "justifications": [
+          "Chris Ratcliffe | Bloomberg | Getty Images World markets may be trying to slowly edge back to their pre-Brexit levels, but the European banking sector continues to be dragged down by the U.K. referendum's result.."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "Bloomberg",
+          "references": [
+            "http://dbpedia.org/resource/Bloomberg_News"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Chris Ratcliffe | Bloomberg | Getty Images World markets may be trying to slowly edge back to their pre-Brexit levels, but the European banking sector continues to be dragged down by the U.K. referendum's result.."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "entity2": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Chris Ratcliffe | Bloomberg | Getty Images World markets may be trying to slowly edge back to their pre-Brexit levels, but the European banking sector continues to be dragged down by the U.K. referendum's result.."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Bloomberg",
+          "references": [
+            "http://dbpedia.org/resource/Bloomberg_News"
+          ]
+        },
+        "target": {
+          "topic": "their pre-Brexit levels",
+          "references": [
+            "their pre-Brexit levels"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Bloomberg",
+          "references": [
+            "http://dbpedia.org/resource/Bloomberg_News"
+          ]
+        },
+        "target": {
+          "topic": "the European banking sector",
+          "references": [
+            "the European banking sector"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "their pre-Brexit levels",
+          "references": [
+            "their pre-Brexit levels"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Getty",
+          "references": [
+            "http://dbpedia.org/resource/Getty_Images"
+          ]
+        },
+        "target": {
+          "topic": "the European banking sector",
+          "references": [
+            "the European banking sector"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their pre-Brexit levels",
+          "references": [
+            "their pre-Brexit levels"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "U.K.",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the European banking sector",
+          "references": [
+            "the European banking sector"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

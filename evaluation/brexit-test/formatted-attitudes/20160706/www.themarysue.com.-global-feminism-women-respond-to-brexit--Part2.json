@@ -1,0 +1,647 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "specifically to Walker's concerns about legislation for female workers that she cites as the result of the UK's partnership with the EU, the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights, as they point out on the Women's Rights section of their website: Britain has long been the champion of women's rights."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "justifications": [
+          "specifically to Walker's concerns about legislation for female workers that she cites as the result of the UK's partnership with the EU, the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights, as they point out on the Women's Rights section of their website: Britain has long been the champion of women's rights."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "specifically to Walker's concerns about legislation for female workers that she cites as the result of the UK's partnership with the EU, the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights, as they point out on the Women's Rights section of their website: Britain has long been the champion of women's rights."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "legislation",
+          "references": [
+            "legislation"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "female workers",
+          "references": [
+            "female workers"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "the result",
+          "references": [
+            "the result"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "the Women",
+          "references": [
+            "the Women"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "Brexit camp",
+          "references": [
+            "Brexit camp"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "everything",
+          "references": [
+            "everything"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "regard",
+          "references": [
+            "regard"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "Women's Rights",
+          "references": [
+            "Women's Rights"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "the Women's Rights section",
+          "references": [
+            "the Women's Rights section"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "their website",
+          "references": [
+            "their website"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "the champion",
+          "references": [
+            "the champion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Walker",
+          "references": [
+            "http://dbpedia.org/resource/Kemba_Walker"
+          ]
+        },
+        "target": {
+          "topic": "women's rights",
+          "references": [
+            "women's rights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "legislation",
+          "references": [
+            "legislation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "female workers",
+          "references": [
+            "female workers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the result",
+          "references": [
+            "the result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the Women",
+          "references": [
+            "the Women"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Brexit camp",
+          "references": [
+            "Brexit camp"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "everything",
+          "references": [
+            "everything"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "regard",
+          "references": [
+            "regard"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Women's Rights",
+          "references": [
+            "Women's Rights"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the Women's Rights section",
+          "references": [
+            "the Women's Rights section"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "their website",
+          "references": [
+            "their website"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the champion",
+          "references": [
+            "the champion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "women's rights",
+          "references": [
+            "women's rights"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "legislation",
+          "references": [
+            "legislation"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "female workers",
+          "references": [
+            "female workers"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the result",
+          "references": [
+            "the result"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the Women",
+          "references": [
+            "the Women"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Brexit camp",
+          "references": [
+            "Brexit camp"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "everything",
+          "references": [
+            "everything"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "regard",
+          "references": [
+            "regard"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Women's Rights",
+          "references": [
+            "Women's Rights"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the Women's Rights section",
+          "references": [
+            "the Women's Rights section"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "their website",
+          "references": [
+            "their website"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "Britain",
+          "references": [
+            "Britain"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "the champion",
+          "references": [
+            "the champion"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU",
+          "references": [
+            "http://dbpedia.org/resource/European_Union"
+          ]
+        },
+        "target": {
+          "topic": "women's rights",
+          "references": [
+            "women's rights"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

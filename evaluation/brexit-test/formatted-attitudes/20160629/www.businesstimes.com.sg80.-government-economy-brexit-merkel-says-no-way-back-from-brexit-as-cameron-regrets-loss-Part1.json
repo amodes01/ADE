@@ -1,0 +1,356 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      },
+      {
+        "entity1": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "entity2": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "justifications": [
+          "[BRUSSELS] European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "disappointment",
+          "references": [
+            "disappointment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "his failure",
+          "references": [
+            "his failure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Britain's membership",
+          "references": [
+            "Britain's membership"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "disappointment",
+          "references": [
+            "disappointment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "his failure",
+          "references": [
+            "his failure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "UK",
+          "references": [
+            "http://dbpedia.org/resource/Demography_of_the_United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Britain's membership",
+          "references": [
+            "Britain's membership"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "disappointment",
+          "references": [
+            "disappointment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "his failure",
+          "references": [
+            "his failure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "David Cameron",
+          "references": [
+            "http://dbpedia.org/resource/David_Cameron"
+          ]
+        },
+        "target": {
+          "topic": "Britain's membership",
+          "references": [
+            "Britain's membership"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "disappointment",
+          "references": [
+            "disappointment"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "his failure",
+          "references": [
+            "his failure"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "the referendum",
+          "references": [
+            "the referendum"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "EU summit",
+          "references": [
+            "http://dbpedia.org/resource/European_Council"
+          ]
+        },
+        "target": {
+          "topic": "Britain's membership",
+          "references": [
+            "Britain's membership"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

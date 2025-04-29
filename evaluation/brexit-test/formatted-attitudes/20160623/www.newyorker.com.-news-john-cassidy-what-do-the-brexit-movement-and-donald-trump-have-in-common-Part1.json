@@ -1,0 +1,152 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "On Thursday, Britons will vote on whether to leave the European Union, an option supported by Nigel Farage, the leader of the U.K."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "entity2": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "On Thursday, Britons will vote on whether to leave the European Union, an option supported by Nigel Farage, the leader of the U.K."
+        ],
+        "attitude": "Positive"
+      },
+      {
+        "entity1": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "entity2": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "justifications": [
+          "On Thursday, Britons will vote on whether to leave the European Union, an option supported by Nigel Farage, the leader of the U.K."
+        ],
+        "attitude": "Positive"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Britons",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Union",
+          "references": [
+            "http://dbpedia.org/resource/United_States"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "target": {
+          "topic": "Thursday",
+          "references": [
+            "Thursday"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Nigel Farage",
+          "references": [
+            "http://dbpedia.org/resource/Nigel_Farage"
+          ]
+        },
+        "target": {
+          "topic": "the leader",
+          "references": [
+            "the leader"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

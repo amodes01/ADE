@@ -1,0 +1,56 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "entity2": {
+          "entity": "Vox",
+          "references": [
+            "http://dbpedia.org/resource/Vox_Media"
+          ]
+        },
+        "justifications": [
+          "USA Today and Vox, as well as other domestic and international news outlets."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "USA Today",
+          "references": [
+            "http://dbpedia.org/resource/USA_Today"
+          ]
+        },
+        "target": {
+          "topic": "other domestic and international news outlets",
+          "references": [
+            "other domestic and international news outlets"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Vox",
+          "references": [
+            "http://dbpedia.org/resource/Vox_Media"
+          ]
+        },
+        "target": {
+          "topic": "other domestic and international news outlets",
+          "references": [
+            "other domestic and international news outlets"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

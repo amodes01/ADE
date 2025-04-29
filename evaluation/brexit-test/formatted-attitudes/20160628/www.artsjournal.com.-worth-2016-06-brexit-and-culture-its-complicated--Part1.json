@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Caroline Graham",
+          "references": [
+            "http://dbpedia.org/resource/Caroline_Graham"
+          ]
+        },
+        "entity2": {
+          "entity": "ITV",
+          "references": [
+            "http://dbpedia.org/resource/ITV_News"
+          ]
+        },
+        "justifications": [
+          "Midsomer Murders is a long-running English detective series produced by ITV, based upon the characters created by Caroline Graham."
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "ITV",
+          "references": [
+            "http://dbpedia.org/resource/ITV_News"
+          ]
+        },
+        "target": {
+          "topic": "Midsomer Murders",
+          "references": [
+            "Midsomer Murders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ITV",
+          "references": [
+            "http://dbpedia.org/resource/ITV_News"
+          ]
+        },
+        "target": {
+          "topic": "a long-running English detective series",
+          "references": [
+            "a long-running English detective series"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "ITV",
+          "references": [
+            "http://dbpedia.org/resource/ITV_News"
+          ]
+        },
+        "target": {
+          "topic": "the characters",
+          "references": [
+            "the characters"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Caroline Graham",
+          "references": [
+            "http://dbpedia.org/resource/Caroline_Graham"
+          ]
+        },
+        "target": {
+          "topic": "Midsomer Murders",
+          "references": [
+            "Midsomer Murders"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Caroline Graham",
+          "references": [
+            "http://dbpedia.org/resource/Caroline_Graham"
+          ]
+        },
+        "target": {
+          "topic": "a long-running English detective series",
+          "references": [
+            "a long-running English detective series"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Caroline Graham",
+          "references": [
+            "http://dbpedia.org/resource/Caroline_Graham"
+          ]
+        },
+        "target": {
+          "topic": "the characters",
+          "references": [
+            "the characters"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

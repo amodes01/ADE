@@ -1,0 +1,287 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "entity2": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "justifications": [
+          "Italy is preparing a €40bn rescue of its financial system as bank shares collapse on the Milan bourse and the powerful after-shocks of Brexit shake European markets."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "justifications": [
+          "Italy is preparing a €40bn rescue of its financial system as bank shares collapse on the Milan bourse and the powerful after-shocks of Brexit shake European markets."
+        ],
+        "attitude": "Negative"
+      },
+      {
+        "entity1": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "entity2": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "justifications": [
+          "Italy is preparing a €40bn rescue of its financial system as bank shares collapse on the Milan bourse and the powerful after-shocks of Brexit shake European markets."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "target": {
+          "topic": "a €40bn rescue",
+          "references": [
+            "a €40bn rescue"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "target": {
+          "topic": "its financial system",
+          "references": [
+            "its financial system"
+          ]
+        },
+        "attitude": "Positive"
+      },
+      {
+        "source": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "target": {
+          "topic": "bank shares",
+          "references": [
+            "bank shares"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "target": {
+          "topic": "the powerful after-shocks",
+          "references": [
+            "the powerful after-shocks"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Italy",
+          "references": [
+            "http://dbpedia.org/resource/Italy"
+          ]
+        },
+        "target": {
+          "topic": "European markets",
+          "references": [
+            "European markets"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "target": {
+          "topic": "a €40bn rescue",
+          "references": [
+            "a €40bn rescue"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "target": {
+          "topic": "its financial system",
+          "references": [
+            "its financial system"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "target": {
+          "topic": "bank shares",
+          "references": [
+            "bank shares"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "target": {
+          "topic": "the powerful after-shocks",
+          "references": [
+            "the powerful after-shocks"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Milan",
+          "references": [
+            "http://dbpedia.org/resource/Milan"
+          ]
+        },
+        "target": {
+          "topic": "European markets",
+          "references": [
+            "European markets"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "a €40bn rescue",
+          "references": [
+            "a €40bn rescue"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "its financial system",
+          "references": [
+            "its financial system"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "bank shares",
+          "references": [
+            "bank shares"
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "the powerful after-shocks",
+          "references": [
+            "the powerful after-shocks"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Brexit",
+          "references": [
+            "http://dbpedia.org/resource/Brexit"
+          ]
+        },
+        "target": {
+          "topic": "European markets",
+          "references": [
+            "European markets"
+          ]
+        },
+        "attitude": "Negative"
+      }
+    ]
+  }
+]

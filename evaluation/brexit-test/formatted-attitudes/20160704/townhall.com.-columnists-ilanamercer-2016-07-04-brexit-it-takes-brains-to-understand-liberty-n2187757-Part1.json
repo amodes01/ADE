@@ -1,0 +1,116 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Bretton Woods Conference",
+          "references": [
+            "http://dbpedia.org/resource/Bretton_Woods_Conference"
+          ]
+        },
+        "entity2": {
+          "entity": "Lord Halifax",
+          "references": [
+            "http://dbpedia.org/resource/Edward_Wood,_1st_Earl_of_Halifax"
+          ]
+        },
+        "justifications": [
+          "During the Bretton Woods Conference, in 1944, Lord Halifax is said to have \"whispered to Lord Keynes: 'It's true: they have the money bags but we have all the brains.'\""
+        ],
+        "attitude": "Neutral"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Bretton Woods Conference",
+          "references": [
+            "http://dbpedia.org/resource/Bretton_Woods_Conference"
+          ]
+        },
+        "target": {
+          "topic": "Lord Keynes",
+          "references": [
+            "Lord Keynes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bretton Woods Conference",
+          "references": [
+            "http://dbpedia.org/resource/Bretton_Woods_Conference"
+          ]
+        },
+        "target": {
+          "topic": "the money bags",
+          "references": [
+            "the money bags"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bretton Woods Conference",
+          "references": [
+            "http://dbpedia.org/resource/Bretton_Woods_Conference"
+          ]
+        },
+        "target": {
+          "topic": "all the brains",
+          "references": [
+            "all the brains"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lord Halifax",
+          "references": [
+            "http://dbpedia.org/resource/Edward_Wood,_1st_Earl_of_Halifax"
+          ]
+        },
+        "target": {
+          "topic": "Lord Keynes",
+          "references": [
+            "Lord Keynes"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lord Halifax",
+          "references": [
+            "http://dbpedia.org/resource/Edward_Wood,_1st_Earl_of_Halifax"
+          ]
+        },
+        "target": {
+          "topic": "the money bags",
+          "references": [
+            "the money bags"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Lord Halifax",
+          "references": [
+            "http://dbpedia.org/resource/Edward_Wood,_1st_Earl_of_Halifax"
+          ]
+        },
+        "target": {
+          "topic": "all the brains",
+          "references": [
+            "all the brains"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]

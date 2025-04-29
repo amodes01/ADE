@@ -1,0 +1,86 @@
+[
+  {
+    "entity_attitudes": [
+      {
+        "entity1": {
+          "entity": "Bob",
+          "references": [
+            "http://dbpedia.org/resource/Bob_Dalton"
+          ]
+        },
+        "entity2": {
+          "entity": "House",
+          "references": [
+            "http://dbpedia.org/resource/United_States_House_of_Representatives"
+          ]
+        },
+        "justifications": [
+          "it,\" Sen. Bob Menendez (D-N.J.), a long-time critic of the House bill, said Thursday."
+        ],
+        "attitude": "Negative"
+      }
+    ],
+    "topical_attitudes": [
+      {
+        "source": {
+          "entity": "Bob",
+          "references": [
+            "http://dbpedia.org/resource/Bob_Dalton"
+          ]
+        },
+        "target": {
+          "topic": "N.J.",
+          "references": [
+            "N.J."
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "Bob",
+          "references": [
+            "http://dbpedia.org/resource/Bob_Dalton"
+          ]
+        },
+        "target": {
+          "topic": "a long-time critic",
+          "references": [
+            "a long-time critic"
+          ]
+        },
+        "attitude": "Neutral"
+      },
+      {
+        "source": {
+          "entity": "House",
+          "references": [
+            "http://dbpedia.org/resource/United_States_House_of_Representatives"
+          ]
+        },
+        "target": {
+          "topic": "N.J.",
+          "references": [
+            "N.J."
+          ]
+        },
+        "attitude": "Negative"
+      },
+      {
+        "source": {
+          "entity": "House",
+          "references": [
+            "http://dbpedia.org/resource/United_States_House_of_Representatives"
+          ]
+        },
+        "target": {
+          "topic": "a long-time critic",
+          "references": [
+            "a long-time critic"
+          ]
+        },
+        "attitude": "Neutral"
+      }
+    ]
+  }
+]
