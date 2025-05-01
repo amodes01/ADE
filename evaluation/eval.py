@@ -1120,6 +1120,294 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
     return all_metrics
 
 
+def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
+    """Evaluate POLAR predictions against ground truth."""
+    true_dataset = unpickle(true_dataset_path)
+    
+    # Load POLAR JSON files in order (article0.json to article404.json)
+    polar_files = []
+    for i in range(405):  # 0-404 inclusive
+        file_path = os.path.join(polar_dir_path, f"article{i}.json")
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                try:
+                    polar_data = json.load(f)
+                    polar_files.append({"response": json.dumps(polar_data)})  # Wrap to match expected format
+                except json.JSONDecodeError:
+                    polar_files.append({"response": "{}"})  # Empty if invalid
+        else:
+            polar_files.append({"response": "{}"})  # Empty if missing
+
+    num_samples = min(len(true_dataset), len(polar_files))
+
+    # Initialize results storage
+    all_metrics = {
+        "entity": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "topical": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "samples": {}
+    }
+
+    overall_attitude_summary = {
+        "true_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        },
+        "pred_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        }
+    }
+
+    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
+        # Extract JSON for ground truth
+        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["response"])
+        true_data = best_json if best_json is not None else {}
+
+        # Get corresponding POLAR prediction
+        polar_json, _ = LLMJsonParser.parse_json(polar_files[i]["response"])
+        pred_data = polar_json if polar_json is not None else {}
+
+        if not true_data or not pred_data:
+            continue
+
+        # Extract all unique entities and topics from true and pred data
+        def extract_unique_items(data,Polar=False):
+            entities = set()
+            topics = set()
+            
+            # Extract from entity_attitudes
+            if not Polar:
+                entity_attitudes = extract_entity_attitudes(data)
+            else:
+                entity_attitudes = extract_entity_attitudes_polar(data)
+            for attitude in entity_attitudes:
+                if isinstance(attitude, dict):
+                    for entity_key in ["entity1", "entity2"]:
+                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
+                            if "entity" in attitude[entity_key]:
+                                entities.add(attitude[entity_key]["entity"])
+                            if "references" in attitude[entity_key]:
+                                entities.update(attitude[entity_key]["references"])
+            
+            # Extract from topical_attitudes
+            if not Polar:
+                topical_attitudes = extract_topical_attitudes(data)
+            else:
+                topical_attitudes = extract_topical_attitudes_polar(data)
+            for attitude in topical_attitudes:
+                if isinstance(attitude, dict):
+                    for topic_key in ["source", "target"]:
+                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
+                            if "topic" in attitude[topic_key]:
+                                topics.add(attitude[topic_key]["topic"])
+                            if "references" in attitude[topic_key]:
+                                topics.update(attitude[topic_key]["references"])
+            
+            return {
+                "entities": list(entities),
+                "topics": list(topics)
+            }
+
+        true_items = extract_unique_items(true_data)
+        pred_items = extract_unique_items(pred_data, True)
+
+
+
+        # Calculate metrics
+        metrics = calculate_metrics_polar(true_data, pred_data)
+
+        # Calculate matching metrics for entities and topics
+        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
+            # Entity matching
+            true_entities = set(true_items["entities"])
+            pred_entities = set(pred_items["entities"])
+            
+            entity_matches = []
+            entity_tp = 0
+            entity_fp = 0
+            entity_fn = 0
+            
+            matched_pred_entities = set()
+            
+            for true_ent in true_entities:
+                matched = False
+                for pred_ent in pred_entities:
+                    if entity_similarity(true_ent, pred_ent) >= threshold:
+                        entity_matches.append({
+                            "true_entity": true_ent,
+                            "pred_entity": pred_ent,
+                            "similarity": entity_similarity(true_ent, pred_ent)
+                        })
+                        matched_pred_entities.add(pred_ent)
+                        matched = True
+                        entity_tp += 1
+                        break
+                if not matched:
+                    entity_fn += 1
+            
+            entity_fp = len(pred_entities - matched_pred_entities)
+            
+            # Topic matching
+            true_topics = set(true_items["topics"])
+            pred_topics = set(pred_items["topics"])
+            
+            topic_matches = []
+            topic_tp = 0
+            topic_fp = 0
+            topic_fn = 0
+            
+            matched_pred_topics = set()
+            
+            for true_topic in true_topics:
+                matched = False
+                for pred_topic in pred_topics:
+                    if entity_similarity(true_topic, pred_topic) >= threshold:
+                        topic_matches.append({
+                            "true_topic": true_topic,
+                            "pred_topic": pred_topic,
+                            "similarity": entity_similarity(true_topic, pred_topic)
+                        })
+                        matched_pred_topics.add(pred_topic)
+                        matched = True
+                        topic_tp += 1
+                        break
+                if not matched:
+                    topic_fn += 1
+            
+            topic_fp = len(pred_topics - matched_pred_topics)
+            
+            # Calculate precision, recall, f1
+            def calculate_prf1(tp, fp, fn):
+                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+                return {
+                    "precision": precision,
+                    "recall": recall,
+                    "f1": f1,
+                    "true_positives": tp,
+                    "false_positives": fp,
+                    "false_negatives": fn
+                }
+            
+            return {
+                "entity_matching": {
+                    "matches": entity_matches,
+                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
+                    "true_count": len(true_entities),
+                    "pred_count": len(pred_entities)
+                },
+                "topic_matching": {
+                    "matches": topic_matches,
+                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
+                    "true_count": len(true_topics),
+                    "pred_count": len(pred_topics)
+                }
+            }
+
+        matching_metrics = calculate_matching_metrics(true_items, pred_items)
+
+        # Store sample results with calculated metrics
+        sample_metrics = calculate_final_metrics({
+            "entity": metrics["entity"],
+            "topical": metrics["topical"]
+        })
+
+        true_attitude_summary = count_attitudes(true_data, is_polar=False)
+        pred_attitude_summary = count_attitudes(pred_data, is_polar=True)
+
+        # Update global attitude counts
+        for key in ["entity", "topical"]:
+            for polarity in ["Positive", "Neutral", "Negative"]:
+                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
+                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
+
+        
+        all_metrics["samples"][f"sample_{i}"] = {
+            "metrics": sample_metrics,
+            "true_data": {
+                "entities": true_items["entities"],
+                "topics": true_items["topics"],
+                "attitude_summary": true_attitude_summary
+            },
+            "pred_data": {
+                "entities": pred_items["entities"],
+                "topics": pred_items["topics"],
+                "attitude_summary": pred_attitude_summary
+            },
+            "matching_metrics": matching_metrics,
+            "matched_pairs": {
+                "entity": metrics["entity"].get("matched_pairs", []),
+                "topical": metrics["topical"].get("matched_pairs", [])
+            },
+            "unmatched_pairs": {
+                "entity": {
+                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
+                },
+                "topical": {
+                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
+                }
+            }
+        }
+
+        # Aggregate counts
+        for category in ["entity", "topical"]:
+            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
+                for metric, value in metrics[category][count_type].items():
+                    all_metrics[category][count_type][metric] += value
+            
+            for count in metrics[category]["sample_counts"]:
+                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
+                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
+
+    # Calculate final metrics
+
+    all_metrics["attitude_summary"] = overall_attitude_summary
+
+
+    final_metrics = calculate_final_metrics({
+        "entity": {
+            "pair_counts": all_metrics["entity"]["pair_counts"],
+            "attitude_counts": all_metrics["entity"]["attitude_counts"],
+            "justification_counts": all_metrics["entity"]["justification_counts"],
+            "sample_counts": all_metrics["entity"]["total_counts"]
+        },
+        "topical": {
+            "pair_counts": all_metrics["topical"]["pair_counts"],
+            "attitude_counts": all_metrics["topical"]["attitude_counts"],
+            "justification_counts": all_metrics["topical"]["justification_counts"],
+            "sample_counts": all_metrics["topical"]["total_counts"]
+        }
+    })
+    
+    for category in ["entity", "topical"]:
+        all_metrics[category].update(final_metrics.get(category, {}))
+
+    # Print summary and visualize
+    print("\nEvaluation Summary:")
+    print("="*50)
+    
+    # ... (rest of your existing summary printing code)
+
+    visualize_metrics(all_metrics, True)
+    
+    return all_metrics
+
+
 
 def evaluate_predictions_two_dirs(true_dir, pred_dir):
     """Evaluate predictions in pred_dir against ground truths in true_dir."""
@@ -1563,18 +1851,25 @@ if __name__ == "__main__":
 
     # evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
 
-    brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
+    # brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
 
-    with open("brexit_detailed_evaluation_results.json", "w") as f:
-        json.dump(convert_numpy_types(brexit_results), f, indent=4)
+
+    # with open("brexit_detailed_evaluation_results.json", "w") as f:
+    #     json.dump(convert_numpy_types(brexit_results), f, indent=4)
+
+
+    Mistral_results = evaluate_predictions_polar_vs_Mistral(pred_files_path, polar_files_path)
+
+    with open("Mistral_vs_Polar_detailed_evaluation_results.json", "w") as f:
+        json.dump(convert_numpy_types(Mistral_results), f, indent=4)
 
     # Save results to a JSON file with type conversion
     # with open("detailed_evaluation_results.json", "w") as f:
     #     json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
-    # polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
+    polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
 
 
-    # with open("polar_detailed_evaluation_results.json", "w") as f:
-    #     json.dump(convert_numpy_types(polar_results), f, indent=4)
+    with open("polar_detailed_evaluation_results.json", "w") as f:
+        json.dump(convert_numpy_types(polar_results), f, indent=4)
     

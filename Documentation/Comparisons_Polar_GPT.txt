@@ -1,0 +1,43 @@
+POLAR:
+      {
+        "entity1": {
+          "entity": "Howard",
+          "references": [
+            "http://dbpedia.org/resource/John_Howard"
+          ]
+        },
+        "entity2": {
+          "entity": "Schneider",
+          "references": [
+            "http://dbpedia.org/resource/Schneider_Electric"
+          ]
+        },
+        "justifications": [
+          "Participants hold a British Union flag and an EU flag during a pro-EU referendum event at Parliament Square in London Thomson Reuters By David Lawder and Howard Schneider Advertisement WASHINGTON (Reuters)"
+        ],
+        "attitude": "Positive"
+      }
+
+(Assigns Howard -> Schneider when Howard Schneider is the full name of the person)
+
+      {
+        "entity1": {
+          "entity": "U.S. monetary policy",
+          "references": [
+            "http://dbpedia.org/resource/Monetary_policy_of_the_United_States"
+          ]
+        },
+        "entity2": {
+          "entity": "British",
+          "references": [
+            "http://dbpedia.org/resource/United_Kingdom"
+          ]
+        },
+        "justifications": [
+          "Participants hold a British Union flag and an EU flag during a pro-EU referendum event at Parliament Square in London Thomson Reuters By David Lawder and Howard Schneider Advertisement WASHINGTON (Reuters) - A vote by Britons to leave the European Union on Thursday may not drag the United States into recession, but its effects on U.S. monetary policy, trade and corporate profits are causing concern in Washington D.C. and boardrooms alike."
+        ],
+        "attitude": "Positive"
+      }
+(Attitude is labeled Positive however the Sentence describes how it is causing concern about it’s effects possibly going into a recession, this should be a Negative Pair)
+
+
