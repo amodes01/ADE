@@ -761,12 +761,14 @@ def evaluate_predictions(true_dataset_path, pred_files_path):
             entity_attitudes = extract_entity_attitudes(data)
             for attitude in entity_attitudes:
                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "")
-                    entity2 = attitude["entity2"].get("entity", "")
+                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
+                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
                     if entity1 and entity2:
                         pair_key = tuple(sorted((entity1, entity2)))
                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
             
             # Process topical attitudes
             topical_attitudes = extract_topical_attitudes(data)
@@ -775,7 +777,9 @@ def evaluate_predictions(true_dataset_path, pred_files_path):
                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
                     if source and target:
-                        pair_key = tuple(sorted((source, target)))
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
 
@@ -1149,24 +1153,28 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
             data_key = "pred_data" if is_pred else "true_data"
             
             # Process entity attitudes
-            entity_attitudes = extract_entity_attitudes_polar(data) if is_pred else extract_entity_attitudes(data)
+            entity_attitudes = extract_entity_attitudes(data)
             for attitude in entity_attitudes:
                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "")
-                    entity2 = attitude["entity2"].get("entity", "")
+                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
+                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
                     if entity1 and entity2:
                         pair_key = tuple(sorted((entity1, entity2)))
                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
             
             # Process topical attitudes
-            topical_attitudes = extract_topical_attitudes_polar(data) if is_pred else extract_topical_attitudes(data)
+            topical_attitudes = extract_topical_attitudes(data)
             for attitude in topical_attitudes:
                 if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
                     if source and target:
-                        pair_key = tuple(sorted((source, target)))
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
 
@@ -1545,24 +1553,28 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
             data_key = "pred_data" if is_pred else "true_data"
             
             # Process entity attitudes
-            entity_attitudes = extract_entity_attitudes_polar(data) if is_pred else extract_entity_attitudes(data)
+            entity_attitudes = extract_entity_attitudes(data)
             for attitude in entity_attitudes:
                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "")
-                    entity2 = attitude["entity2"].get("entity", "")
+                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
+                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
                     if entity1 and entity2:
                         pair_key = tuple(sorted((entity1, entity2)))
                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
             
             # Process topical attitudes
-            topical_attitudes = extract_topical_attitudes_polar(data) if is_pred else extract_topical_attitudes(data)
+            topical_attitudes = extract_topical_attitudes(data)
             for attitude in topical_attitudes:
                 if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
                     if source and target:
-                        pair_key = tuple(sorted((source, target)))
+                        attitude_value = attitude.get("attitude", "Neutral")
+                        if attitude_value in ["Positive", "Neutral", "Negative"]:
+                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
 
