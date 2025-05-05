@@ -68,8 +68,8 @@ def find_matching_entity(entity_refs, reference_set, threshold=0.7):
     for ref1 in entity_refs:
         for ref2 in reference_set:
             if entity_similarity(ref1, ref2) >= threshold:
-                if ref1 != ref2:
-                    print(f"Matching Entity Pair: ({ref1}, {ref2})")
+                # if ref1 != ref2:
+                #     print(f"Matching Entity Pair: ({ref1}, {ref2})")
                 return True
     return False
 
@@ -80,8 +80,8 @@ def find_matching_topic(topic_refs, reference_set, threshold=0.7):
     for ref1 in topic_refs:
         for ref2 in reference_set:
             if entity_similarity(ref1, ref2) >= threshold:
-                if ref1 != ref2:
-                    print(f"Matching Topic Pair: ({ref1}, {ref2})")
+                # if ref1 != ref2:
+                #     print(f"Matching Topic Pair: ({ref1}, {ref2})")
                 return True
     return False
 
@@ -831,6 +831,7 @@ def count_attitudes(data, is_polar=False):
 
 
 import os
+import time
 
 def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
     """Evaluate POLAR predictions against ground truth."""
@@ -1849,7 +1850,11 @@ if __name__ == "__main__":
     brexit_dataset_path = "../test-brexit/gpt_results"
     brexit_polar_path = "./brexit-test/formatted-attitudes"
 
-    # evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    start_time = time.time()
+    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    end_time = time.time()
+
+    print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
 
     # brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
 
@@ -1857,18 +1862,24 @@ if __name__ == "__main__":
     # with open("brexit_detailed_evaluation_results.json", "w") as f:
     #     json.dump(convert_numpy_types(brexit_results), f, indent=4)
 
-
+    start_time = time.time()
     Mistral_results = evaluate_predictions_polar_vs_Mistral(pred_files_path, polar_files_path)
-
+    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    end_time = time.time()
+    print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
+    
     with open("Mistral_vs_Polar_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(Mistral_results), f, indent=4)
 
     # Save results to a JSON file with type conversion
-    # with open("detailed_evaluation_results.json", "w") as f:
-    #     json.dump(convert_numpy_types(evaluation_results), f, indent=4)
+    with open("detailed_evaluation_results.json", "w") as f:
+        json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
+    start_time = time.time()
     polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
-
+    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    end_time = time.time()
+    print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
 
     with open("polar_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(polar_results), f, indent=4)

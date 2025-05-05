@@ -1,0 +1,16 @@
+ 563 Articles
+Μετά δοκίμασα να εκτελέσω το GPT code στα Article Parts με αυτό τον χρόνο
+-GPT_Communication Elapsed time: 10280.43 seconds
+
+-entity_extractor Elapsed time: 640.87 seconds
+-noun_phrase_extractor Elapsed time: 4545.63 seconds
+-topic_identifier Elapsed time: 1226.28 seconds
+-sentiment_attitude_pipeline Elapsed time: 239.86 seconds
+-load_sentiment_attitudes Elapsed time: 2.89 seconds
+
+Δεν είναι τελείως ακριβής τα αποτελέσματα, καθώς δεν χρησιμοποιώ το multithreading της Polar όπως πρέπει και το code του GPT είναι τελείως sequential με περίπου 13 seconds ανά request, σχετικά με το Article part length.
+
+
+Deepseek:
+950-1050 Normal
+2700-3500 Threaded 4 threads
