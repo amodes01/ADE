@@ -136,8 +136,6 @@ Input: pre_processed article parts
 
 Output: json format entity relationships
 
- 
 
- 
 
 Έβαλα επίσης κάποια επιπρόσθετα restrictions στο prompt για το GPT για να είναι πιο παρόμοια τα αποτελέσματα που επιστρέφει, προσπαθόντας κάθε φορά που αναφέρει ένα entity ή topic να το αναφέρει με τον ίδιο τρόπο, δεν κατάφερα να το δοκιμάσω λόγο κάποια request errors στο free GPT για να δώ αν άλλαξε το αποτέλεσμα. Έχω τώρα και code για να κάνω refactor το .json output του GPT στο format που χρειάζεται το SAGGenerator για να μπορέσω να το προσθέσω μέσα στο pipeline το GPT, αλλά χρειάζεται να λυθεί πρώτα το πρόβλημα με τα mentions στο ίδιο entity με διαφορετικούς τρόπους, πχ. (President Obama != Barack Obama), αλλοιώς θα χρειαστεί να κάνω άλλο code που θα τα ελέγχει όλα μετά με χρήση του dbpedia σαν post-processing.
