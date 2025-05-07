@@ -664,1218 +664,82 @@ def count_attitudes(data, is_polar=False):
 import os
 import time
 
-def evaluate_predictions(true_dataset_path, pred_files_path):
-    """Evaluate predictions against ground truth."""
-    true_dataset = load_from_disk(true_dataset_path)
-    pred_files = unpickle(pred_files_path)
-    num_samples = min(len(true_dataset), len(pred_files))
-
-    # Initialize results storage with same structure as evaluate_predictions_two_dirs
-    all_metrics = {
-        "entity": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "topical": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "samples": {},
-        "input_paths": {
-            "true_dir": true_dataset_path,
-            "pred_dir": pred_files_path
-        }
-    }
-
-    overall_attitude_summary = {
-        "true_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        },
-        "pred_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        }
-    }
-
-    # Initialize pair frequency tracking
-    pair_frequencies = {
-        "true_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        },
-        "pred_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        }
-    }
-
-    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
-        # Extract JSON for ground truth
-        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
-        true_data = best_json if best_json is not None else {}
-
-        # Extract JSON for predictions
-        best_json, _ = LLMJsonParser.parse_json(pred_files[i]["response"])
-        pred_data = best_json if best_json is not None else {}
-
-        if not true_data or not pred_data:
-            continue
-
-        # Track pair frequencies
-        def track_pair_frequencies(data, is_pred=False):
-            if not data:
-                return
-            
-            data_key = "pred_data" if is_pred else "true_data"
-            
-            # Process entity attitudes
-            entity_attitudes = extract_entity_attitudes(data)
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
-                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
-                    if entity1 and entity2:
-                        pair_key = tuple(sorted((entity1, entity2)))
-                        pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
-            
-            # Process topical attitudes
-            topical_attitudes = extract_topical_attitudes(data)
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
-                    source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
-                    target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
-                    if source and target:
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
-
-        track_pair_frequencies(true_data, is_pred=False)
-        track_pair_frequencies(pred_data, is_pred=True)
-
-        # Extract all unique entities and topics
-        def extract_unique_items(data):
-            entities = set()
-            topics = set()
-            
-            entity_attitudes = extract_entity_attitudes(data)
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict):
-                    for entity_key in ["entity1", "entity2"]:
-                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
-                            if "entity" in attitude[entity_key]:
-                                entities.add(attitude[entity_key]["entity"])
-                            if "references" in attitude[entity_key]:
-                                entities.update(attitude[entity_key]["references"])
-            
-            topical_attitudes = extract_topical_attitudes(data)
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict):
-                    for topic_key in ["source", "target"]:
-                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
-                            if "topic" in attitude[topic_key]:
-                                topics.add(attitude[topic_key]["topic"])
-                            if "references" in attitude[topic_key]:
-                                topics.update(attitude[topic_key]["references"])
-            
-            return {
-                "entities": list(entities),
-                "topics": list(topics)
-            }
-
-        true_items = extract_unique_items(true_data)
-        pred_items = extract_unique_items(pred_data)
-
-        # Calculate metrics
-        metrics = calculate_metrics(true_data, pred_data)
-
-        # Calculate matching metrics for entities and topics
-        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
-            # Entity matching
-            true_entities = set(true_items["entities"])
-            pred_entities = set(pred_items["entities"])
-            
-            entity_matches = []
-            entity_tp = 0
-            entity_fp = 0
-            entity_fn = 0
-            
-            matched_pred_entities = set()
-            
-            for true_ent in true_entities:
-                matched = False
-                for pred_ent in pred_entities:
-                    if entity_similarity(true_ent, pred_ent) >= threshold:
-                        entity_matches.append({
-                            "true_entity": true_ent,
-                            "pred_entity": pred_ent,
-                            "similarity": entity_similarity(true_ent, pred_ent)
-                        })
-                        matched_pred_entities.add(pred_ent)
-                        matched = True
-                        entity_tp += 1
-                        break
-                if not matched:
-                    entity_fn += 1
-            
-            entity_fp = len(pred_entities - matched_pred_entities)
-            
-            # Topic matching
-            true_topics = set(true_items["topics"])
-            pred_topics = set(pred_items["topics"])
-            
-            topic_matches = []
-            topic_tp = 0
-            topic_fp = 0
-            topic_fn = 0
-            
-            matched_pred_topics = set()
-            
-            for true_topic in true_topics:
-                matched = False
-                for pred_topic in pred_topics:
-                    if entity_similarity(true_topic, pred_topic) >= threshold:
-                        topic_matches.append({
-                            "true_topic": true_topic,
-                            "pred_topic": pred_topic,
-                            "similarity": entity_similarity(true_topic, pred_topic)
-                        })
-                        matched_pred_topics.add(pred_topic)
-                        matched = True
-                        topic_tp += 1
-                        break
-                if not matched:
-                    topic_fn += 1
-            
-            topic_fp = len(pred_topics - matched_pred_topics)
-            
-            def calculate_prf1(tp, fp, fn):
-                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-                return {
-                    "precision": precision,
-                    "recall": recall,
-                    "f1": f1,
-                    "true_positives": tp,
-                    "false_positives": fp,
-                    "false_negatives": fn
-                }
-            
-            return {
-                "entity_matching": {
-                    "matches": entity_matches,
-                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
-                    "true_count": len(true_entities),
-                    "pred_count": len(pred_entities)
-                },
-                "topic_matching": {
-                    "matches": topic_matches,
-                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
-                    "true_count": len(true_topics),
-                    "pred_count": len(pred_topics)
-                }
-            }
-
-        matching_metrics = calculate_matching_metrics(true_items, pred_items)
-
-        # Store sample results with calculated metrics
-        sample_metrics = calculate_final_metrics({
-            "entity": metrics["entity"],
-            "topical": metrics["topical"]
-        })
-
-        true_attitude_summary = count_attitudes(true_data, is_polar=False)
-        pred_attitude_summary = count_attitudes(pred_data, is_polar=False)
-
-        # Update global attitude counts
-        for key in ["entity", "topical"]:
-            for polarity in ["Positive", "Neutral", "Negative"]:
-                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
-                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
-
-        # Store only TRUE POSITIVE pair matches
-        sample_matches = {
-            "entity": [],
-            "topical": []
-        }
-        for category in ["entity", "topical"]:
-            if "matched_pairs" in metrics[category]:
-                for match in metrics[category]["matched_pairs"]:
-                    sample_matches[category].append({
-                        "true_pair": match["true_pair"],
-                        "pred_pair": match["pred_pair"]
-                    })
-                all_metrics[category]["pair_matches"].extend(sample_matches[category])
-        
-        # Store complete sample information
-        all_metrics["samples"][f"sample_{i}"] = {
-            "metrics": sample_metrics,
-            "true_data": {
-                "entities": true_items["entities"],
-                "topics": true_items["topics"],
-                "attitude_summary": true_attitude_summary
-            },
-            "pred_data": {
-                "entities": pred_items["entities"],
-                "topics": pred_items["topics"],
-                "attitude_summary": pred_attitude_summary
-            },
-            "matching_metrics": matching_metrics,
-            "matched_pairs": sample_matches,
-            "unmatched_pairs": {
-                "entity": {
-                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
-                },
-                "topical": {
-                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
-                }
-            }
-        }
-
-        # Aggregate counts
-        for category in ["entity", "topical"]:
-            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
-                for metric, value in metrics[category][count_type].items():
-                    all_metrics[category][count_type][metric] += value
-            
-            for count in metrics[category]["sample_counts"]:
-                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
-                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
-
-    # Process pair frequencies for final output
-    def process_pair_frequencies(pair_freq_dict, top_n=20):
-        processed = []
-        for pair_key, counts in pair_freq_dict.items():
-            item = {
-                "pair": list(pair_key),
-                "count": counts["count"],
-                "attitudes": counts["attitudes"]
-            }
-            processed.append(item)
-        processed.sort(key=lambda x: x["count"], reverse=True)
-        return processed[:top_n]
-
-    # Store frequencies separately for true and pred data
-    for category in ["entity", "topical"]:
-        all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
-        all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
-    
-    all_metrics["attitude_summary"] = overall_attitude_summary
-
-    final_metrics = calculate_final_metrics({
-        "entity": {
-            "pair_counts": all_metrics["entity"]["pair_counts"],
-            "attitude_counts": all_metrics["entity"]["attitude_counts"],
-            "justification_counts": all_metrics["entity"]["justification_counts"],
-            "sample_counts": all_metrics["entity"]["total_counts"]
-        },
-        "topical": {
-            "pair_counts": all_metrics["topical"]["pair_counts"],
-            "attitude_counts": all_metrics["topical"]["attitude_counts"],
-            "justification_counts": all_metrics["topical"]["justification_counts"],
-            "sample_counts": all_metrics["topical"]["total_counts"]
-        }
-    })
-    
-    for category in ["entity", "topical"]:
-        all_metrics[category].update(final_metrics.get(category, {}))
-
-    # Print summary and visualize
-    print("\nEvaluation Summary:")
-    print("="*50)
-    
-    # Print pair frequency summary
-    print("\nMost Frequent Entity Pairs in True Data:")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Entity Pairs in Predicted Data:")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in True Data:")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in Predicted Data:")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-
-    visualize_metrics(all_metrics)
-    
-    return all_metrics
-
-def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
-    """Evaluate POLAR predictions against ground truth."""
-    true_dataset = load_from_disk(true_dataset_path)
-    
-    # Load POLAR JSON files
-    polar_files = []
-    for i in range(405):  # 0-404 inclusive
-        file_path = os.path.join(polar_dir_path, f"article{i}.json")
-        if os.path.exists(file_path):
-            with open(file_path, 'r', encoding='utf-8') as f:
-                try:
-                    polar_data = json.load(f)
-                    polar_files.append({"response": json.dumps(polar_data)})
-                except json.JSONDecodeError:
-                    polar_files.append({"response": "{}"})
-        else:
-            polar_files.append({"response": "{}"})
-
-    num_samples = min(len(true_dataset), len(polar_files))
-
-    # Initialize results storage with same structure as evaluate_predictions_two_dirs
-    all_metrics = {
-        "entity": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "topical": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "samples": {},
-        "input_paths": {
-            "true_dir": true_dataset_path,
-            "pred_dir": polar_dir_path
-        }
-    }
-
-    overall_attitude_summary = {
-        "true_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        },
-        "pred_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        }
-    }
-
-    # Initialize pair frequency tracking
-    pair_frequencies = {
-        "true_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        },
-        "pred_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        }
-    }
-
-    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
-        # Extract JSON for ground truth
-        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
-        true_data = best_json if best_json is not None else {}
-
-        # Get corresponding POLAR prediction
-        polar_json, _ = LLMJsonParser.parse_json(polar_files[i]["response"])
-        pred_data = polar_json if polar_json is not None else {}
-
-        if not true_data or not pred_data:
-            continue
-
-        # Track pair frequencies
-        def track_pair_frequencies(data, is_pred=False):
-            if not data:
-                return
-            
-            data_key = "pred_data" if is_pred else "true_data"
-            
-            # Process entity attitudes
-            entity_attitudes = extract_entity_attitudes(data)
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
-                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
-                    if entity1 and entity2:
-                        pair_key = tuple(sorted((entity1, entity2)))
-                        pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
-            
-            # Process topical attitudes
-            topical_attitudes = extract_topical_attitudes(data)
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
-                    source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
-                    target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
-                    if source and target:
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
-
-        track_pair_frequencies(true_data, is_pred=False)
-        track_pair_frequencies(pred_data, is_pred=True)
-
-        # Extract all unique entities and topics
-        def extract_unique_items(data, Polar=False):
-            entities = set()
-            topics = set()
-            
-            if not Polar:
-                entity_attitudes = extract_entity_attitudes(data)
-                topical_attitudes = extract_topical_attitudes(data)
-            else:
-                entity_attitudes = extract_entity_attitudes_polar(data)
-                topical_attitudes = extract_topical_attitudes_polar(data)
-            
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict):
-                    for entity_key in ["entity1", "entity2"]:
-                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
-                            if "entity" in attitude[entity_key]:
-                                entities.add(attitude[entity_key]["entity"])
-                            if "references" in attitude[entity_key]:
-                                entities.update(attitude[entity_key]["references"])
-            
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict):
-                    for topic_key in ["source", "target"]:
-                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
-                            if "topic" in attitude[topic_key]:
-                                topics.add(attitude[topic_key]["topic"])
-                            if "references" in attitude[topic_key]:
-                                topics.update(attitude[topic_key]["references"])
-            
-            return {
-                "entities": list(entities),
-                "topics": list(topics)
-            }
-
-        true_items = extract_unique_items(true_data)
-        pred_items = extract_unique_items(pred_data, True)
-
-        # Calculate metrics
-        metrics = calculate_metrics_polar(true_data, pred_data)
-
-        # Calculate matching metrics for entities and topics
-        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
-            # Entity matching
-            true_entities = set(true_items["entities"])
-            pred_entities = set(pred_items["entities"])
-            
-            entity_matches = []
-            entity_tp = 0
-            entity_fp = 0
-            entity_fn = 0
-            
-            matched_pred_entities = set()
-            
-            for true_ent in true_entities:
-                matched = False
-                for pred_ent in pred_entities:
-                    if entity_similarity(true_ent, pred_ent) >= threshold:
-                        entity_matches.append({
-                            "true_entity": true_ent,
-                            "pred_entity": pred_ent,
-                            "similarity": entity_similarity(true_ent, pred_ent)
-                        })
-                        matched_pred_entities.add(pred_ent)
-                        matched = True
-                        entity_tp += 1
-                        break
-                if not matched:
-                    entity_fn += 1
-            
-            entity_fp = len(pred_entities - matched_pred_entities)
-            
-            # Topic matching
-            true_topics = set(true_items["topics"])
-            pred_topics = set(pred_items["topics"])
-            
-            topic_matches = []
-            topic_tp = 0
-            topic_fp = 0
-            topic_fn = 0
-            
-            matched_pred_topics = set()
-            
-            for true_topic in true_topics:
-                matched = False
-                for pred_topic in pred_topics:
-                    if entity_similarity(true_topic, pred_topic) >= threshold:
-                        topic_matches.append({
-                            "true_topic": true_topic,
-                            "pred_topic": pred_topic,
-                            "similarity": entity_similarity(true_topic, pred_topic)
-                        })
-                        matched_pred_topics.add(pred_topic)
-                        matched = True
-                        topic_tp += 1
-                        break
-                if not matched:
-                    topic_fn += 1
-            
-            topic_fp = len(pred_topics - matched_pred_topics)
-            
-            def calculate_prf1(tp, fp, fn):
-                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-                return {
-                    "precision": precision,
-                    "recall": recall,
-                    "f1": f1,
-                    "true_positives": tp,
-                    "false_positives": fp,
-                    "false_negatives": fn
-                }
-            
-            return {
-                "entity_matching": {
-                    "matches": entity_matches,
-                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
-                    "true_count": len(true_entities),
-                    "pred_count": len(pred_entities)
-                },
-                "topic_matching": {
-                    "matches": topic_matches,
-                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
-                    "true_count": len(true_topics),
-                    "pred_count": len(pred_topics)
-                }
-            }
-
-        matching_metrics = calculate_matching_metrics(true_items, pred_items)
-
-        # Store sample results with calculated metrics
-        sample_metrics = calculate_final_metrics({
-            "entity": metrics["entity"],
-            "topical": metrics["topical"]
-        })
-
-        true_attitude_summary = count_attitudes(true_data, is_polar=False)
-        pred_attitude_summary = count_attitudes(pred_data, is_polar=True)
-
-        # Update global attitude counts
-        for key in ["entity", "topical"]:
-            for polarity in ["Positive", "Neutral", "Negative"]:
-                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
-                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
-
-        # Store only TRUE POSITIVE pair matches
-        sample_matches = {
-            "entity": [],
-            "topical": []
-        }
-        for category in ["entity", "topical"]:
-            if "matched_pairs" in metrics[category]:
-                for match in metrics[category]["matched_pairs"]:
-                    sample_matches[category].append({
-                        "true_pair": match["true_pair"],
-                        "pred_pair": match["pred_pair"]
-                    })
-                all_metrics[category]["pair_matches"].extend(sample_matches[category])
-        
-        # Store complete sample information
-        all_metrics["samples"][f"sample_{i}"] = {
-            "metrics": sample_metrics,
-            "true_data": {
-                "entities": true_items["entities"],
-                "topics": true_items["topics"],
-                "attitude_summary": true_attitude_summary
-            },
-            "pred_data": {
-                "entities": pred_items["entities"],
-                "topics": pred_items["topics"],
-                "attitude_summary": pred_attitude_summary
-            },
-            "matching_metrics": matching_metrics,
-            "matched_pairs": sample_matches,
-            "unmatched_pairs": {
-                "entity": {
-                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
-                },
-                "topical": {
-                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
-                }
-            }
-        }
-
-        # Aggregate counts
-        for category in ["entity", "topical"]:
-            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
-                for metric, value in metrics[category][count_type].items():
-                    all_metrics[category][count_type][metric] += value
-            
-            for count in metrics[category]["sample_counts"]:
-                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
-                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
-
-    # Process pair frequencies for final output
-    def process_pair_frequencies(pair_freq_dict, top_n=20):
-        processed = []
-        for pair_key, counts in pair_freq_dict.items():
-            item = {
-                "pair": list(pair_key),
-                "count": counts["count"],
-                "attitudes": counts["attitudes"]
-            }
-            processed.append(item)
-        processed.sort(key=lambda x: x["count"], reverse=True)
-        return processed[:top_n]
-
-    # Store frequencies separately for true and pred data
-    for category in ["entity", "topical"]:
-        all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
-        all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
-    
-    all_metrics["attitude_summary"] = overall_attitude_summary
-
-    final_metrics = calculate_final_metrics({
-        "entity": {
-            "pair_counts": all_metrics["entity"]["pair_counts"],
-            "attitude_counts": all_metrics["entity"]["attitude_counts"],
-            "justification_counts": all_metrics["entity"]["justification_counts"],
-            "sample_counts": all_metrics["entity"]["total_counts"]
-        },
-        "topical": {
-            "pair_counts": all_metrics["topical"]["pair_counts"],
-            "attitude_counts": all_metrics["topical"]["attitude_counts"],
-            "justification_counts": all_metrics["topical"]["justification_counts"],
-            "sample_counts": all_metrics["topical"]["total_counts"]
-        }
-    })
-    
-    for category in ["entity", "topical"]:
-        all_metrics[category].update(final_metrics.get(category, {}))
-
-    # Print summary and visualize
-    print("\nEvaluation Summary:")
-    print("="*50)
-    
-    # Print pair frequency summary
-    print("\nMost Frequent Entity Pairs in True Data:")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Entity Pairs in Predicted Data:")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in True Data:")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in Predicted Data:")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-
-    visualize_metrics(all_metrics, True)
-    
-    return all_metrics
-
-def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
-    """Evaluate POLAR predictions against Mistral ground truth."""
-    true_dataset = unpickle(true_dataset_path)
-    
-    # Load POLAR JSON files
-    polar_files = []
-    for i in range(405):  # 0-404 inclusive
-        file_path = os.path.join(polar_dir_path, f"article{i}.json")
-        if os.path.exists(file_path):
-            with open(file_path, 'r', encoding='utf-8') as f:
-                try:
-                    polar_data = json.load(f)
-                    polar_files.append({"response": json.dumps(polar_data)})
-                except json.JSONDecodeError:
-                    polar_files.append({"response": "{}"})
-        else:
-            polar_files.append({"response": "{}"})
-
-    num_samples = min(len(true_dataset), len(polar_files))
-
-    # Initialize results storage with same structure as evaluate_predictions_two_dirs
-    all_metrics = {
-        "entity": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "topical": {
-            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
-            "justification_counts": {"matched": 0, "total": 0},
-            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-            "pair_matches": [],
-            "pair_frequencies": {
-                "true_data": {},
-                "pred_data": {}
-            }
-        },
-        "samples": {},
-        "input_paths": {
-            "true_dir": true_dataset_path,
-            "pred_dir": polar_dir_path
-        }
-    }
-
-    overall_attitude_summary = {
-        "true_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        },
-        "pred_data": {
-            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
-            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
-        }
-    }
-
-    # Initialize pair frequency tracking
-    pair_frequencies = {
-        "true_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        },
-        "pred_data": {
-            "entity": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            }),
-            "topical": defaultdict(lambda: {
-                "count": 0,
-                "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
-            })
-        }
-    }
-
-    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
-        # Extract JSON for ground truth (Mistral)
-        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["response"])
-        true_data = best_json if best_json is not None else {}
-
-        # Get corresponding POLAR prediction
-        polar_json, _ = LLMJsonParser.parse_json(polar_files[i]["response"])
-        pred_data = polar_json if polar_json is not None else {}
-
-        if not true_data or not pred_data:
-            continue
-
-        # Track pair frequencies
-        def track_pair_frequencies(data, is_pred=False):
-            if not data:
-                return
-            
-            data_key = "pred_data" if is_pred else "true_data"
-            
-            # Process entity attitudes
-            entity_attitudes = extract_entity_attitudes(data)
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
-                    entity1 = attitude["entity1"].get("entity", "") if isinstance(attitude["entity1"], dict) else ""
-                    entity2 = attitude["entity2"].get("entity", "") if isinstance(attitude["entity2"], dict) else ""
-                    if entity1 and entity2:
-                        pair_key = tuple(sorted((entity1, entity2)))
-                        pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude_value] += 1
-            
-            # Process topical attitudes
-            topical_attitudes = extract_topical_attitudes(data)
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
-                    source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
-                    target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
-                    if source and target:
-                        attitude_value = attitude.get("attitude", "Neutral")
-                        if attitude_value in ["Positive", "Neutral", "Negative"]:
-                            pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude_value] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
-                        pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
-
-        track_pair_frequencies(true_data, is_pred=False)
-        track_pair_frequencies(pred_data, is_pred=True)
-
-        # Extract all unique entities and topics
-        def extract_unique_items(data, Polar=False):
-            entities = set()
-            topics = set()
-            
-            if not Polar:
-                entity_attitudes = extract_entity_attitudes(data)
-                topical_attitudes = extract_topical_attitudes(data)
-            else:
-                entity_attitudes = extract_entity_attitudes_polar(data)
-                topical_attitudes = extract_topical_attitudes_polar(data)
-            
-            for attitude in entity_attitudes:
-                if isinstance(attitude, dict):
-                    for entity_key in ["entity1", "entity2"]:
-                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
-                            if "entity" in attitude[entity_key]:
-                                entities.add(attitude[entity_key]["entity"])
-                            if "references" in attitude[entity_key]:
-                                entities.update(attitude[entity_key]["references"])
-            
-            for attitude in topical_attitudes:
-                if isinstance(attitude, dict):
-                    for topic_key in ["source", "target"]:
-                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
-                            if "topic" in attitude[topic_key]:
-                                topics.add(attitude[topic_key]["topic"])
-                            if "references" in attitude[topic_key]:
-                                topics.update(attitude[topic_key]["references"])
-            
-            return {
-                "entities": list(entities),
-                "topics": list(topics)
-            }
-
-        true_items = extract_unique_items(true_data)
-        pred_items = extract_unique_items(pred_data, True)
-
-        # Calculate metrics
-        metrics = calculate_metrics_polar(true_data, pred_data)
-
-        # Calculate matching metrics for entities and topics
-        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
-            # Entity matching
-            true_entities = set(true_items["entities"])
-            pred_entities = set(pred_items["entities"])
-            
-            entity_matches = []
-            entity_tp = 0
-            entity_fp = 0
-            entity_fn = 0
-            
-            matched_pred_entities = set()
-            
-            for true_ent in true_entities:
-                matched = False
-                for pred_ent in pred_entities:
-                    if entity_similarity(true_ent, pred_ent) >= threshold:
-                        entity_matches.append({
-                            "true_entity": true_ent,
-                            "pred_entity": pred_ent,
-                            "similarity": entity_similarity(true_ent, pred_ent)
-                        })
-                        matched_pred_entities.add(pred_ent)
-                        matched = True
-                        entity_tp += 1
-                        break
-                if not matched:
-                    entity_fn += 1
-            
-            entity_fp = len(pred_entities - matched_pred_entities)
-            
-            # Topic matching
-            true_topics = set(true_items["topics"])
-            pred_topics = set(pred_items["topics"])
-            
-            topic_matches = []
-            topic_tp = 0
-            topic_fp = 0
-            topic_fn = 0
-            
-            matched_pred_topics = set()
-            
-            for true_topic in true_topics:
-                matched = False
-                for pred_topic in pred_topics:
-                    if entity_similarity(true_topic, pred_topic) >= threshold:
-                        topic_matches.append({
-                            "true_topic": true_topic,
-                            "pred_topic": pred_topic,
-                            "similarity": entity_similarity(true_topic, pred_topic)
-                        })
-                        matched_pred_topics.add(pred_topic)
-                        matched = True
-                        topic_tp += 1
-                        break
-                if not matched:
-                    topic_fn += 1
-            
-            topic_fp = len(pred_topics - matched_pred_topics)
-            
-            def calculate_prf1(tp, fp, fn):
-                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-                return {
-                    "precision": precision,
-                    "recall": recall,
-                    "f1": f1,
-                    "true_positives": tp,
-                    "false_positives": fp,
-                    "false_negatives": fn
-                }
-            
-            return {
-                "entity_matching": {
-                    "matches": entity_matches,
-                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
-                    "true_count": len(true_entities),
-                    "pred_count": len(pred_entities)
-                },
-                "topic_matching": {
-                    "matches": topic_matches,
-                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
-                    "true_count": len(true_topics),
-                    "pred_count": len(pred_topics)
-                }
-            }
-
-        matching_metrics = calculate_matching_metrics(true_items, pred_items)
-
-        # Store sample results with calculated metrics
-        sample_metrics = calculate_final_metrics({
-            "entity": metrics["entity"],
-            "topical": metrics["topical"]
-        })
-
-        true_attitude_summary = count_attitudes(true_data, is_polar=False)
-        pred_attitude_summary = count_attitudes(pred_data, is_polar=True)
-
-        # Update global attitude counts
-        for key in ["entity", "topical"]:
-            for polarity in ["Positive", "Neutral", "Negative"]:
-                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
-                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
-
-        # Store only TRUE POSITIVE pair matches
-        sample_matches = {
-            "entity": [],
-            "topical": []
-        }
-        for category in ["entity", "topical"]:
-            if "matched_pairs" in metrics[category]:
-                for match in metrics[category]["matched_pairs"]:
-                    sample_matches[category].append({
-                        "true_pair": match["true_pair"],
-                        "pred_pair": match["pred_pair"]
-                    })
-                all_metrics[category]["pair_matches"].extend(sample_matches[category])
-        
-        # Store complete sample information
-        all_metrics["samples"][f"sample_{i}"] = {
-            "metrics": sample_metrics,
-            "true_data": {
-                "entities": true_items["entities"],
-                "topics": true_items["topics"],
-                "attitude_summary": true_attitude_summary
-            },
-            "pred_data": {
-                "entities": pred_items["entities"],
-                "topics": pred_items["topics"],
-                "attitude_summary": pred_attitude_summary
-            },
-            "matching_metrics": matching_metrics,
-            "matched_pairs": sample_matches,
-            "unmatched_pairs": {
-                "entity": {
-                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
-                },
-                "topical": {
-                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
-                }
-            }
-        }
-
-        # Aggregate counts
-        for category in ["entity", "topical"]:
-            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
-                for metric, value in metrics[category][count_type].items():
-                    all_metrics[category][count_type][metric] += value
-            
-            for count in metrics[category]["sample_counts"]:
-                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
-                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
-
-    # Process pair frequencies for final output
-    def process_pair_frequencies(pair_freq_dict, top_n=20):
-        processed = []
-        for pair_key, counts in pair_freq_dict.items():
-            item = {
-                "pair": list(pair_key),
-                "count": counts["count"],
-                "attitudes": counts["attitudes"]
-            }
-            processed.append(item)
-        processed.sort(key=lambda x: x["count"], reverse=True)
-        return processed[:top_n]
-
-    # Store frequencies separately for true and pred data
-    for category in ["entity", "topical"]:
-        all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
-        all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
-    
-    all_metrics["attitude_summary"] = overall_attitude_summary
-
-    final_metrics = calculate_final_metrics({
-        "entity": {
-            "pair_counts": all_metrics["entity"]["pair_counts"],
-            "attitude_counts": all_metrics["entity"]["attitude_counts"],
-            "justification_counts": all_metrics["entity"]["justification_counts"],
-            "sample_counts": all_metrics["entity"]["total_counts"]
-        },
-        "topical": {
-            "pair_counts": all_metrics["topical"]["pair_counts"],
-            "attitude_counts": all_metrics["topical"]["attitude_counts"],
-            "justification_counts": all_metrics["topical"]["justification_counts"],
-            "sample_counts": all_metrics["topical"]["total_counts"]
-        }
-    })
-    
-    for category in ["entity", "topical"]:
-        all_metrics[category].update(final_metrics.get(category, {}))
-
-    # Print summary and visualize
-    print("\nEvaluation Summary:")
-    print("="*50)
-    
-    # Print pair frequency summary
-    print("\nMost Frequent Entity Pairs in True Data (Mistral):")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Entity Pairs in Predicted Data (POLAR):")
-    for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in True Data (Mistral):")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-    
-    print("\nMost Frequent Topical Pairs in Predicted Data (POLAR):")
-    for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
-        print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
-        print(f"   Attitudes: {pair['attitudes']}")
-
-    visualize_metrics(all_metrics, True)
-    
-    return all_metrics
-
-
-
 # def evaluate_predictions(true_dataset_path, pred_files_path):
+
 #     """Evaluate predictions against ground truth."""
 #     true_dataset = load_from_disk(true_dataset_path)
 #     pred_files = unpickle(pred_files_path)
 #     num_samples = min(len(true_dataset), len(pred_files))
 
-#     # Initialize results storage
+#     # Initialize results storage with same structure as evaluate_predictions_two_dirs
 #     all_metrics = {
 #         "entity": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
 #         "topical": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
-#         "samples": {}
+#         "samples": {},
+#         "input_paths": {
+#             "true_dir": true_dataset_path,
+#             "pred_dir": pred_files_path
+#         }
 #     }
 
+#     overall_attitude_summary = {
+#         "true_data": {
+#             "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+#             "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#         },
+#         "pred_data": {
+#             "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+#             "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#         }
+#     }
+
+#     # Initialize pair frequency tracking
+#     pair_frequencies = {
+#         "true_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
+#         },
+#         "pred_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
+#         }
+#     }
 
 #     for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
-        
-
 #         # Extract JSON for ground truth
 #         best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
 #         true_data = best_json if best_json is not None else {}
@@ -1887,140 +751,306 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #         if not true_data or not pred_data:
 #             continue
 
+#         # Track pair frequencies
+#         def track_pair_frequencies(data, is_pred=False):
+#             if not data:
+#                 return
+            
+#             data_key = "pred_data" if is_pred else "true_data"
+            
+#             # Process entity attitudes
+#             entity_attitudes = extract_entity_attitudes_polar(data) if is_pred else extract_entity_attitudes(data)
+#             for attitude in entity_attitudes:
+#                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
+#                     entity1 = attitude["entity1"].get("entity", "")
+#                     entity2 = attitude["entity2"].get("entity", "")
+#                     if entity1 and entity2:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((entity1, entity2)))
+#                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+            
+#             # Process topical attitudes
+#             topical_attitudes = extract_topical_attitudes_polar(data) if is_pred else extract_topical_attitudes(data)
+#             for attitude in topical_attitudes:
+#                 if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
+#                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
+#                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
+#                     if source and target:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((source, target)))
+#                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+
+#         track_pair_frequencies(true_data, is_pred=False)
+        
+#         track_pair_frequencies(pred_data, is_pred=True)
+
+#         # Extract all unique entities and topics
+#         def extract_unique_items(data):
+#             entities = set()
+#             topics = set()
+            
+#             entity_attitudes = extract_entity_attitudes(data)
+#             for attitude in entity_attitudes:
+#                 if isinstance(attitude, dict):
+#                     for entity_key in ["entity1", "entity2"]:
+#                         if entity_key in attitude and isinstance(attitude[entity_key], dict):
+#                             if "entity" in attitude[entity_key]:
+#                                 entities.add(attitude[entity_key]["entity"])
+#                             if "references" in attitude[entity_key]:
+#                                 entities.update(attitude[entity_key]["references"])
+            
+#             topical_attitudes = extract_topical_attitudes(data)
+#             for attitude in topical_attitudes:
+#                 if isinstance(attitude, dict):
+#                     for topic_key in ["source", "target"]:
+#                         if topic_key in attitude and isinstance(attitude[topic_key], dict):
+#                             if "topic" in attitude[topic_key]:
+#                                 topics.add(attitude[topic_key]["topic"])
+#                             if "references" in attitude[topic_key]:
+#                                 topics.update(attitude[topic_key]["references"])
+            
+#             return {
+#                 "entities": list(entities),
+#                 "topics": list(topics)
+#             }
+
+#         true_items = extract_unique_items(true_data)
+#         pred_items = extract_unique_items(pred_data)
+
 #         # Calculate metrics
 #         metrics = calculate_metrics(true_data, pred_data)
+
+#         # Calculate matching metrics for entities and topics
+#         def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
+#             # Entity matching
+#             true_entities = set(true_items["entities"])
+#             pred_entities = set(pred_items["entities"])
+            
+#             entity_matches = []
+#             entity_tp = 0
+#             entity_fp = 0
+#             entity_fn = 0
+            
+#             matched_pred_entities = set()
+            
+#             for true_ent in true_entities:
+#                 matched = False
+#                 for pred_ent in pred_entities:
+#                     if entity_similarity(true_ent, pred_ent) >= threshold:
+#                         entity_matches.append({
+#                             "true_entity": true_ent,
+#                             "pred_entity": pred_ent,
+#                             "similarity": entity_similarity(true_ent, pred_ent)
+#                         })
+#                         matched_pred_entities.add(pred_ent)
+#                         matched = True
+#                         entity_tp += 1
+#                         break
+#                 if not matched:
+#                     entity_fn += 1
+            
+#             entity_fp = len(pred_entities - matched_pred_entities)
+            
+#             # Topic matching
+#             true_topics = set(true_items["topics"])
+#             pred_topics = set(pred_items["topics"])
+            
+#             topic_matches = []
+#             topic_tp = 0
+#             topic_fp = 0
+#             topic_fn = 0
+            
+#             matched_pred_topics = set()
+            
+#             for true_topic in true_topics:
+#                 matched = False
+#                 for pred_topic in pred_topics:
+#                     if entity_similarity(true_topic, pred_topic) >= threshold:
+#                         topic_matches.append({
+#                             "true_topic": true_topic,
+#                             "pred_topic": pred_topic,
+#                             "similarity": entity_similarity(true_topic, pred_topic)
+#                         })
+#                         matched_pred_topics.add(pred_topic)
+#                         matched = True
+#                         topic_tp += 1
+#                         break
+#                 if not matched:
+#                     topic_fn += 1
+            
+#             topic_fp = len(pred_topics - matched_pred_topics)
+            
+#             def calculate_prf1(tp, fp, fn):
+#                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+#                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+#                 f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+#                 return {
+#                     "precision": precision,
+#                     "recall": recall,
+#                     "f1": f1,
+#                     "true_positives": tp,
+#                     "false_positives": fp,
+#                     "false_negatives": fn
+#                 }
+            
+#             return {
+#                 "entity_matching": {
+#                     "matches": entity_matches,
+#                     "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
+#                     "true_count": len(true_entities),
+#                     "pred_count": len(pred_entities)
+#                 },
+#                 "topic_matching": {
+#                     "matches": topic_matches,
+#                     "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
+#                     "true_count": len(true_topics),
+#                     "pred_count": len(pred_topics)
+#                 }
+#             }
+
+#         matching_metrics = calculate_matching_metrics(true_items, pred_items)
 
 #         # Store sample results with calculated metrics
 #         sample_metrics = calculate_final_metrics({
 #             "entity": metrics["entity"],
 #             "topical": metrics["topical"]
 #         })
+
+#         true_attitude_summary = count_attitudes(true_data, is_polar=False)
+#         pred_attitude_summary = count_attitudes(pred_data, is_polar=False)
+
+#         # Update global attitude counts
+#         for key in ["entity", "topical"]:
+#             for polarity in ["Positive", "Neutral", "Negative"]:
+#                 overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
+#                 overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
+
+#         # Store only TRUE POSITIVE pair matches
+#         sample_matches = {
+#             "entity": [],
+#             "topical": []
+#         }
+#         for category in ["entity", "topical"]:
+#             if "matched_pairs" in metrics[category]:
+#                 for match in metrics[category]["matched_pairs"]:
+#                     sample_matches[category].append({
+#                         "true_pair": match["true_pair"],
+#                         "pred_pair": match["pred_pair"]
+#                     })
+#                 all_metrics[category]["pair_matches"].extend(sample_matches[category])
+        
+#         # Store complete sample information
 #         all_metrics["samples"][f"sample_{i}"] = {
 #             "metrics": sample_metrics,
-#             "true_data": true_data,
-#             "pred_data": pred_data
+#             "true_data": {
+#                 "entities": true_items["entities"],
+#                 "topics": true_items["topics"],
+#                 "attitude_summary": true_attitude_summary
+#             },
+#             "pred_data": {
+#                 "entities": pred_items["entities"],
+#                 "topics": pred_items["topics"],
+#                 "attitude_summary": pred_attitude_summary
+#             },
+#             "matching_metrics": matching_metrics,
+#             "matched_pairs": sample_matches,
+#             "unmatched_pairs": {
+#                 "entity": {
+#                     "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
+#                     "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
+#                 },
+#                 "topical": {
+#                     "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
+#                     "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
+#                 }
+#             }
 #         }
 
 #         # Aggregate counts
 #         for category in ["entity", "topical"]:
-#             # Update performance counts
 #             for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
 #                 for metric, value in metrics[category][count_type].items():
 #                     all_metrics[category][count_type][metric] += value
             
-#             # Update sample counts (for this sample)
 #             for count in metrics[category]["sample_counts"]:
 #                 all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
-            
-#             # Update running totals
-#             for count in metrics[category]["sample_counts"]:
 #                 all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
 
-#     # Calculate final metrics from aggregated counts
+#     # Process pair frequencies for final output
+#     def process_pair_frequencies(pair_freq_dict, top_n=20):
+#         processed = []
+#         for pair_key, counts in pair_freq_dict.items():
+#             item = {
+#                 "pair": list(pair_key),
+#                 "count": counts["count"],
+#                 "attitudes": counts["attitudes"]
+#             }
+#             processed.append(item)
+#         processed.sort(key=lambda x: x["count"], reverse=True)
+#         return processed[:top_n]
+
+#     # Store frequencies separately for true and pred data
+#     for category in ["entity", "topical"]:
+#         all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
+#         all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
+    
+#     all_metrics["attitude_summary"] = overall_attitude_summary
+
 #     final_metrics = calculate_final_metrics({
 #         "entity": {
 #             "pair_counts": all_metrics["entity"]["pair_counts"],
 #             "attitude_counts": all_metrics["entity"]["attitude_counts"],
 #             "justification_counts": all_metrics["entity"]["justification_counts"],
-#             "sample_counts": all_metrics["entity"]["total_counts"]  # Use accumulated totals
+#             "sample_counts": all_metrics["entity"]["total_counts"]
 #         },
 #         "topical": {
 #             "pair_counts": all_metrics["topical"]["pair_counts"],
 #             "attitude_counts": all_metrics["topical"]["attitude_counts"],
 #             "justification_counts": all_metrics["topical"]["justification_counts"],
-#             "sample_counts": all_metrics["topical"]["total_counts"]  # Use accumulated totals
+#             "sample_counts": all_metrics["topical"]["total_counts"]
 #         }
 #     })
     
-#     # Merge final metrics into all_metrics
 #     for category in ["entity", "topical"]:
 #         all_metrics[category].update(final_metrics.get(category, {}))
 
-#     # Print summary
+#     # Print summary and visualize
 #     print("\nEvaluation Summary:")
 #     print("="*50)
     
-#     # Entity metrics
-#     if "entity" in all_metrics:
-#         print("\nEntity Pair Matching Metrics:")
-#         print(f"- Precision: {all_metrics['entity']['pair_matching']['precision']:.4f}")
-#         print(f"- Recall:    {all_metrics['entity']['pair_matching']['recall']:.4f}")
-#         print(f"- F1:        {all_metrics['entity']['pair_matching']['f1']:.4f}")
-#         print(f"- True Positives: {all_metrics['entity']['pair_matching']['true_positives']}")
-#         print(f"- False Positives: {all_metrics['entity']['pair_matching']['false_positives']}")
-#         print(f"- False Negatives: {all_metrics['entity']['pair_matching']['false_negatives']}")
-        
-#         print("\nEntity Attitude Prediction Metrics (for matched pairs):")
-#         print(f"- Precision: {all_metrics['entity']['attitude_prediction']['precision']:.4f}")
-#         print(f"- Recall:    {all_metrics['entity']['attitude_prediction']['recall']:.4f}")
-#         print(f"- F1:        {all_metrics['entity']['attitude_prediction']['f1']:.4f}")
-#         print(f"- Accuracy:  {all_metrics['entity']['attitude_prediction']['accuracy']:.4f}")
-#         print(f"- True Positives: {all_metrics['entity']['attitude_prediction']['true_positives']}")
-#         print(f"- False Positives: {all_metrics['entity']['attitude_prediction']['false_positives']}")
-#         print(f"- False Negatives: {all_metrics['entity']['attitude_prediction']['false_negatives']}")
-        
-#         print("\nEntity Justification Metrics:")
-#         print(f"- Average Overlap: {all_metrics['entity']['justification']['overlap']:.4f}")
-#         print(f"- Matched Justifications: {all_metrics['entity']['justification']['matched_justifications']} of {all_metrics['entity']['justification']['total_justifications']}")
-        
-#         print("\nEntity Counts:")
-#         print(f"- Total True Pairs: {all_metrics['entity']['total_counts']['true_pairs']}")
-#         print(f"- Total Pred Pairs: {all_metrics['entity']['total_counts']['pred_pairs']}")
-#         print(f"- Total True Attitudes: {all_metrics['entity']['total_counts']['true_attitudes']}")
-#         print(f"- Total Pred Attitudes: {all_metrics['entity']['total_counts']['pred_attitudes']}")
+#     # Print pair frequency summary
+#     print("\nMost Frequent Entity Pairs in True Data:")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
     
-#     # Topical metrics
-#     if "topical" in all_metrics:
-#         print("\nTopical Pair Matching Metrics:")
-#         print(f"- Precision: {all_metrics['topical']['pair_matching']['precision']:.4f}")
-#         print(f"- Recall:    {all_metrics['topical']['pair_matching']['recall']:.4f}")
-#         print(f"- F1:        {all_metrics['topical']['pair_matching']['f1']:.4f}")
-#         print(f"- True Positives: {all_metrics['topical']['pair_matching']['true_positives']}")
-#         print(f"- False Positives: {all_metrics['topical']['pair_matching']['false_positives']}")
-#         print(f"- False Negatives: {all_metrics['topical']['pair_matching']['false_negatives']}")
-        
-#         print("\nTopical Attitude Prediction Metrics (for matched pairs):")
-#         print(f"- Precision: {all_metrics['topical']['attitude_prediction']['precision']:.4f}")
-#         print(f"- Recall:    {all_metrics['topical']['attitude_prediction']['recall']:.4f}")
-#         print(f"- F1:        {all_metrics['topical']['attitude_prediction']['f1']:.4f}")
-#         print(f"- Accuracy:  {all_metrics['topical']['attitude_prediction']['accuracy']:.4f}")
-#         print(f"- True Positives: {all_metrics['topical']['attitude_prediction']['true_positives']}")
-#         print(f"- False Positives: {all_metrics['topical']['attitude_prediction']['false_positives']}")
-#         print(f"- False Negatives: {all_metrics['topical']['attitude_prediction']['false_negatives']}")
-        
-#         print("\nTopical Justification Metrics:")
-#         print(f"- Average Overlap: {all_metrics['topical']['justification']['overlap']:.4f}")
-#         print(f"- Matched Justifications: {all_metrics['topical']['justification']['matched_justifications']} of {all_metrics['topical']['justification']['total_justifications']}")
-        
-#         print("\nTopical Counts:")
-#         print(f"- Total True Pairs: {all_metrics['topical']['total_counts']['true_pairs']}")
-#         print(f"- Total Pred Pairs: {all_metrics['topical']['total_counts']['pred_pairs']}")
-#         print(f"- Total True Attitudes: {all_metrics['topical']['total_counts']['true_attitudes']}")
-#         print(f"- Total Pred Attitudes: {all_metrics['topical']['total_counts']['pred_attitudes']}")
+#     print("\nMost Frequent Entity Pairs in Predicted Data:")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
     
-#     # Combined counts
-#     print("\nCombined Counts:")
-#     total_true_pairs = all_metrics['entity']['total_counts']['true_pairs'] + all_metrics['topical']['total_counts']['true_pairs']
-#     total_pred_pairs = all_metrics['entity']['total_counts']['pred_pairs'] + all_metrics['topical']['total_counts']['pred_pairs']
-#     total_true_attitudes = all_metrics['entity']['total_counts']['true_attitudes'] + all_metrics['topical']['total_counts']['true_attitudes']
-#     total_pred_attitudes = all_metrics['entity']['total_counts']['pred_attitudes'] + all_metrics['topical']['total_counts']['pred_attitudes']
+#     print("\nMost Frequent Topical Pairs in True Data:")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
     
-#     print(f"- Total True Pairs: {total_true_pairs}")
-#     print(f"- Total Pred Pairs: {total_pred_pairs}")
-#     print(f"- Total True Attitudes: {total_true_attitudes}")
-#     print(f"- Total Pred Attitudes: {total_pred_attitudes}")
-#     print("="*50)
+#     print("\nMost Frequent Topical Pairs in Predicted Data:")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
 
-#     # Visualize the metrics
 #     visualize_metrics(all_metrics)
     
 #     return all_metrics
 
 # def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
+
 #     """Evaluate POLAR predictions against ground truth."""
 #     true_dataset = load_from_disk(true_dataset_path)
     
-#     # Load POLAR JSON files in order (article0.json to article404.json)
+#     # Load POLAR JSON files
 #     polar_files = []
 #     for i in range(405):  # 0-404 inclusive
 #         file_path = os.path.join(polar_dir_path, f"article{i}.json")
@@ -2028,31 +1058,45 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #             with open(file_path, 'r', encoding='utf-8') as f:
 #                 try:
 #                     polar_data = json.load(f)
-#                     polar_files.append({"response": json.dumps(polar_data)})  # Wrap to match expected format
+#                     polar_files.append({"response": json.dumps(polar_data)})
 #                 except json.JSONDecodeError:
-#                     polar_files.append({"response": "{}"})  # Empty if invalid
+#                     polar_files.append({"response": "{}"})
 #         else:
-#             polar_files.append({"response": "{}"})  # Empty if missing
+#             polar_files.append({"response": "{}"})
 
 #     num_samples = min(len(true_dataset), len(polar_files))
 
-#     # Initialize results storage
+#     # Initialize results storage with same structure as evaluate_predictions_two_dirs
 #     all_metrics = {
 #         "entity": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
 #         "topical": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
-#         "samples": {}
+#         "samples": {},
+#         "input_paths": {
+#             "true_dir": true_dataset_path,
+#             "pred_dir": polar_dir_path
+#         }
 #     }
 
 #     overall_attitude_summary = {
@@ -2063,6 +1107,30 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #         "pred_data": {
 #             "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
 #             "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#         }
+#     }
+
+#     # Initialize pair frequency tracking
+#     pair_frequencies = {
+#         "true_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
+#         },
+#         "pred_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
 #         }
 #     }
 
@@ -2078,16 +1146,53 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #         if not true_data or not pred_data:
 #             continue
 
-#         # Extract all unique entities and topics from true and pred data
-#         def extract_unique_items(data,Polar=False):
+#         # Track pair frequencies
+#         def track_pair_frequencies(data, is_pred=False):
+#             if not data:
+#                 return
+            
+#             data_key = "pred_data" if is_pred else "true_data"
+            
+#             # Process entity attitudes
+#             entity_attitudes = extract_entity_attitudes_polar(data) if is_pred else extract_entity_attitudes(data)
+#             for attitude in entity_attitudes:
+#                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
+#                     entity1 = attitude["entity1"].get("entity", "")
+#                     entity2 = attitude["entity2"].get("entity", "")
+#                     if entity1 and entity2:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((entity1, entity2)))
+#                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+            
+#             # Process topical attitudes
+#             topical_attitudes = extract_topical_attitudes_polar(data) if is_pred else extract_topical_attitudes(data)
+#             for attitude in topical_attitudes:
+#                 if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
+#                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
+#                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
+#                     if source and target:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((source, target)))
+#                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+
+
+#         track_pair_frequencies(true_data, is_pred=False)
+#         track_pair_frequencies(pred_data, is_pred=True)
+
+#         # Extract all unique entities and topics
+#         def extract_unique_items(data, Polar=False):
 #             entities = set()
 #             topics = set()
             
-#             # Extract from entity_attitudes
 #             if not Polar:
 #                 entity_attitudes = extract_entity_attitudes(data)
+#                 topical_attitudes = extract_topical_attitudes(data)
 #             else:
 #                 entity_attitudes = extract_entity_attitudes_polar(data)
+#                 topical_attitudes = extract_topical_attitudes_polar(data)
+            
 #             for attitude in entity_attitudes:
 #                 if isinstance(attitude, dict):
 #                     for entity_key in ["entity1", "entity2"]:
@@ -2097,11 +1202,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                             if "references" in attitude[entity_key]:
 #                                 entities.update(attitude[entity_key]["references"])
             
-#             # Extract from topical_attitudes
-#             if not Polar:
-#                 topical_attitudes = extract_topical_attitudes(data)
-#             else:
-#                 topical_attitudes = extract_topical_attitudes_polar(data)
 #             for attitude in topical_attitudes:
 #                 if isinstance(attitude, dict):
 #                     for topic_key in ["source", "target"]:
@@ -2118,8 +1218,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 
 #         true_items = extract_unique_items(true_data)
 #         pred_items = extract_unique_items(pred_data, True)
-
-
 
 #         # Calculate metrics
 #         metrics = calculate_metrics_polar(true_data, pred_data)
@@ -2184,7 +1282,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
             
 #             topic_fp = len(pred_topics - matched_pred_topics)
             
-#             # Calculate precision, recall, f1
 #             def calculate_prf1(tp, fp, fn):
 #                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
 #                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
@@ -2230,7 +1327,21 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
 #                 overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
 
+#         # Store only TRUE POSITIVE pair matches
+#         sample_matches = {
+#             "entity": [],
+#             "topical": []
+#         }
+#         for category in ["entity", "topical"]:
+#             if "matched_pairs" in metrics[category]:
+#                 for match in metrics[category]["matched_pairs"]:
+#                     sample_matches[category].append({
+#                         "true_pair": match["true_pair"],
+#                         "pred_pair": match["pred_pair"]
+#                     })
+#                 all_metrics[category]["pair_matches"].extend(sample_matches[category])
         
+#         # Store complete sample information
 #         all_metrics["samples"][f"sample_{i}"] = {
 #             "metrics": sample_metrics,
 #             "true_data": {
@@ -2244,10 +1355,7 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 "attitude_summary": pred_attitude_summary
 #             },
 #             "matching_metrics": matching_metrics,
-#             "matched_pairs": {
-#                 "entity": metrics["entity"].get("matched_pairs", []),
-#                 "topical": metrics["topical"].get("matched_pairs", [])
-#             },
+#             "matched_pairs": sample_matches,
 #             "unmatched_pairs": {
 #                 "entity": {
 #                     "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
@@ -2270,10 +1378,25 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
 #                 all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
 
-#     # Calculate final metrics
+#     # Process pair frequencies for final output
+#     def process_pair_frequencies(pair_freq_dict, top_n=20):
+#         processed = []
+#         for pair_key, counts in pair_freq_dict.items():
+#             item = {
+#                 "pair": list(pair_key),
+#                 "count": counts["count"],
+#                 "attitudes": counts["attitudes"]
+#             }
+#             processed.append(item)
+#         processed.sort(key=lambda x: x["count"], reverse=True)
+#         return processed[:top_n]
 
+#     # Store frequencies separately for true and pred data
+#     for category in ["entity", "topical"]:
+#         all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
+#         all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
+    
 #     all_metrics["attitude_summary"] = overall_attitude_summary
-
 
 #     final_metrics = calculate_final_metrics({
 #         "entity": {
@@ -2297,17 +1420,36 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #     print("\nEvaluation Summary:")
 #     print("="*50)
     
-#     # ... (rest of your existing summary printing code)
+#     # Print pair frequency summary
+#     print("\nMost Frequent Entity Pairs in True Data:")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Entity Pairs in Predicted Data:")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Topical Pairs in True Data:")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Topical Pairs in Predicted Data:")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
 
 #     visualize_metrics(all_metrics, True)
     
 #     return all_metrics
 
 # def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
-#     """Evaluate POLAR predictions against ground truth."""
+#     """Evaluate POLAR predictions against Mistral ground truth."""
 #     true_dataset = unpickle(true_dataset_path)
     
-#     # Load POLAR JSON files in order (article0.json to article404.json)
+#     # Load POLAR JSON files
 #     polar_files = []
 #     for i in range(405):  # 0-404 inclusive
 #         file_path = os.path.join(polar_dir_path, f"article{i}.json")
@@ -2315,31 +1457,45 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #             with open(file_path, 'r', encoding='utf-8') as f:
 #                 try:
 #                     polar_data = json.load(f)
-#                     polar_files.append({"response": json.dumps(polar_data)})  # Wrap to match expected format
+#                     polar_files.append({"response": json.dumps(polar_data)})
 #                 except json.JSONDecodeError:
-#                     polar_files.append({"response": "{}"})  # Empty if invalid
+#                     polar_files.append({"response": "{}"})
 #         else:
-#             polar_files.append({"response": "{}"})  # Empty if missing
+#             polar_files.append({"response": "{}"})
 
 #     num_samples = min(len(true_dataset), len(polar_files))
 
-#     # Initialize results storage
+#     # Initialize results storage with same structure as evaluate_predictions_two_dirs
 #     all_metrics = {
 #         "entity": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
 #         "topical": {
 #             "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
 #             "justification_counts": {"matched": 0, "total": 0},
 #             "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
-#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+#             "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+#             "pair_matches": [],
+#             "pair_frequencies": {
+#                 "true_data": {},
+#                 "pred_data": {}
+#             }
 #         },
-#         "samples": {}
+#         "samples": {},
+#         "input_paths": {
+#             "true_dir": true_dataset_path,
+#             "pred_dir": polar_dir_path
+#         }
 #     }
 
 #     overall_attitude_summary = {
@@ -2353,8 +1509,32 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #         }
 #     }
 
+#     # Initialize pair frequency tracking
+#     pair_frequencies = {
+#         "true_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
+#         },
+#         "pred_data": {
+#             "entity": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             }),
+#             "topical": defaultdict(lambda: {
+#                 "count": 0,
+#                 "attitudes": {"Positive": 0, "Neutral": 0, "Negative": 0}
+#             })
+#         }
+#     }
+
 #     for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
-#         # Extract JSON for ground truth
+#         # Extract JSON for ground truth (Mistral)
 #         best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["response"])
 #         true_data = best_json if best_json is not None else {}
 
@@ -2365,16 +1545,52 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #         if not true_data or not pred_data:
 #             continue
 
-#         # Extract all unique entities and topics from true and pred data
-#         def extract_unique_items(data,Polar=False):
+#         # Track pair frequencies
+#         def track_pair_frequencies(data, is_pred=False):
+#             if not data:
+#                 return
+            
+#             data_key = "pred_data" if is_pred else "true_data"
+            
+#             # Process entity attitudes
+#             entity_attitudes = extract_entity_attitudes_polar(data) if is_pred else extract_entity_attitudes(data)
+#             for attitude in entity_attitudes:
+#                 if isinstance(attitude, dict) and "entity1" in attitude and "entity2" in attitude:
+#                     entity1 = attitude["entity1"].get("entity", "")
+#                     entity2 = attitude["entity2"].get("entity", "")
+#                     if entity1 and entity2:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((entity1, entity2)))
+#                         pair_frequencies[data_key]["entity"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["entity"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+            
+#             # Process topical attitudes
+#             topical_attitudes = extract_topical_attitudes_polar(data) if is_pred else extract_topical_attitudes(data)
+#             for attitude in topical_attitudes:
+#                 if isinstance(attitude, dict) and "source" in attitude and "target" in attitude:
+#                     source = attitude["source"].get("topic", attitude["source"].get("entity", ""))
+#                     target = attitude["target"].get("topic", attitude["target"].get("entity", ""))
+#                     if source and target:
+#                         # Sort to avoid duplicate pairs in different orders
+#                         pair_key = tuple(sorted((source, target)))
+#                         pair_frequencies[data_key]["topical"][pair_key]["count"] += 1
+#                         pair_frequencies[data_key]["topical"][pair_key]["attitudes"][attitude.get("attitude", "Neutral")] += 1
+
+#         track_pair_frequencies(true_data, is_pred=False)
+#         track_pair_frequencies(pred_data, is_pred=True)
+
+#         # Extract all unique entities and topics
+#         def extract_unique_items(data, Polar=False):
 #             entities = set()
 #             topics = set()
             
-#             # Extract from entity_attitudes
 #             if not Polar:
 #                 entity_attitudes = extract_entity_attitudes(data)
+#                 topical_attitudes = extract_topical_attitudes(data)
 #             else:
 #                 entity_attitudes = extract_entity_attitudes_polar(data)
+#                 topical_attitudes = extract_topical_attitudes_polar(data)
+            
 #             for attitude in entity_attitudes:
 #                 if isinstance(attitude, dict):
 #                     for entity_key in ["entity1", "entity2"]:
@@ -2384,11 +1600,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                             if "references" in attitude[entity_key]:
 #                                 entities.update(attitude[entity_key]["references"])
             
-#             # Extract from topical_attitudes
-#             if not Polar:
-#                 topical_attitudes = extract_topical_attitudes(data)
-#             else:
-#                 topical_attitudes = extract_topical_attitudes_polar(data)
 #             for attitude in topical_attitudes:
 #                 if isinstance(attitude, dict):
 #                     for topic_key in ["source", "target"]:
@@ -2405,8 +1616,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 
 #         true_items = extract_unique_items(true_data)
 #         pred_items = extract_unique_items(pred_data, True)
-
-
 
 #         # Calculate metrics
 #         metrics = calculate_metrics_polar(true_data, pred_data)
@@ -2471,7 +1680,6 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
             
 #             topic_fp = len(pred_topics - matched_pred_topics)
             
-#             # Calculate precision, recall, f1
 #             def calculate_prf1(tp, fp, fn):
 #                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
 #                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
@@ -2517,7 +1725,21 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
 #                 overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
 
+#         # Store only TRUE POSITIVE pair matches
+#         sample_matches = {
+#             "entity": [],
+#             "topical": []
+#         }
+#         for category in ["entity", "topical"]:
+#             if "matched_pairs" in metrics[category]:
+#                 for match in metrics[category]["matched_pairs"]:
+#                     sample_matches[category].append({
+#                         "true_pair": match["true_pair"],
+#                         "pred_pair": match["pred_pair"]
+#                     })
+#                 all_metrics[category]["pair_matches"].extend(sample_matches[category])
         
+#         # Store complete sample information
 #         all_metrics["samples"][f"sample_{i}"] = {
 #             "metrics": sample_metrics,
 #             "true_data": {
@@ -2531,10 +1753,7 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 "attitude_summary": pred_attitude_summary
 #             },
 #             "matching_metrics": matching_metrics,
-#             "matched_pairs": {
-#                 "entity": metrics["entity"].get("matched_pairs", []),
-#                 "topical": metrics["topical"].get("matched_pairs", [])
-#             },
+#             "matched_pairs": sample_matches,
 #             "unmatched_pairs": {
 #                 "entity": {
 #                     "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
@@ -2557,10 +1776,25 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #                 all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
 #                 all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
 
-#     # Calculate final metrics
+#     # Process pair frequencies for final output
+#     def process_pair_frequencies(pair_freq_dict, top_n=20):
+#         processed = []
+#         for pair_key, counts in pair_freq_dict.items():
+#             item = {
+#                 "pair": list(pair_key),
+#                 "count": counts["count"],
+#                 "attitudes": counts["attitudes"]
+#             }
+#             processed.append(item)
+#         processed.sort(key=lambda x: x["count"], reverse=True)
+#         return processed[:top_n]
 
+#     # Store frequencies separately for true and pred data
+#     for category in ["entity", "topical"]:
+#         all_metrics[category]["pair_frequencies"]["true_data"] = process_pair_frequencies(pair_frequencies["true_data"][category])
+#         all_metrics[category]["pair_frequencies"]["pred_data"] = process_pair_frequencies(pair_frequencies["pred_data"][category])
+    
 #     all_metrics["attitude_summary"] = overall_attitude_summary
-
 
 #     final_metrics = calculate_final_metrics({
 #         "entity": {
@@ -2584,11 +1818,792 @@ def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
 #     print("\nEvaluation Summary:")
 #     print("="*50)
     
-#     # ... (rest of your existing summary printing code)
+#     # Print pair frequency summary
+#     print("\nMost Frequent Entity Pairs in True Data (Mistral):")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Entity Pairs in Predicted Data (POLAR):")
+#     for i, pair in enumerate(all_metrics["entity"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Topical Pairs in True Data (Mistral):")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["true_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
+    
+#     print("\nMost Frequent Topical Pairs in Predicted Data (POLAR):")
+#     for i, pair in enumerate(all_metrics["topical"]["pair_frequencies"]["pred_data"][:10]):
+#         print(f"{i+1}. {pair['pair']} - Count: {pair['count']}")
+#         print(f"   Attitudes: {pair['attitudes']}")
 
 #     visualize_metrics(all_metrics, True)
     
 #     return all_metrics
+
+
+
+def evaluate_predictions(true_dataset_path, pred_files_path):
+    """Evaluate predictions against ground truth."""
+    true_dataset = load_from_disk(true_dataset_path)
+    pred_files = unpickle(pred_files_path)
+    num_samples = min(len(true_dataset), len(pred_files))
+
+    # Initialize results storage
+    all_metrics = {
+        "entity": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "topical": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "samples": {}
+    }
+
+    true_skips = 0
+    pred_skips = 0
+    total_skips = 0
+
+    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
+        
+
+        # Extract JSON for ground truth
+        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
+        true_data = best_json if best_json is not None else {}
+
+        # Extract JSON for predictions
+        best_json, _ = LLMJsonParser.parse_json(pred_files[i]["response"])
+        pred_data = best_json if best_json is not None else {}
+
+
+        if not true_data or not pred_data:
+            if not true_data:
+                true_skips += 1
+            if not pred_data:
+                pred_skips += 1
+            total_skips += 1
+            continue
+
+        # Calculate metrics
+        metrics = calculate_metrics(true_data, pred_data)
+
+        # Store sample results with calculated metrics
+        sample_metrics = calculate_final_metrics({
+            "entity": metrics["entity"],
+            "topical": metrics["topical"]
+        })
+        all_metrics["samples"][f"sample_{i}"] = {
+            "metrics": sample_metrics,
+            "true_data": true_data,
+            "pred_data": pred_data
+        }
+
+        # Aggregate counts
+        for category in ["entity", "topical"]:
+            # Update performance counts
+            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
+                for metric, value in metrics[category][count_type].items():
+                    all_metrics[category][count_type][metric] += value
+            
+            # Update sample counts (for this sample)
+            for count in metrics[category]["sample_counts"]:
+                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
+            
+            # Update running totals
+            for count in metrics[category]["sample_counts"]:
+                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
+
+
+    print(f"Skipped {total_skips} samples due to invalid Json.")
+    print(f"Skipped {true_skips} Ground Truth samples due to invalid Json.")
+    print(f"Skipped {pred_skips} Predicted samples due to invalid Json.")
+    
+
+    # Calculate final metrics from aggregated counts
+    final_metrics = calculate_final_metrics({
+        "entity": {
+            "pair_counts": all_metrics["entity"]["pair_counts"],
+            "attitude_counts": all_metrics["entity"]["attitude_counts"],
+            "justification_counts": all_metrics["entity"]["justification_counts"],
+            "sample_counts": all_metrics["entity"]["total_counts"]  # Use accumulated totals
+        },
+        "topical": {
+            "pair_counts": all_metrics["topical"]["pair_counts"],
+            "attitude_counts": all_metrics["topical"]["attitude_counts"],
+            "justification_counts": all_metrics["topical"]["justification_counts"],
+            "sample_counts": all_metrics["topical"]["total_counts"]  # Use accumulated totals
+        }
+    })
+    
+    # Merge final metrics into all_metrics
+    for category in ["entity", "topical"]:
+        all_metrics[category].update(final_metrics.get(category, {}))
+
+    # Print summary
+    print("\nEvaluation Summary:")
+    print("="*50)
+    
+    # Entity metrics
+    if "entity" in all_metrics:
+        print("\nEntity Pair Matching Metrics:")
+        print(f"- Precision: {all_metrics['entity']['pair_matching']['precision']:.4f}")
+        print(f"- Recall:    {all_metrics['entity']['pair_matching']['recall']:.4f}")
+        print(f"- F1:        {all_metrics['entity']['pair_matching']['f1']:.4f}")
+        print(f"- True Positives: {all_metrics['entity']['pair_matching']['true_positives']}")
+        print(f"- False Positives: {all_metrics['entity']['pair_matching']['false_positives']}")
+        print(f"- False Negatives: {all_metrics['entity']['pair_matching']['false_negatives']}")
+        
+        print("\nEntity Attitude Prediction Metrics (for matched pairs):")
+        print(f"- Precision: {all_metrics['entity']['attitude_prediction']['precision']:.4f}")
+        print(f"- Recall:    {all_metrics['entity']['attitude_prediction']['recall']:.4f}")
+        print(f"- F1:        {all_metrics['entity']['attitude_prediction']['f1']:.4f}")
+        print(f"- Accuracy:  {all_metrics['entity']['attitude_prediction']['accuracy']:.4f}")
+        print(f"- True Positives: {all_metrics['entity']['attitude_prediction']['true_positives']}")
+        print(f"- False Positives: {all_metrics['entity']['attitude_prediction']['false_positives']}")
+        print(f"- False Negatives: {all_metrics['entity']['attitude_prediction']['false_negatives']}")
+        
+        print("\nEntity Justification Metrics:")
+        print(f"- Average Overlap: {all_metrics['entity']['justification']['overlap']:.4f}")
+        print(f"- Matched Justifications: {all_metrics['entity']['justification']['matched_justifications']} of {all_metrics['entity']['justification']['total_justifications']}")
+        
+        print("\nEntity Counts:")
+        print(f"- Total True Pairs: {all_metrics['entity']['total_counts']['true_pairs']}")
+        print(f"- Total Pred Pairs: {all_metrics['entity']['total_counts']['pred_pairs']}")
+        print(f"- Total True Attitudes: {all_metrics['entity']['total_counts']['true_attitudes']}")
+        print(f"- Total Pred Attitudes: {all_metrics['entity']['total_counts']['pred_attitudes']}")
+    
+    # Topical metrics
+    if "topical" in all_metrics:
+        print("\nTopical Pair Matching Metrics:")
+        print(f"- Precision: {all_metrics['topical']['pair_matching']['precision']:.4f}")
+        print(f"- Recall:    {all_metrics['topical']['pair_matching']['recall']:.4f}")
+        print(f"- F1:        {all_metrics['topical']['pair_matching']['f1']:.4f}")
+        print(f"- True Positives: {all_metrics['topical']['pair_matching']['true_positives']}")
+        print(f"- False Positives: {all_metrics['topical']['pair_matching']['false_positives']}")
+        print(f"- False Negatives: {all_metrics['topical']['pair_matching']['false_negatives']}")
+        
+        print("\nTopical Attitude Prediction Metrics (for matched pairs):")
+        print(f"- Precision: {all_metrics['topical']['attitude_prediction']['precision']:.4f}")
+        print(f"- Recall:    {all_metrics['topical']['attitude_prediction']['recall']:.4f}")
+        print(f"- F1:        {all_metrics['topical']['attitude_prediction']['f1']:.4f}")
+        print(f"- Accuracy:  {all_metrics['topical']['attitude_prediction']['accuracy']:.4f}")
+        print(f"- True Positives: {all_metrics['topical']['attitude_prediction']['true_positives']}")
+        print(f"- False Positives: {all_metrics['topical']['attitude_prediction']['false_positives']}")
+        print(f"- False Negatives: {all_metrics['topical']['attitude_prediction']['false_negatives']}")
+        
+        print("\nTopical Justification Metrics:")
+        print(f"- Average Overlap: {all_metrics['topical']['justification']['overlap']:.4f}")
+        print(f"- Matched Justifications: {all_metrics['topical']['justification']['matched_justifications']} of {all_metrics['topical']['justification']['total_justifications']}")
+        
+        print("\nTopical Counts:")
+        print(f"- Total True Pairs: {all_metrics['topical']['total_counts']['true_pairs']}")
+        print(f"- Total Pred Pairs: {all_metrics['topical']['total_counts']['pred_pairs']}")
+        print(f"- Total True Attitudes: {all_metrics['topical']['total_counts']['true_attitudes']}")
+        print(f"- Total Pred Attitudes: {all_metrics['topical']['total_counts']['pred_attitudes']}")
+    
+    # Combined counts
+    print("\nCombined Counts:")
+    total_true_pairs = all_metrics['entity']['total_counts']['true_pairs'] + all_metrics['topical']['total_counts']['true_pairs']
+    total_pred_pairs = all_metrics['entity']['total_counts']['pred_pairs'] + all_metrics['topical']['total_counts']['pred_pairs']
+    total_true_attitudes = all_metrics['entity']['total_counts']['true_attitudes'] + all_metrics['topical']['total_counts']['true_attitudes']
+    total_pred_attitudes = all_metrics['entity']['total_counts']['pred_attitudes'] + all_metrics['topical']['total_counts']['pred_attitudes']
+    
+    print(f"- Total True Pairs: {total_true_pairs}")
+    print(f"- Total Pred Pairs: {total_pred_pairs}")
+    print(f"- Total True Attitudes: {total_true_attitudes}")
+    print(f"- Total Pred Attitudes: {total_pred_attitudes}")
+    print("="*50)
+
+    # Visualize the metrics
+    visualize_metrics(all_metrics)
+    
+    return all_metrics
+
+def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
+    """Evaluate POLAR predictions against ground truth."""
+    true_dataset = load_from_disk(true_dataset_path)
+    
+    # Load POLAR JSON files in order (article0.json to article404.json)
+    polar_files = []
+    for i in range(405):  # 0-404 inclusive
+        file_path = os.path.join(polar_dir_path, f"article{i}.json")
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                try:
+                    polar_data = json.load(f)
+                    polar_files.append({"response": json.dumps(polar_data)})  # Wrap to match expected format
+                except json.JSONDecodeError:
+                    polar_files.append({"response": "{}"})  # Empty if invalid
+        else:
+            polar_files.append({"response": "{}"})  # Empty if missing
+
+    num_samples = min(len(true_dataset), len(polar_files))
+
+    # Initialize results storage
+    all_metrics = {
+        "entity": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "topical": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "samples": {}
+    }
+
+    overall_attitude_summary = {
+        "true_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        },
+        "pred_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        }
+    }
+
+    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
+        # Extract JSON for ground truth
+        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
+        true_data = best_json if best_json is not None else {}
+
+        # Get corresponding POLAR prediction
+        polar_json, _ = LLMJsonParser.parse_json(polar_files[i]["response"])
+        pred_data = polar_json if polar_json is not None else {}
+
+        if not true_data or not pred_data:
+            continue
+
+        # Extract all unique entities and topics from true and pred data
+        def extract_unique_items(data,Polar=False):
+            entities = set()
+            topics = set()
+            
+            # Extract from entity_attitudes
+            if not Polar:
+                entity_attitudes = extract_entity_attitudes(data)
+            else:
+                entity_attitudes = extract_entity_attitudes_polar(data)
+            for attitude in entity_attitudes:
+                if isinstance(attitude, dict):
+                    for entity_key in ["entity1", "entity2"]:
+                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
+                            if "entity" in attitude[entity_key]:
+                                entities.add(attitude[entity_key]["entity"])
+                            if "references" in attitude[entity_key]:
+                                entities.update(attitude[entity_key]["references"])
+            
+            # Extract from topical_attitudes
+            if not Polar:
+                topical_attitudes = extract_topical_attitudes(data)
+            else:
+                topical_attitudes = extract_topical_attitudes_polar(data)
+            for attitude in topical_attitudes:
+                if isinstance(attitude, dict):
+                    for topic_key in ["source", "target"]:
+                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
+                            if "topic" in attitude[topic_key]:
+                                topics.add(attitude[topic_key]["topic"])
+                            if "references" in attitude[topic_key]:
+                                topics.update(attitude[topic_key]["references"])
+            
+            return {
+                "entities": list(entities),
+                "topics": list(topics)
+            }
+
+        true_items = extract_unique_items(true_data)
+        pred_items = extract_unique_items(pred_data, True)
+
+
+
+        # Calculate metrics
+        metrics = calculate_metrics_polar(true_data, pred_data)
+
+        # Calculate matching metrics for entities and topics
+        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
+            # Entity matching
+            true_entities = set(true_items["entities"])
+            pred_entities = set(pred_items["entities"])
+            
+            entity_matches = []
+            entity_tp = 0
+            entity_fp = 0
+            entity_fn = 0
+            
+            matched_pred_entities = set()
+            
+            for true_ent in true_entities:
+                matched = False
+                for pred_ent in pred_entities:
+                    if entity_similarity(true_ent, pred_ent) >= threshold:
+                        entity_matches.append({
+                            "true_entity": true_ent,
+                            "pred_entity": pred_ent,
+                            "similarity": entity_similarity(true_ent, pred_ent)
+                        })
+                        matched_pred_entities.add(pred_ent)
+                        matched = True
+                        entity_tp += 1
+                        break
+                if not matched:
+                    entity_fn += 1
+            
+            entity_fp = len(pred_entities - matched_pred_entities)
+            
+            # Topic matching
+            true_topics = set(true_items["topics"])
+            pred_topics = set(pred_items["topics"])
+            
+            topic_matches = []
+            topic_tp = 0
+            topic_fp = 0
+            topic_fn = 0
+            
+            matched_pred_topics = set()
+            
+            for true_topic in true_topics:
+                matched = False
+                for pred_topic in pred_topics:
+                    if entity_similarity(true_topic, pred_topic) >= threshold:
+                        topic_matches.append({
+                            "true_topic": true_topic,
+                            "pred_topic": pred_topic,
+                            "similarity": entity_similarity(true_topic, pred_topic)
+                        })
+                        matched_pred_topics.add(pred_topic)
+                        matched = True
+                        topic_tp += 1
+                        break
+                if not matched:
+                    topic_fn += 1
+            
+            topic_fp = len(pred_topics - matched_pred_topics)
+            
+            # Calculate precision, recall, f1
+            def calculate_prf1(tp, fp, fn):
+                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+                return {
+                    "precision": precision,
+                    "recall": recall,
+                    "f1": f1,
+                    "true_positives": tp,
+                    "false_positives": fp,
+                    "false_negatives": fn
+                }
+            
+            return {
+                "entity_matching": {
+                    "matches": entity_matches,
+                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
+                    "true_count": len(true_entities),
+                    "pred_count": len(pred_entities)
+                },
+                "topic_matching": {
+                    "matches": topic_matches,
+                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
+                    "true_count": len(true_topics),
+                    "pred_count": len(pred_topics)
+                }
+            }
+
+        matching_metrics = calculate_matching_metrics(true_items, pred_items)
+
+        # Store sample results with calculated metrics
+        sample_metrics = calculate_final_metrics({
+            "entity": metrics["entity"],
+            "topical": metrics["topical"]
+        })
+
+        true_attitude_summary = count_attitudes(true_data, is_polar=False)
+        pred_attitude_summary = count_attitudes(pred_data, is_polar=True)
+
+        # Update global attitude counts
+        for key in ["entity", "topical"]:
+            for polarity in ["Positive", "Neutral", "Negative"]:
+                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
+                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
+
+        
+        all_metrics["samples"][f"sample_{i}"] = {
+            "metrics": sample_metrics,
+            "true_data": {
+                "entities": true_items["entities"],
+                "topics": true_items["topics"],
+                "attitude_summary": true_attitude_summary
+            },
+            "pred_data": {
+                "entities": pred_items["entities"],
+                "topics": pred_items["topics"],
+                "attitude_summary": pred_attitude_summary
+            },
+            "matching_metrics": matching_metrics,
+            "matched_pairs": {
+                "entity": metrics["entity"].get("matched_pairs", []),
+                "topical": metrics["topical"].get("matched_pairs", [])
+            },
+            "unmatched_pairs": {
+                "entity": {
+                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
+                },
+                "topical": {
+                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
+                }
+            }
+        }
+
+        # Aggregate counts
+        for category in ["entity", "topical"]:
+            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
+                for metric, value in metrics[category][count_type].items():
+                    all_metrics[category][count_type][metric] += value
+            
+            for count in metrics[category]["sample_counts"]:
+                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
+                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
+
+    # Calculate final metrics
+
+
+
+    all_metrics["attitude_summary"] = overall_attitude_summary
+
+
+    final_metrics = calculate_final_metrics({
+        "entity": {
+            "pair_counts": all_metrics["entity"]["pair_counts"],
+            "attitude_counts": all_metrics["entity"]["attitude_counts"],
+            "justification_counts": all_metrics["entity"]["justification_counts"],
+            "sample_counts": all_metrics["entity"]["total_counts"]
+        },
+        "topical": {
+            "pair_counts": all_metrics["topical"]["pair_counts"],
+            "attitude_counts": all_metrics["topical"]["attitude_counts"],
+            "justification_counts": all_metrics["topical"]["justification_counts"],
+            "sample_counts": all_metrics["topical"]["total_counts"]
+        }
+    })
+    
+    for category in ["entity", "topical"]:
+        all_metrics[category].update(final_metrics.get(category, {}))
+
+    # Print summary and visualize
+    print("\nEvaluation Summary:")
+    print("="*50)
+    
+    # ... (rest of your existing summary printing code)
+
+    visualize_metrics(all_metrics, True)
+    
+    return all_metrics
+
+def evaluate_predictions_polar_vs_Mistral(true_dataset_path, polar_dir_path):
+    """Evaluate POLAR predictions against ground truth."""
+    true_dataset = unpickle(true_dataset_path)
+    
+    # Load POLAR JSON files in order (article0.json to article404.json)
+    polar_files = []
+    for i in range(405):  # 0-404 inclusive
+        file_path = os.path.join(polar_dir_path, f"article{i}.json")
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                try:
+                    polar_data = json.load(f)
+                    polar_files.append({"response": json.dumps(polar_data)})  # Wrap to match expected format
+                except json.JSONDecodeError:
+                    polar_files.append({"response": "{}"})  # Empty if invalid
+        else:
+            polar_files.append({"response": "{}"})  # Empty if missing
+
+    num_samples = min(len(true_dataset), len(polar_files))
+
+    # Initialize results storage
+    all_metrics = {
+        "entity": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "topical": {
+            "pair_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "attitude_counts": {"tp": 0, "fp": 0, "fn": 0},
+            "justification_counts": {"matched": 0, "total": 0},
+            "sample_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0},
+            "total_counts": {"true_pairs": 0, "pred_pairs": 0, "true_attitudes": 0, "pred_attitudes": 0}
+        },
+        "samples": {}
+    }
+
+    overall_attitude_summary = {
+        "true_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        },
+        "pred_data": {
+            "entity": {"Positive": 0, "Neutral": 0, "Negative": 0},
+            "topical": {"Positive": 0, "Neutral": 0, "Negative": 0}
+        }
+    }
+
+    for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
+        # Extract JSON for ground truth
+        best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["response"])
+        true_data = best_json if best_json is not None else {}
+
+        # Get corresponding POLAR prediction
+        polar_json, _ = LLMJsonParser.parse_json(polar_files[i]["response"])
+        pred_data = polar_json if polar_json is not None else {}
+
+        if not true_data or not pred_data:
+            continue
+
+        # Extract all unique entities and topics from true and pred data
+        def extract_unique_items(data,Polar=False):
+            entities = set()
+            topics = set()
+            
+            # Extract from entity_attitudes
+            if not Polar:
+                entity_attitudes = extract_entity_attitudes(data)
+            else:
+                entity_attitudes = extract_entity_attitudes_polar(data)
+            for attitude in entity_attitudes:
+                if isinstance(attitude, dict):
+                    for entity_key in ["entity1", "entity2"]:
+                        if entity_key in attitude and isinstance(attitude[entity_key], dict):
+                            if "entity" in attitude[entity_key]:
+                                entities.add(attitude[entity_key]["entity"])
+                            if "references" in attitude[entity_key]:
+                                entities.update(attitude[entity_key]["references"])
+            
+            # Extract from topical_attitudes
+            if not Polar:
+                topical_attitudes = extract_topical_attitudes(data)
+            else:
+                topical_attitudes = extract_topical_attitudes_polar(data)
+            for attitude in topical_attitudes:
+                if isinstance(attitude, dict):
+                    for topic_key in ["source", "target"]:
+                        if topic_key in attitude and isinstance(attitude[topic_key], dict):
+                            if "topic" in attitude[topic_key]:
+                                topics.add(attitude[topic_key]["topic"])
+                            if "references" in attitude[topic_key]:
+                                topics.update(attitude[topic_key]["references"])
+            
+            return {
+                "entities": list(entities),
+                "topics": list(topics)
+            }
+
+        true_items = extract_unique_items(true_data)
+        pred_items = extract_unique_items(pred_data, True)
+
+
+
+        # Calculate metrics
+        metrics = calculate_metrics_polar(true_data, pred_data)
+
+        # Calculate matching metrics for entities and topics
+        def calculate_matching_metrics(true_items, pred_items, threshold=0.7):
+            # Entity matching
+            true_entities = set(true_items["entities"])
+            pred_entities = set(pred_items["entities"])
+            
+            entity_matches = []
+            entity_tp = 0
+            entity_fp = 0
+            entity_fn = 0
+            
+            matched_pred_entities = set()
+            
+            for true_ent in true_entities:
+                matched = False
+                for pred_ent in pred_entities:
+                    if entity_similarity(true_ent, pred_ent) >= threshold:
+                        entity_matches.append({
+                            "true_entity": true_ent,
+                            "pred_entity": pred_ent,
+                            "similarity": entity_similarity(true_ent, pred_ent)
+                        })
+                        matched_pred_entities.add(pred_ent)
+                        matched = True
+                        entity_tp += 1
+                        break
+                if not matched:
+                    entity_fn += 1
+            
+            entity_fp = len(pred_entities - matched_pred_entities)
+            
+            # Topic matching
+            true_topics = set(true_items["topics"])
+            pred_topics = set(pred_items["topics"])
+            
+            topic_matches = []
+            topic_tp = 0
+            topic_fp = 0
+            topic_fn = 0
+            
+            matched_pred_topics = set()
+            
+            for true_topic in true_topics:
+                matched = False
+                for pred_topic in pred_topics:
+                    if entity_similarity(true_topic, pred_topic) >= threshold:
+                        topic_matches.append({
+                            "true_topic": true_topic,
+                            "pred_topic": pred_topic,
+                            "similarity": entity_similarity(true_topic, pred_topic)
+                        })
+                        matched_pred_topics.add(pred_topic)
+                        matched = True
+                        topic_tp += 1
+                        break
+                if not matched:
+                    topic_fn += 1
+            
+            topic_fp = len(pred_topics - matched_pred_topics)
+            
+            # Calculate precision, recall, f1
+            def calculate_prf1(tp, fp, fn):
+                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+                f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+                return {
+                    "precision": precision,
+                    "recall": recall,
+                    "f1": f1,
+                    "true_positives": tp,
+                    "false_positives": fp,
+                    "false_negatives": fn
+                }
+            
+            return {
+                "entity_matching": {
+                    "matches": entity_matches,
+                    "metrics": calculate_prf1(entity_tp, entity_fp, entity_fn),
+                    "true_count": len(true_entities),
+                    "pred_count": len(pred_entities)
+                },
+                "topic_matching": {
+                    "matches": topic_matches,
+                    "metrics": calculate_prf1(topic_tp, topic_fp, topic_fn),
+                    "true_count": len(true_topics),
+                    "pred_count": len(pred_topics)
+                }
+            }
+
+        matching_metrics = calculate_matching_metrics(true_items, pred_items)
+
+        # Store sample results with calculated metrics
+        sample_metrics = calculate_final_metrics({
+            "entity": metrics["entity"],
+            "topical": metrics["topical"]
+        })
+
+        true_attitude_summary = count_attitudes(true_data, is_polar=False)
+        pred_attitude_summary = count_attitudes(pred_data, is_polar=True)
+
+        # Update global attitude counts
+        for key in ["entity", "topical"]:
+            for polarity in ["Positive", "Neutral", "Negative"]:
+                overall_attitude_summary["true_data"][key][polarity] += true_attitude_summary[key][polarity]
+                overall_attitude_summary["pred_data"][key][polarity] += pred_attitude_summary[key][polarity]
+
+        
+        all_metrics["samples"][f"sample_{i}"] = {
+            "metrics": sample_metrics,
+            "true_data": {
+                "entities": true_items["entities"],
+                "topics": true_items["topics"],
+                "attitude_summary": true_attitude_summary
+            },
+            "pred_data": {
+                "entities": pred_items["entities"],
+                "topics": pred_items["topics"],
+                "attitude_summary": pred_attitude_summary
+            },
+            "matching_metrics": matching_metrics,
+            "matched_pairs": {
+                "entity": metrics["entity"].get("matched_pairs", []),
+                "topical": metrics["topical"].get("matched_pairs", [])
+            },
+            "unmatched_pairs": {
+                "entity": {
+                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
+                },
+                "topical": {
+                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
+                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
+                }
+            }
+        }
+
+        # Aggregate counts
+        for category in ["entity", "topical"]:
+            for count_type in ["pair_counts", "attitude_counts", "justification_counts"]:
+                for metric, value in metrics[category][count_type].items():
+                    all_metrics[category][count_type][metric] += value
+            
+            for count in metrics[category]["sample_counts"]:
+                all_metrics[category]["sample_counts"][count] = metrics[category]["sample_counts"][count]
+                all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
+
+    # Calculate final metrics
+
+    all_metrics["attitude_summary"] = overall_attitude_summary
+
+
+    final_metrics = calculate_final_metrics({
+        "entity": {
+            "pair_counts": all_metrics["entity"]["pair_counts"],
+            "attitude_counts": all_metrics["entity"]["attitude_counts"],
+            "justification_counts": all_metrics["entity"]["justification_counts"],
+            "sample_counts": all_metrics["entity"]["total_counts"]
+        },
+        "topical": {
+            "pair_counts": all_metrics["topical"]["pair_counts"],
+            "attitude_counts": all_metrics["topical"]["attitude_counts"],
+            "justification_counts": all_metrics["topical"]["justification_counts"],
+            "sample_counts": all_metrics["topical"]["total_counts"]
+        }
+    })
+    
+    for category in ["entity", "topical"]:
+        all_metrics[category].update(final_metrics.get(category, {}))
+
+    # Print summary and visualize
+    print("\nEvaluation Summary:")
+    print("="*50)
+    
+    # ... (rest of your existing summary printing code)
+
+    visualize_metrics(all_metrics, True)
+    
+    return all_metrics
 
 
 
@@ -3032,11 +3047,14 @@ if __name__ == "__main__":
     brexit_dataset_path = "../test-brexit/gpt_results"
     brexit_polar_path = "./brexit-test/formatted-attitudes"
 
-    # start_time = time.time()
-    # evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
-    # end_time = time.time()
+    start_time = time.time()
+    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    end_time = time.time()
 
-    # print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
+    print(f"Evaluation - Mistral completed in {end_time - start_time:.2f} seconds.")
+
+    with open("detailed_evaluation_results.json", "w") as f:
+        json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
     # brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
 
@@ -3047,20 +3065,16 @@ if __name__ == "__main__":
     start_time = time.time()
     Mistral_results = evaluate_predictions_polar_vs_Mistral(pred_files_path, polar_files_path)
     end_time = time.time()
-    print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
+    print(f"Evaluation - Polar - Mistral completed in {end_time - start_time:.2f} seconds.")
     
     with open("Mistral_vs_Polar_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(Mistral_results), f, indent=4)
 
-    # Save results to a JSON file with type conversion
-    # with open("detailed_evaluation_results.json", "w") as f:
-    #     json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
     start_time = time.time()
     polar_results = evaluate_predictions_polar(true_dataset_path, polar_files_path)
-    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
     end_time = time.time()
-    print(f"Evaluation completed in {end_time - start_time:.2f} seconds.")
+    print(f"Evaluation - Polar completed in {end_time - start_time:.2f} seconds.")
 
     with open("polar_detailed_evaluation_results.json", "w") as f:
         json.dump(convert_numpy_types(polar_results), f, indent=4)

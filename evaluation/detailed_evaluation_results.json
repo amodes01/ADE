@@ -2,13 +2,13 @@
     "entity": {
         "pair_counts": {
             "tp": 664,
-            "fp": 194,
+            "fp": 97,
             "fn": 41
         },
         "attitude_counts": {
-            "tp": 743,
-            "fp": 245,
-            "fn": 47
+            "tp": 683,
+            "fp": 0,
+            "fn": 16
         },
         "justification_counts": {
             "matched": 798,
@@ -27,21 +27,21 @@
             "pred_attitudes": 769
         },
         "pair_matching": {
-            "precision": 0.7738927738927739,
+            "precision": 0.8725361366622865,
             "recall": 0.9418439716312057,
-            "f1": 0.8496481126039667,
+            "f1": 0.9058663028649385,
             "true_positives": 664,
-            "false_positives": 194,
+            "false_positives": 97,
             "false_negatives": 41
         },
         "attitude_prediction": {
-            "precision": 0.7520242914979757,
-            "recall": 0.9405063291139241,
-            "f1": 0.8357705286839145,
-            "accuracy": 0.7178743961352657,
-            "true_positives": 743,
-            "false_positives": 245,
-            "false_negatives": 47
+            "precision": 1.0,
+            "recall": 0.977110157367668,
+            "f1": 0.9884225759768451,
+            "accuracy": 0.977110157367668,
+            "true_positives": 683,
+            "false_positives": 0,
+            "false_negatives": 16
         },
         "justification": {
             "overlap": 0.8580645161290322,
@@ -58,13 +58,13 @@
     "topical": {
         "pair_counts": {
             "tp": 826,
-            "fp": 256,
+            "fp": 128,
             "fn": 56
         },
         "attitude_counts": {
-            "tp": 844,
-            "fp": 299,
-            "fn": 37
+            "tp": 820,
+            "fp": 0,
+            "fn": 21
         },
         "justification_counts": {
             "matched": 477,
@@ -83,21 +83,21 @@
             "pred_attitudes": 918
         },
         "pair_matching": {
-            "precision": 0.7634011090573013,
+            "precision": 0.8658280922431866,
             "recall": 0.9365079365079365,
-            "f1": 0.8411405295315683,
+            "f1": 0.8997821350762527,
             "true_positives": 826,
-            "false_positives": 256,
+            "false_positives": 128,
             "false_negatives": 56
         },
         "attitude_prediction": {
-            "precision": 0.7384076990376203,
-            "recall": 0.9580022701475596,
-            "f1": 0.83399209486166,
-            "accuracy": 0.7152542372881356,
-            "true_positives": 844,
-            "false_positives": 299,
-            "false_negatives": 37
+            "precision": 1.0,
+            "recall": 0.9750297265160524,
+            "f1": 0.9873570138470801,
+            "accuracy": 0.9750297265160524,
+            "true_positives": 820,
+            "false_positives": 0,
+            "false_negatives": 21
         },
         "justification": {
             "overlap": 0.8784530386740331,
@@ -116,20 +116,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.058823529411764705,
+                        "precision": 0.1111111111111111,
                         "recall": 0.2,
-                        "f1": 0.0909090909090909,
+                        "f1": 0.14285714285714285,
                         "true_positives": 1,
-                        "false_positives": 16,
+                        "false_positives": 8,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.058823529411764705,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.1111111111111111,
-                        "accuracy": 0.058823529411764705,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 16,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -724,20 +724,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.7142857142857143,
+                        "precision": 0.8333333333333334,
                         "recall": 1.0,
-                        "f1": 0.8333333333333333,
+                        "f1": 0.9090909090909091,
                         "true_positives": 5,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7142857142857143,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.8333333333333333,
-                        "accuracy": 0.7142857142857143,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 5,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -2315,13 +2315,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
-                        "recall": 0.6,
-                        "f1": 0.6,
-                        "accuracy": 0.42857142857142855,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.6,
@@ -2987,20 +2987,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.043478260869565216,
+                        "precision": 0.08333333333333333,
                         "recall": 0.5,
-                        "f1": 0.08,
+                        "f1": 0.14285714285714285,
                         "true_positives": 1,
-                        "false_positives": 22,
+                        "false_positives": 11,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.043478260869565216,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.08333333333333333,
-                        "accuracy": 0.043478260869565216,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 22,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -4545,16 +4545,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 3,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -4733,20 +4733,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.6,
+                        "precision": 0.75,
                         "recall": 0.75,
-                        "f1": 0.6666666666666665,
+                        "f1": 0.75,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.7499999999999999,
-                        "accuracy": 0.6,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -5641,20 +5641,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.3333333333333333,
+                        "precision": 0.5,
                         "recall": 1.0,
-                        "f1": 0.5,
+                        "f1": 0.6666666666666666,
                         "true_positives": 4,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.3333333333333333,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.5,
-                        "accuracy": 0.3333333333333333,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -6423,16 +6423,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 16,
+                        "false_positives": 8,
                         "false_negatives": 7
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 16,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -8644,13 +8644,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
-                        "recall": 0.6666666666666666,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 1.0,
@@ -9792,16 +9792,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 4,
+                        "false_positives": 2,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -9918,16 +9918,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 5
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -11785,12 +11785,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.8461538461538461,
+                        "precision": 1.0,
                         "recall": 0.8461538461538461,
-                        "f1": 0.8461538461538461,
-                        "accuracy": 0.7333333333333333,
+                        "f1": 0.9166666666666666,
+                        "accuracy": 0.8461538461538461,
                         "true_positives": 11,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -13589,7 +13589,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 3,
+                        "true_positives": 2,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -14079,20 +14079,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.5,
+                        "precision": 0.6666666666666666,
                         "recall": 0.8,
-                        "f1": 0.6153846153846154,
+                        "f1": 0.7272727272727272,
                         "true_positives": 4,
-                        "false_positives": 4,
+                        "false_positives": 2,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.5,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -17299,12 +17299,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7142857142857143,
+                        "precision": 1.0,
                         "recall": 0.7142857142857143,
-                        "f1": 0.7142857142857143,
-                        "accuracy": 0.5555555555555556,
+                        "f1": 0.8333333333333333,
+                        "accuracy": 0.7142857142857143,
                         "true_positives": 5,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -17647,16 +17647,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -19147,16 +19147,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 6,
                         "false_negatives": 5
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -20002,7 +20002,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 11,
+                        "true_positives": 9,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -20676,20 +20676,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.09090909090909091,
+                        "precision": 0.16666666666666666,
                         "recall": 0.2,
-                        "f1": 0.12500000000000003,
+                        "f1": 0.1818181818181818,
                         "true_positives": 1,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0.0,
                         "f1": 0,
                         "accuracy": 0.0,
                         "true_positives": 0,
-                        "false_positives": 11,
+                        "false_positives": 0,
                         "false_negatives": 1
                     },
                     "justification": {
@@ -20961,12 +20961,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
+                        "precision": 1.0,
                         "recall": 0.6,
-                        "f1": 0.6,
-                        "accuracy": 0.42857142857142855,
+                        "f1": 0.7499999999999999,
+                        "accuracy": 0.6,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -22382,7 +22382,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 10,
+                        "true_positives": 7,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -23632,13 +23632,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.8,
-                        "recall": 0.8,
-                        "f1": 0.8000000000000002,
-                        "accuracy": 0.6666666666666666,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 8,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.8,
@@ -24849,16 +24849,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 3,
                         "false_negatives": 2
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -25007,20 +25007,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.6,
+                        "precision": 0.75,
                         "recall": 1.0,
-                        "f1": 0.7499999999999999,
+                        "f1": 0.8571428571428571,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.7499999999999999,
-                        "accuracy": 0.6,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -25401,20 +25401,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.058823529411764705,
+                        "precision": 0.1111111111111111,
                         "recall": 1.0,
-                        "f1": 0.1111111111111111,
+                        "f1": 0.19999999999999998,
                         "true_positives": 1,
-                        "false_positives": 16,
+                        "false_positives": 8,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.058823529411764705,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.1111111111111111,
-                        "accuracy": 0.058823529411764705,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 16,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -25854,16 +25854,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -27555,12 +27555,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.75,
+                        "precision": 1.0,
                         "recall": 0.75,
-                        "f1": 0.75,
-                        "accuracy": 0.6,
+                        "f1": 0.8571428571428571,
+                        "accuracy": 0.75,
                         "true_positives": 6,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -29465,13 +29465,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
-                        "recall": 0.6666666666666666,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.6666666666666666,
@@ -29655,7 +29655,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 4,
+                        "true_positives": 2,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -30437,16 +30437,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -32726,20 +32726,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.24324324324324326,
+                        "precision": 0.391304347826087,
                         "recall": 1.0,
-                        "f1": 0.391304347826087,
+                        "f1": 0.5625,
                         "true_positives": 9,
-                        "false_positives": 28,
+                        "false_positives": 14,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.24324324324324326,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.391304347826087,
-                        "accuracy": 0.24324324324324326,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 9,
-                        "false_positives": 28,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -33256,13 +33256,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7333333333333333,
-                        "recall": 0.7333333333333333,
-                        "f1": 0.7333333333333333,
-                        "accuracy": 0.5789473684210527,
-                        "true_positives": 11,
-                        "false_positives": 4,
-                        "false_negatives": 4
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
+                        "true_positives": 9,
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.6,
@@ -34482,7 +34482,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 7,
+                        "true_positives": 5,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -35054,16 +35054,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 3,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 6,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -35816,12 +35816,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.8,
+                        "precision": 1.0,
                         "recall": 0.8,
-                        "f1": 0.8000000000000002,
-                        "accuracy": 0.6666666666666666,
+                        "f1": 0.888888888888889,
+                        "accuracy": 0.8,
                         "true_positives": 8,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -36172,16 +36172,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 2
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -36400,16 +36400,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -36725,13 +36725,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6216216216216216,
-                        "recall": 0.6216216216216216,
-                        "f1": 0.6216216216216216,
-                        "accuracy": 0.45098039215686275,
-                        "true_positives": 23,
-                        "false_positives": 14,
-                        "false_negatives": 14
+                        "precision": 1.0,
+                        "recall": 0.9,
+                        "f1": 0.9473684210526316,
+                        "accuracy": 0.9,
+                        "true_positives": 18,
+                        "false_positives": 0,
+                        "false_negatives": 2
                     },
                     "justification": {
                         "overlap": 0.35135135135135137,
@@ -37979,16 +37979,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 14,
+                        "false_positives": 7,
                         "false_negatives": 5
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 14,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -39171,7 +39171,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 8,
+                        "true_positives": 4,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -39387,7 +39387,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 8,
+                        "true_positives": 6,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -41799,20 +41799,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.75,
+                        "precision": 0.8571428571428571,
                         "recall": 1.0,
-                        "f1": 0.8571428571428571,
+                        "f1": 0.923076923076923,
                         "true_positives": 6,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.75,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.8571428571428571,
-                        "accuracy": 0.75,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 6,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -45559,20 +45559,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.1111111111111111,
+                        "precision": 0.2,
                         "recall": 0.2,
-                        "f1": 0.14285714285714285,
+                        "f1": 0.20000000000000004,
                         "true_positives": 1,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.1111111111111111,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.19999999999999998,
-                        "accuracy": 0.1111111111111111,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -46862,7 +46862,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 6,
+                        "true_positives": 4,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -47863,20 +47863,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.3333333333333333,
+                        "precision": 0.5,
                         "recall": 1.0,
-                        "f1": 0.5,
+                        "f1": 0.6666666666666666,
                         "true_positives": 2,
-                        "false_positives": 4,
+                        "false_positives": 2,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.3333333333333333,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.5,
-                        "accuracy": 0.3333333333333333,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 2,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -48830,13 +48830,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6363636363636364,
-                        "recall": 0.6363636363636364,
-                        "f1": 0.6363636363636364,
-                        "accuracy": 0.4666666666666667,
-                        "true_positives": 7,
-                        "false_positives": 4,
-                        "false_negatives": 4
+                        "precision": 1.0,
+                        "recall": 0.625,
+                        "f1": 0.7692307692307693,
+                        "accuracy": 0.625,
+                        "true_positives": 5,
+                        "false_positives": 0,
+                        "false_negatives": 3
                     },
                     "justification": {
                         "overlap": 0.45454545454545453,
@@ -49550,12 +49550,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.5555555555555556,
+                        "precision": 1.0,
                         "recall": 0.5555555555555556,
-                        "f1": 0.5555555555555556,
-                        "accuracy": 0.38461538461538464,
+                        "f1": 0.7142857142857143,
+                        "accuracy": 0.5555555555555556,
                         "true_positives": 5,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 4
                     },
                     "justification": {
@@ -50116,16 +50116,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -51983,16 +51983,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -52478,16 +52478,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 14,
+                        "false_positives": 7,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 14,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -52788,7 +52788,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 6,
+                        "true_positives": 4,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -53780,20 +53780,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.2857142857142857,
+                        "precision": 0.4444444444444444,
                         "recall": 0.8,
-                        "f1": 0.4210526315789473,
+                        "f1": 0.5714285714285714,
                         "true_positives": 4,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.2857142857142857,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.4444444444444445,
-                        "accuracy": 0.2857142857142857,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -54524,20 +54524,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.5,
+                        "precision": 0.6666666666666666,
                         "recall": 1.0,
-                        "f1": 0.6666666666666666,
+                        "f1": 0.8,
                         "true_positives": 2,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.5,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 2,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -55692,7 +55692,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 5,
+                        "true_positives": 3,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -55864,20 +55864,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.6,
+                        "precision": 0.75,
                         "recall": 1.0,
-                        "f1": 0.7499999999999999,
+                        "f1": 0.8571428571428571,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.7499999999999999,
-                        "accuracy": 0.6,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -56104,7 +56104,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 3,
+                        "true_positives": 2,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -56238,7 +56238,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 15,
+                        "true_positives": 11,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -57390,12 +57390,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
+                        "precision": 1.0,
                         "recall": 0.6666666666666666,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 0.8,
+                        "accuracy": 0.6666666666666666,
                         "true_positives": 4,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -58632,16 +58632,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -58938,20 +58938,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.2,
+                        "precision": 0.3333333333333333,
                         "recall": 0.5,
-                        "f1": 0.28571428571428575,
+                        "f1": 0.4,
                         "true_positives": 1,
-                        "false_positives": 4,
+                        "false_positives": 2,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.2,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.33333333333333337,
-                        "accuracy": 0.2,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -59282,12 +59282,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.75,
+                        "precision": 1.0,
                         "recall": 0.75,
-                        "f1": 0.75,
-                        "accuracy": 0.6,
+                        "f1": 0.8571428571428571,
+                        "accuracy": 0.75,
                         "true_positives": 6,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -59776,7 +59776,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 16,
+                        "true_positives": 4,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -60836,12 +60836,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.3333333333333333,
+                        "precision": 1.0,
                         "recall": 0.3333333333333333,
-                        "f1": 0.3333333333333333,
-                        "accuracy": 0.2,
+                        "f1": 0.5,
+                        "accuracy": 0.3333333333333333,
                         "true_positives": 1,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -61038,20 +61038,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.26666666666666666,
+                        "precision": 0.42105263157894735,
                         "recall": 1.0,
-                        "f1": 0.4210526315789474,
+                        "f1": 0.5925925925925926,
                         "true_positives": 8,
-                        "false_positives": 22,
+                        "false_positives": 11,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.16666666666666666,
+                        "precision": 1.0,
                         "recall": 0.75,
-                        "f1": 0.27272727272727276,
-                        "accuracy": 0.15789473684210525,
+                        "f1": 0.8571428571428571,
+                        "accuracy": 0.75,
                         "true_positives": 6,
-                        "false_positives": 30,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -61710,16 +61710,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -61853,20 +61853,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.3333333333333333,
+                        "precision": 0.5,
                         "recall": 1.0,
-                        "f1": 0.5,
+                        "f1": 0.6666666666666666,
                         "true_positives": 2,
-                        "false_positives": 4,
+                        "false_positives": 2,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.3333333333333333,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.5,
-                        "accuracy": 0.3333333333333333,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 2,
-                        "false_positives": 4,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -62833,13 +62833,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7391304347826086,
-                        "recall": 0.7391304347826086,
-                        "f1": 0.7391304347826085,
-                        "accuracy": 0.5862068965517241,
-                        "true_positives": 17,
-                        "false_positives": 6,
-                        "false_negatives": 6
+                        "precision": 1.0,
+                        "recall": 0.9333333333333333,
+                        "f1": 0.9655172413793104,
+                        "accuracy": 0.9333333333333333,
+                        "true_positives": 14,
+                        "false_positives": 0,
+                        "false_negatives": 1
                     },
                     "justification": {
                         "overlap": 0.391304347826087,
@@ -64637,20 +64637,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.23076923076923078,
+                        "precision": 0.375,
                         "recall": 1.0,
-                        "f1": 0.375,
+                        "f1": 0.5454545454545454,
                         "true_positives": 3,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.2857142857142857,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.4444444444444445,
-                        "accuracy": 0.2857142857142857,
-                        "true_positives": 4,
-                        "false_positives": 10,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
+                        "true_positives": 3,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -65209,20 +65209,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.5,
+                        "precision": 0.6666666666666666,
                         "recall": 1.0,
-                        "f1": 0.6666666666666666,
+                        "f1": 0.8,
                         "true_positives": 2,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.5,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 2,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -65619,16 +65619,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 6,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -65983,20 +65983,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.6666666666666666,
+                        "precision": 0.8,
                         "recall": 1.0,
-                        "f1": 0.8,
+                        "f1": 0.888888888888889,
                         "true_positives": 4,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.8,
-                        "accuracy": 0.6666666666666666,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 4,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -66781,16 +66781,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -67194,13 +67194,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
-                        "recall": 0.6,
-                        "f1": 0.6,
-                        "accuracy": 0.42857142857142855,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.6,
@@ -67592,12 +67592,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
+                        "precision": 1.0,
                         "recall": 0.6666666666666666,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 0.8,
+                        "accuracy": 0.6666666666666666,
                         "true_positives": 4,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -67818,13 +67818,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
-                        "recall": 0.6,
-                        "f1": 0.6,
-                        "accuracy": 0.42857142857142855,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 3,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.6,
@@ -67994,16 +67994,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -68491,12 +68491,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7142857142857143,
+                        "precision": 1.0,
                         "recall": 0.7142857142857143,
-                        "f1": 0.7142857142857143,
-                        "accuracy": 0.5555555555555556,
+                        "f1": 0.8333333333333333,
+                        "accuracy": 0.7142857142857143,
                         "true_positives": 5,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -69035,12 +69035,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6666666666666666,
+                        "precision": 1.0,
                         "recall": 0.6666666666666666,
-                        "f1": 0.6666666666666666,
-                        "accuracy": 0.5,
+                        "f1": 0.8,
+                        "accuracy": 0.6666666666666666,
                         "true_positives": 4,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -69707,16 +69707,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 20,
+                        "false_positives": 10,
                         "false_negatives": 4
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 20,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -70383,20 +70383,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.375,
+                        "precision": 0.5454545454545454,
                         "recall": 1.0,
-                        "f1": 0.5454545454545454,
+                        "f1": 0.7058823529411764,
                         "true_positives": 6,
-                        "false_positives": 10,
+                        "false_positives": 5,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.375,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.5454545454545454,
-                        "accuracy": 0.375,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 6,
-                        "false_positives": 10,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -71986,12 +71986,12 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7777777777777778,
+                        "precision": 1.0,
                         "recall": 0.7777777777777778,
-                        "f1": 0.7777777777777778,
-                        "accuracy": 0.6363636363636364,
+                        "f1": 0.8750000000000001,
+                        "accuracy": 0.7777777777777778,
                         "true_positives": 7,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 2
                     },
                     "justification": {
@@ -72740,7 +72740,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 6,
+                        "true_positives": 4,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -73138,7 +73138,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 26,
+                        "true_positives": 6,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -73604,13 +73604,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7142857142857143,
-                        "recall": 0.7142857142857143,
-                        "f1": 0.7142857142857143,
-                        "accuracy": 0.5555555555555556,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 5,
-                        "false_positives": 2,
-                        "false_negatives": 2
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.7142857142857143,
@@ -74070,16 +74070,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 4,
                         "false_negatives": 1
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 8,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -75353,20 +75353,20 @@
                 },
                 "topical": {
                     "pair_matching": {
-                        "precision": 0.3333333333333333,
+                        "precision": 0.5,
                         "recall": 1.0,
-                        "f1": 0.5,
+                        "f1": 0.6666666666666666,
                         "true_positives": 1,
-                        "false_positives": 2,
+                        "false_positives": 1,
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.3333333333333333,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.5,
-                        "accuracy": 0.3333333333333333,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 2,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -75462,7 +75462,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 9,
+                        "true_positives": 5,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -76874,16 +76874,16 @@
                         "recall": 0.0,
                         "f1": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 6,
                         "false_negatives": 5
                     },
                     "attitude_prediction": {
-                        "precision": 0.0,
+                        "precision": 0,
                         "recall": 0,
                         "f1": 0,
-                        "accuracy": 0.0,
+                        "accuracy": 0,
                         "true_positives": 0,
-                        "false_positives": 12,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -77129,13 +77129,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.6,
-                        "recall": 0.6,
-                        "f1": 0.6,
-                        "accuracy": 0.42857142857142855,
-                        "true_positives": 6,
-                        "false_positives": 4,
-                        "false_negatives": 4
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
+                        "true_positives": 4,
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.42857142857142855,
@@ -78981,20 +78981,20 @@
             "metrics": {
                 "entity": {
                     "pair_matching": {
-                        "precision": 0.05263157894736842,
+                        "precision": 0.1,
                         "recall": 0.25,
-                        "f1": 0.08695652173913043,
+                        "f1": 0.14285714285714288,
                         "true_positives": 1,
-                        "false_positives": 18,
+                        "false_positives": 9,
                         "false_negatives": 3
                     },
                     "attitude_prediction": {
-                        "precision": 0.05263157894736842,
+                        "precision": 1.0,
                         "recall": 1.0,
-                        "f1": 0.1,
-                        "accuracy": 0.05263157894736842,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 18,
+                        "false_positives": 0,
                         "false_negatives": 0
                     },
                     "justification": {
@@ -80257,7 +80257,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 5,
+                        "true_positives": 3,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -80727,7 +80727,7 @@
                         "recall": 1.0,
                         "f1": 1.0,
                         "accuracy": 1.0,
-                        "true_positives": 7,
+                        "true_positives": 5,
                         "false_positives": 0,
                         "false_negatives": 0
                     },
@@ -81843,13 +81843,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.7142857142857143,
-                        "recall": 0.7142857142857143,
-                        "f1": 0.7142857142857143,
-                        "accuracy": 0.5555555555555556,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 10,
-                        "false_positives": 4,
-                        "false_negatives": 4
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.7142857142857143,
@@ -85954,13 +85954,13 @@
                         "false_negatives": 0
                     },
                     "attitude_prediction": {
-                        "precision": 0.25,
-                        "recall": 0.25,
-                        "f1": 0.25,
-                        "accuracy": 0.14285714285714285,
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0,
+                        "accuracy": 1.0,
                         "true_positives": 1,
-                        "false_positives": 3,
-                        "false_negatives": 3
+                        "false_positives": 0,
+                        "false_negatives": 0
                     },
                     "justification": {
                         "overlap": 0.25,

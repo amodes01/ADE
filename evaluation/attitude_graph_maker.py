@@ -59,7 +59,7 @@ def plot_combo_attitude_chart(section, data_type, sample_list):
     plt.xlabel("Attitude")
     plt.ylabel("Count")
     plt.tight_layout()
-    plt.savefig(f"{section}_{data_type}_combo_plot.png")
+    plt.savefig(f"polar_{section}_{data_type}_combo_plot.png")
     plt.close()
 
 # Generate all 4 charts
