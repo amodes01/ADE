@@ -6,7 +6,7 @@ from tqdm import tqdm
 import pandas as pd
 
 # Load data
-with open("polar_detailed_evaluation_results.json", "r") as f:
+with open("brexit_detailed_evaluation_results.json", "r") as f:
     data = json.load(f)
 
 # Prepare per-sample attitude storage
@@ -59,7 +59,7 @@ def plot_combo_attitude_chart(section, data_type, sample_list):
     plt.xlabel("Attitude")
     plt.ylabel("Count")
     plt.tight_layout()
-    plt.savefig(f"polar_{section}_{data_type}_combo_plot.png")
+    plt.savefig(f"polar_brexit_{section}_{data_type}_combo_plot.png")
     plt.close()
 
 # Generate all 4 charts

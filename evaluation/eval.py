@@ -2079,6 +2079,10 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
         }
     }
 
+    total_skips = 0
+    true_skips = 0
+    pred_skips = 0
+
     for i in tqdm(range(num_samples), desc="Evaluating samples", unit="sample"):
         # Extract JSON for ground truth
         best_json, _ = LLMJsonParser.parse_json(true_dataset[i]["output"])
@@ -2089,6 +2093,11 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
         pred_data = polar_json if polar_json is not None else {}
 
         if not true_data or not pred_data:
+            if not true_data:
+                true_skips += 1
+            if not pred_data:
+                pred_skips += 1
+            total_skips += 1
             continue
 
         # Extract all unique entities and topics from true and pred data
@@ -2247,29 +2256,33 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
         all_metrics["samples"][f"sample_{i}"] = {
             "metrics": sample_metrics,
             "true_data": {
-                "entities": true_items["entities"],
-                "topics": true_items["topics"],
-                "attitude_summary": true_attitude_summary
+            "entities": true_items["entities"],
+            "topics": true_items["topics"],
+            "attitude_summary": true_attitude_summary
             },
             "pred_data": {
-                "entities": pred_items["entities"],
-                "topics": pred_items["topics"],
-                "attitude_summary": pred_attitude_summary
+            "entities": pred_items["entities"],
+            "topics": pred_items["topics"],
+            "attitude_summary": pred_attitude_summary
             },
             "matching_metrics": matching_metrics,
             "matched_pairs": {
-                "entity": metrics["entity"].get("matched_pairs", []),
-                "topical": metrics["topical"].get("matched_pairs", [])
+            "entity": metrics["entity"].get("matched_pairs", []),
+            "topical": metrics["topical"].get("matched_pairs", [])
             },
             "unmatched_pairs": {
-                "entity": {
-                    "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
-                },
-                "topical": {
-                    "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
-                    "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
-                }
+            "entity": {
+                "true_unmatched": metrics["entity"].get("unmatched_true_pairs", []),
+                "pred_unmatched": metrics["entity"].get("unmatched_pred_pairs", [])
+            },
+            "topical": {
+                "true_unmatched": metrics["topical"].get("unmatched_true_pairs", []),
+                "pred_unmatched": metrics["topical"].get("unmatched_pred_pairs", [])
+            }
+            },
+            "outputs": {
+            "true_data": true_data,
+            "pred_data": pred_data
             }
         }
 
@@ -2284,7 +2297,9 @@ def evaluate_predictions_polar(true_dataset_path, polar_dir_path):
                 all_metrics[category]["total_counts"][count] += metrics[category]["sample_counts"][count]
 
     # Calculate final metrics
-
+    print(f"Skipped {total_skips} samples due to invalid Json.")
+    print(f"Skipped {true_skips} Ground Truth samples due to invalid Json.")
+    print(f"Skipped {pred_skips} Predicted samples due to invalid Json.")
 
 
     all_metrics["attitude_summary"] = overall_attitude_summary
@@ -3047,28 +3062,28 @@ if __name__ == "__main__":
     brexit_dataset_path = "../test-brexit/gpt_results"
     brexit_polar_path = "./brexit-test/formatted-attitudes"
 
-    start_time = time.time()
-    evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
-    end_time = time.time()
+    # start_time = time.time()
+    # evaluation_results = evaluate_predictions(true_dataset_path, pred_files_path)
+    # end_time = time.time()
 
-    print(f"Evaluation - Mistral completed in {end_time - start_time:.2f} seconds.")
+    # print(f"Evaluation - Mistral completed in {end_time - start_time:.2f} seconds.")
 
-    with open("detailed_evaluation_results.json", "w") as f:
-        json.dump(convert_numpy_types(evaluation_results), f, indent=4)
+    # with open("detailed_evaluation_results.json", "w") as f:
+    #     json.dump(convert_numpy_types(evaluation_results), f, indent=4)
 
-    # brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
+    # # brexit_results = evaluate_predictions_two_dirs(brexit_dataset_path, brexit_polar_path)
 
 
-    # with open("brexit_detailed_evaluation_results.json", "w") as f:
-    #     json.dump(convert_numpy_types(brexit_results), f, indent=4)
+    # # with open("brexit_detailed_evaluation_results.json", "w") as f:
+    # #     json.dump(convert_numpy_types(brexit_results), f, indent=4)
 
-    start_time = time.time()
-    Mistral_results = evaluate_predictions_polar_vs_Mistral(pred_files_path, polar_files_path)
-    end_time = time.time()
-    print(f"Evaluation - Polar - Mistral completed in {end_time - start_time:.2f} seconds.")
+    # start_time = time.time()
+    # Mistral_results = evaluate_predictions_polar_vs_Mistral(pred_files_path, polar_files_path)
+    # end_time = time.time()
+    # print(f"Evaluation - Polar - Mistral completed in {end_time - start_time:.2f} seconds.")
     
-    with open("Mistral_vs_Polar_detailed_evaluation_results.json", "w") as f:
-        json.dump(convert_numpy_types(Mistral_results), f, indent=4)
+    # with open("Mistral_vs_Polar_detailed_evaluation_results.json", "w") as f:
+    #     json.dump(convert_numpy_types(Mistral_results), f, indent=4)
 
 
     start_time = time.time()
