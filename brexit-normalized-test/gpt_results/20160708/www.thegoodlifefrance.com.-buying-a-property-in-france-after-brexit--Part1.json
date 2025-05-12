@@ -1,0 +1,111 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "property purchase in France",
+        "references": ["property purchase"]
+      },
+      "justifications": [
+        "The process of buying a property is unchanged. The cost of purchase is the same regardless of nationality and remains amongst the lowest in Europe."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "taxes on property",
+        "references": ["Capital Gains Tax", "taxe fonciere", "taxe d'habitation"]
+      },
+      "justifications": [
+        "There is no difference to Capital Gains Tax which currently has a basic rate of 34.5% (19% + 15.5% social charges) regardless of nationality.",
+        "The annual taxe fonciere (paying towards local services) and taxe d'habitation (paying for residency, including TV licence) are not affected."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "healthcare access in France",
+        "references": ["EHIC card", "Global Health Insurance Card", "Carte Vitale"]
+      },
+      "justifications": [
+        "The UK Government has said that you can use your current EHIC card until it expires.",
+        "If you do not hold an EHIC card you can apply for the new Global Health Insurance Card (GHIC) here.",
+        "Once you are registered to live in France you can apply for a Carte Vitale which covers your healthcare."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "visa requirements for British citizens",
+        "references": ["Long Stay Visa", "Visa de Long Sejour Temporaire Visiteur"]
+      },
+      "justifications": [
+        "The big change is that visitors may stay for only 90 days out of 180 days.",
+        "If you want to stay longer than 90 days you will need to apply for a Long Stay Visa.",
+        "as a holiday home owner you will probably apply for a Visa de Long Sejour Temporaire Visiteur."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "permanent residency in France",
+        "references": ["residency permit", "Carte de Sejour", "permanent residency permit"]
+      },
+      "justifications": [
+        "Since you will be staying more than 90 days, you must apply for a long term visa before applying for a residency permit at your local Prefecture.",
+        "Then you can apply for a 5 year residency permit which will be exchanged for a permanent residency permit after 5 years."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "income and assets verification for residency",
+        "references": ["proof of sufficient income", "income from a UK rental property", "healthcare insurance"]
+      },
+      "justifications": [
+        "In order to achieve the long stay visa and residence permit (Carte de Sejour) you must now meet the qualifications set out by the French Government including proof of sufficient income."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "UK Government",
+        "references": ["UK Government"]
+      },
+      "entity2": {
+        "entity": "French Government",
+        "references": ["French Government"]
+      },
+      "justifications": [
+        "The UK Government has said that you can use your current EHIC card until it expires.",
+        "Details are available from the French Government (in English) here."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

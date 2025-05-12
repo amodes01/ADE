@@ -1,0 +1,142 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Brexit", "references": ["leave the European Union", "Brexit"]},
+      "justifications": [
+        "The United Kingdom has voted and barring extraordinary circumstances it will leave the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "immigration", "references": ["issue of immigration"]},
+      "justifications": [
+        "The thorny issue of immigration is not resolved and nor is there any evident incoming strategy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "global relations", "references": ["ill at ease with a globalised world"]},
+      "justifications": [
+        "Outsiders can be forgiven for fearing a nastier, less friendly Britain ill at ease with a globalised world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Middle East policy", "references": ["Middle East policy"]},
+      "justifications": [
+        "For the UK's foreign policy, this is dramatic with significant implications for the Middle East."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Sykes-Picot agreement", "references": ["Sykes-Picot agreement"]},
+      "justifications": [
+        "This year marks the 100th anniversary of the Sykes-Picot agreement, when the UK was carving up the Middle East with France."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "United States", "references": ["United States", "Anglo-US relations"]},
+      "justifications": [
+        "A Clinton presidency may offer a degree of normalcy in Anglo-US relations but it will not just be Britain which would struggle with a President Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Trump's foreign policy", "references": ["Trump's poodle", "anti-Muslim bigotry", "ban all Muslims entering the United States"]},
+      "justifications": [
+        "Who would want to be seen as Trump's poodle in the Middle East given his anti-Muslim bigotry and his position to ban all Muslims entering the United States?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "the favourite to replace Cameron, Boris Johnson said last December that 'The only reason I would not visit some parts of New York is the real risk of meeting Donald Trump.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "For now, its relations with Europe will become a key domestic policy issue."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Hamas", "references": ["Hamas"]},
+      "justifications": [
+        "In years to come, unshackled by the EU collective position, it may develop a nimbler, more fleet-footed approach. For example, Britain like Norway might be able to open channels to Hamas."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Hezbollah", "references": ["Hezbollah"]},
+      "justifications": [
+        "In years to come, unshackled by the EU collective position, it may develop a nimbler, more fleet-footed approach. For example, Britain like Norway might be able to open channels to Hezbollah."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "future global initiatives", "references": ["any new global initiatives"]},
+      "justifications": [
+        "it is tough to imagine Britain will have time or resources for any new global initiatives at all."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "target": {"topic": "Middle East war", "references": ["new war in the Middle East"]},
+      "justifications": [
+        "Only the most reckless of prime ministers would embark for example on a new war in the Middle East with this uncertainty enshrouding his country."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "For now, its relations with Europe will become a key domestic policy issue."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": [
+        "A Clinton presidency may offer a degree of normalcy in Anglo-US relations but it will not just be Britain which would struggle with a President Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "entity2": {"entity": "France", "references": ["France"]},
+      "justifications": [
+        "Since then, Britain's Middle East policy (typically a series of contrary positions) was shaped firstly by its ties to its successor superpower in the Middle East, the United States, and secondly, particularly from the 1990s onwards, the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["The United Kingdom", "Britain"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": [
+        "Since then, Britain's Middle East policy (typically a series of contrary positions) was shaped... and secondly, particularly from the 1990s onwards, the European Union."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

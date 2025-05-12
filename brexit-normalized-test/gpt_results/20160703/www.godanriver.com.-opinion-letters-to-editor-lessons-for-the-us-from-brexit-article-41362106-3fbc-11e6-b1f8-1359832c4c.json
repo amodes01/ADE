@@ -1,0 +1,114 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "Brexit vote", "references": ["Brexit vote"] },
+      "justifications": ["\"Take our country back!\" is one of Trump's jingoistic slogans, and it was also effective in the UK's recent vote."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "global economy", "references": ["global economy"] },
+      "justifications": ["It is simply not possible to maintain a position of isolationism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "global politic", "references": ["global politic"] },
+      "justifications": ["It is simply not possible to maintain a position of isolationism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "global society", "references": ["global society"] },
+      "justifications": ["It is simply not possible to maintain a position of isolationism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "diplomacy", "references": ["diplomacy"] },
+      "justifications": ["He has strengthened ties throughout the world through diplomacy, which in the long run is a far better policy than the bullying, threatening, disgustingly rude stance of Donald Trump."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "target": { "topic": "diplomacy", "references": ["diplomacy"] },
+      "justifications": ["He has strengthened ties throughout the world through diplomacy, which in the long run is a far better policy than the bullying, threatening, disgustingly rude stance of Donald Trump."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "George W. Bush", "references": ["President George W. Bush"] },
+      "target": { "topic": "economic condition", "references": ["economically"] },
+      "justifications": ["this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "George W. Bush", "references": ["President George W. Bush"] },
+      "target": { "topic": "world community", "references": ["world community"] },
+      "justifications": ["this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "world community", "references": ["world community"] },
+      "justifications": ["The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "disabled people", "references": ["disabled people"] },
+      "justifications": ["The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "women", "references": ["women"] },
+      "justifications": ["The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "people of color", "references": ["people of color"] },
+      "justifications": ["The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "people of other nations", "references": ["people of other nations"] },
+      "justifications": ["The United States will be the laughing stock of the world community if we elect a chief executive who cruelly ridicules disabled people, women, people of color and people of other nations."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Barack Obama", "references": ["President Barack Obama"] },
+      "justifications": ["Feel as you may about President Barack Obama, but this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "George W. Bush", "references": ["President George W. Bush"] },
+      "justifications": ["Feel as you may about President Barack Obama, but this country truly is much better off than it was when President George W. Bush left office, economically and as a member of the world community."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Secretary Hillary Clinton"] },
+      "justifications": ["I have heard so many people say they just are not going to vote this year, because they cannot stand Trump, but they do not like Secretary Hillary Clinton either."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "the UK", "references": ["the UK"] },
+      "justifications": ["\"Take our country back!\" is one of Trump's jingoistic slogans, and it was also effective in the UK's recent vote."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "the UK", "references": ["the UK"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": ["\"Take our country back!\" is one of Trump's jingoistic slogans, and it was also effective in the UK's recent vote."],
+      "attitude": "Positive"
+    }
+  ]
+}

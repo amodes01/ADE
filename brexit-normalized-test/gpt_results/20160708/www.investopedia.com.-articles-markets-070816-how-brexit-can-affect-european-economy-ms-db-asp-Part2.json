@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "UK economy", "references": ["economic conditions in the United Kingdom"]},
+      "justifications": [
+        "This trend is indicative of deteriorating economic conditions in the United Kingdom, mainly from Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "GBP", "references": ["the pound"]},
+      "justifications": [
+        "The pound has been turbulent and volatile since the 2016 Brexit announcement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "economic impact", "references": ["economic consequences"]},
+      "justifications": [
+        "Economists, most of whom were confident that Britain would vote to remain in the EU, warned of economic consequences that would result from Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "UK pound decline", "references": ["decline in value of the pound"]},
+      "justifications": [
+        "It also had an immediate and pronounced effect on the British pound, which declined in value by more than 8% in the 24 hours following the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "currency stability", "references": ["turbulent and volatile pound"]},
+      "justifications": [
+        "The pound has been turbulent and volatile since the 2016 Brexit announcement."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "GBP/USD exchange rate", "references": ["GBP/USD"]},
+      "justifications": [
+        "Near the end of 2016, the GBP/USD reached lows of around 1.20."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The Brexit, or British exit, came about as a result of a populist movement that had grown weary of ceding control of laws and regulations to outside forces in Brussels."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "There was also a fear of the effects of what was viewed as unchecked immigration."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "British citizens went to the polls and voted in favor of a referendum to leave the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "U.S. dollar", "references": ["USD"]},
+      "justifications": [
+        "In September 2022, the GBP fell to about $1.03 USD, marking the lowest price for the pound against the U.S. dollar in over 30 years."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "Bank of England", "references": ["Bank of England"]},
+      "justifications": [
+        "a weak currency is also a driver of inflation (imports are more expensive), which the Bank of England (BoE) is legally obliged to contain."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "entity2": {"entity": "GBP/USD parity", "references": ["test of parity"]},
+      "justifications": [
+        "Market speculators may very well make a test of parity (1 GBP to 1 USD) and even lower."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

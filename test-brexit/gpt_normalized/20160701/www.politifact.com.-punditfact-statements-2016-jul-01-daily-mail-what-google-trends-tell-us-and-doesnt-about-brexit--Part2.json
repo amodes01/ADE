@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Hearst",
+        "references": [
+          "Norman Hearst"
+        ]
+      },
+      "target": {
+        "topic": "Google Trends reports",
+        "references": [
+          "Google Trends"
+        ]
+      },
+      "justifications": [
+        "The numbers shown to the public are processed in many ways and are meant to be very general trends only, Hearst said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tom Davenport",
+        "references": [
+          "Tom Davenport"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "I might interpret the findings more positively, Davenport said. At least a lot of people have curiosity and are trying to learn more about the Brexit topic."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Hearst",
+        "references": [
+          "Norman Hearst"
+        ]
+      },
+      "entity2": {
+        "entity": "Tom Davenport",
+        "references": [
+          "Tom Davenport"
+        ]
+      },
+      "justifications": [
+        "Experts agreed that the way many news outlets used the Google Trends reports is not grounded in science. Hearst said. Davenport said, I might interpret the findings more positively."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

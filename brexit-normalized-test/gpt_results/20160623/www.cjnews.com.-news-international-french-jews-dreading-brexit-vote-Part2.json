@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Sacha Bielawski", "references": ["Sacha Bielawski"] },
+      "target": { "topic": "anti-Semitism", "references": ["anti-Semitism"] },
+      "justifications": ["I feel equally safe and unsafe in both countries."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Linda Borowski", "references": ["Linda Borowski"] },
+      "target": { "topic": "jihadism", "references": ["threat of jihadism"] },
+      "justifications": ["I am now in the process of immigrating to the United States because of the threat of jihadism."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Herz", "references": ["Herz"] },
+      "target": { "topic": "French bashing", "references": ["French bashing"] },
+      "justifications": ["Herz said the British media was playing up the risk to Jews in France and portraying Britain as a refuge in what he called 'French bashing.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Robert Halfon", "references": ["Robert Halfon"] },
+      "target": { "topic": "EU policy on Israel", "references": ["EU policy on Israel"] },
+      "justifications": ["Robert Halfon... argued in a March op-ed in the Jewish News that remaining would allow London to positively influence EU policy on Israel."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Geoffrey Alderman", "references": ["Geoffrey Alderman"] },
+      "target": { "topic": "EU policy on Israel", "references": ["EU policy on Israel"] },
+      "justifications": ["Geoffrey Alderman... disputed the point... he asserted that British Jews are better off lobbying for communal interests in London, which they know, than in Brussels, where they have less sway and which is perceived as more hostile to Israel."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David Cameron", "references": ["Cameron"] },
+      "target": { "topic": "Jewish votes for Brexit", "references": ["Jewish votes for Bremaining"] },
+      "justifications": ["Days before the vote, Cameron used the Israel argument in a last-ditch effort to muster Jewish votes for Bremaining."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Sacha Bielawski", "references": ["Sacha Bielawski"] },
+      "entity2": { "entity": "Linda Borowski", "references": ["Linda Borowski"] },
+      "justifications": ["I feel equally safe and unsafe in both countries.", "My children are targets here every bit as much as in Brussels."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Herz", "references": ["Herz"] },
+      "entity2": { "entity": "British media", "references": ["British media"] },
+      "justifications": ["Herz said the British media was playing up the risk to Jews in France and portraying Britain as a refuge in what he called 'French bashing.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Robert Halfon", "references": ["Robert Halfon"] },
+      "entity2": { "entity": "Geoffrey Alderman", "references": ["Geoffrey Alderman"] },
+      "justifications": ["Robert Halfon... argued in a March op-ed in the Jewish News that remaining would allow London to positively influence EU policy on Israel.", "Geoffrey Alderman... disputed the point... he asserted that British Jews are better off lobbying for communal interests in London, which they know, than in Brussels, where they have less sway and which is perceived as more hostile to Israel."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "David Cameron", "references": ["Cameron"] },
+      "entity2": { "entity": "Jewish voters", "references": ["Jewish votes for Bremaining"] },
+      "justifications": ["Days before the vote, Cameron used the Israel argument in a last-ditch effort to muster Jewish votes for Bremaining."],
+      "attitude": "Positive"
+    }
+  ]
+}

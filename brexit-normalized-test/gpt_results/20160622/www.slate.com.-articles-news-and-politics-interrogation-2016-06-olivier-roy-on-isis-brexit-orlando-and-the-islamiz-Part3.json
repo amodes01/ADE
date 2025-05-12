@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Western Europe", "references": ["Western Europe"]},
+      "target": {"topic": "Muslim elite", "references": ["new Muslim elite"]},
+      "justifications": ["In every place in Western Europe, you have a new Muslim elite."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "Islamization of society", "references": ["Islamization of society"]},
+      "justifications": ["We do not have an Islamization of society."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "secularization of Muslims", "references": ["secularization of Muslims"]},
+      "justifications": ["In polls, only 20 percent of Muslims in France are really practicing Islam.", "We have a secularization of Muslims."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "radicalization", "references": ["radicalization"]},
+      "justifications": ["Despite your concerns about radicalization, you do not seem to buy that pessimism."],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "entity2": {"entity": "London", "references": ["London"]},
+      "justifications": ["You have Sadiq Khan winning the election in London."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Michel Houellebecq", "references": ["Michel Houllebelq"]},
+      "entity2": {"entity": "France", "references": ["France"]},
+      "justifications": ["You must have read more pessimistic accounts, from Michel Houllebelq and others, about the future of Europe, particularly France and its supposedly coming Islamization."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Turkey", "references": ["Turkey"]},
+      "entity2": {"entity": "Armenian genocide", "references": ["Armenian genocide"]},
+      "justifications": ["16 members of Parliament of Turkish descent, and they all voted for recognition of the Armenian genocide."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Muslims in France", "references": ["Muslims in France"]},
+      "entity2": {"entity": "secularization", "references": ["secularization"]},
+      "justifications": ["In polls, only 20 percent of Muslims in France are really practicing Islam.", "We have a secularization of Muslims."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Muslim elite", "references": ["Muslim elite"]},
+      "entity2": {"entity": "Western Europe", "references": ["Western Europe"]},
+      "justifications": ["In every place in Western Europe, you have a new Muslim elite."],
+      "attitude": "Neutral"
+    }
+  ]
+}

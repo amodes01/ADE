@@ -1,0 +1,38 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit negotiations", "references": ["Brexit negotiations"] },
+      "target": { "topic": "European Communities Act", "references": ["1972 European Communities Act"] },
+      "justifications": [
+        "once repealed, that will carry away every treaty and every piece of European legislation that has ever been passed."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "William Cash", "references": ["William Cash"] },
+      "entity2": { "entity": "civil servants", "references": ["civil servants"] },
+      "justifications": [
+        "We can not possibly entrust this process to the same civil servants that have been tangled up in this mess for the last 40 years."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "William Cash", "references": ["William Cash"] },
+      "entity2": { "entity": "British people", "references": ["British people"] },
+      "justifications": [
+        "a lot of people want to obstruct the democratic will of the British people"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "William Cash", "references": ["William Cash"] },
+      "entity2": { "entity": "Government", "references": ["Government"] },
+      "justifications": [
+        "the civil servants are duty-bound to carry out the will of Government"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

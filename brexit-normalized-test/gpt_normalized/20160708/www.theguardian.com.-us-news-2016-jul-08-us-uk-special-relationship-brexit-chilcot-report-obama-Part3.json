@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "George W. Bush",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "target": {
+        "topic": "Iraq invasion",
+        "references": [
+          "Russian invasion"
+        ]
+      },
+      "justifications": [
+        "Bush would probably have done it any way, even if no one had stood with him."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Tony Blair",
+        "references": [
+          "Blair"
+        ]
+      },
+      "entity2": {
+        "entity": "George W. Bush",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "justifications": [
+        "Blair had refused to go along with the invasion"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

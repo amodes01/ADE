@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "England",
+        "references": [
+          "the U.K."
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "But outside London, England has numerous communities that have been propped up by EU funding and subsidies.",
+        "Like Wales, it was only the day after the vote that the head of Cornwall's Council scrambled to receive assurances-in writing this time-that Cornwall would continue to see this money."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "London",
+        "references": [
+          "London's success"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "Then there is London, an island of pro-European sentiment within an English sea of anti-E.U. anger.",
+        "It's no surprise that 60 percent of Londoners voted to Remain."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "England",
+        "references": [
+          "the U.K."
+        ]
+      },
+      "entity2": {
+        "entity": "London",
+        "references": [
+          "London's success"
+        ]
+      },
+      "justifications": [
+        "Then there is London, an island of pro-European sentiment within an English sea of anti-E.U. anger."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "outgoing PM David Cameron even renegotiated the U.K.'s membership in the E.U. a few months ago to better address them."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "England",
+        "references": [
+          "the U.K."
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "But outside London, England has numerous communities that have been propped up by EU funding and subsidies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Cornwall",
+        "references": [
+          "Cornwall"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Cornwall is a county of 500,000 people that depends on $80 million a year from Brussels."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "England",
+        "references": [
+          "the U.K."
+        ]
+      },
+      "justifications": [
+        "outgoing PM David Cameron even renegotiated the U.K.'s membership in the E.U. a few months ago to better address them."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

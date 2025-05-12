@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The EU referendum debate has so far been characterised by bias, distortion and exaggeration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "target": {
+        "topic": "EU referendum",
+        "references": ["EU referendum"]
+      },
+      "justifications": [
+        "The EU referendum debate has so far been characterised by bias, distortion and exaggeration."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "What will Brexit mean for British tourists booking holidays in the EU?",
+        "What will Brexit mean for British expats in Europe?"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

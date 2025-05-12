@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Sotirios Zartaloudis", "references": ["Sotirios Zartaloudis"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["This result confirms what we have been witnessing in England over the last ten years, a steady rise of far-right extremism and populism.", "Brexiteers have a clear agenda of dismantling key aspects of employment law legislation, environmental protection, and other market-correcting regulations."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Although foreign and security issues were not central to the referendum debate, the impact of Brexit may be momentous.", "Brexit has the potential to re-energize the Irish question and Scottish support for Europe presages a second independence referendum."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "target": {"topic": "EU disintegration", "references": ["forces of disintegration and xenophobia in Europe"]},
+      "justifications": ["Following Brexit, the forces of disintegration and xenophobia have been strengthened in Europe."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Sotirios Zartaloudis", "references": ["Sotirios Zartaloudis"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["Using a \"scapegoat\" agenda and promoting the Euro-racism of \"the decent people\" - Nigel Farage's phrase - against \"Europeans\" in Brussels and in the UK, Britain becomes the first country to decide to leave the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sotirios Zartaloudis", "references": ["Sotirios Zartaloudis"]},
+      "entity2": {"entity": "Vladimir Putin", "references": ["Vladimir Putin"]},
+      "justifications": ["This is an own-goal of historic proportions that gives pleasure to far-right populists around the world, such as Vladimir Putin and Marine LePen."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sotirios Zartaloudis", "references": ["Sotirios Zartaloudis"]},
+      "entity2": {"entity": "Marine LePen", "references": ["Marine LePen"]},
+      "justifications": ["This is an own-goal of historic proportions that gives pleasure to far-right populists around the world, such as Vladimir Putin and Marine LePen."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "entity2": {"entity": "Barack Obama", "references": ["President Obama"]},
+      "justifications": ["President Obama's support for Remain was premised on the idea that an outward looking, Atlanticist Europe was better for the world and more likely with the UK in it."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "entity2": {"entity": "EU", "references": ["Europe"]},
+      "justifications": ["The biggest impact, however, will be on Europe itself.", "Following Brexit, the forces of disintegration and xenophobia have been strengthened in Europe and the progress made over the last 70 years towards a tolerant, integrated, and liberal political community has been put at risk."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "entity2": {"entity": "Scotland", "references": ["Scotland"]},
+      "justifications": ["Brexit has the potential to re-energize the Irish question and Scottish support for Europe presages a second independence referendum."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David Dunn", "references": ["David Dunn"]},
+      "entity2": {"entity": "Northern Ireland", "references": ["Northern Ireland"]},
+      "justifications": ["Brexit has the potential to re-energize the Irish question and Scottish support for Europe presages a second independence referendum."]
+      "attitude": "Neutral"
+    }
+  ]
+}

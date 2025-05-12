@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Jean-Claude Juncker", "references": ["European Commission president", "Juncker"] },
+      "target": { "topic": "Brexit", "references": ["Brexit", "British departure"] },
+      "justifications": [
+        "\"Yesterday's shining heroes of Brexit have become the sorrowful heroes of today,\" the European Commission president told the European Parliament as he condemned what he said was a lack of planning in London following last month's referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jean-Claude Juncker", "references": ["European Commission president", "Juncker"] },
+      "target": { "topic": "Brexit", "references": ["Brexit", "British departure"] },
+      "justifications": [
+        "\"They are retro-nationalists, not patriots. Patriots do not abandon ship when the going gets tough. They stay on board,\" Reuters quoted Juncker as saying."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Paul Nuttall", "references": ["Paul Nuttall"] },
+      "target": { "topic": "Brexit", "references": ["Brexit", "best deal for Britain"] },
+      "justifications": [
+        "Speaking for UKIP during the debate, Paul Nuttall, a potential successor to Farage, told Juncker, 'I am not here to gloat', and said that Brussels and London must now cooperate to ensure the best deal for Britain and the rest of the Union."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["European Commission president", "Juncker"] },
+      "entity2": { "entity": "Boris Johnson", "references": ["Former London mayor Johnson"] },
+      "justifications": [
+        "Juncker insisted the EU will not negotiate any terms for the British departure until a new premier formally triggers the withdrawal process and the two-year deadline it sets for a deal."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["European Commission president", "Juncker"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Farage", "European Parliament member"] },
+      "justifications": [
+        "\"Yesterday's shining heroes of Brexit have become the sorrowful heroes of today,\" the European Commission president told the European Parliament as he condemned what he said was a lack of planning in London following last month's referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["European Commission president", "Juncker"] },
+      "entity2": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "justifications": [
+        "\"They are retro-nationalists, not patriots. Patriots do not abandon ship when the going gets tough. They stay on board,\" Reuters quoted Juncker as saying."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Paul Nuttall", "references": ["Paul Nuttall"] },
+      "entity2": { "entity": "Jean-Claude Juncker", "references": ["Juncker"] },
+      "justifications": [
+        "Speaking for UKIP during the debate, Paul Nuttall, a potential successor to Farage, told Juncker, 'I am not here to gloat', and said that Brussels and London must now cooperate to ensure the best deal for Britain and the rest of the Union."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

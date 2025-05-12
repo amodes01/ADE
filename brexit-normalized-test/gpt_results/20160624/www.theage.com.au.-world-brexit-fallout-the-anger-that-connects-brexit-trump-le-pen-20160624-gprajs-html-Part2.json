@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU's future", "references": ["reshaped union", "EU"] },
+      "justifications": [
+        "Brexit may hold a more optimistic lesson, however, especially if the Remain camp wins.",
+        "it is likely at the same time to accelerate new ideas to reshape the union"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "China's interest in EU", "references": ["Chinese-EU ties"] },
+      "justifications": [
+        "So when Chinese President Xi Jinping said on a visit to Britain last year that he wanted a united EU, with Britain helping to deepen Chinese-EU ties, he wasn't just chalking up a political favour to British Prime Minister David Cameron."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "China's interest in EU", "references": ["Chinese-EU ties"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "So when Chinese President Xi Jinping said on a visit to Britain last year that he wanted a united EU, with Britain helping to deepen Chinese-EU ties"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "China", "references": ["China"] },
+      "entity2": { "entity": "US", "references": ["US"] },
+      "justifications": [
+        "China may champion national sovereignty and chafe at US dominance"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "China", "references": ["China"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "China gains from the existing economic order and sees multilateral economic institutions as useful - in the EU's case, to the tune of $US590 billion in trade last year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "German Finance Minister Wolfgang Schaeuble", "references": ["German Finance Minister Wolfgang Schaeuble", "Schaeuble"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "German Finance Minister Wolfgang Schaeuble said that even if Britain votes to stay, 'we will simply not be able to go on as before'.",
+        "He called on Germans to recognise the EU's value to them and to understand that they do not carry an unfair share of its burden."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "entity2": { "entity": "Xi Jinping", "references": ["Xi Jinping"] },
+      "justifications": [
+        "So when Chinese President Xi Jinping said on a visit to Britain last year that he wanted a united EU, with Britain helping to deepen Chinese-EU ties, he wasn't just chalking up a political favour to British Prime Minister David Cameron."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Kerry Brown", "references": ["Kerry Brown"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": [
+        "China may champion national sovereignty and chafe at US dominance, but it is also pragmatic, says Kerry Brown, director of the Lau China Institute at King's College London."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

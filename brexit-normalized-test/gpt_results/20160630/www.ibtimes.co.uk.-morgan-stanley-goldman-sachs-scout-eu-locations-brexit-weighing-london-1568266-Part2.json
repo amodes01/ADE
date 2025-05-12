@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["the sector is bracing itself for months, perhaps years, of wrangling over London's financial clout post-Brexit and UK job losses are inevitable.", "London is likely to be poorer as a result, and by default the financial services world will be as well."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "London", "references": ["London"] },
+      "justifications": ["The city tops the latest Global Financial Centres Index (GFCI), which ranks competitiveness within the sector.", "It is followed by New York and Singapore and its nearest European rival, Zurich, comes in sixth.", "London is likely to be poorer as a result, and by default the financial services world will be as well."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "Frankfurt", "references": ["Frankfurt"] },
+      "justifications": ["Contrary to public perception Frankfurt, as opposed to Paris, emerged as a more popular contingency destination.", "Frankfurt is dwarfed by the sector's sheer scale of manpower in London."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "Paris", "references": ["Paris"] },
+      "justifications": ["Contrary to public perception Frankfurt, as opposed to Paris, emerged as a more popular contingency destination."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "Zurich", "references": ["Zurich"] },
+      "justifications": ["Zurich comes in sixth, as its nearest European rival.", "Zurich is not in the European Union either."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "EU", "references": ["EU"] },
+      "justifications": ["Zurich is involved in Switzerland's wrangles with the EU, after the country voted to end its freedom of labour agreement under European Economic Area auspices with the bloc earlier this year."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "financial services sector", "references": ["financial services sector"] },
+      "target": { "topic": "Switzerland", "references": ["Switzerland"] },
+      "justifications": ["Zurich is involved in Switzerland's wrangles with the EU, after the country voted to end its freedom of labour agreement under European Economic Area auspices with the bloc earlier this year."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Frankfurt", "references": ["Frankfurt"] },
+      "entity2": { "entity": "London", "references": ["London"] },
+      "justifications": ["Frankfurt is dwarfed by the sector's sheer scale of manpower in London."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Frankfurt", "references": ["Frankfurt"] },
+      "entity2": { "entity": "Paris", "references": ["Paris"] },
+      "justifications": ["Contrary to public perception Frankfurt, as opposed to Paris, emerged as a more popular contingency destination."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["the sector is bracing itself for months, perhaps years, of wrangling over London's financial clout post-Brexit."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "Zurich", "references": ["Zurich"] },
+      "justifications": ["Zurich comes in sixth, as its nearest European rival."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "London", "references": ["London"] },
+      "entity2": { "entity": "New York", "references": ["New York"] },
+      "justifications": ["It is followed by New York and Singapore."],
+      "attitude": "Neutral"
+    }
+  ]
+}

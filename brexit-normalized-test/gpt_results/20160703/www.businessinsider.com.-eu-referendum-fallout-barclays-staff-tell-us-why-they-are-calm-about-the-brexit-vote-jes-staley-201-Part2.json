@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barclays",
+        "references": ["Barclays"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "Barclays' shares, along with most of other British banking stocks, were being pummelled at one point this week - although most of the stocks' losses were retraced by the Friday close."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Barclays",
+        "references": ["Barclays"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "Staley in the employee memo addressed concerns over EU work rules and said he would fight to keep staff here."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Barclays",
+        "references": ["Barclays"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "Barclays also, in tandem, released a public statement on its website detailing key steps the bank has taken to prepare for a Leave vote."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Staley",
+        "references": ["Staley"]
+      },
+      "entity2": {
+        "entity": "Barclays",
+        "references": ["Barclays"]
+      },
+      "justifications": [
+        "Overall staff at Barclays seem to be pretty calm about it all and mainly this is down to Staley's leadership and transparency over the shock Brexit vote."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Staley",
+        "references": ["Staley"]
+      },
+      "entity2": {
+        "entity": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "The day after the Brexit vote, BI exclusively reported that Staley told employees in an internal memo that he did 'not pretend to have all the answers' but he did reassure his staff, however, that the bank would 'not break our stride in delivering the Barclays of the future.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

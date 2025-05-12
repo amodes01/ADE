@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "UK's transition out of the EU", "references": ["orderly transition out of the EU"]},
+      "justifications": ["Obama said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "target": {"topic": "economic growth and financial stability", "references": ["economic growth and financial stability"]},
+      "justifications": ["We agreed that our economic and financial teams will remain in close contact as we stay focused on ensuring economic growth and financial stability."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "entity2": {"entity": "David Cameron", "references": ["British Prime Minister David Cameron"]},
+      "justifications": ["David has been an outstanding friend and partner on the global stage"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["President Barack Obama"]},
+      "entity2": {"entity": "Angela Merkel", "references": ["German Chancellor Angela Merkel"]},
+      "justifications": ["Obama said he has spoken to British Prime Minister David Cameron and German Chancellor Angela Merkel since the U.K. narrowly voted to leave the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": ["Obama said he is confident that the United Kingdom is committed to \"an orderly transition\" out of the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": ["We agreed that our economic and financial teams will remain in close contact as we stay focused on ensuring economic growth and financial stability."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "justifications": ["Obama said he has spoken to British Prime Minister David Cameron and German Chancellor Angela Merkel since the U.K. narrowly voted to leave the EU."],
+      "attitude": "Neutral"
+    }
+  ]
+}

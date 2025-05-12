@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "The Times editorial board",
+        "references": ["The Times editorial board"]
+      },
+      "target": {
+        "topic": "Los Angeles Metro tax",
+        "references": ["Metro's plan to install a permanent sales tax on Los Angeles County residents for transportation projects"]
+      },
+      "justifications": [
+        "\"The Times editorial board also supports the tax - though not without reservations.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "The Times editorial board",
+        "references": ["The Times editorial board"]
+      },
+      "target": {
+        "topic": "Los Angeles Metro tax",
+        "references": ["Metro's plan to install a permanent sales tax on Los Angeles County residents for transportation projects"]
+      },
+      "justifications": [
+        "\"A time-limited tax, it argues, forces Metro and its political leaders to include the public in its decision making process, lay out its goals and be more judicious with taxpayer monies.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Brian Klaas",
+        "references": ["Brian Klaas"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Brian Klaas and Marcel Dirsus dissect the financial carnage that comes with roughly a sixth of the European Union economy deciding to secede, and the dangerous motivations behind such an obviously self-injurious move."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Marcel Dirsus",
+        "references": ["Marcel Dirsus"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Brian Klaas and Marcel Dirsus dissect the financial carnage that comes with roughly a sixth of the European Union economy deciding to secede, and the dangerous motivations behind such an obviously self-injurious move."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Economists",
+        "references": ["Economists"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Economists, business leaders and scholars almost universally agree that Britain's retreat from the EU is a self-inflicted economic blunder."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump's campaign",
+        "references": ["Donald Trump's campaign"]
+      },
+      "target": {
+        "topic": "U.S. presidential race",
+        "references": ["presidential race"]
+      },
+      "justifications": [
+        "Donald Trump's campaign does not have enough money for a three-bedroom home in Santa Monica, let alone a presidential race."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton's campaign",
+        "references": ["Hillary Clinton's campaign"]
+      },
+      "target": {
+        "topic": "U.S. presidential race",
+        "references": ["presidential race"]
+      },
+      "justifications": [
+        "Hillary Clinton's campaign had more than $42 million in cash on hand and raised $16 million more than Trump in May alone."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Fauci",
+        "references": ["Fauci"]
+      },
+      "justifications": [
+        "Donald Trump was in disagreement with Fauci, constantly pushing against the usage of masks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "The Times editorial board",
+        "references": ["The Times editorial board"]
+      },
+      "entity2": {
+        "entity": "Los Angeles Mayor Eric Garcetti",
+        "references": ["Los Angeles Mayor Eric Garcetti"]
+      },
+      "justifications": [
+        "Los Angeles Mayor Eric Garcetti personally went to bat for the tax in an op-ed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Hillary Clinton's campaign had more than $42 million in cash on hand and raised $16 million more than Trump in May alone."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

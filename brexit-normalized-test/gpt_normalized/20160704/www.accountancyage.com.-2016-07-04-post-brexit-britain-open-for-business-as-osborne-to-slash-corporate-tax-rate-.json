@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "George Osborne",
+        "references": [
+          "Roger Barker"
+        ]
+      },
+      "target": {
+        "topic": "corporation tax rate",
+        "references": [
+          "corporate tax rate in harmony not with London but Dublin"
+        ]
+      },
+      "justifications": [
+        "BRITAIN will soon boast the lowest corporation tax rate of any major economy, after chancellor George Osborne revealed plans to slash the rate from 20% to less than 15%."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Pascal Saint-Amans",
+        "references": [
+          "Pascal Saint-Amans"
+        ]
+      },
+      "target": {
+        "topic": "corporation tax rate",
+        "references": [
+          "corporate tax rate in harmony not with London but Dublin"
+        ]
+      },
+      "justifications": [
+        "\"A further step in that direction would really turn the UK into a tax haven type of economy,\\\" he added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Eva Joly",
+        "references": [
+          "Eva Joly"
+        ]
+      },
+      "target": {
+        "topic": "corporation tax rate",
+        "references": [
+          "corporate tax rate in harmony not with London but Dublin"
+        ]
+      },
+      "justifications": [
+        "\"the UK is \\\"preparing itself to become a tax haven\\\" for multinationals, in a reaction to Google's \\u00a3130m agreement with HMRC over unpaid back taxes.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": [
+          "Roger Barker"
+        ]
+      },
+      "entity2": {
+        "entity": "Pascal Saint-Amans",
+        "references": [
+          "Pascal Saint-Amans"
+        ]
+      },
+      "justifications": [
+        "\"A further step in that direction would really turn the UK into a tax haven type of economy,\\\" he added."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": [
+          "Roger Barker"
+        ]
+      },
+      "entity2": {
+        "entity": "Eva Joly",
+        "references": [
+          "Eva Joly"
+        ]
+      },
+      "justifications": [
+        "\"the UK is \\\"preparing itself to become a tax haven\\\" for multinationals, in a reaction to Google's \\u00a3130m agreement with HMRC over unpaid back taxes.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": [
+          "Roger Barker"
+        ]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": [
+          "Iran"
+        ]
+      },
+      "justifications": [
+        "Osborne stated that he wanted to create a \\\"super competitive economy\\\" through low taxes and by attracting further global investment, particularly from China."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "China",
+        "references": [
+          "Iran"
+        ]
+      },
+      "entity2": {
+        "entity": "George Osborne",
+        "references": [
+          "Roger Barker"
+        ]
+      },
+      "justifications": [
+        "Osborne stated that he wanted to create a \\\"super competitive economy\\\" through low taxes and by attracting further global investment, particularly from China."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

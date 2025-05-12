@@ -1,0 +1,117 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "We reported on June 1 that Donald Trump apparently has no idea what the Brexit is",
+        "Donald Trump still has basically no idea what the Brexit is"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "President Obama has urged against a Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "target": {
+        "topic": "economic implications of Brexit",
+        "references": [
+          "take as many as 10 years for Britain to negotiate new trade deals with the States"
+        ]
+      },
+      "justifications": [
+        "President Obama has urged against a Brexit, saying it could take as many as 10 years for Britain to negotiate new trade deals with the States"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "We reported on June 1 that Donald Trump apparently has no idea what the Brexit is",
+        "Donald Trump still has basically no idea what the Brexit is"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "President Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "President Obama has urged against a Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "entity2": {
+        "entity": "President Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "justifications": [
+        "President Obama has urged against a Brexit",
+        "Donald Trump still has basically no idea what the Brexit is"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

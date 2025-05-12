@@ -1,0 +1,35 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Yale",
+        "references": ["Yale"]
+      },
+      "target": {
+        "topic": "global work",
+        "references": ["Yale's work around the globe"]
+      },
+      "justifications": [
+        "Welcome to the Yale and the World website, maintained by the Office of International Affairs, where you can explore Yale's work around the globe."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Yale",
+        "references": ["Yale"]
+      },
+      "entity2": {
+        "entity": "Office of International Affairs",
+        "references": ["Office of International Affairs"]
+      },
+      "justifications": [
+        "Welcome to the Yale and the World website, maintained by the Office of International Affairs"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

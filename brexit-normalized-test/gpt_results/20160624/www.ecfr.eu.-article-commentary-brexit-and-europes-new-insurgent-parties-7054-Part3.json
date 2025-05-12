@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "EU intervention in Syria", "references": ["European intervention in Syria"] },
+      "justifications": ["32 parties responded that this should not even be on the table."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Front National", "references": ["Front National"] },
+      "target": { "topic": "US foreign policy", "references": ["actions of Washington", "hegemonic power"] },
+      "justifications": ["The roots of all the main conflicts in Europe and its neighbourhoods can be tracked back to the actions of Washington as a hegemonic power."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "EU-US trade deal (TTIP)", "references": ["TTIP"] },
+      "justifications": ["27 of the parties interviewed answering that the EU should not make this deal with the US."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Sweden Democrats", "references": ["Sweden Democrats"] },
+      "target": { "topic": "EU-US trade deal (TTIP)", "references": ["TTIP"] },
+      "justifications": ["The Sweden Democrats thought the deal could have a positive impact under the right conditions."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Syriza", "references": ["Syriza"] },
+      "target": { "topic": "EU-US trade deal (TTIP)", "references": ["TTIP"] },
+      "justifications": ["Syriza thought the deal could have a positive impact under the right conditions."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "EU enlargement", "references": ["EU enlargement", "EU accession"] },
+      "justifications": ["There is a general consensus among the insurgent parties that more enlargement would be a bad thing."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "Ukraine's EU accession", "references": ["Ukraine's path to EU membership"] },
+      "justifications": ["Only 10 parties responded unequivocally that they supported Ukraine's path to EU accession."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "UKIP", "references": ["UKIP"] },
+      "target": { "topic": "Ukraine's EU accession", "references": ["Ukraine's path to EU membership"] },
+      "justifications": ["UKIP's position was the reverse, supporting Ukraine joining NATO but not the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "sanctions against Russia", "references": ["EU sanctions against Russia"] },
+      "justifications": ["24 parties argued that the sanctions should not stay in place beyond July."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Die Linke", "references": ["Die Linke"] },
+      "target": { "topic": "sanctions against Russia", "references": ["EU sanctions against Russia"] },
+      "justifications": ["Die Linke believes that the sanctions on Russia should be lifted."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "AfD", "references": ["AfD"] },
+      "target": { "topic": "sanctions against Russia", "references": ["EU sanctions against Russia"] },
+      "justifications": ["AfD believes that the sanctions on Russia should be lifted."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Syriza", "references": ["Syriza"] },
+      "target": { "topic": "sanctions against Russia", "references": ["EU sanctions against Russia"] },
+      "justifications": ["Syriza views sanctions as an obstacle to dialogue with Russia."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Golden Dawn", "references": ["Golden Dawn"] },
+      "target": { "topic": "sanctions against Russia", "references": ["EU sanctions against Russia"] },
+      "justifications": ["Golden Dawn views sanctions as an obstacle to dialogue with Russia."]
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "insurgent parties", "references": ["Sinn Féin", "UKIP", "Front National", "Communist Party", "AfD", "Die Linke", "Jobbik", "Five Star Movement", "Syriza", "Independent Greeks", "Sweden Democrats", "Danish People's Party", "Finns Party", "Estonian Party of People's Unity", "ALFA"] },
+      "target": { "topic": "Russia's foreign policy", "references": ["Russian foreign policy"] },
+      "justifications": ["There is general sympathy for Russian foreign policy (30 parties expressed support for at least some recent Russian positions)."]
+      "attitude": "Positive"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Syriza", "references": ["Syriza"] },
+      "entity2": { "entity": "Golden Dawn", "references": ["Golden Dawn"] },
+      "justifications": ["Syriza and Golden Dawn agree on sanctions against Russia."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Die Linke", "references": ["Die Linke"] },
+      "entity2": { "entity": "AfD", "references": ["AfD"] },
+      "justifications": ["Both Die Linke and AfD believe that the sanctions on Russia should be lifted."]
+      "attitude": "Positive"
+    }
+  ]
+}

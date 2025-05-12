@@ -1,0 +1,57 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Paul", "references": ["Paul"]},
+      "target": {"topic": "Security Council reform", "references": ["Security Council needs such a change", "a more democratic Security Council", "The Security Council needs such a change more than ever"]},
+      "justifications": [
+        "The UN could benefit from a fundamental post-Brexit shake-up and the Security Council needs such a change more than ever.",
+        "a more democratic Security Council might then emerge."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul", "references": ["Paul"]},
+      "target": {"topic": "UN governance", "references": ["The UN", "institutions are wavering", "Public fury", "current debates and movements are revealing clear failures of governance and leadership"]},
+      "justifications": [
+        "The UN, like the European Union and nearly all governments, is taking the heat.",
+        "Institutions are wavering and publics are angry.",
+        "Public fury can produce bad outcomes, but the current debates and movements are revealing clear failures of governance and leadership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Paul", "references": ["Paul"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Brexit is a clear sign that the political iceberg of the post-war period is melting fast"]},
+      "justifications": [
+        "Brexit, Paul warned, is a clear sign that the political iceberg of the post-war period is melting fast."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Russian Federation", "references": ["Russian Federation"]},
+      "entity2": {"entity": "USSR", "references": ["USSR"]},
+      "justifications": [
+        "The emergent Russian Federation was declared by the Council to be the successor to the USSR."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["European Union"]},
+      "entity2": {"entity": "Security Council", "references": ["European Union", "The Club would certainly try to put in a fix again", "Perhaps the European Union would make a play to take over the fifth Permanent seat"]},
+      "justifications": [
+        "Perhaps the European Union would make a play to take over the fifth Permanent seat."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "India", "references": ["India"]},
+      "entity2": {"entity": "Security Council", "references": ["Perhaps India would insist"]},
+      "justifications": [
+        "Perhaps India would insist."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

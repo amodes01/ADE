@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "target": {"topic": "EU military capabilities", "references": ["EU's drive towards creation of duplicative military capabilities and structures"]},
+      "justifications": ["The EU's drive towards creation of duplicative military capabilities and structures has only detracted from the NATO alliance by siphoning off scarce funds for defense."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "target": {"topic": "NATO", "references": ["NATO", "NATO alliance"]},
+      "justifications": ["A European Union complete with the United Kingdom did not stop Putin from attacking Georgia in 2008 or Ukraine in 2014.", "The UK has the world's fifth-largest military budget, is a founding member of NATO, is a member of the Five Eyes intelligence-sharing community and retains strong bilateral security ties with the United States.", "Former NATO Supreme Allied Commander James Stravridis...wrote that the United Kingdom will have additional ships, troops, and aircraft to deploy on NATO missions because they will not have to support EU military efforts."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["The EU will no longer be a competitor in the UK for pounds and capabilities best reserved for NATO.", "A UK post-Brexit is also now politically freed from an EU that the United States often clashed with."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "target": {"topic": "Putin's Russia", "references": ["Putin", "Putin's Russia"]},
+      "justifications": ["It's hard to see how a sovereign Britain, whose economy will emerge stronger in the long term, standing alongside the United States in a reinvigorated special relationship, is anything but a net loss for Putin."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["The United Kingdom can now stand shoulder to shoulder with the United States without having to placate countries on the continent keen to take a softer approach towards Putin's Russia."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["United States"]},
+      "target": {"topic": "Putin's Russia", "references": ["Putin's Russia"]},
+      "justifications": ["Serving as the military bulwark of NATO, holding our European friends together over economic sanctions against Russia, continuing to channel support to our friends in places such as Ukraine and Georgia-this is the role of a superpower."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "entity2": {"entity": "Putin", "references": ["Putin"]},
+      "justifications": ["It's hard to see how a sovereign Britain, whose economy will emerge stronger in the long term, standing alongside the United States in a reinvigorated special relationship, is anything but a net loss for Putin."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Putin", "references": ["Putin"]},
+      "justifications": ["Serving as the military bulwark of NATO, holding our European friends together over economic sanctions against Russia, continuing to channel support to our friends in places such as Ukraine and Georgia-this is the role of a superpower."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["A UK post-Brexit is also now politically freed from an EU that the United States often clashed with.", "The EU will no longer be a competitor in the UK for pounds and capabilities best reserved for NATO."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": ["The UK has the world's fifth-largest military budget, is a founding member of NATO, is a member of the Five Eyes intelligence-sharing community and retains strong bilateral security ties with the United States.", "The United Kingdom can now stand shoulder to shoulder with the United States without having to placate countries on the continent keen to take a softer approach towards Putin's Russia."],
+      "attitude": "Positive"
+    }
+  ]
+}

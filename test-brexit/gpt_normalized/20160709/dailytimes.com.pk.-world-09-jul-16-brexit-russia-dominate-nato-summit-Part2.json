@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Russia",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "US missile defence system in South Korea",
+        "references": [
+          "US deployment of an advanced missile defence system in South Korea"
+        ]
+      },
+      "justifications": [
+        "Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "China",
+        "references": [
+          "the US"
+        ]
+      },
+      "target": {
+        "topic": "US missile defence system in South Korea",
+        "references": [
+          "US deployment of an advanced missile defence system in South Korea"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Russia",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": [
+          "the US"
+        ]
+      },
+      "justifications": [
+        "Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "China",
+        "references": [
+          "the US"
+        ]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": [
+          "the US"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Russia",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": [
+          "the US"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

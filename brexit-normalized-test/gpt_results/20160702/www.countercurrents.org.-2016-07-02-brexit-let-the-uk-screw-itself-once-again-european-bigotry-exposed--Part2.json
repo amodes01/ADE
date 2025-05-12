@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "target": {
+        "topic": "global system",
+        "references": ["global system"]
+      },
+      "justifications": [
+        "there is no one, virtually no one in Europe left, who would want to change this present global system, from top to bottom"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "target": {
+        "topic": "refugees",
+        "references": ["refugees"]
+      },
+      "justifications": [
+        "many unemployed Europeans are still driving their cars, flying all over the world in search of perfect vacations, enjoying virtually free education, medical care, parks, cultural institutions, public transportation and countless other benefits"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "target": {
+        "topic": "moral issues",
+        "references": ["moral issues"]
+      },
+      "justifications": [
+        "there is no need for referendums discussing such 'irrelevant' moral issues"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "target": {
+        "topic": "European culture",
+        "references": ["European culture"]
+      },
+      "justifications": [
+        "For the United States is nothing else other than a grand European 'project'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "target": {
+        "topic": "capitalist system",
+        "references": ["capitalist system"]
+      },
+      "justifications": [
+        "What is the 'capitalist system' really, if not the legitimate (although philosophically and ethically perverse) brainchild of the West, unnaturally and violently forced down the throats of people on all continents of our Planet?"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "There is no doubt that Europe is the closest ally of the United States"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "entity2": {
+        "entity": "European settlers",
+        "references": ["European settlers"]
+      },
+      "justifications": [
+        "European settlers robbed natives of their land first, and then exterminated almost all of them"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Europe",
+        "references": ["Europe"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "No matter how barbarically the United States has been behaving abroad, in both 20th and 21st centuries, it has never really managed to catch up (although it certainly tried hard) with that unbridled European savagery"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

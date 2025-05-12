@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "Brexit", "references": ["flight towards the side of a mountain", "recklessness", "the second door", "the worst of societal breakdown"] },
+      "justifications": [
+        "Britain is now committed to a flight towards the side of a mountain, on a whim of recklessness that appears more fantastically dumb with each passing day."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "Brexit", "references": ["lost any moral authority in the world"] },
+      "justifications": [
+        "We have lost any moral authority in the world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "Brexit", "references": ["economy", "societal breakdown", "international partners"] },
+      "justifications": [
+        "Our economy may recover and we may avoid the worst of societal breakdown (may being the key word) but as tragedy descends into a farce that could run for longer than Run For Your Wife, that most elusive of qualities will be the hardest thing of all to recapture."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Leavers", "references": ["Leavers"] },
+      "entity2": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "justifications": [
+        "We knew Johnson did not believe in Leave. We knew he was a chancer."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leavers", "references": ["Leavers"] },
+      "entity2": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "justifications": [
+        "We knew... we knew Gove had no plans."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leavers", "references": ["Leavers"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "We knew companies would freeze their investment. We knew recruitment would grind to a halt. We knew firms would make plans to relocate outside the UK."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leavers", "references": ["Leavers"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "We knew their claim for the £350m - a figure which will live in infamy - to the NHS was untrue."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leave", "references": ["Leave"] },
+      "entity2": { "entity": "Leavers", "references": ["Leavers"] },
+      "justifications": [
+        "Leave had no plans. They admitted it."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Leave", "references": ["Leave"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Leave called these suggestions 'scaremongering', since revealed as 'fact', that most lonely of nouns."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

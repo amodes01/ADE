@@ -1,0 +1,68 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "move to Canada", "references": ["how do I move to Canada"]},
+      "justifications": ["Google searches for 'how do I move to Canada' spiked in the UK following the Brexit vote"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "move to Canada", "references": ["how do I move to Canada"]},
+      "justifications": ["Google searches for 'how do I move to Canada' spiked in the UK following the Brexit vote, in inverse correlation to the value of the pound"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "immigration", "references": ["immigrants", "move to Canada", "deserters from America's subsequent wars", "Syrian refugees"]},
+      "justifications": [
+        "So it's in part thanks to Nixon that I now live and work in Toronto, having carried on the family tradition of making existential life decisions without thinking them through by using my Canadian passport to move from Australia.",
+        "The Canada I moved to seven years ago was thought of as a pleasant backwater: cold, bland.",
+        "The next great wave of refugees arrived in the late 1960s and early 70s, when between 50,000 and 100,000 Americans chose to live in Canada rather than to fight in the Vietnam War.",
+        "Deserters from America's subsequent wars continue to seek refuge here, as do Syrian refugees fleeing the consequences of those same wars."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["Google searches for 'how do I move to Canada' spiked in the UK following the Brexit vote, in inverse correlation to the value of the pound"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Michael Gove", "references": ["Michael Gove"]},
+      "justifications": ["how to move? And can it be done before Michael Gove and Donald Trump begin fumbling with launch codes in their sweaty fists?"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Doukhobors", "references": ["Doukhobors"]},
+      "entity2": {"entity": "Canada", "references": ["Canada"]},
+      "justifications": [
+        "Upon experiencing the reality of life in the prairies of western Canada, the Doukhobors regretted their decision, and devised a plan to return to Russia",
+        "Canadians are a patient people, but only to a point."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Doukhobors", "references": ["Doukhobors"]},
+      "entity2": {"entity": "Canada", "references": ["Canada"]},
+      "justifications": ["The most devout of the Doukhobors now live in Azerbaijan."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "First Nations", "references": ["First Nations"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["Their First Nations ancestors were later displaced by Americans, loyal to the British crown, who fled the Revolutionary War."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nixon", "references": ["Nixon"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["One of those Americans was my grandfather. When Nixon was elected vice-president in 1952, my grandfather made good on that perennial threat of outraged American liberals throughout history: he loaded the family into the station wagon, drove up the coast from Orange County to Salmon Arm, British Columbia, and settled in Canada."],
+      "attitude": "Negative"
+    }
+  ]
+}

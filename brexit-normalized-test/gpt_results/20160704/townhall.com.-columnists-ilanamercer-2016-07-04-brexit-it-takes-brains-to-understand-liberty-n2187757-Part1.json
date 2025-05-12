@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "European Union", "references": ["EU", "European Parliament"]},
+      "justifications": [
+        "Farage had emerged exhilarated from the coven that is the European Parliament, where he had shared some home truths with the ponces leeching off Britain.",
+        "The EU had, \"by stealth by deception, and without ever telling the truth to the British and European people, imposed political union upon them.\"",
+        "Farage went on to impress upon EU parliamentarians-none of whom had \"held a proper job\" in their lives."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "sovereignty", "references": ["sovereignty", "regional autonomy", "independence"]},
+      "justifications": [
+        "Farage, however, spoke to some difficult ideas with ease, and without notes. The act of secession, the quests for sovereignty, decentralization and regional autonomy from a second tier of tyrants-the first being the national, British government-involve comprehending complicated ideas.",
+        "We want to be an independent self-governing nation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "multinationals", "references": ["multinationals", "merchant banks", "Big Politics"]},
+      "justifications": [
+        "What the ordinary people did, what the people who have been oppressed have done is to reject the multinationals, reject the merchant banks, reject Big Politics."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "national government", "references": ["British government"]},
+      "justifications": [
+        "The first being the national, British government-involve comprehending complicated ideas."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "target": {"topic": "democracy", "references": ["the will of the British people", "democracy"]},
+      "justifications": [
+        "The will of the British people would be heeded forthwith."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Lord Halifax", "references": ["Lord Halifax"]},
+      "entity2": {"entity": "Lord Keynes", "references": ["Lord Keynes"]},
+      "justifications": [
+        "Lord Halifax is said to have whispered to Lord Keynes: 'It's true: they have the money bags but we have all the brains.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Lord Halifax", "references": ["Lord Halifax"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": [
+        "By 'they,' Halifax meant the Americans."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Lord Halifax", "references": ["Lord Halifax"]},
+      "entity2": {"entity": "British elites", "references": ["Britain's elites"]},
+      "justifications": [
+        "As odious as Britain's elites are; boy, are they cleverer than ours."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

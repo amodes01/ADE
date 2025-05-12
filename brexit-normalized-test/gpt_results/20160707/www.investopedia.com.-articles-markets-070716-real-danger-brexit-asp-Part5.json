@@ -1,0 +1,133 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Switzerland",
+        "references": ["Switzerland"]
+      },
+      "target": {
+        "topic": "European Free Trade Association (EFTA)",
+        "references": ["European Free Trade Association (EFTA)"]
+      },
+      "justifications": [
+        "Switzerland is a member of the European Free Trade Association."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Switzerland",
+        "references": ["Switzerland"]
+      },
+      "target": {
+        "topic": "European Economic Area (EEA)",
+        "references": ["EEA"]
+      },
+      "justifications": [
+        "Switzerland's relationship with the EU, which is governed by around 20 major bilateral pacts with the bloc, is broadly similar to the EEA arrangement."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Switzerland",
+        "references": ["Switzerland"]
+      },
+      "target": {
+        "topic": "EU Customs Union",
+        "references": ["customs union"]
+      },
+      "justifications": [
+        "It is outside the customs union, allowing it to negotiate free trade agreements with third countries."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Swiss model",
+        "references": ["Switzerland's relationship with the EU"]
+      },
+      "justifications": [
+        "The EU would probably not have wanted a relationship modeled on the Swiss example, either."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Swiss concessions on immigration, budget payments, and single-market rules",
+        "references": ["concessions that the Swiss made on immigration, budget payments, and single-market rules"]
+      },
+      "justifications": [
+        "Brexit supporters who wanted to 'take back control' would not have embraced the concessions that the Swiss made on immigration, budget payments, and single-market rules."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK",
+        "references": ["U.K."]
+      },
+      "target": {
+        "topic": "European Free Trade Association (EFTA)",
+        "references": ["European Free Trade Association (EFTA)"]
+      },
+      "justifications": [
+        "The UK had only two years from triggering Article 50 to negotiate such a deal."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Switzerland",
+        "references": ["Switzerland"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The EU would probably not have wanted a relationship modeled on the Swiss example, either."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "entity2": {
+        "entity": "Switzerland",
+        "references": ["Switzerland"]
+      },
+      "justifications": [
+        "The EU would probably not have wanted a relationship modeled on the Swiss example, either."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Philip Hammond",
+        "references": ["Chancellor of the Exchequer Philip Hammond"]
+      },
+      "entity2": {
+        "entity": "Brexit supporters",
+        "references": ["hardline Brexiteers"]
+      },
+      "justifications": [
+        "Several U.K. politicians, including Chancellor of the Exchequer Philip Hammond, stressed the need for a transitional deal of a few years so that (among other reasons) Britain could negotiate EU and third-country trade deals.",
+        "This notion was met with resistance from hardline Brexiteers."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

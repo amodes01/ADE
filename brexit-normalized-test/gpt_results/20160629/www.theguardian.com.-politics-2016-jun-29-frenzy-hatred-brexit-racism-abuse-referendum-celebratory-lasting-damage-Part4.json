@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Bagguley",
+        "references": ["Bagguley"]
+      },
+      "target": {
+        "topic": "racist attacks",
+        "references": ["racist attacks"]
+      },
+      "justifications": [
+        "If people get away with [racist attacks], then the next time there is a reason to have a go, they will."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bagguley",
+        "references": ["Bagguley"]
+      },
+      "target": {
+        "topic": "social fabric",
+        "references": ["social fabric"]
+      },
+      "justifications": [
+        "if these attacks go unchallenged, the damage to our social fabric could be lasting"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Bagguley",
+        "references": ["Bagguley"]
+      },
+      "entity2": {
+        "entity": "Imran Rahman-Jones",
+        "references": ["Imran Rahman-Jones"]
+      },
+      "justifications": [
+        "Additional reporting by Imran Rahman-Jones."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

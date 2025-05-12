@@ -1,0 +1,230 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Britain has come full circle."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "There will gradually emerge a German-led bloc."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "France",
+        "references": ["French"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The French will revive, after years of political floundering, as they always do eventually, and will more or less be at the head of the Mediterranean group."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Eastern European members",
+        "references": ["Eastern European members"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The Eastern European members will progress at their own rate toward the French- or German-led groups."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "It will be better government for Europe, and a great chance for Canada."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "target": {
+        "topic": "EU economic integration",
+        "references": ["Common Market"]
+      },
+      "justifications": [
+        "It will be better government for Europe, and a great chance for Canada."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "entity2": {
+        "entity": "France",
+        "references": ["French"]
+      },
+      "justifications": [
+        "The French will revive, after years of political floundering, as they always do eventually, and will more or less be at the head of the Mediterranean group."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "Britain will revert to its game, played with great skill from Wolsey to Thatcher, of being friendly with all but shifting its weight as necessary to prevent the worrisome pre-eminence of any."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "There will gradually emerge a German-led bloc."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "justifications": [
+        "Britain will revert to its game, played with great skill from Wolsey to Thatcher, of being friendly with all but shifting its weight as necessary to prevent the worrisome pre-eminence of any."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Britain has come full circle."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "France",
+        "references": ["French"]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "justifications": [
+        "The French will revive, after years of political floundering, as they always do eventually, and will more or less be at the head of the Mediterranean group."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Eastern European members",
+        "references": ["Eastern European members"]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "justifications": [
+        "The Eastern European members will progress at their own rate toward the French- or German-led groups."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Eastern European members",
+        "references": ["Eastern European members"]
+      },
+      "entity2": {
+        "entity": "France",
+        "references": ["French"]
+      },
+      "justifications": [
+        "The Eastern European members will progress at their own rate toward the French- or German-led groups."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "entity2": {
+        "entity": "Conrad Black",
+        "references": ["Conrad Black"]
+      },
+      "justifications": [
+        "Conrad Black is the founder of the National Post. His columns regularly appear in the National Post on Saturdays."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "entity2": {
+        "entity": "ZoomerMedia Ltd.",
+        "references": ["ZoomerMedia Ltd."]
+      },
+      "justifications": [
+        "Mr. Black graciously allowed us to reprint this article on CFN."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

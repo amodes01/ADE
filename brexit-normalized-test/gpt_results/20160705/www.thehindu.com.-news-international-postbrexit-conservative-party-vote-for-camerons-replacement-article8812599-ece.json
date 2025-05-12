@@ -1,0 +1,89 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "target": {"topic": "EU nationals", "references": ["position of the EU nationals already present in the U.K."]},
+      "justifications": [
+        "Ms. May is believed to have said that the position of the EU nationals already present in the U.K. would be decided in negotiations with the EU.",
+        "In other words, she is not prepared to assure their continued stay."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Andrea Leadsom", "references": ["Ms. Leadsom"]},
+      "target": {"topic": "EU nationals", "references": ["support a continued stay of EU nationals - those already living and working here."]},
+      "justifications": [
+        "Ms. Leadsom has promised to activate the Brexit process as soon as she is elected.",
+        "She supports a continued stay of EU nationals - those already living and working here."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Stephen Crabb", "references": ["Stephen Crabb"]},
+      "target": {"topic": "EU nationals", "references": ["promised not to use EU citizens as a 'bargaining chip'", "assuring them that they would be allowed to stay."]},
+      "justifications": [
+        "Stephen Crabb has promised not to use EU citizens as a 'bargaining chip' in the negotiations, assuring them that they would be allowed to stay."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Liam Fox", "references": ["Liam Fox"]},
+      "target": {"topic": "EU nationals", "references": ["access to the single market is not an option that he will pursue if it entails the free movement of people."]},
+      "justifications": [
+        "Liam Fox's position is that access to the single market is not an option that he will pursue if it entails the free movement of people."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Michael Gove", "references": ["Mr. Gove"]},
+      "target": {"topic": "EU nationals", "references": ["if elected, he would trigger Article 50 of the Lisbon Treaty only after extensive negotiations."]},
+      "justifications": [
+        "Mr. Gove has said that if elected, he would trigger Article 50 of the Lisbon Treaty only after extensive negotiations."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": [
+        "Nigel Farage, the outspoken leader of the United Kingdom Independence Party (UKIP) and the face of euroscepticism in the >U.K., stepped down as leader of his party."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": [
+        "On Tuesday, the process of selecting a new Conservative party leader to replace David Cameron as the Prime Minister had begun."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Ms. Leadsom has 42 declared supporters, including former London Mayor Boris Johnson."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Theresa May", "references": ["Theresa May"]},
+      "entity2": {"entity": "Conservative party", "references": ["Conservative party"]},
+      "justifications": [
+        "Ms. May has the highest support among the five with 132 out of the 330 Conservative MPs backing her."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Andrea Leadsom", "references": ["Ms. Leadsom"]},
+      "justifications": [
+        "Ms. Leadsom has 42 declared supporters, including former London Mayor Boris Johnson."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

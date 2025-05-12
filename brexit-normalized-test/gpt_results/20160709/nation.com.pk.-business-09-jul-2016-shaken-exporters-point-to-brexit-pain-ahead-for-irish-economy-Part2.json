@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Ireland", "references": ["Ireland"]},
+      "target": {"topic": "economic growth", "references": ["forecast GDP growth", "growth", "Ireland's economy"]},
+      "justifications": ["Ireland's economy is forecast to be Europe's best performing for a third straight year"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Ireland", "references": ["Ireland"]},
+      "target": {"topic": "public debt", "references": ["public debt", "debt-to-GDP ratio"]},
+      "justifications": ["it needs all the growth it can get to cut a public debt", "it would cause the debt-to-GDP ratio to stagnate at current high levels before rising again by the end of the decade"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ireland", "references": ["Ireland"]},
+      "target": {"topic": "employment", "references": ["grow the workforce", "jobs", "layoffs"]},
+      "justifications": ["That could scupper government plans to grow the workforce by 12 percent to 2.2 million over the next six years", "this will cost jobs in Ireland"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Ireland", "references": ["Ireland"]},
+      "target": {"topic": "business stability", "references": ["stability", "confidence to invest"]},
+      "justifications": ["There is no stability right now and I do not think there will be for some time"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Byrne", "references": ["Byrne"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": ["Byrne said she could look to the United States but differing state laws make the process far more complex for her risk analytics"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Byrne", "references": ["Byrne"]},
+      "entity2": {"entity": "Irish trade bodies", "references": ["trade bodies"]},
+      "justifications": ["Irish firms are being encouraged by trade bodies to look to new markets"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jimmy McGee", "references": ["Jimmy McGee"]},
+      "entity2": {"entity": "Ireland", "references": ["Ireland"]},
+      "justifications": ["I believe this will cost jobs in Ireland. It's just too large"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jimmy McGee", "references": ["Jimmy McGee"]},
+      "entity2": {"entity": "Athlone Extrusions", "references": ["Athlone Extrusions"]},
+      "justifications": ["confident layoffs will not be needed at his firm because it exports sheeting for baths and shower trays to 41 countries other than the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jimmy McGee", "references": ["Jimmy McGee"]},
+      "entity2": {"entity": "economic downturns", "references": ["downturns", "difficult times"]},
+      "justifications": ["Experienced exporters like 65-year-old Jimmy McGee, owner of the Athlone Extrusions manufacturing firm, have been through enough downturns to know that difficult times may lie ahead"],
+      "attitude": "Neutral"
+    }
+  ]
+}

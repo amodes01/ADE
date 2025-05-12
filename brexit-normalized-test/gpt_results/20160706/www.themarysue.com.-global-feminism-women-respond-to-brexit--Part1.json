@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "impact on women", "references": ["how women need to be a part of the post-Brexit conversation", "issues like childcare, closing the pay gap", "legislation that came about because of the EU to improve the lives of women"] },
+      "justifications": [
+        "Sophie Walker, current leader of the UK's Women's Equality Party, wrote a piece for The Telegraph about how women need to be a part of the post-Brexit conversation.",
+        "Sophie Walker says that issues like childcare, closing the pay gap, and the UK ratifying the pan-European Istanbul Convention to end violence against women and girls have to be a part of the conversation moving forward.",
+        "Sophie Walker expresses concern about legislation that came about because of the EU to improve the lives of women."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "legislation improving women's lives", "references": ["legislation prompted by membership of the EU that - while creaky in places - has done much to enhance the lives of women workers"] },
+      "justifications": [
+        "Sophie Walker expresses concern about legislation that came about because of the EU to improve the lives of women."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Women's contribution to EU debate", "references": ["women's major contribution to the EU debate so far has been to say that more women should contribute to the EU debate"] },
+      "justifications": [
+        "Helen Lewis said that '[I]f you were feeling waspish, you might conclude that women's major contribution to the EU debate so far has been to say that more women should contribute to the EU debate.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Sophie Walker", "references": ["Sophie Walker"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Sophie Walker, current leader of the UK's Women's Equality Party, wrote a piece for The Telegraph about how women need to be a part of the post-Brexit conversation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Helen Lewis", "references": ["Helen Lewis"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Helen Lewis said that '[I]f you were feeling waspish, you might conclude that women's major contribution to the EU debate so far has been to say that more women should contribute to the EU debate.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jo Cox", "references": ["Jo Cox"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Jo Cox was tragically killed by a man who screamed 'Britain first,' apparently targeting her because of her liberal stance on immigration and her desire for the UK to remain a part of the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "The Guardian", "references": ["The Guardian"] },
+      "entity2": { "entity": "Sophie Walker", "references": ["Sophie Walker"] },
+      "justifications": [
+        "The Guardian's Helen Lewis said that '[I]f you were feeling waspish, you might conclude that women's major contribution to the EU debate so far has been to say that more women should contribute to the EU debate.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

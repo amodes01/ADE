@@ -1,0 +1,105 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Mr Obama had said a post-Brexit, US-UK trade deal would be a long time coming - because America would focus first on big blocs such as the EU.",
+        "Mr Obama also advised the British electorate against voting to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "US-UK trade deal",
+        "references": ["US-UK trade deal"]
+      },
+      "justifications": [
+        "Mr Obama had said a post-Brexit, US-UK trade deal would be a long time coming - because America would focus first on big blocs such as the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Vote Leave campaign",
+        "references": ["Vote Leave campaign"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The Vote Leave campaign went into the EU referendum insisting that Brexit would mean Britian gaining the power to strike its own trade deals."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Vote Leave campaign",
+        "references": ["Vote Leave campaign"]
+      },
+      "target": {
+        "topic": "US-UK trade deal",
+        "references": ["new deals with countries all over the world"]
+      },
+      "justifications": [
+        "Its website said: 'We can speak for ourselves and sign new deals with countries all over the world, creating new jobs and new investment opportunities.'"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Matthew Barzun",
+        "references": ["Matthew Barzun"]
+      },
+      "justifications": [
+        "Mr Barzun, who helped orchestrate the grassroots campaign that was a key part of Mr Obama's first presidential election victory in 2008, told Desert Island Discs that the President had felt compelled to warn about Brexit because of the special relationship between the UK and the US."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "Brexit campaigners dismissed the warning, however, with Nigel Farage accusing Mr Cameron of putting words in the US President's mouth."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Richard Tice",
+        "references": ["Richard Tice"]
+      },
+      "justifications": [
+        "Leave.Eu co-founder Richard Tice insisting: 'Obama does not have the authority to deny us a deal, as he will be long gone before any such proposals are on the table.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

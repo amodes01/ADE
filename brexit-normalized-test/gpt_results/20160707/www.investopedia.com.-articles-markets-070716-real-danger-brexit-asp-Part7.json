@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["Marine Le Pen, the leader of France's Euroskeptic National Front, hailed the Brexit vote as a win for nationalism and sovereignty across Europe."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Emmanuel Macron", "references": ["Emmanuel Macron"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["He won the election again in 2022, beating Le Pen once more."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": ["Marine Le Pen, the leader of France's Euroskeptic National Front, hailed the Brexit vote as a win for nationalism and sovereignty across Europe."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Matteo Salvini", "references": ["Matteo Salvini"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": ["Matteo Salvini, the far-right head of Italy's Northern League and the country's deputy prime minister, called for a referendum on EU membership hours after the Brexit vote."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Matteo Salvini", "references": ["Matteo Salvini"]},
+      "target": {"topic": "EU membership referendum", "references": ["referendum on EU membership"]},
+      "justifications": ["Matteo Salvini, the far-right head of Italy's Northern League and the country's deputy prime minister, called for a referendum on EU membership hours after the Brexit vote."]
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "entity2": {"entity": "Emmanuel Macron", "references": ["Emmanuel Macron"]},
+      "justifications": ["She lost the French presidential election to Emmanuel Macron in May 2017, gaining just 33.9% of votes.", "He won the election again in 2022, beating Le Pen once more."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "entity2": {"entity": "Matteo Salvini", "references": ["Matteo Salvini"]},
+      "justifications": ["Marine Le Pen, the leader of France's Euroskeptic National Front, hailed the Brexit vote as a win for nationalism and sovereignty across Europe.", "Matteo Salvini, the far-right head of Italy's Northern League and the country's deputy prime minister, called for a referendum on EU membership hours after the Brexit vote."]
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["EU", "European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "UK vote to exit the EU"]},
+      "justifications": ["Global investment banks, who have long coveted an operational presence in London, are contemplating moving operations from Europe's financial capital to elsewhere within the continent, following the UK's vote to exit the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU", "European Union"]},
+      "target": {"topic": "European banking passport system", "references": ["European banking passport system"]},
+      "justifications": ["EU officials insist that, in order for the UK to keep its current level of market access, the government would need to agree to free movement of labour."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK government"]},
+      "target": {"topic": "European banking passport system", "references": ["European banking passport system"]},
+      "justifications": ["EU officials insist that, in order for the UK to keep its current level of market access, the government would need to agree to free movement of labour."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Global investment banks", "references": ["Global investment banks"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Global investment banks, who have long coveted an operational presence in London, are contemplating moving operations from Europe's financial capital to elsewhere within the continent, following the UK's vote to exit the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "ING", "references": ["ING"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["major European banks, including but not limited to ING, BNP Paribas and Deutsche Bank - while expressing their dismay at a potential Brexit on the horizon - say they can avail the banking passport via connections to their respective home markets namely the Netherlands, France and Germany."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "BNP Paribas", "references": ["BNP Paribas"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["major European banks, including but not limited to ING, BNP Paribas and Deutsche Bank - while expressing their dismay at a potential Brexit on the horizon - say they can avail the banking passport via connections to their respective home markets namely the Netherlands, France and Germany."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Deutsche Bank", "references": ["Deutsche Bank"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["major European banks, including but not limited to ING, BNP Paribas and Deutsche Bank - while expressing their dismay at a potential Brexit on the horizon - say they can avail the banking passport via connections to their respective home markets namely the Netherlands, France and Germany."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Societe Generale", "references": ["Societe Generale"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Societe Generale, another French bank with a major presence in London, confirmed to IBTimes UK that it had no plans to give up on the UK market."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Morgan Stanley", "references": ["Morgan Stanley"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["A spokesperson for Morgan Stanley said: \"Such claims are factually incorrect. We would consider an adjustment to our operating model in Europe, Middle East and Africa (EMEA) only when the full impact of the referendum outcome becomes clear.\""]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Goldman for its part also rebuffed speculation. \"We have not made any changes to our real estate requirements in Frankfurt as a result of the referendum result. There is no immediate change to the way we conduct our business or where we conduct our business.\""]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Standard Chartered", "references": ["Standard Chartered"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Asia-focused Standard Chartered bank which has confirmed it would not be moving any UK staff."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "HSBC", "references": ["HSBC"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Recent rumours have surrounded HSBC - with reports suggesting it could move as many as 1,000 jobs to Paris - but the bank has declined comment."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "RBS", "references": ["RBS"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["RBS and Lloyds Bank have also declined comment on their respective plans."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Lloyds Bank", "references": ["Lloyds Bank"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["RBS and Lloyds Bank have also declined comment on their respective plans."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Barclays", "references": ["Barclays"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Barclays said it has no plans to move jobs out of the UK."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Confederation of British Industry", "references": ["Confederation of British Industry"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["lobby groups Confederation of British Industry and Institute of Directors have clung on to their dire pre-referendum forecasts of job losses."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Institute of Directors", "references": ["Institute of Directors"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["lobby groups Confederation of British Industry and Institute of Directors have clung on to their dire pre-referendum forecasts of job losses."]
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK Government", "references": ["UK government"]},
+      "entity2": {"entity": "European Commission", "references": ["European commission"]},
+      "justifications": ["subsequent talks between it and the European commission could last as long as two years."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Societe Generale", "references": ["Societe Generale"]},
+      "entity2": {"entity": "UK Government", "references": ["UK government"]},
+      "justifications": ["We have been in the UK since 1871 and have no intention of giving up on London which remains an important market for us."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "entity2": {"entity": "Morgan Stanley", "references": ["Morgan Stanley"]},
+      "justifications": ["Goldman for its part also rebuffed speculation.", "\"We have not made any changes to our real estate requirements in Frankfurt as a result of the referendum result. There is no immediate change to the way we conduct our business or where we conduct our business.\""]
+      "attitude": "Neutral"
+    }
+  ]
+}

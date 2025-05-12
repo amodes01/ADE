@@ -1,0 +1,244 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "target": {
+        "topic": "global economy",
+        "references": ["global economy"]
+      },
+      "justifications": [
+        "Most of the areas where EU laws take precedence set the business norms and standards that all nations must observe in a global economy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "target": {
+        "topic": "worker protection",
+        "references": ["levels of protection for workers"]
+      },
+      "justifications": [
+        "Some establish levels of protection for workers."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "target": {
+        "topic": "environmental controls",
+        "references": ["environmental controls"]
+      },
+      "justifications": [
+        "Others, environmental controls."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "target": {
+        "topic": "Single Market",
+        "references": ["Single Market"]
+      },
+      "justifications": [
+        "In short, most of these laws we should welcome or at least accept are necessary to trade in the Single Market."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Brexiteers",
+        "references": ["Brexiteers"]
+      },
+      "target": {
+        "topic": "EU laws",
+        "references": ["EU laws"]
+      },
+      "justifications": [
+        "The harsh reality - an irony here for the Brexiteers - is that the House of Commons is poor when it comes to overseeing our EU policies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "EU laws",
+        "references": ["EU laws"]
+      },
+      "justifications": [
+        "It is also wrong to argue, as Nigel Farage does frequently, that EU laws are imposed by unelected bureaucrats in the European Commission."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "House of Lords",
+        "references": ["House of Lords"]
+      },
+      "target": {
+        "topic": "overseeing EU policies",
+        "references": ["overseeing our EU policies"]
+      },
+      "justifications": [
+        "The unelected House of Lords actually does a much better job, as do the national parliaments in Denmark, Sweden and the Netherlands for example."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "House of Commons",
+        "references": ["House of Commons"]
+      },
+      "target": {
+        "topic": "overseeing EU policies",
+        "references": ["overseeing our EU policies"]
+      },
+      "justifications": [
+        "The harsh reality - an irony here for the Brexiteers - is that the House of Commons is poor when it comes to overseeing our EU policies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "A Brexit will trigger a new Scottish referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "A Brexit will trigger a new Scottish referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Leave camp",
+        "references": ["Leave camp"]
+      },
+      "target": {
+        "topic": "Irish border controls",
+        "references": ["border controls between Ireland and Northern Ireland"]
+      },
+      "justifications": [
+        "The Leave camp say that the border will remain \"open\" under Brexit - but it cannot if they want \"to control our borders\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Ireland",
+        "references": ["Ireland"]
+      },
+      "target": {
+        "topic": "Schengen",
+        "references": ["Schengen"]
+      },
+      "justifications": [
+        "Ireland did not sign up to Schengen, preferring instead to opt for its current passport free status (shared with the Channel Islands and Isle of Man) as part of the Common Travel Area."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Sir James Dyson",
+        "references": ["Sir James Dyson"]
+      },
+      "entity2": {
+        "entity": "Sir Anthony Bamford",
+        "references": ["Sir Anthony Bamford"]
+      },
+      "justifications": [
+        "I was surprised recently when Sir James Dyson and Sir Anthony Bamford - both founders and leaders of extraordinarily successful global businesses - came out in favour of Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Sir James Dyson",
+        "references": ["Sir James Dyson"]
+      },
+      "entity2": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "justifications": [
+        "Dyson has failed in an EU legal challenge to competitor labelling practices."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Sir Anthony Bamford",
+        "references": ["Sir Anthony Bamford"]
+      },
+      "entity2": {
+        "entity": "EU laws",
+        "references": ["EU laws"]
+      },
+      "justifications": [
+        "Bamford has lost a six-year battle against a €39 million fine by the Commission for anti-trust breaches."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "EU Commission",
+        "references": ["European Commission"]
+      },
+      "justifications": [
+        "It is also wrong to argue, as Nigel Farage does frequently, that EU laws are imposed by unelected bureaucrats in the European Commission."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "House of Commons",
+        "references": ["House of Commons"]
+      },
+      "entity2": {
+        "entity": "House of Lords",
+        "references": ["House of Lords"]
+      },
+      "justifications": [
+        "The unelected House of Lords actually does a much better job, as do the national parliaments in Denmark, Sweden and the Netherlands for example."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

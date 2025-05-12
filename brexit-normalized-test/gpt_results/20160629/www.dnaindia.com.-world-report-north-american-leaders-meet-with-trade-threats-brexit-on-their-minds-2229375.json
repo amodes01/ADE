@@ -1,0 +1,112 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "NAFTA", "references": ["NAFTA"]},
+      "justifications": [
+        "The US presidential hopeful Donald Trump has vowed to scrap the agreement.",
+        "Trump says free trade has been disastrous for American workers, costing countless thousands of jobs and depressing wages."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "target": {"topic": "trade agreements", "references": ["trade agreements"]},
+      "justifications": [
+        "\"We have seen around the world many examples of protectionism, of concern, of stepping away from trade agreements,\" Canadian Prime Minister Justin Trudeau told reporters on Tuesday, stressing the need for more rather than less cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Mark Feierstein", "references": ["US National Security Council official Mark Feierstein"]},
+      "target": {"topic": "trade", "references": ["trade"]},
+      "justifications": [
+        "\"We anticipate that leaders will spend a significant time talking about trade, for example, how to facilitate trade by automating our borders,\" US National Security Council official Mark Feierstein told reporters on Tuesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "target": {"topic": "globalization", "references": ["globalisation"]},
+      "justifications": [
+        "\"Better partnerships are a path to prosperity and that's a compelling example that we want to showcase at a time where unfortunately people are prone to turning inwards, which will be at the cost of economic growth and their own success.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Earl Wayne", "references": ["Earl Wayne"]},
+      "target": {"topic": "NAFTA", "references": ["NAFTA"]},
+      "justifications": [
+        "Earl Wayne, Obama's former ambassador to Mexico, said that amid increasing criticism of NAFTA, leaders had to find a better way to explain that up to 14 million US jobs depend on trade with Canada and Mexico."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "clean energy", "references": ["clean energy"]},
+      "justifications": [
+        "The three men will also pledge to produce 50 percent of their nations' electricity from clean energy by 2025."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "justifications": [
+        "\"Better partnerships are a path to prosperity and that's a compelling example that we want to showcase at a time where unfortunately people are prone to turning inwards, which will be at the cost of economic growth and their own success.\"",
+        "Trump says free trade has been disastrous for American workers, costing countless thousands of jobs and depressing wages."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": [
+        "Trump says free trade has been disastrous for American workers, costing countless thousands of jobs and depressing wages."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "\"Better partnerships are a path to prosperity and that's a compelling example that we want to showcase at a time where unfortunately people are prone to turning inwards, which will be at the cost of economic growth and their own success.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Trump says free trade has been disastrous for American workers, costing countless thousands of jobs and depressing wages."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "justifications": [
+        "The three men will also pledge to produce 50 percent of their nations' electricity from clean energy by 2025."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Enrique Pena Nieto", "references": ["Mexican President Enrique Pena Nieto"]},
+      "justifications": [
+        "The leaders, known informally as the Three Amigos, usually meet about once a year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Justin Trudeau", "references": ["Canadian Prime Minister Justin Trudeau"]},
+      "entity2": {"entity": "Enrique Pena Nieto", "references": ["Mexican President Enrique Pena Nieto"]},
+      "justifications": [
+        "The leaders, known informally as the Three Amigos, usually meet about once a year."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

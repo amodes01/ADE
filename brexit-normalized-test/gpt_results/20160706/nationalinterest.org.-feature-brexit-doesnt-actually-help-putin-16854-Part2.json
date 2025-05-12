@@ -1,0 +1,95 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "sanctions against Russia", "references": ["sanctions against Russia"]},
+      "justifications": [
+        "The EU can and should retain a hard line against Russia's aggression on the continent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Blaming Brexit for a softening stance on Russia is exactly the sort of thing a group of nations with deep business interests in Russia and little stomach for continuing to stand up to aggressive behavior might do."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "political integration", "references": ["ever more political integration"]},
+      "justifications": [
+        "The EU will close ranks and seek ever more political integration-all the while blaming Brexit for problems of its own making."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["UK"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The UK's decision should be a stark wake-up call."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["UK"]},
+      "target": {"topic": "post-Brexit relationship with the US", "references": ["special relationship has a chance to grow stronger post-Brexit"]},
+      "justifications": [
+        "For the UK, the special relationship has a chance to grow stronger post-Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Russian Federation", "references": ["Russia"]},
+      "target": {"topic": "EU's stance on Russia", "references": ["Russia's aggression", "softening stance on Russia"]},
+      "justifications": [
+        "The EU can and should retain a hard line against Russia's aggression on the continent.",
+        "Blaming Brexit for a softening stance on Russia is exactly the sort of thing a group of nations with deep business interests in Russia and little stomach for continuing to stand up to aggressive behavior might do."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russian Federation", "references": ["Russia"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "For the UK, the special relationship has a chance to grow stronger post-Brexit. That would certainly mark Brexit a loss for Putin's regime."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "United Kingdom", "references": ["UK"]},
+      "justifications": [
+        "The UK's voice was more often than not drowned out, overruled and ignored in EU institutions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Russian Federation", "references": ["Russia"]},
+      "justifications": [
+        "The EU can and should retain a hard line against Russia's aggression on the continent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russian Federation", "references": ["Russia"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Blaming Brexit for a softening stance on Russia is exactly the sort of thing a group of nations with deep business interests in Russia and little stomach for continuing to stand up to aggressive behavior might do."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Russian Federation", "references": ["Russia"]},
+      "entity2": {"entity": "United Kingdom", "references": ["UK"]},
+      "justifications": [
+        "For the UK, the special relationship has a chance to grow stronger post-Brexit. That would certainly mark Brexit a loss for Putin's regime."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "I do think there will be short term ramifications of their decision that will be difficult for the British people.",
+        "But these are things that can be worked through."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "UK trade relations", "references": ["United Kingdom as a good trade partner and ally for economic and national security issues"] },
+      "justifications": [
+        "In my view, America will still have the United Kingdom as a good trade partner and ally for economic and national security issues."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "Trump's trade policy", "references": ["Trump argues that we should make sure we negotiate deals that will favor the United States"] },
+      "justifications": [
+        "Mr. Trump argues that we should make sure we negotiate deals that will favor the United States and that in open markets, our exporters and participators are treated fairly."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "Trump's business acumen", "references": ["Trump spent a lifetime in the New York real estate business", "he's got quality negotiating skills"] },
+      "justifications": [
+        "Donald Trump spent a lifetime in the New York real estate business. There is probably no more competitive, cut throat business environment than to be in New York Real estate so I am sure he's got quality negotiating skills."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "Trump's business acumen", "references": ["common sense, the ability to cut through complexities and come up with a common sense solution"] },
+      "justifications": [
+        "The key is that when it comes to thinking about public policy ideas, do you want to think about them from a business person's point of view - that is some common sense, the ability to cut through complexities and come up with a common sense solution, that leads to a faster economy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "French Hill", "references": ["French Hill"] },
+      "target": { "topic": "Trump's business acumen", "references": ["I have tried to bring those hands on business skills, negotiating skills, common sense skills and apply them to the positions I have to make in public policy"] },
+      "justifications": [
+        "Certainly I have tried to do that when I have been in Congress. I have tried to bring those hands on business skills, negotiating skills, common sense skills and apply them to the positions I have to make in public policy."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "French Hill", "references": ["French Hill"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "Mr. Trump argues that we should make sure we negotiate deals that will favor the United States and that in open markets, our exporters and participators are treated fairly.",
+        "Donald Trump spent a lifetime in the New York real estate business. There is probably no more competitive, cut throat business environment than to be in New York Real estate so I am sure he's got quality negotiating skills.",
+        "Certainly I have tried to do that when I have been in Congress. I have tried to bring those hands on business skills, negotiating skills, common sense skills and apply them to the positions I have to make in public policy."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

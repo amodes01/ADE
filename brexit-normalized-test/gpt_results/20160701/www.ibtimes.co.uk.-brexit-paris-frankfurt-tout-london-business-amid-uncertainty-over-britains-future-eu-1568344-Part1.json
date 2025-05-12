@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Mark Boleat",
+        "references": ["Mark Boleat"]
+      },
+      "target": {
+        "topic": "business environment in Paris",
+        "references": ["anti-business attitude"]
+      },
+      "justifications": [
+        "France's 'anti-business attitude' acts as a deterrent to financial companies and banks, with strict regulations on employment and tax rates of as much as 50% on high earners."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Mark Boleat",
+        "references": ["Mark Boleat"]
+      },
+      "target": {
+        "topic": "business environment in Frankfurt",
+        "references": ["employment laws", "personal tax rates", "business unfriendly"]
+      },
+      "justifications": [
+        "Their employment laws are such that it makes it a huge deterrent to employing anybody [and] their personal tax rates are excessively high. [Paris] does not have the pool of talent that is needed - partly because they are all in London. They could have it but [they do not] because it is so business unfriendly."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Mark Boleat",
+        "references": ["Mark Boleat"]
+      },
+      "entity2": {
+        "entity": "Paris",
+        "references": ["Paris"]
+      },
+      "justifications": [
+        "France's 'anti-business attitude' acts as a deterrent to financial companies and banks, with strict regulations on employment and tax rates of as much as 50% on high earners."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Mark Boleat",
+        "references": ["Mark Boleat"]
+      },
+      "entity2": {
+        "entity": "Frankfurt",
+        "references": ["Frankfurt"]
+      },
+      "justifications": [
+        "Their employment laws are such that it makes it a huge deterrent to employing anybody [and] their personal tax rates are excessively high. [Paris] does not have the pool of talent that is needed - partly because they are all in London. They could have it but [they do not] because it is so business unfriendly."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Mark Boleat",
+        "references": ["Mark Boleat"]
+      },
+      "entity2": {
+        "entity": "London",
+        "references": ["London"]
+      },
+      "justifications": [
+        "Boleat is confident that while other finance centres would like to swoop on business that may be looking to leave London, Paris and Frankfurt may struggle to compete even after Brexit."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

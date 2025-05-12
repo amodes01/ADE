@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK", "references": ["The UK"]},
+      "target": {"topic": "self-sufficiency", "references": ["self-sufficient"]},
+      "justifications": ["The UK is not self-sufficient."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["The UK"]},
+      "target": {"topic": "food prices", "references": ["food prices"]},
+      "justifications": ["Yes, really, worse: Like all affluent societies, the UK has experienced a slow but dramatic change in food prices since World War 2."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["The UK"]},
+      "target": {"topic": "food import reliance", "references": ["reliant on EU imports", "import reliance"]},
+      "justifications": ["The UK is 40% reliant on EU imports for fruit and vegetables."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "food import reliance", "references": ["reliant on EU imports", "import reliance"]},
+      "justifications": ["The UK is 40% reliant on EU imports for fruit and vegetables."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "UK", "references": ["The UK"]},
+      "target": {"topic": "tariffs on imports", "references": ["tariffs on imports"]},
+      "justifications": ["tariffs on imports if the UK was outside the EU might affect this situation."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["The UK"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["We are all going to starve because Martin Schulz is not our Parliamentary President any more."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK", "references": ["The UK"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["The UK is 40% reliant on EU imports for fruit and vegetables."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "UK", "references": ["The UK"]},
+      "entity2": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "justifications": ["We are all going to starve because Martin Schulz is not our Parliamentary President any more."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "entity2": {"entity": "UK", "references": ["The UK"]},
+      "justifications": ["We are all going to starve because Martin Schulz is not our Parliamentary President any more."],
+      "attitude": "Negative"
+    }
+  ]
+}

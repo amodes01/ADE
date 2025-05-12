@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Alyaksei Yanukevich", "references": ["Alyaksei Yanukevich"] },
+      "target": { "topic": "Brexit", "references": ["Britain's exit"] },
+      "justifications": [
+        "But opposition leaders voiced concerns that Britain's exit will play into the hands of the Kremlin by temporarily paralyzing Europe and depriving it of one its most virulent critics of Russian President Vladimir Putin.",
+        "Over the next few years, Britain and other European countries will be very busy taking care of their internal affairs, they will be building a new architecture for Europe, and this means that outside the EU, most particularly in our region, the Kremlin will have more leeway."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Giorgi Kvirikashvili", "references": ["Giorgi Kvirikashvili"] },
+      "target": { "topic": "Brexit", "references": ["outcome of the British referendum"] },
+      "justifications": [
+        "Prime Minister Giorgi Kvirikashvili expressed his 'personal regret' at the outcome of the British referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Giorgi Kvirikashvili", "references": ["Giorgi Kvirikashvili"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "he had 'no doubt' the European Union will survive the blow.",
+        "This vote will not change the fact that the European Union is the most important and powerful regional political and economic union in the world, its strength will continue to grow."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Alyaksei Yanukevich", "references": ["Alyaksei Yanukevich"] },
+      "entity2": { "entity": "Kremlin", "references": ["Kremlin"] },
+      "justifications": [
+        "But opposition leaders voiced concerns that Britain's exit will play into the hands of the Kremlin by temporarily paralyzing Europe and depriving it of one its most virulent critics of Russian President Vladimir Putin."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Alyaksei Yanukevich", "references": ["Alyaksei Yanukevich"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Over the next few years, Britain and other European countries will be very busy taking care of their internal affairs, they will be building a new architecture for Europe, and this means that outside the EU, most particularly in our region, the Kremlin will have more leeway."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rasim Musabeyov", "references": ["Rasim Musabeyov"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "In terms of possible political impact to Azerbaijan, the EU did not cooperate with us so closely, so I am not expecting any impact on bilateral relations."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Giorgi Kvirikashvili", "references": ["Giorgi Kvirikashvili"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "he had 'no doubt' the European Union will survive the blow.",
+        "This vote will not change the fact that the European Union is the most important and powerful regional political and economic union in the world, its strength will continue to grow."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

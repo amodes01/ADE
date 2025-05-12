@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "economic insecurity", "references": ["economic insecurity"] },
+      "justifications": [
+        "economic insecurity creates an environment ripe for political manipulation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "economic growth", "references": ["negative implications for economic growth"] },
+      "justifications": [
+        "Given its negative implications for economic growth across Europe"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "right-wing populism", "references": ["negative political impact in fanning the flames of right-wing populism"] },
+      "justifications": [
+        "Given its negative implications for economic growth across Europe, and negative political impact in fanning the flames of right-wing populism"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Equally at fault with Nigel Farage"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Trump", "references": ["Trump"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Equally at fault with Nigel Farage, Trump and others have been the parties of the left."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Sweden democrats", "references": ["Sweden democrats"] },
+      "target": { "topic": "social democracy", "references": ["social democracy"] },
+      "justifications": [
+        "the principal winners from the 2014 electoral revolt against years of centre-right cuts to welfare state spending were not the social democrats, but the far right anti-immigrant Sweden democrats."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Equally at fault with Nigel Farage"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Equally at fault with Nigel Farage, Trump and others have been the parties of the left."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Sweden democrats", "references": ["Sweden democrats"] },
+      "entity2": { "entity": "social democrats", "references": ["social democrats"] },
+      "justifications": [
+        "the principal winners from the 2014 electoral revolt against years of centre-right cuts to welfare state spending were not the social democrats, but the far right anti-immigrant Sweden democrats."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

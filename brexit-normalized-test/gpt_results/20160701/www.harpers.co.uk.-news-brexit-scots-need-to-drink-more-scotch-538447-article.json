@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Scotch whisky industry", "references": ["Scotch whisky industry"]},
+      "target": {"topic": "domestic consumption", "references": ["drink more Scotch domestically"]},
+      "justifications": [
+        "\"Scots need to drink more Scotch\" A leading figure in global spirits branding has issued some advice to ensure the future prosperity of the Scotch whisky industry in a post-referendum market - to drink more Scotch domestically."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "Scotch whisky industry", "references": ["Scotch whisky industry"]},
+      "target": {"topic": "export market", "references": ["exported"]},
+      "justifications": [
+        "\"90% of Scotch however, is exported which puts the category at disadvantage.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "premium Scotch sales", "references": ["premium Scotch sales"]},
+      "target": {"topic": "Brexit impact", "references": ["Brexit"]},
+      "justifications": [
+        "Amid uncertainty over the Scotch export market, Moritz believes that the value of premium Scotch sales will continue to increase."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Moritz", "references": ["David Moritz"]},
+      "entity2": {"entity": "Viceroy Creative", "references": ["Viceroy Creative"]},
+      "justifications": [
+        "\"David Moritz CEO of Viceroy Creative and a branding guru in the spirits industry.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David Moritz", "references": ["David Moritz"]},
+      "entity2": {"entity": "Scotch whisky", "references": ["Scotch"]},
+      "justifications": [
+        "\"It should be a point of national pride, do your bit and drink more Scotch!\"",
+        "\"At the moment, huge volumes of low-end scotch are being produced and this is probably moving away from the core identity of category as a whole.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Moritz", "references": ["David Moritz"]},
+      "entity2": {"entity": "European market", "references": ["Europe"]},
+      "justifications": [
+        "\"Europe might be more vindictive, but we will have to wait and see.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Moritz", "references": ["David Moritz"]},
+      "entity2": {"entity": "American market", "references": ["America"]},
+      "justifications": [
+        "\"If Brexit does take its toll on Scotch exports to Europe, however, America is willing to fill in the gap.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

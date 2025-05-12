@@ -1,0 +1,89 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Staley has done a great job at making them feel that regardless of when Brexit will happen, jobs and the bank's health will be protected as much as possible.",
+        "He also mentioned how the main focus for turning profit this year will be the sale of the non-core businesses, which is completely unaffected by Brexit, so we should be in really good stead by the end of next year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "topic": "Brexit-related job concerns", "references": ["jobs exodus", "job concerns", "jobs and the bank's health will be protected"] },
+      "justifications": [
+        "Staff at Barclays told Business Insider that actually they are really positive about the future and CEO Jes Staley has done a great job at making them feel that regardless of when Brexit will happen, jobs and the bank's health will be protected as much as possible."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "topic": "EU work visas post-Brexit", "references": ["EU work visas"] },
+      "justifications": [
+        "He said he'd try his best and keep everyone working here because he wants to retain talent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "topic": "transatlantic bank advantage", "references": ["transatlantic bank"] },
+      "justifications": [
+        "He also mentioned that the event further justified the advantage of being a transatlantic bank because despite sterling going down, Barclays' dollar business went suitably up.",
+        "Staley highlighted the fact that since Barclays is a transatlantic bank, it was diversified enough to weather any downturn in one unit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "topic": "Barclays' future stability", "references": ["the bank's health", "Barclays' dollar business", "future stability"] },
+      "justifications": [
+        "Staff at Barclays told Business Insider that actually they are really positive about the future and CEO Jes Staley has done a great job at making them feel that regardless of when Brexit will happen, jobs and the bank's health will be protected as much as possible.",
+        "Staley mentioned how the main focus for turning profit this year will be the sale of the non-core businesses, which is completely unaffected by Brexit, so we should be in really good stead by the end of next year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Barclays", "references": ["Barclays"] },
+      "target": { "topic": "Brexit-related job relocation", "references": ["jobs exodus", "relocate staff"] },
+      "justifications": [
+        "However, some banks have publicly insisted that they are not going to shift jobs to the EU. HSBC and Barclays are two of those banks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Douglas Flint", "references": ["Douglas Flint", "HSBC chairman"] },
+      "target": { "topic": "Brexit-related job relocation", "references": ["Brexit", "shift jobs to the EU"] },
+      "justifications": [
+        "HSBC chairman Douglas Flint said at an event in Britain's capital this week that a Brexit would not prompt a review of the bank's headquarters."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Antony Jenkins", "references": ["Antony Jenkins"] },
+      "target": { "entity": "Jes Staley", "references": ["Staley"] },
+      "justifications": [
+        "What Staley said in the town hall meeting is what you would expect a CEO to say but it is such a treat given that [the previous CEO] Antony Jenkins used to never do this."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "target": { "entity": "Antony Jenkins", "references": ["Antony Jenkins"] },
+      "justifications": [
+        "What Staley said in the town hall meeting is what you would expect a CEO to say but it is such a treat given that [the previous CEO] Antony Jenkins used to never do this."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Jes Staley", "references": ["Jes Staley", "CEO of Barclays"] },
+      "entity2": { "entity": "Antony Jenkins", "references": ["Antony Jenkins"] },
+      "justifications": [
+        "What Staley said in the town hall meeting is what you would expect a CEO to say but it is such a treat given that [the previous CEO] Antony Jenkins used to never do this."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

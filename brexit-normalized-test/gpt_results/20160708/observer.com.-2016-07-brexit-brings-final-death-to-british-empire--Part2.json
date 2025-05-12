@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "target": {"topic": "civilization collapse", "references": ["disintegration of a civilization"]},
+      "justifications": [
+        "The disintegration of a civilization, 'discharges itself in a full cycle of the alternating rhythm of Yin-and-Yang' writes Toynbee in his classic text, A Study of History."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "target": {"topic": "transformation of empires", "references": ["change into something else"]},
+      "justifications": [
+        "The long sweeps of great empires like Caesar's and Victoria's do not die necessarily, he writes. They change into something else."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "target": {"topic": "destiny", "references": ["time and destiny"]},
+      "justifications": [
+        "Historian Arnold Toynbee has ventured a few thoughts on history, time and destiny."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "entity2": {"entity": "Caesar", "references": ["Caesar"]},
+      "justifications": [
+        "The long sweeps of great empires like Caesar's and Victoria's do not die necessarily, he writes."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "entity2": {"entity": "Victoria", "references": ["Victoria"]},
+      "justifications": [
+        "The long sweeps of great empires like Caesar's and Victoria's do not die necessarily, he writes."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Arnold Toynbee", "references": ["Arnold Toynbee"]},
+      "entity2": {"entity": "Christ", "references": ["the Christ"]},
+      "justifications": [
+        "The Extravert, Caesar, will be seen to have spent a thousand years to the end of days only to have built a nest for the Introvert, the Christ, sure to follow in his passing."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

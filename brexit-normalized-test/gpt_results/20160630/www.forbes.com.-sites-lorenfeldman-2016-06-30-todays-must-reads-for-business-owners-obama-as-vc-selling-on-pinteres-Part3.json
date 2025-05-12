@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Mr. Jackson", "references": ["Mr. Jackson"]},
+      "target": {"topic": "minimum wage", "references": ["$15-an-hour minimum wage"]},
+      "justifications": ["Mr. Jackson, who is also warily watching an initiative supported by unions that could make Cleveland the only city in Ohio that requires employers to pay a $15-an-hour minimum wage."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Unions", "references": ["unions"]},
+      "target": {"topic": "minimum wage", "references": ["$15-an-hour minimum wage"]},
+      "justifications": ["an initiative supported by unions that could make Cleveland the only city in Ohio that requires employers to pay a $15-an-hour minimum wage."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Massachusetts", "references": ["Massachusetts"]},
+      "target": {"topic": "non-compete agreements", "references": ["non-compete agreements"]},
+      "justifications": ["The issue hits Massachusetts with particular force because of its technology heritage and failure to keep up with Silicon Valley."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Silicon Valley", "references": ["Silicon Valley"]},
+      "target": {"topic": "non-compete agreements", "references": ["non-compete agreements"]},
+      "justifications": ["In California, companies are generally prohibited from enforcing noncompete agreements because of a worker-friendly statute from the 19th century."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Mr. Jackson", "references": ["Mr. Jackson"]},
+      "entity2": {"entity": "Unions", "references": ["unions"]},
+      "justifications": ["Mr. Jackson, who is also warily watching an initiative supported by unions"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Massachusetts", "references": ["Massachusetts"]},
+      "entity2": {"entity": "Silicon Valley", "references": ["Silicon Valley"]},
+      "justifications": ["failure to keep up with Silicon Valley"],
+      "attitude": "Negative"
+    }
+  ]
+}

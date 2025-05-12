@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Le Pen"]},
+      "target": {"topic": "EU exit", "references": ["Brexit vote", "EU exit"]},
+      "justifications": ["Brexit vote - could also affect the FN's appeal.", "Le Pen has said that, if elected, she would launch negotiations to leave the euro, restore borders, ensure the primacy of French law over EU law, and scrap EU checks on French public finances.", "Even within the FN, there has been criticism of this policy, which has put off the elderly - who tend to vote more than younger voters - for fear their pension could be affected."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "FN voters", "references": ["FN voters"]},
+      "target": {"topic": "EU exit", "references": ["Brexit vote", "EU exit"]},
+      "justifications": ["opinion polls since the Brexit vote show a change among FN voters, with a huge majority now backing an EU exit."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Le Pen"]},
+      "entity2": {"entity": "FN", "references": ["FN"]},
+      "justifications": ["Even within the FN, there has been criticism of this policy, which has put off the elderly - who tend to vote more than younger voters - for fear their pension could be affected."],
+      "attitude": "Neutral"
+    }
+  ]
+}

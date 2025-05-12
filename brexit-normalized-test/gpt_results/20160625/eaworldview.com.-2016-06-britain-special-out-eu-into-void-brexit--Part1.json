@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Jenny Phillimore",
+        "references": ["Jenny Phillimore"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "A devastating result and a dark day for Britain.",
+        "The economic, political, social, and cultural consequences will be with us for decades impacting on our children and grandchildren."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jenny Phillimore",
+        "references": ["Jenny Phillimore"]
+      },
+      "target": {
+        "topic": "Leave campaign",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "A devastating result and a dark day for Britain.",
+        "It seems that a small majority of the British (or should I say English and Welsh) electorate were convinced by the hateful and, frankly, dishonest Leave campaign."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jenny Phillimore",
+        "references": ["Jenny Phillimore"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "Anti-immigration sentiment appears to have driven this result."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tim Haughton",
+        "references": ["Tim Haughton"]
+      },
+      "target": {
+        "topic": "Leave campaign",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "The Leave side used the alluring slogan repeatedly and relentlessly."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Tim Haughton",
+        "references": ["Tim Haughton"]
+      },
+      "target": {
+        "topic": "Remain campaign",
+        "references": ["Remain side"]
+      },
+      "justifications": [
+        "The Remain side never coined a simple and effective slogan."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tim Haughton",
+        "references": ["Tim Haughton"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The reason why the United Kingdom voted to leave the European Union can be expressed in three words: 'Take Back Control'."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Fiona de Londras",
+        "references": ["Fiona de Londras"]
+      },
+      "target": {
+        "topic": "Brexit negotiations",
+        "references": ["negotiation resulting in Brexit"]
+      },
+      "justifications": [
+        "Once triggered, Article 50 will usher in up to two years of negotiation resulting in Brexit."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Jenny Phillimore",
+        "references": ["Jenny Phillimore"]
+      },
+      "entity2": {
+        "entity": "Leave campaign",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "It seems that a small majority of the British (or should I say English and Welsh) electorate were convinced by the hateful and, frankly, dishonest Leave campaign."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tim Haughton",
+        "references": ["Tim Haughton"]
+      },
+      "entity2": {
+        "entity": "Remain campaign",
+        "references": ["Remain side"]
+      },
+      "justifications": [
+        "The Remain side never coined a simple and effective slogan."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

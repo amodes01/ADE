@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Sunderland voted overwhelmingly to leave. The Brexit camp won 61 percent of the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "European Union", "references": ["European Union"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "European Union grants help finance Siemens research and development projects in Britain in areas like self-driving cars. That financial support will disappear once Britain is out."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nissan", "references": ["Nissan"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Stuart Boyd, a Nissan spokesman, said Friday that the company was not ready to comment on how it might respond."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Siemens", "references": ["Siemens"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Siemens is not about to pull up stakes. But Maier, the Siemens chief for Britain, said the Brexit vote could force the company to recalculate some investment decisions."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Siemens", "references": ["Siemens"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "European Union grants help finance Siemens research and development projects in Britain in areas like self-driving cars."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Siemens", "references": ["Siemens"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Siemens is not about to pull up stakes. But Maier, the Siemens chief for Britain, said the Brexit vote could force the company to recalculate some investment decisions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Maier", "references": ["Maier"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Born in Germany, Maier has lived in Britain since he was 10, studied there, and speaks with a British accent."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

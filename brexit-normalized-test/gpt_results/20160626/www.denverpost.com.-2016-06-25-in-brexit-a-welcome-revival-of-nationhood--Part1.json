@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Sixty years after Britain's humiliation in the Suez debacle, Britain has a spring in its step, confident that it will flourish when Brussels no longer controls 60 to 70 percent of the British government's actions.",
+        "Voters chose the optimism of Brexit.",
+        "Brexit refutes the progressive narrative that history has an inexorable trajectory that \"experts\" discern and before which all must bow."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "EU's pressure for the \"harmonization\"", "references": ["EU's pressure for the \"harmonization\""]},
+      "justifications": [
+        "It aims to rally \"young French and others\" to resist the cultural homogenization that is an intended consequence of EU's pressure for the \"harmonization\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Remain campaign", "references": ["Remain campaign"]},
+      "target": {"topic": "Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "The Leave campaign won the referendum on withdrawing Britain from the European Union because the arguments on which the Remain side relied made Leave's case.",
+        "The Remain campaign began with a sham, was monomaniacal with its Project Fear, and ended in governmental thuggishness."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Remain campaign", "references": ["Remain campaign"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Project Fear was the relentless and ultimately ludicrous parade of Cassandras, \"experts\" all, warning that Britain, after more than a millennium of sovereign existence, and now with the world's fifth-largest economy, would endure myriad calamities were it to end its 23-year membership in the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["Prime Minister David Cameron"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave campaign"]},
+      "justifications": [
+        "The sham was Prime Minister David Cameron's attempt to justify Remain by negotiating EU concessions regarding Britain's subservience to the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicolas Sarkozy", "references": ["Nicolas Sarkozy"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "Sarkozy was aligning himself with the palpable desire in France and elsewhere in Europe to resist the cultural homogenization that is an intended consequence of EU's pressure for the \"harmonization\" of the laws and policies of its 28 disparate member nations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Generation Identitaire", "references": ["Generation Identitaire"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "In Paris these days there are marches by a group called Generation Identitaire, described as the \"hipster right.\" It aims to rally \"young French and others\" to resist the cultural homogenization that is an intended consequence of EU's pressure for the \"harmonization\"."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

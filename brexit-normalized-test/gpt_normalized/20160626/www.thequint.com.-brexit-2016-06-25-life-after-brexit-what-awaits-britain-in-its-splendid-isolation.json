@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "British people",
+        "references": [
+          "UK citizens"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "the British people voted to shut the door on Europe and retreated into their little island."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British people",
+        "references": [
+          "UK citizens"
+        ]
+      },
+      "target": {
+        "topic": "Europe",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "the British people voted to shut the door on Europe and retreated into their little island."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "British people",
+        "references": [
+          "UK citizens"
+        ]
+      },
+      "entity2": {
+        "entity": "British Empire",
+        "references": [
+          "lost an Empire"
+        ]
+      },
+      "justifications": [
+        "The moon has finally set on the British empire."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British people",
+        "references": [
+          "UK citizens"
+        ]
+      },
+      "entity2": {
+        "entity": "Europe",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "the British people voted to shut the door on Europe and retreated into their little island."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British Empire",
+        "references": [
+          "lost an Empire"
+        ]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": [
+          "UK citizens"
+        ]
+      },
+      "justifications": [
+        "The moon has finally set on the British empire."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

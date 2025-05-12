@@ -1,0 +1,150 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "simple majority voting",
+        "references": [
+          "voter behavior"
+        ]
+      },
+      "justifications": [
+        "Brexit provides a very good example of why simple majority voting should be used with care."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Exiting the European Union is a very complex and costly process with uncertain outcomes."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "uncertainty and instability",
+        "references": [
+          "long period of uncertainty"
+        ]
+      },
+      "justifications": [
+        "Letting simple majorities decide things can lead to uncertainty and instability."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "majorities imposing bad things on minorities",
+        "references": [
+          "ethnic minorities involved"
+        ]
+      },
+      "justifications": [
+        "Letting simple majorities decide things can lead to uncertainty and instability. For another, majorities can impose bad things on minorities."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "elected officials",
+        "references": [
+          "federal authorities"
+        ]
+      },
+      "justifications": [
+        "The referendum is not binding on Parliament. These elected officials, in a representative democracy, have to actually make the call."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "consequences",
+        "references": [
+          "economic consequences"
+        ]
+      },
+      "justifications": [
+        "the electorate now has evidence of the horrible consequences that are likely to result from exiting the E.U."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Prime Minister Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "It seems like someone spiked the tea of the elected officials with something that made them really stupid, with perhaps Prime Minister Cameron getting the heaviest dose."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Prime Minister Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "elected officials",
+        "references": [
+          "federal authorities"
+        ]
+      },
+      "justifications": [
+        "Cameron and others are saying that they can not or should not and what's done is done."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

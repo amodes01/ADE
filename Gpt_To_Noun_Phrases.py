@@ -120,11 +120,11 @@ def process_directory(input_dir, output_dir):
                 date_string = os.path.basename(os.path.dirname(input_file))
                 specific_output_dir = os.path.join(output_dir, date_string)
                 os.makedirs(specific_output_dir, exist_ok=True)
-                output_file = os.path.join(specific_output_dir, f"polar_{file}")
+                output_file = os.path.join(specific_output_dir, f"{file}")
                 #print(f"Processing: {file} -> {output_file}")
                 convert_to_polar_format(input_file, output_file)
 
 if __name__ == "__main__":
-    input_directory = "./test-brexit/gpt_results"
-    output_dir = "./test-brexit/gpt_noun_phrases"
+    input_directory = "./brexit-normalized-test/gpt_normalized"
+    output_dir = "./brexit-normalized-test/noun_phrases"
     process_directory(input_directory, output_dir)

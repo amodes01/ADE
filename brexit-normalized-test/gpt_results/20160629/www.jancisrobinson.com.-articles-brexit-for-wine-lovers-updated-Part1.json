@@ -1,0 +1,93 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "wine prices",
+        "references": ["cost of EU wine"]
+      },
+      "justifications": [
+        "it is likely that the price of wine from the EU would increase for UK wine lovers.",
+        "the cost of EU wine in the UK by 8%.",
+        "the value of the pound is likely to continue to fall in value, further pushing up the cost of EU wine for Brits."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "RBC Capital Markets",
+        "references": ["RBC Capital Markets"]
+      },
+      "target": {
+        "topic": "sterling price slump",
+        "references": ["sterling's performance", "sterling price slumps"]
+      },
+      "justifications": [
+        "'During eight independent sterling price slumps we identify over the last 40 years, the pound has on average fallen 18% against the euro and 14% against the US dollar.'",
+        "'slumps have on average lasted 23 weeks before a material bounce, again suggesting markets do not move quickly to equilibrium and there is no reason to suppose this will be the case on this occasion either.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Simon Reilly",
+        "references": ["Simon Reilly"]
+      },
+      "entity2": {
+        "entity": "UK wine lovers",
+        "references": ["UK wine lovers"]
+      },
+      "justifications": [
+        "it is likely that the price of wine from the EU would increase for UK wine lovers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jane Eyre",
+        "references": ["Jane Eyre"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["the UK"]
+      },
+      "justifications": [
+        "'Prices have been on the rise since 2012 and now we have the UK, a very important market for Burgundy, opting out of Europe. The crash of the pound puts my prices up instantly.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jane Eyre",
+        "references": ["Jane Eyre"]
+      },
+      "entity2": {
+        "entity": "Burgundy",
+        "references": ["Burgundy"]
+      },
+      "justifications": [
+        "'Prices have been on the rise since 2012 and now we have the UK, a very important market for Burgundy, opting out of Europe. The crash of the pound puts my prices up instantly.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Andrew Nielsen",
+        "references": ["Andrew Nielsen"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "being both a French"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

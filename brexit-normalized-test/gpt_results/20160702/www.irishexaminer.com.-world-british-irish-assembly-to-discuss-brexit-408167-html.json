@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Fianna Fáil", "references": ["Fianna Fáil"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Ireland stands to be affected from the fallout of a Brexit more than many other countries."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Marc MacSharry", "references": ["Marc MacSharry"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Ireland stands to be affected from the fallout of a Brexit more than many other countries."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ireland", "references": ["Ireland"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Ireland stands to be affected from the fallout of a Brexit more than many other countries."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Fianna Fáil", "references": ["Fianna Fáil"] },
+      "target": { "topic": "EU reforms", "references": ["EU reforms"] },
+      "justifications": ["the EU reforms now needed"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Marc MacSharry", "references": ["Marc MacSharry"] },
+      "target": { "topic": "EU reforms", "references": ["EU reforms"] },
+      "justifications": ["the EU reforms now needed"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Marc MacSharry", "references": ["Marc MacSharry"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom"] },
+      "justifications": ["the fact that we share a land border with the United Kingdom puts our border counties at risk."],
+      "attitude": "Negative"
+    }
+  ]
+}

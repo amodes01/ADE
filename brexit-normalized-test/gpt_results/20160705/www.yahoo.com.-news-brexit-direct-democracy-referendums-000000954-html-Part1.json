@@ -1,0 +1,110 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "economists and political scientists", "references": ["economists", "political scientists"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "Brexit vote"]},
+      "justifications": [
+        "Some economists and political scientists are suggesting as much in the wake of the Brexit vote"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "OECD", "references": ["OECD"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "An OECD report says Brexit could cost the UK 3.3% of its GDP by 2020"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Citi", "references": ["Citibank", "Citi"]},
+      "target": {"topic": "EU policies", "references": ["EU-centric policies"]},
+      "justifications": [
+        "Citi notes that Italy and Hungary will likely both have referendums on matters pertaining to the EU this year"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Citi", "references": ["Citibank", "Citi"]},
+      "target": {"topic": "EU withdrawal", "references": ["withdrawal from the EU"]},
+      "justifications": [
+        "Those risks include outright withdrawal from the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Citi", "references": ["Citibank", "Citi"]},
+      "target": {"topic": "referendums", "references": ["referendum risk"]},
+      "justifications": [
+        "political risks in Europe are high and probably rising, in our view, and 'referendum risk' contributes significantly to these risks"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "California", "references": ["California"]},
+      "target": {"topic": "direct democracy", "references": ["direct democracy model"]},
+      "justifications": [
+        "this so-called direct democracy model has made governing more difficult"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Howard Jarvis", "references": ["Howard Jarvis"]},
+      "target": {"topic": "California Proposition 13", "references": ["Proposition 13"]},
+      "justifications": [
+        "Remember Howard Jarvis - the leader of the movement - on the cover of Time Magazine: Tax Revolt!"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "economists and political scientists", "references": ["economists", "political scientists"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit", "Brexit vote"]},
+      "justifications": [
+        "Some economists and political scientists are suggesting as much in the wake of the Brexit vote"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "UK", "references": ["UK"]},
+      "entity2": {"entity": "EU", "references": ["Europe"]},
+      "justifications": [
+        "The UK will be forced to rewrite tax rules, as well as draft and implement new legislation. It will have to craft a new relationship with Europe."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "The UK will be forced to rewrite tax rules, as well as draft and implement new legislation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leavers", "references": ["Leavers"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "A Citibank note says 'referendum risk' contributes significantly to these risks"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "California", "references": ["California"]},
+      "entity2": {"entity": "direct democracy", "references": ["direct democracy model"]},
+      "justifications": [
+        "this so-called direct democracy model has made governing more difficult"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Howard Jarvis", "references": ["Howard Jarvis"]},
+      "entity2": {"entity": "Proposition 13", "references": ["Proposition 13"]},
+      "justifications": [
+        "Remember Howard Jarvis - the leader of the movement - on the cover of Time Magazine: Tax Revolt!"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "West", "references": ["West"]},
+      "target": {"topic": "protectionism", "references": ["unilateral call for protectionism"]},
+      "justifications": ["How fair is a unilateral call for protectionism by the West"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "India", "references": ["India"]},
+      "target": {"topic": "protectionism", "references": ["unilateral call for protectionism"]},
+      "justifications": ["just as India is beginning to open up"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "emerging nations", "references": ["other emerging nations"]},
+      "target": {"topic": "protectionism", "references": ["unilateral call for protectionism"]},
+      "justifications": ["just as India is beginning to open up as also other emerging nations who are equally dependent on trade for recovery"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "global stability", "references": ["a second round of disintegration of a comity of nations"]},
+      "justifications": ["Brexit is a historic and geopolitical event, no less significant in magnitude than 9/11 or 2008. It sets in motion a second round of disintegration of a comity of nations after World War II"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Soviet Union", "references": ["Soviet Union"]},
+      "target": {"topic": "global stability", "references": ["a second round of disintegration of a comity of nations"]},
+      "justifications": ["the Soviet Union being the first"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "robots", "references": ["robots"]},
+      "target": {"topic": "job displacement", "references": ["robots replacing humans", "shaving off jobs"]},
+      "justifications": ["robots replacing humans, a faceless enemy of all working classes", "this disruption will sound the death-knell for labour, shaving off jobs"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Bank of England", "references": ["The Bank of England"]},
+      "target": {"topic": "job displacement", "references": ["machines might replace 80 million American and 15 million British jobs"]},
+      "justifications": ["The Bank of England believes machines might replace 80 million American and 15 million British jobs over the next 10-20 years"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "West", "references": ["West"]},
+      "entity2": {"entity": "India", "references": ["India"]},
+      "justifications": ["just as India is beginning to open up"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "West", "references": ["West"]},
+      "entity2": {"entity": "emerging nations", "references": ["other emerging nations"]},
+      "justifications": ["just as India is beginning to open up as also other emerging nations who are equally dependent on trade for recovery"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "Soviet Union", "references": ["Soviet Union"]},
+      "justifications": ["the Soviet Union being the first"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "robots", "references": ["robots"]},
+      "entity2": {"entity": "working classes", "references": ["all working classes"]},
+      "justifications": ["robots replacing humans, a faceless enemy of all working classes"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Bank of England", "references": ["The Bank of England"]},
+      "entity2": {"entity": "American workforce", "references": ["American jobs"]},
+      "justifications": ["The Bank of England believes machines might replace 80 million American jobs over the next 10-20 years"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Bank of England", "references": ["The Bank of England"]},
+      "entity2": {"entity": "British workforce", "references": ["British jobs"]},
+      "justifications": ["The Bank of England believes machines might replace 15 million British jobs over the next 10-20 years"],
+      "attitude": "Negative"
+    }
+  ]
+}

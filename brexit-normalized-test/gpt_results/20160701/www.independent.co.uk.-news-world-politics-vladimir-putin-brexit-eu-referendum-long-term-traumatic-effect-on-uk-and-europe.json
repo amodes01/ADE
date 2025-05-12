@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Vladimir Putin has warned that the \"traumatic effect\" of Britain's vote to leave the European Union will last a long time.",
+        "It is clear that this referendum's traumatic effect will make itself felt for a long time yet."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "target": { "topic": "European Union", "references": ["EU"] },
+      "justifications": [
+        "the EU was \"not having an easy time right now\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "target": { "topic": "Russian diplomacy", "references": ["Russian diplomacy"] },
+      "justifications": [
+        "Mr Putin also called for Russian diplomacy to take \"a more active part\" in current conflicts, including the Syrian civil war, as well as fighting terrorism and protesting national interests."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "target": { "topic": "Western media's information monopoly", "references": ["Western media's information monopoly"] },
+      "justifications": [
+        "He hit out against a \"growing barrage of information attacks unleashed against Russia\" and said it would challenge the \"Western media's information monopoly\"."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "Ties between Russia and the EU are at their lowest point since the Cold War after a series of sanctions and counter-sanctions over Moscow's alleged role in the Ukraine crisis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "Speaking at the World Economic Forum last month, David Cameron said: \"Who would be happy if we left? Putin might be happy, I suspect al-Baghdadi might be happy.\"",
+        "Mr Putin responded by saying the claim had \"no basis\" and were an attempt to influence British voters ahead of the referendum on 23 June."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": [
+        "Russia hopes to establish a \"common economic and humanitarian space\" in co-operation with Europe and will work with the next American President, whether Donald Trump or Hillary Clinton win the contest."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Vladimir Putin", "references": ["Vladimir Putin"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "justifications": [
+        "Russia hopes to establish a \"common economic and humanitarian space\" in co-operation with Europe and will work with the next American President, whether Donald Trump or Hillary Clinton win the contest."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

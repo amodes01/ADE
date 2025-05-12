@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Thomas", "references": ["Thomas"] },
+      "target": { "topic": "UK agricultural sector", "references": ["UK agricultural sector"] },
+      "justifications": ["the future of the UK agricultural sector in the face of these major changes is uncertain"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Thomas", "references": ["Thomas"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["farmers need to work together to not just ensure a smooth transition out of the EU"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Thomas", "references": ["Thomas"] },
+      "target": { "topic": "UK food and farming plan", "references": ["UK food and farming plan"] },
+      "justifications": ["This is about planning a UK food and farming plan that is fit for the future and builds strong foundations for the young people who want to enter into the industry"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Thomas", "references": ["Thomas"] },
+      "target": { "topic": "British food promotion", "references": ["promoting and marketing British food"] },
+      "justifications": ["we can be really ambitious in our plans for promoting and marketing British food for retail, public procurement, and to the export market"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UK farmers", "references": ["UK farmers"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["UK farmers and British shoppers will be watching Brexit unfold with bated breath"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "American farmers", "references": ["American farmers"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["American farmers hoping to find a new export opportunity"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Thomas", "references": ["Thomas"] },
+      "entity2": { "entity": "UK farmers", "references": ["UK farmers"] },
+      "justifications": ["farmers need to work together to not just ensure a smooth transition out of the EU"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Thomas", "references": ["Thomas"] },
+      "entity2": { "entity": "American farmers", "references": ["American farmers"] },
+      "justifications": ["American farmers hoping to find a new export opportunity"],
+      "attitude": "Positive"
+    }
+  ]
+}

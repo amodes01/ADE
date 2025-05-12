@@ -1,0 +1,282 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": [
+          "British membership in the EEC"
+        ]
+      },
+      "justifications": [
+        "Northern Ireland must stay within the EU and the UK.",
+        "As with post-BrExit Scotland, a Northern Ireland that shares European Union membership with the Republic of Ireland, and a union with the rest of the U.K., makes sense."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "target": {
+        "topic": "UK membership",
+        "references": [
+          "union with the rest of the U.K."
+        ]
+      },
+      "justifications": [
+        "Northern Ireland must stay within the EU and the UK.",
+        "As with post-BrExit Scotland, a Northern Ireland that shares European Union membership with the Republic of Ireland, and a union with the rest of the U.K., makes sense."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "target": {
+        "topic": "hard land border",
+        "references": [
+          "border controls between Ireland and Northern Ireland"
+        ]
+      },
+      "justifications": [
+        "It's abundantly clear that a hard land border between Northern Ireland and the world's largest trading bloc in the world is utterly senseless.",
+        "It's also rather dangerous."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "target": {
+        "topic": "BrExit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "BrExit has changed everything."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Scottish nationalists",
+        "references": [
+          "Scottish status in the EU"
+        ]
+      },
+      "target": {
+        "topic": "UK membership",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "For Scottish nationalists, this represents the smart play.",
+        "A Scotland that shares a union with Europe, while remaining within a looser U.K., is one that can be remade on solid foundations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "English Nationalists",
+        "references": [
+          "nationalist anger"
+        ]
+      },
+      "target": {
+        "topic": "UK membership",
+        "references": [
+          "independence"
+        ]
+      },
+      "justifications": [
+        "For English Nationalists - and that's clearly what the BrExiters overwhelmingly are - well, they have asked for this."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Irish nationalists",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": [
+          "United States of Europe",
+          "issue of EU membership"
+        ]
+      },
+      "justifications": [
+        "Post-BrExit, it's abundantly clear that a hard land border between Northern Ireland and the world's largest trading bloc in the world is utterly senseless.",
+        "Post-BrExit, the opportunity is greater still."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Sinn Féin",
+        "references": [
+          "Sinn Féin"
+        ]
+      },
+      "target": {
+        "topic": "Ireland's future",
+        "references": [
+          "border controls between Ireland and Northern Ireland"
+        ]
+      },
+      "justifications": [
+        "This would be a stronger Ireland than ever."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Belfast's Democratic Unionist Party",
+        "references": [
+          "German Free Democratic Party"
+        ]
+      },
+      "target": {
+        "topic": "corporate tax rate",
+        "references": [
+          "corporate tax rate in harmony not with London but Dublin"
+        ]
+      },
+      "justifications": [
+        "Pre-BrExit, Belfast's hardline British Democratic Unionist party has championed the adoption of a corporate tax rate in harmony not with London but Dublin."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "Republic of Ireland",
+        "references": [
+          "Irish-American"
+        ]
+      },
+      "justifications": [
+        "As with post-BrExit Scotland, a Northern Ireland that shares European Union membership with the Republic of Ireland, and a union with the rest of the U.K., makes sense."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "Scotland",
+        "references": [
+          "Scottish status in the EU"
+        ]
+      },
+      "justifications": [
+        "As with post-BrExit Scotland, a Northern Ireland that shares European Union membership with the Republic of Ireland, and a union with the rest of the U.K., makes sense."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Northern Ireland must stay within the EU and the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "England",
+        "references": [
+          "nationalist anger"
+        ]
+      },
+      "justifications": [
+        "For English Nationalists - and that's clearly what the BrExiters overwhelmingly are - well, they have asked for this."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "Irish Nationalists",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "justifications": [
+        "Post-BrExit, the opportunity is greater still."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Northern Ireland",
+        "references": [
+          "Belfast's Irish nationalists"
+        ]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Northern Ireland must stay within the EU and the UK."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

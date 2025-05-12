@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "anti-immigrant sentiment",
+        "references": ["anti-immigrant"]
+      },
+      "justifications": [
+        "U.K. Independence Party Leader Nigel Farage, who was also pro-exit, fuelled antagonisms toward foreigners as well."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "anti-immigrant sentiment",
+        "references": ["anti-immigrant"]
+      },
+      "justifications": [
+        "In the United States, where presumptive Republican presidential candidate Donald Trump has won support for his pledge to \"make America great again.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "racist and anti-immigrant rhetoric",
+        "references": ["racist and anti-immigrant rhetoric"]
+      },
+      "justifications": [
+        "He was ruthless in his tactics, relying on misleading information about the cost of EU to Britain and invoking racist and anti-immigrant rhetoric."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "target": {
+        "topic": "racist and anti-immigrant rhetoric",
+        "references": ["racist and anti-immigrant rhetoric"]
+      },
+      "justifications": [
+        "He became a cheerleader for the leave campaign in order to situate himself as the heir apparent for the Conservative party and he was ruthless in his tactics, relying on misleading information about the cost of EU to Britain and invoking racist and anti-immigrant rhetoric."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "justifications": [
+        "He did not act alone in that regard. U.K. Independence Party Leader Nigel Farage, who was also pro-exit, fuelled antagonisms toward foreigners as well."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Anti-immigration sentiments in both countries have hit their mark."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Anti-immigration sentiments in both countries have hit their mark."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "German Free Democratic Party (FDP)", "references": ["German Free Democratic Party", "FDP"]},
+      "target": {"topic": "business relocation due to Brexit", "references": ["relocating to stay within the European Union", "Brexit", "businesses in Britain to relocate"]},
+      "justifications": [
+        "The German Free Democratic Party (FDP) paid for the billboard to drive around the streets of the U.K. capital this week in order to encourage start-up companies to move to Germany.",
+        "In an initial sign that European countries may try to tempt businesses in Britain to relocate because of Brexit, a billboard advising start-ups to move to Berlin has been spotted in London."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sebastian Czaja", "references": ["Sebastian Czaja"]},
+      "target": {"topic": "business relocation due to Brexit", "references": ["relocating to stay within the European Union", "Brexit", "businesses in Britain to relocate"]},
+      "justifications": [
+        "\"In light of Brexit, the FDP is asking the Senate to at last reduce the hurdles for start-ups in Berlin,\" Sebastian Czaja, secretary general of the Berlin FDP, said in a press statement last September."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Karl Rosander", "references": ["Karl Rosander"]},
+      "target": {"topic": "business relocation due to Brexit", "references": ["relocating to stay within the European Union", "Brexit", "businesses in Britain to relocate"]},
+      "justifications": [
+        "\"If a Brexit occurred, we would not necessarily feel the need to relocate, but there is a worry that it could have a negative effect on our ability to redeploy our staff across markets, be they British nationals, EU citizens, or from further afield.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "German Free Democratic Party (FDP)", "references": ["German Free Democratic Party", "FDP"]},
+      "entity2": {"entity": "U.K.", "references": ["U.K."]},
+      "justifications": [
+        "The German Free Democratic Party (FDP) paid for the billboard to drive around the streets of the U.K. capital this week in order to encourage start-up companies to move to Germany."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Sebastian Czaja", "references": ["Sebastian Czaja"]},
+      "entity2": {"entity": "U.K.", "references": ["U.K."]},
+      "justifications": [
+        "\"Berlin must become the new home for those that want to build a business in Europe.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Karl Rosander", "references": ["Karl Rosander"]},
+      "entity2": {"entity": "U.K.", "references": ["U.K."]},
+      "justifications": [
+        "\"If a Brexit occurred, we would not necessarily feel the need to relocate, but there is a worry that it could have a negative effect on our ability to redeploy our staff across markets, be they British nationals, EU citizens, or from further afield.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

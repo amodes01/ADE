@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's withdrawal from the European Union", "Brexit"] },
+      "target": { "topic": "financial stability", "references": ["disrupt their global operations", "regulatory approval", "costly regulatory structure"] },
+      "justifications": [
+        "The prospect of a more complex, and potentially costly, regulatory structure has some banking officials worried",
+        "worried it would disrupt their global operations and force them to rethink where and how they do business in Europe"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "business operations in Europe", "references": ["rethink where and how they do business in Europe"] },
+      "justifications": [
+        "worried it would disrupt their global operations and force them to rethink where and how they do business in Europe"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Goldman Sachs", "references": ["Goldman Sachs"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's withdrawal from the European Union", "Brexit"] },
+      "justifications": [
+        "Goldman Sachs and JPMorgan Chase, contributed hundreds of thousands of dollars to efforts to stop Britain from withdrawing from the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "JPMorgan Chase", "references": ["JPMorgan Chase"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's withdrawal from the European Union", "Brexit"] },
+      "justifications": [
+        "JPMorgan Chase, contributed hundreds of thousands of dollars to efforts to stop Britain from withdrawing from the European Union"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Citigroup", "references": ["Citigroup"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's withdrawal from the European Union", "Brexit"] },
+      "justifications": [
+        "Citigroup created a 'group of senior leaders from across our businesses and functions to ensure we were prepared for this possible outcome'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bank of America", "references": ["Bank of America"] },
+      "entity2": { "entity": "Brexit", "references": ["Britain's withdrawal from the European Union", "Brexit"] },
+      "justifications": [
+        "Bank of America, which considered contributing to the Remain campaign, but ultimately decided to stay neutral"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "JPMorgan Chase", "references": ["JPMorgan Chase"] },
+      "entity2": { "entity": "Jamie Dimon", "references": ["Jamie Dimon"] },
+      "justifications": [
+        "Earlier this month, JPMorgan Chase CEO Jamie Dimon warned about the effect a British vote to leave the EU would have on the bank"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "JPMorgan Chase", "references": ["JPMorgan Chase"] },
+      "entity2": { "entity": "JPMorgan Chase", "references": ["JPMorgan Chase"] },
+      "justifications": [
+        "Dimon told employees in a letter that JPMorgan will maintain a large presence in London, Bournemouth and Scotland"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "JPMorgan Chase", "references": ["JPMorgan Chase"] },
+      "entity2": { "entity": "European operations", "references": ["European operations"] },
+      "justifications": [
+        "we may need to make changes to our European legal entity structure and the location of some roles"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

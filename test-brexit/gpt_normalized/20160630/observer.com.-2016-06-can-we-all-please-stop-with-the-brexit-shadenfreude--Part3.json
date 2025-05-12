@@ -1,0 +1,223 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "European Union",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": [
+          "economic globalisation"
+        ]
+      },
+      "justifications": [
+        "that's a vote against globalization with your nearest neighbors."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British voters",
+        "references": [
+          "some British voters"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "French President Francois Hollande had already threatened British voters ahead of the vote"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "target": {
+        "topic": "Brexit negotiations",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "European elites are poised to seek punishing terms for Britain, to set an example."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Angela Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "target": {
+        "topic": "Brexit negotiations",
+        "references": [
+          "negotiation"
+        ]
+      },
+      "justifications": [
+        "Angela Merkel is urging caution, saying negotiations cannot be rushed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Americans",
+        "references": [
+          "North Americans"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "Americans yelling at each other and pretending that this is a simple proxy battle in their domestic ideological war."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Americans",
+        "references": [
+          "North Americans"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "please, Americans, the British do not need your partisanship right now."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Americans",
+        "references": [
+          "North Americans"
+        ]
+      },
+      "target": {
+        "topic": "Brexit negotiations",
+        "references": [
+          "negotiation"
+        ]
+      },
+      "justifications": [
+        "this, of course, at a time when America's support would go a long way to nudging Britain and Europe towards better cooperation."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Francois Hollande",
+        "references": [
+          "Francois Hollande"
+        ]
+      },
+      "entity2": {
+        "entity": "British voters",
+        "references": [
+          "some British voters"
+        ]
+      },
+      "justifications": [
+        "French President Francois Hollande had already threatened British voters ahead of the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "European elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "European elites are poised to seek punishing terms for Britain, to set an example."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Angela Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit negotiations",
+        "references": [
+          "negotiation"
+        ]
+      },
+      "justifications": [
+        "Angela Merkel is urging caution, saying negotiations cannot be rushed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Americans",
+        "references": [
+          "North Americans"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "Americans yelling at each other and pretending that this is a simple proxy battle in their domestic ideological war.",
+        "please, Americans, the British do not need your partisanship right now."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Americans",
+        "references": [
+          "North Americans"
+        ]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "this, of course, at a time when America's support would go a long way to nudging Britain and Europe towards better cooperation."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

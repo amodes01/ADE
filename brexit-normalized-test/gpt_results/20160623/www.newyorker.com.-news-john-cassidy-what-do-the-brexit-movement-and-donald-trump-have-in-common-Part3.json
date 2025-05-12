@@ -1,0 +1,25 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Donald Trump", "references": ["Trump"] },
+      "target": { "topic": "immigration", "references": ["immigrants"] },
+      "justifications": ["they should be mad not just at the winners but at immigrants, too."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nigel Farage", "references": ["Farage"] },
+      "target": { "topic": "immigration", "references": ["immigrants"] },
+      "justifications": ["they should be mad not just at the winners but at immigrants, too."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Farage"] },
+      "justifications": ["Trump and Farage are the latest and most successful of these political opportunists."],
+      "attitude": "Neutral"
+    }
+  ]
+}

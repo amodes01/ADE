@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "London's economic future", "references": ["London's position as the world's pre-eminent global city", "London's growth rate", "London's Brexit lobby"]},
+      "justifications": [
+        "In this scenario, Brexit would not, as Manhattan Institute fellow Aaron Renn writes, refute \"the urban triumphalist vision\" in which \"cities, not provinces or nation-states, are the real actors in the global economy.\"",
+        "Brexit as vote may have been an expression of anti-London sentiment, but Brexit as policy has not always been conceived that way."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit's most famous advocate, Boris Johnson, is the bicycle-commuting, subway-riding former mayor of London, who claimed that a well-managed Brexit was the best possible solution for the city itself.",
+        "\"If you want our great capital to be genuinely open to the world-rather than locked in and diminished by a failing EU system,\" he wrote in the Evening Standard before the vote, \"then go global, vote Leave, and take back control next week.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "London's economic future", "references": ["London's position as the world's pre-eminent global city"]},
+      "justifications": [
+        "\"If you want our great capital to be genuinely open to the world-rather than locked in and diminished by a failing EU system,\" he wrote in the Evening Standard before the vote, \"then go global, vote Leave, and take back control next week.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Gerard Lyons", "references": ["Gerard Lyons"]},
+      "target": {"topic": "Brexit's impact on London", "references": ["Brexit", "A Win-Win Situation"]},
+      "justifications": [
+        "In a 2014 Greater London Authority report titled \"A Win-Win Situation,\" Gerard Lyons, Johnson's chief economic adviser and a full-fledged Brexiteer, concluded that an outward-looking Brexit was a far superior option for London than \"business as usual\" in the EU and would enhance the city's competitive advantage."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Even London Mayor Sadiq Khan, a Remainer, reacted to the Brexit vote with that hope. \"On behalf of all Londoners,\" he told business leaders on Tuesday, \"I am demanding more autonomy for the capital-right now.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Sadiq Khan", "references": ["Sadiq Khan"]},
+      "target": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": [
+        "Even London Mayor Sadiq Khan, a Remainer, reacted to the Brexit vote with that hope."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit as vote may have been an expression of anti-London sentiment, but Brexit as policy has not always been conceived that way."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "the British hinterland", "references": ["British hinterland"]},
+      "justifications": [
+        "Dispatches from the British hinterland confirmed the impression of Capital against Country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "Brexit advocates", "references": ["Brexit's most famous advocate, Boris Johnson"]},
+      "justifications": [
+        "Brexit's most famous advocate, Boris Johnson, is the bicycle-commuting, subway-riding former mayor of London, who claimed that a well-managed Brexit was the best possible solution for the city itself."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

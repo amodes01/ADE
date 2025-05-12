@@ -1,0 +1,138 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Scotland", "references": ["Scotland"]},
+      "target": {"topic": "fracking", "references": ["fracking"]},
+      "justifications": ["In June, Scotland and Germany voted in favour of bans on fracking."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "fracking", "references": ["fracking"]},
+      "justifications": ["In June, Scotland and Germany voted in favour of bans on fracking."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "USA", "references": ["USA"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris agreement on climate change"]},
+      "justifications": ["the USA and India vowed to push early ratification of the treaty in June."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "India", "references": ["India"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris agreement on climate change"]},
+      "justifications": ["the USA and India vowed to push early ratification of the treaty in June."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris agreement on climate change"]},
+      "justifications": ["France became the first major nation to ratify."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris agreement on climate change"]},
+      "justifications": ["The EU smashed its 2020 emissions target (20%) six years early."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "USA", "references": ["USA"]},
+      "target": {"topic": "clean energy", "references": ["clean energy"]},
+      "justifications": ["The US, Canada and Mexico pledged to source 50% of their electricity from clean energy by 2025 en route to their Paris commitments."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "clean energy", "references": ["clean energy"]},
+      "justifications": ["The US, Canada and Mexico pledged to source 50% of their electricity from clean energy by 2025 en route to their Paris commitments."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Mexico", "references": ["Mexico"]},
+      "target": {"topic": "clean energy", "references": ["clean energy"]},
+      "justifications": ["The US, Canada and Mexico pledged to source 50% of their electricity from clean energy by 2025 en route to their Paris commitments."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Norway", "references": ["Norway"]},
+      "target": {"topic": "emissions goals", "references": ["national emissions goal"]},
+      "justifications": ["Norway set a new national emissions goal of 2030, bringing its target forward by 20 years."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Norway", "references": ["Norway"]},
+      "target": {"topic": "fuel cars", "references": ["ban fuel cars"]},
+      "justifications": ["The parliamentarians of this oil and gas producing nation came close to banning fuel cars by 2025."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Oslo", "references": ["Oslo"]},
+      "target": {"topic": "emissions goals", "references": ["national emissions goal"]},
+      "justifications": ["Oslo voted to slash its emissions 95% by 2030, and to ban cars in the city centre by 2019 en route to that target."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Shell", "references": ["Shell"]},
+      "target": {"topic": "fossil fuel divestment", "references": ["divestment from fossil fuels"]},
+      "justifications": ["Shell chose to ignore the developments at Dong and Total, and put a revamped shale arm at heart of its growth strategy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Saudi Arabia", "references": ["Saudi Arabia"]},
+      "target": {"topic": "renewables", "references": ["plans for renewables"]},
+      "justifications": ["In Saudi Arabia, recent encouraging developments were devalued by an announcement to scale back plans for renewables in favour of gas."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "EU", "references": ["EU"]},
+      "justifications": ["In the UK, populist rightist politicians, mostly climate-change deniers and people clearly willing to tell lies to get their way, won a referendum to leave the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Conservative government", "references": ["Conservative government"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris commitments"]},
+      "justifications": ["Clearly, Brexit does not necessarily mean that a Conservative government will back off Paris commitments."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Conservative government", "references": ["Conservative government"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris commitments"]},
+      "justifications": ["It will not be able to hit them if fracked shale and nuclear remain the favoured options, and clean energy continues to be suppressed to make space for them, of course."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "exit negotiations", "references": ["exit negotiations"]},
+      "justifications": ["given the clear evidence of broken promises already emerging, and the long two years of exit negotiations required?"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Shell", "references": ["Shell"]},
+      "entity2": {"entity": "Dong", "references": ["Dong"]},
+      "justifications": ["Shell chose to ignore the developments at Dong and Total, and put a revamped shale arm at heart of its growth strategy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Shell", "references": ["Shell"]},
+      "entity2": {"entity": "Total", "references": ["Total"]},
+      "justifications": ["Shell chose to ignore the developments at Dong and Total, and put a revamped shale arm at heart of its growth strategy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "USA", "references": ["USA"]},
+      "entity2": {"entity": "India", "references": ["India"]},
+      "justifications": ["Presidents Obama and Modi also agreed a $1 billion US - India pact on renewable energy."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "USA", "references": ["USA"]},
+      "entity2": {"entity": "France", "references": ["France"]},
+      "justifications": ["The USA and India vowed to push early ratification of the treaty in June."],
+      "attitude": "Positive"
+    }
+  ]
+}

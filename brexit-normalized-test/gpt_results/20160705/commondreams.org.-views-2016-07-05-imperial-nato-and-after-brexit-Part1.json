@@ -1,0 +1,183 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "justifications": [
+        "In his first public response to the Brexit vote that has shaken Europe and much of the world, President Obama sought to reassure Americans and others."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "He urged us not to give into hysteria and stressed that NATO did not disappear with Brexit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "The Trans-Atlantic alliance, he reminded the world, endures."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Zbigniew Brzezinski", "references": ["Zbigniew Brzezinski"] },
+      "target": { "topic": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "As even President Carter's National Security Advisor Zbigniew Brzezinski taught, since its inception NATO has been an imperial project."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Putin", "references": ["Putin"] },
+      "target": { "topic": "free speech and democracy", "references": ["assault on free speech and democracy"] },
+      "justifications": [
+        "This does not mean turning blind eyes to Putin's assault on free speech and democracy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Putin", "references": ["Putin"] },
+      "target": { "topic": "nuclear saber rattling", "references": ["nuclear saber rattling"] },
+      "justifications": [
+        "This does not mean turning blind eyes to Putin's assault on free speech and democracy, or to Moscow's nuclear saber rattling."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Putin", "references": ["Putin"] },
+      "target": { "topic": "cyberattacks", "references": ["cyberattacks"] },
+      "justifications": [
+        "This does not mean turning blind eyes to Putin's assault on free speech and democracy, or to Moscow's nuclear saber rattling and cyberattacks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Putin", "references": ["Putin"] },
+      "target": { "topic": "Syria's chemical weapons", "references": ["elimination of Syria's chemical weapons"] },
+      "justifications": [
+        "he played critical roles in the elimination of Syria's chemical weapons"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Putin", "references": ["Putin"] },
+      "target": { "topic": "P-5+1 nuclear deal with Iran", "references": ["P-5+1 nuclear deal with Iran"] },
+      "justifications": [
+        "he played critical roles in the elimination of Syria's chemical weapons and the P-5+1 nuclear deal with Iran"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "U.S.", "references": ["U.S."] },
+      "target": { "topic": "Prison System", "references": ["two million people in U.S. prisons, including Guantanamo"] },
+      "justifications": [
+        "We also need to acknowledge that with two million people in U.S. prisons, including Guantanamo"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Poland", "references": ["Poland"] },
+      "target": { "topic": "autocratic government", "references": ["autocratic government"] },
+      "justifications": [
+        "the embrace of the Poland's autocratic government"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Saudi Arabia", "references": ["Saudi monarchy"] },
+      "target": { "topic": "autocratic government", "references": ["autocratic government"] },
+      "justifications": [
+        "the embrace of the Poland's autocratic government and Saudi monarchy"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "U.S.", "references": ["U.S."] },
+      "target": { "topic": "militarized Pivot to Asia", "references": ["militarized \"Pivot to Asia\""] },
+      "justifications": [
+        "the militarized \"Pivot to Asia\" the U.S. leads a not-so-free world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "imperial wars", "references": ["roles in imperial wars"] },
+      "justifications": [
+        "We oppose NATO because of its neo-colonial domination of most of Europe, its roles in imperial wars and domination"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "militarism", "references": ["repeated and deadly failures of militarism"] },
+      "justifications": [
+        "Rather than creating a new, full-blown and extremely dangerous Cold War, our interests and survival depend on Common Security diplomacy rather than the repeated and deadly failures of militarism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "neo-colonial domination", "references": ["neo-colonial domination of most of Europe"] },
+      "justifications": [
+        "We oppose NATO because of its neo-colonial domination of most of Europe"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "nuclear threat", "references": ["existential nuclear threat it poses to human survival"] },
+      "justifications": [
+        "We oppose NATO because of its neo-colonial domination of most of Europe, its roles in imperial wars and domination, the existential nuclear threat it poses to human survival"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "He urged us not to give into hysteria and stressed that NATO did not disappear with Brexit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "Zbigniew Brzezinski", "references": ["Zbigniew Brzezinski"] },
+      "justifications": [
+        "As even President Carter's National Security Advisor Zbigniew Brzezinski taught, since its inception NATO has been an imperial project."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "U.S.", "references": ["U.S."] },
+      "entity2": { "entity": "Poland", "references": ["Poland"] },
+      "justifications": [
+        "the embrace of the Poland's autocratic government"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "U.S.", "references": ["U.S."] },
+      "entity2": { "entity": "Saudi Arabia", "references": ["Saudi monarchy"] },
+      "justifications": [
+        "the embrace of the Poland's autocratic government and Saudi monarchy"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "U.S.", "references": ["U.S."] },
+      "justifications": [
+        "the militarized \"Pivot to Asia\" the U.S. leads a not-so-free world."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

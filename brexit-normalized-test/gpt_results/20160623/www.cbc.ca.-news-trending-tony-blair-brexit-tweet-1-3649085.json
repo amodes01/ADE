@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Tony Blair",
+        "references": ["Tony Blair"]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "I believe voting to Remain will secure Britain's place as a proud, influential country with a strong economy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Twitter users",
+        "references": ["Twitter users"]
+      },
+      "target": {
+        "topic": "Tony Blair's political legacy",
+        "references": ["Blair remains a controversial figure after his time in office"]
+      },
+      "justifications": [
+        "Blair remains a controversial figure after his time in office and Brits took this opportunity to criticize his political legacy."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Tony Blair",
+        "references": ["Tony Blair"]
+      },
+      "entity2": {
+        "entity": "Twitter users",
+        "references": ["Twitter users"]
+      },
+      "justifications": [
+        "Blair remains a controversial figure after his time in office and Brits took this opportunity to criticize his political legacy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tony Blair",
+        "references": ["Tony Blair"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Others went beyond British politics with their posts, targeting both Blair and Donald Trump."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Tony Blair",
+        "references": ["Tony Blair"]
+      },
+      "justifications": [
+        "Others went beyond British politics with their posts, targeting both Blair and Donald Trump."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

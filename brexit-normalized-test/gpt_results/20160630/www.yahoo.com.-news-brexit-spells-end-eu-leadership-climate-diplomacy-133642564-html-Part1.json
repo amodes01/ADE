@@ -1,0 +1,99 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the union"] },
+      "target": { "topic": "EU climate leadership", "references": ["EU's leadership ambitions", "EU's reversal", "EU's credibility and influence"] },
+      "justifications": [
+        "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "The EU's reversal from being the key broker clinching the landmark deal to lagging on its ratification and implementation would deal a blow to the bloc's credibility and influence on how the global climate rules are written."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the union"] },
+      "target": { "topic": "Paris Agreement", "references": ["Paris Agreement", "global pact"] },
+      "justifications": [
+        "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "The likely scenario is that come Marrakesh, the EU will be very embarrassed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the union"] },
+      "target": { "topic": "EU climate action", "references": ["EU environment ministers jointly called for action", "EU breakdown of how the EU will share out the burden of meeting the 2030 target"] },
+      "justifications": [
+        "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "The likely scenario is that come Marrakesh, the EU will be very embarrassed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the union"] },
+      "target": { "topic": "EU's global climate negotiations", "references": ["EU's leadership ambitions", "EU will be very embarrassed"] },
+      "justifications": [
+        "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "The likely scenario is that come Marrakesh, the EU will be very embarrassed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Britain's vote to leave the union"] },
+      "target": { "topic": "climate change leadership", "references": ["Britain has long championed the fight against global warming"] },
+      "justifications": [
+        "Britain has long championed the fight against global warming: it was one of the first nations to adopt a legally-binding framework to cut emissions with its Climate Change Act in 2008."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain", "Britain's vote to leave the union"] },
+      "entity2": { "entity": "EU", "references": ["EU", "EU environment ministers"] },
+      "justifications": [
+        "Britain's vote to leave the union has disrupted everyday affairs and probably displaced climate concerns as a political priority.",
+        "The likely scenario is that come Marrakesh, the EU will be very embarrassed."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Greenpeace", "references": ["Greenpeace"] },
+      "justifications": [
+        "Ruth Davis, a political adviser to Greenpeace and a senior associate at E3G, said 'I am afraid that overall I see that as a lose-lose.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Greenpeace", "references": ["Greenpeace"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Ruth Davis, a political adviser to Greenpeace and a senior associate at E3G, said 'I am afraid that overall I see that as a lose-lose.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Christiana Figueres", "references": ["UN climate chief Christiana Figueres"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "UN climate chief Christiana Figueres raised the prospect that the EU might need to reassess its emissions target."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Amber Rudd", "references": ["Amber Rudd"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "On Wednesday, Britain's secretary of state for energy and climate change Amber Rudd said it would not step back from international leadership on climate change."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "Poland", "references": ["Poland"] },
+      "justifications": [
+        "Meanwhile, some fear Britain's diminished voice will allow member states such as Poland to dilute measures to curb their reliance on coal or improve air quality."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

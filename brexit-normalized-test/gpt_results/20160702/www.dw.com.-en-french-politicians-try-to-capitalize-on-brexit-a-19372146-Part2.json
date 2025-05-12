@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Francois Hollande", "references": ["Hollande"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Hollande is hoping to capitalize on Brexit fallout and reignite the German-Franco alliance", "Mr. Hollande tries to use 'Brexit' to rebound in Brussels and Paris"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Marco Incerti", "references": ["Marco Incerti"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Especially if we continue to see this terrible economic data and all the internal infighting in the UK, the French may think twice before voting for a Frexit"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["Hollande"]},
+      "entity2": {"entity": "Alain Juppe", "references": ["Alain Juppe"]},
+      "justifications": ["Incerti, for one, is betting on a win by former Prime Minister Alain Juppe, a center-right politician who has ruled out a British-style referendum but still wants a massive rethink of the European project."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["Hollande"]},
+      "entity2": {"entity": "Cautres", "references": ["Cautres"]},
+      "justifications": ["Cautres agrees that Hollande's EU positioning is unlikely to pay off.", "Ultimately, he says, the French election will turn on bread-and-butter issues like jobs and the economy.", "\"Francois Hollande is probably going to play on the same things he did during the last election,\" Cautres said."],
+      "attitude": "Negative"
+    }
+  ]
+}

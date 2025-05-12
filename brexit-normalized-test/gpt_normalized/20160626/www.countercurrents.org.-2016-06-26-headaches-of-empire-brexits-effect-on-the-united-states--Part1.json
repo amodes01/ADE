@@ -1,0 +1,156 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": [
+          "U.K. departure from the EU",
+          "the recent referendum"
+        ]
+      },
+      "justifications": [
+        "did not react well to the referendum result.",
+        "over time, he has been unduly chiding in his manner, reproachful about the affairs of another country in how it would vote on its relationship with the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "target": {
+        "topic": "trade deal with the United States",
+        "references": [
+          "bilateral trade agreement"
+        ]
+      },
+      "justifications": [
+        "Obama warned British voters that a trade deal with the United States would be a rather tough thing from outside the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Joe Biden",
+        "references": [
+          "Vice President Joe Biden"
+        ]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": [
+          "U.K. departure from the EU",
+          "the recent referendum"
+        ]
+      },
+      "justifications": [
+        "We had looked for a different outcome. We would have preferred a different outcome."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "target": {
+        "topic": "Transatlantic Trade and Investment Partnership Act",
+        "references": [
+          "NATO and the transatlantic partnership",
+          "TTIP"
+        ]
+      },
+      "justifications": [
+        "It has dawned on some European lawmakers that the TTIP is less a citizen's charter than that of a corporation's."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Sergei Sobyanin",
+        "references": [
+          "Mayor of Moscow Sergei Sobyanin"
+        ]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": [
+          "U.K. departure from the EU",
+          "the recent referendum"
+        ]
+      },
+      "justifications": [
+        "Sensing an aspect of this facet unravelling, the Mayor of Moscow Sergei Sobyanin suggested that Britain's exit from European arrangements meant one less voice on the anti-Russia bandwagon."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Obama warned British voters that a trade deal with the United States would be a rather tough thing from outside the European Union.",
+        "Obama's insistence here has been to keep stand by previous statements that Brexit would lead to a banishment of Britain to the back of the negotiating queue."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Obama's insistence here has been to keep stand by previous statements that Brexit would lead to a banishment of Britain to the back of the negotiating queue."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Sergei Sobyanin",
+        "references": [
+          "Mayor of Moscow Sergei Sobyanin"
+        ]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Without the UK, there will be nobody in the EU to defend sanctions against Russia."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "National Farmers Union", "references": ["National Farmers Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The National Farmers Union, which represents around 55,000 farmers in England and Wales, was against breaking with the EU from the start.",
+        "Its president, Meurig Raymond, called the vote's result a \"political car crash,\" warning it could lead to increased food prices due to a weakened pound and the UK's reliance on imports."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Mike Thomas", "references": ["Mike Thomas"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Mike Thomas, a spokesman for the NFU, the organization wants to ensure the independent UK government will continue to provide similar supports for the agricultural sector."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nigel Farndale", "references": ["Nigel Farndale"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "In February, before the referendum, British author, journalist, and former farmer, Nigel Farndale penned a piece for The Spectator, in which he argues that leaving the EU could save Britain £3 billion ($3.97 billion) a year while maintaining the same amount of farming subsidies currently supporting British farmers."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Professor Patrick Minford", "references": ["Professor Patrick Minford"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Professor Patrick Minford, an economist and former advisor to Margaret Thatcher, who teaches at Cardiff University, also believes Brexit will be good for farmers."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "National Farmers Union", "references": ["National Farmers Union"]},
+      "entity2": {"entity": "Nigel Farndale", "references": ["Nigel Farndale"]},
+      "justifications": [
+        "The National Farmers Union, which represents around 55,000 farmers in England and Wales, was against breaking with the EU from the start.",
+        "In February, before the referendum, British author, journalist, and former farmer, Nigel Farndale penned a piece for The Spectator, in which he argues that leaving the EU could save Britain £3 billion ($3.97 billion) a year while maintaining the same amount of farming subsidies currently supporting British farmers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "National Farmers Union", "references": ["National Farmers Union"]},
+      "entity2": {"entity": "Professor Patrick Minford", "references": ["Professor Patrick Minford"]},
+      "justifications": [
+        "The National Farmers Union, which represents around 55,000 farmers in England and Wales, was against breaking with the EU from the start.",
+        "Professor Patrick Minford, an economist and former advisor to Margaret Thatcher, who teaches at Cardiff University, also believes Brexit will be good for farmers."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

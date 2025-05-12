@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Speaker Paul Ryan", "references": ["Speaker Paul Ryan"]},
+      "target": {"topic": "Affordable Care Act", "references": ["ObamaCare"]},
+      "justifications": [
+        "\"For six years now, we have promised to repeal and replace ObamaCare and make healthcare actually affordable,\\\" the Wisconsin Republican said at an event at the American Enterprise Institute."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Democrats", "references": ["Democrats"]},
+      "target": {"topic": "Affordable Care Act", "references": ["ObamaCare"]},
+      "justifications": [
+        "Democrats immediately attacked the plan, saying it is just a broad outline, and one that, if ever implemented, would roll back the coverage gains of ObamaCare."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "House Ways and Means Committee ranking member Sandy Levin", "references": ["Sandy Levin"]},
+      "target": {"topic": "carried interest tax break", "references": ["carried interest tax break"]},
+      "justifications": [
+        "\"If we go to the public … my guess is that the overwhelming number of people would say, overwhelmingly, that carried interest is a loophole that needs to go,\\\" Levin said at a press conference."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sen. Tammy Baldwin", "references": ["Sen. Tammy Baldwin"]},
+      "target": {"topic": "carried interest tax break", "references": ["carried interest tax break"]},
+      "justifications": [
+        "Levin and Sen. Tammy Baldwin (D-Wis.) last year introduced legislation that would tax carried interest as income."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Patriotic Millionaires", "references": ["Patriotic Millionaires"]},
+      "target": {"topic": "carried interest tax break", "references": ["carried interest tax break"]},
+      "justifications": [
+        "The lawmakers spoke about the need to end the tax break along with members of the Patriotic Millionaires, a group of wealthy individuals who want to reduce income inequality."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jason Furman", "references": ["Jason Furman"]},
+      "target": {"topic": "Trans-Pacific Partnership (TPP)", "references": ["TPP"]},
+      "justifications": [
+        "Jason Furman, chairman of the White House's Council of Economic Advisers, said he expects lawmakers on Capitol Hill to pass the Trans-Pacific Partnership (TPP) during the lame-duck session after the November election."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Speaker Paul Ryan", "references": ["Speaker Paul Ryan"]},
+      "entity2": {"entity": "Democrats", "references": ["Democrats"]},
+      "justifications": [
+        "Democrats immediately attacked the plan, saying it is just a broad outline, and one that, if ever implemented, would roll back the coverage gains of ObamaCare."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "House Ways and Means Committee ranking member Sandy Levin", "references": ["Sandy Levin"]},
+      "entity2": {"entity": "Patriotic Millionaires", "references": ["Patriotic Millionaires"]},
+      "justifications": [
+        "The lawmakers spoke about the need to end the tax break along with members of the Patriotic Millionaires, a group of wealthy individuals who want to reduce income inequality."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jason Furman", "references": ["Jason Furman"]},
+      "entity2": {"entity": "Congress", "references": ["Congress"]},
+      "justifications": [
+        "Jason Furman, chairman of the White House's Council of Economic Advisers, said he expects lawmakers on Capitol Hill to pass the Trans-Pacific Partnership (TPP) during the lame-duck session after the November election."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

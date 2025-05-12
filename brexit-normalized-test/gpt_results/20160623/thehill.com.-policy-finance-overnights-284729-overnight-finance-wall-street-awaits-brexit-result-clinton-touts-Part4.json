@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "swing-state voters", "references": ["swing-state voters"]},
+      "target": {"topic": "trade expansion", "references": ["expanding trade"]},
+      "justifications": ["Voters in four battleground states... expressed positive views about the U.S. expanding trade"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Democrats", "references": ["Democrats"]},
+      "target": {"topic": "trade expansion", "references": ["expanding trade"]},
+      "justifications": ["Democrats are particularly supportive, 66 to 25 percent."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "trade expansion", "references": ["expanding trade"]},
+      "justifications": ["Hillary Clinton... call for major changes to the nation's global commercial outreach."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "trade expansion", "references": ["expanding trade"]},
+      "justifications": ["Donald Trump... call for major changes to the nation's global commercial outreach."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "swing-state voters", "references": ["swing-state voters"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "justifications": ["Hillary Clinton... call for major changes to the nation's global commercial outreach."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "swing-state voters", "references": ["swing-state voters"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": ["Donald Trump... call for major changes to the nation's global commercial outreach."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Democrats", "references": ["Democrats"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "justifications": ["Democrats are particularly supportive, 66 to 25 percent."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Democrats", "references": ["Democrats"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": ["Donald Trump... call for major changes to the nation's global commercial outreach."],
+      "attitude": "Negative"
+    }
+  ]
+}

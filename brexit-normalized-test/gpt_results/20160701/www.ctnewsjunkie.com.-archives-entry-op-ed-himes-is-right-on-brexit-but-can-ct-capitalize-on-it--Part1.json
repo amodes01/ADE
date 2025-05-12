@@ -1,0 +1,65 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "U.S. Rep. Jim Himes", "references": ["U.S. Rep. Jim Himes", "Himes"] },
+      "target": { "topic": "Brexit", "references": ["the decision", "Brexit", "this is a very bad thing for the U.K."] },
+      "justifications": [
+        "Himes said he was 'very disappointed by the decision taken by a very slim majority of the British public.'",
+        "'the millennials, the people in London, understand what the markets are saying today that this is a very bad thing for the U.K.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "U.S. Rep. Jim Himes", "references": ["U.S. Rep. Jim Himes", "Himes"] },
+      "target": { "topic": "financial markets", "references": ["financial markets", "have been devastated", "British pound suffered its largest single-day loss in history"] },
+      "justifications": [
+        "'Markets speak,' said Himes, who was working at Goldman Sachs during the Asian financial crisis.",
+        "'Himes said, as the British pound suffered its largest single-day loss in history.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "U.S. Rep. Jim Himes", "references": ["U.S. Rep. Jim Himes", "Himes"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage", "Farage"] },
+      "justifications": [
+        "Himes then held forth on the right-wing isolationist in European politics that drove the Brexit, adding that 'this is where that xenophobic angry right-wing dark instinct takes you.'",
+        "He had harsh words for Nigel Farage, the leader of the pro-Brexit UK Independence Party, whom he accused of 'completely reneging on the financial promises' his party had made."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn", "Corbyn"] },
+      "entity2": { "entity": "U.S. Rep. Jim Himes", "references": ["U.S. Rep. Jim Himes", "Himes"] },
+      "justifications": [
+        "Indeed, the Brexit opposition of left-wing Labor Party leader Jeremy Corbyn was lukewarm."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tony Blair", "references": ["Tony Blair"] },
+      "entity2": { "entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"] },
+      "justifications": [
+        "But if you believe former British Prime Minister Tony Blair, it was a 'convergence of the far left and far right. The right attacks immigrants while the left rails at bankers.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"] },
+      "entity2": { "entity": "Labor Party", "references": ["Labor Party"] },
+      "justifications": [
+        "That, in part, has led to a political crisis within his own party and to calls for his resignation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "U.K. Independence Party", "references": ["UK Independence Party"] },
+      "entity2": { "entity": "European Union", "references": ["European Union", "EU"] },
+      "justifications": [
+        "'Scotland overwhelmingly voted to stay in the EU, while the country it wanted to secede from voted to do the opposite by four percentage points.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

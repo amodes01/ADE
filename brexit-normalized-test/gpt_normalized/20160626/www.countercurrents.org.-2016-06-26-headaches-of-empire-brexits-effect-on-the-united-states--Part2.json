@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "target": {
+        "topic": "European sanctions",
+        "references": [
+          "sanctions against Russia"
+        ]
+      },
+      "justifications": [
+        "Other European countries had been less than enthusiastic to impose sanctions on the Kremlin."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "Brexit might well provide changes for 'good potential for growth in the value of securities' that would benefit the Russian economy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "target": {
+        "topic": "Britain's referendum",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "justifications": [
+        "Was it the business of a US president to tell the British voter how to go about his or her business? No."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "entity2": {
+        "entity": "Obama",
+        "references": [
+          "Barack Obama"
+        ]
+      },
+      "justifications": [
+        "While Donald Trump has been dismissed as a lunatic on this subject, amongst others, his statements about the way Obama behaved on Britain's referendum were relevant."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "US",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "entity2": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "justifications": [
+        "There remains a conspicuous fear in the US Republic that civilization must be a centralising endeavour."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

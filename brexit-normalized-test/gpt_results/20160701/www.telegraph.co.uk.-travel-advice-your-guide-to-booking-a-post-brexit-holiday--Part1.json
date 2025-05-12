@@ -1,0 +1,143 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "travellers", "references": ["travellers"] },
+      "justifications": [
+        "The main short-term impact of the Brexit vote on travellers so far is the fall in the value of sterling."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "costs", "references": ["Costs on the ground in most destinations"] },
+      "justifications": [
+        "Costs on the ground in most destinations have effectively gone up by 10 per cent - not great, but not a complete disaster."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "Euro", "references": ["euro"] },
+      "justifications": [
+        "it is still possible the euro may also weaken because of the political uncertainties on the Continent"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "value of the pound", "references": ["the fall in the value of sterling", "the value of the pound"] },
+      "target": { "topic": "US dollar", "references": ["value of the pound against the US dollar"] },
+      "justifications": [
+        "A bigger issue from a cost point of view is the value of the pound against the US dollar"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "value of the pound", "references": ["the fall in the value of sterling", "the value of the pound"] },
+      "target": { "topic": "Caribbean", "references": ["countries in the Caribbean"] },
+      "justifications": [
+        "Many countries - especially in the Caribbean - have currencies which are pegged to the US dollar or which use it as a parallel currency."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "US dollar", "references": ["US dollar"] },
+      "target": { "topic": "airfares", "references": ["airfares"] },
+      "justifications": [
+        "this will put pressure on airfares, ferry fares and petrol price"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "US dollar", "references": ["US dollar"] },
+      "target": { "topic": "cruise pricing", "references": ["cruises"] },
+      "justifications": [
+        "Many travel services - like cruises or luxury safari lodges - are priced in US dollars."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "US dollar", "references": ["US dollar"] },
+      "target": { "topic": "luxury safari lodges", "references": ["luxury safari lodges"] },
+      "justifications": [
+        "Many travel services - like cruises or luxury safari lodges - are priced in US dollars."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "value of the pound", "references": ["value of the pound against the US dollar"] },
+      "target": { "topic": "oil", "references": ["oil"] },
+      "justifications": [
+        "And, most importantly of all, so is oil, and this will put pressure on airfares, ferry fares and petrol price"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "currency fluctuations", "references": ["currency fluctuations"] },
+      "justifications": [
+        "The pound has dropped against virtually all currencies since the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "tour operators", "references": ["tour operators"] },
+      "target": { "topic": "surcharges", "references": ["surcharge", "surcharges"] },
+      "justifications": [
+        "tour operators are legally allowed to surcharge, or increase the price of your holiday by up to 10 per cent even after you have booked if their costs increase because of factors such as currency fluctuations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "tour operators", "references": ["tour operators"] },
+      "target": { "topic": "cost increases", "references": ["cost increases"] },
+      "justifications": [
+        "tour operators are legally allowed to surcharge, or increase the price of your holiday by up to 10 per cent even after you have booked if their costs increase because of factors such as currency fluctuations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Inghams", "references": ["Inghams"] },
+      "target": { "topic": "holiday pricing", "references": ["holiday prices"] },
+      "justifications": [
+        "Inghams has just announced that it has frozen all its summer and winter holiday prices and ruled out surcharges."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brexit", "references": ["Brexit vote"] },
+      "entity2": { "entity": "travellers", "references": ["travellers"] },
+      "justifications": [
+        "The main short-term impact of the Brexit vote on travellers so far is the fall in the value of sterling."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "tour operators", "references": ["tour operators"] },
+      "entity2": { "entity": "travellers", "references": ["travellers"] },
+      "justifications": [
+        "tour operators are legally allowed to surcharge, or increase the price of your holiday by up to 10 per cent even after you have booked if their costs increase because of factors such as currency fluctuations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Inghams", "references": ["Inghams"] },
+      "entity2": { "entity": "travellers", "references": ["travellers"] },
+      "justifications": [
+        "Inghams has just announced that it has frozen all its summer and winter holiday prices and ruled out surcharges."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "tour operators", "references": ["tour operators"] },
+      "entity2": { "entity": "Inghams", "references": ["Inghams"] },
+      "justifications": [
+        "Inghams has just announced that it has frozen all its summer and winter holiday prices and ruled out surcharges."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

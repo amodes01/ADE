@@ -1,0 +1,37 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Canadians", "references": ["Canadians"]},
+      "target": {"topic": "Canada as a refuge for the politically dissatisfied", "references": ["Canada's status as a refuge for the politically dissatisfied"]},
+      "justifications": ["On behalf of Canada, let me assure you that you are welcome here"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Canadians", "references": ["Canadians"]},
+      "target": {"topic": "populist demagogues", "references": ["populist demagogues"]},
+      "justifications": ["we would prefer that control of the US and UK governments not fall into the hands of populist demagogues"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Canadians", "references": ["Canadians"]},
+      "target": {"topic": "liberals as an electoral bulwark", "references": ["periodic influxes of liberals are an electoral bulwark"]},
+      "justifications": ["periodic influxes of liberals are an electoral bulwark against their rise in our own country"]
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Canadians", "references": ["Canadians"]},
+      "entity2": {"entity": "John Tory", "references": ["John Tory"]},
+      "justifications": ["ashamed Torontonians that they promptly elected a man so boring that his name is actually \"John Tory\""]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Canadians", "references": ["Canadians"]},
+      "entity2": {"entity": "Trump/Johnson refugees", "references": ["Trump/Johnson refugees"]},
+      "justifications": ["his name is actually \"John Tory\", and whose soporific public persona might be particularly reassuring to Trump/Johnson refugees"]
+      "attitude": "Neutral"
+    }
+  ]
+}

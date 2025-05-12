@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jean-Marc Ayrault", "references": ["French Foreign Minister Jean-Marc Ayrault"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Jean-Marc Ayrault epitomised this haughty intransigence when he opined in the wake of Brexit, \"We have to give a new sense to Europe otherwise populism will fill the gap.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jean Asselborn", "references": ["Luxembourg's Foreign Minister Jean Asselborn"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Luxembourg's Foreign Minister Jean Asselborn put it more directly: \"I believe you can destroy the European Union with referenda.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Scott Anderson", "references": ["Scott Anderson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The enlightened ones will mock it and call its prophets fools and knaves, but it behoves the rest of us to try to understand it. Perhaps even, after much thought, join it?"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jean-Marc Ayrault", "references": ["French Foreign Minister Jean-Marc Ayrault"]},
+      "entity2": {"entity": "Jean Asselborn", "references": ["Luxembourg's Foreign Minister Jean Asselborn"]},
+      "justifications": ["Jean-Marc Ayrault epitomised this haughty intransigence when he opined in the wake of Brexit, \"We have to give a new sense to Europe otherwise populism will fill the gap.\"", "Luxembourg's Foreign Minister Jean Asselborn put it more directly: \"I believe you can destroy the European Union with referenda.\""],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Scott Anderson", "references": ["Scott Anderson"]},
+      "entity2": {"entity": "Jean-Marc Ayrault", "references": ["Jean-Marc Ayrault"]},
+      "justifications": ["Jean-Marc Ayrault epitomised this haughty intransigence when he opined in the wake of Brexit, \"We have to give a new sense to Europe otherwise populism will fill the gap.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Scott Anderson", "references": ["Scott Anderson"]},
+      "entity2": {"entity": "Jean Asselborn", "references": ["Jean Asselborn"]},
+      "justifications": ["Luxembourg's Foreign Minister Jean Asselborn put it more directly: \"I believe you can destroy the European Union with referenda.\""],
+      "attitude": "Negative"
+    }
+  ]
+}

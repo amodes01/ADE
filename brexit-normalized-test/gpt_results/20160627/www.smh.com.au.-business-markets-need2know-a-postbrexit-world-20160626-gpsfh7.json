@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Sterling",
+        "references": ["Sterling"]
+      },
+      "target": {
+        "topic": "US dollar",
+        "references": ["US dollar"]
+      },
+      "justifications": [
+        "Sterling edged off lows against the US dollar, recovering slightly from a 10 per cent plunge to its weakest in 31 years."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "Sterling",
+        "references": ["Sterling"]
+      },
+      "target": {
+        "topic": "US dollar",
+        "references": ["US dollar"]
+      },
+      "justifications": [
+        "Sterling was down 8.1 per cent against the US dollar in late New York trade, at $US1.3662, after touching its weakest since before the 1985 Plaza Accord of $US1.3228."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Oil futures",
+        "references": ["Oil futures"]
+      },
+      "target": {
+        "topic": "US dollar",
+        "references": ["US dollar"]
+      },
+      "justifications": [
+        "Oil futures dropped 4.9 per cent in New York and London, the biggest decline in four months."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brent oil",
+        "references": ["Brent"]
+      },
+      "target": {
+        "topic": "WTI",
+        "references": ["WTI"]
+      },
+      "justifications": [
+        "The global benchmark oil closed at a 77-cent premium to WTI."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "topic": "Gold",
+        "references": ["Gold"]
+      },
+      "target": {
+        "topic": "US dollar",
+        "references": ["US dollar"]
+      },
+      "justifications": [
+        "Gold soared as much as 8 per cent to its highest in more than two years on Friday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "topic": "S&P 500",
+        "references": ["S&P 500"]
+      },
+      "target": {
+        "topic": "US economy",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "The S&P 500 turned negative for the year-to-date on Friday as Wall Street suffered its largest selloff in 10 months."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Wall Street",
+        "references": ["Wall Street"]
+      },
+      "target": {
+        "topic": "US economy",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "The S&P 500 turned negative for the year-to-date on Friday as Wall Street suffered its largest selloff in 10 months."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "S&P 500",
+        "references": ["S&P 500"]
+      },
+      "entity2": {
+        "entity": "Wall Street",
+        "references": ["Wall Street"]
+      },
+      "justifications": [
+        "In the busiest trading volume for a single session in nearly five years, financial stocks led the decline on the S&P 500 with a 5.4 per cent drop -the largest for the sector since November 2011."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

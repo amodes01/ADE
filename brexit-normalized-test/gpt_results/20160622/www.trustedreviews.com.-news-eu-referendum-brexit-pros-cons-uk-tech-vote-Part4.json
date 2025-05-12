@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "roaming charges", "references": ["roaming charges"]},
+      "justifications": ["European Union has scrapped roaming charges across EU (Coming 2017)"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Rob Hilborn", "references": ["Rob Hilborn"]},
+      "target": {"topic": "roaming charges", "references": ["abolishment of EU roaming charges"]},
+      "justifications": ["What is clear is that, regardless of the results on June 23, consumers are demanding the abolishment of EU roaming charges."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Richard Patterson", "references": ["Richard Patterson"]},
+      "target": {"topic": "privacy rights", "references": ["right to privacy"]},
+      "justifications": ["it's also important that the public gives consideration to their right to privacy."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Richard Patterson", "references": ["Richard Patterson"]},
+      "target": {"topic": "UK Investigatory Powers Bill", "references": ["UK's proposed Investigatory Powers bill - or Snooper's Charter"]},
+      "justifications": ["The UK's proposed Investigatory Powers bill - or Snooper's Charter - would make it easier for the government to snoop on its citizens, but so far the EU courts have been holding the bill back as it is at odds with European Law."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "European Union", "references": ["European Union"]},
+      "entity2": {"entity": "Google", "references": ["Google"]},
+      "justifications": ["the EU has no qualms about putting pressure on Google. Earlier this year, the Commission formally charged Google with unlawfully preventing competition in the mobile (read: Android) and search (read: Google) markets."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Richard Patterson", "references": ["Richard Patterson"]},
+      "entity2": {"entity": "UK government", "references": ["UK's proposed Investigatory Powers bill - or Snooper's Charter"]},
+      "justifications": ["The UK's proposed Investigatory Powers bill - or Snooper's Charter - would make it easier for the government to snoop on its citizens, but so far the EU courts have been holding the bill back as it is at odds with European Law."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "UK government", "references": ["UK government"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["The UK, by comparison, has been less successful. Earlier this year, Chancellor George Osborne came under fire after calling the UK's tax deal with Google a 'major success', despite backlash against the £130 million agreements leniency."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "UK", "references": ["UK"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["Much of the UK's technology industry is based in London, a city that has benefited massively from the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "UK", "references": ["UK"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["The UK was split nearly 50/50 on Brexit, but the same certainly is not true of the technology sector. It seems that, on balance, Britain's tech and science industries would have liked us to stay in Europe."],
+      "attitude": "Positive"
+    }
+  ]
+}

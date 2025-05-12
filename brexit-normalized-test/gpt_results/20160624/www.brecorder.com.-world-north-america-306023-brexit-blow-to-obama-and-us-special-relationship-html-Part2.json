@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Britain", "references": ["Britain", "UK"]},
+      "target": {"topic": "European ties", "references": ["European ties"]},
+      "justifications": ["neglected European ties."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain", "UK"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["retreated from the world."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Rohac", "references": ["Rohac"]},
+      "target": {"topic": "UK's political clout", "references": ["UK's political clout"]},
+      "justifications": ["Much of the UK's political clout was related to its ability to steer European policy, said Rohac."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain", "UK"]},
+      "entity2": {"entity": "European policy", "references": ["European policy"]},
+      "justifications": ["Much of the UK's political clout was related to its ability to steer European policy, said Rohac."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Rohac", "references": ["Rohac"]},
+      "entity2": {"entity": "Britain", "references": ["Britain", "UK"]},
+      "justifications": ["That clout is gone once the UK leaves."],
+      "attitude": "Negative"
+    }
+  ]
+}

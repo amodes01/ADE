@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "globalization", "references": ["technology-driven globalization"]},
+      "justifications": [
+        "Mr. Obama acknowledged that much of the upheaval gripping American voters -- an angst that is propelling the campaign of Donald J. Trump, the presumptive Republican presidential nominee -- is driven by fear of technology-driven globalization."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "globalization", "references": ["technology-driven globalization"]},
+      "justifications": [
+        "Mr. Trump has exploited such fears, Mr. Obama told National Public Radio in December, calling them 'justified, but just misdirected.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "interconnectivity", "references": ["interconnectivity"]},
+      "justifications": [
+        "\"We are better off in a world in which we are trading, and networking, and communicating and sharing ideas,\" Mr. Obama said before a panel discussion with Mark Zuckerberg."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "refugees", "references": ["refugees"]},
+      "justifications": [
+        "confronting a crisis in Europe fueled in part by the refugees attempting to flee the Middle East."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Mr. Obama acknowledged that much of the upheaval gripping American voters -- an angst that is propelling the campaign of Donald J. Trump, the presumptive Republican presidential nominee -- is driven by fear of technology-driven globalization.",
+        "Mr. Trump has exploited such fears, Mr. Obama told National Public Radio in December, calling them 'justified, but just misdirected.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mark Zuckerberg", "references": ["Mark Zuckerberg"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": [
+        "\"We are better off in a world in which we are trading, and networking, and communicating and sharing ideas,\" Mr. Obama said before a panel discussion with Mark Zuckerberg."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

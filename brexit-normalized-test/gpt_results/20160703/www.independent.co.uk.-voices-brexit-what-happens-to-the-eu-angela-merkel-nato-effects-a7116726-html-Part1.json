@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "It should now be clear, both from the response of EU leaders and from the statements of intention by all five candidates for the Conservative Party leadership, that there is no going back."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "UK", "references": ["UK"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The UK is not only the first EU member to vote to leave - summarily reversing more than a half century of growth and expansion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "UK's financial contribution", "references": ["UK's financial contribution"] },
+      "justifications": [
+        "The UK's financial contribution, as the EU's second largest economy, will be missed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "UK", "references": ["UK"] },
+      "target": { "topic": "UK's financial contribution", "references": ["UK's financial contribution"] },
+      "justifications": [
+        "The UK preferred to work through the International Monetary Fund (IMF) so as to avoid the danger, for domestic politics, of appearing to share liability for improvident euro economies."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Germany", "references": ["Germany"] },
+      "target": { "topic": "EU cooperation", "references": ["increasing, rather than decreasing, cooperation"] },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "France", "references": ["France"] },
+      "target": { "topic": "EU cooperation", "references": ["increasing, rather than decreasing, cooperation"] },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Angela Merkel", "references": ["Angela Merkel"] },
+      "target": { "topic": "EU reform", "references": ["how the EU needs to change to serve its members better"] },
+      "justifications": [
+        "Angela Merkel has also spoken, in the immediate aftermath of the UK's vote, of how the EU needs to change to serve its members better."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "EU reform", "references": ["how the EU needs to change to serve its members better"] },
+      "justifications": [
+        "One consequence could be a looser, more a la carte, European Union."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "It should now be clear, both from the response of EU leaders and from the statements of intention by all five candidates for the Conservative Party leadership, that there is no going back."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "The UK is not only the first EU member to vote to leave - summarily reversing more than a half century of growth and expansion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "The UK's financial contribution, as the EU's second largest economy, will be missed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "The UK preferred to work through the International Monetary Fund (IMF) so as to avoid the danger, for domestic politics, of appearing to share liability for improvident euro economies."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germany"] },
+      "entity2": { "entity": "France", "references": ["France"] },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germany"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "France", "references": ["France"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Angela Merkel", "references": ["Angela Merkel"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Angela Merkel has also spoken, in the immediate aftermath of the UK's vote, of how the EU needs to change to serve its members better."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

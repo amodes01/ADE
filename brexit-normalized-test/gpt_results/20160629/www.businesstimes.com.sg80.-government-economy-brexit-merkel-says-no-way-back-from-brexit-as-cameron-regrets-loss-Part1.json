@@ -1,0 +1,188 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "German Chancellor Angela Merkel",
+        "references": ["German Chancellor Angela Merkel"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "\"As of this evening, I see no way back from the Brexit vote,\\\" German Chancellor Angela Merkel told reporters after the meeting in Brussels on Tuesday."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "German Chancellor Angela Merkel",
+        "references": ["German Chancellor Angela Merkel"]
+      },
+      "target": {
+        "topic": "Brexit referendum",
+        "references": ["referendum"]
+      },
+      "justifications": [
+        "\"This is no time for wishful thinking, but rather to grasp reality.\\\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "EU referendum",
+        "references": ["referendum"]
+      },
+      "justifications": [
+        "He warned them that if they want a close economic relationship with the UK in the future, they will have to shift ground and find a way to tackle immigration, the official said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "EU immigration policy",
+        "references": ["immigration to the UK"]
+      },
+      "justifications": [
+        "He warned them that if they want a close economic relationship with the UK in the future, they will have to shift ground and find a way to tackle immigration, the official said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "EU referendum outcome",
+        "references": ["referendum result"]
+      },
+      "justifications": [
+        "\"I fought very hard for what I believed in,\\\" Mr Cameron told reporters."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "EU membership",
+        "references": ["Britain's membership of the EU"]
+      },
+      "justifications": [
+        "Mr Cameron was visibly shaken after the dinner, at which he said fellow leaders had told him how much Britain's membership of the EU meant to their countries."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "French President Francois Hollande",
+        "references": ["French President Francois Hollande"]
+      },
+      "target": {
+        "topic": "Brexit consequences",
+        "references": ["referendum", "Brexit"]
+      },
+      "justifications": [
+        "\"This is not to punish the British people,\\\" but following the referendum \\\"they will have to face the consequences for some time.\\\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European Union leaders",
+        "references": ["European Union leaders"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "European Union leaders",
+        "references": ["European Union leaders"]
+      },
+      "justifications": [
+        "European Union leaders said there could be no turning back for the UK after Prime Minister David Cameron used his last EU summit to express disappointment at his failure to win the referendum he called on Britain's membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "French President Francois Hollande",
+        "references": ["French President Francois Hollande"]
+      },
+      "justifications": [
+        "\"The UK will not be able to access the single market without applying the rules of freedom of movement,\\\" French President Francois Hollande said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "German Chancellor Angela Merkel",
+        "references": ["German Chancellor Angela Merkel"]
+      },
+      "justifications": [
+        "\"As of this evening, I see no way back from the Brexit vote,\\\" German Chancellor Angela Merkel told reporters after the meeting in Brussels on Tuesday."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "\"I fought very hard for what I believed in,\\\" Mr Cameron told reporters."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "UK citizens",
+        "references": ["British people"]
+      },
+      "justifications": [
+        "\"This is not to punish the British people,\\\" but following the referendum \\\"they will have to face the consequences for some time.\\\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "\"While the UK's relationship with the EU will change, one thing that will not change is the special relationship that exists between our two nations, Obama said during remarks at Stanford University...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "EU-UK relationship",
+        "references": ["UK's relationship with the EU"]
+      },
+      "justifications": [
+        "\"While the UK's relationship with the EU will change...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "special relationship",
+        "references": ["special relationship"]
+      },
+      "justifications": [
+        "\"...one thing that will not change is the special relationship that exists between our two nations, Obama said...\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "\"...the referendum, characterized by a fierce populist debate on issues like immigration and the economy, spoke to 'the ongoing changes and challenges that are raised by globalization.'\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "\"The EU will remain a 'vital' U.S. partner, alongside NATO.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Joe Biden",
+        "references": ["Vice President Joe Biden"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "\"I must say we had looked for a different outcome, we preferred a different outcome.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "\"...stressed the need to reaffirm the U.S. commitment to the special relationship it has with both the UK and the EU.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "economic uncertainty",
+        "references": ["economic uncertainty"]
+      },
+      "justifications": [
+        "\"This time of uncertainty only underscores the need for calm, steady, experienced leadership in the White House to protect Americans' pocketbooks and livelihoods.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "\"...one thing that will not change is the special relationship that exists between our two nations, Obama said...\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "\"The EU will remain a 'vital' U.S. partner, alongside NATO.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": ["German Chancellor Angela Merkel"]
+      },
+      "justifications": [
+        "\"The President spoke with British Prime Minister David Cameron and German Chancellor Angela Merkel on Friday...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["British Prime Minister David Cameron"]
+      },
+      "justifications": [
+        "\"The President spoke with British Prime Minister David Cameron and German Chancellor Angela Merkel on Friday...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Joe Biden",
+        "references": ["Vice President Joe Biden"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "\"I must say we had looked for a different outcome, we preferred a different outcome.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "\"...stressed the need to reaffirm the U.S. commitment to the special relationship it has with both the UK and the EU.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "\"...stressed the need to reaffirm the U.S. commitment to the special relationship it has with both the UK and the EU.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "justifications": [
+        "\"...drew an indirect comparison to Trump, her likely Republican rival.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

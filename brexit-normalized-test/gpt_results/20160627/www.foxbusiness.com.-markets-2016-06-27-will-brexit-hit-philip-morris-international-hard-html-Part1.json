@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["Brexit vote"]
+      },
+      "justifications": [
+        "The clearest danger of the Brexit vote for Philip Morris is the impact on the value of the British pound."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "European market exposure",
+        "references": ["European sales", "European market"]
+      },
+      "justifications": [
+        "Philip Morris gets disproportionately more of its revenue from European sales.",
+        "Any economic disruption that affects European consumers' ability to buy cigarettes and other tobacco products could hit Philip Morris hard in one of its most important areas of the global market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "target": {
+        "topic": "currency impact",
+        "references": ["currency impact", "euro's declines", "Brexit"]
+      },
+      "justifications": [
+        "Even if Philip Morris International's business managed to sustain its sales figures in terms of volume, the currency impact from Brexit could also be a source of financial disappointment for the company.",
+        "The euro still lost about 3% of its value on Friday, reversing a good portion of the gains that the European currency had managed to claw back during 2016."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Imperial Tobacco",
+        "references": ["Imperial Tobacco"]
+      },
+      "justifications": [
+        "By contrast, Imperial Tobacco and Japan Tobacco International dominate the U.K. tobacco market, and combined, they control about five-sixths of the market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Philip Morris International",
+        "references": ["Philip Morris International"]
+      },
+      "entity2": {
+        "entity": "Japan Tobacco International",
+        "references": ["Japan Tobacco International"]
+      },
+      "justifications": [
+        "By contrast, Imperial Tobacco and Japan Tobacco International dominate the U.K. tobacco market, and combined, they control about five-sixths of the market."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Britain has decided to leave the European Union. Brexit has caused panic, not only in the UK but also further afield as world leaders rushed to discuss the fallout from Britain's decision to leave the European Union.",
+        "The US had always looked to the UK as a safe bet and has always been called upon to support the US, whether it was the Iraq war or fighting Daesh - also known as ISIL. However, since Brexit, the future of this 'special' relationship is now unclear."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "target": {
+        "topic": "special relationship with UK",
+        "references": ["special relationship"]
+      },
+      "justifications": [
+        "The US had always looked to the UK as a safe bet and has always been called upon to support the US, whether it was the Iraq war or fighting Daesh - also known as ISIL. However, since Brexit, the future of this 'special' relationship is now unclear."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "target": {
+        "topic": "Germany's increasing role in Europe",
+        "references": ["Germany", "key role in moving Brexit to the next stages"]
+      },
+      "justifications": [
+        "Germany is taking on a key role in moving Brexit to the next stages and this has not gone unnoticed by the US."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["Britain", "UK"]
+      },
+      "justifications": [
+        "The US had always looked to the UK as a safe bet and has always been called upon to support the US, whether it was the Iraq war or fighting Daesh - also known as ISIL. However, since Brexit, the future of this 'special' relationship is now unclear."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "justifications": [
+        "Germany is taking on a key role in moving Brexit to the next stages and this has not gone unnoticed by the US."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK", "Britain"]
+      },
+      "justifications": [
+        "Germany refused to partake in active combat against Daesh, but now that the UK has voted for Brexit, Germany's power - some may say - has increased substantially, thus making them an ideal candidate to take over from the UK as Washington's next ally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": ["Germany"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["US", "Washington"]
+      },
+      "justifications": [
+        "Germany is taking on a key role in moving Brexit to the next stages and this has not gone unnoticed by the US."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Obama"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "President Obama was quick to say that he respected the decision of the British people."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "P.J. Crowley",
+        "references": ["P.J. Crowley"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "According to former US assistant secretary of state, P.J. Crowley, the US is unsure if these changes will be effective."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": ["Secretary of State John Kerry"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "\"It is absolutely essential that we stay focused on how in this transitional period, nobody loses their head, nobody goes off half-cock, people do not start moving on scatter-brained or revengeful premises,\" Secretary of State John Kerry said."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

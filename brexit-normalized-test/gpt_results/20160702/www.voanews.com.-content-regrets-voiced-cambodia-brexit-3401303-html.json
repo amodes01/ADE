@@ -1,0 +1,106 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jeremy Chea", "references": ["Jeremy Chea"]},
+      "target": {"topic": "Brexit", "references": ["Brexit outcome"]},
+      "justifications": [
+        "Chea, who lived in the U.K. for 29 years, said he regretted the so-called Brexit outcome",
+        "He lamented that the important thing [is that the EU] will make it [expensive] for England to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jeremy Chea", "references": ["Jeremy Chea"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "He lamented that the EU might seek to punish it for leaving.",
+        "Now the EU is getting angry with England because its citizens will walk away.",
+        "The important thing [is that the EU] will make it [expensive] for England to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jeremy Chea", "references": ["Jeremy Chea"]},
+      "target": {"topic": "Britain's future post-Brexit", "references": ["Britain to get bad deals"]},
+      "justifications": [
+        "Why do they want Britain to get bad deals?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chum Sounry", "references": ["Chum Sounry"]},
+      "target": {"topic": "Cambodia-U.K. relations", "references": ["Cambodia-U.K. relations"]},
+      "justifications": [
+        "Chum Sounry, spokesman for the Ministry of Foreign Affairs, said there would be no impact on Cambodia-U.K. relations."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Chap Sotharith", "references": ["Chap Sotharith"]},
+      "target": {"topic": "Brexit", "references": ["Brexit result"]},
+      "justifications": [
+        "Chap Sotharith, a senior economic researcher at the Cambodian Institute for Cooperation and Peace (CICP), told VOA that British people will come to regret their decision"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chap Sotharith", "references": ["Chap Sotharith"]},
+      "target": {"topic": "Brexit's economic impact", "references": ["the apparent economic cost of being a part of the union"]},
+      "justifications": [
+        "Chap Sotharith said companies will leave in favor of other financial centers, such as Dublin and Frankfurt."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chap Sotharith", "references": ["Chap Sotharith"]},
+      "target": {"topic": "U.K.'s economic decline post-Brexit", "references": ["Stock prices plummeted rapidly after last week's announcement"]},
+      "justifications": [
+        "Stock prices plummeted rapidly after last week's announcement, and already there are signs that EU leaders have lost confidence in Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chap Sotharith", "references": ["Chap Sotharith"]},
+      "target": {"topic": "Cambodia's trade with the U.K.", "references": ["companies that exported from Cambodia to the U.K."]},
+      "justifications": [
+        "Sotharith said companies that exported from Cambodia to the U.K. would be affected."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jeremy Chea", "references": ["Jeremy Chea"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Now the EU is getting angry with England because its citizens will walk away.",
+        "The important thing [is that the EU] will make it [expensive] for England to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Chea", "references": ["Jeremy Chea"]},
+      "entity2": {"entity": "Britain", "references": ["England"]},
+      "justifications": [
+        "He regretted the so-called Brexit outcome, in which the country voted by a slim margin to leave the European bloc."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Chum Sounry", "references": ["Chum Sounry"]},
+      "entity2": {"entity": "Cambodia-U.K. relations", "references": ["Cambodia-U.K. relations"]},
+      "justifications": [
+        "Chum Sounry, spokesman for the Ministry of Foreign Affairs, said there would be no impact on Cambodia-U.K. relations."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Chap Sotharith", "references": ["Chap Sotharith"]},
+      "entity2": {"entity": "U.K.", "references": ["U.K."]},
+      "justifications": [
+        "Chap Sotharith said companies will leave in favor of other financial centers, such as Dublin and Frankfurt."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

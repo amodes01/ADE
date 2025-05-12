@@ -1,0 +1,246 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "U.S. official policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "target": {
+        "topic": "European integration",
+        "references": [
+          "EU to expand faster and further to the east and southeast"
+        ]
+      },
+      "justifications": [
+        "the U.S. official policy, and I think it was basically held throughout the government with perhaps some misgivings within some departments, was that we supported further European integration"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "U.S. official policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "target": {
+        "topic": "British entry into the European Community",
+        "references": [
+          "British decision"
+        ]
+      },
+      "justifications": [
+        "we supported further European integration and British entry, the so-called enlargement of the EC"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "French",
+        "references": [
+          "French Hill"
+        ]
+      },
+      "target": {
+        "topic": "European integration",
+        "references": [
+          "European integration"
+        ]
+      },
+      "justifications": [
+        "you might think it looks like we are heading toward European integration but look out for the French, they will never stand for it"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "French",
+        "references": [
+          "French Hill"
+        ]
+      },
+      "target": {
+        "topic": "monetary union",
+        "references": [
+          "monetary policy"
+        ]
+      },
+      "justifications": [
+        "The French had put forward the Barre Plan for monetary union"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "CIA research office",
+        "references": [
+          "CIA research office"
+        ]
+      },
+      "target": {
+        "topic": "European union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "the CIA research office working on the EC usually had a comment at the end of its analyses that said that all of this was looking good and if we do not have European union today, we will certainly have it tomorrow"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "target": {
+        "topic": "monetary union",
+        "references": [
+          "monetary policy"
+        ]
+      },
+      "justifications": [
+        "They had a plan for monetary union"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "target": {
+        "topic": "foreign policy consultations",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "justifications": [
+        "the six member countries of the European Communities were also starting to consult on foreign policy issues"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "target": {
+        "topic": "common industrial policy",
+        "references": [
+          "common industrial policy"
+        ]
+      },
+      "justifications": [
+        "They were moving toward a common industrial policy"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "U.S. official policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "entity2": {
+        "entity": "French",
+        "references": [
+          "French Hill"
+        ]
+      },
+      "justifications": [
+        "you might think it looks like we are heading toward European integration but look out for the French, they will never stand for it"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "U.S. official policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "entity2": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "justifications": [
+        "we supported further European integration and British entry, the so-called enlargement of the EC"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "French",
+        "references": [
+          "French Hill"
+        ]
+      },
+      "entity2": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "justifications": [
+        "you might think it looks like we are heading toward European integration but look out for the French, they will never stand for it"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "CIA research office",
+        "references": [
+          "CIA research office"
+        ]
+      },
+      "entity2": {
+        "entity": "U.S. official policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "justifications": [
+        "the CIA research office working on the EC usually had a comment at the end of its analyses that said that all of this was looking good and if we do not have European union today, we will certainly have it tomorrow"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "EC",
+        "references": [
+          "European elites",
+          "EC"
+        ]
+      },
+      "entity2": {
+        "entity": "French",
+        "references": [
+          "French Hill"
+        ]
+      },
+      "justifications": [
+        "The French had put forward the Barre Plan for monetary union"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

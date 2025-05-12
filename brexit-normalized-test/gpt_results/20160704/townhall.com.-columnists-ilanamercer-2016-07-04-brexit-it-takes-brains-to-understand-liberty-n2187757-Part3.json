@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Brexit referendum", "references": ["that referendum"]},
+      "justifications": ["what we did last week in that referendum was say, 'Get thee gone.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "political class", "references": ["Our political class"]},
+      "justifications": ["Our political class has let us down like a cheap pair of braces"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "CNN", "references": ["CNN"]},
+      "justifications": ["The dumbed-down transcript, provided by CNN, had turned Farage's 'get thee gone' into 'get the gun.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "UKIP", "references": ["UKIP"]},
+      "justifications": ["leader of the UKIP"],
+      "attitude": "Positive"
+    }
+  ]
+}

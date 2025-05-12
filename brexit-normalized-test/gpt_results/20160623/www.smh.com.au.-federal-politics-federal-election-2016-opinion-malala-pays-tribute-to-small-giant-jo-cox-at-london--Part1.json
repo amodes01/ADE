@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "anti-globalization", "references": ["latent anti-globalisation movements"] },
+      "justifications": [
+        "At the heart of Trump's rise 'Make America great again' and the Brexit push to 'take back control' is essentially latent anti-globalisation movements."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "anti-globalization", "references": ["latent anti-globalisation movements"] },
+      "justifications": [
+        "At the heart of Trump's rise 'Make America great again' and the Brexit push to 'take back control' is essentially latent anti-globalisation movements."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "globalism", "references": ["policy of globalism"] },
+      "justifications": [
+        "He dedicated most of his comments to 'pathetic liar' Hillary Clinton, claiming she needs to go to prison, would be blackmailed by the Chinese etc etc. Also fascinating, he appealed directly to Bernie Sanders' 'anti-Establishment' voters.",
+        "Our country lost its way when we stopped putting the American people first. We got here because we switched from a policy of Americanism - focusing on what's good for America's middle class - to a policy of globalism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "globalism", "references": ["policy of globalism"] },
+      "justifications": [
+        "The reality for many, particularly the demographics most attracted to Brexit and Trump, has been the widespread elimination of domestic manufacturing industries, uncertainty about the jobs of today and the future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "target": { "topic": "Nazi analogies", "references": ["making Nazi analogies"] },
+      "justifications": [
+        "On the Vote Leave side, Michael Gove was forced to apologise for making Nazi analogies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jean-Claude Juncker", "references": ["Jean-Claude Junker"] },
+      "target": { "topic": "EU reform", "references": ["any further reform of the EU"] },
+      "justifications": [
+        "the President of the EU Commission Jean-Claude Junker said the British should not to expect any further reform of the EU should it elect to stay."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ruth Davidson", "references": ["Ruth Davidson"] },
+      "target": { "topic": "UK politics", "references": ["UK politics"] },
+      "justifications": [
+        "Last night's BBC debate at Wembley Arena was most interesting for the stand-out performance of Ruth Davidson, who absolutely outclassed the rest on stage."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "Bernie Sanders' voters", "references": ["Bernie Sanders' 'anti-Establishment' voters"] },
+      "justifications": [
+        "Also fascinating, he appealed directly to Bernie Sanders' 'anti-Establishment' voters."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Michael Gove", "references": ["Michael Gove"] },
+      "entity2": { "entity": "Nazi analogies", "references": ["making Nazi analogies"] },
+      "justifications": [
+        "Michael Gove was forced to apologise for making Nazi analogies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Jean-Claude Juncker", "references": ["Jean-Claude Juncker"] },
+      "entity2": { "entity": "British", "references": ["the British"] },
+      "justifications": [
+        "Jean-Claude Juncker said the British should not to expect any further reform of the EU should it elect to stay."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ruth Davidson", "references": ["Ruth Davidson"] },
+      "entity2": { "entity": "UK politicians", "references": ["the rest on stage"] },
+      "justifications": [
+        "Ruth Davidson, who absolutely outclassed the rest on stage."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "justifications": [
+        "he appealed directly to Bernie Sanders' 'anti-Establishment' voters."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

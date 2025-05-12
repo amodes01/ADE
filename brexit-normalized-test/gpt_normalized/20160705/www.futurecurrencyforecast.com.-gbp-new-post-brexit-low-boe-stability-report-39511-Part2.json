@@ -1,0 +1,152 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "target": {
+        "topic": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "justifications": [
+        "Before the report was released, the Pound was down -1% against several of the majors, including the US Dollar."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "target": {
+        "topic": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "justifications": [
+        "The US Dollar began the day on a bullish rise, as anticipation of the BoE report and subsequent speech by Mark Carney drove safe-haven demand.",
+        "Before the release, the 'Greenback' had made gains of 1.1% against the Pound."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "target": {
+        "topic": "US Dollar",
+        "references": [
+          "GBP"
+        ]
+      },
+      "justifications": [
+        "The Pound is gradually erasing losses following the release of the Financial Stability Report, which has calmed investor fears."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "target": {
+        "topic": "Pound",
+        "references": [
+          "GBP"
+        ]
+      },
+      "justifications": [
+        "Suggestions that GBP USD could hit a 34-year low today seem dovish now."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "entity2": {
+        "entity": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "justifications": [
+        "Before the report was released, the Pound was down -1% against several of the majors, including the US Dollar."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "entity2": {
+        "entity": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "justifications": [
+        "The US Dollar began the day on a bullish rise, as anticipation of the BoE report and subsequent speech by Mark Carney drove safe-haven demand.",
+        "Before the release, the 'Greenback' had made gains of 1.1% against the Pound."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Pound",
+        "references": [
+          "the pound"
+        ]
+      },
+      "entity2": {
+        "entity": "US Dollar",
+        "references": [
+          "GBP"
+        ]
+      },
+      "justifications": [
+        "The Pound is gradually erasing losses following the release of the Financial Stability Report, which has calmed investor fears."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "US Dollar",
+        "references": [
+          "US dollar"
+        ]
+      },
+      "entity2": {
+        "entity": "Pound",
+        "references": [
+          "GBP"
+        ]
+      },
+      "justifications": [
+        "Suggestions that GBP USD could hit a 34-year low today seem dovish now."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

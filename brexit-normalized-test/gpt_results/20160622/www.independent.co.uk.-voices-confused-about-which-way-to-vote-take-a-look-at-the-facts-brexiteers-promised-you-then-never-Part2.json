@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Leave campaigners", "references": ["Leave campaigners"] },
+      "target": { "topic": "immigration impact on wages", "references": ["impact of immigrants on wages and employment"] },
+      "justifications": [
+        "Leave campaigners also point to the impact of immigrants on wages and employment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Economists from the Centre for Economic Performance", "references": ["Economists from the Centre for Economic Performance"] },
+      "target": { "topic": "immigration impact on wages", "references": ["impact of immigrants on wages and employment"] },
+      "justifications": [
+        "there is little evidence that more migrants push wages down or unemployment up."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Office for Budget Responsibility", "references": ["Office for Budget Responsibility"] },
+      "target": { "topic": "immigration impact on wages", "references": ["impact of migration on the wages of the UK-born"] },
+      "justifications": [
+        "Research published last year by the Office for Budget Responsibility suggested there was a small negative effect of migration on the wages of locals in the semi-skilled and unskilled service sector."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "target": { "topic": "EU migrant workers' benefits", "references": ["EU migrant workers in the UK who lose their job"] },
+      "justifications": [
+        "David Cameron secured concessions from the EU in his negotiations whereby access of newly arriving EU workers to non-contributory in-work benefits is limited for a total period of up to four years from the commencement of employment."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "target": { "topic": "sending child benefit money abroad", "references": ["ban migrant workers from sending child benefit money back home"] },
+      "justifications": [
+        "David Cameron may have failed in his original demand to ban migrant workers from sending child benefit money back home but he successfully gained agreement that payments will instead be linked to the cost of living in the countries where the children live."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UK Government", "references": ["UK government"] },
+      "target": { "topic": "EU migrant benefits", "references": ["UK government has already reached an agreement with the EU on out-of-work benefits"] },
+      "justifications": [
+        "The UK government has already reached an agreement with the EU on out-of-work benefits."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "David Cameron secured concessions from the EU in his negotiations"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "UK Government", "references": ["UK government"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "The UK government has already reached an agreement with the EU on out-of-work benefits."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Leave campaigners", "references": ["Leave campaigners"] },
+      "entity2": { "entity": "Immigrants", "references": ["immigrants"] },
+      "justifications": [
+        "Leave campaigners also point to the impact of immigrants on wages and employment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Economists from the Centre for Economic Performance", "references": ["Economists from the Centre for Economic Performance"] },
+      "entity2": { "entity": "Immigrants", "references": ["migrants"] },
+      "justifications": [
+        "there is little evidence that more migrants push wages down or unemployment up."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Office for Budget Responsibility", "references": ["Office for Budget Responsibility"] },
+      "entity2": { "entity": "Immigrants", "references": ["migrants"] },
+      "justifications": [
+        "Research published last year by the Office for Budget Responsibility suggested there was a small negative effect of migration on the wages of locals."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

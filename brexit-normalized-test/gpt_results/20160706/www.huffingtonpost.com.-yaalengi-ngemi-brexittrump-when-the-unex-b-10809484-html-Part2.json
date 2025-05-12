@@ -1,0 +1,23 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Americans", "references": ["Americans"] },
+      "target": { "topic": "Trump Presidency", "references": ["Trump Presidency"] },
+      "justifications": [
+        "I hope that we, Americans, can seriously, before November, delve in the \"deep\" thought exercise so we can, at the very least, be prepared for the eventuality of the Trump Presidency."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Americans", "references": ["Americans"] },
+      "entity2": { "entity": "Donald Trump", "references": ["Trump"] },
+      "justifications": [
+        "I hope that we, Americans, can seriously, before November, delve in the \"deep\" thought exercise so we can, at the very least, be prepared for the eventuality of the Trump Presidency."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

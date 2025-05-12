@@ -1,0 +1,87 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Trump's campaign", "references": ["Trump's campaign"] },
+      "target": { "topic": "democracy", "references": ["democracy"] },
+      "justifications": [
+        "The crucial lesson to draw from the Brexit vote is that a democracy can drive itself off a cliff given the right stew of propaganda, resentment, economic uncertainty, and political corruption."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Trump's campaign", "references": ["Trump's campaign"] },
+      "target": { "topic": "political system", "references": ["broken system"] },
+      "justifications": [
+        "At this point it's about blowing up a broken system, not about the candidate himself."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Trump's presidency", "references": ["Trump"] },
+      "target": { "topic": "political corruption", "references": ["political corruption"] },
+      "justifications": [
+        "The crucial lesson to draw from the Brexit vote is that a democracy can drive itself off a cliff given the right stew of propaganda, resentment, economic uncertainty, and political corruption."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "This is what Johnson and Farage did in Britain and it's what Trump has been doing since he launched his presidential campaign."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Johnson", "references": ["Johnson"] },
+      "justifications": [
+        "This is what Johnson and Farage did in Britain and it's what Trump has been doing since he launched his presidential campaign."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Farage", "references": ["Farage"] },
+      "justifications": [
+        "This is what Johnson and Farage did in Britain and it's what Trump has been doing since he launched his presidential campaign."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "British voters", "references": ["British voters"] },
+      "justifications": [
+        "British voters failed to ask this question, and millions of Trump supporters have as well."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Trump supporters", "references": ["Trump supporters"] },
+      "justifications": [
+        "It's terrifying that millions of Americans are so blinkered by bigotry and hate that they do not even care that Trump is openly conning them."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Trump's victory", "references": ["Were Trump to win in November"] },
+      "justifications": [
+        "Were Trump to win in November, his response would likely mirror his British counterparts."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Trump", "references": ["Trump"] },
+      "entity2": { "entity": "Trump's media business", "references": ["create a new media business"] },
+      "justifications": [
+        "the best thing that could happen to him would be to lose the election, blame it on a rigged process, and then create a new media business with the audience he's cultivated"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

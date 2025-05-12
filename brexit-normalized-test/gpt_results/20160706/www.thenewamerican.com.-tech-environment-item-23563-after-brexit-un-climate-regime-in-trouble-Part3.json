@@ -1,0 +1,91 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "regionalism", "references": ["regionalism"]},
+      "justifications": ["British voters dealing a crushing blow to regionalism by supporting Brexit"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "climate policies", "references": ["climate policies"]},
+      "justifications": ["the Brexit vote may have major implications on British \"climate\" policies"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "UN", "references": ["UN"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris Agreement"]},
+      "justifications": ["world, all under the supervision of the UN", "the document is of course referring to supranational governance at the regional level - the EU, the AU, ASEAN, and other such schemes"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UN", "references": ["UN"]},
+      "target": {"topic": "regionalism", "references": ["regionalism"]},
+      "justifications": ["the scheme also calls on parties to the UN scheme to \"strengthen regional cooperation on adaptation\" and \"establish regional centers\""],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UN", "references": ["UN"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Americans must continue to expose the fraud that is the UN's Paris Agreement"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "Paris Agreement", "references": ["Paris Agreement"]},
+      "justifications": ["The UN and Obama are pretending that if enough Third World dictators can be bribed (with your tax money) into \"ratifying\" the pseudo-treaty"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "climate policies", "references": ["policies to allegedly deal with the alleged problem"]},
+      "justifications": ["Obama and his cohorts, with accompanying illegal and unconstitutional decrees with no force of law"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UN", "references": ["UN"]},
+      "target": {"topic": "climate policies", "references": ["policies to allegedly deal with the alleged problem"]},
+      "justifications": ["Americans must continue to expose the fraud that is the UN's Paris Agreement"],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "UN", "references": ["UN"]},
+      "justifications": ["British voters dealing a crushing blow to regionalism by supporting Brexit"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Brexit", "references": ["Brexit"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": ["With British voters dealing a crushing blow to regionalism by supporting Brexit"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Benny Peiser", "references": ["Benny Peiser"]},
+      "entity2": {"entity": "UN", "references": ["UN"]},
+      "justifications": ["said Global Warming Policy Foundation director Benny Peiser, citing the \"astonishing self-determination and skepticism of the British people in [the] face of an unprecedented fear campaign\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Benny Peiser", "references": ["Benny Peiser"]},
+      "entity2": {"entity": "global-warming theory", "references": ["man-made global-warming theory"]},
+      "justifications": ["many of the movement's leaders and its voters are deeply skeptical of the man-made global-warming theory"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "UN", "references": ["UN"]},
+      "entity2": {"entity": "Obama", "references": ["Obama"]},
+      "justifications": ["The UN and Obama are pretending that if enough Third World dictators can be bribed (with your tax money) into \"ratifying\" the pseudo-treaty"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["President Trump"]},
+      "entity2": {"entity": "UN", "references": ["UN"]},
+      "justifications": ["it will be more difficult for the deal to be shredded...if enough Third World dictators can be bribed into ratifying the pseudo-treaty before a potential President Trump"],
+      "attitude": "Negative"
+    }
+  ]
+}

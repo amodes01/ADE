@@ -1,0 +1,105 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Israel", "references": ["Israel"]},
+      "target": {"topic": "European Union", "references": ["Europe", "European Union"]},
+      "justifications": [
+        "Israel must still keep up its guard against the European Union.",
+        "Israel does not count on Europe for its future, and particularly for its long-term future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Israel", "references": ["Israel"]},
+      "target": {"topic": "Middle East peace negotiations", "references": ["peace negotiations", "French-initiated campaign to restart peace negotiations"]},
+      "justifications": [
+        "Israel has rejected the initiative, maintaining that peace negotiations must be handled between the Israelis and Palestinians themselves, and not thrust upon the parties by outside actors."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Israel", "references": ["Israel"]},
+      "target": {"topic": "trade partnerships", "references": ["trade", "markets", "China", "Russia", "India", "Africa"]},
+      "justifications": [
+        "Israel is increasingly looking towards other markets-toward China, toward Russia, toward India.",
+        "Africa is a very good market. There is more of a possibility to expand Israeli trade and its culture of innovation."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Israel must still keep up its guard against the European Union.",
+        "Israel does not count on Europe for its future, and particularly for its long-term future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "French initiative", "references": ["French-initiated campaign to restart peace negotiations"]},
+      "justifications": [
+        "Israel has rejected the initiative, maintaining that peace negotiations must be handled between the Israelis and Palestinians themselves, and not thrust upon the parties by outside actors."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "China", "references": ["China"]},
+      "justifications": [
+        "Israel is increasingly looking towards other markets-toward China."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Israel is increasingly looking towards other markets-toward Russia."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "India", "references": ["India"]},
+      "justifications": [
+        "Israel is increasingly looking towards other markets-toward India."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Israel", "references": ["Israel"]},
+      "entity2": {"entity": "Africa", "references": ["Africa"]},
+      "justifications": [
+        "Africa is a very good market. There is more of a possibility to expand Israeli trade and its culture of innovation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Prime Minister Netanyahu", "references": ["Prime Minister Netanyahu"]},
+      "entity2": {"entity": "Africa", "references": ["Africa"]},
+      "justifications": [
+        "It's no coincidence that Prime Minister Netanyahu is going to Africa in the coming weeks."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Israeli Prime Minister Benjamin Netanyahu", "references": ["Israeli Prime Minister Benjamin Netanyahu"]},
+      "entity2": {"entity": "United States Secretary of State John Kerry", "references": ["United States Secretary of State John Kerry"]},
+      "justifications": [
+        "Israeli Prime Minister Benjamin Netanyahu is headed to Rome to discuss renewed peace efforts with United States Secretary of State John Kerry, who is similarly supportive of the French effort."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Israeli Prime Minister Benjamin Netanyahu", "references": ["Israeli Prime Minister Benjamin Netanyahu"]},
+      "entity2": {"entity": "French effort", "references": ["French effort"]},
+      "justifications": [
+        "Israeli Prime Minister Benjamin Netanyahu is headed to Rome to discuss renewed peace efforts with United States Secretary of State John Kerry, who is similarly supportive of the French effort."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

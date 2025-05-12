@@ -1,0 +1,127 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jean-Marc Ayrault", "references": ["Jean-Marc Ayrault"]},
+      "target": {"topic": "United States of Europe", "references": ["United States of Europe"]},
+      "justifications": ["Jean-Marc Ayrault and Frank-Walter Steinmeier have emerged with a 9 page document proposing a new direction for the E.U., a United States of Europe so to speak."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Frank-Walter Steinmeier", "references": ["Frank-Walter Steinmeier"]},
+      "target": {"topic": "United States of Europe", "references": ["United States of Europe"]},
+      "justifications": ["Jean-Marc Ayrault and Frank-Walter Steinmeier have emerged with a 9 page document proposing a new direction for the E.U., a United States of Europe so to speak."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "target": {"topic": "United States of Europe", "references": ["United States of Europe"]},
+      "justifications": ["Angela Merkel, the defacto Queen of Europe, is simply not on board with this kind of program."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "TCW Group", "references": ["TCW Group"]},
+      "target": {"topic": "emerging markets", "references": ["emerging markets"]},
+      "justifications": ["emerging markets will be a longer term beneficiary"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Penelope Foley", "references": ["Penelope Foley"]},
+      "target": {"topic": "emerging markets", "references": ["emerging markets"]},
+      "justifications": ["emerging markets will be a longer term beneficiary"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "TCW Group", "references": ["TCW Group"]},
+      "target": {"topic": "global growth", "references": ["global growth"]},
+      "justifications": ["Our take away from this event is that global growth will be slower"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Penelope Foley", "references": ["Penelope Foley"]},
+      "target": {"topic": "global growth", "references": ["global growth"]},
+      "justifications": ["Our take away from this event is that global growth will be slower"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "TCW Group", "references": ["TCW Group"]},
+      "target": {"topic": "developed market central banks", "references": ["developed market central banks"]},
+      "justifications": ["developed market central banks will increase their accommodative policies"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Penelope Foley", "references": ["Penelope Foley"]},
+      "target": {"topic": "developed market central banks", "references": ["developed market central banks"]},
+      "justifications": ["developed market central banks will increase their accommodative policies"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "TCW Group", "references": ["TCW Group"]},
+      "target": {"topic": "lower for longer rate environment", "references": ["lower for longer rate environment"]},
+      "justifications": ["We are in a lower for longer rate environment"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Penelope Foley", "references": ["Penelope Foley"]},
+      "target": {"topic": "lower for longer rate environment", "references": ["lower for longer rate environment"]},
+      "justifications": ["We are in a lower for longer rate environment"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "global growth", "references": ["global growth"]},
+      "justifications": ["A lot of that will depend on China."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brazil", "references": ["Brazil"]},
+      "target": {"topic": "global growth", "references": ["global growth"]},
+      "justifications": ["And major emerging markets like Brazil and Russia coming out of a two and a half year slump."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "global growth", "references": ["global growth"]},
+      "justifications": ["And major emerging markets like Brazil and Russia coming out of a two and a half year slump."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "TCW Group", "references": ["TCW Group"]},
+      "target": {"topic": "emerging markets", "references": ["emerging markets"]},
+      "justifications": ["Emerging markets are still tethered to the core."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Penelope Foley", "references": ["Penelope Foley"]},
+      "target": {"topic": "emerging markets", "references": ["emerging markets"]},
+      "justifications": ["Emerging markets are still tethered to the core."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "developed world investment", "references": ["invest in China"]},
+      "justifications": ["If they are in trouble, they are unlikely to invest in China."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brazil", "references": ["Brazil"]},
+      "target": {"topic": "developed world investment", "references": ["invest in Brazil"]},
+      "justifications": ["If they are in trouble, they are unlikely to invest in Brazil."],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jean-Marc Ayrault", "references": ["Jean-Marc Ayrault"]},
+      "entity2": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "justifications": ["Angela Merkel, the defacto Queen of Europe, is simply not on board with this kind of program."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Frank-Walter Steinmeier", "references": ["Frank-Walter Steinmeier"]},
+      "entity2": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "justifications": ["Angela Merkel, the defacto Queen of Europe, is simply not on board with this kind of program."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum victory"]},
+      "justifications": [
+        "One, the contemptible character of the mainstream media.",
+        "The elite mainstream media, especially the financial media, is intolerable."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "target": {"topic": "Brexit coverage", "references": ["Brexit coverage"]},
+      "justifications": [
+        "The Brexit coverage should surely show that the daily sacrifice is not worth the candle."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Financial Times", "references": ["Financial Times"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum victory"]},
+      "justifications": [
+        "This from the super smug Financial Times: 'Britain takes a leap into the dark. …Britain's decision to leave the EU is the biggest shock to the continent since the fall of the Berlin Wall.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "The Economist", "references": ["The Economist"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum victory"]},
+      "justifications": [
+        "The Economist, if at times sober, declaimed: 'After the vote, chaos. … June 23rd will be a landmark in British and European history.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "John Lloyd", "references": ["John Lloyd"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum victory"]},
+      "justifications": [
+        "John Lloyd (a contributing editor at the Financial Times no less) blesses Reuters readers with a condescending inconsequential piece titled '… the chaos that will be felt around the world'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Guardian", "references": ["Guardian"]},
+      "target": {"topic": "Brexit referendum", "references": ["Brexit referendum victory"]},
+      "justifications": [
+        "Said the Guardian, now running on empty."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "entity2": {"entity": "Financial Times", "references": ["Financial Times"]},
+      "justifications": [
+        "This from the super smug Financial Times: 'Britain takes a leap into the dark. …Britain's decision to leave the EU is the biggest shock to the continent since the fall of the Berlin Wall.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "entity2": {"entity": "The Economist", "references": ["The Economist"]},
+      "justifications": [
+        "The Economist, if at times sober, declaimed: 'After the vote, chaos. … June 23rd will be a landmark in British and European history.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "entity2": {"entity": "John Lloyd", "references": ["John Lloyd"]},
+      "justifications": [
+        "John Lloyd (a contributing editor at the Financial Times no less) blesses Reuters readers with a condescending inconsequential piece titled '… the chaos that will be felt around the world'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "mainstream media", "references": ["mainstream media"]},
+      "entity2": {"entity": "Guardian", "references": ["Guardian"]},
+      "justifications": [
+        "Said the Guardian, now running on empty."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

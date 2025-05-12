@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "target": {"topic": "EU regulations", "references": ["E.U. bureaucracy", "overregulation"]},
+      "justifications": ["While Brexit supporters say that independence from the continent would reduce the costs of bureaucracy and overregulation"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "British Treasury", "references": ["British Treasury"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "break from the rest of the European Union"]},
+      "justifications": ["the British Treasury itself has warned that the move could leave the nation \"permanently poorer,\" by damaging trade, employment and productivity"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "target": {"topic": "nationalism", "references": ["nationalism driving support for Brexit"]},
+      "justifications": ["the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "target": {"topic": "immigration", "references": ["Barring immigrants"]},
+      "justifications": ["Barring immigrants and looking inward in terms of trade is an invitation for your neighbors to do the same"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "entity2": {"entity": "British Treasury", "references": ["British Treasury"]},
+      "justifications": ["the British Treasury itself has warned that the move could leave the nation \"permanently poorer,\" by damaging trade, employment and productivity"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "entity2": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "justifications": ["the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": ["the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Harvard economist Carmen Reinhart", "references": ["Harvard economist Carmen Reinhart"]},
+      "entity2": {"entity": "Donald Trump", "references": ["presumptive Republican presidential nominee Donald Trump"]},
+      "justifications": ["the nationalism driving support for Brexit and presumptive Republican presidential nominee Donald Trump does not spell good news for cross-border exchange"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Robert Margo", "references": ["Robert Margo"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["It's unlikely that a Brexit would push the U.S. economy into recession, Boston University economics professor Robert Margo said"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Robert Margo", "references": ["Robert Margo"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["However, the simple fact that nothing like this has ever occurred before means nobody can easily predict what may follow"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Robert Margo", "references": ["Robert Margo"]},
+      "entity2": {"entity": "U.S. economy", "references": ["U.S. economy"]},
+      "justifications": ["It's unlikely that a Brexit would push the U.S. economy into recession"],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Juliana Taimoorazy",
+        "references": ["Juliana Taimoorazy"]
+      },
+      "target": {
+        "topic": "persecution of Iraqi and Syrian Christians",
+        "references": ["Iraqi and Syrian Christians Persecuted for Their Faith"]
+      },
+      "justifications": [
+        "The plight of Iraqi and Syrian Christians persecuted for the faith remains largely untold.",
+        "Since 2003, Iraqi and Syrian Christians have experienced multiple displacement. They live in terrible conditions, their children are not being educated, and they are dying of simple diseases due to lack of medicine."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Juliana Taimoorazy",
+        "references": ["Juliana Taimoorazy"]
+      },
+      "target": {
+        "topic": "refugee crisis",
+        "references": ["refugee crisis"]
+      },
+      "justifications": [
+        "Taimoorazy is a former refugee and human rights advocate who is well versed in the refugee crisis and U.S. policy in the Middle East."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Jonathan Citrin",
+        "references": ["Jonathan Citrin"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Brexit is grabbing global headlines due to the very nature of the decision.",
+        "This referendum is about something even bigger and everyone - from voters to investors to policy-makers - are wise to know the truth."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Juliana Taimoorazy",
+        "references": ["Juliana Taimoorazy"]
+      },
+      "entity2": {
+        "entity": "Iraqi and Syrian Christians",
+        "references": ["Iraqi and Syrian Christians"]
+      },
+      "justifications": [
+        "Since 2003, Iraqi and Syrian Christians have experienced multiple displacement. They live in terrible conditions, their children are not being educated, and they are dying of simple diseases due to lack of medicine."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Juliana Taimoorazy",
+        "references": ["Juliana Taimoorazy"]
+      },
+      "entity2": {
+        "entity": "U.S. policy in the Middle East",
+        "references": ["U.S. policy in the Middle East"]
+      },
+      "justifications": [
+        "Taimoorazy is well versed in the refugee crisis and U.S. policy in the Middle East."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

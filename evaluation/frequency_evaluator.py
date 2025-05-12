@@ -165,93 +165,53 @@ for section in ['entity', 'topical']:
         )
 
 
-# Top 20: ENTITY - TRUE_DATA
-# Pair: ('european union', 'united kingdom'), Count: 72, Attitudes: {'Positive': 7, 'Neutral': 18, 'Negative': 47}
+# Top 10: ENTITY - TRUE_DATA
+# # Pair: ('european union', 'united kingdom'), Count: 72, Attitudes: {'Positive': 7, 'Neutral': 18, 'Negative': 47}
 # Pair: ('united kingdom', 'united states'), Count: 29, Attitudes: {'Positive': 18, 'Neutral': 6, 'Negative': 5}
 # Pair: ('donald trump', 'hillary clinton'), Count: 21, Attitudes: {'Positive': 2, 'Neutral': 0, 'Negative': 19}
-# Pair: ('barack obama', 'united kingdom'), Count: 16, Attitudes: {'Positive': 7, 'Neutral': 4, 'Negative': 5}
+# # Pair: ('barack obama', 'united kingdom'), Count: 16, Attitudes: {'Positive': 7, 'Neutral': 4, 'Negative': 5}
 # Pair: ('nato', 'russia'), Count: 15, Attitudes: {'Positive': 2, 'Neutral': 2, 'Negative': 11}
-# Pair: ('brexit', 'donald trump'), Count: 13, Attitudes: {'Positive': 6, 'Neutral': 2, 'Negative': 5}
+# # Pair: ('brexit', 'donald trump'), Count: 13, Attitudes: {'Positive': 6, 'Neutral': 2, 'Negative': 5}
 # Pair: ('donald trump', 'nigel farage'), Count: 11, Attitudes: {'Positive': 3, 'Neutral': 8, 'Negative': 0}
 # Pair: ('european union', 'united states'), Count: 11, Attitudes: {'Positive': 3, 'Neutral': 3, 'Negative': 5}
-# Pair: ('barack obama', 'european union'), Count: 11, Attitudes: {'Positive': 6, 'Neutral': 4, 'Negative': 1}
+# # Pair: ('barack obama', 'european union'), Count: 11, Attitudes: {'Positive': 6, 'Neutral': 4, 'Negative': 1}
 # Pair: ('barack obama', 'david cameron'), Count: 10, Attitudes: {'Positive': 5, 'Neutral': 4, 'Negative': 1}
-# Pair: ('barack obama', 'donald trump'), Count: 10, Attitudes: {'Positive': 0, 'Neutral': 0, 'Negative': 10}
-# Pair: ('I', 'united kingdom'), Count: 10, Attitudes: {'Positive': 4, 'Neutral': 3, 'Negative': 3}
-# Pair: ('boris johnson', 'donald trump'), Count: 9, Attitudes: {'Positive': 1, 'Neutral': 7, 'Negative': 1}
-# Pair: ('bernie sander', 'donald trump'), Count: 8, Attitudes: {'Positive': 2, 'Neutral': 4, 'Negative': 2}
-# Pair: ('david cameron', 'nigel farage'), Count: 8, Attitudes: {'Positive': 0, 'Neutral': 0, 'Negative': 8}
-# Pair: ('brexit', 'david cameron'), Count: 8, Attitudes: {'Positive': 0, 'Neutral': 0, 'Negative': 8}
-# Pair: ('germany', 'united kingdom'), Count: 8, Attitudes: {'Positive': 1, 'Neutral': 5, 'Negative': 2}
-# Pair: ('boris johnson', 'david cameron'), Count: 7, Attitudes: {'Positive': 1, 'Neutral': 1, 'Negative': 5}
-# Pair: ('india', 'united kingdom'), Count: 7, Attitudes: {'Positive': 7, 'Neutral': 0, 'Negative': 0}
-# Pair: ('france', 'united kingdom'), Count: 7, Attitudes: {'Positive': 1, 'Neutral': 1, 'Negative': 5}
 
-# Top 20: ENTITY - PRED_DATA
-# Pair: ('european union', 'united kingdom'), Count: 109, Attitudes: {'Positive': 15, 'Neutral': 80, 'Negative': 14}
+# Top 10: ENTITY - PRED_DATA
+# # Pair: ('european union', 'united kingdom'), Count: 109, Attitudes: {'Positive': 15, 'Neutral': 80, 'Negative': 14}
 # Pair: ('brexit', 'european union'), Count: 44, Attitudes: {'Positive': 10, 'Neutral': 24, 'Negative': 10}
 # Pair: ('brexit', 'united kingdom'), Count: 43, Attitudes: {'Positive': 6, 'Neutral': 28, 'Negative': 9}
-# Pair: ('barack obama', 'european union'), Count: 13, Attitudes: {'Positive': 3, 'Neutral': 6, 'Negative': 4}
+# # Pair: ('barack obama', 'european union'), Count: 13, Attitudes: {'Positive': 3, 'Neutral': 6, 'Negative': 4}
 # Pair: ('european union', 'reuters'), Count: 11, Attitudes: {'Positive': 2, 'Neutral': 9, 'Negative': 0}
 # Pair: ('european union', 'london'), Count: 10, Attitudes: {'Positive': 1, 'Neutral': 7, 'Negative': 2}
 # Pair: ('barack obama', 'brexit'), Count: 10, Attitudes: {'Positive': 3, 'Neutral': 4, 'Negative': 3}
-# Pair: ('barack obama', 'united kingdom'), Count: 8, Attitudes: {'Positive': 3, 'Neutral': 4, 'Negative': 1}
-# Pair: ('brexit', 'donald trump'), Count: 7, Attitudes: {'Positive': 1, 'Neutral': 6, 'Negative': 0}
+# # Pair: ('barack obama', 'united kingdom'), Count: 8, Attitudes: {'Positive': 3, 'Neutral': 4, 'Negative': 1}
+# # Pair: ('brexit', 'donald trump'), Count: 7, Attitudes: {'Positive': 1, 'Neutral': 6, 'Negative': 0}
 # Pair: ('david cameron', 'european union'), Count: 6, Attitudes: {'Positive': 1, 'Neutral': 3, 'Negative': 2}
-# Pair: ('united kingdom', 'united states'), Count: 6, Attitudes: {'Positive': 1, 'Neutral': 5, 'Negative': 0}
-# Pair: ('reuters', 'united kingdom'), Count: 6, Attitudes: {'Positive': 0, 'Neutral': 6, 'Negative': 0}
-# Pair: ('european union', 'russia'), Count: 5, Attitudes: {'Positive': 3, 'Neutral': 1, 'Negative': 1}
-# Pair: ('brussel', 'european union'), Count: 5, Attitudes: {'Positive': 3, 'Neutral': 2, 'Negative': 0}
-# Pair: ('I president', 'european union'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 0}
-# Pair: ('london', 'reuters'), Count: 4, Attitudes: {'Positive': 2, 'Neutral': 1, 'Negative': 1}
-# Pair: ('brexit', 'brussel'), Count: 4, Attitudes: {'Positive': 3, 'Neutral': 1, 'Negative': 0}
-# Pair: ('brexit', 'united states'), Count: 4, Attitudes: {'Positive': 1, 'Neutral': 3, 'Negative': 0}
-# Pair: ('donald trump', 'republican'), Count: 4, Attitudes: {'Positive': 0, 'Neutral': 4, 'Negative': 0}
-# Pair: ('I president', 'barack obama'), Count: 4, Attitudes: {'Positive': 1, 'Neutral': 0, 'Negative': 3}
 
-# Top 20: TOPICAL - TRUE_DATA
-# Pair: ('brexit', 'european union'), Count: 70, Attitudes: {'Positive': 2, 'Neutral': 10, 'Negative': 58}
-# Pair: ('brexit', 'united kingdom'), Count: 34, Attitudes: {'Positive': 3, 'Neutral': 9, 'Negative': 22}
+# Top 10: TOPICAL - TRUE_DATA
+# # Pair: ('brexit', 'european union'), Count: 70, Attitudes: {'Positive': 2, 'Neutral': 10, 'Negative': 58}
+# # Pair: ('brexit', 'united kingdom'), Count: 34, Attitudes: {'Positive': 3, 'Neutral': 9, 'Negative': 22}
 # Pair: ('barack obama', 'brexit'), Count: 24, Attitudes: {'Positive': 2, 'Neutral': 8, 'Negative': 14}
-# Pair: ('brexit', 'united states'), Count: 15, Attitudes: {'Positive': 3, 'Neutral': 4, 'Negative': 8}
+# # Pair: ('brexit', 'united states'), Count: 15, Attitudes: {'Positive': 3, 'Neutral': 4, 'Negative': 8}
 # Pair: ('brexit', 'donald trump'), Count: 14, Attitudes: {'Positive': 11, 'Neutral': 1, 'Negative': 2}
-# Pair: ('european union', 'united kingdom'), Count: 12, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 7}
+# # Pair: ('european union', 'united kingdom'), Count: 12, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 7}
 # Pair: ('brexit', 'nigel farage'), Count: 11, Attitudes: {'Positive': 9, 'Neutral': 0, 'Negative': 2}
 # Pair: ('boris johnson', 'brexit'), Count: 8, Attitudes: {'Positive': 7, 'Neutral': 0, 'Negative': 1}
 # Pair: ('brexit', 'david cameron'), Count: 8, Attitudes: {'Positive': 0, 'Neutral': 1, 'Negative': 7}
 # Pair: ('brexit', 'immigration'), Count: 8, Attitudes: {'Positive': 1, 'Neutral': 0, 'Negative': 7}
-# Pair: ('donald trump', 'immigration'), Count: 8, Attitudes: {'Positive': 1, 'Neutral': 0, 'Negative': 7}
-# Pair: ('brexit', 'president barack obama'), Count: 7, Attitudes: {'Positive': 0, 'Neutral': 3, 'Negative': 4}
-# Pair: ('brexit', 'uk economy'), Count: 7, Attitudes: {'Positive': 0, 'Neutral': 0, 'Negative': 7}
-# Pair: ('brexit', 'hillary clinton'), Count: 6, Attitudes: {'Positive': 1, 'Neutral': 1, 'Negative': 4}
-# Pair: ('brexit', 'nicola sturgeon'), Count: 6, Attitudes: {'Positive': 0, 'Neutral': 2, 'Negative': 4}
-# Pair: ('capitalism', 'european'), Count: 6, Attitudes: {'Positive': 0, 'Neutral': 2, 'Negative': 4}
-# Pair: ('brexit', 'erik bidenkap'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 3, 'Negative': 2}
-# Pair: ('barack obama', 'globalization'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 3, 'Negative': 2}
-# Pair: ('eu membership', 'scotland'), Count: 5, Attitudes: {'Positive': 4, 'Neutral': 1, 'Negative': 0}
-# Pair: ('nato', 'russia'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 2, 'Negative': 3}
 
-# Top 20: TOPICAL - PRED_DATA
-# Pair: ('european union', 'united kingdom'), Count: 47, Attitudes: {'Positive': 7, 'Neutral': 34, 'Negative': 6}
-# Pair: ('brexit', 'united kingdom'), Count: 21, Attitudes: {'Positive': 3, 'Neutral': 16, 'Negative': 2}
-# Pair: ('brexit', 'european union'), Count: 20, Attitudes: {'Positive': 0, 'Neutral': 14, 'Negative': 6}
+# Top 10: TOPICAL - PRED_DATA
+# # Pair: ('european union', 'united kingdom'), Count: 47, Attitudes: {'Positive': 7, 'Neutral': 34, 'Negative': 6}
+# # Pair: ('brexit', 'united kingdom'), Count: 21, Attitudes: {'Positive': 3, 'Neutral': 16, 'Negative': 2}
+# # Pair: ('brexit', 'european union'), Count: 20, Attitudes: {'Positive': 0, 'Neutral': 14, 'Negative': 6}
 # Pair: ('european union', 'the world'), Count: 11, Attitudes: {'Positive': 4, 'Neutral': 6, 'Negative': 1}
 # Pair: ('britain decision', 'european union'), Count: 10, Attitudes: {'Positive': 0, 'Neutral': 10, 'Negative': 0}
-# Pair: ('brexit', 'united states'), Count: 9, Attitudes: {'Positive': 4, 'Neutral': 4, 'Negative': 1}
+# # Pair: ('brexit', 'united states'), Count: 9, Attitudes: {'Positive': 4, 'Neutral': 4, 'Negative': 1}
 # Pair: ('the world', 'united kingdom'), Count: 8, Attitudes: {'Positive': 4, 'Neutral': 3, 'Negative': 1}
 # Pair: ('brexit', 'the late headline'), Count: 7, Attitudes: {'Positive': 0, 'Neutral': 7, 'Negative': 0}
 # Pair: ('european union', 'friday'), Count: 7, Attitudes: {'Positive': 4, 'Neutral': 3, 'Negative': 0}
 # Pair: ('brexit', 'the world'), Count: 6, Attitudes: {'Positive': 2, 'Neutral': 2, 'Negative': 2}
-# Pair: ('a historic referendum', 'european union'), Count: 6, Attitudes: {'Positive': 0, 'Neutral': 6, 'Negative': 0}
-# Pair: ('london', 'united kingdom'), Count: 6, Attitudes: {'Positive': 3, 'Neutral': 3, 'Negative': 0}
-# Pair: ('brexit', 'the late insight'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 0}
-# Pair: ('a valid email addre', 'brexit'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 0}
-# Pair: ('friday', 'reuters'), Count: 5, Attitudes: {'Positive': 3, 'Neutral': 2, 'Negative': 0}
-# Pair: ('london', 'reuters'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 5, 'Negative': 0}
-# Pair: ('a referendum', 'united kingdom'), Count: 5, Attitudes: {'Positive': 2, 'Neutral': 3, 'Negative': 0}
-# Pair: ('barack obama', 'united kingdom'), Count: 5, Attitudes: {'Positive': 1, 'Neutral': 0, 'Negative': 4}
-# Pair: ('european union', 'the country'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 2, 'Negative': 3}
-# Pair: ('european union', 'june'), Count: 5, Attitudes: {'Positive': 0, 'Neutral': 4, 'Negative': 1}
 
 # == OVERLAPPING ENTITY PAIRS (113) ==
 # ('european union', 'united kingdom') → TRUE: 72 (Neg: 47, Neu: 18, Pos: 7) | PRED: 109 (Neg: 14, Neu: 80, Pos: 15)

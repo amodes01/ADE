@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Kenneth Rogoff", "references": ["Kenneth Rogoff"]},
+      "target": {"topic": "Brexit", "references": ["Brexit referendum"]},
+      "justifications": [
+        "Rogoff wrote a piece for the Boston Globe called 'Britain's democratic failure' in which he argued: 'This is not democracy; it is Russian roulette for republics. A decision of enormous consequence has been made without any appropriate checks and balances.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Andrew Sullivan", "references": ["Andrew Sullivan"]},
+      "target": {"topic": "Brexit", "references": ["Brexit referendum"]},
+      "justifications": [
+        "This is exactly the argument that British blogging supernova Andrew Sullivan unleashed a few months ago in his 8,000-word diatribe against Donald Trump, 'Democracies end when they are too democratic.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Andrew Sullivan", "references": ["Andrew Sullivan"]},
+      "target": {"topic": "democracy", "references": ["democracy"]},
+      "justifications": [
+        "Like Rogoff, Sullivan argued that over-democratic societies drift into passionate excesses, and need that vanguard of Very Smart People to make sure they do not get themselves into trouble.",
+        "'Elites matter in a democracy,' Sullivan argued, because they are the 'critical ingredient to save democracy from itself.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Isaac Babel", "references": ["Isaac Babel"]},
+      "entity2": {"entity": "Soviet Union", "references": ["Soviet loyalist"]},
+      "justifications": [
+        "A onetime Soviet loyalist who was eventually shot as an enemy of the state"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Isaac Babel", "references": ["Isaac Babel"]},
+      "entity2": {"entity": "the Soviet government", "references": ["the party and the government"]},
+      "justifications": [
+        "Everything is given to us by the party and the government. Only one right is taken away: the right to write badly."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Kenneth Rogoff", "references": ["Kenneth Rogoff"]},
+      "entity2": {"entity": "democracy", "references": ["democracy"]},
+      "justifications": [
+        "Rogoff wrote a piece for the Boston Globe called 'Britain's democratic failure' in which he argued: 'This is not democracy; it is Russian roulette for republics.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Andrew Sullivan", "references": ["Andrew Sullivan"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "This is exactly the argument that British blogging supernova Andrew Sullivan unleashed a few months ago in his 8,000-word diatribe against Donald Trump."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Republican voters",
+        "references": [
+          "America's Republican voters"
+        ]
+      },
+      "target": {
+        "topic": "elite political order",
+        "references": [
+          "European elites"
+        ]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "British voters",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "target": {
+        "topic": "European order",
+        "references": [
+          "established European order"
+        ]
+      },
+      "justifications": [
+        "just as British voters questioned the established European order"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Republican voters",
+        "references": [
+          "America's Republican voters"
+        ]
+      },
+      "entity2": {
+        "entity": "American elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British voters",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "entity2": {
+        "entity": "European order",
+        "references": [
+          "established European order"
+        ]
+      },
+      "justifications": [
+        "just as British voters questioned the established European order"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "entity2": {
+        "entity": "American elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "justifications": [
+        "America's Republican voters revolted against their elites by choosing Donald Trump as their party's nominee."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

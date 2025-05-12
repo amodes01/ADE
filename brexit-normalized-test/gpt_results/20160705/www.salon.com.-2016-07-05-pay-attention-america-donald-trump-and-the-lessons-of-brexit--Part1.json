@@ -1,0 +1,153 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "The Brexit supporters followed their \"leaders\" into an abyss.",
+        "They were sold a bill of goods and once the checks were cashed, there was no one on the other line to greet them."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "They opted to leave the European Union, believing they were \"taking their country back.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Only now are voters learning that their financial markets are in turmoil, their pound is plummeting, and that most of the claims made by Brexit proponents were spurious."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Liam Fox", "references": ["Liam Fox"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "\"A lot of things were said in advance of this referendum that we might want to think about again,\" said Liam Fox, a former cabinet minister."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit proponents", "references": ["Brexit proponents"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Only now are voters learning that their financial markets are in turmoil, their pound is plummeting, and that most of the claims made by Brexit proponents were spurious."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit proponents", "references": ["Brexit proponents"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "As The New York Times reported, pro-Leave politicians are already backtracking on the many false promises made during campaign."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Cameron was a weak leader who was ensnared by his right-wing antagonists.",
+        "Rather than win the argument, he agreed to hold a referendum without considering the full implications of that vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": [
+        "Cameron was a weak leader who was ensnared by his right-wing antagonists."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": [
+        "They exaggerated the threats, misrepresented the facts, and exploited economic angst.",
+        "They whipped working class voters into a frenzy, stoking racial resentment and inventing crises at every turn."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Boris Johnson, the former mayor of London, and Nigel Farage, the former leader of the UK Independence Party."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": [
+        "Boris Johnson, the former mayor of London, and Nigel Farage, the former leader of the UK Independence Party."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Michael Grove", "references": ["Michael Grove"]},
+      "justifications": [
+        "Johnson pulled out of the race to become Britain's prime minister. He bowed to fellow conservative, Michael Grove."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": [
+        "Farage has slithered back into retirement following the Brexit campaign."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Having achieved his ambition of destroying Britain's ties to the rest of Europe, his work is done."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Johnson"]},
+      "justifications": [
+        "Trump is following the same playbook as Johnson and Farage."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Farage"]},
+      "justifications": [
+        "Trump is following the same playbook as Johnson and Farage."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit", "leave the European Union"]},
+      "justifications": [
+        "Trump understands that people have lost faith in governing authorities."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit supporters"]},
+      "justifications": [
+        "Trump is following the same playbook as Johnson and Farage."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

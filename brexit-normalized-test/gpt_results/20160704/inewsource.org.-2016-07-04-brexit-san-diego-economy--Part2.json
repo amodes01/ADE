@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Intensity Corp.", "references": ["Intensity Corp."] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Brexit is having a profound effect.\"",
+        "\"The Brexit vote caused us to accelerate our expected start of the recession here in the United States by four months, from January 2018 to September 2017.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "San Diegans", "references": ["San Diegans"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "One positive for San Diegans in the Brexit chaos: Aside from cheaper tourism in the U.K. itself, imports from Britain to the San Diego cost, at least for now, about 10 percent less."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "U.K.", "references": ["U.K."] },
+      "entity2": { "entity": "U.S.", "references": ["U.S."] },
+      "justifications": [
+        "It's unlikely, however, that the relationship between them and the U.S. will change much."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Timmermann", "references": ["Timmermann"] },
+      "entity2": { "entity": "U.K.", "references": ["U.K."] },
+      "justifications": [
+        "Timmermann, at UCSD, is not sure how the Brexit fallout might affect U.K. business ownership locally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Intensity Corp.", "references": ["Intensity Corp."] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Brexit is having a profound effect.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ryan Sullivan", "references": ["Ryan Sullivan"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"The Brexit vote caused us to accelerate our expected start of the recession here in the United States by four months, from January 2018 to September 2017.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

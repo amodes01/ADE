@@ -1,0 +1,89 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Obama said the recent 'Brexit' vote in the United Kingdom to leave the European Union will not change the 'special relationship' between the two nations.",
+        "Obama said the vote on Thursday was an indication of the 'ongoing changes and challenges raised by globalization.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "U.K.-U.S. trade agreement", "references": ["U.K.-U.S. trade agreement"] },
+      "justifications": [
+        "Obama implied that America would be slow to sign a free trade agreement with the U.K. should it vote in favor of leaving the union.",
+        "\"There might be a U.K.-U.S. trade agreement, but it's not going to happen anytime soon.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "U.K.'s membership in NATO", "references": ["U.K.'s membership in NATO"] },
+      "justifications": [
+        "\"One thing that will not change is the special relationship between our two countries, Obama said Friday, adding that the U.K.'s membership in NATO was also important.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"Obama said the vote did not impact the U.S.'s relationship with the European Union either.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "Obama called Cameron an 'outstanding friend and partner.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Obama said the vote did not impact the U.S.'s relationship with the European Union either."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Cameron, a strong supporter of remaining in the E.U., who said he would resign by the end of the year in the wake of the Brexit vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom"] },
+      "justifications": [
+        "Obama said the United Kingdom and the European Union will remain indispensable partners of the United States even as they begin negotiating their ongoing relationship."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["United Kingdom"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Obama said the United Kingdom and the European Union will remain indispensable partners of the United States even as they begin negotiating their ongoing relationship."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "\"One thing that will not change is the special relationship between our two countries, Obama said Friday, adding that the U.K.'s membership in NATO was also important.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

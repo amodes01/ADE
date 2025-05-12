@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Bruce", "references": ["Bruce"]},
+      "target": {"topic": "regulatory oversight", "references": ["increase in oversight from regulatory authorities"]},
+      "justifications": ["he anticipates an increase in oversight from regulatory authorities"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Bruce", "references": ["Bruce"]},
+      "target": {"topic": "insurance company requirements", "references": ["insurance companies ensuring that their stress and scenario testing is up to date"]},
+      "justifications": ["they will expect remedial management actions to be taken, as and where necessary, to maintain ongoing solvency"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Bruce", "references": ["Bruce"]},
+      "entity2": {"entity": "Prudential", "references": ["Prudential"]},
+      "justifications": ["he anticipates an increase in oversight from regulatory authorities, both from Prudential"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Bruce", "references": ["Bruce"]},
+      "entity2": {"entity": "UK's Financial Conduct Authority", "references": ["UK's Financial Conduct Authority"]},
+      "justifications": ["he anticipates an increase in oversight from regulatory authorities, both from Prudential and the UK's Financial Conduct Authority"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Prudential", "references": ["Prudential"]},
+      "entity2": {"entity": "UK's Financial Conduct Authority", "references": ["UK's Financial Conduct Authority"]},
+      "justifications": ["he anticipates an increase in oversight from regulatory authorities, both from Prudential and the UK's Financial Conduct Authority"],
+      "attitude": "Positive"
+    }
+  ]
+}

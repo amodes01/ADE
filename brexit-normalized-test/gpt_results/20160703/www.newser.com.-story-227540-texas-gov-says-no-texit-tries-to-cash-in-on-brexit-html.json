@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Greg Abbott", "references": ["Texas Gov. Greg Abbott"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Abbott announced Saturday the state will run digital ads on British websites over the July 4th weekend urging companies to 'declare independence from high taxes' and relocate to Texas.", "The campaign follows Britain's vote to leave the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Texas secessionist groups", "references": ["Texas secessionist groups"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The British vote reinvigorated Texas secessionist groups that in May nearly forced a floor vote on its fringe cause at the state Republican convention."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Greg Abbott", "references": ["Texas Gov. Greg Abbott"] },
+      "entity2": { "entity": "Texas secessionist groups", "references": ["Texas secessionist groups"] },
+      "justifications": ["The British vote reinvigorated Texas secessionist groups that in May nearly forced a floor vote on its fringe cause at the state Republican convention."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Greg Abbott", "references": ["Texas Gov. Greg Abbott"] },
+      "entity2": { "entity": "Obama administration", "references": ["Obama administration"] },
+      "justifications": ["Abbott has long accused the Obama administration of impeding on state sovereignty."],
+      "attitude": "Negative"
+    }
+  ]
+}

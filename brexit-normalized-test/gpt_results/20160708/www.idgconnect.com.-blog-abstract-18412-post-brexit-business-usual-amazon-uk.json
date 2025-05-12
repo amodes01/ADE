@@ -1,0 +1,25 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Minor Hotels", "references": ["Minor Hotels"] },
+      "target": { "topic": "technological change", "references": ["technological change"] },
+      "justifications": ["a process of technological change with the aim of creating a robust ecosystem for growth and scale."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Minor Hotels", "references": ["Minor Hotels"] },
+      "target": { "topic": "growth and scale", "references": ["growth and scale"] },
+      "justifications": ["the company continues to flourish."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Minor Hotels", "references": ["Minor Hotels"] },
+      "entity2": { "entity": "technological change", "references": ["technological change"] },
+      "justifications": ["a process of technological change with the aim of creating a robust ecosystem for growth and scale."],
+      "attitude": "Positive"
+    }
+  ]
+}

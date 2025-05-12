@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit situation"] },
+      "target": { "topic": "financial prudence", "references": ["prudence"] },
+      "justifications": [
+        "Lincoln Financial Certified Financial Planner Charles Hahn recently issued a letter to his clients that urged them not to panic, relating the Brexit situation to 2008's repression.",
+        "Modern Woodmen of America agree with the prudence message."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit situation"] },
+      "target": { "topic": "financial volatility", "references": ["considerable volatility"] },
+      "justifications": [
+        "Hahn acknowledged the Brexit situation as one that will cause 'considerable volatility'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit situation"] },
+      "target": { "topic": "market reaction", "references": ["historic reaction in markets"] },
+      "justifications": [
+        "According to a Merrill Lynch newsletter, the historic decision produced a historic reaction in markets."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit situation"] },
+      "target": { "topic": "economic contraction", "references": ["contraction in the country's economy"] },
+      "justifications": [
+        "The U.K. exit negotiations are likely to be messy and lead to a contraction in the country's economy."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Charles Hahn", "references": ["Charles Hahn"] },
+      "entity2": { "entity": "Merrill Lynch", "references": ["Merrill Lynch"] },
+      "justifications": [
+        "Both organizations predict high volatility in the short term."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Charles Hahn", "references": ["Charles Hahn"] },
+      "entity2": { "entity": "Modern Woodmen of America", "references": ["Modern Woodmen of America"] },
+      "justifications": [
+        "Modern Woodmen of America agree with the prudence message."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Merrill Lynch", "references": ["Merrill Lynch"] },
+      "entity2": { "entity": "Modern Woodmen of America", "references": ["Modern Woodmen of America"] },
+      "justifications": [
+        "Both organizations predict high volatility in the short term."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

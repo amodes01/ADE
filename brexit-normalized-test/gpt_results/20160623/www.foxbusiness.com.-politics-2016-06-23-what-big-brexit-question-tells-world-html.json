@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Steve Hilton",
+        "references": ["Steve Hilton"]
+      },
+      "target": {
+        "topic": "EU regulation and legislation",
+        "references": ["regulation and legislation coming from the EU"]
+      },
+      "justifications": [
+        "the amount of regulation and legislation coming from the EU moved the needle to vote leave.",
+        "At one point it was over half of the actions that the British government were taking, were actually driven by the EU - and they were things that the British government did not actually agree with but we had to concede in order to win other arguments in Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Steve Hilton",
+        "references": ["Steve Hilton"]
+      },
+      "target": {
+        "topic": "Brexit vote",
+        "references": ["vote leave"]
+      },
+      "justifications": [
+        "the amount of regulation and legislation coming from the EU moved the needle to vote leave."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Steve Hilton",
+        "references": ["Steve Hilton"]
+      },
+      "target": {
+        "topic": "democracy and governance",
+        "references": ["this really is a question of democracy", "who actually controls and runs a country", "it really made the job of governing a country, the elected government, kind of impossible and I thought that was fundamentally un-democratic"]
+      },
+      "justifications": [
+        "this really is a question of democracy - about who actually controls and runs a country"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Steve Hilton",
+        "references": ["Steve Hilton"]
+      },
+      "entity2": {
+        "entity": "Prime Minister David Cameron",
+        "references": ["Prime Minister David Cameron"]
+      },
+      "justifications": [
+        "Even though he remains at odds with Prime Minister David Cameron, Hilton says they have remained good friends."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

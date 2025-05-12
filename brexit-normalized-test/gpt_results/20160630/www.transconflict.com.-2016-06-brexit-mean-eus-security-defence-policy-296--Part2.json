@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "European Army", "references": ["European Army"]},
+      "justifications": ["The EU has to make a decision about spending for a European Army."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Brexit might actually be an opportunity in disguise for Brussels."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "CSDP", "references": ["CSDP"]},
+      "justifications": ["Proponents of the CSDP could actually start building a truly European security structure."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "economic stagnation", "references": ["economic stagnation"]},
+      "justifications": ["Even amid the never-ending economic stagnation."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "refugee crisis", "references": ["refugee crisis"]},
+      "justifications": ["The political uncertainties unearthed by the refugee crisis."]
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "Brussels", "references": ["Brussels"]},
+      "justifications": ["Brexit might actually be an opportunity in disguise for Brussels."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "UK", "references": ["British"]},
+      "justifications": ["Without the constant British impediment."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "European leaders", "references": ["European leaders"]},
+      "justifications": ["European leaders somehow need to find a way to sell the idea to their constituencies."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Dr. Ulas Doga Eralp", "references": ["Dr. Ulas Doga Eralp"]},
+      "entity2": {"entity": "TransConflict", "references": ["TransConflict"]},
+      "justifications": ["The views expressed in this article do not necessarily reflect the views of TransConflict."]
+      "attitude": "Neutral"
+    }
+  ]
+}

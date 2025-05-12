@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Johnson"]
+      },
+      "target": {
+        "topic": "racist comments",
+        "references": ["racist comments"]
+      },
+      "justifications": [
+        "The politician was forced to apologize for racist comments after calling Black people \"piccaninnies\" in 2008"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": ["Johnson"]
+      },
+      "target": {
+        "topic": "Papua New Guinea",
+        "references": ["people from Papua New Guinea"]
+      },
+      "justifications": [
+        "He also came under fire for referring to people from Papua New Guinea as cannibals"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": ["Johnson"]
+      },
+      "entity2": {
+        "entity": "John McDonnell",
+        "references": ["John McDonnell MP"]
+      },
+      "justifications": [
+        "whistle racism from senior Tories. He should withdraw it."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

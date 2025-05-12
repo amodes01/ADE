@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Sturgeon said she will 'of course' ask Scottish Parliament members to refuse to give their 'legislative consent' to Britain leaving the EU.",
+        "Sturgeon is keen that Scotland - that voted 62% in favour of EU -- remain in the international bloc and is seeking talks with Brussels to protect its interests that include unfettered access to European markets and investment from the continent."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "target": { "topic": "Scottish independence", "references": ["independence"] },
+      "justifications": [
+        "Sturgeon indicated a new referendum was likely.",
+        "Experts said the 2014 referendum had hinged on the benefits Scotland's young economy would gain from Britain's EU membership."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "forcing prime minister David Cameron to resign."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "UK", "references": ["Britain"] },
+      "justifications": [
+        "The UK that Scotland voted to remain within in 2014 does not exist anymore."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "Scottish National Party", "references": ["Scottish National Party"] },
+      "justifications": [
+        "The 45-year-old leads the pro-independence Scottish National Party, which has 63 out of 129 seats in the Scottish parliament."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "justifications": [
+        "Scotland and Northern Ireland voted to remain in the EU while England and Wales voted to leave the 28-nation bloc in a historic referendum last week."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "England", "references": ["England"] },
+      "entity2": { "entity": "Scotland", "references": ["Scotland"] },
+      "justifications": [
+        "Scotland and Northern Ireland voted to remain in the EU while England and Wales voted to leave the 28-nation bloc in a historic referendum last week."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Wales", "references": ["Wales"] },
+      "entity2": { "entity": "Scotland", "references": ["Scotland"] },
+      "justifications": [
+        "Scotland and Northern Ireland voted to remain in the EU while England and Wales voted to leave the 28-nation bloc in a historic referendum last week."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

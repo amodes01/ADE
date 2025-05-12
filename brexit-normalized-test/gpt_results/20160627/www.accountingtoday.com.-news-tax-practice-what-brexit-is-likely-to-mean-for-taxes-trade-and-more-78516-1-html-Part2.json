@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "BEPS initiative", "references": ["BEPS initiative"] },
+      "target": { "entity": "Organization for Economic Cooperation and Development", "references": ["Organization for Economic Cooperation and Development"] },
+      "justifications": ["Organization for Economic Cooperation and Development has been pushing its BEPS initiative."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "BEPS initiative", "references": ["BEPS initiative"] },
+      "target": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["the EU is the bloc pushing hardest for BEPS implementation."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "BEPS initiative", "references": ["BEPS initiative"] },
+      "target": { "entity": "US Treasury", "references": ["US Treasury"] },
+      "justifications": ["the US Treasury has expressed strong reservations about certain BEPS aspects"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Google tax", "references": ["Google tax"] },
+      "target": { "entity": "US Treasury", "references": ["US Treasury"] },
+      "justifications": ["The Treasury not only took exception to its passage but is still considering whether it is a creditable tax for US tax purposes."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "VAT law", "references": ["VAT law"] },
+      "target": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["Companies importing into and/or exporting from the UK should begin to consider alternative flows of goods and services depending on the final outcome of the exit and any potential amendments to the UK's VAT law."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "VAT law", "references": ["VAT law"] },
+      "target": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["Each EU member has its own VAT law which includes certain provisions that take into consideration the free movement of goods and services between the member states."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Corporate Income Tax Rate", "references": ["Corporate Income Tax Rate"] },
+      "target": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["The UK has been cutting its corporate tax rates."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Corporate Income Tax Rate", "references": ["Corporate Income Tax Rate"] },
+      "target": { "entity": "Ireland", "references": ["Ireland"] },
+      "justifications": ["Will it further do so and compete with, say, Ireland and its 12.5 percent rate?"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "M&A activity", "references": ["M&A activity"] },
+      "target": { "entity": "Pound Sterling", "references": ["Pound Sterling"] },
+      "justifications": ["With the Pound Sterling and US Treasury Bonds showing material drops the day after voting, we have got unrest in global markets."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "M&A activity", "references": ["M&A activity"] },
+      "target": { "entity": "US Treasury Bonds", "references": ["US Treasury Bonds"] },
+      "justifications": ["With the Pound Sterling and US Treasury Bonds showing material drops the day after voting, we have got unrest in global markets."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "M&A activity", "references": ["M&A activity"] },
+      "target": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["There is currency volatility and market uncertainty, arguably leading to reduced M&A activity for the faint of heart."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Organization for Economic Cooperation and Development", "references": ["Organization for Economic Cooperation and Development"] },
+      "entity2": { "entity": "OECD", "references": ["OECD"] },
+      "justifications": ["Organization for Economic Cooperation and Development has been pushing its BEPS initiative."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["Presumably the UK's exit will not have a direct impact at the OECD level. However, the UK would arguably be unable to influence EU tax (or any other) policy."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "US Treasury", "references": ["US Treasury"] },
+      "entity2": { "entity": "OECD", "references": ["OECD"] },
+      "justifications": ["The US Treasury has expressed strong reservations about certain BEPS aspects."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["the EU is the bloc pushing hardest for BEPS implementation."],
+      "attitude": "Negative"
+    }
+  ]
+}

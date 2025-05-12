@@ -1,0 +1,18 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Public Citizen", "references": ["Public Citizen"]},
+      "target": {"topic": "black box warnings", "references": ["black box warnings"]},
+      "justifications": ["Public Citizen has petitioned the FDA to put \"black box\" warnings on six drugs used to treat Parkinson's disease."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Public Citizen", "references": ["Public Citizen"]},
+      "entity2": {"entity": "FDA", "references": ["FDA"]},
+      "justifications": ["Public Citizen has petitioned the FDA to put \"black box\" warnings on six drugs used to treat Parkinson's disease."],
+      "attitude": "Neutral"
+    }
+  ]
+}

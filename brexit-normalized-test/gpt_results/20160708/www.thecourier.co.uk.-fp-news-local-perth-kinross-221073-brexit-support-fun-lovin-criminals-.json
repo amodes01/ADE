@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Fun Lovin' Criminals",
+        "references": ["Fun Lovin' Criminals"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Fun Lovin' Criminals have pledged their support to Scotland over Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Huey Morgan",
+        "references": ["Huey Morgan"]
+      },
+      "target": {
+        "topic": "Scotland's position on Brexit",
+        "references": ["Scotland"]
+      },
+      "justifications": [
+        "Huey Morgan addressed Scottish fans during a sun-blessed main stage set at T in the Park."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Fun Lovin' Criminals",
+        "references": ["Fun Lovin' Criminals"]
+      },
+      "entity2": {
+        "entity": "Scotland",
+        "references": ["Scotland"]
+      },
+      "justifications": [
+        "Fun Lovin' Criminals have pledged their support to Scotland over Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Huey Morgan",
+        "references": ["Huey Morgan"]
+      },
+      "entity2": {
+        "entity": "Scottish fans",
+        "references": ["Scottish fans"]
+      },
+      "justifications": [
+        "Huey Morgan addressed Scottish fans during a sun-blessed main stage set at T in the Park."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Alyn Smith", "references": ["Alyn Smith"] },
+      "target": { "topic": "Scottish independence", "references": ["Scottish independence"] },
+      "justifications": [
+        "Alyn Smith, an EU lawmaker for Sturgeon's Scottish National Party (SNP) who won a standing ovation in the chamber on Tuesday with a plea to the EU not to \"let Scotland down\", stressed: \"I am talking about status rather than membership … Everyone wants to talk about Scottish independence - except us.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "David Edward", "references": ["David Edward"] },
+      "target": { "topic": "Reverse Greenland", "references": ["Reverse Greenland"] },
+      "justifications": [
+        "\"Reverse Greenland\" is just \"silly\" in the opinion of David Edward"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Alyn Smith", "references": ["Alyn Smith"] },
+      "target": { "topic": "Scottish-EU relations", "references": ["EU", "Brussels"] },
+      "justifications": [
+        "Alyn Smith said the advisory group had drawn up a list of all the different territorial arrangements in the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "David Edward", "references": ["David Edward"] },
+      "target": { "topic": "Scottish-EU relations", "references": ["EU", "Brussels"] },
+      "justifications": [
+        "Edward said: \"It's not much but it's something, given Scotland's commitment to academic research.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Alyn Smith", "references": ["Alyn Smith"] },
+      "entity2": { "entity": "Nicola Sturgeon", "references": ["Sturgeon"] },
+      "justifications": [
+        "Alyn Smith, an EU lawmaker for Sturgeon's Scottish National Party (SNP) who won a standing ovation in the chamber on Tuesday with a plea to the EU not to \"let Scotland down\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "David Edward", "references": ["David Edward"] },
+      "entity2": { "entity": "Alyn Smith", "references": ["Alyn Smith"] },
+      "justifications": [
+        "David Edward, formerly Britain's justice on the EU's top court and, with Smith, a member of an advisory panel Sturgeon set up in the wake of the Brexit vote to explore Scotland's options."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Sturgeon"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Sturgeon has not ruled out the possibility of a second independence referendum and Scottish anger at Brexit and chaos in London politics may have bolstered support for secession."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "Spanish prime minister", "references": ["Spanish prime minister"] },
+      "justifications": [
+        "EU officials also caution that Sturgeon should not under-estimate hostility among other member states. The Spanish prime minister, wary of Catalan separatists, was also in Brussels on Wednesday and threw cold water on Scottish EU membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "Nicola Sturgeon", "references": ["Sturgeon"] },
+      "justifications": [
+        "The EU also would be unlikely to grant Scotland concessions that Britain has secured during its 43 years of membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "David Edward", "references": ["Edward"] },
+      "justifications": [
+        "Yet, the demonstrative pro-European clamor in Scotland has struck a chord with shellshocked EU politicians who, Edward said, are \"absolutely fed up to the back teeth\" of the British."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Sturgeon"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "At least Nicola Sturgeon maintained goodwill."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Alyn Smith", "references": ["Alyn Smith"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Smith thinks, is that of Finland's autonomous, Swedish-speaking Aland Islands."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "target": {
+        "topic": "Texit",
+        "references": ["Texit"]
+      },
+      "justifications": [
+        "The similar-sounding \"Texit\" movement, which gained significant support online Friday, is mainly being pushed by the Texas Nationalist Movement"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "target": {
+        "topic": "independence",
+        "references": ["independence", "self-government"]
+      },
+      "justifications": [
+        "With a motto of \"Texas First, Texas Forever,\" the group, like those behind Brexit, advocates for \"self-government\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Texit supporters",
+        "references": ["Texit supporter"]
+      },
+      "target": {
+        "topic": "independence",
+        "references": ["Texas' freedom"]
+      },
+      "justifications": [
+        "One Texit supporter tells the Guardian that a secession would bring back \"Texas solutions\" on issues such as gay marriage, gun rights, and immigration."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Texit supporters",
+        "references": ["Texit supporter"]
+      },
+      "target": {
+        "topic": "Texas' freedom",
+        "references": ["Texas' freedom"]
+      },
+      "justifications": [
+        "One Texit supporter tells the Guardian that a secession would bring back \"Texas solutions\" on issues such as gay marriage, gun rights, and immigration."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "entity2": {
+        "entity": "Brexit supporters",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The similar-sounding \"Texit\" movement, which gained significant support online Friday, is mainly being pushed by the Texas Nationalist Movement, which is basically the US soulmate of the UK secession initiative, according to its leader, David Miller."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": ["Texas Nationalist Movement", "TNM"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The similar-sounding \"Texit\" movement, which gained significant support online Friday, is mainly being pushed by the Texas Nationalist Movement, which is basically the US soulmate of the UK secession initiative."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Texit supporters",
+        "references": ["Texit supporter"]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": ["the US"]
+      },
+      "justifications": [
+        "I say if they like then by God let us let them go... if they do not want to be part of the US then let the f*ckers go!"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

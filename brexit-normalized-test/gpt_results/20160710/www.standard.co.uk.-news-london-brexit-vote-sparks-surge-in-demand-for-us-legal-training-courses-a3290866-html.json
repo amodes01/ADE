@@ -1,0 +1,22 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "account creation", "references": ["Create Account"] },
+      "target": { "topic": "terms and conditions", "references": ["Terms of use", "Cookie policy", "Privacy policy"] },
+      "justifications": [
+        "By clicking Create Account you confirm that your data has been entered correctly and you have read and agree to our Terms of use, Cookie policy and Privacy policy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "account creation", "references": ["Create Account"] },
+      "target": { "topic": "data privacy", "references": ["data has been entered correctly", "Google Privacy Policy", "Terms of Service"] },
+      "justifications": [
+        "By clicking Create Account you confirm that your data has been entered correctly and you have read and agree to our Terms of use, Cookie policy and Privacy policy.",
+        "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": []
+}

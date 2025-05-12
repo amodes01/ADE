@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Paul Nehlen", "references": ["Paul Nehlen"]},
+      "target": {"topic": "immigration control", "references": ["Immigration Control"]},
+      "justifications": ["Vote YES for Immigration Control."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "target": {"topic": "open border immigration policies", "references": ["open border immigration policies"]},
+      "justifications": ["Paul Ryan has a two-decade long history of pushing for open border immigration policies."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "target": {"topic": "Muslim migration", "references": ["Muslim migration"]},
+      "justifications": ["Ryan has rejected such proposals.", "Ryan has repeatedly ruled out the possibility of making any cuts to Muslim migration."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "target": {"topic": "U.S. borders", "references": ["U.S. borders"]},
+      "justifications": ["Ryan has made the case for policies that would effectively dissolve U.S. borders.", "the U.S. is more than [its] borders."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UKIP", "references": ["UKIP"]},
+      "target": {"topic": "immigration control", "references": ["Immigration Control"]},
+      "justifications": ["UKIP's national billboard campaign is distinctive for its clear, straight-forward manner of describing the effects of large-scale migration."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Paul Nehlen", "references": ["Paul Nehlen"]},
+      "entity2": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "justifications": ["Nehlen's billboard suggests Paul Ryan has a two-decade long history of pushing for open border immigration policies."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Aayan Hirsi Ali", "references": ["Aayan Hirsi Ali"]},
+      "entity2": {"entity": "Islamic migration", "references": ["Islamic migration"]},
+      "justifications": ["Aayan Hirsi Ali has also observed that Islamic 'honor violence' has become increasingly prevalent in the United States as a result of 'a significant increase in the number of people moving to the United States from countries with high-honor violence rates.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "entity2": {"entity": "Western values", "references": ["Western values"]},
+      "justifications": ["Ryan has not explained how importing hundreds of thousands of migrants from nations that hold sentiments that are anti-women, anti-gay, anti-religious tolerance, and anti-America benefits the United States or helps to protect our Western values."],
+      "attitude": "Negative"
+    }
+  ]
+}

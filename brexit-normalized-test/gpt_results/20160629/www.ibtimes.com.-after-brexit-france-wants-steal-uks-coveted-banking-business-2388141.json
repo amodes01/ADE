@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "French officials", "references": ["French officials"]},
+      "target": {"topic": "Brexit impact on financial services", "references": ["Brexit", "leave the European Union", "U.K.'s central place in the EU's $810 billion financial services market"]},
+      "justifications": ["Following the vote by the U.K. to leave the European Union, French politicians have maneuvered to wrest away a share of Britain's coveted banking industry."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "French officials", "references": ["French officials"]},
+      "target": {"topic": "passporting for the financial sector", "references": ["passporting for the financial sector"]},
+      "justifications": ["By extending compromises on the first two issues but restricting the financial passports, Paris hopes to give London a deal that would satisfy the populace..."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Michel Sapin", "references": ["Michel Sapin"]},
+      "entity2": {"entity": "U.K.", "references": ["Britain", "the U.K."]},
+      "justifications": ["In particular, Sapin said, Britain could lose its \"passport\" into European markets, an aspect of EU trade policy that allows the U.K. to do business across national borders with little fuss."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michel Sapin", "references": ["Michel Sapin"]},
+      "entity2": {"entity": "London", "references": ["London"]},
+      "justifications": ["Sapin said, Britain could lose its \"passport\" into European markets, an aspect of EU trade policy that allows the U.K. to do business across national borders with little fuss."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ben Judah", "references": ["Ben Judah"]},
+      "entity2": {"entity": "U.K.", "references": ["the U.K."]},
+      "justifications": ["On Wednesday, author and journalist Ben Judah published a series of tweets laying out the situation on the ground."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "JPMorgan Chase", "references": ["JPMorgan Chase"]},
+      "entity2": {"entity": "U.K.", "references": ["the U.K."]},
+      "justifications": ["Banks including JPMorgan Chase and Goldman Sachs, based in the U.S., have warned that the Brexit could force them to relocate elsewhere in Europe - a process that has already begun."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "entity2": {"entity": "U.K.", "references": ["the U.K."]},
+      "justifications": ["Banks including JPMorgan Chase and Goldman Sachs, based in the U.S., have warned that the Brexit could force them to relocate elsewhere in Europe - a process that has already begun."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Paris", "references": ["Paris"]},
+      "entity2": {"entity": "London", "references": ["London"]},
+      "justifications": ["By extending compromises on the first two issues but restricting the financial passports, Paris hopes to give London a deal that would satisfy the populace... while muscling into Britain's economic turf."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Paris", "references": ["Paris"]},
+      "entity2": {"entity": "U.K.", "references": ["the U.K."]},
+      "justifications": ["By extending compromises on the first two issues but restricting the financial passports, Paris hopes to give London a deal that would satisfy the populace... while muscling into Britain's economic turf."],
+      "attitude": "Negative"
+    }
+  ]
+}

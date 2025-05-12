@@ -1,0 +1,133 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "economic slowdown",
+        "references": ["economic slowdown"]
+      },
+      "justifications": [
+        "The International Monetary Fund has reportedly indicated that the Eurozone is on its way towards an economic slowdown after Britain's decision to leave the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "uncertainty",
+        "references": ["uncertainty"]
+      },
+      "justifications": [
+        "It was added that the downgrade is indicative of rising uncertainty, fluctuations in markets and a potential decrease in exports to Britain.",
+        "Brexit may reportedly have caused a potential delay in investments in Britain and Europe until trade and immigration arrangements are negotiated with the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "consumer confidence",
+        "references": ["consumer confidence"]
+      },
+      "justifications": [
+        "Brexit has also affected consumer confidence, which saw its sharpest drop in more than 20 years since the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "trade deficit",
+        "references": ["trade deficit"]
+      },
+      "justifications": [
+        "The post-Brexit outlook was not helped by the U.K. trade gap, as exports slipped back from a rise in April."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "International Monetary Fund",
+        "references": ["International Monetary Fund", "IMF"]
+      },
+      "entity2": {
+        "entity": "Eurozone",
+        "references": ["Eurozone"]
+      },
+      "justifications": [
+        "The International Monetary Fund has reportedly indicated that the Eurozone is on its way towards an economic slowdown after Britain's decision to leave the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "International Monetary Fund",
+        "references": ["International Monetary Fund", "IMF"]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "The downgrade is indicative of rising uncertainty, fluctuations in markets and a potential decrease in exports to Britain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Kevin Green",
+        "references": ["Kevin Green"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Kevin Green, REC chief executive reportedly said, 'Whilst it is too early to assess what the impact of the vote to leave the EU will be on jobs, our data underlines the need for uncertainty to be minimised so that our economy and our labour market are not adversely affected.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Kevin Green",
+        "references": ["Kevin Green"]
+      },
+      "entity2": {
+        "entity": "clear and calm leadership",
+        "references": ["clear and calm leadership"]
+      },
+      "justifications": [
+        "The best thing for business right now is clear and calm leadership and as much clarity as possible on what the post-EU future will look like."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Kevin Green",
+        "references": ["Kevin Green"]
+      },
+      "entity2": {
+        "entity": "U.K. economy",
+        "references": ["economy"]
+      },
+      "justifications": [
+        "Kevin Green, REC chief executive reportedly said, '...our data underlines the need for uncertainty to be minimised so that our economy and our labour market are not adversely affected.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

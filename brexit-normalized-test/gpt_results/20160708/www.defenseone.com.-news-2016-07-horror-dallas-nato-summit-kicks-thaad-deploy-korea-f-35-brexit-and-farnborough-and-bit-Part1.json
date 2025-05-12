@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "terrorist attack", "references": ["terrorism"] },
+      "target": { "topic": "protest against police shootings", "references": ["demonstration against recent shootings of black men by police in Louisiana and Minnesota"] },
+      "justifications": [
+        "\"This is terrorism. This is what terrorists do.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit referendum"] },
+      "target": { "topic": "EU disintegration", "references": ["concerns that the United Kingdom's Brexit referendum would lead to further disintegration in Europe"] },
+      "justifications": [
+        "Obama said the summit comes 'at a critical moment for the European Union, with some suggesting that the entire edifice of European security and prosperity is crumbling.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit referendum"] },
+      "target": { "topic": "EU stability", "references": ["Obama said the summit comes 'at a critical moment for the European Union'"] },
+      "justifications": [
+        "Obama said the summit comes 'at a critical moment for the European Union'"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Jacquielynn Floyd", "references": ["Jacquielynn Floyd"] },
+      "entity2": { "entity": "Dallas Police Department", "references": ["Dallas police officers"] },
+      "justifications": [
+        "\"This is a nightmare: The nightmare of a terrorist attack at a peaceful, familiar street intersection where we have all been a thousand times.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["Obama"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Obama said the summit comes 'at a critical moment for the European Union, with some suggesting that the entire edifice of European security and prosperity is crumbling.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union"] },
+      "entity2": { "entity": "United Kingdom", "references": ["United Kingdom"] },
+      "justifications": [
+        "Obama said the summit comes 'at a critical moment for the European Union, with some suggesting that the entire edifice of European security and prosperity is crumbling.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "United Kingdom", "references": ["UK"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "The UK has the world's fifth-largest defense budget. We are - and will continue to be - leading members of NATO."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Ivo Daalder", "references": ["Ivo Daalder"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "\"The task of NATO leaders is to put in place policies and processes that respond to this triple challenge to Europe's security in ways that are clearly understood by the alliance's adversaries and supported by increasingly restive publics on both sides of the Atlantic.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

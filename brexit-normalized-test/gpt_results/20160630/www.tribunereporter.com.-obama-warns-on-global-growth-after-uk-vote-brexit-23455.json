@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "global growth",
+        "references": ["global growth"]
+      },
+      "justifications": [
+        "US President Barack Obama has said the UK vote to leave the EU raises \"longer-term concerns about global growth\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU leaders",
+        "references": ["EU leaders"]
+      },
+      "target": {
+        "topic": "free movement of people",
+        "references": ["free movement of people"]
+      },
+      "justifications": [
+        "Before EU leaders warned the UK must honour the principle of free movement of people if it desires to keep use of the single market."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "economic ties between North American nations",
+        "references": ["economic ties between North American nations"]
+      },
+      "justifications": [
+        "Mr Obama was talking with the leaders of Mexico and Canada, aimed at strengthening economic ties between North American nations at a summit in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "target": {
+        "topic": "global economy",
+        "references": ["global economy"]
+      },
+      "justifications": [
+        "He said the trainings by central banks and finance ministers indicated that \"global economy in the short run will hold steady\"."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "US President Barack Obama has said the UK vote to leave the EU raises \"longer-term concerns about global growth\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU leaders",
+        "references": ["EU leaders"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "Before EU leaders warned the UK must honour the principle of free movement of people if it desires to keep use of the single market."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Mexico",
+        "references": ["Mexico"]
+      },
+      "justifications": [
+        "Mr Obama was talking with the leaders of Mexico and Canada, aimed at strengthening economic ties between North American nations at a summit in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Canada",
+        "references": ["Canada"]
+      },
+      "justifications": [
+        "Mr Obama was talking with the leaders of Mexico and Canada, aimed at strengthening economic ties between North American nations at a summit in Ottawa."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

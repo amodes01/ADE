@@ -1,0 +1,114 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "target": { "topic": "United Kingdom's membership in the European Union", "references": ["leave the European Union", "stay in the EU"] },
+      "justifications": [
+        "I hope they stay in, but they have to make their decision, obviously, based on what they think is best for the U.K.",
+        "My hope is they stay in."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "I am hoping the European Union works out well.",
+        "the more Europe 'learns to work together', the better."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "target": { "topic": "Brexit", "references": ["Britain does leave the EU"] },
+      "justifications": [
+        "If Britain does leave the EU, he said, 'it will not make any difference to anything Berkshire does.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "target": { "topic": "Berkshire Hathaway", "references": ["Berkshire"] },
+      "justifications": [
+        "'it will not make any difference to anything Berkshire does.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "The Marcuses", "references": ["Howard and Lottie Marcus"] },
+      "target": { "topic": "Israel's Ben-Gurion University of the Negev", "references": ["Ben-Gurion University of the Negev"] },
+      "justifications": [
+        "Two longtime Berkshire shareholders are donating, posthumously, $400 million to Israel's Ben-Gurion University of the Negev.",
+        "They believed that solving problems with water is the key to peace in the Middle East."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Howard and Lottie Marcus", "references": ["Howard and Lottie Marcus"] },
+      "target": { "topic": "Holocaust", "references": ["Holocaust"] },
+      "justifications": [
+        "The Marcuses had fled separately from Nazi Germany in the 1930s, but most members of their families died in the Holocaust."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Rivka Carmi", "references": ["Rivka Carmi"] },
+      "target": { "entity": "Howard and Lottie Marcus", "references": ["Howard and Lottie Marcus"] },
+      "justifications": [
+        "Howard and Lottie Marcus were rare and special people, Holocaust survivors who lived a simple and humble life and joined their fate and their legacy to that of the State of Israel."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Susan Thompson Buffett Foundation", "references": ["Susan Thompson Buffett Foundation"] },
+      "target": { "topic": "U.S. Supreme Court ruling on abortion clinics", "references": ["U.S. Supreme Court ruling that struck down a Texas law on abortion clinics"] },
+      "justifications": [
+        "A five-member research group funded by the Susan Thompson Buffett Foundation was instrumental in last month's U.S. Supreme Court ruling that struck down a Texas law on abortion clinics."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Susan Thompson Buffett Foundation", "references": ["Susan Thompson Buffett Foundation"] },
+      "target": { "entity": "Texas Policy Evaluation Project", "references": ["Texas Policy Evaluation Project"] },
+      "justifications": [
+        "The foundation, named after Buffett's late wife and funded by him, supported the Texas Policy Evaluation Project, known as TxPEP."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "I am hoping the European Union works out well.",
+        "the more Europe 'learns to work together', the better."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Warren Buffett", "references": ["Warren Buffett"] },
+      "entity2": { "entity": "David Cameron", "references": ["British Prime Minister David Cameron"] },
+      "justifications": [
+        "If I was assured by (British Prime Minister David) Cameron that they were going to stay or leave, it would not change one iota what I am doing in businesses or in stocks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Howard and Lottie Marcus", "references": ["Howard and Lottie Marcus"] },
+      "entity2": { "entity": "State of Israel", "references": ["State of Israel"] },
+      "justifications": [
+        "Howard and Lottie Marcus were rare and special people, Holocaust survivors who lived a simple and humble life and joined their fate and their legacy to that of the State of Israel."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Howard and Lottie Marcus", "references": ["Howard and Lottie Marcus"] },
+      "entity2": { "entity": "Warren Buffett", "references": ["Buffett"] },
+      "justifications": [
+        "I met Howard and Lottie more than 50 years ago through a mutual friend, my lifetime hero Ben Graham, Buffett told the university."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "target": {"topic": "UK-US relationship", "references": ["U.S.-UK relationship"]},
+      "justifications": ["the UK is an indispensable ally of the US, and that special relationship is unaffected by this vote."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Richard Burr", "references": ["Richard Burr"]},
+      "target": {"topic": "UK-US relationship", "references": ["U.S.-UK relationship"]},
+      "justifications": ["we respect their decision, and we stand by them, just as they have always stood by us."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tom Cotton", "references": ["Tom Cotton"]},
+      "target": {"topic": "US trade policy", "references": ["free-trade discussions with the UK"]},
+      "justifications": ["the U.S. should now begin free-trade discussions with the UK"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "UK-US trade policy", "references": ["UK would pay for a \"no\" vote economically, getting less preferential trade consideration"]},
+      "justifications": ["Obama had suggested that the UK would pay for a \"no\" vote economically, getting less preferential trade consideration"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "Obama's influence on Brexit vote", "references": ["Obama may have pushed voters to vote against staying in the EU"]},
+      "justifications": ["Trump seized on that to claim that Obama may have pushed voters to vote against staying in the EU"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Obama"]},
+      "target": {"topic": "Brexit outcome", "references": ["vote's outcome is a matter of deep interest to the United States because it affects our prospects as well"]},
+      "justifications": ["the vote's outcome is a matter of deep interest to the United States because it affects our prospects as well"],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": ["Trump seized on that to claim that Obama may have pushed voters to vote against staying in the EU", "Trump also accused Clinton of opposing the Brexit because Obama wanted it and slammed his understanding of the public mood"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "UK", "references": ["United Kingdom"]},
+      "justifications": ["Obama had suggested that the UK would pay for a \"no\" vote economically, getting less preferential trade consideration", "Obama also touched in April on security, noting that global challenges require \"collective action\" and that the vote's outcome is a matter of deep interest to the United States because it affects our prospects as well"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Obama"]},
+      "entity2": {"entity": "UK", "references": ["United Kingdom"]},
+      "justifications": ["Obama said the United Kingdom is at its best when it's helping to lead a strong Europe"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Tom Cotton", "references": ["Tom Cotton"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Obama"]},
+      "justifications": ["Trump knocked him for his comments that the UK would be at the back of the line", "Trump, who backed the \"leave\" campaign, said Friday that, \"I was actually very surprised that President Obama would have come over here and he would have been so bold as to tell the people over here what to do.\""],
+      "attitude": "Negative"
+    }
+  ]
+}

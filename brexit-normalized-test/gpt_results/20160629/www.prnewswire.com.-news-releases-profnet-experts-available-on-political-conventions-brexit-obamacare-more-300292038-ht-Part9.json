@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "target": {"topic": "role of religion in politics", "references": ["role of religion in politics"]},
+      "justifications": [
+        "O'Connell is available to discuss the following convention-related topics: the role of religion in politics, especially Evangelicals' impact on the GOP convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "target": {"topic": "Evangelicals' impact on the GOP convention", "references": ["Evangelicals' impact on the GOP convention"]},
+      "justifications": [
+        "O'Connell is available to discuss the following convention-related topics: the role of religion in politics, especially Evangelicals' impact on the GOP convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "target": {"topic": "Trump's departure from the norm", "references": ["Trump's departure from the norm"]},
+      "justifications": [
+        "O'Connell is available to discuss the role of campaign rhetoric -- how Trump's departure from the norm could affect convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "target": {"topic": "presidential history", "references": ["presidential history"]},
+      "justifications": [
+        "O'Connell is available to discuss... presidential history, including convention history and outcomes."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "entity2": {"entity": "Evangelicals", "references": ["Evangelicals"]},
+      "justifications": [
+        "O'Connell is available to discuss the following convention-related topics: the role of religion in politics, especially Evangelicals' impact on the GOP convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "entity2": {"entity": "GOP convention", "references": ["GOP convention"]},
+      "justifications": [
+        "O'Connell is available to discuss the following convention-related topics: the role of religion in politics, especially Evangelicals' impact on the GOP convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "David O'Connell", "references": ["David O'Connell"]},
+      "entity2": {"entity": "Trump", "references": ["Trump"]},
+      "justifications": [
+        "O'Connell is available to discuss the role of campaign rhetoric -- how Trump's departure from the norm could affect convention."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

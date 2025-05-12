@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Silicon Valley's biggest businesses", "references": ["Silicon Valley's biggest businesses"]},
+      "target": {"topic": "U.K. withdrawal from the European Union", "references": ["Britain's decision to withdraw from the European Union"]},
+      "justifications": [
+        "Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Silicon Valley's biggest businesses", "references": ["Silicon Valley's biggest businesses"]},
+      "target": {"topic": "business environment in Europe", "references": ["Europe a more challenging environment in which to do business"]},
+      "justifications": [
+        "these companies might find Europe a more challenging environment in which to do business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.K. tech companies", "references": ["U.K. tech companies"]},
+      "target": {"topic": "business environment in the U.K.", "references": ["might have to leave the country"]},
+      "justifications": [
+        "U.K. tech companies might have to leave the country to follow their customers and funding sources."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Silicon Valley's biggest businesses", "references": ["Silicon Valley's biggest businesses"]},
+      "entity2": {"entity": "U.K.", "references": ["U.K."]},
+      "justifications": [
+        "Silicon Valley's biggest businesses could face tougher regulations following Britain's decision to withdraw from the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Silicon Valley's biggest businesses", "references": ["Silicon Valley's biggest businesses"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": [
+        "these companies might find Europe a more challenging environment in which to do business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.K.", "references": ["U.K."]},
+      "entity2": {"entity": "U.K. tech companies", "references": ["U.K. tech companies"]},
+      "justifications": [
+        "U.K. tech companies might have to leave the country to follow their customers and funding sources."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

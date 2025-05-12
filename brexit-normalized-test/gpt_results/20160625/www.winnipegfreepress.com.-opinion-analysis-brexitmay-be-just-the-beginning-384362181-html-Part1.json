@@ -1,0 +1,127 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Brexit", "references": ["leave the European Union"]},
+      "justifications": ["'The EU is dying. I hope we have knocked the first brick out of the wall,' exulted Nigel Farage, leader of the U.K. Independence Party."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "target": {"topic": "Brexit", "references": ["leave the European Union"]},
+      "justifications": ["J.K. Rowling, who wanted Scotland to remain in the U.K. and the U.K. to remain in the EU, sadly tweeted: 'Scotland will seek independence now.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Brexit", "references": ["dragged out of the EU"]},
+      "justifications": ["It is 'democratically unacceptable' for Scotland to be dragged out of the EU by the English, said First Minister Nicola Sturgeon."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "target": {"topic": "Brexit", "references": ["referendum on Britain's EU membership"]},
+      "justifications": ["Marine Le Pen, leader of France's Front National, called the referendum 'a key moment in European history.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Geert Wilders", "references": ["Geert Wilders"]},
+      "target": {"topic": "Brexit", "references": ["referendum on Britain's EU membership"]},
+      "justifications": ["Geert Wilders, whose anti-Muslim, anti-immigration Freedom party is predicted to win 46 of the 150 seats in the Dutch parliament in next year's election, promised if he is elected, the Netherlands will hold its own 'Nexit' referendum."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jaroslaw Kaczynski", "references": ["Jaroslaw Kaczynski"]},
+      "target": {"topic": "Brexit", "references": ["referendum on Britain's EU membership"]},
+      "justifications": ["Nationalist leaders in Eastern Europe such as Poland's Jaroslaw Kaczynski... indulge in harsh anti-EU rhetoric all the time."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Viktor Orban", "references": ["Viktor Orban"]},
+      "target": {"topic": "Brexit", "references": ["referendum on Britain's EU membership"]},
+      "justifications": ["Nationalist leaders in Eastern Europe such as Hungary's Viktor Orban indulge in harsh anti-EU rhetoric all the time."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU leaders", "references": ["EU's leaders"]},
+      "target": {"topic": "Brexit", "references": ["post-Brexit relations with the U.K."]},
+      "justifications": ["The EU's leaders will have to take a very tough line in the negotiations about the EU's post-Brexit relations with the U.K."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU leaders", "references": ["EU's leaders"]},
+      "target": {"topic": "Brexit", "references": ["post-Brexit relations with the U.K."]},
+      "justifications": ["A horrible example will be required to show the nationalists and populists in other member states that leaving is hard and painful."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["post-Brexit Germany domination"]},
+      "justifications": ["Its biggest problem will not be the loss of the U.K., its second-biggest economy, but rather the fact post-Brexit Germany will dominate the union even more than it does already."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "U.K.", "references": ["the British"]},
+      "target": {"topic": "Brexit", "references": ["leave the European Union"]},
+      "justifications": ["As for the British, they have made their bed, and they will have to lie in it."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "justifications": ["Nigel Farage exulted about the EU dying, while J.K. Rowling lamented the breakup of the unions."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Nigel Farage exulted about the EU dying. David Cameron's decision to hold a referendum on Britain's EU membership has assured the dismantling of the United Kingdom."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["J.K. Rowling, who wanted Scotland to remain in the U.K. and the U.K. to remain in the EU, blamed Cameron's legacy for breaking up two unions."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Nicola Sturgeon criticized David Cameron's decision to hold a referendum on Britain's EU membership, saying it would drag Scotland out of the EU against its will."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "J.K. Rowling", "references": ["J.K. Rowling"]},
+      "justifications": ["David Cameron's decision to hold a referendum on Britain's EU membership has assured the dismantling of the United Kingdom. J.K. Rowling lamented this, blaming Cameron's legacy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "entity2": {"entity": "EU", "references": ["European Union"]},
+      "justifications": ["Marine Le Pen, leader of France's Front National, called the referendum 'a key moment in European history.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Geert Wilders", "references": ["Geert Wilders"]},
+      "entity2": {"entity": "EU", "references": ["European Union"]},
+      "justifications": ["Geert Wilders, whose anti-Muslim, anti-immigration Freedom party is predicted to win 46 of the 150 seats in the Dutch parliament in next year's election, promised if he is elected, the Netherlands will hold its own 'Nexit' referendum."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jaroslaw Kaczynski", "references": ["Jaroslaw Kaczynski"]},
+      "entity2": {"entity": "EU", "references": ["European Union"]},
+      "justifications": ["Nationalist leaders in Eastern Europe such as Poland's Jaroslaw Kaczynski indulge in harsh anti-EU rhetoric all the time."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Viktor Orban", "references": ["Viktor Orban"]},
+      "entity2": {"entity": "EU", "references": ["European Union"]},
+      "justifications": ["Nationalist leaders in Eastern Europe such as Hungary's Viktor Orban indulge in harsh anti-EU rhetoric all the time."],
+      "attitude": "Negative"
+    }
+  ]
+}

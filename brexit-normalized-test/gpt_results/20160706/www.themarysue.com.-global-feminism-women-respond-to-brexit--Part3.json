@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "women throughout the international community",
+        "references": ["women throughout the international community"]
+      },
+      "target": {
+        "topic": "needs of women",
+        "references": ["their needs to be met"]
+      },
+      "justifications": [
+        "May they be able to maintain the energy to fight for their needs to be met."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "women throughout the international community",
+        "references": ["women throughout the international community"]
+      },
+      "target": {
+        "topic": "support for women",
+        "references": ["lend their support"]
+      },
+      "justifications": [
+        "may women throughout the international community lend their support"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "women of the EU",
+        "references": ["women of the EU"]
+      },
+      "target": {
+        "topic": "support for women",
+        "references": ["lend their support"]
+      },
+      "justifications": [
+        "Yes, even the women of the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "women throughout the international community",
+        "references": ["women throughout the international community"]
+      },
+      "entity2": {
+        "entity": "women of the EU",
+        "references": ["women of the EU"]
+      },
+      "justifications": [
+        "Yes, even the women of the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "The Mary Sue",
+        "references": ["The Mary Sue"]
+      },
+      "entity2": {
+        "entity": "audience",
+        "references": ["our audience"]
+      },
+      "justifications": [
+        "The Mary Sue is supported by our audience."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

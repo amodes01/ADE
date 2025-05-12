@@ -1,0 +1,114 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Newt Gingrich", "references": ["Newt Gingrich"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "The vote by the British public to leave the European Union last week suggests presumptive Democratic presidential nominee Hillary Clinton is out of step with public sentiment, former House Speaker Newt Gingrich said Monday.",
+        "According to Gingrich, the 'Brexit' vote and similar developments in other countries represent an 'unlocking' in Europe and the U.S. where citizens are saying that their social contract with the government no longer works."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "The vote by the British public to leave the European Union last week suggests presumptive Democratic presidential nominee Hillary Clinton is out of step with public sentiment."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": [
+        "That trend has fueled outsiders and nationalist candidates like presumptive Republican nominee Donald Trump and damaged more traditional politicians."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "status quo", "references": ["candidate of the status quo"]},
+      "justifications": [
+        "If Trump is seen as the agent of change and Clinton as the candidate of the status quo, that could be 'devastating' for her, given the current mood of the public."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "status quo", "references": ["candidate of the status quo"]},
+      "justifications": [
+        "If Trump is seen as the agent of change and Clinton as the candidate of the status quo, that could be 'devastating' for her, given the current mood of the public."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Patrick Kennedy", "references": ["Patrick Kennedy"]},
+      "target": {"topic": "freedom and protection from chaos", "references": ["freedom while also protecting the people from destructive impulses", "healthy debate", "protects our country and does not allow our country to devolve into utter chaos"]},
+      "justifications": [
+        "Former Rep. Patrick Kennedy, who was appearing with Gingrich to promote , said the U.S. political system was intended to provide freedom while also protecting the people from destructive impulses that can lead to chaos or even genocide.",
+        "We do not want that in our country.",
+        "We need to have a system where we can have healthy debate, but a system that protects our country and does not allow our country to devolve into utter chaos."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Newt Gingrich", "references": ["Gingrich"]},
+      "target": {"topic": "foreign donations to the Clinton Foundation", "references": ["questions about foreign donations to the Clinton Foundation"]},
+      "justifications": [
+        "Gingrich predicted questions about foreign donations to the Clinton Foundation while Hillary was secretary of state and other ethical concerns will continue to hound her campaign throughout the race."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Bill Clinton", "references": ["Bill Clinton"]},
+      "target": {"topic": "First Spouse", "references": ["First Spouse"]},
+      "justifications": [
+        "He also considered how Clinton's husband, the 42nd president, will handle being the first male First Spouse in the White House.",
+        "The whole idea is almost worth electing her just to be able to watch the circus of Bill Clinton wandering around as First Spouse."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Patrick Kennedy", "references": ["Kennedy"]},
+      "target": {"topic": "Donald Trump as president", "references": ["Donald Trump as president"]},
+      "justifications": [
+        "I am less worried about Bill Clinton as First Spouse than Donald Trump as president."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Newt Gingrich", "references": ["Newt Gingrich"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "justifications": [
+        "The vote by the British public to leave the European Union last week suggests presumptive Democratic presidential nominee Hillary Clinton is out of step with public sentiment, former House Speaker Newt Gingrich said Monday."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "If Trump is seen as the agent of change and Clinton as the candidate of the status quo, that could be 'devastating' for her, given the current mood of the public."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Patrick Kennedy", "references": ["Patrick Kennedy"]},
+      "entity2": {"entity": "Newt Gingrich", "references": ["Gingrich"]},
+      "justifications": [
+        "Former Rep. Patrick Kennedy, who was appearing with Gingrich to promote , said the U.S. political system was intended to provide freedom while also protecting the people from destructive impulses that can lead to chaos or even genocide."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Newt Gingrich", "references": ["Gingrich"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Gingrich, who is often mentioned as a potential vice presidential candidate, did not offer a definitive answer when asked if he would agree to be Trump's running mate."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

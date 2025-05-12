@@ -1,0 +1,23 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "bank", "references": ["bank"]},
+      "target": {"topic": "asset quality", "references": ["asset quality"]},
+      "justifications": ["The bank's asset quality improved significantly"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "bank", "references": ["bank"]},
+      "target": {"topic": "Gross NPA", "references": ["Gross NPA"]},
+      "justifications": ["Gross NPA down to 1.37% from 1.70%"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "bank", "references": ["bank"]},
+      "target": {"topic": "Net NPA", "references": ["Net NPA"]},
+      "justifications": ["Net NPA down to 0.46% from 0.99% year on year"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": []
+}

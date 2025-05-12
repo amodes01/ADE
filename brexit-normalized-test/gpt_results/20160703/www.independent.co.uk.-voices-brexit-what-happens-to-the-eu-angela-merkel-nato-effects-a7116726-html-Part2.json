@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Germany", "references": ["Germany"] },
+      "target": { "topic": "ever closer union", "references": ["ever closer union"] },
+      "justifications": ["Germany, in particular, is ready to give up on the idea of \"ever closer union\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "two-speed Europe", "references": ["two-speed Europe"] },
+      "justifications": ["A revival of the political project... could speed evolution towards a two-speed Europe"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Germany", "references": ["Germany"] },
+      "target": { "topic": "two-speed Europe", "references": ["two-speed Europe"] },
+      "justifications": ["Germany - with its queasiness about military engagements - becomes the ultimate arbiter in the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Germany", "references": ["Germany"] },
+      "target": { "topic": "military engagements", "references": ["military engagements"] },
+      "justifications": ["Germany - with its queasiness about military engagements - becomes the ultimate arbiter in the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "EU", "references": ["EU"] },
+      "target": { "topic": "refugee quotas", "references": ["quotas for non-European refugees"] },
+      "justifications": ["newly restored nation states... resistance to quotas for non-European refugees"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "UK", "references": ["UK"] },
+      "target": { "topic": "EU membership", "references": ["EU membership"] },
+      "justifications": ["On the one hand, they regarded EU membership as proof of their European credentials"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "Germany", "references": ["Germany"] },
+      "justifications": ["Germany - with its queasiness about military engagements - becomes the ultimate arbiter in the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germany"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["Without the UK, it will be less Atlanticist and more Continental, in allegiances as in character."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germany"] },
+      "entity2": { "entity": "US", "references": ["US"] },
+      "justifications": ["The US may maintain its presence and influence, but it will be as an outside power; the UK will not be there as bridge or proxy, and no amount of talking between Berlin and Washington will alter that."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "newly restored nation states", "references": ["newly restored nation states"] },
+      "justifications": ["On the other, they are loath to give up any of their sovereignty as newly restored nation states"],
+      "attitude": "Neutral"
+    }
+  ]
+}

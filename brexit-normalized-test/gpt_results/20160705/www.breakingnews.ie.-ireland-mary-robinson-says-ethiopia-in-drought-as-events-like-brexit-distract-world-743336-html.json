@@ -1,0 +1,126 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Mary Robinson has accused the international community of being distracted and preoccupied by events like Brexit"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "Ethiopian drought", "references": ["Ethiopians suffer the worst drought in half a century"] },
+      "justifications": [
+        "Mary Robinson has accused the international community of being distracted and preoccupied by events like Brexit as millions of Ethiopians suffer the worst drought in half a century."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "El Nino", "references": ["El Nino weather pattern", "El Nino", "impacts of El Nino"] },
+      "justifications": [
+        "Mary Robinson said: 'I do not think that this real impact of El Nino aggravated by climate change has received the attention that it should have from the international community.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "climate change", "references": ["climate change"] },
+      "justifications": [
+        "Mary Robinson said: 'I do not think that this real impact of El Nino aggravated by climate change has received the attention that it should have from the international community.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "international aid response", "references": ["donor response", "€580m in aid"] },
+      "justifications": [
+        "The minister said the donor response was initially slow."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "Ethiopian food crisis", "references": ["Ethiopian food emergency", "lack of food", "millions of Ethiopians suffer"] },
+      "justifications": [
+        "Mary Robinson has accused the international community of being distracted as millions of Ethiopians suffer the worst drought in half a century."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "target": { "topic": "future El Nino events", "references": ["future El Nino events", "blueprint to combat subsequent El Nino events"] },
+      "justifications": [
+        "Ms Robinson is urging governments to use the current crisis to create a blueprint to combat subsequent El Nino events and the impact of climate change."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "entity2": { "entity": "UN", "references": ["UN", "UN secretary general Ban Ki-moon"] },
+      "justifications": [
+        "The trip is Mrs Robinson's first visit to Africa since being appointed to her role two months ago by UN secretary general Ban Ki-moon."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "entity2": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "justifications": [
+        "Ms Robinson met Ethiopian foreign minister Tedros A Ghebreyesus in Addis Ababa as the country seeks €580m in aid to ease the crisis."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Mary Robinson", "references": ["Mary Robinson"] },
+      "entity2": { "entity": "Ethiopian government", "references": ["Ethiopian government"] },
+      "justifications": [
+        "The Ethiopian government is carrying out a new assessment of the latest harvests and how many millions of people require food aid."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "entity2": { "entity": "Ethiopian government", "references": ["Ethiopian government"] },
+      "justifications": [
+        "The Ethiopian government is carrying out a new assessment of the latest harvests and how many millions of people require food aid."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "entity2": { "entity": "Ethiopian government", "references": ["Ethiopian government"] },
+      "justifications": [
+        "Tedros A Ghebreyesus said: 'We are the victims of climate change.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "entity2": { "entity": "climate change", "references": ["climate change"] },
+      "justifications": [
+        "Tedros A Ghebreyesus said: 'We are the victims of climate change.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "entity2": { "entity": "Ireland", "references": ["Irish person"] },
+      "justifications": [
+        "It is estimated that it takes 88 Ethiopians to emit as much carbon dioxide as one Irish person."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tedros A Ghebreyesus", "references": ["Tedros A Ghebreyesus"] },
+      "entity2": { "entity": "climate change", "references": ["climate change"] },
+      "justifications": [
+        "Tedros A Ghebreyesus said: 'Although the whole world knows that, we have not contributed to the damage of our climate, nothing... we are the victims.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

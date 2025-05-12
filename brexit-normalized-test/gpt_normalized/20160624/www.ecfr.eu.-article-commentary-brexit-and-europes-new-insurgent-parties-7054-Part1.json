@@ -1,0 +1,309 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "British 'Leave' voters",
+          "Britain's vote on Thursday"
+        ]
+      },
+      "justifications": [
+        "the news had been welcomed by 'insurgent' parties across the continent"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "EU",
+        "references": [
+          "United States of Europe",
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "They are broadly sceptical about the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "migration",
+        "references": [
+          "migration to Australia"
+        ]
+      },
+      "justifications": [
+        "They prefer borders closed, migration low"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "trade protectionism",
+        "references": [
+          "trade protected"
+        ]
+      },
+      "justifications": [
+        "They prefer borders closed, migration low, and trade protected"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "direct democracy",
+        "references": [
+          "democracy"
+        ]
+      },
+      "justifications": [
+        "Above all, they want to return power to the people through direct democracy"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "justifications": [
+        "stirring speeches by David Cameron and Tony Blair on the risks for Britain's security and the global impact of leaving the EU fell on deaf ears"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Tony Blair",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "justifications": [
+        "stirring speeches by David Cameron and Tony Blair on the risks for Britain's security and the global impact of leaving the EU fell on deaf ears"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "international policy",
+        "references": [
+          "U.S. foreign policy"
+        ]
+      },
+      "justifications": [
+        "Foreign policy in particular is no longer an elite game, conducted behind closed doors by small coteries of politicians and diplomats"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "target": {
+        "topic": "political elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "justifications": [
+        "Across Europe, traditional political elites are being challenged by newer, smaller, and leaner parties from both left and right"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "United States of Europe",
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "They are broadly sceptical about the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "entity2": {
+        "entity": "traditional political elites",
+        "references": [
+          "European elites"
+        ]
+      },
+      "justifications": [
+        "Across Europe, traditional political elites are being challenged by newer, smaller, and leaner parties from both left and right"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "justifications": [
+        "stirring speeches by David Cameron and Tony Blair on the risks for Britain's security and the global impact of leaving the EU fell on deaf ears"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Tony Blair",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "insurgent parties",
+        "references": [
+          "Sinn Féin",
+          "Scottish status in the EU",
+          "Front National",
+          "PVV",
+          "AFD",
+          "Lega Nord",
+          "FPO"
+        ]
+      },
+      "justifications": [
+        "stirring speeches by David Cameron and Tony Blair on the risks for Britain's security and the global impact of leaving the EU fell on deaf ears"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

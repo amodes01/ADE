@@ -1,0 +1,123 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "target": { "topic": "Brexit", "references": ["Britain's vote on Thursday", "British decision"] },
+      "justifications": [
+        "John Kerry on Sunday urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens.",
+        "\"One country has made a decision, Kerry said. Obviously, it is a decision that the United States had hoped would go the other way. But it did not.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "target": { "topic": "EU unity", "references": ["European unity"] },
+      "justifications": [
+        "Kerry emphasized the importance of thoughtful cooperation at a time of economic uncertainty and fears about crumbling European unity."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "target": { "topic": "US-EU relations", "references": ["US-EU trade negotiations", "US-EU relationship"] },
+      "justifications": [
+        "In Brussels, Kerry planned to emphasize US backing for the EU.",
+        "Kerry stressed the importance of political unity among 27 remaining EU countries."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "Brexit", "references": ["Brexit", "vote to 'leave'"] },
+      "justifications": [
+        "Visiting Britain in April, Barack Obama noted ongoing US-EU trade negotiations and warned Britons that a vote to 'leave' could put them at the back of the line for similar deals."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "US-British relations", "references": ["US-British relationship", "special relationship"] },
+      "justifications": [
+        "Even the gloomiest of predictions about the British exit from the EU do not foresee the collapse of the close cultural ties or military alliance between Washington and London."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "John Kerry on Sunday urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens.",
+        "\"One country has made a decision, Kerry said. Obviously, it is a decision that the United States had hoped would go the other way. But it did not.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Kerry emphasized the importance of thoughtful cooperation at a time of economic uncertainty and fears about crumbling European unity.",
+        "In Brussels, Kerry planned to emphasize US backing for the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Italy", "references": ["Italy"] },
+      "justifications": [
+        "Speaking in Rome as he met with Italian foreign minister Paolo Gentiloni."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Paolo Gentiloni", "references": ["Paolo Gentiloni"] },
+      "justifications": [
+        "Speaking in Rome as he met with Italian foreign minister Paolo Gentiloni."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Binyamin Netanyahu", "references": ["Binyamin Netanyahu"] },
+      "justifications": [
+        "Kerry was scheduled to meet Israel's prime minister, Binyamin Netanyahu, later on Sunday."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Federica Mogherini", "references": ["Federica Mogherini"] },
+      "justifications": [
+        "He planned to fly to Brussels to meet EU foreign policy chief Federica Mogherini."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "Philip Hammond", "references": ["Philip Hammond"] },
+      "justifications": [
+        "Later, he was to meet British foreign secretary Philip Hammond in London."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "John Kerry", "references": ["John Kerry"] },
+      "entity2": { "entity": "United States", "references": ["United States"] },
+      "justifications": [
+        "Kerry said: \"We will continue, the United States, to have a very close and special relationship with Great Britain.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "United States", "references": ["United States"] },
+      "entity2": { "entity": "Great Britain", "references": ["Great Britain"] },
+      "justifications": [
+        "Kerry said: \"We will continue, the United States, to have a very close and special relationship with Great Britain.\"",
+        "Even the gloomiest of predictions about the British exit from the EU do not foresee the collapse of the close cultural ties or military alliance between Washington and London."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

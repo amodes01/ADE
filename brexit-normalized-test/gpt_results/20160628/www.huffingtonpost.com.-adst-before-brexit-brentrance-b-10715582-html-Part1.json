@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Arthur Hartman",
+        "references": ["Arthur Hartman"]
+      },
+      "target": {
+        "topic": "British EEC membership",
+        "references": ["British membership in the EEC"]
+      },
+      "justifications": [
+        "We wanted to create strong European unity, which would only happen if Great Britain joined the EEC and did not try to undermine it."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Walt Butterworth",
+        "references": ["Walt Butterworth"]
+      },
+      "target": {
+        "topic": "British EEC membership",
+        "references": ["British membership in the EEC"]
+      },
+      "justifications": [
+        "He thought that perhaps the British wanted in for the wrong reasons. He thought that perhaps the British wanted to integrate the EEC and water it down for it to become a free trade area."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President John Kennedy",
+        "references": ["President John Kennedy"]
+      },
+      "target": {
+        "topic": "British EEC membership",
+        "references": ["British membership in the EEC"]
+      },
+      "justifications": [
+        "[President John] Kennedy felt the British earnestly wanted to get in and that they should be taken seriously."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Arthur Hartman",
+        "references": ["Arthur Hartman"]
+      },
+      "entity2": {
+        "entity": "Walt Butterworth",
+        "references": ["Walt Butterworth"]
+      },
+      "justifications": [
+        "I had to speak with Butterworth first to get him in line because he too suspected the British of wanting in for the wrong reasons."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Arthur Hartman",
+        "references": ["Arthur Hartman"]
+      },
+      "entity2": {
+        "entity": "President John Kennedy",
+        "references": ["President John Kennedy"]
+      },
+      "justifications": [
+        "[President John] Kennedy felt the British earnestly wanted to get in and that they should be taken seriously."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

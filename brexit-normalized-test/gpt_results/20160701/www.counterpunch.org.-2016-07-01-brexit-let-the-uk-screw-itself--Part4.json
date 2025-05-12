@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["referendum in the UK"]},
+      "justifications": ["The referendum in the UK has proved all this, and more."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "decolonization", "references": ["de-colonization struggle"]},
+      "justifications": ["The world will have to return to the unfinished 'business' of the de-colonization struggle if it wants to survive."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western empires", "references": ["Western empires"]},
+      "target": {"topic": "imperialism", "references": ["imperialism"]},
+      "justifications": ["Western empires (in the past) and now 'the Empire' have already destroyed most of the world."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western empires", "references": ["Western empires"]},
+      "target": {"topic": "imperialism", "references": ["imperialism"]},
+      "justifications": ["Western empires...have already destroyed most of the world, and the masses in Europe and even in North America have been greatly benefiting from those countless heinous crimes against humanity."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "imperialism", "references": ["imperialism"]},
+      "justifications": ["Our present-day institutions, from NATO to the EU, are helping to sustain such criminal global order."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European people", "references": ["European people"]},
+      "target": {"topic": "global exploitation", "references": ["plundering the Planet"]},
+      "justifications": ["It will continue, because the European people want it; they actually indirectly demand it!"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "global exploitation", "references": ["plundering the Planet"]},
+      "justifications": ["Like some spoiled, heartless and thoroughly immoral brats, Europeans shout 'more, more and damn more!'"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "global racism", "references": ["racism"]},
+      "justifications": ["European racism is as profound, fundamentalist, cultural, institutionalized, as it is vitriolic and ancient."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "China", "references": ["China"]},
+      "justifications": ["And they hate, with naked fanaticism, each and every country on Earth, from China to Russia, which is standing on its feet and refusing to accept Western dictates."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["And they hate, with naked fanaticism, each and every country on Earth, from China to Russia, which is standing on its feet and refusing to accept Western dictates."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European people", "references": ["European people"]},
+      "entity2": {"entity": "rest of the world", "references": ["rest of the world"]},
+      "justifications": ["For as long as such a mentality prevails (and it has been prevailing for endless centuries), to the rest of the world it will matter very little or nothing whether one or two or five countries opt to leave the European Union."]
+      "attitude": "Negative"
+    }
+  ]
+}

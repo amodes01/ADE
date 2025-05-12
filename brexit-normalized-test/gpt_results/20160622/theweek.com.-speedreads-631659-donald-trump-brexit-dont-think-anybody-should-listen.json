@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["We reported on June 1 that Donald Trump apparently has no idea what the Brexit is", "Donald Trump still has basically no idea what the Brexit is"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["President Obama has urged against a Brexit"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["President Obama"]},
+      "target": {"topic": "economic implications of Brexit", "references": ["take as many as 10 years for Britain to negotiate new trade deals with the States"]},
+      "justifications": ["President Obama has urged against a Brexit, saying it could take as many as 10 years for Britain to negotiate new trade deals with the States"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["We reported on June 1 that Donald Trump apparently has no idea what the Brexit is", "Donald Trump still has basically no idea what the Brexit is"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "President Obama", "references": ["President Obama"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": ["President Obama has urged against a Brexit"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "President Obama", "references": ["President Obama"]},
+      "justifications": ["President Obama has urged against a Brexit", "Donald Trump still has basically no idea what the Brexit is"],
+      "attitude": "Negative"
+    }
+  ]
+}

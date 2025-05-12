@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Mr Juncker", "references": ["Mr Juncker"]},
+      "target": {"topic": "EU withdrawal process", "references": ["EU withdrawal process", "triggering of the exit mechanism"]},
+      "justifications": [
+        "\"Mr Juncker said the EU would put a time limit on the UK's triggering of the exit mechanism - even though legally there is no obligation on Britain to do it at all.\"",
+        "\"If someone from the Remain camp will become British prime minister, this has to be done in two weeks after his appointment,\" Mr Juncker told reporters as the meeting ended.",
+        "\"If the next British PM is coming from the Leave campaign, it should be done the day after his appointment.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Mr Juncker", "references": ["Mr Juncker"]},
+      "target": {"topic": "EU future", "references": ["deeper reflection", "new impulse for Europe"]},
+      "justifications": [
+        "EU President Donald Tusk, who co-ordinates summits, said the 27 leaders minus Cameron would meanwhile meet Wednesday to undertake \"deeper reflection\" on a \"new impulse for Europe.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Mr Juncker", "references": ["Mr Juncker"]},
+      "entity2": {"entity": "UK", "references": ["the UK"]},
+      "justifications": [
+        "\"Mr Juncker said the EU would put a time limit on the UK's triggering of the exit mechanism - even though legally there is no obligation on Britain to do it at all.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Ms Sturgeon", "references": ["Ms Sturgeon"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "Ms Sturgeon said on Saturday that her government had started on legislation for a new referendum on Scottish independence - a vote that would risk a break up of the UK."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mr Cameron", "references": ["Mr Cameron"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "Mr Cameron has said a decision to start the EU withdrawal process is for his successor to make, yet his counterparts have no other interlocutor as long as there is no successor in place."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mr Juncker", "references": ["Mr Juncker"]},
+      "entity2": {"entity": "Mr Cameron", "references": ["Mr Cameron"]},
+      "justifications": [
+        "Mr Juncker said the EU would put a time limit on the UK's triggering of the exit mechanism - even though legally there is no obligation on Britain to do it at all."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mr Juncker", "references": ["Mr Juncker"]},
+      "entity2": {"entity": "Donald Tusk", "references": ["EU President Donald Tusk"]},
+      "justifications": [
+        "EU President Donald Tusk, who co-ordinates summits, said the 27 leaders minus Cameron would meanwhile meet Wednesday to undertake \"deeper reflection\" on a \"new impulse for Europe.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

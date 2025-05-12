@@ -1,0 +1,38 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "New Zealand", "references": ["New Zealand"]},
+      "target": {"topic": "trade agreement with the UK", "references": ["trade agreement with the UK"]},
+      "justifications": [
+        "Wellington's olive branch came alongside an offer to discuss a trade agreement with the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "target": {"topic": "trade agreement with New Zealand", "references": ["trade agreement with the UK"]},
+      "justifications": [
+        "Wellington's olive branch came alongside an offer to discuss a trade agreement with the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "New Zealand", "references": ["New Zealand"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "which would help Britain get out of the starting blocks and begin replacing the trade access lost as a result of the Brexit vote."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "New Zealand", "references": ["New Zealand"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom", "UK"]},
+      "justifications": [
+        "New Zealand has offered its top trade negotiators to the United Kingdom, relieving the British civil service"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

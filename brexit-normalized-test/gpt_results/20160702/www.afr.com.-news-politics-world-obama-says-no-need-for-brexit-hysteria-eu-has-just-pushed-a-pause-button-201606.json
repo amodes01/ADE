@@ -1,0 +1,41 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "Brexit", "references": ["UK vote to leave the European Union"] },
+      "justifications": [
+        "\"President Barack Obama has cautioned against 'hysteria' over the UK vote to leave the European Union.\"",
+        "\"I do not anticipate that there is going to be major cataclysmic changes as a result of this.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "European integration", "references": ["political and economic integration", "full European integration"] },
+      "justifications": [
+        "\"I think that the best way to think about this is, a pause button has been pressed on the project of full European integration.\"",
+        "\"all of Europe needs to take a breath and reassess how to preserve national identity while taking advantage of political and economic integration.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "entity2": { "entity": "the UK", "references": ["UK"] },
+      "justifications": [
+        "\"President Barack Obama has cautioned against 'hysteria' over the UK vote to leave the European Union.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "entity2": { "entity": "Europe", "references": ["Europe"] },
+      "justifications": [
+        "\"all of Europe needs to take a breath and reassess how to preserve national identity while taking advantage of political and economic integration.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

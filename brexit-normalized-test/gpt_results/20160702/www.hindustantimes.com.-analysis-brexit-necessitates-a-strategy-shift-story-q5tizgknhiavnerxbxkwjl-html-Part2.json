@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European project", "references": ["European project"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO expansion"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalise relations with Russia, stabilise Ukraine, and restore focus on the European economy and the European project."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European economy", "references": ["European economy"]},
+      "target": {"topic": "NATO expansion", "references": ["NATO expansion"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalise relations with Russia, stabilise Ukraine, and restore focus on the European economy and the European project."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Greece", "references": ["Greece"]},
+      "target": {"topic": "debt relief", "references": ["debt relief"]},
+      "justifications": ["It also means finally giving Greece debt relief, thereby ending the long-running eurozone crisis."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "sustainable development", "references": ["sustainable development"]},
+      "justifications": ["All of this underscores the need to shift from a strategy of war to one of sustainable development, especially by the US and Europe."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Europe", "references": ["Europe"]},
+      "target": {"topic": "sustainable development", "references": ["sustainable development"]},
+      "justifications": ["All of this underscores the need to shift from a strategy of war to one of sustainable development, especially by the US and Europe."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jeffrey D. Sachs", "references": ["Jeffrey D. Sachs"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["Closing the door on NATO expansion would make it possible to ease tensions and normalise relations with Russia."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jeffrey D. Sachs", "references": ["Jeffrey D. Sachs"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["do not punish Britain."],
+      "attitude": "Neutral"
+    }
+  ]
+}

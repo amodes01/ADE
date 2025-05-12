@@ -1,0 +1,18 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Elizabeth", "references": ["Elizabeth"]},
+      "target": {"topic": "Brexit", "references": ["United Kingdom out of the European Union"]},
+      "justifications": ["Following the British vote in favor of taking the United Kingdom out of the European Union, Elizabeth urged 'sufficient room for quiet thinking and contemplation.'"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Elizabeth", "references": ["Elizabeth"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": ["Following the British vote in favor of taking the United Kingdom out of the European Union, Elizabeth urged 'sufficient room for quiet thinking and contemplation.'"],
+      "attitude": "Neutral"
+    }
+  ]
+}

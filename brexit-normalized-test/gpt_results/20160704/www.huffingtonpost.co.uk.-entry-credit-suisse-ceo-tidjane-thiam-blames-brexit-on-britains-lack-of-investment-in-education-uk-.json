@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote", "Leave vote"]},
+      "justifications": [
+        "Tidjane Thiam has laid the blame for the Brexit vote at the feet of Britain's chronic lack of investment in education."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "education", "references": ["lack of investment in education", "education"]},
+      "justifications": [
+        "Tidjane Thiam has laid the blame for the Brexit vote at the feet of Britain's chronic lack of investment in education."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "inequality", "references": ["high levels of inequality"]},
+      "justifications": [
+        "Tidjane Thiam also said he was shocked at the high levels of inequality in the country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "tax system", "references": ["redistributive tax system"]},
+      "justifications": [
+        "The banker believes the solution lies in a more redistributive tax system."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "globalization", "references": ["globalization"]},
+      "justifications": [
+        "Tidjane Thiam believes the solution lies in a more redistributive tax system - even if that meant raising taxes - to ensure those who have lost out to globalization are not left feeling disenfranchised."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "Brexit protests", "references": ["anti-Brexit march"]},
+      "justifications": [
+        "Tidjane Thiam says he watched and backed the anti-Brexit march in London on Saturday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "Brexit protesters' solidarity", "references": ["creating more solidarity"]},
+      "justifications": [
+        "He added that those with the lowest levels of education were most likely to back Brexit, summing up: 'That's the price paid for a chronic lack of investment in education.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "target": {"topic": "Brexit protests", "references": ["Brexit protest"]},
+      "justifications": [
+        "It's all well and good to have big signs and protest against the 'Leave' vote. But it would be another story if you started having a discussion about creating more solidarity."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "entity2": {"entity": "British public", "references": ["the public", "those with the lowest levels of education"]},
+      "justifications": [
+        "He added that those with the lowest levels of education were most likely to back Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tidjane Thiam", "references": ["Tidjane Thiam"]},
+      "entity2": {"entity": "Brexit protesters", "references": ["anti-Brexit march"]},
+      "justifications": [
+        "Tidjane Thiam says he watched and backed the anti-Brexit march in London on Saturday."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

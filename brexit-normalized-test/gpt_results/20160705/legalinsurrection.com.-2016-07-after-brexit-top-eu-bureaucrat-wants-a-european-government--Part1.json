@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "target": {"topic": "EU Army", "references": ["EU Army"]},
+      "justifications": ["The proposal co-published by two of Europe's most powerful politicians wants to wrest remaining economic powers away from the national governments, creating an 'Economic Schengen' zone."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "EU Army", "references": ["EU Army"]},
+      "justifications": ["The proposal co-published by two of Europe's most powerful politicians wants to wrest remaining economic powers away from the national governments, creating an 'Economic Schengen' zone."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "target": {"topic": "EU Government", "references": ["European Government"]},
+      "justifications": ["The European Union needs to be reconstituted into a true European Government."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "EU Government", "references": ["European Government"]},
+      "justifications": ["This suggestion was also listed in the 10 Point Programme Schulz had published together with Sigmar Gabriel, the head of Germany's Social Democratic Party, shortly after the British vote."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "target": {"topic": "migration policy", "references": ["migration policy"]},
+      "justifications": ["Schulz's proposal for an EU-wide 'Refugee and Immigration Policy' was met with stiff resistance from several EU members."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "migration policy", "references": ["migration policy"]},
+      "justifications": ["Schulz backed German Chancellor Merkel as she arbitrarily suspended the Dublin Protocol, a legal mechanism put in place to register and regulate immigration into the Schengen-Zone stretching across Europe."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "entity2": {"entity": "Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "justifications": ["This suggestion was also listed in the 10 Point Programme Schulz had published together with Sigmar Gabriel, the head of Germany's Social Democratic Party, shortly after the British vote."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Martin Schulz", "references": ["Martin Schulz"]},
+      "entity2": {"entity": "Chancellor Angela Merkel", "references": ["Chancellor Angela Merkel"]},
+      "justifications": ["Schulz backed German Chancellor Merkel as she arbitrarily suspended the Dublin Protocol, a legal mechanism put in place to register and regulate immigration into the Schengen-Zone stretching across Europe."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Chancellor Angela Merkel", "references": ["Chancellor Angela Merkel"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["Having tied its lot to Merkel's policy of open borders, SPD's poll numbers have hit a historic low."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Eastern Europe", "references": ["Eastern Europe"]},
+      "justifications": ["National governments, especially in Eastern Europe, are regarded by Eurocrats as the biggest obstacle in enforcing their open migration and resettlement plan within Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU Parliament", "references": ["EU Parliament"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["The European Union needs to be reconstituted into a true European Government. The European Government must be controlled by the EU Parliament and be subordinate to a second chamber - made up of representatives of the member states."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "German Vice-Chancellor Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "entity2": {"entity": "National governments", "references": ["National governments"]},
+      "justifications": ["Schulz wants more Europe - and thereby turning into a key figure for the supporters of a stronger EU."],
+      "attitude": "Negative"
+    }
+  ]
+}

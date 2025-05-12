@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Hugo", "references": ["Hugo"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["I have written with a profound love for my own country, but without being engrossed by France more than by any other nation. As I advance in life, I grow more simple, and I become more and more patriotic for humanity."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hugo", "references": ["Hugo"]},
+      "target": {"topic": "nation states", "references": ["nation states"]},
+      "justifications": ["To be and feel European is not to renounce one's identity; it is, on the contrary, to add an extra layer to it and make it richer."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hugo", "references": ["Hugo"]},
+      "target": {"topic": "patriotism for humanity", "references": ["patriotism for humanity"]},
+      "justifications": ["Europe, a patriotism for humanity - what a beautiful and appropriate definition in our troubled times."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Britain", "references": ["Britain"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["Whichever direction Britain finally chooses to take, leaving the EU, voting again or ignoring the referendum's results, there is still hope that Hugo's dream might one day be achieved."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hugo", "references": ["Hugo"]},
+      "entity2": {"entity": "France", "references": ["France"]},
+      "justifications": ["I have written with a profound love for my own country, but without being engrossed by France more than by any other nation."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Hugo", "references": ["Hugo"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["To be and feel European is not to renounce one's identity; it is, on the contrary, to add an extra layer to it and make it richer."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Britain", "references": ["Britain"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["Whichever direction Britain finally chooses to take, leaving the EU, voting again or ignoring the referendum's results, there is still hope that Hugo's dream might one day be achieved."],
+      "attitude": "Neutral"
+    }
+  ]
+}

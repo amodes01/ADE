@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit debate", "references": ["Brexit debate"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["What the Brexit debate and vote has shown us is that we can never wish away primeval fears such as fear of being 'swamped by the other'. When you combine these with economic realities such as stagnant wages and fears of reduced social welfare, you get an incendiary mix."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "South-east Asia", "references": ["South-east Asia"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": ["To an extent, perhaps we in South-east Asia may have already tacitly acknowledged this reality - that some things just cannot be rushed."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Asean", "references": ["Asean"]},
+      "target": {"topic": "Asean Economic Community", "references": ["Asean Economic Community"]},
+      "justifications": ["Not too long ago, the pitch was about developing a single market and production base. These days, we seem happier with less-ambitious formulations such as striving for a 'highly integrated economy'."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "K. Shanmugam", "references": ["K. Shanmugam"]},
+      "target": {"topic": "anti-Muslim rhetoric", "references": ["anti-Muslim rhetoric"]},
+      "justifications": ["Last week, Singapore's Home Affairs and Law Minister K. Shanmugam took note of the anti-Muslim rhetoric in some Western nations arising from this. 'In a multiracial country, there is political profit in dividing people, playing on race, religion, stoking up fears. It is really unacceptable and I think morally reprehensible,' he said."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "nationalism", "references": ["nationalism"]},
+      "justifications": ["The other cautionary tale, especially for significant nations such as China, India, Japan and Indonesia, is to go easy on nationalism."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "China", "references": ["China"]},
+      "target": {"topic": "South China Sea disputes", "references": ["South China Sea disputes"]},
+      "justifications": ["Just look at the domestic, nationalistic pressures China has to contend with over the South China Sea disputes, which threaten to harden China's position, and isolate it in a region that is its natural backyard."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "K. Shanmugam", "references": ["K. Shanmugam"]},
+      "entity2": {"entity": "Western nations", "references": ["Western nations"]},
+      "justifications": ["Last week, Singapore's Home Affairs and Law Minister K. Shanmugam took note of the anti-Muslim rhetoric in some Western nations arising from this. 'In a multiracial country, there is political profit in dividing people, playing on race, religion, stoking up fears. It is really unacceptable and I think morally reprehensible,' he said."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "China", "references": ["China"]},
+      "entity2": {"entity": "South-east Asia", "references": ["South-east Asia"]},
+      "justifications": ["Just look at the domestic, nationalistic pressures China has to contend with over the South China Sea disputes, which threaten to harden China's position, and isolate it in a region that is its natural backyard."],
+      "attitude": "Negative"
+    }
+  ]
+}

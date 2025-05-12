@@ -1,0 +1,224 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "target": {
+        "topic": "EU regulations",
+        "references": [
+          "E.U. bureaucracy",
+          "overregulation"
+        ]
+      },
+      "justifications": [
+        "While Brexit supporters say that independence from the continent would reduce the costs of bureaucracy and overregulation"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "British Treasury",
+        "references": [
+          "Treasury"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU",
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "the British Treasury itself has warned that the move could leave the nation \"permanently poorer,\" by damaging trade, employment and productivity"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "target": {
+        "topic": "nationalism",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "justifications": [
+        "the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": [
+          "Immigration Control"
+        ]
+      },
+      "justifications": [
+        "Barring immigrants and looking inward in terms of trade is an invitation for your neighbors to do the same"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "entity2": {
+        "entity": "British Treasury",
+        "references": [
+          "Treasury"
+        ]
+      },
+      "justifications": [
+        "the British Treasury itself has warned that the move could leave the nation \"permanently poorer,\" by damaging trade, employment and productivity"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "entity2": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "justifications": [
+        "the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "justifications": [
+        "the nationalism driving support for Brexit ... does not spell good news for cross-border exchange"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Harvard economist Carmen Reinhart",
+        "references": [
+          "Harvard economist Carmen Reinhart"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Donald J. Trump"
+        ]
+      },
+      "justifications": [
+        "the nationalism driving support for Brexit and presumptive Republican presidential nominee Donald Trump does not spell good news for cross-border exchange"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Robert Margo",
+        "references": [
+          "Robert Margo"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "It's unlikely that a Brexit would push the U.S. economy into recession, Boston University economics professor Robert Margo said"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Robert Margo",
+        "references": [
+          "Robert Margo"
+        ]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "However, the simple fact that nothing like this has ever occurred before means nobody can easily predict what may follow"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Robert Margo",
+        "references": [
+          "Robert Margo"
+        ]
+      },
+      "entity2": {
+        "entity": "U.S. economy",
+        "references": [
+          "U.S. growth"
+        ]
+      },
+      "justifications": [
+        "It's unlikely that a Brexit would push the U.S. economy into recession"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

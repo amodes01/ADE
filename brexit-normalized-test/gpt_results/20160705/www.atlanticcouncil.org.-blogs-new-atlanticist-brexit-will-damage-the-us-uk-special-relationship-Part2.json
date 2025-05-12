@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The Scots see the benefits of continued EU membership."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The big winners of the referendum were the retrograde/insular/prejudiced/racist elements that found a home in Nigel Farage's UK Independence Party."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The EU will only negotiate with sovereign countries."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Americans have a real stake in a Europe that is not only trying but is unreservedly devoted to preventing the horrors of two horrendous wars in Europe."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The idea that the UK will have more ability to focus, much less spend, on NATO at this juncture is ill-considered wishful thinking."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Scots",
+        "references": ["Scots"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["England and Wales"]
+      },
+      "justifications": [
+        "The Scots are not going to sit around and wait to become a disinherited spinster sister of England and Wales."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Scots",
+        "references": ["Scots"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "The Scots see the benefits of continued EU membership."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "entity2": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "justifications": [
+        "The startling fact that Cameron's decision to pursue the Brexit referendum was made without consultation with the other partner in the so-called special relationship-the United States-is telling enough."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "He knows that the medium-term prospects for any economic benefits to accrue to his voting base are nil."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "United States",
+        "references": ["United States"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["UK"]
+      },
+      "justifications": [
+        "We can only hope that the next generation of UK leaders will feel some small obligation to rebuild ties with the United States and make them somehow special again."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

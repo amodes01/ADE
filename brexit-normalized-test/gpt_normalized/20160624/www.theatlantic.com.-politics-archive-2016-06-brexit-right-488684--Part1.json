@@ -1,0 +1,210 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": [
+          "the globe is flattening",
+          "open global economy",
+          "global revolution"
+        ]
+      },
+      "justifications": [
+        "The U.K.'s vote to leave the European Union betrays a failure of empathy and imagination among its leaders."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": [
+          "the globe is flattening",
+          "open global economy",
+          "global revolution"
+        ]
+      },
+      "justifications": [
+        "Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Boris Johnson",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": [
+          "the globe is flattening",
+          "open global economy",
+          "global revolution"
+        ]
+      },
+      "justifications": [
+        "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jeb Bush",
+        "references": [
+          "Jeb Bush"
+        ]
+      },
+      "target": {
+        "topic": "protectionism",
+        "references": [
+          "China wreaking havoc with the US economy"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Marco Rubio",
+        "references": [
+          "Marco Incerti"
+        ]
+      },
+      "target": {
+        "topic": "protectionism",
+        "references": [
+          "China wreaking havoc with the US economy"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Ted Cruz",
+        "references": [
+          "Senator Bernie Sanders"
+        ]
+      },
+      "target": {
+        "topic": "protectionism",
+        "references": [
+          "China wreaking havoc with the US economy"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "In 2016, the consensus crumbled, torn apart by a failure of empathy, and a failure of imagination."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Boris Johnson",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "In Britain, Boris Johnson led the Brexit campaign to victory-and perhaps to 10 Downing Street. In the United States, Donald Trump will ride his message of 'America First' to Cleveland-and perhaps to the White House."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jeb Bush",
+        "references": [
+          "Jeb Bush"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Marco Rubio",
+        "references": [
+          "Marco Incerti"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Ted Cruz",
+        "references": [
+          "Senator Bernie Sanders"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "When Trump suggested slapping tariffs on China, his rivals pounced on his obvious error. Jeb Bush, Marco Rubio, and Ted Cruz scolded Donald Trump about the dangers of protectionism."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

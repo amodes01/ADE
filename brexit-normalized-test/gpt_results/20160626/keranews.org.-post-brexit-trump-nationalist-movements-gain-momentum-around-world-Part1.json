@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["U.K.'s political earthquake", "Leave campaign", "the United Kingdom voted to leave the European Union"]
+      },
+      "target": {
+        "topic": "nationalist movements",
+        "references": ["right-wing nationalist movements", "rise of nationalist movements"]
+      },
+      "justifications": [
+        "\"Trump is right. Right-wing nationalist movements, fueled by anger toward political elites and mistrust of immigration - and primarily backed by white voters - are gaining more and more momentum on the continent.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "topic": "nationalist movements",
+        "references": ["nationalist movements", "rise of nationalist movements"]
+      },
+      "target": {
+        "topic": "economic stagnation",
+        "references": ["economic stagnation among lower- and middle-class whites"]
+      },
+      "justifications": [
+        "\"Mounk pegs economic stagnation among lower- and middle-class whites as a main driver for nationalism's rise around the globe.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "nationalist movements",
+        "references": ["nationalist movements", "rise of nationalist movements"]
+      },
+      "target": {
+        "topic": "immigration crisis",
+        "references": ["immigration and refugee crisis", "flooded European countries with migrants"]
+      },
+      "justifications": [
+        "\"Add to that mix an immigration and refugee crisis tied to Syria's civil war, which has flooded European countries, especially, with scores of migrants looking for jobs, social-services protections and housing.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "topic": "elite ruling classes",
+        "references": ["elite ruling classes", "contempt for the elite ruling classes"]
+      },
+      "target": {
+        "topic": "political class",
+        "references": ["political class", "political system"]
+      },
+      "justifications": [
+        "\"People feel, quite rightly, that they have no real control over political systems - that the political class does what it wants and it sort of ignores ordinary people.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "\"Trump has sounded similar calls throughout his campaign.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Yascha Mounk",
+        "references": ["Yascha Mounk"]
+      },
+      "justifications": [
+        "\"This is not a unique phenomenon to the United States, and 2016 is not a short moment that will pass, says Yascha Mounk...\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "justifications": [
+        "\"While the feeling has largely gone mainstream in recent years - both of those quotes could have been said by Vermont Sen. Bernie Sanders...\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

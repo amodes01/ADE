@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union", "references": ["EU"] },
+      "justifications": [
+        "With the June 23rd vote to exit the EU, there seem to be more questions than answers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "United Kingdom", "references": ["UK"] },
+      "justifications": [
+        "While the UK did not buy into the monetary union and continued to use the Pound Sterling as its currency, it played an active and necessary role in the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Scotland", "references": ["Scotland"] },
+      "justifications": [
+        "Scotland and Northern Ireland both voted to stay, with Scottish supporters garnering 62 percent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Northern Ireland", "references": ["Northern Ireland"] },
+      "justifications": [
+        "Northern Ireland supporters reaching 55.8 percent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Wales", "references": ["Wales"] },
+      "justifications": [
+        "Wales had a similar outcome, 52.5 percent to 47.5 percent."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "England", "references": ["England"] },
+      "justifications": [
+        "England voted strongly for Brexit by a 53.4 percent to 46.6 percent margin."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union", "references": ["EU"] },
+      "justifications": [
+        "With the June 23rd vote to exit the EU, there seem to be more questions than answers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "tax treaties", "references": ["tax treaty", "tax treaties"] },
+      "justifications": [
+        "Note the tax treaty that people often refer to as the \"UK-US tax treaty\" is called Convention between the Government of the United States of America and the Government of the United Kingdom of Great Britain and Northern Ireland for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with Respect to Taxes on Income and on Capital Gains."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "US companies", "references": ["US company"] },
+      "justifications": [
+        "If you are a US company with a parent, subsidiary or affiliate in Scotland or Northern Ireland, it may be wise to examine your structure and costs in any potential reorganization."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "trade duties", "references": ["customs duties", "duties"] },
+      "justifications": [
+        "Once the UK exits, the EU customs duties rules will no longer apply. So, absent trade agreements between the UK and the EU or its members, there are likely to be duties charged on UK-EU trade."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU's trade agreements", "references": ["trade agreements between the EU and other non-EU countries"] },
+      "justifications": [
+        "Furthermore, any trade agreements between the EU and other non-EU countries may be affected and/or subject to renegotiation."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "justifications": [
+        "Scotland and Northern Ireland both voted to stay, with Scottish supporters garnering 62 percent and Northern Ireland supporters reaching 55.8 percent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Scotland", "references": ["Scotland"] },
+      "entity2": { "entity": "United Kingdom", "references": ["UK"] },
+      "justifications": [
+        "What Scotland and Northern Ireland have in mind is unclear. If they prefer to remain part of the EU, as some suggest, will they also want to remain a part of the UK?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Northern Ireland", "references": ["Northern Ireland"] },
+      "entity2": { "entity": "United Kingdom", "references": ["UK"] },
+      "justifications": [
+        "What Scotland and Northern Ireland have in mind is unclear. If they prefer to remain part of the EU, as some suggest, will they also want to remain a part of the UK?"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

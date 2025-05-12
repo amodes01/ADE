@@ -1,0 +1,127 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Kyiv", "references": ["Kyiv"] },
+      "target": { "topic": "Brexit", "references": ["Britain's shock decision to leave the European Union"] },
+      "justifications": ["The mood in Kyiv was glum after Britain's shock decision to leave the European Union following a countrywide referendum."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ukraine", "references": ["Ukraine"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Many in Ukraine are also worried that the Brexit could derail the much-awaited EU visa waiver for Ukrainian citizens."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ukraine", "references": ["Ukraine"] },
+      "target": { "topic": "European integration", "references": ["European integration process"] },
+      "justifications": ["Prime Minister Volodymyr Groysman said: 'We will continue to fight for a stronger united Europe and pour new energy into the European integration process.'"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Ukraine", "references": ["Ukraine"] },
+      "target": { "topic": "Russian sanctions", "references": ["sanctions against Russia"] },
+      "justifications": ["Ukrainian President Petro Poroshenko turned to Twitter to voice his hopes that Western sanctions against Russia will be maintained."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Iryna Herashchenko", "references": ["Iryna Herashchenko"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Iryna Herashchenko, Parliament's vice-chair, warned that Europe will pay a 'heavy price' for what she called 'the populism and the irresponsibility of politicians.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Iryna Herashchenko", "references": ["Iryna Herashchenko"] },
+      "target": { "topic": "EU visa waiver", "references": ["visa-free regime"] },
+      "justifications": ["'Unfortunately, this will directly affect our country,' she warned on Facebook. 'Can this delay the visa-free [regime]? Yes, unfortunately.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Oleksandr Zakharchenko", "references": ["Oleksandr Zakharchenko"] },
+      "target": { "topic": "Brexit", "references": ["Britain's decision to leave the EU"] },
+      "justifications": ["Oleksandr Zakharchenko, the leader of separatists who hold territory in the eastern Donetsk region, congratulated Britain and said he hoped the British referendum would change Europe's attitudes toward two unrecognized separatist 'republics' in Ukraine."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Moldova", "references": ["Moldova"] },
+      "target": { "topic": "EU membership", "references": ["joining the bloc", "Moldova will remain attached to its EU road"] },
+      "justifications": ["Prime Minister Pavel Filip stressed that Moldova, which signed an Association Agreement with the EU in 2014, would remain committed to joining the bloc."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Moldova", "references": ["Moldova"] },
+      "target": { "topic": "Brexit", "references": ["Britain's decision to leave the EU"] },
+      "justifications": ["Prime Minister Pavel Filip lamented what he described as 'a sad day for Europe.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Igor Dodon", "references": ["Igor Dodon"] },
+      "target": { "topic": "EU", "references": ["the EU"] },
+      "justifications": ["Igor Dodon, the leader of the opposition Socialist Party, was quick to hail the vote. The outcome, he said, showed 'the EU has only a past, not a future.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Renato Usatii", "references": ["Renato Usatii"] },
+      "target": { "topic": "EU", "references": ["the EU"] },
+      "justifications": ["Renato Usatii, the head of the pro-Russian Partidul Nostru party, also praised Britain's vote and predicted the 'unraveling' of the EU."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Kyiv", "references": ["Kyiv"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": ["The mood in Kyiv was glum after Britain's shock decision to leave the European Union following a countrywide referendum."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ukraine", "references": ["Ukraine"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": ["Many in Ukraine are also worried that the Brexit could derail the much-awaited EU visa waiver for Ukrainian citizens."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ukraine", "references": ["Ukraine"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": ["Officials mostly put on a brave face, voicing confidence that the EU will remain united despite Britain voting to leave the bloc. Their statement nonetheless betrayed concerns that the Brexit could weaken Brussels' support for their country and undermine its efforts to stand up to Russia."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Iryna Herashchenko", "references": ["Iryna Herashchenko"] },
+      "entity2": { "entity": "Politicians", "references": ["the populism and the irresponsibility of politicians"] },
+      "justifications": ["Iryna Herashchenko, Parliament's vice-chair, warned that Europe will pay a 'heavy price' for what she called 'the populism and the irresponsibility of politicians.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Oleksandr Zakharchenko", "references": ["Oleksandr Zakharchenko"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": ["Oleksandr Zakharchenko, the leader of separatists who hold territory in the eastern Donetsk region, congratulated Britain and said he hoped the British referendum would change Europe's attitudes toward two unrecognized separatist 'republics' in Ukraine."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Moldova", "references": ["Moldova"] },
+      "entity2": { "entity": "EU", "references": ["European Union"] },
+      "justifications": ["Prime Minister Pavel Filip stressed that Moldova, which signed an Association Agreement with the EU in 2014, would remain committed to joining the bloc."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Moldova", "references": ["Moldova"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": ["Prime Minister Pavel Filip lamented what he described as 'a sad day for Europe.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Igor Dodon", "references": ["Igor Dodon"] },
+      "entity2": { "entity": "EU", "references": ["the EU"] },
+      "justifications": ["Igor Dodon, the leader of the opposition Socialist Party, was quick to hail the vote. The outcome, he said, showed 'the EU has only a past, not a future.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Renato Usatii", "references": ["Renato Usatii"] },
+      "entity2": { "entity": "EU", "references": ["the EU"] },
+      "justifications": ["Renato Usatii, the head of the pro-Russian Partidul Nostru party, also praised Britain's vote and predicted the 'unraveling' of the EU."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Walmart", "references": ["Walmart"] },
+      "target": { "topic": "Amazon Prime", "references": ["Amazon prime"] },
+      "justifications": ["Hoping to compete with Amazon prime, Walmart is offering a free-shipping bonanza."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Walmart", "references": ["Walmart"] },
+      "target": { "topic": "e-commerce business", "references": ["Walmart's e-commerce business"] },
+      "justifications": ["Walmart's e-commerce business has floundered."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Pinterest", "references": ["Pinterest"] },
+      "target": { "topic": "Google", "references": ["Google"] },
+      "justifications": ["At bottom, the site sees itself more as a competitor to Google."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ben Silbermann", "references": ["Ben Silbermann"] },
+      "target": { "topic": "shopping features", "references": ["new shopping features"] },
+      "justifications": ["'Shopping with Pinterest is meant to be that bridge between getting inspiration and actually making it a part of your life,' Ben Silbermann, the chief executive, said."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Facebook", "references": ["Facebook"] },
+      "target": { "topic": "news feed", "references": ["news feed"] },
+      "justifications": ["Facebook is changing its news feed to focus on friends and family -- not companies."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Silicon Valley", "references": ["Silicon Valley"] },
+      "target": { "topic": "elite education", "references": ["Silicon Valley's elite"] },
+      "justifications": ["Sal Kahn is educating the children of Silicon Valley's elite at a real school with actual walls."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Khan Academy", "references": ["Khan Academy"] },
+      "target": { "topic": "education", "references": ["A Free World-Class Education For Anyone, Anywhere"] },
+      "justifications": ["His laboratory school is not-for-profit, like the virtual academy upstairs."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Khan Academy", "references": ["Khan Academy"] },
+      "target": { "topic": "elite education", "references": ["Silicon Valley elites"] },
+      "justifications": ["His laboratory school is not-for-profit, like the virtual academy upstairs. But it is an exclusive, selective private school not at all like the Khan Academy slogan."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Sal Khan", "references": ["Sal Kahn"] },
+      "target": { "topic": "education", "references": ["education"] },
+      "justifications": ["Khan disputes that. He says the point is to boldly experiment with research-based instruction."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Richard Hendricks", "references": ["Richard Hendricks"] },
+      "target": { "topic": "fraud", "references": ["fraud"] },
+      "justifications": ["'Is it? Our platform does exactly what it says it does. It's not like we are f------ lying, like Theranos.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Jared Dunn", "references": ["Jared Dunn"] },
+      "target": { "topic": "fraud", "references": ["fraud"] },
+      "justifications": ["'This is fraud,' Jared Dunn, head of business development at Pied Piper, tells Hendricks."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Pied Piper", "references": ["Pied Piper"] },
+      "target": { "topic": "Theranos", "references": ["Theranos"] },
+      "justifications": ["The timely joke is referring to the blood-testing company's recent woes."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Walmart", "references": ["Walmart"] },
+      "entity2": { "entity": "Amazon", "references": ["Amazon"] },
+      "justifications": ["Hoping to compete with Amazon prime, Walmart is offering a free-shipping bonanza."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Walmart", "references": ["Walmart"] },
+      "entity2": { "entity": "Target", "references": ["Target"] },
+      "justifications": ["Target's digital sales rose 23 percent in the first quarter of 2016."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Pinterest", "references": ["Pinterest"] },
+      "entity2": { "entity": "Google", "references": ["Google"] },
+      "justifications": ["At bottom, the site sees itself more as a competitor to Google."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Sal Kahn", "references": ["Sal Kahn"] },
+      "entity2": { "entity": "Silicon Valley elites", "references": ["Silicon Valley elites"] },
+      "justifications": ["His laboratory school is not-for-profit, like the virtual academy upstairs. But it is an exclusive, selective private school not at all like the Khan Academy slogan."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Theranos", "references": ["Theranos"] },
+      "entity2": { "entity": "Pied Piper", "references": ["Pied Piper"] },
+      "justifications": ["The timely joke is referring to the blood-testing company's recent woes."],
+      "attitude": "Negative"
+    }
+  ]
+}

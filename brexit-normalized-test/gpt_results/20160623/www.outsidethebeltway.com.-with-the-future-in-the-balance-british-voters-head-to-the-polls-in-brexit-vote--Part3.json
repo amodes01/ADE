@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit debate", "references": ["Brexit debate"]},
+      "target": {"topic": "British far-right nationalism", "references": ["nationalism of the British far-right"]},
+      "justifications": ["a murder which clearly seems to have been influenced at least in part by the ongoing Brexit debate and the nationalism of the British far-right."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit debate", "references": ["Brexit debate"]},
+      "target": {"topic": "Euroskepticism", "references": ["Euroskeptics"]},
+      "justifications": ["if the polls are correct that the outcome of today's vote will be close then the Euroskeptics that have long been a part of post-war British politics will be wounded, but hardly defeated and they are merely likely to lick their wounds and wait to fight another day."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "European Union", "references": ["European Union"]},
+      "target": {"topic": "refugees", "references": ["the tens of thousands of refugees arriving from Syria and Libya"]},
+      "justifications": ["the long-term problems facing the European Union, ranging from fiscal issues to the problem of what to do with the tens of thousands of refugees arriving from Syria and Libya will remain."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "European Union", "references": ["European Union"]},
+      "target": {"topic": "EU bureaucracy", "references": ["bureaucrats in Brussels making rules"]},
+      "justifications": ["The issues created by bureaucrats in Brussels making rules that purport to bind a continent of 300 million people have been a part of European politics beyond Great Britain for some time now, and that's going to continue whether the British people vote to leave or stay."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit vote", "references": ["leave vote"]},
+      "target": {"topic": "future EU negotiations", "references": ["negotiate and deal with the terms of any such break with Europe"]},
+      "justifications": ["A vote to leave, meanwhile, will only be the beginning of the process since it is not considered legally binding and it will be up to this and future governments to negotiate and deal with the terms of any such break with Europe."],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jo Cox", "references": ["Jo Cox"]},
+      "entity2": {"entity": "Brexit debate", "references": ["Brexit debate"]},
+      "justifications": ["a Labour MP from Northern England who was outspokenly in favor of 'Remain'"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Conservative Party", "references": ["Conservative Party"]},
+      "justifications": ["the outcome, as we know, turned out to be quite different in no small part because pollsters appeared to significantly underestimate the turnout for Conservatives across England"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Scottish National Party", "references": ["Scottish National Party"]},
+      "entity2": {"entity": "Labour Party", "references": ["Labour Party"]},
+      "justifications": ["the extent to which Scottish voters would punish Labour in favor of the Scottish National Party."],
+      "attitude": "Negative"
+    }
+  ]
+}

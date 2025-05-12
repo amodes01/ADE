@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "target": {
+        "topic": "federal state",
+        "references": ["federal state of 28 sovereign countries"]
+      },
+      "justifications": [
+        "The Common Market, which began with six states and the Treaty of Rome in 1957, grew in lurches, including de Gaulle's somewhat capricious veto of British entry in 1963, and became the European Union, committed to a federal state of 28 sovereign countries."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The Europe Britain has rejected, led by the unelected ciphers of Brussels, was a mad concept and it was never going to work as planned."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Thatcherism",
+        "references": ["Margaret Thatcher", "Thatcher"]
+      },
+      "target": {
+        "topic": "Euroskepticism",
+        "references": ["Euroskepticism"]
+      },
+      "justifications": [
+        "Her offence was overt Euroskepticism, and she has been proved right."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Margaret Thatcher",
+        "references": ["Margaret Thatcher"]
+      },
+      "entity2": {
+        "entity": "Ronald Reagan",
+        "references": ["Ronald Reagan"]
+      },
+      "justifications": [
+        "Thatcher bet on the special relationship with the U.S., and she and Ronald Reagan were the principal victors."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "The Europe Britain has rejected, led by the unelected ciphers of Brussels, was a mad concept and it was never going to work as planned."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "entity2": {
+        "entity": "European countries",
+        "references": ["European countries"]
+      },
+      "justifications": [
+        "It is a vote for Britain to be governed by the British and to co-operate closely and fairly with the European countries."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Thatcherism",
+        "references": ["Margaret Thatcher", "Thatcher"]
+      },
+      "entity2": {
+        "entity": "EU centralizers",
+        "references": ["centralizers"]
+      },
+      "justifications": [
+        "Her offence was overt Euroskepticism, and she has been proved right."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Margaret Thatcher",
+        "references": ["Margaret Thatcher"]
+      },
+      "entity2": {
+        "entity": "Michael Gove",
+        "references": ["Michael Gove"]
+      },
+      "justifications": [
+        "Her young disciples of 30 years ago, Michael Gove, Boris Johnson, Jacob Rees-Mogg and Iain Duncan Smith, will take over (that is, take back) the Conservative Party."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

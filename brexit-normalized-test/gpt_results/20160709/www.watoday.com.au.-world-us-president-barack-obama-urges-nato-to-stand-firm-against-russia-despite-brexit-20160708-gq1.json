@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["Obama urged NATO leaders on Friday to stand firm against a resurgent Russia over its seizure of Crimea from Ukraine."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "Russia's actions in Crimea", "references": ["seizure of Crimea from Ukraine"]},
+      "justifications": ["Obama urged NATO leaders on Friday to stand firm against a resurgent Russia over its seizure of Crimea from Ukraine."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "Britain's EU referendum", "references": ["Britain's vote to leave the European Union"]},
+      "justifications": ["Obama said America's 'special relationship' with Britain would survive the referendum decision he had warned against."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": ["Obama urged NATO leaders on Friday to stand firm against a resurgent Russia over its seizure of Crimea from Ukraine."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["Obama urged NATO leaders on Friday to stand firm against a resurgent Russia over its seizure of Crimea from Ukraine."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "entity2": {"entity": "United Kingdom", "references": ["UK"]},
+      "justifications": ["Obama said America's 'special relationship' with Britain would survive the referendum decision he had warned against."],
+      "attitude": "Positive"
+    }
+  ]
+}

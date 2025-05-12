@@ -1,0 +1,260 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "The EU is dying.",
+        "It remains to be seen whether Cameron's historic blunder will also trigger the disintegration of the EU itself."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "\"I hope we have knocked the first brick out of the wall.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "\"Scotland will seek independence now. Cameron's legacy will be breaking up two unions. Neither needed to happen.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "It is \"democratically unacceptable\" for Scotland to be dragged out of the EU by the English."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Marine Le Pen",
+        "references": ["Marine Le Pen"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "Marine Le Pen, leader of France's Front National, called the U.K. referendum \"a key moment in European history\"."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Geert Wilders",
+        "references": ["Geert Wilders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "Geert Wilders promised that if he were elected, the Netherlands will hold a \"Nexit\" referendum."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Kristian Thulesen Dahls",
+        "references": ["Kristian Thulesen Dahls"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's EU membership", "Brexit"]
+      },
+      "justifications": [
+        "Kristian Thulesen Dahls, the leader of the Danish People's Party, said that Denmark should follow Britain's lead."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Jarosław Kaczyński",
+        "references": ["Jarosław Kaczyński"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Nationalist leaders in Eastern Europe like Poland's Jarosław Kaczyński indulge in harsh anti-EU rhetoric all the time."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Viktor Orbán",
+        "references": ["Viktor Orbán"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Nationalist leaders in Eastern Europe like Hungary's Viktor Orbán indulge in harsh anti-EU rhetoric all the time."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Nationalist leaders",
+        "references": ["right-wing nationalists"]
+      },
+      "justifications": [
+        "But there are plenty of right-wing nationalists in other EU countries who hope there will be a domino effect."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "entity2": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "justifications": [
+        "J.K. Rowling tweeted sadly: \"Scotland will seek independence now. Cameron's legacy will be breaking up two unions. Neither needed to happen.\"",
+        "\"I hope we have knocked the first brick out of the wall.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "It is \"democratically unacceptable\" for Scotland to be dragged out of the EU by the English."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "Nicola Sturgeon",
+        "references": ["Nicola Sturgeon"]
+      },
+      "justifications": [
+        "It is \"democratically unacceptable\" for Scotland to be dragged out of the EU by the English."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Marine Le Pen",
+        "references": ["Marine Le Pen"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Marine Le Pen, leader of France's Front National, called the U.K. referendum \"a key moment in European history\"."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Geert Wilders",
+        "references": ["Geert Wilders"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Geert Wilders promised that if he were elected, the Netherlands will hold a \"Nexit\" referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Kristian Thulesen Dahls",
+        "references": ["Kristian Thulesen Dahls"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Kristian Thulesen Dahls, the leader of the Danish People's Party, said that Denmark should follow Britain's lead."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jarosław Kaczyński",
+        "references": ["Jarosław Kaczyński"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Nationalist leaders in Eastern Europe like Poland's Jarosław Kaczyński indulge in harsh anti-EU rhetoric all the time."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Viktor Orbán",
+        "references": ["Viktor Orbán"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Nationalist leaders in Eastern Europe like Hungary's Viktor Orbán indulge in harsh anti-EU rhetoric all the time."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

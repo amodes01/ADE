@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "immigration", "references": ["fear over immigration"] },
+      "justifications": [
+        "Heather Conley, Europe director of the Center for Strategic and International Studies, puts the fear over immigration at the epicenter of both movements."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union", "references": ["EU policies"] },
+      "justifications": [
+        "As a result, many Brexit supporters blame their woes on the influx of immigrants in the U.K. in recent years and on the EU policies that require 'freedom of movement' among member states."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Trump campaign", "references": ["Trump", "Trump's statements about Mexicans and Muslims"] },
+      "target": { "topic": "immigration", "references": ["immigration"] },
+      "justifications": [
+        "In the U.S., meanwhile, Trump's statements about Mexicans and Muslims have been denounced in many quarters as racist."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "globalization", "references": ["opposed to globalization"] },
+      "justifications": [
+        "They are generally opposed to globalization and free trade."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Trump campaign", "references": ["Trump"] },
+      "target": { "topic": "globalization", "references": ["opposed to globalization"] },
+      "justifications": [
+        "They are generally opposed to globalization and free trade."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Brexit supporters", "references": ["Brexit supporters"] },
+      "justifications": [
+        "That twinned sentiment highlights the parallels between the Trump and Brexit campaigns."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Brexit supporters", "references": ["Brexit supporters"] },
+      "entity2": { "entity": "Trump supporters", "references": ["Trump supporters"] },
+      "justifications": [
+        "The demographics of Brexit voters are remarkably similar to the demographics of Trump voters."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Trump supporters", "references": ["Trump supporters"] },
+      "entity2": { "entity": "Brexit supporters", "references": ["Brexit voters"] },
+      "justifications": [
+        "The demographics of Brexit voters are remarkably similar to the demographics of Trump voters."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "opponents of Nigel Farage", "references": ["Opponents of Nigel Farage"] },
+      "justifications": [
+        "Opponents of Nigel Farage, a leader of the 'Leave' camp, have described his campaign as xenophobic and hateful."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arabella Arkwright", "references": ["Arabella Arkwright"] },
+      "entity2": { "entity": "anti-Muslim rhetoric", "references": ["anti-Muslim rhetoric"] },
+      "justifications": [
+        "Meanwhile, board member Arabella Arkwright recently resigned from her position after retweeting anti-Muslim rhetoric on social media."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "entity2": { "entity": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "Trump's statements about Mexicans and Muslims have been denounced in many quarters as racist, including by presumptive Democratic nominee Hillary Clinton."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "target": { "topic": "global financial markets", "references": ["financial markets around the globe"] },
+      "justifications": [
+        "The Brexit vote promises to shake the post-war global order, to reshape financial markets"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "target": { "topic": "British economy", "references": ["asset values", "markets", "economic growth"] },
+      "justifications": [
+        "Delivering the promises is another thing entirely. Britons are learning that bitter lesson quickly as asset values swoon, markets gyrate and politicians on the left and the right show they really do not have a plan to deliver Great Britain 2.0."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "target": { "topic": "British government", "references": ["British government", "political parties", "methods to leave the EU"] },
+      "justifications": [
+        "Political parties there are in chaos. And what passes for British government is mulling methods to leave the EU, if any."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "populism", "references": ["populism"] },
+      "justifications": [
+        "The decision presages the fraught choice implicit in the cage match between Hillary Clinton and Donald Trump: how populism and false promises, offered by equally flawed candidates, can be packaged into a political balm both sides can sell to folks suspicious of elites."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "target": { "topic": "populism", "references": ["populism"] },
+      "justifications": [
+        "The decision presages the fraught choice implicit in the cage match between Hillary Clinton and Donald Trump: how populism and false promises, offered by equally flawed candidates, can be packaged into a political balm both sides can sell to folks suspicious of elites."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "target": { "topic": "populism", "references": ["populism"] },
+      "justifications": [
+        "That's the same question Trump supporters are asking. It's the same question Bernie Sanders asked again and again during the Democratic primaries-and clearly intends to take to the party's convention in Philadelphia."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "target": { "topic": "elite political class", "references": ["political class"] },
+      "justifications": [
+        "The message to the political class is undeniable: what about us?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bernie Sanders", "references": ["Bernie Sanders"] },
+      "target": { "topic": "elite political class", "references": ["political class"] },
+      "justifications": [
+        "What about the people who lost retirement savings and property values to a global financial meltdown they did not cause?"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "The vote is non-binding, legally speaking. But the message to the political class is undeniable: what about us?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": [
+        "The so-called 'Brexit' vote promises to shake the post-war global order, to reshape financial markets and to shift security alliances amid an unnerving geopolitical vacuum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Republican leaders", "references": ["Republican leaders"] },
+      "justifications": [
+        "Republican and Democratic leaders here, political classes on both sides of the pond and financial markets around the globe are demonstrating, once again, a remarkable disconnect from the concerns of everyday people from Liverpool to Lansing."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Democratic leaders", "references": ["Democratic leaders"] },
+      "justifications": [
+        "Republican and Democratic leaders here, political classes on both sides of the pond and financial markets around the globe are demonstrating, once again, a remarkable disconnect from the concerns of everyday people from Liverpool to Lansing."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britons", "references": ["Britons"] },
+      "entity2": { "entity": "British government", "references": ["British government"] },
+      "justifications": [
+        "The message to the political class is undeniable: what about us?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Standard & Poor's", "references": ["Standard & Poor's"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "Standard & Poor's stripped the U.K. of its triple-A credit rating."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "entity2": { "entity": "British public", "references": ["Britons"] },
+      "justifications": [
+        "A majority of Britons proved the smart people wrong."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

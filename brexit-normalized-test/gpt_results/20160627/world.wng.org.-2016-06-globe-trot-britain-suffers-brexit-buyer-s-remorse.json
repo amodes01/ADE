@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "economic downturn", "references": ["economic downturn"] },
+      "justifications": ["All the experts seem to suggest the U.K. faces an economic downturn in the wake of last week's decision via referendum to leave the European Union."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "security", "references": ["security"] },
+      "justifications": ["Danielle Pletka warned Brexit will not improve security as long as the West pursues an incoherent strategy in Syria."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "sovereignty", "references": ["recovery of the sovereignty of Great Britain"] },
+      "justifications": ["Charles Krauthammer: 'I think those who revel in the recovery of the sovereignty of Great Britain could find that it does not exist in 10 years.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "political extremism", "references": ["political and religious extremists"] },
+      "justifications": ["Garry Kasparov: 'They have ignored that they are under real attack from political and religious extremists in their own countries.'"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "foreign policy", "references": ["foreign policy"] },
+      "justifications": ["Garry Kasparov, increasingly one of my go-to foreign policy commentators, on Brexit as one more triumph of the demagogues."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Michael Barone", "references": ["Michael Barone"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": ["Michael Barone suggests unaccountable EU bureaucrats fed the Brexit vote."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "John Bolton", "references": ["John Bolton"] },
+      "entity2": { "entity": "United States", "references": ["United States"] },
+      "justifications": ["John Bolton says the United States has a profound interest in Brexit success."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Danielle Pletka", "references": ["Danielle Pletka"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Danielle Pletka warned Brexit will not improve security as long as the West pursues an incoherent strategy in Syria."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Charles Krauthammer", "references": ["Charles Krauthammer"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Charles Krauthammer: 'I think those who revel in the recovery of the sovereignty of Great Britain could find that it does not exist in 10 years.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Garry Kasparov", "references": ["Garry Kasparov"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Garry Kasparov, increasingly one of my go-to foreign policy commentators, on Brexit as one more triumph of the demagogues."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Garry Kasparov", "references": ["Garry Kasparov"] },
+      "entity2": { "entity": "political extremism", "references": ["political and religious extremists"] },
+      "justifications": ["Garry Kasparov: 'They have ignored that they are under real attack from political and religious extremists in their own countries.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Cuba", "references": ["CUBA"] },
+      "entity2": { "entity": "Havana", "references": ["Old Havana"] },
+      "justifications": ["CUBA's state-owned tourism company will take over Old Havana in 'one of the most brazen and underhanded measures ever taken by this military-run corporation.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Pedro Pablo Kuczynski", "references": ["Pedro Pablo Kuczynski", "P.P.K."] },
+      "entity2": { "entity": "Peru", "references": ["Peru"] },
+      "justifications": ["Respected economist Pedro Pablo Kuczynski-or P.P.K., as he's called-takes office in late July with a worldly pedigree rare in a region with a longstanding love for folksy populists and authoritarians."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Oklahoma district court", "references": ["Oklahoma district court"] },
+      "entity2": { "entity": "Syrian convert to Christianity", "references": ["Syrian convert to Christianity"] },
+      "justifications": ["An Oklahoma district court has rejected a suit filed by a Syrian convert to Christianity against a local church."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Oklahoma district court", "references": ["Oklahoma district court"] },
+      "entity2": { "entity": "local church", "references": ["local church"] },
+      "justifications": ["The court upheld the church's view that the public dissemination is 'rooted in religious belief.'"],
+      "attitude": "Positive"
+    }
+  ]
+}

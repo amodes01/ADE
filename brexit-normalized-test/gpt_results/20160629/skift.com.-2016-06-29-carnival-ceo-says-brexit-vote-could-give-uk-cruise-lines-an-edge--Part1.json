@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "target": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "justifications": ["Despite the geopolitical events in Europe, including the Brexit vote, we remain confident in our long term outlook."]
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "target": { "topic": "currency exchange rates", "references": ["impact of currency exchange rates"] },
+      "justifications": ["Carnival is not, at least at this point, forecasting any downturn in business due to the UK's vote to leave the EU."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "target": { "topic": "China's market growth", "references": ["capacity growth in China", "uptick in China"] },
+      "justifications": ["The company will see a 30 percent capacity uptick in China next year, following an increase of more than 60 percent this year."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "target": { "topic": "competition in China", "references": ["competitors including Royal Caribbean"] },
+      "justifications": ["ticket prices are lower as China absorbs new ships not only from Carnival brands but also from competitors including Royal Caribbean."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "entity2": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "justifications": ["Despite the geopolitical events in Europe, including the Brexit vote, we remain confident in our long term outlook."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "entity2": { "entity": "Royal Caribbean", "references": ["Royal Caribbean"] },
+      "justifications": ["ticket prices are lower as China absorbs new ships not only from Carnival brands but also from competitors including Royal Caribbean."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arnold Donald", "references": ["Arnold Donald"] },
+      "entity2": { "entity": "Brexit vote", "references": ["Brexit vote"] },
+      "justifications": ["Despite the geopolitical events in Europe, including the Brexit vote, we remain confident in our long term outlook."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Arnold Donald", "references": ["Arnold Donald"] },
+      "entity2": { "entity": "David Bernstein", "references": ["David Bernstein"] },
+      "justifications": ["Donald and chief financial officer David Bernstein were careful to point out that the percent increases seemed large because they were building on small numbers."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Arnold Donald", "references": ["Arnold Donald"] },
+      "entity2": { "entity": "Carnival Corporation", "references": ["Carnival Corporation"] },
+      "justifications": ["This was among the most remarkable quarters in the history of the company, Donald said."]
+      "attitude": "Positive"
+    }
+  ]
+}

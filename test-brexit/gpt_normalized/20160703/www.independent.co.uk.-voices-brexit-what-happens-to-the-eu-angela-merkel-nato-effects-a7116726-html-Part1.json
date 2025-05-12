@@ -1,0 +1,294 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "It should now be clear, both from the response of EU leaders and from the statements of intention by all five candidates for the Conservative Party leadership, that there is no going back."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "The UK is not only the first EU member to vote to leave - summarily reversing more than a half century of growth and expansion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "target": {
+        "topic": "UK's financial contribution",
+        "references": [
+          "British contribution to official aid and investment"
+        ]
+      },
+      "justifications": [
+        "The UK's financial contribution, as the EU's second largest economy, will be missed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "target": {
+        "topic": "UK's financial contribution",
+        "references": [
+          "British contribution to official aid and investment"
+        ]
+      },
+      "justifications": [
+        "The UK preferred to work through the International Monetary Fund (IMF) so as to avoid the danger, for domestic politics, of appearing to share liability for improvident euro economies."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "EU cooperation",
+        "references": [
+          "increasing, rather than decreasing, cooperation"
+        ]
+      },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "France",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "EU cooperation",
+        "references": [
+          "increasing, rather than decreasing, cooperation"
+        ]
+      },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Angela Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "target": {
+        "topic": "EU reform",
+        "references": [
+          "how the EU needs to change to serve its members better"
+        ]
+      },
+      "justifications": [
+        "Angela Merkel has also spoken, in the immediate aftermath of the UK's vote, of how the EU needs to change to serve its members better."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "target": {
+        "topic": "EU reform",
+        "references": [
+          "how the EU needs to change to serve its members better"
+        ]
+      },
+      "justifications": [
+        "One consequence could be a looser, more a la carte, European Union."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "justifications": [
+        "It should now be clear, both from the response of EU leaders and from the statements of intention by all five candidates for the Conservative Party leadership, that there is no going back."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "The UK is not only the first EU member to vote to leave - summarily reversing more than a half century of growth and expansion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "justifications": [
+        "The UK's financial contribution, as the EU's second largest economy, will be missed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "UK",
+        "references": [
+          "London"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "The UK preferred to work through the International Monetary Fund (IMF) so as to avoid the danger, for domestic politics, of appearing to share liability for improvident euro economies."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "France",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "France",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "While Germany and France have been talking about increasing, rather than decreasing, cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Angela Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "Angela Merkel has also spoken, in the immediate aftermath of the UK's vote, of how the EU needs to change to serve its members better."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

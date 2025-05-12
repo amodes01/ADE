@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Brexit impact on Privacy Shield", "references": ["Brexit", "impact", "Privacy Shield"]},
+      "justifications": [
+        "It's uncertain what impact Brexit will have here"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Privacy Shield negotiations", "references": ["Privacy Shield", "negotiations"]},
+      "justifications": [
+        "the UK Government has been urging both the Commission and the US to conclude negotiations on this new legally robust adequacy decision"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Brexit impact on economy", "references": ["Brexit downturn"]},
+      "justifications": [
+        "she urges a need to 'unleash economic dynamism' to counter any Brexit downturn"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Internet of Things", "references": ["Internet of Things"]},
+      "justifications": [
+        "tapping into the Internet of Things as a booster for the economy"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Digital developments", "references": ["digital developments"]},
+      "justifications": [
+        "the explosive growth in digital developments of all kinds will continue apace"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK Government", "references": ["UK Government"]},
+      "target": {"topic": "Data protection", "references": ["protect citizens' interests and data"]},
+      "justifications": [
+        "the need to protect citizens' interests and data will remain a priority"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "UK Government", "references": ["UK Government"]},
+      "entity2": {"entity": "European Commission", "references": ["Commission"]},
+      "justifications": [
+        "the UK Government has been urging both the Commission and the US to conclude negotiations"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "UK Government", "references": ["UK Government"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": [
+        "the UK Government has been urging both the Commission and the US to conclude negotiations"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

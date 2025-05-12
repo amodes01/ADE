@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Edward Bray",
+        "references": ["Edward Bray"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"For me it's quite sad in a way because I feel quite strongly that I am British and I never thought it would come to that,\" Bray said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Edward Bray",
+        "references": ["Edward Bray"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "\"I have felt strongly committed to the European Union, it's values, freedom to work in other places, freedom to travel, movement of goods and services. I feel quite strongly that these are freedoms that I subscribe to.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Joseph Mariathasan",
+        "references": ["Joseph Mariathasan"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Mariathasan thinks a Brexit will introduce huge uncertainties in terms of the U.K.'s economic future, the stability of the EU, continental European peace in the absence of the U.K. and of the U.K.'s future position in the world."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Edward Bray",
+        "references": ["Edward Bray"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["U.K."]
+      },
+      "justifications": [
+        "\"I have made my life here in Belgium and my partner is half Italian, half Greek, and so I see my future really as a citizen of the European Union. So if the U.K. were to leave, I do not know what that would mean in terms of my rights to work, for example, but also personal right, family rights and so on,\\\" Bray said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Edward Bray",
+        "references": ["Edward Bray"]
+      },
+      "entity2": {
+        "entity": "Belgium",
+        "references": ["Belgium"]
+      },
+      "justifications": [
+        "Edward Bray, a freelance journalist who has been living there for about 7 years, is anxiously watching what's happening at home."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Joseph Mariathasan",
+        "references": ["Joseph Mariathasan"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["U.K."]
+      },
+      "justifications": [
+        "Mariathasan thinks a Brexit will introduce huge uncertainties in terms of the U.K.'s economic future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Joseph Mariathasan",
+        "references": ["Joseph Mariathasan"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Mariathasan thinks a Brexit will introduce huge uncertainties in terms of the stability of the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

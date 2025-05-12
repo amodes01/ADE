@@ -1,0 +1,175 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "UK",
+        "references": ["the UK"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "In this scenario it could take up to a decade to agree all of the terms.",
+        "the longer this negotiation goes on, the longer wine lovers will suffer inflated prices for EU wine."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["the EU"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "During the period following Brexit until the final trade agreements are in place, the trade tariffs between the EU and UK would revert to the World Trade Organisation (WTO) tariffs, which for wine imports is 32%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "UK wine industry",
+        "references": ["UK wine industry"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The UK wine industry remains excited and optimistic about its future."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "English wine industry",
+        "references": ["English wine industry"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Leaving the EU is a great opportunity for the English wine industry to reduce duty and encourage more home-grown sales."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "English wine producers",
+        "references": ["English wine producers"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Tamara Roberts, CEO of Ridgeview, is still positive about the UK government negotiating a deal with the EU which will allow them to continue to grow international sales."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Ridgeview",
+        "references": ["Ridgeview"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Tamara Roberts, CEO of Ridgeview, is still positive about the UK government negotiating a deal with the EU which will allow them to continue to grow international sales."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Richard Balfour-Lynn",
+        "references": ["Richard Balfour-Lynn"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Richard Balfour-Lynn of Hush Heath was also positive about the prospect of Brits turning to English wine."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Richard Balfour-Lynn",
+        "references": ["Richard Balfour-Lynn"]
+      },
+      "target": {
+        "topic": "non-EU markets",
+        "references": ["non-EU markets"]
+      },
+      "justifications": [
+        "Richard Balfour-Lynn also highlighted the opportunities in non-EU markets."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["the EU"]
+      },
+      "entity2": {
+        "entity": "UK",
+        "references": ["the UK"]
+      },
+      "justifications": [
+        "During the period following Brexit until the final trade agreements are in place, the trade tariffs between the EU and UK would revert to the World Trade Organisation (WTO) tariffs, which for wine imports is 32%."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Richard Balfour-Lynn",
+        "references": ["Richard Balfour-Lynn"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Richard Balfour-Lynn also highlighted the opportunities in non-EU markets."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Tamara Roberts",
+        "references": ["Tamara Roberts"]
+      },
+      "entity2": {
+        "entity": "UK government",
+        "references": ["UK government"]
+      },
+      "justifications": [
+        "Tamara Roberts, CEO of Ridgeview, is still positive about the UK government negotiating a deal with the EU which will allow them to continue to grow international sales."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Richard Balfour-Lynn",
+        "references": ["Richard Balfour-Lynn"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Richard Balfour-Lynn also highlighted the opportunities in non-EU markets."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

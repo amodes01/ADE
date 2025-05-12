@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Silversea", "references": ["Silversea"] },
+      "target": { "topic": "luxury cruise industry", "references": ["experiential luxury cruise industry"] },
+      "justifications": ["Silversea™ is recognized as an innovator in the experiential luxury cruise industry"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Royal Caribbean Group", "references": ["Royal Caribbean Group"] },
+      "target": { "topic": "vacation industry", "references": ["vacation industry"] },
+      "justifications": ["Royal Caribbean Group (NYSE: RCL) is a vacation industry leader with a global fleet of 68 ships"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Silversea", "references": ["Silversea"] },
+      "target": { "topic": "luxury cruises", "references": ["luxury cruises"] },
+      "justifications": ["Silversea's itineraries encompass all seven continents and feature worldwide luxury cruises to the Mediterranean, the Caribbean, the Galápagos, both Polar Regions, and hundreds of fascinating destinations in between."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Silversea", "references": ["Silversea"] },
+      "entity2": { "entity": "Royal Caribbean Group", "references": ["Royal Caribbean Group"] },
+      "justifications": ["Silversea is one of five cruise brands owned by global cruise company Royal Caribbean Group"],
+      "attitude": "Neutral"
+    }
+  ]
+}

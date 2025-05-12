@@ -1,0 +1,146 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Republican National Convention", "references": ["Republican National Convention"]},
+      "justifications": [
+        "Dr. Smith will be attending the Republican National Convention.",
+        "He has media credentials and is available to any media outlet."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Republican Party", "references": ["Republican party"]},
+      "justifications": [
+        "With many factions within the Republican party, can Donald Trump unify the Republican party?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "What the selection of the vice presidential candidate says about a Donald Trump presidency and how he will lead.",
+        "Can Donald Trump unify the Republican party?",
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Evangelical Christian voters", "references": ["evangelical Christian voters"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Libertarians", "references": ["libertarians"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Tea Party voters", "references": ["Tea Party voters"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Vice presidential candidate selection", "references": ["Selecting the 'best' vice presidential candidate"]},
+      "justifications": [
+        "Selecting the 'best' vice presidential candidate is more critical to a Donald Trump presidency than to any former GOP presidential candidate."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Ohio Governor John Kasich", "references": ["Ohio Governor John Kasich"]},
+      "justifications": [
+        "How the rhetoric and tone of Ohio Governor John Kasich will impact the Republican convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Immigration", "references": ["hard stance on immigration"]},
+      "justifications": [
+        "Will the Republican Party take a hard stance on immigration?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Cleveland preparedness for GOP Convention", "references": ["prepared is the City of Cleveland for the GOP Convention"]},
+      "justifications": [
+        "How prepared is the City of Cleveland for the GOP Convention?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "target": {"topic": "Delegate freedom to vote their conscience", "references": ["change the rules to allow the delegates the freedom to 'vote their conscience'"]},
+      "justifications": [
+        "Will the Republican leaders change the rules to allow the delegates the freedom to 'vote their conscience'?"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Can Donald Trump unify the Republican party?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Ohio Governor John Kasich", "references": ["Ohio Governor John Kasich"]},
+      "justifications": [
+        "How the rhetoric and tone of Ohio Governor John Kasich will impact the Republican convention."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Republican Party", "references": ["Republican party"]},
+      "justifications": [
+        "With many factions within the Republican party, can Donald Trump unify the Republican party?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Evangelical Christian voters", "references": ["evangelical Christian voters"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Libertarians", "references": ["libertarians"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mark Caleb Smith", "references": ["Mark Caleb Smith", "Dr. Smith"]},
+      "entity2": {"entity": "Tea Party voters", "references": ["Tea Party voters"]},
+      "justifications": [
+        "How will evangelical Christian voters, libertarians, Tea Party voters respond to Donald Trump?"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

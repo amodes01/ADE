@@ -1,0 +1,104 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "George Soros",
+        "references": ["George Soros"]
+      },
+      "target": {
+        "topic": "Italian banking crisis",
+        "references": ["full-blown banking crisis"]
+      },
+      "justifications": [
+        "Hedge fund veteran George Soros warned that Italy faces the risk of a \"full-blown banking crisis\"."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Mr. Renzi",
+        "references": ["Mr Renzi"]
+      },
+      "target": {
+        "topic": "Italian banking crisis",
+        "references": ["unilateral sovereign rescue of the Italian banking system"]
+      },
+      "justifications": [
+        "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system in defiance of the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "George Soros",
+        "references": ["George Soros"]
+      },
+      "entity2": {
+        "entity": "Five Star Movement",
+        "references": ["Five Star Movement"]
+      },
+      "justifications": [
+        "Hedge fund veteran George Soros warned that Italy faces the risk of a \"full-blown banking crisis\" that could bring the rebel Five Star Movement to power as early as next year."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Mr. Renzi",
+        "references": ["Mr Renzi"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU", "Brussels"]
+      },
+      "justifications": [
+        "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system in defiance of the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Mr. Renzi",
+        "references": ["Mr Renzi"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system in defiance of the EU, unless he wins concessions soon from Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Mr. Renzi",
+        "references": ["Mr Renzi"]
+      },
+      "entity2": {
+        "entity": "Italy",
+        "references": ["Italy"]
+      },
+      "justifications": [
+        "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Italy",
+        "references": ["Italy"]
+      },
+      "entity2": {
+        "entity": "Italian banking system",
+        "references": ["Italian banking system"]
+      },
+      "justifications": [
+        "Mr Renzi may be forced to take matters into his own hands and enact a unilateral sovereign rescue of the Italian banking system."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

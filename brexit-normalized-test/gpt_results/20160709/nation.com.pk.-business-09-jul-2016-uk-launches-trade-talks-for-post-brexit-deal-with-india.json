@@ -1,0 +1,87 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "trade relationship with India", "references": ["bilateral trade deal", "trade ties with India"] },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "India", "references": ["India"] },
+      "target": { "topic": "trade relationship with Britain", "references": ["bilateral trade deal", "trade ties with Britain"] },
+      "justifications": [
+        "Britain was the biggest foreign investor among the Group of 20 nations in India in 2015, while India represents the third-largest source of foreign direct investment in Britain, the British business ministry said in a statement."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "India", "references": ["India"] },
+      "target": { "topic": "visa concessions", "references": ["visa concessions for its citizens to work abroad"] },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "United States", "references": ["United States"] },
+      "target": { "topic": "visa concessions", "references": ["visa concessions for its citizens to work abroad"] },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Britain", "references": ["Britain"] },
+      "target": { "topic": "selective immigration policy", "references": ["new selective immigration policy"] },
+      "justifications": [
+        "The leaders of Britain's 'Leave' campaign in the referendum said they wanted to allow more skilled, non-EU workers into the country under a new selective immigration policy."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "India", "references": ["India"] },
+      "target": { "topic": "access to financial services market", "references": ["access to India's financial services market"] },
+      "justifications": [
+        "On its part, Britain is likely to push for more access to India's financial services market."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "India", "references": ["India"] },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal.",
+        "Britain was the biggest foreign investor among the Group of 20 nations in India in 2015, while India represents the third-largest source of foreign direct investment in Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "India", "references": ["India"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "Britain was the biggest foreign investor among the Group of 20 nations in India in 2015, while India represents the third-largest source of foreign direct investment in Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "India", "references": ["India"] },
+      "entity2": { "entity": "United States", "references": ["United States"] },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "India", "references": ["India"] },
+      "justifications": [
+        "On its part, Britain is likely to push for more access to India's financial services market."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "National Front's stance on EU"},
+      "justifications": [
+        "National Front (FN) leader Marine Le Pen looked ecstatic as the Brexit result was announced, calling it a \"victory for freedom\" that would soon be repeated in France."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "EU membership"},
+      "justifications": [
+        "Marine Le Pen...calling it a \"victory for freedom\" that would soon be repeated in France, an EU-founding member whose voters are increasingly eurosceptic."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "British political instability"},
+      "justifications": [
+        "The Brexit vote has plunged Britain into political chaos."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "economic consequences of Brexit"},
+      "justifications": [
+        "There has been a sharp drop in the pound and in British consumer confidence since the vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "refugee crisis"},
+      "justifications": [
+        "the anti-immigration FN, whose ratings benefited from Europe's refugee crisis"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "Scottish independence"},
+      "justifications": [
+        "pro-EU Scotland is threatening to quit the United Kingdom."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit"},
+      "target": {"topic": "EU exit"},
+      "justifications": [
+        "the FN's opponents will be able to say: 'See, we have been telling you for years that the EU exit backed by Marine Le Pen, of which Brexit is a test case, is a failure.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Marine Le Pen looked ecstatic as the Brexit result was announced, calling it a \"victory for freedom\" that would soon be repeated in France."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Marine Le Pen", "references": ["Marine Le Pen"]},
+      "entity2": {"entity": "Florian Philippot", "references": ["Florian Philippot"]},
+      "justifications": [
+        "The party's vice-president Florian Philippot told Reuters. \"Up until now we were told that leaving the EU would be apocalyptic, that we'd be isolated. Britain will show it's exactly the opposite.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Florian Philippot", "references": ["Florian Philippot"]},
+      "entity2": {"entity": "EU elites", "references": ["elite", "elites"]},
+      "justifications": [
+        "The FN's Philippot says much of the talk about negative consequences of Brexit \"is a refusal by the elite, especially in France, to accept reality.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Sociologist Sylvain Crepon", "references": ["Sylvain Crepon"]},
+      "entity2": {"entity": "National Front", "references": ["FN"]},
+      "justifications": [
+        "\"The headlines are doing the FN's job for it, yet again,\" said sociologist Sylvain Crepon, an expert on the FN at the university of Tours."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jerome Fourquet", "references": ["Jerome Fourquet"]},
+      "entity2": {"entity": "National Front", "references": ["FN"]},
+      "justifications": [
+        "If the political situation in Britain unravels, if Scotland wants to leave ... the FN's opponents will be able to say: 'See, we have been telling you for years that the EU exit backed by Marine Le Pen, of which Brexit is a test case, is a failure.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"If the chaos we are witnessing in the UK at the moment makes others think twice about leaving, that is not a bad thing,\" an aide to German Chancellor Angela Merkel told Reuters."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Prime Minister David Cameron announced he is standing down."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "opposition leader Jeremy Corbyn faces an open revolt by parliamentary colleagues."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "UKIP leader Nigel Farage, one of the most effective Brexit campaigners, said he is resigning."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

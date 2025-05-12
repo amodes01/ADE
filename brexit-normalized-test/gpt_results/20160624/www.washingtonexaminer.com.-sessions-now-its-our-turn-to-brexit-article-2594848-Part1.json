@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "F-35 readiness"},
+      "target": {"topic": "Air Force F-35 fleet"},
+      "justifications": ["Sullivan's estimate for Air Force F-35 readiness turns out to be overly optimistic. The real rate is just over half, and slightly better than its cousin the F-22."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "F-35 readiness"},
+      "target": {"topic": "Air Force F-35 readiness rates"},
+      "justifications": ["The real rate is just over half, and slightly better than its cousin the F-22."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Mattis memo"},
+      "target": {"topic": "fighter jet combat readiness"},
+      "justifications": ["Mattis issued a memo last month to the Air Force and Navy departments giving them just 12 months to get 80 percent of their fighter jets fit for combat."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Air Force readiness"},
+      "target": {"topic": "military aircraft readiness"},
+      "justifications": ["Mattis directed the services to take a page out of the private-sector playbook, and use the best practices of commercial aviation companies to improve readiness quickly."]
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jim Mattis", "references": ["Defense Secretary Jim Mattis"]},
+      "entity2": {"entity": "Obama administration", "references": ["Obama administration"]},
+      "justifications": ["The laissez-faire style of leadership is gone and that left with the Obama administration and the commanders that were associated with that."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Venable", "references": ["John Venable"]},
+      "entity2": {"entity": "Obama administration", "references": ["Obama administration"]},
+      "justifications": ["They were not given the funds, they were not given the certainty they needed to lead their forces."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Venable", "references": ["John Venable"]},
+      "entity2": {"entity": "Trump administration", "references": ["Trump administration"]},
+      "justifications": ["These guys have the money, they have the personnel, they have the machinery."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Sen. Dan Sullivan", "references": ["Sen. Dan Sullivan"]},
+      "entity2": {"entity": "Heather Wilson", "references": ["Air Force Secretary Heather Wilson"]},
+      "justifications": ["Sen. Dan Sullivan, a subcommittee chairman, said while questioning Air Force Secretary Heather Wilson."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Sen. Dan Sullivan", "references": ["Sen. Dan Sullivan"]},
+      "entity2": {"entity": "Gen. David Goldfein", "references": ["Gen. David Goldfein"]},
+      "justifications": ["Sen. Dan Sullivan, a subcommittee chairman, said while questioning Air Force Secretary Heather Wilson and Gen. David Goldfein, the Air Force chief of staff."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "John Venable", "references": ["John Venable"]},
+      "entity2": {"entity": "commercial aviation industry", "references": ["commercial aviation industry"]},
+      "justifications": ["Mattis directed the services to take a page out of the private-sector playbook, and use the best practices of commercial aviation companies to improve readiness quickly."]
+      "attitude": "Positive"
+    }
+  ]
+}

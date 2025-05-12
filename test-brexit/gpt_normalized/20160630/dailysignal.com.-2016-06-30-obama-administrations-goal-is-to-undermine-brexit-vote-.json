@@ -1,0 +1,138 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Obama administration",
+        "references": [
+          "President Obama's"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "vote to leave the European Union"
+        ]
+      },
+      "justifications": [
+        "Before Britain's historic vote to leave the European Union last Thursday, the Obama administration was eager to pressure the British people to stay in."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "vote to leave the European Union"
+        ]
+      },
+      "justifications": [
+        "The EU does not take losing lying down.",
+        "The EU does not like that."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "John Kerry",
+        "references": [
+          "U.S. Secretary of State John Kerry",
+          "U.S. Secretary of State John Kerry"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "vote to leave the European Union"
+        ]
+      },
+      "justifications": [
+        "Kerry's chiming in.",
+        "Kerry responded: I think that would be a mistake."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Obama administration",
+        "references": [
+          "President Obama's"
+        ]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": [
+          "British people"
+        ]
+      },
+      "justifications": [
+        "Before Britain's historic vote to leave the European Union last Thursday, the Obama administration was eager to pressure the British people to stay in."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "The EU does not take losing lying down.",
+        "The EU does not like that."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": [
+          "U.S. Secretary of State John Kerry",
+          "U.S. Secretary of State John Kerry"
+        ]
+      },
+      "entity2": {
+        "entity": "British people",
+        "references": [
+          "British people"
+        ]
+      },
+      "justifications": [
+        "Kerry's chiming in.",
+        "Kerry responded: I think that would be a mistake."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": [
+          "EU CSDP"
+        ]
+      },
+      "entity2": {
+        "entity": "John Kerry",
+        "references": [
+          "U.S. Secretary of State John Kerry"
+        ]
+      },
+      "justifications": [
+        "Kerry's chiming in."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

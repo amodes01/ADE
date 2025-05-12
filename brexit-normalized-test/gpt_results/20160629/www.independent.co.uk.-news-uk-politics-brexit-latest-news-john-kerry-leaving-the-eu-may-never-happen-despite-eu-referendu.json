@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "John Kerry", "references": ["John Kerry"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Mr Kerry reportedly said that Brexit might never happen."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "John Kerry", "references": ["John Kerry"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Mr Kerry reportedly said that there were \"a number of ways\" in which the UK could walk back from Brexit."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Jean Claude Juncker", "references": ["Jean Claude Juncker"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Jean Claude Juncker, however, has made clear his view that \"it is not an amicable divorce\" and Britain should start negotiating exit terms immediately."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["In April, while visiting the UK, Barack Obama said Britain would be at the \"back of the queue\" in any trade deal with the US if it left the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["On Tuesday Mr Obama sought to calm diplomatic and financial market fears about Brexit by telling American National Public Radio: \"I would not overstate it.\""]
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "John Kerry", "references": ["John Kerry"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Speaking a day after meeting David Cameron in Downing Street, Mr Kerry reportedly said the Prime Minister was very reluctant to invoke Article 50 of the Lisbon treaty."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Kerry", "references": ["John Kerry"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Mr Kerry reportedly said that he thought Mr Cameron \"feels powerless -- and I think this is a fair conclusion -- to go out and start negotiating a thing that he does not believe in, and he has no idea how he would do it.\""]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jean Claude Juncker", "references": ["Jean Claude Juncker"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Jean Claude Juncker, however, has made clear his view that \"it is not an amicable divorce\" and Britain should start negotiating exit terms immediately."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["In April, while visiting the UK, Barack Obama said Britain would be at the \"back of the queue\" in any trade deal with the US if it left the EU."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["On Tuesday Mr Obama sought to calm diplomatic and financial market fears about Brexit by telling American National Public Radio: \"I would not overstate it.\""]
+      "attitude": "Neutral"
+    }
+  ]
+}

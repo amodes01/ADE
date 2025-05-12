@@ -1,0 +1,69 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Alastair Campbell",
+        "references": ["Alastair Campbell"]
+      },
+      "target": {
+        "topic": "Labour Party leadership",
+        "references": ["future of the Labour party", "lack of leadership", "the possibility of the party being utterly wiped out", "lack of leadership", "leadership on policy"]
+      },
+      "justifications": [
+        "The Labour party is becoming a laughing stock because of the lack of leadership that's being shown in so many different places.",
+        "We are going to get wiped out if he stays on as leader.",
+        "He got the mandate. He was elected leader with a massive majority. Correct. Does he have the ability to lead? That is a bigger question, I am afraid."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Alastair Campbell",
+        "references": ["Alastair Campbell"]
+      },
+      "target": {
+        "topic": "Jeremy Corbyn's leadership",
+        "references": ["Jeremy Corbyn", "he cannot do the job", "leadership", "leadership on policy"]
+      },
+      "justifications": [
+        "He cannot do the job.",
+        "Does he have the ability to lead? That is a bigger question, I am afraid.",
+        "I do not know if you saw that documentary, that Vice film. Half an hour of going from hall to hall, telling the converted what they think."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Alastair Campbell",
+        "references": ["Alastair Campbell"]
+      },
+      "target": {
+        "topic": "Jeremy Corbyn's policies",
+        "references": ["the new politics he's talking about", "the things Jeremy Corbyn says", "policy", "leadership on policy"]
+      },
+      "justifications": [
+        "I believe in a lot of the things Jeremy Corbyn says. I believe in trying to deal with division and inequality in society. I believe in trying to make the world a fairer place.",
+        "Where's the policy coming from? Where's the leadership on policy coming from?"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Alastair Campbell",
+        "references": ["Alastair Campbell"]
+      },
+      "entity2": {
+        "entity": "Jeremy Corbyn",
+        "references": ["Jeremy Corbyn"]
+      },
+      "justifications": [
+        "He cannot do the job.",
+        "He got the mandate. He was elected leader with a massive majority. Correct. Does he have the ability to lead? That is a bigger question, I am afraid.",
+        "We are going to get wiped out if he stays on as leader."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

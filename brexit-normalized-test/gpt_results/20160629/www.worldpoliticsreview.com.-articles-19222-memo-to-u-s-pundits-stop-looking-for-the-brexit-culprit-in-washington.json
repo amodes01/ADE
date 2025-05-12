@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "U.S. foreign policy pundits", "references": ["U.S. foreign policy pundits"]},
+      "target": {"topic": "Brexit disaster", "references": ["Brexit disaster"]},
+      "justifications": ["the debate among U.S. foreign policy pundits has taken a predictable and customary turn: looking for who is to blame.", "the list of people who contributed to the Brexit disaster begins, of course, in London."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British Prime Minister David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Brexit referendum", "references": ["referendum"]},
+      "justifications": ["British Prime Minister David Cameron comes to mind, for having called the referendum in the first place."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Brexit referendum", "references": ["referendum"]},
+      "justifications": ["Boris Johnson, the former mayor of London and Cameron's rival in the Conservative Party, did not help matters by coming down forcefully on the side of the Leave campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Brexit referendum", "references": ["referendum"]},
+      "justifications": ["there is also, of course, Nigel Farage, the fiercely Euroskeptic head of the U.K. Independence Party."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "target": {"topic": "Brexit referendum", "references": ["referendum"]},
+      "justifications": ["And the leader of the opposition Labour Party, Jeremy Corbyn, is facing a party revolt for campaigning half-heartedly for Remain."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "U.S. foreign policy pundits", "references": ["U.S. foreign policy pundits"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["the list of people who contributed to the Brexit disaster begins, of course, in London."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.S. foreign policy pundits", "references": ["U.S. foreign policy pundits"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": ["Boris Johnson, the former mayor of London and Cameron's rival in the Conservative Party, did not help matters by coming down forcefully on the side of the Leave campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.S. foreign policy pundits", "references": ["U.S. foreign policy pundits"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["there is also, of course, Nigel Farage, the fiercely Euroskeptic head of the U.K. Independence Party."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "U.S. foreign policy pundits", "references": ["U.S. foreign policy pundits"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["And the leader of the opposition Labour Party, Jeremy Corbyn, is facing a party revolt for campaigning half-heartedly for Remain."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": ["Boris Johnson, the former mayor of London and Cameron's rival in the Conservative Party, did not help matters by coming down forcefully on the side of the Leave campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["there is also, of course, Nigel Farage, the fiercely Euroskeptic head of the U.K. Independence Party."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["And the leader of the opposition Labour Party, Jeremy Corbyn, is facing a party revolt for campaigning half-heartedly for Remain."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["there is also, of course, Nigel Farage, the fiercely Euroskeptic head of the U.K. Independence Party."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["And the leader of the opposition Labour Party, Jeremy Corbyn, is facing a party revolt for campaigning half-heartedly for Remain."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "justifications": ["And the leader of the opposition Labour Party, Jeremy Corbyn, is facing a party revolt for campaigning half-heartedly for Remain."],
+      "attitude": "Neutral"
+    }
+  ]
+}

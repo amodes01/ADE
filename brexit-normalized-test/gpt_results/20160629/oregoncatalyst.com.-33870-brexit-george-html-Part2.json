@@ -1,0 +1,151 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "economic malaise", "references": ["economic malaise"] },
+      "target": { "entity": "elites", "references": ["elites"] },
+      "justifications": [
+        "It is of little consequence if the nation continues in an economic malaise"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "economic malaise", "references": ["economic malaise"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "It is of little consequence if the nation continues in an economic malaise"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "welfare state", "references": ["welfare state"] },
+      "target": { "entity": "elites", "references": ["elites"] },
+      "justifications": [
+        "if the march to a welfare state continues at an accelerated pace"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "welfare state", "references": ["welfare state"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "if the march to a welfare state continues at an accelerated pace"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "prestige and influence", "references": ["prestige and influence"] },
+      "target": { "entity": "elites", "references": ["elites"] },
+      "justifications": [
+        "if the prestige and influence of the nation continues to wane"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "prestige and influence", "references": ["prestige and influence"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "if the prestige and influence of the nation continues to wane"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "terrorist attacks", "references": ["number of terrorist attacks from a growing Islamic jihadist cadre"] },
+      "target": { "entity": "elites", "references": ["elites"] },
+      "justifications": [
+        "if the number of terrorist attacks from a growing Islamic jihadist cadre swells"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "terrorist attacks", "references": ["number of terrorist attacks from a growing Islamic jihadist cadre"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "if the number of terrorist attacks from a growing Islamic jihadist cadre swells"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Islamic jihadist cadre", "references": ["growing Islamic jihadist cadre"] },
+      "target": { "entity": "elites", "references": ["elites"] },
+      "justifications": [
+        "if the number of terrorist attacks from a growing Islamic jihadist cadre swells"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Islamic jihadist cadre", "references": ["growing Islamic jihadist cadre"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "if the number of terrorist attacks from a growing Islamic jihadist cadre swells"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Great Britain", "references": ["Great Britain"] },
+      "target": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "Great Britain and the European Union will settle on their divorce"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "George Will", "references": ["George Will"] },
+      "target": { "entity": "Republican Party", "references": ["Republican Party"] },
+      "justifications": [
+        "George Will will rejoin the Republican Party after he and the other Republican elites ensure the election of Ms. Clinton"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Republican Party", "references": ["Republican Party"] },
+      "target": { "entity": "George Will", "references": ["George Will"] },
+      "justifications": [
+        "George Will will rejoin the Republican Party after he and the other Republican elites ensure the election of Ms. Clinton"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Republican Party", "references": ["Republican Party"] },
+      "target": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "George Will will rejoin the Republican Party after he and the other Republican elites ensure the election of Ms. Clinton"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Republican Party", "references": ["Republican Party"] },
+      "target": { "entity": "author", "references": ["I"] },
+      "justifications": [
+        "I will leave then leave the Republican Party for just that reason"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "elites", "references": ["elites"] },
+      "entity2": { "entity": "Clintons", "references": ["Clintons"] },
+      "justifications": [
+        "So long as the elites remain secure in their power and influence, so long as their accumulation of wealth continues"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "elites", "references": ["elites"] },
+      "entity2": { "entity": "author", "references": ["I"] },
+      "justifications": [
+        "Now two hundred years later we have our own inbred smug aristocracy running the show"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Clintons", "references": ["Clintons"] },
+      "entity2": { "entity": "author", "references": ["I"] },
+      "justifications": [
+        "Now two hundred years later we have our own inbred smug aristocracy running the show"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

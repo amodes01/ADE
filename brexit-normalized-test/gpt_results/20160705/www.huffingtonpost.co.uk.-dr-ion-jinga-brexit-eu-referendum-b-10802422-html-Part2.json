@@ -1,0 +1,57 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["UK will probably no longer be part of the EU club"] },
+      "target": { "topic": "European Union", "references": ["EU"] },
+      "justifications": [
+        "The UK will probably no longer be part of the EU club (at least for a while).",
+        "The UK has to find a common space with the EU, on the continent and worldwide."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "United Nations framework", "references": ["United Nations framework"] },
+      "target": { "topic": "global issues", "references": ["global issues such as conflict prevention, peace keeping, peace building, fight against terrorism, human rights, climate change, mass migrations, refugees, humanitarian assistance, or the Agenda 2030 for sustainable development"] },
+      "justifications": [
+        "For instance, there is no doubt that they will continue to work closely together within the United Nations framework, on global issues such as conflict prevention, peace keeping, peace building, fight against terrorism, human rights, climate change, mass migrations, refugees, humanitarian assistance, or the Agenda 2030 for sustainable development."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "European Union", "references": ["EU"] },
+      "justifications": [
+        "The UK will probably no longer be part of the EU club (at least for a while).",
+        "The UK has to find a common space with the EU, on the continent and worldwide."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "The UK will probably no longer be part of the EU club (at least for a while).",
+        "The UK has to find a common space with the EU, on the continent and worldwide."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "peoples of Europe", "references": ["peoples of the EU"] },
+      "justifications": [
+        "The peoples of the EU are proud to be Europeans, and they are equally proud of their national identity."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Jean Monnet", "references": ["Jean Monnet"] },
+      "entity2": { "entity": "European Union", "references": ["European project"] },
+      "justifications": [
+        "As Jean Monnet wrote in his memoirs: \"Europe will be forged in crisis, and will be the sum of the solutions adopted for those crises\"."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

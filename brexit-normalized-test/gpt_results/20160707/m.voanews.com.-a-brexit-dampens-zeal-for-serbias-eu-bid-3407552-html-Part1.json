@@ -1,0 +1,202 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Serbia's government says it is not abandoning reforms to improve rule of law, end corruption, and enact regulations to conform with EU trade rules."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Zoran Petrov",
+        "references": ["Zoran Petrov"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["Europe"]
+      },
+      "justifications": [
+        "\"The question is, if Europe is what we are dreaming of, is it a place where all different countries and nations can join like a family or is it a new model of imposing policies that do not take care about small people?\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Zoran Petrov",
+        "references": ["Zoran Petrov"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"I deeply believe that Brexit is a strong message from one of the oldest democratic countries in Europe,\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Marko Prelevic",
+        "references": ["Marko Prelevic"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "\"People here are seeing maybe more than in other parts of Europe, they are growing more Eurosceptic,\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Serbia's parliament",
+        "references": ["Serbia's parliament"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Those sentiments are not echoed in Serbia's parliament, which is dominated by pro-EU parties."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Serbia's government",
+        "references": ["Serbia's government"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU accession"]
+      },
+      "justifications": [
+        "Serbia's government has kept up its campaign to promote EU accession with promises of greater equality, respect for the rule of law, and higher salaries."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Johannes Hahn",
+        "references": ["Johannes Hahn"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Johannes Hahn, the EU enlargement commissioner, said this week that Brexit \"does not mean that enlargement, particularly to the western Balkans, has come to an end.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Serbia",
+        "references": ["Serbia"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Serbia's government says it is not abandoning reforms to improve rule of law, end corruption, and enact regulations to conform with EU trade rules."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Zoran Petrov",
+        "references": ["Zoran Petrov"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["Europe"]
+      },
+      "justifications": [
+        "\"The question is, if Europe is what we are dreaming of, is it a place where all different countries and nations can join like a family or is it a new model of imposing policies that do not take care about small people?\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Zoran Petrov",
+        "references": ["Zoran Petrov"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"I deeply believe that Brexit is a strong message from one of the oldest democratic countries in Europe,\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Marko Prelevic",
+        "references": ["Marko Prelevic"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "\"People here are seeing maybe more than in other parts of Europe, they are growing more Eurosceptic,\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Serbia's parliament",
+        "references": ["Serbia's parliament"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Those sentiments are not echoed in Serbia's parliament, which is dominated by pro-EU parties."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Serbia's government",
+        "references": ["Serbia's government"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["EU accession"]
+      },
+      "justifications": [
+        "Serbia's government has kept up its campaign to promote EU accession with promises of greater equality, respect for the rule of law, and higher salaries."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Johannes Hahn",
+        "references": ["Johannes Hahn"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Johannes Hahn, the EU enlargement commissioner, said this week that Brexit \"does not mean that enlargement, particularly to the western Balkans, has come to an end.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

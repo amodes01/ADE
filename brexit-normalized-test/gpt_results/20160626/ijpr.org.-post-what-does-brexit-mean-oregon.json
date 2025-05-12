@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Alison Johnston", "references": ["Alison Johnston"] },
+      "target": { "topic": "stock market volatility", "references": ["stock market volatility"] },
+      "justifications": [
+        "\"the main issue is stock market volatility.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Alison Johnston", "references": ["Alison Johnston"] },
+      "target": { "topic": "Oregon exports to the U.K.", "references": ["O.K. ranks 12th among the top countries for Oregon exports", "2 percent of the state's exports go there"] },
+      "justifications": [
+        "\"I do not think they are going to be impacted too much.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Adidas", "references": ["Adidas"] },
+      "target": { "topic": "U.K. decision", "references": ["regrets the U.K.'s decision"] },
+      "justifications": [
+        "Adidas released a statement to OPB, saying it regrets the U.K.'s decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Adidas", "references": ["Adidas"] },
+      "target": { "topic": "demand for sporting goods", "references": ["expects the demand for sporting goods to continue"] },
+      "justifications": [
+        "Adidas... expects the demand for sporting goods to continue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Alison Johnston", "references": ["Alison Johnston"] },
+      "target": { "topic": "pound value", "references": ["the pound is going to be very down in value"] },
+      "justifications": [
+        "\"the pound is going to be very down in value,\\\" she said."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Adidas", "references": ["Adidas"] },
+      "entity2": { "entity": "U.K.", "references": ["U.K."] },
+      "justifications": [
+        "Adidas released a statement to OPB, saying it regrets the U.K.'s decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Oregon", "references": ["Oregon"] },
+      "entity2": { "entity": "U.K.", "references": ["U.K."] },
+      "justifications": [
+        "The U.K. ranks 12th among the top countries for Oregon exports: About 2 percent of the state's exports go there."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Oregon", "references": ["Oregon"] },
+      "entity2": { "entity": "China", "references": ["China"] },
+      "justifications": [
+        "For comparison, 24 percent of exports go to China."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Alison Johnston", "references": ["Alison Johnston"] },
+      "entity2": { "entity": "Oregon's big companies", "references": ["Oregon companies like Nike, and Intel and Columbia"] },
+      "justifications": [
+        "\"I do not think they are going to be impacted too much.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

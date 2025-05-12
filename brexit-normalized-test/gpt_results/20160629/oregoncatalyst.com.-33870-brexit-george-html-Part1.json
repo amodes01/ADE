@@ -1,0 +1,160 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Voters in Great Britain",
+        "references": ["Voters in Great Britain"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Voters in Great Britain, by a margin of fifty-two percent to forty-eight percent, elected to exit the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "the Wall Street Journal",
+        "references": ["Wall Street Journal"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The Saturday edition of the Wall Street Journal characterized it thusly: 'Voters defied the impassioned - and unified - opposition of the leadership of all five major political parties.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Banks in the City of London",
+        "references": ["Banks in the City of London"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Banks in the City of London, one of the world's major financial centers, along with the Bank of England, the country's central bank, and most of its influential think tanks and academic institutions, had warned of the risks to the U.K.'s economic security and global financial pre-eminence if Britain did not stay in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Even the 'most beloved leader' of the modern free world, President Barack Obama, warned the British voters that if they did not listen to his advice that Great Britain would move to the 'back of the queue' in negotiating international trade agreements."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Great Britain",
+        "references": ["Great Britain"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Voters in Great Britain, by a margin of fifty-two percent to forty-eight percent, elected to exit the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "George Will",
+        "references": ["George Will"]
+      },
+      "target": {
+        "topic": "Trump's presidential candidacy",
+        "references": ["Donald Trump to be the presidential nominee for the Republican Party"]
+      },
+      "justifications": [
+        "George Will, noted columnist and smug prig, resigned from the Republican Party because the great unwashed in America's heartland ignored his superior advice and instead chose Donald Trump to be the presidential nominee for the Republican Party."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Voters in Great Britain",
+        "references": ["Voters in Great Britain"]
+      },
+      "entity2": {
+        "entity": "Wall Street Journal",
+        "references": ["Wall Street Journal"]
+      },
+      "justifications": [
+        "The Saturday edition of the Wall Street Journal characterized it thusly: 'Voters defied the impassioned - and unified - opposition of the leadership of all five major political parties.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Banks in the City of London",
+        "references": ["Banks in the City of London"]
+      },
+      "entity2": {
+        "entity": "Voters in Great Britain",
+        "references": ["Voters in Great Britain"]
+      },
+      "justifications": [
+        "Banks in the City of London, one of the world's major financial centers, along with the Bank of England, the country's central bank, and most of its influential think tanks and academic institutions, had warned of the risks to the U.K.'s economic security and global financial pre-eminence if Britain did not stay in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Voters in Great Britain",
+        "references": ["Voters in Great Britain"]
+      },
+      "justifications": [
+        "Even the 'most beloved leader' of the modern free world, President Barack Obama, warned the British voters that if they did not listen to his advice that Great Britain would move to the 'back of the queue' in negotiating international trade agreements."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Voters in Great Britain",
+        "references": ["Voters in Great Britain"]
+      },
+      "entity2": {
+        "entity": "President Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "justifications": [
+        "Even the 'most beloved leader' of the modern free world, President Barack Obama, warned the British voters that if they did not listen to his advice that Great Britain would move to the 'back of the queue' in negotiating international trade agreements."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "George Will",
+        "references": ["George Will"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "George Will, noted columnist and smug prig, resigned from the Republican Party because the great unwashed in America's heartland ignored his superior advice and instead chose Donald Trump to be the presidential nominee for the Republican Party."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

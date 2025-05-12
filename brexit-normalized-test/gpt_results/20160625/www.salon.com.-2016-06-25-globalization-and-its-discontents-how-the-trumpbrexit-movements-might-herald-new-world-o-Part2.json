@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "The Greeks", "references": ["The Greeks"]},
+      "target": {"topic": "economic disaster", "references": ["economic disaster"]},
+      "justifications": [
+        "The Greeks...have run up so much debt in recent years that the country is a Gordian knot of economic disaster, unlikely to be unraveled in my lifetime."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "The Greeks", "references": ["The Greeks"]},
+      "target": {"topic": "tax evasion and unemployment", "references": ["endemic tax evasion and unemployment"]},
+      "justifications": [
+        "The Greeks...challenged by endemic tax evasion and unemployment"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "The Germans", "references": ["The Germans"]},
+      "target": {"topic": "bailing out Greece", "references": ["bailing out their lazy EU brethren", "pay for bridges in Greece"]},
+      "justifications": [
+        "The earnest tax-paying Germans have balked many times at the notion of bailing out their lazy EU brethren, who they see as free-riding.",
+        "If the British are racist for leaving the EU, then so must be the Germans."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "The Germans", "references": ["The Germans"]},
+      "target": {"topic": "economic bailout", "references": ["bailing out their lazy EU brethren", "pay for bridges in Greece"]},
+      "justifications": [
+        "The earnest tax-paying Germans have balked many times at the notion of bailing out their lazy EU brethren, who they see as free-riding."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "The Greeks", "references": ["The Greeks"]},
+      "entity2": {"entity": "The Germans", "references": ["The Germans"]},
+      "justifications": [
+        "The earnest tax-paying Germans have balked many times at the notion of bailing out their lazy EU brethren, who they see as free-riding."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "The Greeks", "references": ["The Greeks"]},
+      "entity2": {"entity": "The Germans", "references": ["The Germans"]},
+      "justifications": [
+        "If the British are racist for leaving the EU, then so must be the Germans."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "The British", "references": ["The British"]},
+      "entity2": {"entity": "The EU", "references": ["EU"]},
+      "justifications": [
+        "If the British are racist for leaving the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "The British", "references": ["The British"]},
+      "entity2": {"entity": "The EU", "references": ["EU"]},
+      "justifications": [
+        "If the British are racist for leaving the EU, then so must be the Germans."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

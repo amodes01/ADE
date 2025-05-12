@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Scottish independence", "references": ["Scottish independence"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "In 2017, when the Supreme Court ruled that devolved national assemblies such as Scotland's parliament could not veto Brexit, the demands grew louder.",
+        "A combination of rising nationalism and strong support for Europe led almost immediately to calls for a new independence referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Scottish independence", "references": ["Scottish independence"] },
+      "target": { "topic": "EU membership", "references": ["EU"] },
+      "justifications": [
+        "others contended that it would be required for Scotland to join the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "In 2017, when the Supreme Court ruled that devolved national assemblies such as Scotland's parliament could not veto Brexit, the demands grew louder."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "Scottish independence", "references": ["Scottish independence"] },
+      "justifications": [
+        "Scottish First Minister Nicola Sturgeon said her government at Holyrood would \"reset\" its timetable on independence to focus on delivering a \"soft Brexit.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "Scottish National Party (SNP)", "references": ["SNP"] },
+      "justifications": [
+        "The SNP won 56 of 59 Scottish seats at Westminster the following year, overtaking the Liberal Democrats to become the third-largest party in the U.K. overall."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "The country as a whole rejected the referendum by 62.0% to 38.0%. But because Scotland only contains 8.4% of the U.K.'s population, its vote to Remain (along with that of Northern Ireland, which accounts for just 2.8% of the U.K.'s population) was vastly outweighed by support for Brexit in England and Wales."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "SNP", "references": ["SNP"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "A combination of rising nationalism and strong support for Europe led almost immediately to calls for a new independence referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "SNP", "references": ["SNP"] },
+      "entity2": { "entity": "Scottish independence", "references": ["Scottish independence"] },
+      "justifications": [
+        "The SNP won 56 of 59 Scottish seats at Westminster the following year, overtaking the Liberal Democrats to become the third-largest party in the U.K. overall."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Alex Salmond", "references": ["Alex Salmond"] },
+      "entity2": { "entity": "Scottish independence", "references": ["Scottish independence"] },
+      "justifications": [
+        "Former SNP leader Alex Salmond, who was Scotland's First Minister until November 2014, told the Financial Times that the country could abandon the pound and introduce its own currency."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

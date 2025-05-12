@@ -1,0 +1,81 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"More and more, the destiny of the European Union resembles the destiny of the Soviet Union, which died from its own contractions.\"",
+        "\"Calls for referendums are ringing throughout the Continent, Le Pen wrote in an opinion piece in The New York Times.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit vote"] },
+      "target": { "topic": "European Union", "references": ["EU"] },
+      "justifications": [
+        "\"Brexit's results offer a powerful boost for the National Front's Le Pen and her party's anti-Europe, anti-immigrant discourse.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "European Union", "references": ["European Union"] },
+      "target": { "topic": "anti-Europe rhetoric", "references": ["anti-Europe"] },
+      "justifications": [
+        "\"At first glance, Brexit's results offer a powerful boost for the National Front's Le Pen and her party's anti-Europe, anti-immigrant discourse.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "European Union", "references": ["European Union"] },
+      "target": { "topic": "anti-immigrant rhetoric", "references": ["anti-immigrant discourse"] },
+      "justifications": [
+        "\"At first glance, Brexit's results offer a powerful boost for the National Front's Le Pen and her party's anti-Europe, anti-immigrant discourse.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "European Union", "references": ["European Union"] },
+      "target": { "topic": "reform", "references": ["fundamentally reforming the EU"] },
+      "justifications": [
+        "\"Other presidential wannabes are also issuing strong calls for fundamentally reforming the EU, if not completely overhauling a project that grew out of a postwar coal and steel pact between France and Germany.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Marine le Pen", "references": ["Marine le Pen"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"Le Pen exults in the British exit vote as a call to freedom.\"",
+        "\"Le Pen hopes to quicken that end, vowing to hold a \\\"Frexit\\\" poll if she's elected.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Marine le Pen", "references": ["Marine le Pen"] },
+      "entity2": { "entity": "Sarkozy", "references": ["Nicolas Sarkozy"] },
+      "justifications": [
+        "\"Though such discourse is not unique to France - populist parties elsewhere in Europe are embracing it - it has triggered some alarm bells.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicolas Sarkozy", "references": ["Sarkozy"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": [
+        "\"Sarkozy has really intensified his anti-Brussels rhetoric, and that's a very big problem.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Alexandra de Hoop Scheffer", "references": ["Alexandra de Hoop Scheffer"] },
+      "entity2": { "entity": "Nicolas Sarkozy", "references": ["Sarkozy"] },
+      "justifications": [
+        "\"Sarkozy has really intensified his anti-Brussels rhetoric, and that's a very big problem, said Alexandra de Hoop Scheffer, head of the German Marshall Fund of the US's Paris office.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "José Manuel Barroso",
+        "references": ["José Manuel Barroso"]
+      },
+      "target": {
+        "topic": "Brexit impact on the financial sector",
+        "references": ["fallout from the UK's shock decision to leave the EU", "mitigate the negative effects of the referendum decision"]
+      },
+      "justifications": [
+        "he would do what he could to 'mitigate the negative effects' of the referendum decision"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "José Manuel Barroso",
+        "references": ["José Manuel Barroso"]
+      },
+      "target": {
+        "topic": "Brexit impact on the financial sector",
+        "references": ["If the UK loses access to the EU single market"]
+      },
+      "justifications": [
+        "If the UK loses access to the EU single market, US banks may need to move big parts of their large European businesses out of London"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "José Manuel Barroso",
+        "references": ["José Manuel Barroso"]
+      },
+      "entity2": {
+        "entity": "Goldman Sachs",
+        "references": ["Goldman Sachs"]
+      },
+      "justifications": [
+        "Goldman Sachs has hired José Manuel Barroso, the former head of the European Commission, to help it through the fallout from the UK's shock decision to leave the EU"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "José Manuel Barroso",
+        "references": ["José Manuel Barroso"]
+      },
+      "entity2": {
+        "entity": "Peter Sutherland",
+        "references": ["Peter Sutherland"]
+      },
+      "justifications": [
+        "His advice and counsel in this time of monumental change and uncertainty... will be very important, said Peter Sutherland"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "José Manuel Barroso",
+        "references": ["José Manuel Barroso"]
+      },
+      "entity2": {
+        "entity": "Claes Dahlbäck",
+        "references": ["Claes Dahlbäck"]
+      },
+      "justifications": [
+        "Since then, the post has been filled by GSI non-executive director Claes Dahlbäck"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Mike Lee", "references": ["Mike Lee"] },
+      "target": { "topic": "U.S.-UK trade agreements", "references": ["trade deals with Britain", "United Kingdom Trade Continuity Act"] },
+      "justifications": [
+        "Our nation's special relationship with the United Kingdom has promoted economic prosperity and security in both countries for over a hundred years.",
+        "This relationship can and should be preserved, which is why we have introduced legislation that would minimize uncertainty and promote stability as the United Kingdom declares their independence from the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Tom Cotton", "references": ["Tom Cotton"] },
+      "target": { "topic": "U.S.-UK trade agreements", "references": ["trade deals with Britain", "United Kingdom Trade Continuity Act"] },
+      "justifications": [
+        "The United Kingdom has stood with us at the front lines of battle, and it should therefore be at the front of the line for a free trade agreement that benefits both our nations.",
+        "At this time of transition for our ancestral ally, it is in our deepest interest to reaffirm the Special Relationship."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "European allies", "references": ["European allies"] },
+      "target": { "topic": "U.S.-UK trade agreements", "references": ["trade deals with Britain", "United Kingdom Trade Continuity Act"] },
+      "justifications": [
+        "And it is my hope that our other European allies will also move in the spirit of magnanimity, generosity, and continued friendship as they negotiate new partnerships with the United Kingdom."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mike Lee", "references": ["Mike Lee"] },
+      "entity2": { "entity": "Barack Obama", "references": ["President Obama"] },
+      "justifications": [
+        "Senator Lee was one of three U.S. senators to condemn President Obama for telling the UK to stay in the EU.",
+        "The United States, as a nation founded on the sovereign and democratic voice of the American people, must respect the sovereignty of other democratic peoples, and their inalienable right to determine their own destiny."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tom Cotton", "references": ["Tom Cotton"] },
+      "entity2": { "entity": "Barack Obama", "references": ["President Obama"] },
+      "justifications": [
+        "Senator Lee was one of three U.S. senators to condemn President Obama for telling the UK to stay in the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

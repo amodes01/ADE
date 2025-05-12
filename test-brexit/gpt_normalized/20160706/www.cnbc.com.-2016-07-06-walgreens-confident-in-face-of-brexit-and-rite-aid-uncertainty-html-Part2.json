@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Walgreens",
+        "references": [
+          "Walgreens"
+        ]
+      },
+      "target": {
+        "topic": "Rite Aid merger",
+        "references": [
+          "pending $9.5 billion acquisition of Rite Aid"
+        ]
+      },
+      "justifications": [
+        "Walgreens has already raised the capital it needs to fund the completion of the Rite Aid merger."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Rite Aid",
+        "references": [
+          "pending $9.5 billion acquisition of Rite Aid"
+        ]
+      },
+      "target": {
+        "topic": "Rite Aid merger",
+        "references": [
+          "pending $9.5 billion acquisition of Rite Aid"
+        ]
+      },
+      "justifications": [
+        "Rite Aid shares were recently up nearly 2 percent on the day at $7.44."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Walgreens",
+        "references": [
+          "Walgreens"
+        ]
+      },
+      "entity2": {
+        "entity": "Rite Aid",
+        "references": [
+          "pending $9.5 billion acquisition of Rite Aid"
+        ]
+      },
+      "justifications": [
+        "Walgreens has already raised the capital it needs to fund the completion of the Rite Aid merger."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

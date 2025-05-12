@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Associated British Foods (ABP)",
+        "references": ["ABP"]
+      },
+      "target": {
+        "topic": "Brexit impact on UK sales",
+        "references": ["concerns that Brexit will hit its UK sales"]
+      },
+      "justifications": [
+        "The budget clothing retailer, which trades under the Primark brand outside of Ireland, has recently been making major inroads into Europe, opening stores in Spain, France and Italy."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Associated British Foods (ABP)",
+        "references": ["ABP"]
+      },
+      "target": {
+        "topic": "sterling drop",
+        "references": ["drop in sterling"]
+      },
+      "justifications": [
+        "ABP said that although the chain could be impacted by the drop in sterling its growth plans are still on course."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Associated British Foods (ABP)",
+        "references": ["ABP"]
+      },
+      "target": {
+        "topic": "Primark expansion",
+        "references": ["plans for Primark's expansion"]
+      },
+      "justifications": [
+        "We remain optimistic for the group's continued growth, particularly with our plans for Primark's expansion which remain unchanged."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Primark",
+        "references": ["Primark"]
+      },
+      "entity2": {
+        "entity": "Associated British Foods (ABP)",
+        "references": ["ABP"]
+      },
+      "justifications": [
+        "ABP said that although the chain could be impacted by the drop in sterling its growth plans are still on course."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Primark",
+        "references": ["Primark"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The firm's expansion plans are still on course despite concerns that Brexit will hit its UK sales."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Breege O'Donoghue",
+        "references": ["Breege O'Donoghue"]
+      },
+      "entity2": {
+        "entity": "Primark",
+        "references": ["Primark"]
+      },
+      "justifications": [
+        "Last month long-standing director Breege O'Donoghue, who was one of the most powerful people in Irish retailing, stepped down from her role after 37 years with the firm."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

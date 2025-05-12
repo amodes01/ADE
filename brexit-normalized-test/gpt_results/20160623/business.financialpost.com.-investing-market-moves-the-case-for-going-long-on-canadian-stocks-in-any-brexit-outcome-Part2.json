@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Belisle", "references": ["Belisle"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["In the event of a Brexit, developed world markets could plunge as much as 8 per cent over the following two trading days, Belisle said.", "The Canadian market meanwhile could drop 6 per cent to 12 per cent."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Belisle", "references": ["Belisle"]},
+      "target": {"topic": "Brexit outcome", "references": ["Brexit fails"]},
+      "justifications": ["This presents an opportunity for options investors to take advantage by buying cheap calls if Brexit fails."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Shaun Osborne", "references": ["Shaun Osborne"]},
+      "target": {"topic": "Brexit impact on Canadian dollar", "references": ["The vote's impact on Canada's currency"]},
+      "justifications": ["The vote's impact on Canada's currency meanwhile is likely to be muted, said Shaun Osborne, chief foreign-exchange strategist at Bank of Nova Scotia."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Shaun Osborne", "references": ["Shaun Osborne"]},
+      "target": {"topic": "Brexit impact on Canadian dollar", "references": ["the Canadian dollar, or loonie"]},
+      "justifications": ["Osborne estimates the Canadian dollar, or loonie, may strengthen to as high as $1.2650 in the event of a 'Remain' vote, or fall to $1.34 against the U.S. dollar in an exit."]
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Belisle", "references": ["Belisle"]},
+      "entity2": {"entity": "Hans Albrecht", "references": ["Hans Albrecht"]},
+      "justifications": ["Belisle will be on the hunt for Canadian energy stocks.", "Albrecht said buying inexpensively priced upside calls makes great sense."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Shaun Osborne", "references": ["Shaun Osborne"]},
+      "entity2": {"entity": "Belisle", "references": ["Belisle"]},
+      "justifications": ["The Canadian market meanwhile could drop 6 per cent to 12 per cent.", "Osborne estimates the Canadian dollar, or loonie, may strengthen to as high as $1.2650."]
+      "attitude": "Neutral"
+    }
+  ]
+}

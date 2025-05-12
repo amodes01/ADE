@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Vladimir Putin", "references": ["Russian President Vladimir Putin"]},
+      "target": {"topic": "Brexit", "references": ["outcome of tomorrow's vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Vladimir Putin will take a keen interest in the outcome of tomorrow's vote in Britain on whether to exit the European Union.", "He wants it."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Asian automakers", "references": ["Asian automakers"]},
+      "target": {"topic": "Brexit", "references": ["vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Asian automakers are against it."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Indian conglomerates", "references": ["Indian conglomerates"]},
+      "target": {"topic": "Brexit", "references": ["vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Indian conglomerates are against it."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Preemptive Love Coalition", "references": ["American aid group Preemptive Love Coalition"]},
+      "target": {"topic": "aid to Fallujah residents", "references": ["bring aid to the estimated 90,000 Fallujah residents in dire need"]},
+      "justifications": ["The American aid group Preemptive Love Coalition continues to bring aid to the estimated 90,000 Fallujah residents in dire need."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Harvard scholar", "references": ["Harvard scholar"]},
+      "target": {"topic": "The Jesus Fragment", "references": ["The Gospel of Jesus' Wife", "The Jesus Fragment"]},
+      "justifications": ["The Harvard scholar who 'discovered' it now admits as much."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Vladimir Putin", "references": ["Russian President Vladimir Putin"]},
+      "entity2": {"entity": "Brexit", "references": ["outcome of tomorrow's vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Vladimir Putin will take a keen interest in the outcome of tomorrow's vote in Britain on whether to exit the European Union.", "He wants it."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Asian automakers", "references": ["Asian automakers"]},
+      "entity2": {"entity": "Brexit", "references": ["vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Asian automakers are against it."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Indian conglomerates", "references": ["Indian conglomerates"]},
+      "entity2": {"entity": "Brexit", "references": ["vote in Britain on whether to exit the European Union"]},
+      "justifications": ["Indian conglomerates are against it."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Preemptive Love Coalition", "references": ["American aid group Preemptive Love Coalition"]},
+      "entity2": {"entity": "Fallujah residents", "references": ["Fallujah residents in dire need"]},
+      "justifications": ["The American aid group Preemptive Love Coalition continues to bring aid to the estimated 90,000 Fallujah residents in dire need."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Harvard scholar", "references": ["Harvard scholar"]},
+      "entity2": {"entity": "The Jesus Fragment", "references": ["The Gospel of Jesus' Wife", "The Jesus Fragment"]},
+      "justifications": ["The Harvard scholar who 'discovered' it now admits as much."],
+      "attitude": "Negative"
+    }
+  ]
+}

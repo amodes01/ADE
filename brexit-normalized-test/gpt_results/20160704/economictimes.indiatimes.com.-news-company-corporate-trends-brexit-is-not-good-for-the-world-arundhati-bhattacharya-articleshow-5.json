@@ -1,0 +1,77 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit is 'not good' for the world, as becoming less inclusive and less connected is not the right thing",
+        "I would say Brexit is not something that probably is good for the world",
+        "Brexit is 'not the right thing' as the more connected and more collaborative the world gets today, it will be better for everyone",
+        "The less inclusive we become, I think it is not good for the world at large"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "target": {"topic": "globalisation", "references": ["globalisation"]},
+      "justifications": [
+        "I believe that we will benefit more by globalisation"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "target": {"topic": "market access for India to the EU and Britain", "references": ["better market access for India to the EU and Britain"]},
+      "justifications": [
+        "Brexit will provide India better market access to the European Union and England"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit is 'not good' for the world",
+        "Brexit is not something that probably is good for the world",
+        "Brexit is 'not the right thing'",
+        "The less inclusive we become, I think it is not good for the world at large"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "entity2": {"entity": "globalisation", "references": ["globalisation"]},
+      "justifications": [
+        "I believe that we will benefit more by globalisation"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Brexit will provide India better market access to the European Union and England"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "entity2": {"entity": "SBI", "references": ["SBI"]},
+      "justifications": [
+        "Brexit will not have too much of an impact on SBI directly",
+        "the bank has 12 branches in the UK that cater to particular niche operations"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Arundhati Bhattacharya", "references": ["Arundhati Bhattacharya"]},
+      "entity2": {"entity": "SBI", "references": ["SBI"]},
+      "justifications": [
+        "While stressing that Brexit will have very little impact on SBI operations"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

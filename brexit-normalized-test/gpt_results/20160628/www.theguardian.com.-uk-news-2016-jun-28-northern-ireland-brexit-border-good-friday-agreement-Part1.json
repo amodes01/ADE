@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "EU", "references": ["EU"] },
+      "justifications": ["Bruce Morrison... said on Monday: \"I think overall it's a terrible decision for the EU, the west and Europe.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "Good Friday Agreement", "references": ["Good Friday agreement"] },
+      "justifications": ["Bruce Morrison... insisted, but Northern Ireland will miss the billions of pounds it receives in EU funding. \"I do not think that it's going to unravel the agreement.\""],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "Northern Ireland", "references": ["Northern Ireland"] },
+      "justifications": ["Bruce Morrison... said, but Northern Ireland will miss the billions of pounds it receives in EU funding."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "Irish reunification", "references": ["poll on Irish reunification"] },
+      "justifications": ["Martin McGuinness... called for a poll on Irish reunification."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "hard border", "references": ["hard border"] },
+      "justifications": ["Bruce Morrison... said: \"A hard border would be a horrendous result.\""],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Bruce Morrison", "references": ["Bruce Morrison"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["Bruce Morrison... said on Monday: \"I think overall it's a terrible decision for the EU, the west and Europe.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bruce Morrison", "references": ["Bruce Morrison"] },
+      "entity2": { "entity": "Republic of Ireland", "references": ["Republic of Ireland"] },
+      "justifications": ["Bruce Morrison... urged politicians to retain the free, near seamless passage that people currently enjoy between north and south."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Sinn Féin", "references": ["Sinn Féin"] },
+      "entity2": { "entity": "Republic of Ireland", "references": ["Republic of Ireland"] },
+      "justifications": ["Martin McGuinness... called for a poll on Irish reunification."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Sinn Féin", "references": ["Sinn Féin"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": ["Martin McGuinness... called for a poll on Irish reunification."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bruce Morrison", "references": ["Bruce Morrison"] },
+      "entity2": { "entity": "Sinn Féin", "references": ["Sinn Féin"] },
+      "justifications": ["A member of Congress from Connecticut from 1983 to 1991, Morrison helped secure a US visa for Sinn Féin's Gerry Adams, enabling negotiations that culminated in the Good Friday agreement."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Bruce Morrison", "references": ["Bruce Morrison"] },
+      "entity2": { "entity": "Theresa Villiers", "references": ["Theresa Villiers"] },
+      "justifications": ["Morrison endorsed the current Northern Ireland secretary Theresa Villiers' view that there is not majority support for such a poll."],
+      "attitude": "Positive"
+    }
+  ]
+}

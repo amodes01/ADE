@@ -1,0 +1,43 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "around 20 startup banks and financial firms", "references": ["around 20 startup banks and financial firms"]},
+      "target": {"topic": "investment in Britain", "references": ["invest plans", "invest in Britain"]},
+      "justifications": ["Around 20 startup banks and financial firms have reaffirmed plans to invest a total of up to 500 million pounds to open in Britain."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "PwC", "references": ["PwC"]},
+      "target": {"topic": "investment in Britain", "references": ["invest plans", "invest in Britain"]},
+      "justifications": ["These investment plans will be a boost for Britain's financial services sector."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "around 20 startup banks and financial firms", "references": ["around 20 startup banks and financial firms"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "vote to leave the European Union"]},
+      "justifications": ["These investment plans will be a boost for Britain's financial services sector, beset by rumours of job cuts and firms moving overseas in the aftermath of Britain's vote to leave the European Union."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "target": {"topic": "Brexit job cuts", "references": ["moving thousands of jobs out of Britain"]},
+      "justifications": ["Since the Brexit vote last week, banks, including Goldman Sachs have denied rumours they are already moving thousands of jobs out of Britain as a result of the referendum."]
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "around 20 startup banks and financial firms", "references": ["around 20 startup banks and financial firms"]},
+      "entity2": {"entity": "PwC", "references": ["PwC"]},
+      "justifications": ["PwC said the around 20 clients investing in Britain were not only mainstream banks, mortgage lenders and asset managers."]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "around 20 startup banks and financial firms", "references": ["around 20 startup banks and financial firms"]},
+      "entity2": {"entity": "Goldman Sachs", "references": ["Goldman Sachs"]},
+      "justifications": ["There are a range of new technology-enabled banks, fintech businesses, commercial banks and even niche investment banks who have identified gaps in the market in part caused by big global banks having pulled out of some businesses over the past few years."]
+      "attitude": "Negative"
+    }
+  ]
+}

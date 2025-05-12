@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Labor", "references": ["Labor"] },
+      "target": { "topic": "vaccination records", "references": ["students' vaccination records"] },
+      "justifications": [
+        "Labor will widen its scare campaign to claim students' vaccination records could end up in the hands of private companies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Treasury", "references": ["Treasury"] },
+      "target": { "topic": "corporate tax cut", "references": ["corporate tax cut"] },
+      "justifications": [
+        "Treasury-commissioned analysis says the Coalition's corporate tax cut would deliver 'one of the largest pay-offs imaginable from a government decision.'"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Labor", "references": ["Labor"] },
+      "entity2": { "entity": "Coalition", "references": ["the Coalition"] },
+      "justifications": [
+        "Labor will widen its scare campaign to claim students' vaccination records could end up in the hands of private companies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Dr. Lynn Simpson", "references": ["Dr Lynn Simpson"] },
+      "entity2": { "entity": "Commonwealth", "references": ["the Commonwealth"] },
+      "justifications": [
+        "A senior vet was expelled from her government role after she exposed the pain and suffering of the live cattle export trade."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Dr. Lynn Simpson", "references": ["Dr Lynn Simpson"] },
+      "entity2": { "entity": "live cattle export trade", "references": ["live cattle export trade"] },
+      "justifications": [
+        "A senior vet was expelled from her government role after she exposed the pain and suffering of the live cattle export trade, including animals coated in faeces and dying of heat exhaustion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bihar", "references": ["Bihar"] },
+      "entity2": { "entity": "India", "references": ["India"] },
+      "justifications": [
+        "Bihar is one of India's poorest states and borders Nepal in the north-east of the country."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "India", "references": ["India"] },
+      "entity2": { "entity": "lightning strikes", "references": ["lightning strikes"] },
+      "justifications": [
+        "Lightning strikes are a big killer in India."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

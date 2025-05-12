@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["British exit"] },
+      "target": { "topic": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "justifications": ["a British exit will likely result in a massive rebalancing of currencies."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "target": { "topic": "currency safety", "references": ["Swiss franc", "Japanese yen", "U.S. dollar"] },
+      "justifications": ["Investors will (and have already begun to) dive out of the British pound and into cash that's perceived as safe - the Swiss franc, the Japanese yen, the U.S. dollar."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "target": { "topic": "euro weakening", "references": ["euro could also see some weakening"] },
+      "justifications": ["The euro could also see some weakening if investors are worried about the fate of the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "target": { "topic": "economic tumult", "references": ["short- and medium-term economic tumult"] },
+      "justifications": ["The fallout from those currency moves could be another source of short- and medium-term economic tumult."],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "British exit", "references": ["British exit"] },
+      "entity2": { "entity": "investors", "references": ["investors"] },
+      "justifications": ["Investors will (and have already begun to) dive out of the British pound and into cash that's perceived as safe - the Swiss franc, the Japanese yen, the U.S. dollar."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "entity2": { "entity": "American multinational corporations", "references": ["American multinational corporations"] },
+      "justifications": ["such a large, sudden currency swing could have significant negative implications for American multinational corporations."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "entity2": { "entity": "Swiss franc", "references": ["Swiss franc"] },
+      "justifications": ["Investors will (and have already begun to) dive out of the British pound and into cash that's perceived as safe - the Swiss franc, the Japanese yen, the U.S. dollar."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "entity2": { "entity": "Japanese yen", "references": ["Japanese yen"] },
+      "justifications": ["Investors will (and have already begun to) dive out of the British pound and into cash that's perceived as safe - the Swiss franc, the Japanese yen, the U.S. dollar."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "currency rebalancing", "references": ["massive rebalancing of currencies"] },
+      "entity2": { "entity": "U.S. dollar", "references": ["U.S. dollar"] },
+      "justifications": ["Investors will (and have already begun to) dive out of the British pound and into cash that's perceived as safe - the Swiss franc, the Japanese yen, the U.S. dollar."],
+      "attitude": "Positive"
+    }
+  ]
+}

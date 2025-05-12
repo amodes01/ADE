@@ -1,0 +1,202 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "U.S. business leaders",
+        "references": ["U.S. business leaders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Overwhelmingly, U.S. business leaders are pulling for the U.K. to remain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "U.S. business leaders",
+        "references": ["U.S. business leaders"]
+      },
+      "target": {
+        "topic": "U.K.'s economic future",
+        "references": ["U.K.'s economic future"]
+      },
+      "justifications": [
+        "They fear such a big change might derail the U.K. economy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "U.S. business leaders",
+        "references": ["U.S. business leaders"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "They fear such a big change might unravel the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brian Peck",
+        "references": ["Brian Peck"]
+      },
+      "target": {
+        "topic": "U.K.'s stay in the EU",
+        "references": ["the U.K. stay in the EU"]
+      },
+      "justifications": [
+        "Brian Peck said his state's business leaders would rather see the U.K. stay in the EU 'for the stability of it.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Brian Peck",
+        "references": ["Brian Peck"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "If the U.K. votes to leave, 'it could have a domino effect on Europe,' creating regulatory chaos."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Jeremy Cauthen",
+        "references": ["Jeremy Cauthen"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "He did not want to take sides on Brexit specifically."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Jeremy Cauthen",
+        "references": ["Jeremy Cauthen"]
+      },
+      "target": {
+        "topic": "European companies' prosperity",
+        "references": ["European companies are prosperous"]
+      },
+      "justifications": [
+        "It helps when European companies are prosperous and looking to expand."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Stephanie Dybsky",
+        "references": ["Stephanie Dybsky"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Stephanie Dybsky said her state's smaller businesses are not paying much attention to Brexit."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Stephanie Dybsky",
+        "references": ["Stephanie Dybsky"]
+      },
+      "target": {
+        "topic": "U.K.'s potential exit from EU",
+        "references": ["U.K. were to leave the EU"]
+      },
+      "justifications": [
+        "If the U.K. were to leave the EU, then those Colorado companies would face tough decisions about moving operations from the U.K. to the continent."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "entity2": {
+        "entity": "U.S. business leaders",
+        "references": ["U.S. business leaders"]
+      },
+      "justifications": [
+        "Overwhelmingly, U.S. business leaders are pulling for the U.K. to remain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "They fear such a big change might unravel the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "entity2": {
+        "entity": "Brian Peck",
+        "references": ["Brian Peck"]
+      },
+      "justifications": [
+        "Brian Peck said his state's business leaders would rather see the U.K. stay in the EU 'for the stability of it.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Jeremy Cauthen",
+        "references": ["Jeremy Cauthen"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "He did not want to take sides on Brexit specifically."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jeremy Cauthen",
+        "references": ["Jeremy Cauthen"]
+      },
+      "entity2": {
+        "entity": "European companies",
+        "references": ["European companies"]
+      },
+      "justifications": [
+        "It helps when European companies are prosperous and looking to expand."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

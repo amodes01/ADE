@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Author", "references": ["Let us hope we can at least have an angry populace election in 2016"]},
+      "target": {"topic": "Trump's policies", "references": ["Mr. Trump can formulate, articulate and implement sound, practical, job-creating, economy-stimulating policies"]},
+      "justifications": ["Let us hope we can at least have an angry populace election in 2016.", "And if Mr. Trump can formulate, articulate and implement sound, practical, job-creating, economy-stimulating policies"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Author", "references": ["we gained independence from Britain over far less serious Abuses and Usurpations"]},
+      "target": {"topic": "tyrannical centralized leftist government", "references": ["tyrannical centralized, leftist government"]},
+      "justifications": ["We gained independence from Britain over far less serious Abuses and Usurpations."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Author", "references": ["We gained independence from Britain over far less serious Abuses and Usurpations"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["We gained independence from Britain over far less serious Abuses and Usurpations."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Author", "references": ["Let us hope we can at least have an angry populace election in 2016"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Mr. Trump"]},
+      "justifications": ["Let us hope we can at least have an angry populace election in 2016."],
+      "attitude": "Positive"
+    }
+  ]
+}

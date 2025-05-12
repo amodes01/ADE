@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Financial Times", "references": ["Financial Times"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Financial Times: Young people will be the losers if Britain opts for isolation"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "New York Times", "references": ["New York Times"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["New York Times: Jo Cox and Britain's Place in Europe"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Daily Telegraph", "references": ["Daily Telegraph"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Daily Telegraph: Brexit is not about nostalgia. It's about ambition."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Lionel Barber", "references": ["Lionel Barber"]},
+      "entity2": {"entity": "Roger Cohen", "references": ["Roger Cohen"]},
+      "justifications": ["Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Lionel Barber", "references": ["Lionel Barber"]},
+      "entity2": {"entity": "Tim Stanley", "references": ["Tim Stanley"]},
+      "justifications": ["Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Roger Cohen", "references": ["Roger Cohen"]},
+      "entity2": {"entity": "Tim Stanley", "references": ["Tim Stanley"]},
+      "justifications": ["Big voices Lionel Barber, Roger Cohen and more weigh in on the Brexit vote."],
+      "attitude": "Neutral"
+    }
+  ]
+}

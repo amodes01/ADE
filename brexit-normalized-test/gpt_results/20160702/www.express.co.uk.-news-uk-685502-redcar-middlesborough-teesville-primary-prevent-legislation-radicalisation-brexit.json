@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Parents of the child",
+        "references": ["The father of the child", "We"]
+      },
+      "target": {
+        "topic": "Prevent legislation",
+        "references": ["Prevent legislation"]
+      },
+      "justifications": [
+        "We are fuming that the school has taken this action against our child",
+        "We are not happy that they have been singled out in this way."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Theresa May",
+        "references": ["Theresa May"]
+      },
+      "target": {
+        "topic": "Prevent legislation",
+        "references": ["Prevent legislation"]
+      },
+      "justifications": [
+        "Theresa May has pushed forward the campaign to get schools working under Prevent legislation"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Parents of the child",
+        "references": ["The father of the child", "We"]
+      },
+      "entity2": {
+        "entity": "Teesville Primary School staff",
+        "references": ["staff at Teesville primary school"]
+      },
+      "justifications": [
+        "We are fuming that the school has taken this action against our child",
+        "We are not happy that they have been singled out in this way."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Teesville Primary School staff",
+        "references": ["staff at Teesville primary school"]
+      },
+      "entity2": {
+        "entity": "Parents of the child",
+        "references": ["The father of the child", "We"]
+      },
+      "justifications": [
+        "The deputy head of Teesville Primary said the incident was 'a minor issue' that was dealt with internally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Theresa May",
+        "references": ["Theresa May"]
+      },
+      "entity2": {
+        "entity": "Parents of the child",
+        "references": ["We"]
+      },
+      "justifications": [
+        "Theresa May has pushed forward the campaign to get schools working under Prevent legislation"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

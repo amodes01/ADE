@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "Three Amigos summit", "references": ["Three Amigos summit"] },
+      "justifications": [
+        "Obama, Canadian Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto hold the so-called Three Amigos summit Wednesday in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "clean power", "references": ["produce more clean power"] },
+      "justifications": [
+        "The countries will vow to produce more clean power and cut methane emissions."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "methane emissions", "references": ["cut methane emissions"] },
+      "justifications": [
+        "The countries will vow to produce more clean power and cut methane emissions."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "President Obama", "references": ["President Obama"] },
+      "target": { "topic": "economic ties", "references": ["strengthening economic ties"] },
+      "justifications": [
+        "The countries will vow to produce more clean power and cut methane emissions while strengthening economic ties."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "Justin Trudeau", "references": ["Justin Trudeau"] },
+      "justifications": [
+        "Obama, Canadian Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto hold the so-called Three Amigos summit Wednesday in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "President Obama", "references": ["President Obama"] },
+      "entity2": { "entity": "Enrique Pena Nieto", "references": ["Enrique Pena Nieto"] },
+      "justifications": [
+        "Obama, Canadian Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto hold the so-called Three Amigos summit Wednesday in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Justin Trudeau", "references": ["Justin Trudeau"] },
+      "entity2": { "entity": "Enrique Pena Nieto", "references": ["Enrique Pena Nieto"] },
+      "justifications": [
+        "Obama, Canadian Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto hold the so-called Three Amigos summit Wednesday in Ottawa."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Barack Obama", "references": ["Obama"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The shadow of Brexit and rising protectionist sentiment loom large as US President Barack Obama meets his North American counterparts."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

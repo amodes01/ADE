@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Priti Patel",
+        "references": ["Priti Patel"]
+      },
+      "target": {
+        "topic": "European Union membership",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "Euroskeptic MP Priti Patel thinks the opposite is true, citing the common Vote Leave platform that bilateral relations with countries beyond the E.U. would improve if there is a vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Umunna",
+        "references": ["Umunna"]
+      },
+      "target": {
+        "topic": "European Union membership",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "has been very clear that Britain amplifies its influence by being a member of the European Union"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Priti Patel",
+        "references": ["Priti Patel"]
+      },
+      "entity2": {
+        "entity": "Umunna",
+        "references": ["Umunna"]
+      },
+      "justifications": [
+        "Priti Patel thinks the opposite is true"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Umunna",
+        "references": ["Umunna"]
+      },
+      "entity2": {
+        "entity": "Priti Patel",
+        "references": ["Priti Patel"]
+      },
+      "justifications": [
+        "has been very clear that Britain amplifies its influence by being a member of the European Union"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

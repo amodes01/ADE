@@ -1,0 +1,87 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Canada", "references": ["Canada"]},
+      "target": {"topic": "trade", "references": ["pro-trade tone", "growing North American co-operation", "working together", "we believe in trade"]},
+      "justifications": [
+        "\"It's a great message to the world that we are working together, we believe in trade, we have progressive governments,\" said McKenna."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Mexico", "references": ["Mexico"]},
+      "target": {"topic": "trade", "references": ["pro-trade tone", "growing North American co-operation", "working together", "we believe in trade"]},
+      "justifications": [
+        "\"It's a great message to the world that we are working together, we believe in trade, we have progressive governments,\" said McKenna."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["U.S."]},
+      "target": {"topic": "trade", "references": ["anti-trade", "more inward-looking about American interests"]},
+      "justifications": [
+        "Canada and Mexico must also take the opportunity to strengthen their bilateral co-operation as a counterweight to an incoming U.S. administration in 2017 that is likely to be anti-trade and more inward-looking about American interests, experts say."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["Britain"]},
+      "target": {"topic": "Brexit", "references": ["shock Brexit vote", "Brexit vote", "Britain-EU divorce", "Brexit fallout"]},
+      "justifications": [
+        "The U.K. and global markets reel from shock Brexit vote",
+        "Now, the Brexit vote, which marks the start of an unprecedented negotiation to take Britain out of the EU, provides a stormy backdrop to the carefully crafted, sunny script of North American co-operation and solidarity."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote", "Brexit fallout"]},
+      "justifications": [
+        "\"The European Union is the biggest market in the world and its fate \\\"has very important implications for North America.\\\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Prime Minister Justin Trudeau", "references": ["Trudeau"]},
+      "entity2": {"entity": "Mexican President Enrique Pena Nieto", "references": ["Mexican President Enrique Pena Nieto", "Pena Nieto"]},
+      "justifications": [
+        "Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto will join Obama in the trilateral meeting, before Obama addresses Parliament later on Wednesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Prime Minister Justin Trudeau", "references": ["Trudeau"]},
+      "entity2": {"entity": "President Barack Obama", "references": ["Obama"]},
+      "justifications": [
+        "Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto will join Obama in the trilateral meeting, before Obama addresses Parliament later on Wednesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Mexican President Enrique Pena Nieto", "references": ["Mexican President Enrique Pena Nieto", "Pena Nieto"]},
+      "entity2": {"entity": "President Barack Obama", "references": ["Obama"]},
+      "justifications": [
+        "Prime Minister Justin Trudeau and Mexican President Enrique Pena Nieto will join Obama in the trilateral meeting, before Obama addresses Parliament later on Wednesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Prime Minister Justin Trudeau", "references": ["Trudeau"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "The presumptive Republican nominee Donald Trump has talked about new trade barriers and criticized international military co-operation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "his Democratic rival, Hillary Clinton, has opposed the new Trans-Pacific Partnership deal."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

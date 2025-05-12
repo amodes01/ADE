@@ -1,0 +1,92 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "David Millibrand",
+        "references": ["David Millibrand"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"This referendum was really an up-or-down vote for the European institution, which is undervalued.\"",
+        "\"The trouble is you have to live with the consequences.\"",
+        "\"Populism is popular until it gets elected.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Sen. Bob Corker",
+        "references": ["Sen. Bob Corker"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"I'm upbeat about Brexit, adding it's exciting to see Western civilization realize that the direction we are going is not a good direction.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Sen. Bernie Sanders",
+        "references": ["Sen. Bernie Sanders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"What ordinary people are saying is give us an economy that works for all of us and not just the people on top, and I think to a significant degree that's what this Brexit vote was all about.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "David Millibrand",
+        "references": ["David Millibrand"]
+      },
+      "entity2": {
+        "entity": "Vladimir Putin",
+        "references": ["Vladimir Putin"]
+      },
+      "justifications": [
+        "\"When [Russian President] Vladimir Putin is cheering, you know you have got a problem in the international system.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Millibrand",
+        "references": ["David Millibrand"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["Britain", "the U.K."]
+      },
+      "justifications": [
+        "\"The great danger now is that while the friendship will stay between the U.K. and U.S., the partnership does not have the same kind of influence or drive.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Sen. Bob Corker",
+        "references": ["Sen. Bob Corker"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": ["Britain", "the U.K."]
+      },
+      "justifications": [
+        "\"I think the vote will draw America and Britain closer.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

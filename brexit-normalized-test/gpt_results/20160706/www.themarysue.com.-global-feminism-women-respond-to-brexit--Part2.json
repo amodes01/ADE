@@ -1,0 +1,84 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Women for Brexit", "references": ["Women for Brexit camp"]},
+      "target": {"topic": "Women's Rights", "references": ["Women's Rights"]},
+      "justifications": ["the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "Women's Rights", "references": ["Women's Rights"]},
+      "justifications": ["Britain has long been the champion of women's rights"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "EU Laws", "references": ["EU created rules", "protections from discrimination", "equal pay for equal work"]},
+      "justifications": ["Apparently, before the EU created rules around this, the UK only had laws for race and gender discrimination"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "Brexit", "references": ["decision to leave the EU"]},
+      "justifications": ["the decision to leave the EU means that all the protections that were fought for so hard to improve the lives of women in the workplace are now up in the air"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Dr. Roberta Guerrina", "references": ["Dr Roberta Guerrina"]},
+      "target": {"topic": "Brexit", "references": ["move to leave the EU"]},
+      "justifications": ["moves towards equality are always the most in danger at times of economic crisis, which is exactly what this move to leave the EU will be bringing to the UK"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Dr. Roberta Guerrina", "references": ["Dr Roberta Guerrina"]},
+      "target": {"topic": "Equality", "references": ["Equality"]},
+      "justifications": ["Equality is something that governments promote in times of economic prosperity, but seems to be acceptable collateral damage at points of crises"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Dr. Roberta Guerrina", "references": ["Dr Roberta Guerrina"]},
+      "target": {"topic": "Austerity", "references": ["austerity"]},
+      "justifications": ["Social justice, gender equality and equal pay have taken a significant set back due to austerity"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Laurie Penny", "references": ["Laurie Penny"]},
+      "target": {"topic": "Brexit", "references": ["The British People Have Been Suckered", "Brexit"]},
+      "justifications": ["wrote about her fears for the most marginalized among the UK's citizens in a piece for Time Magazine called \"The British People Have Been Suckered\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Laurie Penny", "references": ["Laurie Penny"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["No, not everyone who voted \"leave\" is a swivel-eyed bigot. But the people who are largely voted that way, and the many gentler citizens who did the same now have to live with the fact that they have helped to empower the worst impulses of the angriest, most desperate people in this country at a time when racism is the only recognized outlet for working-class rage"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Laurie Penny", "references": ["Laurie Penny"]},
+      "target": {"topic": "Racism", "references": ["racism"]},
+      "justifications": ["racism is the only recognized outlet for working-class rage"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Laurie Penny", "references": ["Laurie Penny"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["this vote has ushered in a very uncertain time for women"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Women for Brexit", "references": ["Women for Brexit camp"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["the Women for Brexit camp seems to believe that everything is honky-dory with regard to Women's Rights"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Laurie Penny", "references": ["Laurie Penny"]},
+      "entity2": {"entity": "Brexit Voters", "references": ["people who voted \"leave\""]},
+      "justifications": ["the people who are largely voted that way, and the many gentler citizens who did the same now have to live with the fact that they have helped to empower the worst impulses of the angriest, most desperate people in this country"],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Nicola Blackwood", "references": ["Nicola Blackwood"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Naughty Cat worries we will be on the outside looking in, missing influence we once had #CatsAgainstBrexit"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Maria Caulfield", "references": ["Maria Caulfield"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["My cat is praying for #Brexit #CatsForBrexit"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "GFDavies", "references": ["GFDavies"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["We are voting in. Are you sure? In. Or out? Definitely in. In, okay. Do not shut the door. #CatsAgainstBrexit #fickle"],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nicola Blackwood", "references": ["Nicola Blackwood"] },
+      "entity2": { "entity": "Maria Caulfield", "references": ["Maria Caulfield"] },
+      "justifications": ["Naughty Cat worries we will be on the outside looking in, missing influence we once had #CatsAgainstBrexit", "My cat is praying for #Brexit #CatsForBrexit"],
+      "attitude": "Negative"
+    }
+  ]
+}

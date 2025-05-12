@@ -1,0 +1,187 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": [
+          "Nigel Farage"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "Then came the shock of watching Brexit improbably take the lead in early returns.",
+        "Except the British people ended up taking his advice."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "Both the UK and EU must handle separation with maturity unusual for politicians, especially those in Brussels."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "United Kingdom Independence Party",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "UKIP was able to break into the European Parliament, which it hated, but won only one seat at Westminster, despite receiving 3.9 million votes, or 12.6 percent of the total, in last year's election."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Tories",
+        "references": [
+          "Tories"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": [
+          "Nigel Farage"
+        ]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "justifications": [
+        "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Nigel Farage",
+        "references": [
+          "Nigel Farage"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom Independence Party",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "justifications": [
+        "His United Kingdom Independence Party picked up support, but then had to shed some of those whose views really were beyond the pale."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom Independence Party",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "justifications": [
+        "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom Independence Party",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "justifications": [
+        "UKIP was able to break into the European Parliament, which it hated."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": [
+          "UK Prime Minister David Cameron"
+        ]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "One reason was that Cameron and the Tories stole his issue, promising a referendum on the EU--in which they then opposed separation."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

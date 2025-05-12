@@ -1,0 +1,124 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Obama said the undercurrents of economic anxiety that led to Brexit must be addressed.",
+        "Obama campaigned actively against a British exit from the EU, traveling to London a month ahead of the vote to push back against the leave campaign arguments against immigration and trade.",
+        "Obama insisted the UK-EU divorce not be rushed.",
+        "Obama said Friday that doomsday rhetoric about the Brexit was overblown."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Tusk",
+        "references": ["European Council President Donald Tusk"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Tusk insisted the British vote would not be a precursor to further splits within Europe.",
+        "Tusk said 'Brexit, as sad and meaningful as it is, is just an incident and not the beginning of a process.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Obama said the undercurrents of economic anxiety that led to Brexit must be addressed.",
+        "Obama added that fears of Brexit fallout are overblown."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "European Commission",
+        "references": ["European Commission"]
+      },
+      "justifications": [
+        "Obama spoke after a meeting with the presidents of the European Commission and the European Council."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "European Council",
+        "references": ["European Council"]
+      },
+      "justifications": [
+        "Obama spoke after a meeting with the presidents of the European Commission and the European Council."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["U.K. Prime Minister David Cameron"]
+      },
+      "justifications": [
+        "Obama was expected to speak face-to-face with his closest allies, including outgoing U.K. Prime Minister David Cameron."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Barack Obama",
+        "references": ["President Barack Obama"]
+      },
+      "entity2": {
+        "entity": "Angela Merkel",
+        "references": ["German Chancellor Angela Merkel"]
+      },
+      "justifications": [
+        "Obama was expected to speak face-to-face with his closest allies, including German Chancellor Angela Merkel."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Tusk",
+        "references": ["European Council President Donald Tusk"]
+      },
+      "entity2": {
+        "entity": "Brexit supporters",
+        "references": ["opponents, on the inside and out, who are hoping for a sequel to Brexit"]
+      },
+      "justifications": [
+        "Tusk said loud and clear, you will not see on the screen the words 'To be continued.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

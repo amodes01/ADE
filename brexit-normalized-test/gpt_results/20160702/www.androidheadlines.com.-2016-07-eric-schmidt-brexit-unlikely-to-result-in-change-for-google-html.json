@@ -1,0 +1,92 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Google is not as concerned about the Brexit issue as others."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "OnePlus",
+        "references": ["OnePlus"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "smaller companies who although not based in the UK, do provide goods to the UK and rely on much smaller profit margins, like OnePlus."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "entity2": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "justifications": [
+        "it is unlikely to force Google to change their current UK base setup.",
+        "Schmidt does also state that 'it would be hard for me to imagine that we'd make much of a change.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "entity2": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "justifications": [
+        "it is unlikely to force Google to change their current UK base setup.",
+        "Schmidt does also state that 'it would be hard for me to imagine that we'd make much of a change.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "entity2": {
+        "entity": "OnePlus",
+        "references": ["OnePlus"]
+      },
+      "justifications": [
+        "Companies who make use of less spread out locations and are more central to bases in the UK will be the ones who need to consider their position more carefully."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "OnePlus",
+        "references": ["OnePlus"]
+      },
+      "entity2": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "justifications": [
+        "Companies who make use of less spread out locations and are more central to bases in the UK will be the ones who need to consider their position more carefully."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "target": {"topic": "Brexit", "references": ["Britons voted to leave the European Union", "British vote"]},
+      "justifications": [
+        "Hollande warned on Wednesday that if Britons voted to leave the European Union it would be an irreversible decision that could seriously jeopardize Britain's prized access to the bloc's single market.",
+        "Hollande said: 'If the choice is to leave the EU ... that would be irreversible.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Hollande, in his starkest warning to date on the consequences of Brexit, said: 'There would be a very serious risk of Britain losing its access to the single market and everything that goes with the European economic area.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jean-Claude Juncker", "references": ["European Commission President Jean-Claude Juncker"]},
+      "target": {"topic": "Brexit", "references": ["Britons voted to leave the European Union", "British vote"]},
+      "justifications": [
+        "Jean-Claude Juncker added his own warning, saying there would be no re-negotiation of a package of measures that EU governments agreed with London in February aimed at keeping Britain in the 28-nation bloc."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Robert Fico", "references": ["Slovak Prime Minister Robert Fico"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Hollande's call to relaunch Europe, Brexit or no, was echoed by both Slovak Prime Minister Robert Fico, who met the French leader in Paris on Wednesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Beata Szydlo", "references": ["Polish Prime Minister Beata Szydlo"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "We hope very much that the British want to remain in the EU. But irrespective of the result, our position is clear: the European Union should develop further, Szydlo told a joint news conference with German Chancellor Angela Merkel in Berlin."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Marine Le Pen", "references": ["Far-right party leader Marine Le Pen"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "Marine Le Pen... has been pressing for France to hold its own referendum on EU membership.",
+        "I want a referendum in France. All EU countries should have a referendum."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "entity2": {"entity": "Jean-Claude Juncker", "references": ["European Commission President Jean-Claude Juncker"]},
+      "justifications": [
+        "Jean-Claude Juncker added his own warning, saying there would be no re-negotiation of a package of measures that EU governments agreed with London in February aimed at keeping Britain in the 28-nation bloc."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "entity2": {"entity": "Robert Fico", "references": ["Slovak Prime Minister Robert Fico"]},
+      "justifications": [
+        "Hollande's call to relaunch Europe, Brexit or no, was echoed by both Slovak Prime Minister Robert Fico, who met the French leader in Paris on Wednesday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "entity2": {"entity": "Beata Szydlo", "references": ["Polish Prime Minister Beata Szydlo"]},
+      "justifications": [
+        "Hollande's call to relaunch Europe, Brexit or no, was echoed by both Slovak Prime Minister Robert Fico, who met the French leader in Paris on Wednesday, and by Polish Prime Minister Beata Szydlo during a visit to Berlin."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Francois Hollande", "references": ["French President Francois Hollande"]},
+      "entity2": {"entity": "Marine Le Pen", "references": ["Far-right party leader Marine Le Pen"]},
+      "justifications": [
+        "Marine Le Pen... has been pressing for France to hold its own referendum on EU membership."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

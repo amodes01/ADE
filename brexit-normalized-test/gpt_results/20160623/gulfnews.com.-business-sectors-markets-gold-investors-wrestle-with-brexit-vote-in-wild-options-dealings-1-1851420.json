@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "gold market", "references": ["gold prices", "gold"] },
+      "justifications": [
+        "A vote for Brexit is expected to spur a rush to safe haven assets like bullion."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union membership", "references": ["European Union membership"] },
+      "justifications": [
+        "Britons head to the polls to decide on the future of their European Union membership on Thursday."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Adam Packard", "references": ["Adam Packard"] },
+      "entity2": { "entity": "Zaner Group", "references": ["Zaner Group"] },
+      "justifications": [
+        "Adam Packard, vice president operations at brokerage Zaner Group in Chicago."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tai Wong", "references": ["Tai Wong"] },
+      "entity2": { "entity": "BMO Capital Markets", "references": ["BMO Capital Markets"] },
+      "justifications": [
+        "Tai Wong, director of base and precious metals trading for BMO Capital Markets in New York."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Adam Packard", "references": ["Adam Packard"] },
+      "entity2": { "entity": "Tai Wong", "references": ["Tai Wong"] },
+      "justifications": [
+        "Adam Packard, vice president operations at brokerage Zaner Group in Chicago. Tai Wong, director of base and precious metals trading for BMO Capital Markets in New York."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Adam Packard", "references": ["Adam Packard"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "We are at a line in the sand on which way we are going to go and that's why we are seeing implied volatility in puts and calls spike right now."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Tai Wong", "references": ["Tai Wong"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "flight to safe haven amid uncertainty over Brexit could push prices to as high as $1,375."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

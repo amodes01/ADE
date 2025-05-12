@@ -1,0 +1,143 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Chris Dodd", "references": ["Chris Dodd"]},
+      "target": {"topic": "Dodd-Frank financial reform law", "references": ["Dodd-Frank"]},
+      "justifications": [
+        "Dodd and Frank fight to defend Dodd-Frank"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Barney Frank", "references": ["Barney Frank"]},
+      "target": {"topic": "Dodd-Frank financial reform law", "references": ["Dodd-Frank"]},
+      "justifications": [
+        "Dodd and Frank fight to defend Dodd-Frank"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Chris Dodd", "references": ["Chris Dodd"]},
+      "target": {"topic": "court ruling against Dodd-Frank regulators", "references": ["ruling against regulators"]},
+      "justifications": [
+        "if a district judge's ruling stands, it would 'fundamentally undermine' Congress's vision for Dodd-Frank"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barney Frank", "references": ["Barney Frank"]},
+      "target": {"topic": "court ruling against Dodd-Frank regulators", "references": ["ruling against regulators"]},
+      "justifications": [
+        "if a district judge's ruling stands, it would 'fundamentally undermine' Congress's vision for Dodd-Frank"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "target": {"topic": "Brexit", "references": ["vote to stay in or leave the European Union"]},
+      "justifications": [
+        "Ryan joined several Republican lawmakers by refusing to state a preference as British voters head to polls"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "President Obama", "references": ["Obama"]},
+      "target": {"topic": "Brexit", "references": ["vote to stay in or leave the European Union"]},
+      "justifications": [
+        "Obama has urged the nation to stay in the EU"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "business support", "references": ["business leaders", "support in the business world"]},
+      "justifications": [
+        "Clinton's campaign on Thursday released a list of corporate leaders from both parties that have endorsed her"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "business support", "references": ["support in the business world"]},
+      "justifications": [
+        "Clinton campaign pushing back on Donald Trump's claims of support in the business world"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Puerto Rico Gov. Alejandro García Padilla", "references": ["Puerto Rico Gov. Alejandro García Padilla"]},
+      "target": {"topic": "Puerto Rico debt relief bill", "references": ["debt relief bill"]},
+      "justifications": [
+        "\"We need the bill by July 1,\" Puerto Rico Gov. Alejandro García Padilla said"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Puerto Rico officials", "references": ["Puerto Rican officials"]},
+      "target": {"topic": "Puerto Rico debt relief bill", "references": ["debt relief bill"]},
+      "justifications": [
+        "Top Treasury Department and Puerto Rican officials are begging the Senate to move quickly on a bill"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Bob Menendez", "references": ["Bob Menendez"]},
+      "target": {"topic": "Puerto Rico debt relief bill", "references": ["debt relief bill"]},
+      "justifications": [
+        "Senate Democrats are pushing to amend a House-passed debt relief bill for Puerto Rico"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Senate Democrats", "references": ["Senate Democrats"]},
+      "target": {"topic": "Puerto Rico debt relief bill", "references": ["debt relief bill"]},
+      "justifications": [
+        "Senate Democrats are pushing to amend a House-passed debt relief bill for Puerto Rico"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Chris Dodd", "references": ["Chris Dodd"]},
+      "entity2": {"entity": "Barney Frank", "references": ["Barney Frank"]},
+      "justifications": [
+        "Dodd and Frank fight to defend Dodd-Frank"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Chris Dodd", "references": ["Chris Dodd"]},
+      "entity2": {"entity": "Barney Frank", "references": ["Barney Frank"]},
+      "justifications": [
+        "Dodd and Frank fight to defend Dodd-Frank"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Paul Ryan", "references": ["Paul Ryan"]},
+      "entity2": {"entity": "President Obama", "references": ["Obama"]},
+      "justifications": [
+        "Ryan joined several Republican lawmakers by refusing to state a preference as British voters head to polls",
+        "Obama has urged the nation to stay in the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "Clinton campaign pushing back on Donald Trump's claims of support in the business world"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Puerto Rico Gov. Alejandro García Padilla", "references": ["Puerto Rico Gov. Alejandro García Padilla"]},
+      "entity2": {"entity": "Puerto Rican officials", "references": ["Puerto Rican officials"]},
+      "justifications": [
+        "Top Treasury Department and Puerto Rican officials are begging the Senate to move quickly on a bill"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

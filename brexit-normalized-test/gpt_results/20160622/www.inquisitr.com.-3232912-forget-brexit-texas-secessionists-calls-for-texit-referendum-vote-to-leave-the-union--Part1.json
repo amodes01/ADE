@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Daniel Miller", "references": ["Daniel Miller"]},
+      "target": {"topic": "Texit referendum", "references": ["Texit referendum"]},
+      "justifications": ["Daniel Miller hopes the secessionist Brexit movement will motivate citizens of Texas to call for their own Texit referendum to peacefully leave the union and establish their own independent country."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Britons in the Leave camp", "references": ["Britons in the Leave camp"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Britons in the Leave camp complain about the UK's loss of status, the millions spent on the EU government and open borders that allow free movement within the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Britons in the Remain camp", "references": ["Britons in the Remain camp"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Those in the Remain camp, however, argue the open borders help improve trade, create jobs, and that leaving the EU would devastate Britain's economy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Daniel Miller", "references": ["Daniel Miller"]},
+      "target": {"topic": "Texit", "references": ["Texit"]},
+      "justifications": ["Back in Texas, Miller argues the secessionist emotions boiling over in Britain and the desire to be free from the intervention of faraway governments is the same felt by Texans across the Lone Star State."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Miller", "references": ["Miller"]},
+      "target": {"topic": "Britain", "references": ["Britain"]},
+      "justifications": ["Miller points to the failed Scottish Independence vote in 2014 and the upcoming Brexit vote this week to say the secessionist movement is sweeping the Western world."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Daniel Miller", "references": ["Daniel Miller"]},
+      "entity2": {"entity": "Republic of Texas", "references": ["Republic of Texas"]},
+      "justifications": ["Miller claims the Texas secessionist movement has 260,000 supporters and, in fact, soon after Barack Obama was re-elected as president, a Texit petition garnered more than 125,000 signatures."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Republic of Texas", "references": ["Republic of Texas"]},
+      "entity2": {"entity": "U.S.", "references": ["United States"]},
+      "justifications": ["A group called the Republic of Texas believes the Lone Star State never surrendered its sovereignty to the United States when it became a state in 1845; they argue the U.S. illegally annexed the country."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Daniel Miller", "references": ["Daniel Miller"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "justifications": ["Miller claims the Texas secessionist movement has 260,000 supporters and, in fact, soon after Barack Obama was re-elected as president, a Texit petition garnered more than 125,000 signatures."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Lance McLaren", "references": ["Lance McLaren"]},
+      "entity2": {"entity": "federal authorities", "references": ["federal authorities"]},
+      "justifications": ["The last leader of the modern-day Texas secession movement, Lance McLaren, was arrested after a standoff with federal authorities."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Lance McLaren", "references": ["Lance McLaren"]},
+      "entity2": {"entity": "Texas National Movement", "references": ["Texas National Movement"]},
+      "justifications": ["Back in Texas, Miller argues the secessionist emotions boiling over in Britain and the desire to be free from the intervention of faraway governments is the same felt by Texans across the Lone Star State."],
+      "attitude": "Positive"
+    }
+  ]
+}

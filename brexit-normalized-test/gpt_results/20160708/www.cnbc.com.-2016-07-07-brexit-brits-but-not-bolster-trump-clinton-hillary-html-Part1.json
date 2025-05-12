@@ -1,0 +1,230 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.K. economy",
+        "references": ["U.K. economy"]
+      },
+      "justifications": [
+        "Ninety-seven percent of global CFOs across a wide range of industries said that Brexit would have a \"negative\" or \"very negative\" impact on the U.K. economy over the next six months."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "European Union economy",
+        "references": ["economy of the European Union"]
+      },
+      "justifications": [
+        "81.8 percent stating the same for the economy of the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.S. economy",
+        "references": ["U.S. economy"]
+      },
+      "justifications": [
+        "Only 27.3 percent said Brexit would have a negative impact on the U.S. economy, none said \"very negative\" and 9.1 percent expected it to have a \"positive\" effect."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.S. presidential race",
+        "references": ["Trump becoming the next U.S. president"]
+      },
+      "justifications": [
+        "the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.K. business environment",
+        "references": ["British businesses"]
+      },
+      "justifications": [
+        "A poll by the Institute of Directors (IoD) on Monday June 27 showed that nearly two-thirds of its 1,092 members thought the result is negative for their business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.K. headcount",
+        "references": ["decrease U.K. headcount"]
+      },
+      "justifications": [
+        "only one CFO said his or her firm would decrease U.K. headcount."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.K. referendum",
+        "references": ["possibility of the U.K. holding another referendum"]
+      },
+      "justifications": [
+        "One reply in the survey even highlighted the possibility of the U.K. holding another referendum on its membership of the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "U.K. attractiveness for business",
+        "references": ["attractive place to do business"]
+      },
+      "justifications": [
+        "One possible positive for the U.K. in these volatile times was the perception of the U.K. The country's legal structure and rule of law and its \"access to talent\" were most often cited as reasons the U.K. is an attractive place to do business."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "U.K. economy",
+        "references": ["U.K. economy"]
+      },
+      "justifications": [
+        "Ninety-seven percent of global CFOs across a wide range of industries said that Brexit would have a \"negative\" or \"very negative\" impact on the U.K. economy over the next six months."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "European Union economy",
+        "references": ["economy of the European Union"]
+      },
+      "justifications": [
+        "81.8 percent stating the same for the economy of the European Union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "U.S. economy",
+        "references": ["U.S. economy"]
+      },
+      "justifications": [
+        "Only 27.3 percent said Brexit would have a negative impact on the U.S. economy, none said \"very negative\" and 9.1 percent expected it to have a \"positive\" effect."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "the results also suggesting the recent referendum will do little to boost the chances of Donald Trump becoming the next U.S. president."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Institute of Directors",
+        "references": ["Institute of Directors (IoD)"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "A poll by the Institute of Directors (IoD) on Monday June 27 showed that nearly two-thirds of its 1,092 members thought the result is negative for their business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Goldman Sachs",
+        "references": ["Goldman Sachs"]
+      },
+      "entity2": {
+        "entity": "U.K. economy",
+        "references": ["U.K. economy"]
+      },
+      "justifications": [
+        "Goldman Sachs is predicting a \"mild recession\" in 2017."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "George Osborne",
+        "references": ["George Osborne"]
+      },
+      "entity2": {
+        "entity": "U.K. economy",
+        "references": ["U.K. economy"]
+      },
+      "justifications": [
+        "the country's Finance Minister George Osborne has warned it will not be \"plain sailing ahead.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "the results of the CNBC CFO Council survey suggest that the U.K. vote will have little effect on Trump's chances, indicating that Hillary Clinton - the established politician - will easily win the race to the White House."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "target": { "topic": "Brexit", "references": ["Britain's exit from the European Union"] },
+      "justifications": [
+        "Mr Lim weighed in on Britain's exit from the European Union as well, which has left global markets in disarray.",
+        "He noted that Brexit has 'indirectly benefited' Top Glove."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "target": { "topic": "US Dollar", "references": ["US dollar"] },
+      "justifications": [
+        "In any financial crisis or when the world is unstable, the US dollar is always strong. We invoice close to 100 per cent of our shipments of gloves in US dollars, so when the US dollar is strong, Top Glove benefits."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "entity2": { "entity": "Singapore", "references": ["Singapore"] },
+      "justifications": [
+        "We are especially proud to be associated with an advanced and efficient country like Singapore.",
+        "Aside from giving us access to the Singapore market, we view it as an opportunity for us to upgrade our quality, image and branding in the global arena."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "He noted that Brexit has 'indirectly benefited' Top Glove."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "entity2": { "entity": "OSIM International", "references": ["OSIM International"] },
+      "justifications": [
+        "The glove maker, which manufactures 44.6 billion gloves annually and exports to over 190 countries, turned in a record RM2.51 billion (S$833 million) in revenue last year."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Top Glove", "references": ["Top Glove"] },
+      "entity2": { "entity": "Eu Yan Sang International", "references": ["Eu Yan Sang International"] },
+      "justifications": [
+        "The glove maker, which manufactures 44.6 billion gloves annually and exports to over 190 countries, turned in a record RM2.51 billion (S$833 million) in revenue last year."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

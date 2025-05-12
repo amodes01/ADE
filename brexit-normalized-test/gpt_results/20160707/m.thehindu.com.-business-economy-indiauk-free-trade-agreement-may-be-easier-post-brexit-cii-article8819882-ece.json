@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Indian industry leaders", "references": ["Indian industry leaders"]},
+      "target": {"topic": "Free Trade Agreement", "references": ["Free Trade Agreement"]},
+      "justifications": [
+        "India will have to negotiate a Free Trade Agreement with the UK which may be easier to accomplish at a bilateral level."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Confederation of Indian Industry (CII)", "references": ["Confederation of Indian Industry (CII)"]},
+      "target": {"topic": "Free Trade Agreement", "references": ["Free Trade Agreement"]},
+      "justifications": [
+        "With Britain's departure from the EU, India will have to negotiate a Free Trade Agreement with the UK which may be easier to accomplish at a bilateral level."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jo Johnson", "references": ["Jo Johnson"]},
+      "target": {"topic": "Free Trade Agreement", "references": ["bilateral trade agreement", "FTA"]},
+      "justifications": [
+        "I sincerely hope that tighter bilateral trade agreement between the UK and India can make rapid progress."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jo Johnson", "references": ["Jo Johnson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "I want to reassure you about any uncertainty as the UK enters a new phase of its relationship with the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Indian industry leaders", "references": ["Indian industry leaders"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "India will have to negotiate a Free Trade Agreement with the UK which may be easier to accomplish at a bilateral level following Britain's exit from the EU."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Confederation of Indian Industry (CII)", "references": ["Confederation of Indian Industry (CII)"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "CII Director-General Chandrajit Banerjee said, adding that there was 'political drive and willingness' on both the sides."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Chandrajit Banerjee", "references": ["Chandrajit Banerjee"]},
+      "entity2": {"entity": "Naushad Forbes", "references": ["Naushad Forbes"]},
+      "justifications": [
+        "His views were echoed by CII President Naushad Forbes."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Naushad Forbes", "references": ["Naushad Forbes"]},
+      "entity2": {"entity": "CII", "references": ["CII"]},
+      "justifications": [
+        "His views were echoed by CII President Naushad Forbes."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jo Johnson", "references": ["Jo Johnson"]},
+      "entity2": {"entity": "Indian industry leaders", "references": ["Indian industry leaders"]},
+      "justifications": [
+        "Jo Johnson said such a bilateral agreement would be on the agenda and sought to reassure Indian industry leaders against any fears over the business climate in the UK following Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Indian High Commissioner to the UK Navtej Sarna", "references": ["Indian High Commissioner to the UK Navtej Sarna"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "Indian High Commissioner to the UK Navtej Sarna said the political underpinning for the economic relationship between India and the UK was strong."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

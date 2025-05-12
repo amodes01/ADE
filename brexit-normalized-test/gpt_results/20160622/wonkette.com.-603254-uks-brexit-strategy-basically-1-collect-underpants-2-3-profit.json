@@ -1,0 +1,88 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Most economists reckon Britain would be the poorer for leaving the EU, and the precedent would be a setback for the world economy",
+        "A continuation of 70 years of basically unprecedented peace between European nations"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Most economists reckon Britain would be the poorer for leaving the EU, and the precedent would be a setback for the world economy",
+        "A continuation of 70 years of basically unprecedented peace between European nations"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "One of the main proponents of Brexit is this fucking prick, former London mayor Boris Johnson"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul Krugman", "references": ["Paul Krugman"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Against leaving we have not only god-Emperor B.H. Obama and your nerd boyfriend Paul Krugman"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["B.H. Obama"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Against leaving we have not only god-Emperor B.H. Obama and your nerd boyfriend Paul Krugman"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "justifications": [
+        "He's much smarter than Trump, so what's his excuse?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "Paul Krugman", "references": ["Paul Krugman"]},
+      "justifications": [
+        "Against leaving we have not only god-Emperor B.H. Obama and your nerd boyfriend Paul Krugman"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "One of the main proponents of Brexit is this fucking prick, former London mayor Boris Johnson"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Oliver", "references": ["John Oliver"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Oliver acknowledges that few things put the British knicker in a twist more than a Belgian bureaucrat"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John Oliver", "references": ["John Oliver"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Oliver acknowledges that few things put the British knicker in a twist more than a Belgian bureaucrat, but points out that most arguments in favor of leaving the EU are based on bullshit or simple racism"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Sajid Javid", "references": ["UK Business Secretary Sajid Javid"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Following the referendum result, my absolute priority is making sure the UK has the tools it needs to continue to compete on the global stage."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Dr. Jagdish Joshi", "references": ["Dr Jagdish Joshi"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "He's anxious of the outcome."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Dr. Jagdish Joshi", "references": ["Dr Jagdish Joshi"]},
+      "target": {"topic": "bilateral trade agreement with the UK", "references": ["bilateral agreement with the UK"]},
+      "justifications": [
+        "It is essential to have a bilateral agreement with the UK individually. This will solve a lot of business problems. The deal will be the best solution for the future."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "India", "references": ["India"]},
+      "target": {"topic": "trade relations with the UK", "references": ["business partner", "exports go to the UK"]},
+      "justifications": [
+        "Do not forget the UK is our largest business partner, more than 30% of exports go to the UK."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Sajid Javid", "references": ["UK Business Secretary Sajid Javid"]},
+      "entity2": {"entity": "Nirmala Sitharaman", "references": ["Nirmala Sitharaman"]},
+      "justifications": [
+        "He is meeting his counterpart Nirmala Sitharaman"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Sajid Javid", "references": ["UK Business Secretary Sajid Javid"]},
+      "entity2": {"entity": "Arun Jaitley", "references": ["finance minister Arun Jaitley"]},
+      "justifications": [
+        "He is meeting his counterpart Arun Jaitley"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Sajid Javid", "references": ["UK Business Secretary Sajid Javid"]},
+      "entity2": {"entity": "Dr. Jagdish Joshi", "references": ["Dr Jagdish Joshi"]},
+      "justifications": [
+        "Brexit has been closely watched in India particularly by exporters."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Bill Gates", "references": ["Bill Gates"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Bill Gates said that a post-Brexit Britain would be a \"significantly less attractive place to do business and invest\".", "it is clear to me that if Britain chooses to be outside of Europe…it will be harder to find and recruit the best talent from across the continent; talent which, in turn, creates jobs for people in the UK."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chris Kenyon", "references": ["Chris Kenyon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Canonical supports the Remain campaign, and believes the UK will fare better, socially and economically, inside the European Union.", "Employment conditions, safety standards, scientific advancement and economic vibrancy all improve with access to larger pools of talent and customers."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Bill Gates", "references": ["Bill Gates"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Bill Gates said that a post-Brexit Britain would be a \"significantly less attractive place to do business and invest\"."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Chris Kenyon", "references": ["Chris Kenyon"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Canonical supports the Remain campaign, and believes the UK will fare better, socially and economically, inside the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Bill Gates", "references": ["Bill Gates"]},
+      "entity2": {"entity": "Chris Kenyon", "references": ["Chris Kenyon"]},
+      "justifications": ["Bill Gates said that a post-Brexit Britain would be a \"significantly less attractive place to do business and invest\".", "Canonical supports the Remain campaign, and believes the UK will fare better, socially and economically, inside the European Union."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "European Commission",
+        "references": ["European Commission"]
+      },
+      "target": {
+        "topic": "status of English in the EU",
+        "references": ["English would cease to be an official language"]
+      },
+      "justifications": [
+        "The European Commission representation in Ireland quickly shot that down, saying a change to official EU languages requires unanimity from all members."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "English",
+        "references": ["English"]
+      },
+      "target": {
+        "topic": "status of English in the EU",
+        "references": ["English would cease to be an official language"]
+      },
+      "justifications": [
+        "Given that English is one of the official languages in both Ireland and Malta, and much beloved by countries and peoples to the north, east and south of France, we do not see this happening any time soon."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "European Commission",
+        "references": ["European Commission"]
+      },
+      "entity2": {
+        "entity": "Danuta Hübner",
+        "references": ["Danuta Hübner"]
+      },
+      "justifications": [
+        "The European Commission representation in Ireland quickly shot that down"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "European Commission",
+        "references": ["European Commission"]
+      },
+      "entity2": {
+        "entity": "Syed Kamall",
+        "references": ["Syed Kamall"]
+      },
+      "justifications": [
+        "Fourteen MEPs from the European Conservatives and Reformists Group - including leader Syed Kamall and outspoken Brexiteer Daniel Hannan - are heading to Cleveland to be part of the Donald Trump bonanza."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "European Commission",
+        "references": ["European Commission"]
+      },
+      "entity2": {
+        "entity": "Antonio López-Istúriz White",
+        "references": ["Antonio López-Istúriz White"]
+      },
+      "justifications": [
+        "The only other EU political faction making the trip to the GOP convention will be the center-right European People's Party, represented by Secretary-General Antonio López-Istúriz White."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Syed Kamall",
+        "references": ["Syed Kamall"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Fourteen MEPs from the European Conservatives and Reformists Group - including leader Syed Kamall and outspoken Brexiteer Daniel Hannan - are heading to Cleveland to be part of the Donald Trump bonanza."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Syed Kamall",
+        "references": ["Syed Kamall"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Five MEPs from the EPP group, including possible Parliament presidential candidate Mairead McGuinness and veteran MEP Elmar Brok, will go to the Hillary Clinton confab in Philadelphia."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jean-Claude Juncker",
+        "references": ["Jean-Claude Juncker"]
+      },
+      "entity2": {
+        "entity": "Kanye West",
+        "references": ["Kanye West"]
+      },
+      "justifications": [
+        "Some of it sounded like this Kanye West rant: 'I have ideas that can make the human race existence within our 100 years better. Period.'"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

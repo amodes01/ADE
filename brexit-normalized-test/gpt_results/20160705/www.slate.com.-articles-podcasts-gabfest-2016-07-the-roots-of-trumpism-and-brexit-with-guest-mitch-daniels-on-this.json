@@ -1,0 +1,198 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "target": {
+        "topic": "Trumpism",
+        "references": ["Trumpism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "target": {
+        "topic": "Trumpism",
+        "references": ["Trumpism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "target": {
+        "topic": "Trumpism",
+        "references": ["Trumpism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Brexit"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Brexit"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Brexit"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "target": {
+        "topic": "populism",
+        "references": ["populism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "target": {
+        "topic": "populism",
+        "references": ["populism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "target": {
+        "topic": "populism",
+        "references": ["populism"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "target": {
+        "topic": "abortion decision",
+        "references": ["recent Supreme Court abortion decision"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson examine the recent Supreme Court abortion decision"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "target": {
+        "topic": "abortion decision",
+        "references": ["recent Supreme Court abortion decision"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson examine the recent Supreme Court abortion decision"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "target": {
+        "topic": "abortion decision",
+        "references": ["recent Supreme Court abortion decision"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson examine the recent Supreme Court abortion decision"]
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "entity2": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism, Brexit, and populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "entity2": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism, Brexit, and populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Emily Bazelon",
+        "references": ["Emily Bazelon"]
+      },
+      "entity2": {
+        "entity": "John Dickerson",
+        "references": ["John Dickerson"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism, Brexit, and populism"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "David Plotz",
+        "references": ["David Plotz"]
+      },
+      "entity2": {
+        "entity": "Mitch Daniels",
+        "references": ["Mitch Daniels"]
+      },
+      "justifications": ["David Plotz, Emily Bazelon, and John Dickerson discuss Trumpism, Brexit, and populism with former Indiana Gov. Mitch Daniels"]
+      "attitude": "Neutral"
+    }
+  ]
+}

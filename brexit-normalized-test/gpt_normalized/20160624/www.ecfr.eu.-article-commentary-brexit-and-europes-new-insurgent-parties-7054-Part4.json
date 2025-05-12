@@ -1,0 +1,330 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "UKIP",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "target": {
+        "topic": "UK membership of the EU",
+        "references": [
+          "British membership in the EEC"
+        ]
+      },
+      "justifications": [
+        "Its major success has been outside its elected role, stirring the debate on UK membership of the EU to a degree that reopened rifts in the ruling Conservative Party"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "UKIP",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "Britain's vote on Thursday"
+        ]
+      },
+      "justifications": [
+        "The UK Brexit vote is undeniably a success story for UKIP"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Syriza",
+        "references": [
+          "Syriza"
+        ]
+      },
+      "target": {
+        "topic": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "justifications": [
+        "Syriza's experience in government has significantly tempered its pre-government promises of rapprochement with Russia"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Finns Party",
+        "references": [
+          "Finns Party"
+        ]
+      },
+      "target": {
+        "topic": "EU",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "The Finns Party has broadly toed the government line on the EU since joining its coalition"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Patriotic Front",
+        "references": [
+          "patriotism for humanity"
+        ]
+      },
+      "target": {
+        "topic": "nationalistic rhetoric",
+        "references": [
+          "jingoistic rhetoric"
+        ]
+      },
+      "justifications": [
+        "the Patriotic Front... has tempered its nationalistic rhetoric"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "European Parliament",
+        "references": [
+          "regulation and legislation coming from the EU"
+        ]
+      },
+      "target": {
+        "topic": "EU-Turkey deal on refugees",
+        "references": [
+          "quotas for non-European refugees"
+        ]
+      },
+      "justifications": [
+        "the European Parliament's increasingly assertive role in foreign policy - as seen most recently in its vocal opposition to elements of the EU-Turkey deal on refugees"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "UKIP",
+        "references": [
+          "UK politics"
+        ]
+      },
+      "entity2": {
+        "entity": "Conservative Party",
+        "references": [
+          "Conservatives"
+        ]
+      },
+      "justifications": [
+        "Its major success has been outside its elected role, stirring the debate on UK membership of the EU to a degree that reopened rifts in the ruling Conservative Party"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Syriza",
+        "references": [
+          "Syriza"
+        ]
+      },
+      "entity2": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "justifications": [
+        "Syriza's experience in government has significantly tempered its pre-government promises of rapprochement with Russia"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Patriotic Front",
+        "references": [
+          "patriotism for humanity"
+        ]
+      },
+      "entity2": {
+        "entity": "Bulgaria's government",
+        "references": [
+          "US-led coalition"
+        ]
+      },
+      "justifications": [
+        "the Patriotic Front supports the governing coalition"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Finns Party",
+        "references": [
+          "Finns Party"
+        ]
+      },
+      "entity2": {
+        "entity": "Finland's government",
+        "references": [
+          "US-led coalition"
+        ]
+      },
+      "justifications": [
+        "the Finns Party is participating in the ruling coalition"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Syriza",
+        "references": [
+          "Syriza"
+        ]
+      },
+      "entity2": {
+        "entity": "Independent Greeks",
+        "references": [
+          "Greeks"
+        ]
+      },
+      "justifications": [
+        "Syriza and the Independent Greeks are currently in government"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Fidesz",
+        "references": [
+          "Fidesz"
+        ]
+      },
+      "entity2": {
+        "entity": "Hungary's government",
+        "references": [
+          "US-led coalition"
+        ]
+      },
+      "justifications": [
+        "Fidesz is the leading party in the governing coalition"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "National Alliance",
+        "references": [
+          "political aspect of the Alliance"
+        ]
+      },
+      "entity2": {
+        "entity": "Latvia's government",
+        "references": [
+          "high offices including the Ministry of Justice"
+        ]
+      },
+      "justifications": [
+        "the National Alliance holds a number of high offices including the Ministry of Justice"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Order and Justice Party",
+        "references": [
+          "justice"
+        ]
+      },
+      "entity2": {
+        "entity": "Lithuania's government",
+        "references": [
+          "in power"
+        ]
+      },
+      "justifications": [
+        "both the Order and Justice Party and the Labour Party are in government"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Law and Justice",
+        "references": [
+          "justice"
+        ]
+      },
+      "entity2": {
+        "entity": "Poland's government",
+        "references": [
+          "in power"
+        ]
+      },
+      "justifications": [
+        "Law and Justice are in power in Poland"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "SMER-SD",
+        "references": [
+          "SMER-SD"
+        ]
+      },
+      "entity2": {
+        "entity": "Slovak National Party",
+        "references": [
+          "The Communist Party"
+        ]
+      },
+      "justifications": [
+        "SMER-SD and the Slovak National Party are two of the four-party governing coalition in Slovakia"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Podemos-led coalition",
+        "references": [
+          "Podemos"
+        ]
+      },
+      "entity2": {
+        "entity": "Spain's national elections",
+        "references": [
+          "Polls ahead of the 26 June national elections in Spain"
+        ]
+      },
+      "justifications": [
+        "Polls ahead of the 26 June national elections in Spain are putting the Podemos-led coalition in a strong position"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Front National",
+        "references": [
+          "Front National"
+        ]
+      },
+      "entity2": {
+        "entity": "Marine Le Pen",
+        "references": [
+          "Le Pen"
+        ]
+      },
+      "justifications": [
+        "the Front National's Marine Le Pen will make it into the second round of the French presidential elections in 2017"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

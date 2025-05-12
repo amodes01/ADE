@@ -1,0 +1,43 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "North",
+        "references": [
+          "West"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "leave",
+          "U.K. departure from the EU"
+        ]
+      },
+      "justifications": [
+        "I honestly do not see how leaving would benefit us in any way.",
+        "I hope people really reflect and do the responsible thing tomorrow by voting to stay with the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "North",
+        "references": [
+          "West"
+        ]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "I hope people really reflect and do the responsible thing tomorrow by voting to stay with the EU."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": []
+}

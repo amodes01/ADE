@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "EU officials",
+        "references": ["EU officials"]
+      },
+      "target": {
+        "topic": "Brexit process",
+        "references": ["Brexit process"]
+      },
+      "justifications": [
+        "EU leaders are anxious that the Brexit process should start rapidly following the UK's referendum."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU leaders",
+        "references": ["EU leaders"]
+      },
+      "target": {
+        "topic": "Brexit process",
+        "references": ["Brexit process"]
+      },
+      "justifications": [
+        "EU leaders are now determined to push the UK for a swift termination of Britain's membership."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU officials",
+        "references": ["EU officials"]
+      },
+      "target": {
+        "topic": "Brexit process",
+        "references": ["Brexit process"]
+      },
+      "justifications": [
+        "EU officials now say triggering Britain's exit may be done simply by Mr Cameron confirming the will of the British people at the European Council."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "EU leaders",
+        "references": ["EU leaders"]
+      },
+      "entity2": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "justifications": [
+        "Mr Cameron's decision to delay the process and let his successor handle the ramifications of a Brexit has generated frustration among EU leaders."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "entity2": {
+        "entity": "EU leaders",
+        "references": ["EU leaders"]
+      },
+      "justifications": [
+        "Mr Cameron's decision to delay the process and let his successor handle the ramifications of a Brexit has generated frustration among EU leaders."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

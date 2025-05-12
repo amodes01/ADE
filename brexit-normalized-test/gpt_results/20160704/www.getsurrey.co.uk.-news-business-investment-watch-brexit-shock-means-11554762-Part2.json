@@ -1,0 +1,202 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "European economy",
+        "references": ["European economy"]
+      },
+      "justifications": [
+        "And yes there are genuine concerns for the European economy at large as a result of Britain leaving."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "Housebuilding stocks",
+        "references": ["Housebuilding stocks"]
+      },
+      "justifications": [
+        "The sector was already riding high on price to asset value metrics and Brexit has been the catalyst for a brutal correction."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "Demand concerns",
+        "references": ["Demand concerns"]
+      },
+      "justifications": [
+        "Demand concerns weigh as does bank mortgage finance risk."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Oil price",
+        "references": ["oil price"]
+      },
+      "target": {
+        "topic": "Oil majors",
+        "references": ["oil majors"]
+      },
+      "justifications": [
+        "I note the oil price itself is still struggling to punch through the $50 per barrel level, yet the sector has significantly short term outperformed discounting of course the current FX situation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Shell",
+        "references": ["Shell"]
+      },
+      "target": {
+        "topic": "Dividend payout ratios",
+        "references": ["dividend payout ratios"]
+      },
+      "justifications": [
+        "While both Shell (2010p) and BP (420p) will work hard to find ways to maintain their current dividend payout ratios."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "BP",
+        "references": ["BP"]
+      },
+      "target": {
+        "topic": "Dividend payout ratios",
+        "references": ["dividend payout ratios"]
+      },
+      "justifications": [
+        "While both Shell (2010p) and BP (420p) will work hard to find ways to maintain their current dividend payout ratios."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "GSK",
+        "references": ["GSK"]
+      },
+      "target": {
+        "topic": "PE ratio",
+        "references": ["PE ratio"]
+      },
+      "justifications": [
+        "I would be looking to reduce into current strength GSK (1540p) the pharmaceutical giant as the PE ratio (valuation) once again looks toppy to me at 17 times next year's profits."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Housebuilding stocks",
+        "references": ["Housebuilding stocks"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "The sector was already riding high on price to asset value metrics and Brexit has been the catalyst for a brutal correction."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Foreign buyers",
+        "references": ["foreign buyers"]
+      },
+      "target": {
+        "topic": "Pound value",
+        "references": ["weaker pound"]
+      },
+      "justifications": [
+        "The plus is that a weaker pound allows foreign buyers to get more bang for their buck which is a counterbalancer."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "European economy",
+        "references": ["European economy"]
+      },
+      "justifications": [
+        "And yes there are genuine concerns for the European economy at large as a result of Britain leaving."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "Housebuilding stocks",
+        "references": ["Housebuilding stocks"]
+      },
+      "justifications": [
+        "The sector was already riding high on price to asset value metrics and Brexit has been the catalyst for a brutal correction."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "entity2": {
+        "entity": "Demand concerns",
+        "references": ["Demand concerns"]
+      },
+      "justifications": [
+        "Demand concerns weigh as does bank mortgage finance risk."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Shell",
+        "references": ["Shell"]
+      },
+      "entity2": {
+        "entity": "BP",
+        "references": ["BP"]
+      },
+      "justifications": [
+        "While both Shell (2010p) and BP (420p) will work hard to find ways to maintain their current dividend payout ratios."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "GSK",
+        "references": ["GSK"]
+      },
+      "entity2": {
+        "entity": "PE ratio",
+        "references": ["PE ratio"]
+      },
+      "justifications": [
+        "I would be looking to reduce into current strength GSK (1540p) the pharmaceutical giant as the PE ratio (valuation) once again looks toppy to me at 17 times next year's profits."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

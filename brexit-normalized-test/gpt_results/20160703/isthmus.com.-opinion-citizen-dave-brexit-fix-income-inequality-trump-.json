@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["A day after Britons voted to leave the European Union, the top Google search in the country was: \"What is the European Union?\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "ignorance", "references": ["ignorant but angry people"]},
+      "justifications": ["In both cases - Brexit and the surprising and depressing support in this country for Trump - ignorant but angry people are lashing out at what they perceive to be the establishment."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "elite", "references": ["antipathy toward an elite"]},
+      "justifications": ["Now, antipathy toward an elite that has left them behind and seems oblivious or even callous to their plight is not misplaced."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "wealth distribution", "references": ["fairer distribution of the world's wealth"]},
+      "justifications": ["Simply put, we need a fairer distribution of the world's wealth."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "racism", "references": ["increase in blatant racism"]},
+      "justifications": ["the best, quickest way to reverse the alarming increase in blatant racism and xenophobia is to address the underlying dislocation."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Trump", "references": ["Trump"]},
+      "target": {"topic": "elite", "references": ["antipathy toward an elite"]},
+      "justifications": ["Now, antipathy toward an elite that has left them behind and seems oblivious or even callous to their plight is not misplaced."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Trump", "references": ["Trump"]},
+      "target": {"topic": "wealth distribution", "references": ["fairer distribution of the world's wealth"]},
+      "justifications": ["Simply put, we need a fairer distribution of the world's wealth."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Trump", "references": ["Trump"]},
+      "target": {"topic": "racism", "references": ["increase in blatant racism"]},
+      "justifications": ["the best, quickest way to reverse the alarming increase in blatant racism and xenophobia is to address the underlying dislocation."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Scotland", "references": ["Scotland"]},
+      "justifications": ["Trump said the result was a victory for the United Kingdom, which includes \"the Scotch,\" as Trump has referred to the Scots. Never mind that Scotland voted overwhelmingly against leaving the E.U."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["Trump said the result was a victory for the United Kingdom, which includes \"the Scotch,\" as Trump has referred to the Scots. Never mind that Scotland voted overwhelmingly against leaving the E.U."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Bernie Sanders", "references": ["Bernie Sanders"]},
+      "justifications": ["To paraphrase Bill Clinton, when you are working hard, playing by the rules and still not getting ahead, you start to question the entire system, and then otherwise dormant resentments toward groups that you feel have an unfair competitive advantage get aired out in public."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Bernie Sanders", "references": ["Bernie Sanders"]},
+      "entity2": {"entity": "The New York Times", "references": ["The New York Times"]},
+      "justifications": ["Sanders recently wrote a brilliant piece in The New York Times taking his concentration-of-wealth argument global."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Bill Clinton", "references": ["Bill Clinton"]},
+      "entity2": {"entity": "elite", "references": ["elite"]},
+      "justifications": ["Now, antipathy toward an elite that has left them behind and seems oblivious or even callous to their plight is not misplaced."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Great Recession", "references": ["Great Recession"]},
+      "justifications": ["That's why I voted for Bernie Sanders. Sanders recently wrote a brilliant piece in The New York Times taking his concentration-of-wealth argument global. He points out that the richest 62 people in the world control as much wealth as the bottom half of the world's entire population. That's right. Sixty-two individuals have as much as 3.6 billion individuals."]
+      "attitude": "Negative"
+    }
+  ]
+}

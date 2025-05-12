@@ -1,0 +1,35 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "MBA program", "references": ["MBA program"]},
+      "target": {"topic": "business problems", "references": ["real-world business problems"]},
+      "justifications": ["focused on applying the tools of modern data science, optimization and machine learning to solve real-world business problems."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "MBA program", "references": ["MBA program"]},
+      "target": {"topic": "leadership development", "references": ["develops leaders who make a difference in the world"]},
+      "justifications": ["this full-time, two-year MBA program develops leaders who make a difference in the world."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Master of Science in Management Studies", "references": ["Master of Science in Management Studies"]},
+      "target": {"topic": "international MBA", "references": ["Combine an international MBA"]},
+      "justifications": ["Combine an international MBA with a deep dive into management science."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "PhD program", "references": ["PhD"]},
+      "target": {"topic": "scholarship and research", "references": ["produces outstanding scholars who are leading in their fields of research"]},
+      "justifications": ["A doctoral program that produces outstanding scholars who are leading in their fields of research."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Undergraduate program", "references": ["Undergraduate"]},
+      "target": {"topic": "technical and quantitative expertise", "references": ["business perspective to your technical and quantitative expertise"]},
+      "justifications": ["Bring a business perspective to your technical and quantitative expertise with a bachelor's degree in management, business analytics, or finance."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": []
+}

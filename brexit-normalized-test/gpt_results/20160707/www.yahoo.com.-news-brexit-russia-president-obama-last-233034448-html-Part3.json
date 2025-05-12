@@ -1,0 +1,62 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Sivkov",
+        "references": ["Sivkov"]
+      },
+      "target": {
+        "topic": "NATO's border positioning",
+        "references": ["station more forces at our borders"]
+      },
+      "justifications": [
+        "\"If they decide to station more forces at our borders, that will complicate the dialogue, without question.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Sivkov",
+        "references": ["Sivkov"]
+      },
+      "target": {
+        "topic": "Europe's security",
+        "references": ["not likely to make Europe feel any more secure"]
+      },
+      "justifications": [
+        "Those measures are most likely to involve positioning nuclear weapons closer to NATO's borders, and they are not likely to make Europe feel any more secure."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Sivkov",
+        "references": ["Sivkov"]
+      },
+      "entity2": {
+        "entity": "RAND Corporation",
+        "references": ["RAND Corporation"]
+      },
+      "justifications": [
+        "advice of the RAND Corporation might not do much to help."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Sivkov",
+        "references": ["Sivkov"]
+      },
+      "entity2": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "justifications": [
+        "\"Russia will have to answer with measures of its own.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

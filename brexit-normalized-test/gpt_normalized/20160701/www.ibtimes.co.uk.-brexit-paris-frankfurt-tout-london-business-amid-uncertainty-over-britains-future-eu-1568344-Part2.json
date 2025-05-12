@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Luxembourg",
+        "references": [
+          "Luxembourg's Foreign Minister Jean Asselborn"
+        ]
+      },
+      "target": {
+        "topic": "financial business",
+        "references": [
+          "financial center"
+        ]
+      },
+      "justifications": [
+        "Luxembourg is a significant financial centre"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Ireland",
+        "references": [
+          "Irish-American"
+        ]
+      },
+      "target": {
+        "topic": "financial business",
+        "references": [
+          "financial center"
+        ]
+      },
+      "justifications": [
+        "Ireland is the same"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Luxembourg",
+        "references": [
+          "Luxembourg's Foreign Minister Jean Asselborn"
+        ]
+      },
+      "entity2": {
+        "entity": "Ireland",
+        "references": [
+          "Irish-American"
+        ]
+      },
+      "justifications": [
+        "Ireland is the same"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

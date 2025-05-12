@@ -1,0 +1,175 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "United States",
+        "references": [
+          "the US"
+        ]
+      },
+      "target": {
+        "topic": "Germany's role in EU after Brexit",
+        "references": [
+          "Germany",
+          "EU CSDP",
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": [
+          "the US"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "This exit of the U.K. from the European Union may give us some opportunity to get into those countries we have not had a relationship with",
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "EU leadership",
+        "references": [
+          "European Commission president",
+          "EU CSDP"
+        ]
+      },
+      "justifications": [
+        "Germany still remains the de facto leader of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "Syrian refugee crisis",
+        "references": [
+          "the continued flow of Syrian refugees into Europe"
+        ]
+      },
+      "justifications": [
+        "Merkel's popularity had taken a hit due to her push for European countries to quickly admit Syrian refugees."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "EU unity",
+        "references": [
+          "EU CSDP",
+          "institutions of the European Union"
+        ]
+      },
+      "justifications": [
+        "Germany still remains the de facto leader of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "target": {
+        "topic": "EU membership benefits post-Brexit",
+        "references": [
+          "interest in Europe",
+          "benefits of the single European market",
+          "obligations of membership"
+        ]
+      },
+      "justifications": [
+        "Merkel warned the U.K. it should not expect to reap the benefits of the single European market free of the obligations of membership."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "United States",
+        "references": [
+          "the US"
+        ]
+      },
+      "entity2": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Germany",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "justifications": [
+        "Chancellor Angela Merkel is the most respected leader on the continent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Merkel",
+        "references": [
+          "German Chancellor Angela Merkel"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": [
+          "the US"
+        ]
+      },
+      "justifications": [
+        "Merkel warned the U.K. it should not expect to reap the benefits of the single European market free of the obligations of membership."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

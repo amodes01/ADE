@@ -1,0 +1,105 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "They hate capitalism, the \"system\".",
+        "They hate it because the \"system\" is too stingy with its own members!"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "They find it thoroughly unfair, that in the UK, France, Spain or Greece, those big corporations and banks are keeping most of the loot."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "They want their share. They want a much bigger share. They want it now!"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "Not because it murders millions of innocent people in all corners of the globe, far away from Europe (such 'stuff' does not bother Europeans one tiny bit)."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "Not because it ruins cultures, kills the freedom of the \"others\", oh no!"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "capitalism", "references": ["capitalism", "the \"system\""]},
+      "justifications": [
+        "They hate it because the \"system\" is too stingy with its own members!"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "referendums", "references": ["referendums"]},
+      "justifications": [
+        "there is no one, virtually no one in Europe left, who would want to change this present global system, from top to bottom, and to stop the plunder of the \"insignificant others\"!"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "United States", "references": ["United States"]},
+      "justifications": [
+        "Many Europeans like to blame the United States for the present state of the world (mostly abstractly, anyway)."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "United States", "references": ["United States"]},
+      "justifications": [
+        "Such accusations are thoroughly hypocritical, bordering on being intellectually deranged."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "United States", "references": ["United States"]},
+      "justifications": [
+        "Many Europeans like to blame the United States for the present state of the world (mostly abstractly, anyway).",
+        "Such accusations are thoroughly hypocritical, bordering on being intellectually deranged."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Europeans", "references": ["Europeans"]},
+      "justifications": [
+        "For the United States is nothing else other than a grand European 'project', or to quote Jean-Paul Sartre, a \"super-European monstrosity.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States"]},
+      "entity2": {"entity": "Europeans", "references": ["Europeans"]},
+      "justifications": [
+        "No matter how barbarically the United States has been behaving abroad, in both 20th and 21st centuries, it has never really managed to catch up (although it certainly tried hard) with that unbridled European savagery."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "British MP", "references": ["British MP"]},
+      "target": {"topic": "immigration", "references": ["spoke up for immigrants"]},
+      "justifications": ["A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she spoke up for immigrants."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "British MP", "references": ["British MP"]},
+      "target": {"topic": "European Union", "references": ["favoured her nation staying in the European Union"]},
+      "justifications": ["A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type because she favoured her nation staying in the European Union."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Republican Party", "references": ["Republican Party"]},
+      "target": {"topic": "Muslims", "references": ["stokes suspicions about Muslims"]},
+      "justifications": ["the presumptive Republican Party frontrunner for the US presidential election is coarse of tongue, deeply divisive in his positions, stokes suspicions about Muslims."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Republican Party", "references": ["Republican Party"]},
+      "target": {"topic": "Brexit", "references": ["United Kingdom should leave the EU because migration had been a 'terrible thing'"]},
+      "justifications": ["the presumptive Republican Party frontrunner for the US presidential election is on record saying he thought the United Kingdom should leave the EU because migration had been a 'terrible thing' for the country."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British MP", "references": ["British MP"]},
+      "entity2": {"entity": "neo-Nazi", "references": ["neo-Nazi type"]},
+      "justifications": ["A YOUNG British MP is brutally murdered in her constituency by a neo-Nazi type."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Republican Party", "references": ["Republican Party"]},
+      "entity2": {"entity": "Muslims", "references": ["Muslims"]},
+      "justifications": ["stokes suspicions about Muslims"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Republican Party", "references": ["Republican Party"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["he thought the United Kingdom should leave the EU because migration had been a 'terrible thing' for the country."],
+      "attitude": "Negative"
+    }
+  ]
+}

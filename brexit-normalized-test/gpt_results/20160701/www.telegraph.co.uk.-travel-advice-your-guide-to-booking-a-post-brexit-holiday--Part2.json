@@ -1,0 +1,46 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "UK citizens", "references": ["UK citizens"] },
+      "target": { "topic": "European Health Insurance Card (EHIC)", "references": ["European Health Insurance Card (EHIC)"] },
+      "justifications": [
+        "Perhaps the most crucial benefit of EU membership is our right to a European Health Insurance Card (EHIC) which entitles UK citizens to free or reduced-cost treatment in other EU countries."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UK citizens", "references": ["UK citizens"] },
+      "target": { "topic": "mobile roaming charges", "references": ["Mobile roaming charges within the EU"] },
+      "justifications": [
+        "Mobile roaming charges within the EU are due to be abolished entirely in 2017. We will still be members then, so presumably it will still happen and we should benefit for at least a year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UK citizens", "references": ["UK citizens"] },
+      "target": { "topic": "EU regulations on compensation for airline delays", "references": ["EU rules on compensation for airline delays"] },
+      "justifications": [
+        "EU rules on compensation for airline delays and cancellations are very generous towards passengers."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Travel industry", "references": ["travel industry"] },
+      "target": { "topic": "EU regulations on package travel", "references": ["package travel regulations"] },
+      "justifications": [
+        "There is a lot of opposition in the travel industry because they add significantly to costs."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Spain", "references": ["Spain"] },
+      "entity2": { "entity": "UK citizens", "references": ["UK citizens"] },
+      "justifications": [
+        "It may survive, or we may find that countries like Spain, which has to fund a very high number of British residents there, oppose its continuation."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

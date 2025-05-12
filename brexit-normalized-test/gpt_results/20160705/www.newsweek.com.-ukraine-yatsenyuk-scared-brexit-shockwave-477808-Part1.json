@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "target": { "topic": "Brexit", "references": ["U.K.'s exit from the EU"] },
+      "justifications": [
+        "Yatsenyuk says he fears the U.K.'s exit from the EU could split the union, weaken Europe, trigger a domino effect and undermine trust in the European idea among Ukrainians."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "target": { "topic": "European unity", "references": ["a united Europe"] },
+      "justifications": [
+        "\"We need a united Europe,\" he said."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "target": { "topic": "sanctions on Russia", "references": ["sanctions against Russia"] },
+      "justifications": [
+        "\"Mr. President [Barack Obama] and the EU leaders, you are not allowed to lift sanctions against Russia until Russia fully implements Minsk [cease-fire agreement]. And until Ukraine takes over control of Luhansk, Donetsk, and Crimea. Full stop,\" Yatsenyuk said."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "target": { "topic": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "We are not just fighting for our borders....We are fighting for European borders, and for NATO member states' borders, too. And for peace and stability in Europe."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "entity2": { "entity": "Jean-Claude Juncker", "references": ["Jean-Claude Juncker"] },
+      "justifications": [
+        "Ukrainian Prime Minister Arseny Yatsenyuk is welcomed by European Commission President Jean-Claude Juncker, right, at the EU Commission headquarters in Brussels."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "entity2": { "entity": "Barack Obama", "references": ["Barack Obama"] },
+      "justifications": [
+        "\"Mr. President [Barack Obama] and the EU leaders, you are not allowed to lift sanctions against Russia until Russia fully implements Minsk [cease-fire agreement]. And until Ukraine takes over control of Luhansk, Donetsk, and Crimea. Full stop,\" Yatsenyuk said."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "entity2": { "entity": "Dmytro Firtash", "references": ["Dmytro Firtash"] },
+      "justifications": [
+        "The government made an effort to reduce the power of oligarchs, he claimed, including Dmytro Firtash."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "entity2": { "entity": "Rinat Akhmetov", "references": ["Rinat Akhmetov"] },
+      "justifications": [
+        "The government made an effort to reduce the power of oligarchs, he claimed, including Rinat Akhmetov."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arseny Yatsenyuk", "references": ["Arseny Yatsenyuk"] },
+      "entity2": { "entity": "Ihor Kolomoisky", "references": ["Ihor Kolomoisky"] },
+      "justifications": [
+        "The government made an effort to reduce the power of oligarchs, he claimed, including Ihor Kolomoisky."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

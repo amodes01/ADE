@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "disinvestment and deregulation", "references": ["disinvestment and deregulation"]},
+      "justifications": [
+        "the UK and US took the lead under the Thatcher and Reagan governments in the 1980s in embarking on a strategy - not of investment - but of disinvestment and of radical deregulation."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "disinvestment and deregulation", "references": ["disinvestment and deregulation"]},
+      "justifications": [
+        "the UK and US took the lead under the Thatcher and Reagan governments in the 1980s in embarking on a strategy - not of investment - but of disinvestment and of radical deregulation."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "inequality", "references": ["rapidly increasing inequality"]},
+      "justifications": [
+        "Deregulation has allowed the financial sectors in these countries to flourish and make an important contribution to economic growth (although in its most unfettered form it also facilitated the kinds of abuses that lead to the financial and economic crises of the last decade). It has also been associated, however, with the removal of protections on workers' employment rights and incomes, with rapidly increasing inequality, and with higher levels of economic insecurity for less-skilled workers in particular."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "inequality", "references": ["rapidly increasing inequality"]},
+      "justifications": [
+        "Deregulation has allowed the financial sectors in these countries to flourish and make an important contribution to economic growth (although in its most unfettered form it also facilitated the kinds of abuses that lead to the financial and economic crises of the last decade). It has also been associated, however, with the removal of protections on workers' employment rights and incomes, with rapidly increasing inequality, and with higher levels of economic insecurity for less-skilled workers in particular."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "technological change", "references": ["technological change"]},
+      "justifications": [
+        "It is attributable in some part to increased global economic competition; but also in large part to other aspects of economic development such as technological change, and changes in consumption patterns in the developed economies."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "US", "references": ["US"]},
+      "target": {"topic": "technological change", "references": ["technological change"]},
+      "justifications": [
+        "It is attributable in some part to increased global economic competition; but also in large part to other aspects of economic development such as technological change, and changes in consumption patterns in the developed economies."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Brexit support base", "references": ["support for Brexit"]},
+      "justifications": [
+        "The parallels with support for Donald Trump in the US are strong. White voters without college educations are a far more important component of Trump's support base than the typical Republican party candidate."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "White voters", "references": ["White voters"]},
+      "justifications": [
+        "White voters without college educations are a far more important component of Trump's support base than the typical Republican party candidate."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Scotland", "references": ["Scotland"]},
+      "entity2": {"entity": "EU membership", "references": ["issue of EU membership"]},
+      "justifications": [
+        "Only in Scotland, where the issue of EU membership has obvious links with that of regional autonomy within the UK, were these patterns muted."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

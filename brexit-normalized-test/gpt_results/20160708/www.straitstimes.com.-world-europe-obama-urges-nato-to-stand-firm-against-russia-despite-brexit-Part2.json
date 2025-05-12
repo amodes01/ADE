@@ -1,0 +1,126 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nato", "references": ["Nato"]},
+      "target": {"topic": "Islamic State militants", "references": ["Islamic State militants"]},
+      "justifications": [
+        "Nato also needed to adapt to do more to fight a threat from Islamic State militants, who were accused of last week's deadly attack on Istanbul airport."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Western security", "references": ["active commitment to Western security"]},
+      "justifications": [
+        "David Cameron, who said he will resign after losing the referendum on EU membership last month, will seek to emphasise an active commitment to Western security at his final Nato summit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "military and security cooperation", "references": ["deeper military and security cooperation"]},
+      "justifications": [
+        "The first item on the summit agenda was the signing of an agreement between the EU and Nato on deeper military and security cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Nato", "references": ["Nato"]},
+      "target": {"topic": "EU-Turkey deal to curb migration", "references": ["EU-Turkey deal to curb migration"]},
+      "justifications": [
+        "Nato already supports EU efforts to stem a flood of refugees and migrants from Turkey into Greece, in conjunction with an EU-Turkey deal to curb migration in return for benefits for Ankara."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Obama and the other Nato leaders will have a more unscripted discussion of how to deal with Russia."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "target": {"topic": "Cold War", "references": ["Cold War"]},
+      "justifications": [
+        "We do not want a new Cold War," he told reporters. "The Cold War is history and it should remain history."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jens Stoltenberg", "references": ["Jens Stoltenberg"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Nato Secretary-General Jens Stoltenberg sought to balance the new military deployments and air patrols close to Russia's borders by stressing the alliance would continue to seek 'meaningful and constructive dialogue' with Moscow."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Tayyip Erdogan", "references": ["Tayyip Erdogan"]},
+      "target": {"topic": "Islamic State militants", "references": ["Islamic State militants"]},
+      "justifications": [
+        "Turkish President Tayyip Erdogan told reporters before leaving Ankara to attend the summit that Nato also needed to adapt to do more to fight a threat from Islamic State militants, who were accused of last week's deadly attack on Istanbul airport."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Tayyip Erdogan", "references": ["Tayyip Erdogan"]},
+      "target": {"topic": "international security", "references": ["international security"]},
+      "justifications": [
+        "As we have seen from the terrorist attacks first in Istanbul and then in Iraq and Saudi Arabia, international security is becoming more fragile."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nato", "references": ["Nato"]},
+      "target": {"topic": "international security", "references": ["international security"]},
+      "justifications": [
+        "In this process, Nato needs to be more active and has to update itself against the new security threats."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Nato", "references": ["Nato"]},
+      "entity2": {"entity": "EU", "references": ["EU"]},
+      "justifications": [
+        "The first item on the summit agenda was the signing of an agreement between the EU and Nato on deeper military and security cooperation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nato", "references": ["Nato"]},
+      "entity2": {"entity": "Turkey", "references": ["Turkey"]},
+      "justifications": [
+        "Nato already supports EU efforts to stem a flood of refugees and migrants from Turkey into Greece, in conjunction with an EU-Turkey deal to curb migration in return for benefits for Ankara."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nato", "references": ["Nato"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Nato Secretary-General Jens Stoltenberg sought to balance the new military deployments and air patrols close to Russia's borders by stressing the alliance would continue to seek 'meaningful and constructive dialogue' with Moscow."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Tayyip Erdogan", "references": ["Tayyip Erdogan"]},
+      "entity2": {"entity": "Nato", "references": ["Nato"]},
+      "justifications": [
+        "Turkish President Tayyip Erdogan told reporters before leaving Ankara to attend the summit that Nato also needed to adapt to do more to fight a threat from Islamic State militants."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Nato", "references": ["Nato"]},
+      "justifications": [
+        "David Cameron, who said he will resign after losing the referendum on EU membership last month, will seek to emphasise an active commitment to Western security at his final Nato summit."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

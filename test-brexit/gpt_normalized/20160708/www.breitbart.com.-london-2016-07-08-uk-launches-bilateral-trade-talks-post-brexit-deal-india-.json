@@ -1,0 +1,192 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "target": {
+        "topic": "trade relationship with India",
+        "references": [
+          "total trade",
+          "trade ties with India"
+        ]
+      },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "India",
+        "references": [
+          "Pakistan"
+        ]
+      },
+      "target": {
+        "topic": "trade relationship with Britain",
+        "references": [
+          "total trade",
+          "U.S.-British trade relations"
+        ]
+      },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit",
+          "vote to leave the European Union"
+        ]
+      },
+      "justifications": [
+        "Brexit supporters have said that Britain will be able to strike a good deal with the EU and also reach agreements with other big economies more quickly on its own than as part of the 28-nation EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "European Union",
+        "references": [
+          "EU CSDP",
+          "institutions of the European Union"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit",
+          "vote to leave the European Union"
+        ]
+      },
+      "justifications": [
+        "Brexit supporters have said that Britain will be able to strike a good deal with the EU and also reach agreements with other big economies more quickly on its own than as part of the 28-nation EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "India",
+        "references": [
+          "Pakistan"
+        ]
+      },
+      "target": {
+        "topic": "visa concessions",
+        "references": [
+          "visa concessions for its citizens to work abroad"
+        ]
+      },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "United States",
+        "references": [
+          "US and Canada"
+        ]
+      },
+      "target": {
+        "topic": "visa concessions",
+        "references": [
+          "visa concessions for its citizens to work abroad"
+        ]
+      },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "entity2": {
+        "entity": "India",
+        "references": [
+          "Pakistan"
+        ]
+      },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "India",
+        "references": [
+          "Pakistan"
+        ]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": [
+          "Germany"
+        ]
+      },
+      "justifications": [
+        "Britain said it would start preliminary talks with India on Friday about an eventual bilateral trade deal."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Brexit supporters",
+        "references": [
+          "Supporters of Brexit"
+        ]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": [
+          "EU CSDP",
+          "institutions of the European Union"
+        ]
+      },
+      "justifications": [
+        "Brexit supporters have said that Britain will be able to strike a good deal with the EU and also reach agreements with other big economies more quickly on its own than as part of the 28-nation EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "United States",
+        "references": [
+          "US and Canada"
+        ]
+      },
+      "entity2": {
+        "entity": "India",
+        "references": [
+          "Pakistan"
+        ]
+      },
+      "justifications": [
+        "It has demanded significant visa concessions for its citizens to work abroad, a source of tension with the United States."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

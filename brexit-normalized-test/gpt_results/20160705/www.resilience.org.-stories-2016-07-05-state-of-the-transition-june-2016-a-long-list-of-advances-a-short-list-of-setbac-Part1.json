@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "UK", "references": ["UK"] },
+      "target": { "topic": "solar power", "references": ["solar"] },
+      "justifications": ["In the UK, solar beat coal over a whole month of UK electricity generation for first time in May."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "China", "references": ["China"] },
+      "target": { "topic": "wind power", "references": ["wind power"] },
+      "justifications": ["China is on course to generate fully a quarter of its electricity from wind power by 2030."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "India", "references": ["India"] },
+      "target": { "topic": "solar power", "references": ["solar"] },
+      "justifications": ["In India, solar has become the fastest-growing new energy source."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UN", "references": ["UN"] },
+      "target": { "topic": "global-warming scenario", "references": ["2°C global-warming scenario"] },
+      "justifications": ["With 1 million now on the world's roads, EVs are on track for a 2°C global-warming scenario, the goal of the UN's Paris agreement on climate change."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Volkswagen", "references": ["Volkswagen"] },
+      "target": { "topic": "emissions fraud", "references": ["emissions fraud crimes"] },
+      "justifications": ["Most notably this month, Volkswagen announced a plan to seek redemption from its emissions fraud crimes via a strategy centred on EVs, robo-taxis, and a ride sharing network."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Total", "references": ["Total"] },
+      "target": { "topic": "residential power market", "references": ["residential power market"] },
+      "justifications": ["French oil major Total entered the residential power market by acquiring Lampiris, Belgium's third-largest natural gas and renewable power vendor for the residential sector."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Total", "references": ["Total"] },
+      "target": { "topic": "solar power", "references": ["solar"] },
+      "justifications": ["Total entered the residential power market by acquiring Lampiris, Belgium's third-largest natural gas and renewable power vendor for the residential sector. This on top of its earlier major investments in solar (Sunpower) and batteries (Saft)."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Dong Energy", "references": ["Dong Energy"] },
+      "target": { "topic": "renewable energy", "references": ["renewables"] },
+      "justifications": ["Dong Energy, a renewable energy company, became the largest IPO anywhere in the world so far this year. Dong was once an oil and gas company: its name stands for Danish Oil and Gas. Now 75% of its capital is going into renewables."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brexit", "references": ["Brexit"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["If the British are collectively ill advised enough to go ahead with their exit from the EU, they risk creating an isolated island that will be a stark outlier on an increasingly clear and positive direction of travel in the rest of the world."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": ["If the British are collectively ill advised enough to go ahead with their exit from the EU, they risk creating an isolated island that will be a stark outlier on an increasingly clear and positive direction of travel in the rest of the world."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Apple", "references": ["Apple"] },
+      "entity2": { "entity": "renewable-energy procurement", "references": ["renewable-energy procurement"] },
+      "justifications": ["Some 60 of the hundred largest US companies by sales have set goals for renewable-energy procurement, greenhouse gas emissions reductions and energy efficiency. Among them, Apple set up an energy company, and applied to supply excess solar electricity from its installations to customers of all types."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Nissan", "references": ["Nissan"] },
+      "entity2": { "entity": "solar power", "references": ["solar", "wind"] },
+      "justifications": ["Nissan will power a factory in the UK partly with solar and wind."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "BMW", "references": ["BMW"] },
+      "entity2": { "entity": "Tesla", "references": ["Tesla"] },
+      "justifications": ["BMW announced a small commercial energy storage solution, joining frontrunner Tesla, and other big corporate movers like GE."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Dong Energy", "references": ["Dong Energy"] },
+      "entity2": { "entity": "Shell", "references": ["Shell"] },
+      "justifications": ["Lesson: oil and gas companies can make it across the energy transition, no matter what Shell and the others tell us."],
+      "attitude": "Negative"
+    }
+  ]
+}

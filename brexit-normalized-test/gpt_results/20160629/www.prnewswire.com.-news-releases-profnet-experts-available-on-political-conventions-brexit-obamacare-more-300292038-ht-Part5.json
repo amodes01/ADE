@@ -1,0 +1,92 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Luis Fortuño",
+        "references": ["Luis Fortuño"]
+      },
+      "target": {
+        "topic": "Puerto Rico's government",
+        "references": ["right-sized its government"]
+      },
+      "justifications": [
+        "Under Fortuño's leadership as governor, Puerto Rico right-sized its government"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Luis Fortuño",
+        "references": ["Luis Fortuño"]
+      },
+      "target": {
+        "topic": "Puerto Rico's deficit spending",
+        "references": ["reined in deficit spending"]
+      },
+      "justifications": [
+        "Under Fortuño's leadership as governor, Puerto Rico right-sized its government and reined in deficit spending"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Luis Fortuño",
+        "references": ["Luis Fortuño"]
+      },
+      "target": {
+        "topic": "Puerto Rico's leadership in national governance",
+        "references": ["served as president of the Council of State Governments", "served as chairman of the Southern Governors Association", "appointed by President Obama to be one of 10 governors serving in the Council of Governors"]
+      },
+      "justifications": [
+        "Under Fortuño's leadership as governor, he served as president of the Council of State Governments (2011-2012) and as chairman of the Southern Governors Association (2011-2012)",
+        "he was appointed by President Obama to be one of 10 governors serving in the Council of Governors (2010-2012)"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Luis Fortuño",
+        "references": ["Luis Fortuño"]
+      },
+      "entity2": {
+        "entity": "President Obama",
+        "references": ["President Obama"]
+      },
+      "justifications": [
+        "he was appointed by President Obama to be one of 10 governors serving in the Council of Governors (2010-2012)"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Leslie Belcher",
+        "references": ["Leslie Belcher"]
+      },
+      "entity2": {
+        "entity": "House Speaker Ryan",
+        "references": ["House Speaker Ryan"]
+      },
+      "justifications": [
+        "She is a close confidante of House Speaker Ryan and his wife Janna"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Leslie Belcher",
+        "references": ["Leslie Belcher"]
+      },
+      "entity2": {
+        "entity": "House Speaker Ryan's wife Janna",
+        "references": ["his wife Janna"]
+      },
+      "justifications": [
+        "She is a close confidante of House Speaker Ryan and his wife Janna",
+        "was a bridesmaid at their wedding"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

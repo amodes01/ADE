@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "TechRadar team", "references": ["TechRadar team"] },
+      "target": { "topic": "tech", "references": ["tech"] },
+      "justifications": [
+        "We care passionately about tech",
+        "Technology is our passion"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "TechRadar team", "references": ["TechRadar team"] },
+      "entity2": { "entity": "TechRadar team", "references": ["TechRadar team"] },
+      "justifications": [
+        "We care passionately about tech",
+        "Technology is our passion"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "President Kenyatta",
+        "references": ["President Kenyatta"]
+      },
+      "target": {
+        "topic": "EU trade agreements",
+        "references": ["trade agreements signed with the EU"]
+      },
+      "justifications": [
+        "President Kenyatta recently expressed concern that third world countries continue to get a raw deal, despite various trade agreements signed with the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "President Kenyatta",
+        "references": ["Uhuru"]
+      },
+      "target": {
+        "topic": "EU trade agreements",
+        "references": ["trade agreements signed with the EU"]
+      },
+      "justifications": [
+        "President Kenyatta recently expressed concern that third world countries continue to get a raw deal, despite various trade agreements signed with the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "trade agreements",
+        "references": ["trade agreements signed with the EU"]
+      },
+      "justifications": [
+        "He faulted the current ACP regime of doing nothing to avert this situation."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "President Kenyatta",
+        "references": ["Uhuru"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "President Kenyatta recently expressed concern that third world countries continue to get a raw deal, despite various trade agreements signed with the EU",
+        "He faulted the current ACP regime of doing nothing to avert this situation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "entity2": {
+        "entity": "ACP",
+        "references": ["ACP"]
+      },
+      "justifications": [
+        "On the trade front, it is apparent that the current regime has not met the expectations in ACP countries"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

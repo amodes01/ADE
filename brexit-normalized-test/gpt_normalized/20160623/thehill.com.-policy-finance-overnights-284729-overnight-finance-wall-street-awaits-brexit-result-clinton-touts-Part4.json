@@ -1,0 +1,150 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "swing-state voters",
+        "references": [
+          "swing-state voters"
+        ]
+      },
+      "target": {
+        "topic": "trade expansion",
+        "references": [
+          "total trade"
+        ]
+      },
+      "justifications": [
+        "Voters in four battleground states... expressed positive views about the U.S. expanding trade"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Democrats",
+        "references": [
+          "democracy"
+        ]
+      },
+      "target": {
+        "topic": "trade expansion",
+        "references": [
+          "total trade"
+        ]
+      },
+      "justifications": [
+        "Democrats are particularly supportive, 66 to 25 percent."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": [
+          "Hilary Benn"
+        ]
+      },
+      "target": {
+        "topic": "trade expansion",
+        "references": [
+          "total trade"
+        ]
+      },
+      "justifications": [
+        "Hillary Clinton... call for major changes to the nation's global commercial outreach."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "target": {
+        "topic": "trade expansion",
+        "references": [
+          "total trade"
+        ]
+      },
+      "justifications": [
+        "Donald Trump... call for major changes to the nation's global commercial outreach."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "swing-state voters",
+        "references": [
+          "swing-state voters"
+        ]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": [
+          "Hilary Benn"
+        ]
+      },
+      "justifications": [
+        "Hillary Clinton... call for major changes to the nation's global commercial outreach."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "swing-state voters",
+        "references": [
+          "swing-state voters"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "Donald Trump... call for major changes to the nation's global commercial outreach."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Democrats",
+        "references": [
+          "democracy"
+        ]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": [
+          "Hilary Benn"
+        ]
+      },
+      "justifications": [
+        "Democrats are particularly supportive, 66 to 25 percent."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Democrats",
+        "references": [
+          "democracy"
+        ]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "Donald Trump... call for major changes to the nation's global commercial outreach."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia's actions in Ukraine", "references": ["Russia's actions in Ukraine"]},
+      "justifications": ["Russia's actions in Ukraine had eroded mutual trust"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": ["NATO does not want a new Cold War. The Cold War is history and should remain history."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["German Chancellor Angela Merkel"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": ["Russia's actions in Ukraine had eroded mutual trust"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["German Chancellor Angela Merkel"]},
+      "target": {"topic": "deterrence and dialogue", "references": ["deterrence and dialogue"]},
+      "justifications": ["the alliance should balance deterrence and dialogue with Moscow"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Ballistic Missile Defence system", "references": ["Ballistic Missile Defence system"]},
+      "justifications": ["NATO due to declare has reached an initial operating level"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "Ballistic Missile Defence system", "references": ["Ballistic Missile Defence system"]},
+      "justifications": ["Russia says that once the system becomes fully operational in 2018, it will undercut its strategic nuclear deterrent"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Obama was due to meet British Prime Minister David Cameron, who is set to resign over the Brexit vote"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Donald Tusk", "references": ["EU President Donald Tusk"]},
+      "justifications": ["talks between US President Barack Obama, attending his last NATO summit, EU President Donald Tusk"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Jean-Claude Juncker", "references": ["European Commission chief Jean-Claude Juncker"]},
+      "justifications": ["talks between US President Barack Obama, attending his last NATO summit, EU President Donald Tusk and European Commission chief Jean-Claude Juncker"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "justifications": ["This may be the most important moment for our transatlantic alliance since the end of the Cold War, Obama wrote in the Financial Times"],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Obama said he was also confident that the UK and the EU will be able to agree on an orderly transition to a new relationship"],
+      "attitude": "Positive"
+    }
+  ]
+}

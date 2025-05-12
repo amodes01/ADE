@@ -1,0 +1,86 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "U.K. leaving the EU", "references": ["British exit", "leaves the EU", "Brexit"] },
+      "target": { "topic": "United States-Germany relations", "references": ["United States is going to have to have a country", "work very closely on all these important trade and political and security issues", "Germany"] },
+      "justifications": [
+        "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "U.K. leaving the EU", "references": ["British exit", "leaves the EU", "Brexit"] },
+      "target": { "topic": "Germany's leadership in Europe", "references": ["Germany", "leader of Europe", "Germany remains the de facto leader of Europe"] },
+      "justifications": [
+        "Germany still remains the de facto leader of Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Merkel's handling of Syrian refugees", "references": ["Merkel's push for European countries to quickly admit Syrian refugees"] },
+      "target": { "topic": "Merkel's popularity", "references": ["Merkel's popularity", "popularity had taken a hit"] },
+      "justifications": [
+        "Merkel's popularity had taken a hit due to her push for European countries to quickly admit Syrian refugees."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "United States", "references": ["United States"] },
+      "entity2": { "entity": "Germany", "references": ["Germany"] },
+      "justifications": [
+        "The United States is likely to forge closer ties with Germany if the United Kingdom leaves the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "United States", "references": ["United States"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K.", "British"] },
+      "justifications": [
+        "American leaders have long looked to the U.K. to 'translate' the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Germany", "references": ["Germany"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K.", "British"] },
+      "justifications": [
+        "Germany is the country most likely to fill the void left by the U.K. if the country's leaders act on last week's referendum to leave the EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Angela Merkel", "references": ["Merkel"] },
+      "entity2": { "entity": "United Kingdom", "references": ["U.K."] },
+      "justifications": [
+        "Merkel warned the U.K. it should not expect to reap the benefits of the single European market free of the obligations of membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Angela Merkel", "references": ["Merkel"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "On Tuesday, Merkel warned the U.K. it should not expect to reap the benefits of the single European market free of the obligations of membership."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nicholas Burns", "references": ["Nicholas Burns"] },
+      "entity2": { "entity": "David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "British Prime Minister David Cameron has said he will not invoke Article 50 to begin the process of leaving."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Nicholas Burns", "references": ["Nicholas Burns"] },
+      "entity2": { "entity": "European Union", "references": ["European nations", "EU"] },
+      "justifications": [
+        "Burns does not expect other EU members to follow suit unless nationalist parties win a controlling majority in those countries, and that outcome is not likely in his view."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

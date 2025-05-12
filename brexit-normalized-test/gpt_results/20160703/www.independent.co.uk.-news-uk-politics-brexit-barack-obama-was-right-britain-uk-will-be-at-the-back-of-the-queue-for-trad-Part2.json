@@ -1,0 +1,23 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Mr. Barzun", "references": ["Mr Barzun"] },
+      "target": { "topic": "special relationship", "references": ["special relationship"] },
+      "justifications": [
+        "Mr Barzun did also insist that the special relationship would survive Brexit.",
+        "\"It sure is still special,\" he told presenter Kirsty Young."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Mr. Barzun", "references": ["Mr Barzun"] },
+      "entity2": { "entity": "Kirsty Young", "references": ["Kirsty Young"] },
+      "justifications": [
+        "\"You think about the cultural, the commercial, the emotional and the intellectual connections between our countries. Those are unbreakable.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

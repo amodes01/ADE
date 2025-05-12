@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "U.S. Travel Assn.", "references": ["U.S. Travel Assn."]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"But beyond that travel incentive, the vote, referred to as \\\"Brexit,\\\" has created mostly uncertainty in the travel industry.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "David Scowsill", "references": ["David Scowsill"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"We know that our sector is resilient and we expect business and leisure travel to hold up in the face of these challenges.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "David Scowsill", "references": ["David Scowsill"]},
+      "target": {"topic": "travel and tourism", "references": ["travel and tourism"]},
+      "justifications": [
+        "\"We know that our sector is resilient and we expect business and leisure travel to hold up in the face of these challenges.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tony Tyler", "references": ["Tony Tyler"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"The Brexit vote has triggered much uncertainty - financial and otherwise.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "U.S. Travel Assn.", "references": ["U.S. Travel Assn."]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"But beyond that travel incentive, the vote, referred to as \\\"Brexit,\\\" has created mostly uncertainty in the travel industry.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Scowsill", "references": ["David Scowsill"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "\"We know that our sector is resilient and we expect business and leisure travel to hold up in the face of these challenges.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "David Scowsill", "references": ["David Scowsill"]},
+      "entity2": {"entity": "Tony Tyler", "references": ["Tony Tyler"]},
+      "justifications": [
+        "\"We know that our sector is resilient and we expect business and leisure travel to hold up in the face of these challenges.\"",
+        "\"The Brexit vote has triggered much uncertainty - financial and otherwise.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

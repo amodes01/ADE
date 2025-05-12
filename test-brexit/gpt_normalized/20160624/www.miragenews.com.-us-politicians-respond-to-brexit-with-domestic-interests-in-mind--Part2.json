@@ -1,0 +1,111 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit referendum",
+        "references": [
+          "Brexit referendum vote",
+          "the decision of the British people to exercise their sovereign right of self-government",
+          "referendum closely to see if they can use the results into their advantage"
+        ]
+      },
+      "target": {
+        "topic": "US-UK relations",
+        "references": [
+          "the relationship with the US",
+          "our special relationship with the United Kingdom",
+          "war with NATO",
+          "a key member of the Five Eyes intelligence alliance"
+        ]
+      },
+      "justifications": [
+        "Ryan said in a statement Friday morning. 'The UK is an indispensable ally of the United States, and that special relationship is unaffected by this vote.'",
+        "Sen. Tom Cotton (R-Arkansas), who had previously warned President Obama against punishing the UK for leaving the EU, made a statement on Friday morning saying that he respects the decision of the British people to exercise their 'sovereign right of self-government' and leave the bloc.",
+        "Cotton said, adding that the US should now begin new trade negotiations with the UK.",
+        "Now is the time to preserve and strengthen our special relationship with the United Kingdom, which remains our closest NATO ally and a key member of the Five Eyes intelligence alliance."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "topic": "Brexit referendum",
+        "references": [
+          "Brexit referendum vote",
+          "referendum closely to see if they can use the results into their advantage"
+        ]
+      },
+      "target": {
+        "topic": "economic issues",
+        "references": [
+          "stagnant economies",
+          "declining wages",
+          "increased migration",
+          "rising crime",
+          "major terrorist attacks claimed by Islamic State"
+        ]
+      },
+      "justifications": [
+        "Meanwhile, the result of this referendum should remind leaders in Washington, London, Brussels, and across Europe that our citizens are dissatisfied with stagnant economies, declining wages, uncontrolled migration, rising crime, and terror attacks at home."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Paul Ryan",
+        "references": [
+          "Paul Ryan"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": [
+          "United Kingdom out of the European Union"
+        ]
+      },
+      "justifications": [
+        "Ryan said in a statement Friday morning. 'The UK is an indispensable ally of the United States, and that special relationship is unaffected by this vote.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Sen. Tom Cotton",
+        "references": [
+          "Tom Cotton"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": [
+          "United Kingdom out of the European Union"
+        ]
+      },
+      "justifications": [
+        "Sen. Tom Cotton (R-Arkansas), who had previously warned President Obama against punishing the UK for leaving the EU, made a statement on Friday morning saying that he respects the decision of the British people to exercise their 'sovereign right of self-government' and leave the bloc.",
+        "Cotton said, adding that the US should now begin new trade negotiations with the UK.",
+        "Now is the time to preserve and strengthen our special relationship with the United Kingdom, which remains our closest NATO ally and a key member of the Five Eyes intelligence alliance."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Sen. Tom Cotton",
+        "references": [
+          "Tom Cotton"
+        ]
+      },
+      "entity2": {
+        "entity": "President Obama",
+        "references": [
+          "Obama of playing politics"
+        ]
+      },
+      "justifications": [
+        "Sen. Tom Cotton (R-Arkansas), who had previously warned President Obama against punishing the UK for leaving the EU."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

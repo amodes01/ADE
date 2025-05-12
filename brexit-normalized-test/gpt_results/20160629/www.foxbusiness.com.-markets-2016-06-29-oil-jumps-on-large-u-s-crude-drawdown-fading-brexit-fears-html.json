@@ -1,0 +1,57 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "oil market", "references": ["oil prices", "crude", "Brent", "WTI"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Oil prices surged 4 percent on Wednesday, with Brent settling above the psychological $50 a barrel mark, after a larger-than-expected drawdown in U.S. crude inventories.",
+        "Fading concerns over the so-called Brexit... were among factors supporting Wednesday's rally."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "oil market", "references": ["oil prices", "crude", "Brent", "WTI"]},
+      "target": {"topic": "Venezuela's energy crisis", "references": ["crisis in Venezuela's energy sector"]},
+      "justifications": [
+        "Fading concerns... a crisis in Venezuela's energy sector were among factors supporting Wednesday's rally."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "oil market", "references": ["oil prices", "crude", "Brent", "WTI"]},
+      "target": {"topic": "oil workers' strike in Norway", "references": ["potential for an oil workers' strike in Norway"]},
+      "justifications": [
+        "Fading concerns over the so-called Brexit, potential for an oil workers' strike in Norway... were among factors supporting Wednesday's rally."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Scott Shelton", "references": ["Scott Shelton"]},
+      "target": {"topic": "crude draws", "references": ["crude draws", "drawdowns"]},
+      "justifications": [
+        "\"I am still unimpressed with overall crude draws for June, said Scott Shelton\"",
+        "\"With 16.7 million barrels per day of crude runs and production declines, we should have larger drawdowns for Q2. That has simply not happened.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "John Kilduff", "references": ["John Kilduff"]},
+      "entity2": {"entity": "Tariq Zahir", "references": ["Tariq Zahir"]},
+      "justifications": [
+        "\"We played on that curve to widen out and it was good for us, said Tariq Zahir\"",
+        "\"Aside from improving market fundamentals, bulls are also eager to keep prices at around $50 as we begin the second half, said John Kilduff\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Scott Shelton", "references": ["Scott Shelton"]},
+      "entity2": {"entity": "oil market", "references": ["oil prices", "crude", "Brent", "WTI"]},
+      "justifications": [
+        "\"I am still unimpressed with overall crude draws for June, said Scott Shelton\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

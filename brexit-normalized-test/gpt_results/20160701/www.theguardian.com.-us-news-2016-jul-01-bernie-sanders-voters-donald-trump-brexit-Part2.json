@@ -1,0 +1,73 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Bolger", "references": ["Bolger"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign.",
+        "The Brexit shows that the establishment, and the establishment media that parrots it, is completely out of touch with the population they purport to represent.",
+        "The unheard masses are rejecting the establishment in the only way the current system allows them to."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Bolger", "references": ["Bolger"] },
+      "target": { "topic": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign.",
+        "For better or for worse, the Brexit is the product of years of establishment suppression, and it is a global phenomena that is far from over."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Bolger", "references": ["Bolger"] },
+      "target": { "topic": "Hillary Clinton", "references": ["Clinton"] },
+      "justifications": [
+        "Only one respondent said watching the result of Brexit motivated him to back Clinton."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Farzad Abdollahi", "references": ["Farzad Abdollahi"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "He even hoped it would challenge Sanders voters who have switched to Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Farzad Abdollahi", "references": ["Farzad Abdollahi"] },
+      "target": { "topic": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "He even hoped it would challenge Sanders voters who have switched to Trump."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Farzad Abdollahi", "references": ["Farzad Abdollahi"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "He even hoped it would challenge Sanders voters who have switched to Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Farzad Abdollahi", "references": ["Farzad Abdollahi"] },
+      "entity2": { "entity": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "He even hoped it would challenge Sanders voters who have switched to Trump."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bolger", "references": ["Bolger"] },
+      "entity2": { "entity": "Trump", "references": ["Trump"] },
+      "justifications": [
+        "Bolger, a 26-year-old software developer from New York City, noted the similarities between Trump and the Brexit campaign."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

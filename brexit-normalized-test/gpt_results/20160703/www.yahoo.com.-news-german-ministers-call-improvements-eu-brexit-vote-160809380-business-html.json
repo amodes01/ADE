@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Finance Minister Wolfgang Schaeuble", "references": ["Wolfgang Schaeuble"]},
+      "target": {"topic": "EU decision-making", "references": ["European Union's processes", "decision making"]},
+      "justifications": ["called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "German Economy Minister Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "EU decision-making", "references": ["European Union's processes", "decision making"]},
+      "justifications": ["called for the ranks of EU Commissioners to be streamlined and for Brussels to reconsider how it allocates its budget"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "German Economy Minister Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "EU budget allocation", "references": ["allocates its budget"]},
+      "justifications": ["for Brussels to reconsider how it allocates its budget"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "migrant crisis", "references": ["migrant crisis"]},
+      "justifications": ["complaining that EU politicians had taken too long to make decisions on the migrant crisis last year"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "German Economy Minister Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "target": {"topic": "EU Commissioners", "references": ["27 Commissioners", "European Commission"]},
+      "justifications": ["A Europe in which 27 Commissioners want to prove themselves does not make sense"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Parliament President Martin Schulz", "references": ["Martin Schulz"]},
+      "target": {"topic": "EU governance", "references": ["a real European government"]},
+      "justifications": ["wrote in a piece for Frankfurter Allgemeine Zeitung's Monday edition that the Commission should be turned into a real European government subject to parliamentary control from the European Parliament"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "German Finance Minister Wolfgang Schaeuble", "references": ["Wolfgang Schaeuble"]},
+      "target": {"topic": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["in view of the Brexit vote and rising euroscepticism in other countries"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Finance Minister Wolfgang Schaeuble", "references": ["Wolfgang Schaeuble"]},
+      "entity2": {"entity": "German Economy Minister Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "justifications": ["called for improvements to the European Union's processes to speed up decision making and boost its appeal among citizens", "called for the ranks of EU Commissioners to be streamlined and for Brussels to reconsider how it allocates its budget"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "German Economy Minister Sigmar Gabriel", "references": ["Sigmar Gabriel"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["called for the ranks of EU Commissioners to be streamlined and for Brussels to reconsider how it allocates its budget"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "German Finance Minister Wolfgang Schaeuble", "references": ["Wolfgang Schaeuble"]},
+      "entity2": {"entity": "European Parliament President Martin Schulz", "references": ["Martin Schulz"]},
+      "justifications": ["Schaeuble said on German public broadcaster ARD on Sunday that in view of the Brexit vote and rising euroscepticism in other countries, the EU needed to better explain its role to people and deliver visible results more quickly", "wrote in a piece for Frankfurter Allgemeine Zeitung's Monday edition that the Commission should be turned into a real European government subject to parliamentary control from the European Parliament"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit vote"]},
+      "justifications": ["Brexit vote caused major losses in global financial markets and raised concerns about the EU's future prospects"],
+      "attitude": "Negative"
+    }
+  ]
+}

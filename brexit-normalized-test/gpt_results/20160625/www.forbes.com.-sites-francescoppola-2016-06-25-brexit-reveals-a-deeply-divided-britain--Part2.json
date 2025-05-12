@@ -1,0 +1,151 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Young people", "references": ["young people"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "For them, the EU's open borders are a boon, not a bane: they can work and study anywhere in Europe."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Older people", "references": ["older people"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "Older people voted for Brexit: the older they were, the more likely they were to vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Young people", "references": ["young people"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Young people, especially those aged 18-25, voted overwhelmingly to remain in the EU.",
+        "They are understandably furious with older people about the result."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Older people", "references": ["older people"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Older people voted for Brexit: the older they were, the more likely they were to vote to leave."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Young people", "references": ["young people"]},
+      "target": {"topic": "General Election", "references": ["General Election"]},
+      "justifications": [
+        "In last year's General Election, only 43% of that age group bothered to vote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Older people", "references": ["over-65s"]},
+      "target": {"topic": "General Election", "references": ["General Election"]},
+      "justifications": [
+        "78% of over-65s voted in the General Election."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Scotland", "references": ["Scotland"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "Scotland, in particular, voted overwhelmingly to remain in the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Northern Ireland", "references": ["Northern Ireland"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "It may also reignite the campaign for reunification of Northern Ireland with its southern neighbor, Ireland, which has no plans to leave the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "England", "references": ["England"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "England, by far the largest of the four, is also deeply split, with the industrial 'heartlands' voting to Leave but London voting to Remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "London", "references": ["London"]},
+      "target": {"topic": "EU membership", "references": ["EU", "European Union"]},
+      "justifications": [
+        "London voting to Remain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Young people", "references": ["young people"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Young people feel disenfranchised, but their own behavior reinforces this."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Young people", "references": ["young people"]},
+      "entity2": {"entity": "Older people", "references": ["older people"]},
+      "justifications": [
+        "Young people are understandably furious with older people about the result."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Older people", "references": ["older people"]},
+      "entity2": {"entity": "Young people", "references": ["young people"]},
+      "justifications": [
+        "Older people voted for Brexit: the older they were, the more likely they were to vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Scotland", "references": ["Scotland"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "This will reinforce calls for a second independence referendum in Scotland."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Northern Ireland", "references": ["Northern Ireland"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "It may also reignite the campaign for reunification of Northern Ireland with its southern neighbor, Ireland, which has no plans to leave the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "England", "references": ["England"]},
+      "entity2": {"entity": "London", "references": ["London"]},
+      "justifications": [
+        "The industrial 'heartlands' voting to Leave but London voting to Remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "England", "references": ["England"]},
+      "justifications": [
+        "London voting to Remain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "London", "references": ["London"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": [
+        "London is one of the biggest and most prosperous cities in the world."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

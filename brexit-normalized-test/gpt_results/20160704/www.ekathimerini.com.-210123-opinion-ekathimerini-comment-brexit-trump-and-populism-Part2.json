@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Senator Bernie Sanders", "references": ["Senator Bernie Sanders"]},
+      "target": {"topic": "big banks and corporations", "references": ["big banks and corporations"]},
+      "justifications": ["His anger is targeted at big banks and corporations rather than Chinese and Mexican trade negotiators"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Senator Bernie Sanders", "references": ["Senator Bernie Sanders"]},
+      "target": {"topic": "Chinese and Mexican trade negotiators", "references": ["Chinese and Mexican trade negotiators"]},
+      "justifications": ["His anger is targeted at big banks and corporations rather than Chinese and Mexican trade negotiators"],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Candidate Clinton", "Clinton"]},
+      "target": {"topic": "Transpacific Partnership", "references": ["Transpacific Partnership"]},
+      "justifications": ["Candidate Clinton has responded to these challenges by talking down trade and withdrawing support for the Transpacific Partnership"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "target": {"topic": "Transpacific Partnership", "references": ["Transpacific Partnership"]},
+      "justifications": ["an enormous trade agreement that Barack Obama considers a crucial part of his legacy"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Candidate Clinton", "Clinton"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": ["Trump's argument that a new president must \"make America great again\" won him the Republican Party nomination", "Candidate Clinton has responded to these challenges by talking down trade and withdrawing support for the Transpacific Partnership"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Senator Bernie Sanders", "references": ["Senator Bernie Sanders"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Clinton"]},
+      "justifications": ["Clinton's forceful and persistent rival for the Democratic Party nomination"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Candidate Clinton", "Clinton"]},
+      "entity2": {"entity": "Barack Obama", "references": ["Barack Obama"]},
+      "justifications": ["an enormous trade agreement that Barack Obama considers a crucial part of his legacy"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Ian Bremmer", "references": ["Ian Bremmer"]},
+      "entity2": {"entity": "Eurasia Group", "references": ["Eurasia Group"]},
+      "justifications": ["Ian Bremmer is president of Eurasia Group"],
+      "attitude": "Neutral"
+    }
+  ]
+}

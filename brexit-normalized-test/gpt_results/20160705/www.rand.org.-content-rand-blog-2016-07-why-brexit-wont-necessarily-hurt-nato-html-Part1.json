@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "NATO", "references": ["NATO"]},
+      "justifications": ["Concerns that the \"Brexit\" vote could weaken NATO are overblown.", "Even before the Brexit vote, former NATO commanders expressed concern on the grounds that support for Brexit would undermine Britain's ability to remain engaged in the alliance.", "After the British voted for Brexit, observers noted that it would undermine NATO by sowing division within Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "Russian influence", "references": ["Russian influence"]},
+      "justifications": ["there are no dramatic outcomes like the rise of Russian influence in Eastern Europe or a significant weakening of NATO.", "Commentators who chalk Brexit up as a win for potential Russian adventurism in Ukraine, the Baltics or elsewhere are jumping the gun."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": ["the European Union is not NATO - it's far too early to expect dramatic outcomes like the rise of Russian influence in Eastern Europe or a significant weakening of NATO."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "British reluctance", "references": ["British reluctance"]},
+      "target": {"topic": "European cooperation", "references": ["cooperating with Europe"]},
+      "justifications": ["Britain has traditionally been ambivalent about cooperating with Europe.", "British reluctance to cooperate with their European neighbors has a long history dating back to their role as the keeper of the balance of power on the European continent."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Winston Churchill", "references": ["Winston Churchill"]},
+      "target": {"topic": "United States of Europe", "references": ["United States of Europe"]},
+      "justifications": ["Winston Churchill called for a \"kind of United States of Europe\" in 1946."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "British reluctance", "references": ["British reluctance"]},
+      "target": {"topic": "European Defence Community", "references": ["European Defence Community"]},
+      "justifications": ["The British refused to take part in discussions over the failed European Defence Community in the 1950s."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British", "references": ["British"]},
+      "target": {"entity": "Germany", "references": ["German economic strength"]},
+      "justifications": ["More recently, the British have expressed concerns about growing German economic strength following World War II."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British", "references": ["British"]},
+      "target": {"entity": "France", "references": ["French efforts to use European integration"]},
+      "justifications": ["the British have expressed concerns about ... French efforts to use European integration as a platform to forward its interests."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Margaret Thatcher", "references": ["Margaret Thatcher"]},
+      "target": {"entity": "British sovereignty", "references": ["British sovereignty"]},
+      "justifications": ["Casual observers point to individuals like Margaret Thatcher, or, in the current crisis, Boris Johnson, as champions of British sovereignty."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "target": {"entity": "British sovereignty", "references": ["British sovereignty"]},
+      "justifications": ["Casual observers point to individuals like Margaret Thatcher, or, in the current crisis, Boris Johnson, as champions of British sovereignty."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["the British have traditionally been ambivalent about cooperating with Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "European Union", "references": ["European neighbours"]},
+      "justifications": ["British reluctance to cooperate with their European neighbors has a long history dating back to their role as the keeper of the balance of power on the European continent."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "German economic strength", "references": ["growing German economic strength"]},
+      "justifications": ["the British have expressed concerns about growing German economic strength following World War II."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British", "references": ["British"]},
+      "entity2": {"entity": "French efforts", "references": ["French efforts to use European integration"]},
+      "justifications": ["the British have expressed concerns about French efforts to use European integration as a platform to forward its interests."],
+      "attitude": "Negative"
+    }
+  ]
+}

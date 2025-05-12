@@ -1,0 +1,81 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Brexit", "references": ["leave result", "Brexit"]},
+      "target": {"topic": "UK trade", "references": ["UK trade"]},
+      "justifications": [
+        "When asked if there could be any merit from a leave result following tomorrow's referendum, the resounding voice from the trade is 'no'.",
+        "When asked if there could be any positive outcomes from a leave result following tomorrow's referendum, the resounding voice from the UK trade is 'no'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["leave result", "Brexit"]},
+      "target": {"topic": "UK trade", "references": ["UK trade"]},
+      "justifications": [
+        "the trade might have to prepare itself for an unpopular result."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["leave result", "Brexit"]},
+      "target": {"topic": "long-term benefits", "references": ["long-term benefits"]},
+      "justifications": [
+        "McLaren asked the trade to keep an open mind to the possibility of long-term benefits."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Brexit", "references": ["leave result", "Brexit"]},
+      "target": {"topic": "short-term damage", "references": ["damage to the exchange rate", "damage to the exchange rate", "power of the pound"]},
+      "justifications": [
+        "many are concerned about the immediate effects of a UK exit, including the damage to the exchange rate and the power of the pound."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "John McLaren", "references": ["John McLaren"]},
+      "entity2": {"entity": "UK trade", "references": ["UK trade"]},
+      "justifications": [
+        "McLaren asked the trade to keep an open mind to the possibility of long-term benefits.",
+        "McLaren asked the UK trade to look beyond the uncertainty-is-bad-for-business mantra."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "John McLaren", "references": ["John McLaren"]},
+      "entity2": {"entity": "Tim North", "references": ["Tim North"]},
+      "justifications": [
+        "John McLaren is asking the UK trade to look beyond the uncertainty-is-bad-for-business mantra and see the bigger picture.",
+        "Tim North disagrees. He says that the devil is in the - in this case, the unseen - detail."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tim North", "references": ["Tim North"]},
+      "entity2": {"entity": "John McLaren", "references": ["McLaren"]},
+      "justifications": [
+        "Tim North disagrees. He says that the devil is in the - in this case, the unseen - detail."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Tim North", "references": ["Tim North"]},
+      "entity2": {"entity": "UK trade", "references": ["UK trade"]},
+      "justifications": [
+        "Tim North challenged the idea that leaving the EU would lead to Britain becoming more entrenched in a global market."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "John McLaren", "references": ["McLaren"]},
+      "entity2": {"entity": "UK trade", "references": ["UK trade"]},
+      "justifications": [
+        "McLaren asked the UK trade to look beyond the uncertainty-is-bad-for-business mantra and see the bigger picture."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

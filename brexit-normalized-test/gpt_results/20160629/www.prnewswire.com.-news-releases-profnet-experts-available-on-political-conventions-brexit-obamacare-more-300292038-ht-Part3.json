@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Seth Masket", "references": ["Seth Masket"]},
+      "target": {"topic": "party conventions", "references": ["party conventions"]},
+      "justifications": [
+        "Modern party conventions have become pretty straightforward events that just ratify decisions that party voters made months earlier."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Seth Masket", "references": ["Seth Masket"]},
+      "target": {"topic": "Republican side", "references": ["Republican side"]},
+      "justifications": [
+        "There is a significant chance we will see some delegates rebel against the party's presumptive nominee and attempt to choose someone else."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Patrick Miller", "references": ["Patrick Miller"]},
+      "target": {"topic": "polarized politics", "references": ["polarized politics"]},
+      "justifications": [
+        "What is the consequence of today's polarized politics? What's motivating partisans to vote in this climate?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Patrick Miller", "references": ["Patrick Miller"]},
+      "target": {"topic": "partisanship", "references": ["partisanship"]},
+      "justifications": [
+        "For too many of them, it's not high-minded, good-government, issue-based goals. It's, 'I hate the other party. I am going to go out, and we are going to beat them.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Michael V. Haselswerdt", "references": ["Michael V. Haselswerdt"]},
+      "target": {"topic": "presidential candidates", "references": ["presidential candidates"]},
+      "justifications": [
+        "Those in the national parties usually want their presidential candidates to win, but knowing that a sitting president defines the party, this may not be as true for significant portions of both parties this year."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Vincent Hutchings", "references": ["Vincent Hutchings"]},
+      "target": {"topic": "party conventions", "references": ["conventions"]},
+      "justifications": [
+        "Hutchings says the conventions now seek to galvanize the party base."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Vincent Hutchings", "references": ["Vincent Hutchings"]},
+      "target": {"topic": "conventions' influence", "references": ["influence of the conventions"]},
+      "justifications": [
+        "It's not like it was several decades ago where the conventions helped to decide who the nominees would be -- so it's not going to be as influential as it could be."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Seth Masket", "references": ["Seth Masket"]},
+      "entity2": {"entity": "Republican side", "references": ["Republican side"]},
+      "justifications": [
+        "There is a significant chance we will see some delegates rebel against the party's presumptive nominee and attempt to choose someone else."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Patrick Miller", "references": ["Patrick Miller"]},
+      "entity2": {"entity": "partisans", "references": ["partisans"]},
+      "justifications": [
+        "For too many of them, it's not high-minded, good-government, issue-based goals. It's, 'I hate the other party. I am going to go out, and we are going to beat them.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michael V. Haselswerdt", "references": ["Michael V. Haselswerdt"]},
+      "entity2": {"entity": "presidential candidates", "references": ["presidential candidates"]},
+      "justifications": [
+        "Those in the national parties usually want their presidential candidates to win, but knowing that a sitting president defines the party, this may not be as true for significant portions of both parties this year."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Vincent Hutchings", "references": ["Vincent Hutchings"]},
+      "entity2": {"entity": "party base", "references": ["party base"]},
+      "justifications": [
+        "Hutchings says the conventions now seek to galvanize the party base."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

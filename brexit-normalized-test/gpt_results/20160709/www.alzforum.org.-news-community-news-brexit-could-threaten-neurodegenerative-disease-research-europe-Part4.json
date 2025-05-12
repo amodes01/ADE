@@ -1,0 +1,202 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "Brexit impact on international research",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Researchers foresee a more fractured research landscape post-Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "target": {
+        "topic": "EU funding for research",
+        "references": ["EU funding"]
+      },
+      "justifications": [
+        "EU funding underlies their success."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "target": {
+        "topic": "EU funding for research",
+        "references": ["EU grants"]
+      },
+      "justifications": [
+        "EU grants enabled the TRANSEURO consortium to establish the necessary infrastructure."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Carare",
+        "references": ["Carare"]
+      },
+      "target": {
+        "topic": "Brexit impact on international research",
+        "references": ["post-Brexit restrictions"]
+      },
+      "justifications": [
+        "Post-Brexit restrictions could hinder international collaborations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "De Strooper",
+        "references": ["De Strooper"]
+      },
+      "target": {
+        "topic": "Brexit impact on research",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "It is unclear how long British scientists will continue to be involved in the big European science programs."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Catherine Falcetti",
+        "references": ["Catherine Falcetti"]
+      },
+      "target": {
+        "topic": "Brexit impact on business",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "For the moment, the company is operating 'business as usual' in the U.K. and EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Stuart Pickering-Brown",
+        "references": ["Stuart Pickering-Brown"]
+      },
+      "target": {
+        "topic": "Brexit impact on international research",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "'This is the 21st century-we should be about unity and partnership, not division and isolationism.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Sophie Labbé",
+        "references": ["Sophie Labbé"]
+      },
+      "target": {
+        "topic": "Brexit impact on EMA",
+        "references": ["Brexit", "EMA"]
+      },
+      "justifications": [
+        "EMA's procedures and work streams are not affected by the outcome of the referendum."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "entity2": {
+        "entity": "Carare",
+        "references": ["Carare"]
+      },
+      "justifications": [
+        "Researchers also wonder how access to information might change."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "entity2": {
+        "entity": "De Strooper",
+        "references": ["De Strooper"]
+      },
+      "justifications": [
+        "Without such funding, the next generation of stem cell-based therapies may suffer, he predicted."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "entity2": {
+        "entity": "Catherine Falcetti",
+        "references": ["Catherine Falcetti"]
+      },
+      "justifications": [
+        "Catherine Falcetti at Biogen told Alzforum that for the moment, the company is operating 'business as usual' in the U.K. and EU."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "entity2": {
+        "entity": "Stuart Pickering-Brown",
+        "references": ["Stuart Pickering-Brown"]
+      },
+      "justifications": [
+        "Stuart Pickering-Brown at the University of Manchester lamented the potential for division and isolationism due to Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Roger Barker",
+        "references": ["Roger Barker"]
+      },
+      "entity2": {
+        "entity": "Sophie Labbé",
+        "references": ["Sophie Labbé"]
+      },
+      "justifications": [
+        "Sophie Labbé said in a statement, 'EMA's procedures and work streams are not affected by the outcome of the referendum.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Carare",
+        "references": ["Carare"]
+      },
+      "entity2": {
+        "entity": "De Strooper",
+        "references": ["De Strooper"]
+      },
+      "justifications": [
+        "De Strooper sees a bleak future if these issues cannot be resolved."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

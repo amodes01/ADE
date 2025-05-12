@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Lorenzo Codogno", "references": ["Lorenzo Codogno"]},
+      "target": {"topic": "Brexit's impact on Italy's banking sector", "references": ["Brexit could lead to a full-blown banking crisis in Italy"]},
+      "justifications": ["Brexit could lead to a full-blown banking crisis in Italy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Michael Hewson", "references": ["Michael Hewson"]},
+      "target": {"topic": "Brexit's impact on Europe's banking sector", "references": ["combined effect of bad loans in Italian banks and Brexit could spell disaster for Europe's banks"]},
+      "justifications": ["the combined effect of bad loans in Italian banks and Brexit could spell disaster for Europe's banks."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Commission", "references": ["European Commission"]},
+      "target": {"topic": "Italy's banking crisis", "references": ["The European Commission has recently agreed to a guarantee scheme for a precautionary liquidity support scheme for banks in need"]},
+      "justifications": ["The European Commission has recently agreed to a guarantee scheme for a precautionary liquidity support scheme for banks in need."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "European Commission", "references": ["European Commission"]},
+      "target": {"topic": "Italy's banking crisis", "references": ["The Italian government may be seeking out arrangements to inject €40bn worth of capital into the banking system"]},
+      "justifications": ["The Italian government may be seeking out arrangements to inject €40bn worth of capital into the banking system."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Lorenzo Codogno", "references": ["Lorenzo Codogno"]},
+      "entity2": {"entity": "Italy's banks", "references": ["Italian banks"]},
+      "justifications": ["Brexit could lead to a full-blown banking crisis in Italy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michael Hewson", "references": ["Michael Hewson"]},
+      "entity2": {"entity": "Italy's banks", "references": ["bad loans in Italian banks"]},
+      "justifications": ["the combined effect of bad loans in Italian banks and Brexit could spell disaster for Europe's banks."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European Commission", "references": ["European Commission"]},
+      "entity2": {"entity": "Italy's banks", "references": ["banks in need"]},
+      "justifications": ["The European Commission has recently agreed to a guarantee scheme for a precautionary liquidity support scheme for banks in need."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "European Central Bank", "references": ["European Central Bank"]},
+      "entity2": {"entity": "Monte Paschi", "references": ["Monte Paschi"]},
+      "justifications": ["Monte Paschi confirmed in a statement on Monday that it had received a letter from the European Central Bank (ECB) asking the institution to meet certain requirements."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Italian government", "references": ["Italian government"]},
+      "entity2": {"entity": "Italy's banks", "references": ["inject €40bn worth of capital into the banking system"]},
+      "justifications": ["The Italian government may be seeking out arrangements to inject €40bn worth of capital into the banking system."],
+      "attitude": "Positive"
+    }
+  ]
+}

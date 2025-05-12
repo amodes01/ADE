@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "human rights" },
+      "justifications": ["than now, less predisposed to raise issues of human rights."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "EU" },
+      "justifications": ["It can no longer hide behind EU statements for this and needs friends not enemies."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "trade deals" },
+      "justifications": ["there will be an obsession with obtaining new trade deals to replace those lost by exiting the EU."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "refugee crisis" },
+      "justifications": ["the UK had already left the refugee crisis to be managed (poorly) by the rest of the EU and will continue to wash its hands of any responsibility."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "aid funding" },
+      "justifications": ["One of the grievances of the far right in Britain is that, rather than invest in core services at home, too much funding went on international development."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "Syria aid" },
+      "justifications": ["Britain has committed £1.1 billion to Syria but this generosity as the second largest bilateral donor may diminish."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "Middle East" },
+      "justifications": ["Another consequence of Brexit for the Middle East will be Britain's eventual absence from EU decision-making on the region."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "EU decision-making" },
+      "justifications": ["Another consequence of Brexit for the Middle East will be Britain's eventual absence from EU decision-making on the region."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "EU diplomats" },
+      "justifications": ["British diplomats are hugely respected across the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Britain" },
+      "target": { "topic": "Arab capitals" },
+      "justifications": ["Frequently European diplomats tell me how much they value British input in Arab capitals."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Turkey", "references": ["Turkey"] },
+      "justifications": ["Turkey will lose a country that has until this Brexit campaign when the prime minister backed off, championed its accession to the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Israel", "references": ["Israel"] },
+      "justifications": ["Israel will lose a key voice within the EU for its interests, one that often inserted US positions into the Israel-Palestine debate in Brussels."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain"] },
+      "entity2": { "entity": "Iran", "references": ["Iran"] },
+      "justifications": ["an incoming British government may take a different approach to the nuclear issue."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Chris Doyle", "references": ["Chris Doyle"] },
+      "entity2": { "entity": "Council for Arab-British Understanding", "references": ["Council for Arab-British Understanding", "CAABU"] },
+      "justifications": ["Chris Doyle is the director of Council for Arab-British Understanding."],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Tekserve's business model", "references": ["Tekserve's business model"] },
+      "target": { "topic": "big-box tech retailers", "references": ["Apple", "Best Buy"] },
+      "justifications": [
+        "Tekserve's business model just does not apply in a world where big-box tech retailers, like Apple and Best Buy, offer similar services over a much wider physical network"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Tekserve's business model", "references": ["Tekserve's business model"] },
+      "target": { "topic": "consumer behaviors around electronics", "references": ["sea change in consumer behaviors around electronics"] },
+      "justifications": [
+        "Between a sea change in consumer behaviors around electronics since the 1980s and New York's well-documented problem with rent increases as high as its Midtown skyline"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Gepner", "references": ["Gepner"] },
+      "entity2": { "entity": "Tekserve", "references": ["Tekserve"] },
+      "justifications": [
+        "Gepner joined Tekserve in 2014 with the mission of exploring the options of a turnaround"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Gepner", "references": ["Gepner"] },
+      "entity2": { "entity": "Tekserve", "references": ["Tekserve"] },
+      "justifications": [
+        "Gepner acknowledged to the owners of the business that it was unlikely even back then"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Gepner", "references": ["Gepner"] },
+      "entity2": { "entity": "Tekserve", "references": ["Tekserve"] },
+      "justifications": [
+        "Gepner and Tekserve had to come to the unfortunate realization that there comes a point where [the business] does not make sense anymore"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

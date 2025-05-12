@@ -1,0 +1,159 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "defending the Baltics", "references": ["defend the Baltics"]},
+      "justifications": [
+        "\"When it comes to the Baltics, we do not have the strength, the resources or the will to do anything there.\"",
+        "\"We have nothing to gain in the Baltics.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "defending Crimea", "references": ["defending and subsidizing Crimea"]},
+      "justifications": [
+        "The price of defending and subsidizing Crimea, which Russia annexed from Ukraine in 2014, has already put enormous strain on the Russian budget."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "Russian economy", "references": ["Russia's economy"]},
+      "justifications": [
+        "The subsequent collapse in the price of oil, Russia's main export, has driven its economy deeper into a full blown crisis, which shows no sign of easing any time soon."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russian invasion", "references": ["Russian invasion"]},
+      "justifications": [
+        "But is it really much more paranoid than NATO's concerns about a Russian invasion?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Michael Kofman", "references": ["Michael Kofman"]},
+      "target": {"topic": "war with NATO", "references": ["war with NATO"]},
+      "justifications": [
+        "\"Everything about Russia's force posture indicates a country ill-prepared for war with NATO.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Russia", "references": ["Russia"]},
+      "target": {"topic": "NATO's military superiority", "references": ["NATO's military superiority"]},
+      "justifications": [
+        "However much it may wish to challenge NATO's military superiority, Russia does not have the money, the manpower or the technology to do that any time soon-at least not in the arena of conventional warfare."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia's nuclear arsenal", "references": ["Russia's nuclear arsenal"]},
+      "justifications": [
+        "But to compensate for that weakness, Moscow has become more reliant than ever on its nuclear arsenal, says William Perry, who served as Secretary of Defense during the Clinton Administration."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "William Perry", "references": ["William Perry"]},
+      "target": {"topic": "Russia's nuclear arsenal", "references": ["Russia's nuclear arsenal"]},
+      "justifications": [
+        "\"They have put heavy emphasis on their tactical nuclear weapons, both in terms of the deployment and in terms of their rhetoric.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "nuclear threats", "references": ["nuclear threats"]},
+      "justifications": [
+        "And it's not one that NATO will resolve by stationing a few thousand more troops along its border with Russia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Doug Lute", "references": ["Doug Lute"]},
+      "target": {"topic": "dialogue with Russia", "references": ["dialogue with Russia"]},
+      "justifications": [
+        "\"From NATO's perspective, the foundation of our relationship with Russia is a balance between strength and dialogue.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Doug Lute", "references": ["Doug Lute"]},
+      "target": {"topic": "dialogue with Russia", "references": ["dialogue with Russia"]},
+      "justifications": [
+        "\"But we will equally be open to dialogue with Russia.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Jens Stoltenberg", "references": ["Stoltenberg"]},
+      "target": {"topic": "meeting with Russia", "references": ["meeting with Russia"]},
+      "justifications": [
+        "Stoltenberg, the Secretary General, said on July 4 that the alliance has not been able to agree on the terms for a meeting with Russia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "President Vladimir Putin", "references": ["Vladimir Putin"]},
+      "target": {"topic": "mass street protests", "references": ["mass street protests"]},
+      "justifications": [
+        "The last time such a vote took place, in the winter of 2011, mass street protests broke out in Moscow to call for the resignation of President Vladimir Putin."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Russia", "references": ["Russia"]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": [
+        "But is it really much more paranoid than NATO's concerns about a Russian invasion?"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "From NATO's perspective, the foundation of our relationship with Russia is a balance between strength and dialogue."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "But we will equally be open to dialogue with Russia."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Jens Stoltenberg", "references": ["Stoltenberg"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "Stoltenberg, the Secretary General, said on July 4 that the alliance has not been able to agree on the terms for a meeting with Russia."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michael Kofman", "references": ["Michael Kofman"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "\"Everything about Russia's force posture indicates a country ill-prepared for war with NATO.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "William Perry", "references": ["William Perry"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "But to compensate for that weakness, Moscow has become more reliant than ever on its nuclear arsenal."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

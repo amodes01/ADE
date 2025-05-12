@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "independent Texas",
+        "references": [
+          "Texans"
+        ]
+      },
+      "target": {
+        "topic": "danger",
+        "references": [
+          "a danger to itself and others"
+        ]
+      },
+      "justifications": [
+        "an independent Texas would be a danger to itself and others"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "independent Texas",
+        "references": [
+          "Texans"
+        ]
+      },
+      "target": {
+        "topic": "UN peacekeeping mission",
+        "references": [
+          "UN peacekeeping mission"
+        ]
+      },
+      "justifications": [
+        "we'd eventually just get dragged into a UN peacekeeping mission to keep it from causing trouble"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "independent Texas",
+        "references": [
+          "Texans"
+        ]
+      },
+      "entity2": {
+        "entity": "neo-Nazis",
+        "references": [
+          "neo-Nazi type"
+        ]
+      },
+      "justifications": [
+        "an independent Texas would be a danger to itself and others"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

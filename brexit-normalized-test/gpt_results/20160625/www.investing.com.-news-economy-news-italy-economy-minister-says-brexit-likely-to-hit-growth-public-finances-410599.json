@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's vote to leave the European Union", "Brexit"]
+      },
+      "justifications": [
+        "Britain's vote to leave the European Union could lead to the Italian economy growing less than initially forecast"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Unicredit",
+        "references": ["Unicredit"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["British referendum", "Brexit"]
+      },
+      "justifications": [
+        "following the British referendum it was slashing its 2017 growth forecast for Italy to between 0.2 and 0.7 percent"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "European Union priorities",
+        "references": ["EU must now review its priorities"]
+      },
+      "justifications": [
+        "the EU must now review its priorities"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "EU focus on banking union",
+        "references": ["worry about banks", "banking union"]
+      },
+      "justifications": [
+        "Europe can no longer only worry about banks"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "calling for common policies that do not only regard banking union but also immigration"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "security",
+        "references": ["security"]
+      },
+      "justifications": [
+        "calling for common policies that do not only regard banking union but also immigration, security"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "target": {
+        "topic": "fight against inequality",
+        "references": ["fight against inequality"]
+      },
+      "justifications": [
+        "calling for common policies that do not only regard banking union but also immigration, security and the fight against inequality"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "entity2": {
+        "entity": "Unicredit",
+        "references": ["Unicredit"]
+      },
+      "justifications": [
+        "Unicredit said that following the British referendum it was slashing its 2017 growth forecast for Italy to between 0.2 and 0.7 percent"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Pier Carlo Padoan",
+        "references": ["Pier Carlo Padoan"]
+      },
+      "entity2": {
+        "entity": "British referendum",
+        "references": ["British referendum"]
+      },
+      "justifications": [
+        "Padoan said on Saturday that Britain's vote to leave the European Union could lead to the Italian economy growing less than initially forecast"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

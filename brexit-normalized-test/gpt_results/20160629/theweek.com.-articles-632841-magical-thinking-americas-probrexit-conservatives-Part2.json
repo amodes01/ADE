@@ -1,0 +1,43 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "United Kingdom", "references": ["U.K."]},
+      "target": {"topic": "free-market policies", "references": ["open-market policies"]},
+      "justifications": ["the U.K. is able to benefit fully from open-market policies"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United Kingdom", "references": ["U.K."]},
+      "target": {"topic": "regulatory environment", "references": ["efficient regulatory environment"]},
+      "justifications": ["the U.K. is able to benefit fully from open-market policies and a relatively efficient regulatory environment"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "free-market Brexiteers", "references": ["free-market Brexiteers"]},
+      "target": {"topic": "pro-growth policies", "references": ["pro-growth policies"]},
+      "justifications": ["the free-market Brexiteers urged a big gamble, but the 'pro-growth' policies they are pushing"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "populists in the Leave crowd", "references": ["many populists in the Leave crowd"]},
+      "target": {"topic": "pro-growth policies", "references": ["pro-growth policies"]},
+      "justifications": ["the 'pro-growth' policies they are pushing are unlikely to be particularly popular among many populists in the Leave crowd"]
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["U.K."]},
+      "entity2": {"entity": "free-market Brexiteers", "references": ["free-market Brexiteers"]},
+      "justifications": ["the free-market Brexiteers urged a big gamble"]
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United Kingdom", "references": ["U.K."]},
+      "entity2": {"entity": "populists in the Leave crowd", "references": ["many populists in the Leave crowd"]},
+      "justifications": ["the 'pro-growth' policies they are pushing are unlikely to be particularly popular among many populists in the Leave crowd"]
+      "attitude": "Negative"
+    }
+  ]
+}

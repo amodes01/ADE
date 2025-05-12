@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Leave campaign", "references": ["Leave", "Leave campaign"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The vote for an exit - or Brexit - has sent shockwaves through global markets.", "Instead, the \"Leave\" side - which railed against European regulations and increased migration in a heated campaign battle - was celebrating their triumph."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Remain campaign", "references": ["Remain", "Remain campaigners"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["\"Remain\" campaigners had argued a Brexit would be disastrous for the British and even global economy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The EU now finds itself in uncharted waters: No nation state has ever left the bloc.", "\"The leaders of the EU institutions urged Britain to act quickly to formalize its exit \"however painful that process may be.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "immigration", "references": ["increased migration"]},
+      "justifications": ["The \"Leave\" side - which railed against European regulations and increased migration in a heated campaign battle - was celebrating their triumph."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Charlotte English", "references": ["Charlotte English"]},
+      "target": {"topic": "immigration", "references": ["anti-immigration"]},
+      "justifications": ["\"I did not want us to go out on a kind of anti-immigration, negative agenda.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["\"We have our country back,\" tweeted U.K. Independence Party leader Nigel Farage, a key figure in the \"Leave\" campaign.", "He later told reporters the referendum was \"a victory for ordinary people, against the big banks, big business and big politics.\""],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Scotland's First Minister Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Scotland's First Minister Nicola Sturgeon said her government would start drawing up legislation for a potential referendum on independence."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["Prime Minister David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Prime Minister David Cameron - who had forcefully campaigned to stay in the EU - later announced he would step down, saying the country needed fresh leadership."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Leave campaign", "references": ["Leave", "Leave campaign"]},
+      "entity2": {"entity": "Remain campaign", "references": ["Remain", "Remain campaigners"]},
+      "justifications": ["The vote served as an indictment of Britain's government and a barometer of domestic fears about immigration and the economy.", "\"Leave\" side - which railed against European regulations and increased migration in a heated campaign battle - was celebrating their triumph.", "\"Remain\" campaigners had argued a Brexit would be disastrous for the British and even global economy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["Prime Minister David Cameron"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["\"Leave\" campaign had racked up 17.4 million votes - compared to 16.1 million backing the status quo.", "We have our country back,\" tweeted U.K. Independence Party leader Nigel Farage, a key figure in the \"Leave\" campaign."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "justifications": ["We have our country back,\" tweeted U.K. Independence Party leader Nigel Farage, a key figure in the \"Leave\" campaign.", "The EU now finds itself in uncharted waters: No nation state has ever left the bloc."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Charlotte English", "references": ["Charlotte English"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave", "Leave campaign"]},
+      "justifications": ["\"I did not want us to go out on a kind of anti-immigration, negative agenda.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Charlotte English", "references": ["Charlotte English"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["\"I did not want us to go out on a kind of anti-immigration, negative agenda.\""],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Scotland's First Minister Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "Leave campaign", "references": ["Leave", "Leave campaign"]},
+      "justifications": ["Scotland's First Minister Nicola Sturgeon said her government would start drawing up legislation for a potential referendum on independence."],
+      "attitude": "Negative"
+    }
+  ]
+}

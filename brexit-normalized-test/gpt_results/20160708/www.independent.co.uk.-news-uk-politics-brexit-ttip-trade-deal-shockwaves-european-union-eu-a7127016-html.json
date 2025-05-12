@@ -1,0 +1,110 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Brexit should finally kill off the controversial TTIP trade deal being negotiated between the European Union and United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "target": { "topic": "EU health, safety and environment regulations", "references": ["EU health, safety and environment regulations"] },
+      "justifications": [
+        "Critics of TTIP have claimed it could allow US companies to avoid having to meet various EU health, safety and environment regulations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "target": { "topic": "workers' rights", "references": ["workers' rights"] },
+      "justifications": [
+        "This has led to fears that workers' rights could be undermined."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "target": { "topic": "NHS privatization", "references": ["privatise the NHS"] },
+      "justifications": [
+        "private healthcare companies could use the court to essentially privatise the NHS."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "target": { "topic": "European politicians' concerns", "references": ["leading European politicians expressing concern about TTIP's effects"] },
+      "justifications": [
+        "The talks are thought to be in trouble with a number of leading European politicians expressing concern about TTIP's effects."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU trade commissioner", "references": ["Celia Malmström"] },
+      "target": { "topic": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "justifications": [
+        "Nick Dearden, the director of Global Justice Now, said trying to implement the deal could threaten the existence of EU following Britain's referendum vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU trade commissioner", "references": ["Celia Malmström"] },
+      "target": { "topic": "corporate power", "references": ["corporate power grabs"] },
+      "justifications": [
+        "The toxic trade deals being pushed by Brussels would only benefit tiny financial elites, while the ordinary people of the EU would be stripped of legal protections of labour rights, consumer standards and public services."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Nick Dearden", "references": ["Nick Dearden"] },
+      "entity2": { "entity": "EU", "references": ["EU"] },
+      "justifications": [
+        "Nick Dearden, the director of Global Justice Now, said trying to implement the deal could threaten the existence of EU following Britain's referendum vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nick Dearden", "references": ["Nick Dearden"] },
+      "entity2": { "entity": "Celia Malmström", "references": ["Celia Malmström"] },
+      "justifications": [
+        "Nick Dearden, the director of Global Justice Now, said trying to implement the deal could threaten the existence of EU following Britain's referendum vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nick Dearden", "references": ["Nick Dearden"] },
+      "entity2": { "entity": "US", "references": ["US"] },
+      "justifications": [
+        "Nick Dearden, the director of Global Justice Now, said trying to implement the deal could threaten the existence of EU following Britain's referendum vote to leave."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UK", "references": ["UK"] },
+      "entity2": { "entity": "US", "references": ["US"] },
+      "justifications": [
+        "The UK was seen as one of the strongest supporters of TTIP in the EU, so its departure would remove one of the US's closest allies in the talks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "British politicians", "references": ["British politicians"] },
+      "entity2": { "entity": "TTIP trade deal", "references": ["TTIP", "trade deal"] },
+      "justifications": [
+        "British politicians have been among the most in favour of the deal during the EU negotiations."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["EU"] },
+      "entity2": { "entity": "US", "references": ["US"] },
+      "justifications": [
+        "The UK was seen as one of the strongest supporters of TTIP in the EU, so its departure would remove one of the US's closest allies in the talks."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

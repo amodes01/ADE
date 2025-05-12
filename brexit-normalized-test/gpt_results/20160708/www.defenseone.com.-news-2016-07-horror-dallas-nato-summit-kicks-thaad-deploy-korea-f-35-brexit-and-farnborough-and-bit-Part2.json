@@ -1,0 +1,206 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "U.S.",
+        "references": ["U.S."]
+      },
+      "target": {
+        "topic": "THAAD deployment",
+        "references": ["THAAD"]
+      },
+      "justifications": [
+        "U.S. will deploy THAAD to South Korea."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "North Korea",
+        "references": ["North Korea", "NorK"]
+      },
+      "target": {
+        "topic": "THAAD deployment",
+        "references": ["THAAD"]
+      },
+      "justifications": [
+        "The anti-missile system is being sent in reaction to North Korea, which has been issuing threats and conducting ever-more advanced weapons tests."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "China",
+        "references": ["China", "Beijing"]
+      },
+      "target": {
+        "topic": "THAAD deployment",
+        "references": ["THAAD"]
+      },
+      "justifications": [
+        "China dislikes THAAD's missiles but hates its radar, which could track PLA launches.",
+        "Beijing sees THAAD as a threat to its retaliatory capacity, and therefore, a reason to start building more nukes."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Elbridge Colby",
+        "references": ["Elbridge Colby"]
+      },
+      "target": {
+        "topic": "THAAD deployment",
+        "references": ["THAAD"]
+      },
+      "justifications": [
+        "As Elbridge Colby of the Center for a New American Security sees it, China dislikes THAAD's missiles but hates its radar, which could track PLA launches."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "U.K.",
+        "references": ["U.K."]
+      },
+      "target": {
+        "topic": "F-35 debut",
+        "references": ["F-35"]
+      },
+      "justifications": [
+        "The long-awaited debut of the F-35 in the U.K. has collided with the economic instability fears following Britons' vote to leave the European Union."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Lockheed Martin",
+        "references": ["Lockheed Martin"]
+      },
+      "target": {
+        "topic": "F-35 program",
+        "references": ["F-35"]
+      },
+      "justifications": [
+        "Jeff Babione, executive vice president and general manager of the F-35 program for Lockheed Martin, said Thursday."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Gen. Herbert 'Hawk' Carlisle",
+        "references": ["Gen. Herbert 'Hawk' Carlisle"]
+      },
+      "target": {
+        "topic": "F-35 readiness",
+        "references": ["F-35"]
+      },
+      "justifications": [
+        "Gen. Herbert 'Hawk' Carlisle, head of Air Combat Command who will make that decision, gave a whole lot of clues for when he will declare the Joint Strike Fighter war ready."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Maj. Will Andreotta",
+        "references": ["Maj. Will Andreotta"]
+      },
+      "target": {
+        "topic": "F-35 capabilities",
+        "references": ["F-35"]
+      },
+      "justifications": [
+        "\"The whole idea of stealth and when an aircraft is optimized for stealth is that we are never seen.\"",
+        "\"But with that being said, if we do get in a dogfight, I have complete confidence in this aircraft … and the pilots that we have flying those aircraft.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "F-22 Raptor",
+        "references": ["F-22 Raptor"]
+      },
+      "target": {
+        "topic": "F-35 comparison",
+        "references": ["F-35"]
+      },
+      "justifications": [
+        "Let us now shift to the F-22 Raptor, which of course is here too."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Congress",
+        "references": ["Congress"]
+      },
+      "target": {
+        "topic": "F-22 production",
+        "references": ["F-22"]
+      },
+      "justifications": [
+        "Congress has asked to Air Force to reconsider what it would take to build more of the stealthy jets."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Gen. Herbert 'Hawk' Carlisle",
+        "references": ["Gen. Herbert 'Hawk' Carlisle"]
+      },
+      "target": {
+        "topic": "F-22 production",
+        "references": ["F-22"]
+      },
+      "justifications": [
+        "\"The F-22 is a fantastic airplane, but getting that back up to speed with all the sub[contractors] could potentially be a challenge,\" he said."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "U.S.",
+        "references": ["U.S."]
+      },
+      "entity2": {
+        "entity": "North Korea",
+        "references": ["North Korea", "NorK"]
+      },
+      "justifications": [
+        "The anti-missile system is being sent in reaction to North Korea, which has been issuing threats and conducting ever-more advanced weapons tests."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "U.S.",
+        "references": ["U.S."]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": ["China", "Beijing"]
+      },
+      "justifications": [
+        "U.S. will deploy THAAD to South Korea.",
+        "They all but screamed 'China, this is not about you.'"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "China",
+        "references": ["China", "Beijing"]
+      },
+      "entity2": {
+        "entity": "North Korea",
+        "references": ["North Korea", "NorK"]
+      },
+      "justifications": [
+        "Beijing sees THAAD as a threat to its retaliatory capacity, and therefore, a reason to start building more nukes."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

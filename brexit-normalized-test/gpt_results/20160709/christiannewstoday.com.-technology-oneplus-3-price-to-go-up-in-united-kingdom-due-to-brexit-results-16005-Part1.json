@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Norman Hearst", "references": ["Norman Hearst"]},
+      "target": {"topic": "condom effectiveness", "references": ["condoms", "most effective method to curb the spread of AIDS"]},
+      "justifications": ["No good evidence exists to prove that condoms are the most effective method to curb the spread of AIDS in most societies."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Convoy of Hope", "references": ["Convoy of Hope"]},
+      "target": {"topic": "earthquake relief", "references": ["earthquake damage to Nias", "tsunami relief effort", "earthquake victims"]},
+      "justifications": ["Convoy of Hope... is already responding to Monday's earthquake victims on the islands of Nias and Simeulue."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Convoy of Hope", "references": ["Convoy of Hope"]},
+      "target": {"topic": "tsunami relief effort", "references": ["tsunami relief effort to Indonesia and Sri Lanka"]},
+      "justifications": ["Convoy of Hope... is still on target in its long-term tsunami relief effort to Indonesia and Sri Lanka."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Bishop of the Church of England", "references": ["Church of England bishop"]},
+      "target": {"topic": "Prince Charles's conduct", "references": ["Prince Charles must apologize to the former husband of his fiancée"]},
+      "justifications": ["A leading Church of England bishop has said Prince Charles must apologize to the former husband of his fiancée before their wedding in Windsor on April 8."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Bishop of the Church of England", "references": ["Church of England bishop"]},
+      "target": {"topic": "Prince Charles's apology", "references": ["must apologize"]},
+      "justifications": ["A leading Church of England bishop has said Prince Charles must apologize to the former husband of his fiancée before their wedding in Windsor on April 8."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Terri Schiavo", "references": ["Terri Schiavo"]},
+      "entity2": {"entity": "Dr. Vincent Gambone", "references": ["Dr. Vincent Gambone"]},
+      "justifications": ["Terri's own treating physician, Dr. Vincent Gambone, testified before the court, saying \"her condition is one that there is no recovery. The damage that is done to the brain is not repairable.\""],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Terri Schiavo", "references": ["Terri Schiavo"]},
+      "entity2": {"entity": "hospice care facility", "references": ["hospice that is not licensed to provide care for the chronically ill"]},
+      "justifications": ["Terri Schiavo currently is being held in a Pinellas County Florida hospice that is not licensed to provide care for the chronically ill."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Convoy of Hope", "references": ["Convoy of Hope"]},
+      "entity2": {"entity": "Assemblies of God", "references": ["Assemblies of God affiliated relief organization"]},
+      "justifications": ["Convoy of Hope, an Assemblies of God affiliated relief organization, is already responding to Monday's earthquake victims on the islands of Nias and Simeulue."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Prince Charles", "references": ["Prince Charles"]},
+      "entity2": {"entity": "Bishop of the Church of England", "references": ["Church of England bishop"]},
+      "justifications": ["A leading Church of England bishop has said Prince Charles must apologize to the former husband of his fiancée before their wedding in Windsor on April 8."],
+      "attitude": "Negative"
+    }
+  ]
+}

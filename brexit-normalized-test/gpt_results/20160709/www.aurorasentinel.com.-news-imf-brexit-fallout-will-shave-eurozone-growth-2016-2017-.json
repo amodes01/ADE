@@ -1,0 +1,25 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Blitz", "references": ["Blitz"]},
+      "target": {"topic": "war drama", "references": ["conventional war drama"]},
+      "justifications": ["It does not coalesce the way McQueen's best work does, but the frictions that drive \"Blitz\"."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Blitz", "references": ["Blitz"]},
+      "target": {"topic": "adventurous and probing", "references": ["something more adventurous and probing"]},
+      "justifications": ["Blitz feels stuck between a conventional war drama and something more adventurous and probing."]
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Blitz", "references": ["Blitz"]},
+      "entity2": {"entity": "Steve McQueen", "references": ["McQueen"]},
+      "justifications": ["It does not coalesce the way McQueen's best work does."]
+      "attitude": "Negative"
+    }
+  ]
+}

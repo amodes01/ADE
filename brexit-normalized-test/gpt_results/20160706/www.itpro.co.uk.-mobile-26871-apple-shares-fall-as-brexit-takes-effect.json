@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "economic downturn", "references": ["economic downturn"] },
+      "justifications": ["The demand for Apple devices has fallen, partly due to the economic downturn and instability of the pound since Brexit on 23 June."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["The demand for Apple devices has fallen, partly due to the economic downturn and instability of the pound since Brexit on 23 June."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "iPhone sales", "references": ["iPhone sales"] },
+      "justifications": ["This led to Apple's first quarterly sales decline, which was announced in April in its first quarterly report of the 2016 calendar year."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "iPhone upgrade frequency", "references": ["customers choosing not to upgrade their iPhones as frequently"] },
+      "justifications": ["This has exacerbated the company's ongoing problem with customers choosing not to upgrade their iPhones as frequently as they had until recently."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "iPhone upgrade timing", "references": ["period of time for which consumers keep their iPhone before upgrading"] },
+      "justifications": ["The period of time for which consumers keep their iPhone before upgrading to a new model has been rapidly expanding since 2013, from 24 months to 28 months in 2016."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Apple", "references": ["Apple"] },
+      "target": { "topic": "Wall Street's predictions", "references": ["fall short of Wall Street's predictions"] },
+      "justifications": ["Suva predicts the reality will fall short of Wall Street's predictions for the tech giant."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Jim Suva", "references": ["Jim Suva"] },
+      "entity2": { "entity": "Apple", "references": ["Apple"] },
+      "justifications": ["Suva predicts the reality will fall short of Wall Street's predictions for the tech giant."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Daniel Sparks", "references": ["Daniel Sparks"] },
+      "entity2": { "entity": "Apple", "references": ["Apple"] },
+      "justifications": ["Investors worry that Apple's conservative guidance for year-over-year revenue growth of about 2.5 per cent for... its important holiday quarter, which is its first fiscal quarter of 2016, could signal the beginning of a sustained trend of touch comparisons for iPhone sales."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Apple", "references": ["Apple"] },
+      "entity2": { "entity": "Investors", "references": ["Investors"] },
+      "justifications": ["Investors worry that Apple's conservative guidance for year-over-year revenue growth of about 2.5 per cent for... its important holiday quarter, which is its first fiscal quarter of 2016, could signal the beginning of a sustained trend of touch comparisons for iPhone sales."],
+      "attitude": "Negative"
+    }
+  ]
+}

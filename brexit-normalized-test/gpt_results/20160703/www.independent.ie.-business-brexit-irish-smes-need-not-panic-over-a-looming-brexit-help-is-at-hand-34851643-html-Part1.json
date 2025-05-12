@@ -1,0 +1,61 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "target": { "topic": "currency volatility", "references": ["currency volatility"] },
+      "justifications": [
+        "The key issue in the short term for Irish exporters is managing their exposure to currency volatility."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "target": { "topic": "export diversification", "references": ["diversification", "diversification strategies", "diversify globally"] },
+      "justifications": [
+        "That said, over recent years, we have been working with companies to help them diversify globally.",
+        "Our results also show how Irish exporters' diversification strategies into other markets is working."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "target": { "topic": "UK exports", "references": ["exports to the UK", "UK market"] },
+      "justifications": [
+        "The UK is and will remain a key market for Enterprise Ireland clients who recorded over \\u20ac7.5bn in exports last year.",
+        "This will continue to be the case, and we will be continuing to actively help exporters deepen and strengthen their presence there."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "target": { "topic": "export performance", "references": ["export results", "record export results", "exports increased"] },
+      "justifications": [
+        "Enterprise Ireland recently announced record export results by client companies, breaking the \\u20ac20bn threshold for the first time.",
+        "This represents an increase of 10pc on the previous year.",
+        "Exports increased across most territories with those to the USA and Canada increasing by 27pc to almost \\u20ac3bn."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "The UK is and will remain a key market for Enterprise Ireland clients who recorded over \\u20ac7.5bn in exports last year.",
+        "This will continue to be the case, and we will be continuing to actively help exporters deepen and strengthen their presence there."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Enterprise Ireland", "references": ["Enterprise Ireland"] },
+      "entity2": { "entity": "Irish exporters", "references": ["Irish exporters"] },
+      "justifications": [
+        "As Irish exporters deal with the implications of the UK vote to leave the EU, Enterprise Ireland is working closely with clients to respond to the situation as it unfolds.",
+        "We have been in contact with hundreds of Irish exporters to the UK in the past week.",
+        "We are advising clients who have not already done so, to take professional advice if they do not have experience in this relatively complex area."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

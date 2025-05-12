@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "nuclear weapons", "references": ["U.S. nuclear weapons"] },
+      "target": { "topic": "nuclear deterrence", "references": ["to deter possible nuclear attacks"] },
+      "justifications": [
+        "we are told that U.S. nuclear weapons are deployed only to deter possible nuclear attacks."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "topic": "nuclear weapons", "references": ["U.S. nuclear weapons"] },
+      "target": { "topic": "U.S. military power", "references": ["meaningful instruments of military and political power"] },
+      "justifications": [
+        "Former Secretary of War Harold Brown testified that they serve another purpose. With nuclear weapons, he testified, U.S. conventional forces became 'meaningful instruments of military and political power.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "nuclear weapons", "references": ["U.S. nuclear weapons in Europe"] },
+      "target": { "topic": "Middle East hegemony", "references": ["serve as the ultimate enforcers of US Middle East hegemony"] },
+      "justifications": [
+        "Beginning with the Iran crisis of 1946...through the Bush-Obama 'all options are on the table' threats against Iran, nuclear weapons in Europe have served as the ultimate enforcers of US Middle East hegemony."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "nuclear weapons", "references": ["NATO nuclear weapons"] },
+      "target": { "topic": "US control", "references": ["preventing the 'decoupling' from the United States"] },
+      "justifications": [
+        "NATO's nuclear weapons serve yet another purpose: preventing the 'decoupling' from the United States."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Russia", "references": ["Russia"] },
+      "entity2": { "entity": "Assad", "references": ["Assad"] },
+      "justifications": [
+        "Russia will not abandon Assad."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "enforcing the 'no-fly' zone that Hillary Clinton advocates would require destruction of Russian anti-aircraft missile, risking military escalation."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Putin", "references": ["Putin"] },
+      "entity2": { "entity": "U.S.", "references": ["U.S."] },
+      "justifications": [
+        "Putin tells us that he considered the possible use of nuclear weapons to reinforce Russian control of Crimea."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Noam Chomsky", "references": ["Noam Chomsky"] },
+      "entity2": { "entity": "U.S.", "references": ["U.S."] },
+      "justifications": [
+        "Noam Chomsky explains that this means 'we have succeeded in sufficiently intimidating anyone who might help protect people who we are determined to attack.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "NATO is a nuclear alliance, and that the dangers of a catastrophic nuclear exchange did not disappear with the end of the Cold War."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

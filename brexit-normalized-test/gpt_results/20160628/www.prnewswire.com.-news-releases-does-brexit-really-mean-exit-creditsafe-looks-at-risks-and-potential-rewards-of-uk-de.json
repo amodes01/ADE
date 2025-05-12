@@ -1,0 +1,118 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "US business environment", "references": ["US business environment"] },
+      "justifications": [
+        "The Brexit decision will undoubtedly effect the US business environment on both a short and long term basis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "British companies", "references": ["British companies"] },
+      "justifications": [
+        "We are already seeing significant concern for British companies operating in the areas of agriculture, science and the arts as they all receive significant subsidies from the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "British financial institutions", "references": ["British financial institutions"] },
+      "justifications": [
+        "There is concern for many of the British financial institutions such as Lloyd's of London as part of their value was their EU connection."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "Lloyd's of London", "references": ["Lloyd's of London"] },
+      "justifications": [
+        "There is concern for many of the British financial institutions such as Lloyd's of London as part of their value was their EU connection."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "EU subsidies", "references": ["significant subsidies from the EU"] },
+      "justifications": [
+        "We are already seeing significant concern for British companies operating in the areas of agriculture, science and the arts as they all receive significant subsidies from the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "UK companies", "references": ["UK companies"] },
+      "justifications": [
+        "US companies with relationships with UK companies need to look at the potential effect of the Brexit decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "US companies", "references": ["US companies"] },
+      "justifications": [
+        "US companies with relationships with UK companies need to look at the potential effect of the Brexit decision."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "UK companies", "references": ["UK companies"] },
+      "justifications": [
+        "US companies with relationships with UK companies need to look at the potential effect of the Brexit decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "British financial institutions", "references": ["British financial institutions"] },
+      "justifications": [
+        "There is concern for many of the British financial institutions such as Lloyd's of London as part of their value was their EU connection."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "British companies", "references": ["British companies"] },
+      "justifications": [
+        "We are already seeing significant concern for British companies operating in the areas of agriculture, science and the arts as they all receive significant subsidies from the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "Lloyd's of London", "references": ["Lloyd's of London"] },
+      "justifications": [
+        "There is concern for many of the British financial institutions such as Lloyd's of London as part of their value was their EU connection."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "S&P", "references": ["S&P"] },
+      "justifications": [
+        "Rating agencies S&P, Moody's & Fitch have all downgraded Great Britain's Credit Rating."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "Moody's", "references": ["Moody's"] },
+      "justifications": [
+        "Rating agencies S&P, Moody's & Fitch have all downgraded Great Britain's Credit Rating."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Creditsafe USA Inc.", "references": ["Creditsafe USA Inc."] },
+      "entity2": { "entity": "Fitch", "references": ["Fitch"] },
+      "justifications": [
+        "Rating agencies S&P, Moody's & Fitch have all downgraded Great Britain's Credit Rating."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

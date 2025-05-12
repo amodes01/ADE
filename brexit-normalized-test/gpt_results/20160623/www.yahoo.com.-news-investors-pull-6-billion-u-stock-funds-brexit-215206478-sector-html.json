@@ -1,0 +1,63 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "investor sentiment",
+        "references": ["investor aversion to risk"]
+      },
+      "justifications": [
+        "The theme is Brexit, and people are concerned.",
+        "For now, Michel Del Buono, global strategist at Makena Capital Management, which oversees $20 billion of assets, said investor aversion to risk in recent weeks stems from uncertainty and worries about Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "target": {
+        "topic": "market performance",
+        "references": ["stocks rallied"]
+      },
+      "justifications": [
+        "Investors pulled out of riskier markets over the last week, data from Lipper showed on Thursday, as they braced for a British vote on its European Union membership even as stocks rallied."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Tom Roseen",
+        "references": ["Tom Roseen"]
+      },
+      "entity2": {
+        "entity": "Thomson Reuters Lipper",
+        "references": ["Thomson Reuters Lipper"]
+      },
+      "justifications": [
+        "Tom Roseen, head of research services for Thomson Reuters Lipper, said the theme is Brexit, and people are concerned."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Michel Del Buono",
+        "references": ["Michel Del Buono"]
+      },
+      "entity2": {
+        "entity": "Makena Capital Management",
+        "references": ["Makena Capital Management"]
+      },
+      "justifications": [
+        "For now, Michel Del Buono, global strategist at Makena Capital Management, which oversees $20 billion of assets, said investor aversion to risk in recent weeks stems from uncertainty and worries about slowing growth, particularly a China meltdown."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "immigration", "references": ["surging immigration"] },
+      "justifications": ["The Brexit vote was a triple protest: Against surging immigration, City of London bankers, and European Union institutions, in that order."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "City of London bankers", "references": ["City of London bankers"] },
+      "justifications": ["The Brexit vote was a triple protest: Against surging immigration, City of London bankers, and European Union institutions, in that order."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union institutions", "references": ["European Union institutions"] },
+      "justifications": ["The Brexit vote was a triple protest: Against surging immigration, City of London bankers, and European Union institutions, in that order."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "British economy", "references": ["British economy"] },
+      "justifications": ["Leaving the EU will wound the British economy"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "Scottish independence", "references": ["Scottish independence"] },
+      "justifications": ["Leaving the EU could well push Scotland to leave the United Kingdom"],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European integration", "references": ["future of European integration"] },
+      "justifications": ["to say nothing of Brexit's ramifications for the future of European integration."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "anti-immigrant populism", "references": ["anti-immigrant populist politicians"] },
+      "justifications": ["Donald Trump's campaign for the US presidency will receive a huge boost, as will other anti-immigrant populist politicians."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU institutions", "references": ["EU institutions"] },
+      "justifications": ["In the UK, these two powerful political currents - rejection of immigration and class warfare - were joined by the widespread sentiment that EU institutions are dysfunctional."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "class warfare", "references": ["class warfare"] },
+      "justifications": ["A major factor, however, was implicit class warfare."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Hillary Clinton", "references": ["Hillary Clinton"] },
+      "justifications": ["Clinton's candidacy is heavily financed by Wall Street."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "City of London bankers", "references": ["City of London bankers"] },
+      "justifications": ["Most or all of the income losses would in any event be borne by the rich, and especially the despised bankers of the City of London."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Wall Street", "references": ["Wall Street"] },
+      "justifications": ["Americans disdain Wall Street and its greedy and often criminal behaviour at least as much as the British working class disdains the City of London."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Marine Le Pen", "references": ["Marine Le Pen"] },
+      "justifications": ["The possible longer-run knock-on effects in Europe - including likely Scottish independence; possible Catalonian independence; a breakdown of free movement of people in the EU; a surge in anti-immigrant politics (including the possible election of Trump and France's Marine Le Pen) - are enormous."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "European Union", "references": ["European Union"] },
+      "justifications": ["In the UK, these two powerful political currents - rejection of immigration and class warfare - were joined by the widespread sentiment that EU institutions are dysfunctional."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Americans", "references": ["Americans"] },
+      "entity2": { "entity": "Wall Street", "references": ["Wall Street"] },
+      "justifications": ["Americans disdain Wall Street and its greedy and often criminal behaviour."],
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Apple", "references": ["Apple"]},
+      "target": {"topic": "UK corporation tax", "references": ["UK corporation tax"]},
+      "justifications": ["Apple reported that it paid £12.9 million ($17 million) in UK corporation tax for 2015"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Apple", "references": ["Apple"]},
+      "target": {"topic": "Brexit", "references": ["Brexit result"]},
+      "justifications": ["the shock of the Brexit result ensured that there was plenty of other news to keep everyone occupied."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Apple", "references": ["Apple"]},
+      "target": {"topic": "European Commission investigation", "references": ["tax affairs investigated by the European commission"]},
+      "justifications": ["Apple, of course, is having its tax affairs investigated by the European commission."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Commission", "references": ["European commission"]},
+      "target": {"topic": "Apple's tax practices", "references": ["Apple's tax affairs investigated by the European commission"]},
+      "justifications": ["Apple, of course, is having its tax affairs investigated by the European commission."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Apple", "references": ["Apple"]},
+      "target": {"topic": "UK's post-Brexit tax policies", "references": ["UK's tax authorities, after all, have already shown that they are willing to cut deals with tech giants, like Google"]},
+      "justifications": ["The UK's tax authorities, after all, have already shown that they are willing to cut deals with tech giants, like Google, who have been remiss on their payments."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Google", "references": ["Google"]},
+      "target": {"topic": "UK's post-Brexit tax policies", "references": ["UK's tax authorities, after all, have already shown that they are willing to cut deals with tech giants, like Google"]},
+      "justifications": ["The UK's tax authorities, after all, have already shown that they are willing to cut deals with tech giants, like Google, who have been remiss on their payments."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Rohan Silva", "references": ["Rohan Silva"]},
+      "target": {"topic": "UK corporation tax rate", "references": ["called for post-Brexit UK to slash its corporation tax rate in half"]},
+      "justifications": ["Rohan Silva, a former adviser to David Cameron on tech policy matters, has called for post-Brexit UK to slash its corporation tax rate in half, to 10%, the world's lowest, precisely to attract relocating companies."]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "target": {"topic": "Rohan Silva's policy suggestions", "references": ["a former adviser to David Cameron on tech policy matters"]},
+      "justifications": ["Rohan Silva, a former adviser to David Cameron on tech policy matters, has called for post-Brexit UK to slash its corporation tax rate in half."]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Markus Meinzer", "references": ["Markus Meiner"]},
+      "target": {"topic": "UK's post-Brexit tax attractiveness", "references": ["It would make the UK the worst place as a holding location, no matter what sweetheart deals are offered by the UK"]},
+      "justifications": ["It would make the UK the worst place as a holding location, no matter what sweetheart deals are offered by the UK, Meinzer says."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "UK", "references": ["UK"]},
+      "target": {"topic": "Brexit's economic impact on tech companies", "references": ["a post-Brexit UK would make little sense as a European holding company"]},
+      "justifications": ["the reality is that a post-Brexit UK would make little sense as a European holding company."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "EU", "references": ["EU"]},
+      "target": {"topic": "UK's post-Brexit attractiveness", "references": ["Once the UK leaves the bloc, dividends, interest payments, and royalties remitted from a subsidiary in an EU member state can no longer benefit from a withholding tax exemption provided by the EU"]},
+      "justifications": ["Once the UK leaves the bloc, dividends, interest payments, and royalties remitted from a subsidiary in an EU member state can no longer benefit from a withholding tax exemption provided by the EU."]
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Apple", "references": ["Apple"]},
+      "entity2": {"entity": "European Commission", "references": ["European commission"]},
+      "justifications": ["Apple, of course, is having its tax affairs investigated by the European commission."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Apple", "references": ["Apple"]},
+      "entity2": {"entity": "Google", "references": ["Google"]},
+      "justifications": ["The UK's tax authorities, after all, have already shown that they are willing to cut deals with tech giants, like Google, who have been remiss on their payments."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Apple", "references": ["Apple"]},
+      "entity2": {"entity": "Rohan Silva", "references": ["Rohan Silva"]},
+      "justifications": ["Rohan Silva, a former adviser to David Cameron on tech policy matters, has called for post-Brexit UK to slash its corporation tax rate in half, to 10%, the world's lowest, precisely to attract relocating companies."]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Rohan Silva", "references": ["Rohan Silva"]},
+      "entity2": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "justifications": ["Rohan Silva, a former adviser to David Cameron on tech policy matters"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Markus Meiner", "references": ["Markus Meiner"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["It would make the UK the worst place as a holding location, no matter what sweetheart deals are offered by the UK, Meinzer says."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "EU", "references": ["EU"]},
+      "entity2": {"entity": "UK", "references": ["UK"]},
+      "justifications": ["Once the UK leaves the bloc, dividends, interest payments, and royalties remitted from a subsidiary in an EU member state can no longer benefit from a withholding tax exemption provided by the EU."]
+      "attitude": "Negative"
+    }
+  ]
+}

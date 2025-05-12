@@ -1,0 +1,102 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "economic consequences", "references": ["pound is dropping", "Britain's credit rating has been downgraded", "corporations are considering leaving the country"] },
+      "justifications": [
+        "The pound is dropping, Britain's credit rating has been downgraded, and corporations are considering leaving the country."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "working class", "references": ["Low-income workers who have not seen a raise in wages", "little job security"] },
+      "justifications": [
+        "Low-income workers who have not seen a raise in wages and have little job security helped make the Brexit happen, but they will end up paying the prices for their decision."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU subsidies", "references": ["EU subsidies for Welsh farmers", "subsidies for Welsh farmers whose livelihoods depend on the money"] },
+      "justifications": [
+        "No one in the British government will replace the EU subsidies for Welsh farmers whose livelihoods depend on the money."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "steelworkers", "references": ["steelworkers in Port Talbot", "they will never find proper jobs again"] },
+      "justifications": [
+        "Just as steelworkers in Port Talbot will never find proper jobs again and their opportunities will further decline after Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "immigration", "references": ["racist campaign"] },
+      "justifications": [
+        "The campaign Boris Johnson, Nigel Farage and like-minded Leavers waged was a propaganda assault of incomparable perfidiousness. ... they have been seduced by a modern Pied Piper who won the referendum on the basis of a racist campaign."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "working class", "references": ["the socially excluded people", "low-income workers", "people who voted 'Leave'"] },
+      "justifications": [
+        "They probably never intended to keep their promises; they have no interest in the face of the socially excluded people whom they convinced to vote 'Leave.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "EU", "references": ["European Union"] },
+      "justifications": [
+        "They were talked into believing that the European Union's rule over their country was to blame for their hardship."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "UK Independence Party", "references": ["UK Independence Party"] },
+      "justifications": [
+        "Former London Mayor Boris Johnson and his tacit partners from the UK Independence Party made promises that they will not be able to keep."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "working class", "references": ["the socially excluded people", "low-income workers", "people who voted 'Leave'"] },
+      "justifications": [
+        "They probably never intended to keep their promises; they have no interest in the face of the socially excluded people whom they convinced to vote 'Leave.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "entity2": { "entity": "EU", "references": ["European Union"] },
+      "justifications": [
+        "They were talked into believing that the European Union's rule over their country was to blame for their hardship."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Eric Idle", "references": ["Eric Idle"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The most succinct reaction came from former Monty Python comedian Eric Idle, who simply tweeted, 'UK. Foot. Shot.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Barbara Wesel", "references": ["Barbara Wesel"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "DW's Barbara Wesel writes."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

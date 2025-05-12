@@ -1,0 +1,82 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"topic": "Texas secession", "references": ["Texas secession", "secession", "Texans believe they have a right to secede"]},
+      "target": {"topic": "United States", "references": ["United States", "United States of America"]},
+      "justifications": [
+        "Texans themselves believe they have a right to secede but express little desire to do so.",
+        "In 2000, Daily Kos asked Texas voters if they thought Texas would be better off as an independent nation or as part of the United States of America. Sixty-one percent of respondents said Texas would be better off within the United States."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Texas secession", "references": ["Texas secession", "secession"]},
+      "target": {"topic": "American independence movements", "references": ["Texas Nationalist Movement", "Alaska Independence Party", "Hawaii sovereignty organizations"]},
+      "justifications": [
+        "Texas is unique in having a group claiming to be the legitimate government of the Republic of Texas, it is not alone in having an independence movement (Texas Nationalist Movement).",
+        "The Alaska Independence Party is the state's third largest political party with over 13,000 registered members, while Hawaii has several organizations pushing for sovereignty."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"topic": "Texas secession", "references": ["Texas secession"]},
+      "target": {"topic": "Legal challenges to secession", "references": ["Civil War", "Texas v. White", "Supreme Court ruling", "indissoluble relation"]},
+      "justifications": [
+        "The legal questions surrounding secession were settled by the Civil War and then in Texas v. White 74 U.S. 700 (1869) when the Supreme Court ruled that states could not voluntarily withdraw from the United States.",
+        "Writing for the Court, Justice Salmon Chase observed that 'when, therefore, Texas became one of the United States, she entered into an indissoluble relation.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Texans", "references": ["Texans"]},
+      "target": {"topic": "United States", "references": ["United States"]},
+      "justifications": [
+        "In 2000, Daily Kos asked Texas voters if they thought Texas would be better off as an independent nation or as part of the United States of America. Sixty-one percent of respondents said Texas would be better off within the United States."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Rick Perry", "references": ["Rick Perry"]},
+      "target": {"topic": "Texas secession", "references": ["Texas secession", "leave the United States"]},
+      "justifications": [
+        "When asked in a follow-up question if they agreed with former Governor Rick Perry's suggestion 'that Texas may need to leave the United States,' 37 percent agreed and 58 percent disagreed."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Texans", "references": ["Texans"]},
+      "entity2": {"entity": "Rick Perry", "references": ["Rick Perry"]},
+      "justifications": [
+        "When asked in a follow-up question if they agreed with former Governor Rick Perry's suggestion 'that Texas may need to leave the United States,' 37 percent agreed and 58 percent disagreed."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Texans", "references": ["Texans"]},
+      "entity2": {"entity": "Alaska Independence Party", "references": ["Alaska Independence Party"]},
+      "justifications": [
+        "The Alaska Independence Party is the state's third largest political party with over 13,000 registered members."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Texans", "references": ["Texans"]},
+      "entity2": {"entity": "Hawaii sovereignty organizations", "references": ["Hawaii sovereignty organizations"]},
+      "justifications": [
+        "Hawaii has several organizations pushing for sovereignty."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Texas", "references": ["Texas"]},
+      "entity2": {"entity": "United States", "references": ["United States", "U.S. Constitution"]},
+      "justifications": [
+        "The U.S. Constitution, one might further recall, begins with 'We the people' rather than 'We the states,' assuring the legitimacy of the federal government was based on the consent of the people and not on the states."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

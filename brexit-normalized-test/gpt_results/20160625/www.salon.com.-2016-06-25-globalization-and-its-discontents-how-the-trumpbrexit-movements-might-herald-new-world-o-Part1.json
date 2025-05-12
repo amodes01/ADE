@@ -1,0 +1,175 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit vote", "Leave campaign"]
+      },
+      "justifications": [
+        "Trump arrived in Scotland the day of the Brexit vote.",
+        "Trump and the Leave campaign shared many common political themes."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Nigel Farage",
+        "references": ["Nigel Farage"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit", "Leave campaign"]
+      },
+      "justifications": [
+        "The leader of UKIP, Nigel Farage, decries the threat posed by Syrian immigrants, while Donald Trump talks about the threat posed by radical Islamic terrorism."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "David Cameron",
+        "references": ["David Cameron"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit", "Leave campaign"]
+      },
+      "justifications": [
+        "Prime Minister David Cameron stood somberly the morning after to announce his departure by October."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": ["globalization"]
+      },
+      "justifications": [
+        "Trump's brass-knuckles speech Wednesday that took aim not just at Hillary Clinton as a 'world class liar,' but at corporate profiteering, Saudi Arabia and the Sultan of Brunei's treatment of women and the LGBT community, globalization itself."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Trump's brass-knuckles speech Wednesday that took aim not just at Hillary Clinton as a 'world class liar'."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Saudi Arabia",
+        "references": ["Saudi Arabia"]
+      },
+      "justifications": [
+        "Trump's brass-knuckles speech Wednesday that took aim not just at Hillary Clinton as a 'world class liar,' but at corporate profiteering, Saudi Arabia and the Sultan of Brunei's treatment of women and the LGBT community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Sultan of Brunei",
+        "references": ["Sultan of Brunei"]
+      },
+      "justifications": [
+        "Trump's brass-knuckles speech Wednesday that took aim not just at Hillary Clinton as a 'world class liar,' but at corporate profiteering, Saudi Arabia and the Sultan of Brunei's treatment of women and the LGBT community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Boris Johnson",
+        "references": ["Boris Johnson"]
+      },
+      "justifications": [
+        "Trump is mired in the most turbulent period of his candidacy, his campaign sputtering, maybe run aground for good. Possibly, though, it has been revitalized by a reset of his campaign that started last weekend with the firing of his campaign manager, the pugnacious Corey Lewandowski, and culminated in Trump's brass-knuckles speech Wednesday."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Putin",
+        "references": ["Putin"]
+      },
+      "justifications": [
+        "Ever briefly the talk was of Putin."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Ambassadors",
+        "references": ["ambassadors"]
+      },
+      "justifications": [
+        "My guests all spoke of their great admiration for the United States."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Asian Ambassador",
+        "references": ["Asian ambassador"]
+      },
+      "entity2": {
+        "entity": "Trump",
+        "references": ["Trump"]
+      },
+      "justifications": [
+        "\"Americans will come to their senses,\" said one Asian ambassador."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Trump",
+        "references": ["Trump"]
+      },
+      "entity2": {
+        "entity": "Leave Campaign",
+        "references": ["Leave campaign"]
+      },
+      "justifications": [
+        "Trump and the Leave campaign shared many common political themes."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

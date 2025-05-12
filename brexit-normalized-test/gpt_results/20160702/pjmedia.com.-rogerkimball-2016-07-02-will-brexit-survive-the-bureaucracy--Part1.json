@@ -1,0 +1,87 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Klein argues that the Brexit vote 'heralds the return to the grim 1930s.'",
+        "the idea that Brexit was somehow Britain's equivalent of Donald Trump had congealed into an Crisco-like oleaginous mass."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Klein writes, 'The passage of Brexit, and the presence of Donald Trump are the results of a massive lowering of standards [...] in the pursuit of popularity.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "target": {"topic": "immigration", "references": ["wild flow of immigrants"]},
+      "justifications": [
+        "Klein writes that the vote was a 'vote... against the wild flow of immigrants.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "target": {"topic": "Islamic extremism", "references": ["faddish, lethal Islamic extremism"]},
+      "justifications": [
+        "Klein writes, 'many of them embracing a faddish, lethal Islamic extremism.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Remainers", "references": ["Remainers"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "The instant recovery of the stock market in the UK and the U.S. has made the Chicken Little diatribes of the Remainers look pretty silly."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Conciliatory noises emanating from Germany, for whom free access to the British market is an 'existential' necessity."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Centre for European Reform", "references": ["Centre for European Reform"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Simon Tilford's inadvertently comical essay for the Centre for European Reform."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "entity2": {"entity": "Dan Hannan", "references": ["Dan Hannan"]},
+      "justifications": [
+        "The numbers themselves do not count, you see. It's all a matter of who voted. Was it our sort of people?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Dan Hannan", "references": ["Dan Hannan"]},
+      "entity2": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "justifications": [
+        "Dan Hannan put it, 'more people voted to leave the EU than have voted for anything else, ever, in Britain.'"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Joe Klein", "references": ["Joe Klein"]},
+      "entity2": {"entity": "Simon Tilford", "references": ["Simon Tilford"]},
+      "justifications": [
+        "Joe Klein... goes to an American, Joe Klein. Writing in the posthumous organ Time, Klein courts honorable mention from the Godwin's Law Prize Committee."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

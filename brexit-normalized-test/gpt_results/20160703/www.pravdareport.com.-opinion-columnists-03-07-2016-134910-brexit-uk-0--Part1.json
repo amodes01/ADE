@@ -1,0 +1,103 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European bigotry", "references": ["European bigotry"]},
+      "target": {"topic": "Brexit", "references": ["BREXIT"]},
+      "justifications": ["Once again, European bigotry exposed!"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Neo-Nazis and other right-wingers", "references": ["neo-Nazis", "right-wingers"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The neo-Nazis and other right-wingers are celebrating."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "liberals", "references": ["liberals"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["while most of 'liberals' are panic-stricken, running around like a herd of headless chickens, or howling at the moon at night in despair."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Euro-left", "references": ["Euro-left"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["The Euro-left (as pathetic and bogus as \\\"Euro business class\\\" on domestic European flights) is trying to put the recent referendum into some sort of philosophical perspective."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Putin", "references": ["Putin"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Some even blame Putin..."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Zionist lobby", "references": ["Zionist lobby"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Some Europeans are even blaming Mr. Putin for the outcome of the referendum, while others see behind the outcome of the vote the specter of an \\\"American conspiracy\\\" or even a \\\"Zionist lobby\\\"."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British people", "references": ["British people"]},
+      "target": {"topic": "Brexit", "references": ["Exit"]},
+      "justifications": ["A few million bigoted British voters, many of them old retirees and traditionally conservative, even racist bunch, got scared that their country was soon about to be invaded by unkempt hordes of refugees."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British working class", "references": ["British working class"]},
+      "target": {"topic": "Brexit", "references": ["referendum"]},
+      "justifications": ["for others, the referendum became a way to express their frustration with the fact that the British working class has lately been getting an increasingly awful deal."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Anti-EU warriors", "references": ["anti-EU warriors"]},
+      "target": {"topic": "Brexit", "references": ["Exit"]},
+      "justifications": ["A great majority of the anti-EU warriors was simply demanding better benefits for itself (the \"British people\")."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Remainers", "references": ["Those who were voting for remaining in the Union"]},
+      "target": {"topic": "Brexit", "references": ["referendum"]},
+      "justifications": ["Those who were voting for remaining in the Union were doing so for strictly practical reasons."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European and North American people", "references": ["Europeans", "North Americans"]},
+      "target": {"topic": "Austerity", "references": ["Screw austerity"]},
+      "justifications": ["Everybody in Europe now wants more, more and more. Screw austerity! \"Give us more benefits!\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans and North Americans", "references": ["Europeans", "North Americans"]},
+      "target": {"topic": "Global inequality", "references": ["not for the rest of the globe"]},
+      "justifications": ["What is shocking is that (oh so innocently!) those demands are only made for the chosen bunch - for the Europeans and North Americans - not for the rest of the globe that is actually paying the bill..."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "Colonialism", "references": ["colonialist plunder"]},
+      "justifications": ["from slavery, colonialist plunder, genocides triggered by Europe, terrorism against its liberation struggle, to the multi-national corporate looting."],
+      "attitude": "Negative"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Neo-Nazis and other right-wingers", "references": ["neo-Nazis", "right-wingers"]},
+      "entity2": {"entity": "liberals", "references": ["liberals"]},
+      "justifications": ["The neo-Nazis and other right-wingers are celebrating, while most of 'liberals' are panic-stricken, running around like a herd of headless chickens, or howling at the moon at night in despair."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Putin", "references": ["Putin"]},
+      "entity2": {"entity": "Zionist lobby", "references": ["Zionist lobby"]},
+      "justifications": ["Some Europeans are even blaming Mr. Putin for the outcome of the referendum, while others see behind the outcome of the vote the specter of an \\\"American conspiracy\\\" or even a \\\"Zionist lobby\\\"."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "British working class", "references": ["British working class"]},
+      "entity2": {"entity": "British elites", "references": ["ruling elites"]},
+      "justifications": ["The referendum became a way to express their frustration with the fact that the British working class has lately been getting an increasingly awful deal (read: an increasingly smaller cut from that enormous global loot plundered by both Europe and North America)."],
+      "attitude": "Negative"
+    }
+  ]
+}

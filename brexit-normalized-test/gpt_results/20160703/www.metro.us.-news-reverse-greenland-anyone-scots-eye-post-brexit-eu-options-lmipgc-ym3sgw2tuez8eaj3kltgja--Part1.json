@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "target": {"topic": "Brexit negotiations", "references": ["Brexit"]},
+      "justifications": [
+        "Sturgeon's trip to Brussels... showed leaders her determination to get a seat at the Brexit negotiating table."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "EU officials", "references": ["EU official", "Senior EU officials"]},
+      "target": {"topic": "Brexit negotiations", "references": ["Brexit"]},
+      "justifications": [
+        "Senior EU officials say they are in no mood now to do more than brainstorm."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "European Commission", "references": ["European Commission"]},
+      "target": {"topic": "Brexit negotiations", "references": ["Brexit"]},
+      "justifications": [
+        "\"Scotland is a part of the UK, all parts of the UK should sort out what they want to do.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "target": {"topic": "Scottish independence", "references": ["independence"]},
+      "justifications": [
+        "\"We do not come at it from the starting point of independence.\"",
+        "\"She did not use the Brexit referendum as an excuse to leave the UK.\""
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "entity2": {"entity": "EU officials", "references": ["EU official", "Senior EU officials"]},
+      "justifications": [
+        "Sturgeon's warm reception in Brussels amid the shock of Brexit."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "entity2": {"entity": "European Commission", "references": ["European Commission"]},
+      "justifications": [
+        "\"Scotland is a part of the UK, all parts of the UK should sort out what they want to do.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "entity2": {"entity": "Brussels", "references": ["Brussels"]},
+      "justifications": [
+        "Sturgeon's trip to Brussels... showed leaders her determination to get a seat at the Brexit negotiating table."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Brussels", "references": ["Brussels"]},
+      "entity2": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "justifications": [
+        "Her charm offensive in a city that rebuffed Scots' appeals for assurances of EU membership during their 2014 independence referendum."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Sturgeon"]},
+      "entity2": {"entity": "Spain", "references": ["Spain"]},
+      "justifications": [
+        "A reflection of fears of secession in other EU states such as Spain."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

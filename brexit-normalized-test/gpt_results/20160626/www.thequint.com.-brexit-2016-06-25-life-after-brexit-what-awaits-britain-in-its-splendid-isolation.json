@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "British people", "references": ["British people"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["the British people voted to shut the door on Europe and retreated into their little island."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British people", "references": ["British people"]},
+      "target": {"topic": "Europe", "references": ["Europe"]},
+      "justifications": ["the British people voted to shut the door on Europe and retreated into their little island."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "British people", "references": ["British people"]},
+      "entity2": {"entity": "British Empire", "references": ["British empire"]},
+      "justifications": ["The moon has finally set on the British empire."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British people", "references": ["British people"]},
+      "entity2": {"entity": "Europe", "references": ["Europe"]},
+      "justifications": ["the British people voted to shut the door on Europe and retreated into their little island."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "British Empire", "references": ["British empire"]},
+      "entity2": {"entity": "British people", "references": ["British people"]},
+      "justifications": ["The moon has finally set on the British empire."],
+      "attitude": "Negative"
+    }
+  ]
+}

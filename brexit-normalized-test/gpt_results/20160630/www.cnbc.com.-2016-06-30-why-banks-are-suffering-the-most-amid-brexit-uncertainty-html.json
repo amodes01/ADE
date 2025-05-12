@@ -1,0 +1,120 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "UK economy" },
+      "justifications": [
+        "an economic hit from Brexit, banks' business could be impacted.",
+        "uncertainty over the future of the UK, which is a global financial centre, may cause question marks over banking business models and transition costs."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "banking stocks" },
+      "justifications": [
+        "if there is an economic hit from Brexit, banks' business could be impacted.",
+        "the result of the referendum has added another cloud of uncertainty and negativity for the global economy which could hit the banks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "EU" },
+      "justifications": [
+        "European Union leaders scramble to put a deal together after UK voted to exit the region."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "global economy" },
+      "justifications": [
+        "the result of the referendum has added another cloud of uncertainty and negativity for the global economy which could hit the banks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "financial sector" },
+      "justifications": [
+        "an increase in non-performing loans, particularly if the housing sector struggles, on the back of any slowdown will create further headwinds for the banks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit" },
+      "target": { "topic": "European banking sector" },
+      "justifications": [
+        "the European banking sector continues to be dragged down by the U.K. referendum's result."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Angela Merkel", "references": ["German Chancellor Angela Merkel"] },
+      "entity2": { "entity": "Italy", "references": ["Italy"] },
+      "justifications": [
+        "German Chancellor Angela Merkel dismissed Italy's plan to inject money into the country's banking system."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Naeem Aslam", "references": ["Naeem Aslam"] },
+      "entity2": { "entity": "Germany", "references": ["Germany"] },
+      "justifications": [
+        "there is optimism that the Italian banking sector will stabilize as the country injects more capital in the system, that will only be possible if they convince Germany that is reluctant for such strategy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "David Stubbs", "references": ["David Stubbs"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "uncertainty over the future of the UK, which is a global financial centre, may cause question marks over banking business models and transition costs."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "David Stubbs", "references": ["David Stubbs"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "if there is an economic hit from Brexit, banks' business could be impacted."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Craig Orlam", "references": ["Craig Orlam"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "the result of the referendum has added another cloud of uncertainty and negativity for the global economy which could hit the banks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Craig Orlam", "references": ["Craig Orlam"] },
+      "entity2": { "entity": "global economy", "references": ["global economy"] },
+      "justifications": [
+        "the result of the referendum has added another cloud of uncertainty and negativity for the global economy which could hit the banks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Royal Bank of Scotland", "references": ["Royal Bank of Scotland"] },
+      "entity2": { "entity": "UK", "references": ["UK"] },
+      "justifications": [
+        "Royal Bank of Scotland was the worst hit among all banks after the bank saw its shares plunge by more than 30 percent since June 24."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Royal Bank of Scotland", "references": ["Royal Bank of Scotland"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Royal Bank of Scotland was the worst hit among all banks after the bank saw its shares plunge by more than 30 percent since June 24."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

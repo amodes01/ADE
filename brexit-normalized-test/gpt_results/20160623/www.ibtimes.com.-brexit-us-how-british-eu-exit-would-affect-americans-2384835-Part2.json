@@ -1,0 +1,54 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "James Quincey", "references": ["James Quincey", "president and CEO of Coca-Cola"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["James Quincey, president and CEO of Coca-Cola, has urged against a Brexit, citing the financial uncertainties that would continue to ripple through markets."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Matthew Beesley", "references": ["Matthew Beesley", "head of global equities for Henderson Global Investors"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["It is to be negotiated, so we just do not know. This is the uncertainty."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Barack Obama", "references": ["Barack Obama", "U.S. President"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Even U.S. President Barack Obama has urged the United Kingdom to remain a part of the European Union, for Europe's sake and for the U.S. as well."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "James Quincey", "references": ["James Quincey", "president and CEO of Coca-Cola"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["James Quincey, president and CEO of Coca-Cola, has urged against a Brexit, citing the financial uncertainties that would continue to ripple through markets."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Matthew Beesley", "references": ["Matthew Beesley", "head of global equities for Henderson Global Investors"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["It is to be negotiated, so we just do not know. This is the uncertainty."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Barack Obama", "references": ["Barack Obama", "U.S. President"]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": ["Even U.S. President Barack Obama has urged the United Kingdom to remain a part of the European Union, for Europe's sake and for the U.S. as well."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States", "U.S."]},
+      "entity2": {"entity": "United Kingdom", "references": ["United Kingdom"]},
+      "justifications": ["The United Kingdom remains a friend and ally to the United States like no other.", "The United Kingdom has long been the bridge between the U.S. and the European continent - militarily, diplomatically and economically."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["United States", "U.S."]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": ["The United Kingdom remains a friend and ally to the United States like no other.", "The United Kingdom has long been the bridge between the U.S. and the European continent - militarily, diplomatically and economically."],
+      "attitude": "Positive"
+    }
+  ]
+}

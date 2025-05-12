@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "author", "references": ["I"]},
+      "target": {"topic": "British 'Leave' vote", "references": ["Leave vote", "result for the future of the UK", "Leave vote is a terrible result"]},
+      "justifications": ["I think the Leave vote is a terrible result for the future of the UK (if there is one), for its economy, for the opportunities for British youth, for the people of Scotland and of Northern Ireland."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "author", "references": ["I"]},
+      "target": {"topic": "immigration", "references": ["Immigration"]},
+      "justifications": ["I am an immigrant myself, as were my parents to Canada."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "author", "references": ["I"]},
+      "target": {"topic": "cosmopolitan cultures", "references": ["cosmopolitan cultures"]},
+      "justifications": ["I prefer cosmopolitan cultures."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "author", "references": ["I"]},
+      "target": {"topic": "preservation of culture", "references": ["preserve a culture"]},
+      "justifications": ["But wanting to preserve a culture that people feel is in danger of disappearing is entirely natural."],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "author", "references": ["I"]},
+      "entity2": {"entity": "Brian True-May", "references": ["Brian True-May"]},
+      "justifications": ["I do not defend Brian True-May - he is wrong"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "author", "references": ["I"]},
+      "entity2": {"entity": "British 'Leave' voters", "references": ["British 'Leave' voters"]},
+      "justifications": ["And some, but not all, British 'Leave' voters."],
+      "attitude": "Neutral"
+    }
+  ]
+}

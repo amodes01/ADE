@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "\"The notion that Donald Trump could benefit from the same forces that gave the Leave proponents a majority in Britain should sound an alarm for the Democratic Party in the United States.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "target": {
+        "topic": "income inequality",
+        "references": ["income inequality"]
+      },
+      "justifications": [
+        "\"Sanders is warning Democrats to get serious about income inequality because the same beliefs that led to the outcome of the Brexit vote last week could benefit Republicans in November.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Sanders has not yet dropped out of the presidential race, but said last Friday that he intends to vote for his rival Hillary Clinton in November's general election."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Bernie Sanders",
+        "references": ["Bernie Sanders"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "\"The notion that Donald Trump could benefit from the same forces that gave the Leave proponents a majority in Britain should sound an alarm for the Democratic Party in the United States.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "President Obama",
+        "references": ["President Obama"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "President Obama warned in an interview released Tuesday that people should not engage in \"hysteria\" over the United Kingdom's vote."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

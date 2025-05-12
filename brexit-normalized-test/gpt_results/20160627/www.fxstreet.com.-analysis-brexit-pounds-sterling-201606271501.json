@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "investors",
+        "references": ["investors"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "investors are fast seeking havens, yet with the Swiss (who intervened on Friday) and Japanese (who likely will in July) central banks likely to devalue, the US dollar index has surged to a three month high."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "holiday makers",
+        "references": ["holiday makers"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "this is a bitter pill to swallow for holiday makers heading off to the US, whose holiday just became 12% more expensive."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "financial markets",
+        "references": ["financial markets"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "What we really need is some form of decisive action, as financial markets seek reassurance that things will be OK."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Westminster",
+        "references": ["Westminster"]
+      },
+      "target": {
+        "topic": "economic debate",
+        "references": ["economic debate"]
+      },
+      "justifications": [
+        "it seems Westminster cares more about the political repercussions than the economic ones."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Jeremy Corbyn",
+        "references": ["Jeremy Corbyn"]
+      },
+      "entity2": {
+        "entity": "political infighting",
+        "references": ["political infighting"]
+      },
+      "justifications": [
+        "Jeremy Corbyn will do well to weather this storm, as his carefully selected shadow cabinet falls by the wayside."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jeremy Corbyn",
+        "references": ["Jeremy Corbyn"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Jeremy Corbyn will do well to weather this storm, as his carefully selected shadow cabinet falls by the wayside."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

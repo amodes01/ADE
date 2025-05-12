@@ -1,0 +1,79 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "target": {"topic": "Bihar", "references": ["Bihar"]},
+      "justifications": ["Mr Swamy then, according to unreliable sources, closely watched Ruby Rai, the 12th standard humanities topper from Bihar"]
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Ruby Rai", "references": ["Ruby Rai"]},
+      "target": {"topic": "political science", "references": ["political science"]},
+      "justifications": ["Ruby Rai, the 12th standard humanities topper from Bihar who got arrested after a TV interview where she said political science, a subject she aced, teaches cooking!"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "target": {"topic": "Arvind Kejriwal", "references": ["Mr Arvind Kejriwal"]},
+      "justifications": ["Mr Swamy quickly added up 4+2 and came up with Char Sau Bees and declared that in Mr Arvind Kejriwal's case also it was his Daddyji who was responsible for his admission into IIT"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["I would not be surprised if Mr Swamy now blames Brexit on Vijay Mallya's settling down in England a few months ago"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Vijay Mallya", "references": ["Vijay Mallya"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["I would not be surprised if Mr Swamy now blames Brexit on Vijay Mallya's settling down in England a few months ago"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Trump", "references": ["Trump"]},
+      "target": {"topic": "US elections", "references": ["Vote for Trump, He is the savior and Hillary is a cheat!"]},
+      "justifications": ["When I get home and tell the man of the house, he shows me a WhatsApp forward: 'US and UK are in a competition as to who is Dumb and who is Dumber, UK is in the lead but fear not the US has a Trump card.'"]
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "entity2": {"entity": "Ruby Rai", "references": ["Ruby Rai"]},
+      "justifications": ["Mr Swamy then, according to unreliable sources, closely watched Ruby Rai"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "entity2": {"entity": "Arvind Kejriwal", "references": ["Mr Arvind Kejriwal"]},
+      "justifications": ["Mr Swamy quickly added up 4+2 and came up with Char Sau Bees and declared that in Mr Arvind Kejriwal's case also it was his Daddyji who was responsible for his admission into IIT"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "entity2": {"entity": "Vijay Mallya", "references": ["Vijay Mallya"]},
+      "justifications": ["I would not be surprised if Mr Swamy now blames Brexit on Vijay Mallya's settling down in England a few months ago"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Mr Swamy", "references": ["Mr Swamy"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["I would not be surprised if Mr Swamy now blames Brexit on Vijay Mallya's settling down in England a few months ago"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary"]},
+      "justifications": ["Vote for Trump, He is the savior and Hillary is a cheat!"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Trump", "references": ["Trump"]},
+      "entity2": {"entity": "US", "references": ["US"]},
+      "justifications": ["US and UK are in a competition as to who is Dumb and who is Dumber, UK is in the lead but fear not the US has a Trump card."]
+      "attitude": "Neutral"
+    }
+  ]
+}

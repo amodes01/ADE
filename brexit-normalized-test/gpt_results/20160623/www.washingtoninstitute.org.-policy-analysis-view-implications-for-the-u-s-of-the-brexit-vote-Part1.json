@@ -1,0 +1,95 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "President Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Obama's primary argument was trade, that is, the UK would, in his words, \"go to the end of the queue\" for a trade arrangement with the U.S. if it left the EU and thus, presumably, the TTIP now negotiated between the U.S. and the EU.",
+        "He also said that the UK would lose \"global influence\", while reassuring his British listeners that the \"special relationship\" would remain."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "President Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "EU membership", "references": ["remain in the EU"] },
+      "justifications": [
+        "Obama's primary argument was trade, that is, the UK would, in his words, \"go to the end of the queue\" for a trade arrangement with the U.S. if it left the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "President Barack Obama", "references": ["Barack Obama"] },
+      "target": { "topic": "UK sovereignty", "references": ["sovereignty"] },
+      "justifications": [
+        "Britain's chattering classes were aghast that the United States could recommend a policy of (continuing) diminution of British sovereignty to Brussels of a type the U.S. Congress would never tolerate itself."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Prime Minister David Cameron", "references": ["Prime Minister David Cameron"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The invitation to come to London was almost certainly a consequence of an urgent request from Prime Minister David Cameron, who was sensing that he was losing the argument for Britain to 'Remain' rather than 'Leave' the European Union."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "target": { "topic": "Britain's global role", "references": ["global role", "UK's global influence"] },
+      "justifications": [
+        "Obama's primary argument was trade, that is, the UK would, in his words, \"go to the end of the queue\" for a trade arrangement with the U.S. if it left the EU and thus, presumably, the TTIP now negotiated between the U.S. and the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "The United States", "references": ["United States", "U.S."] },
+      "target": { "topic": "UK's global influence", "references": ["global influence", "UK's soft power"] },
+      "justifications": [
+        "But the UK's \"soft power\" role as a complement to the U.S. will take a serious hit, to which Obama alluded."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "President Barack Obama", "references": ["Barack Obama"] },
+      "entity2": { "entity": "Prime Minister David Cameron", "references": ["David Cameron"] },
+      "justifications": [
+        "The invitation to come to London was almost certainly a consequence of an urgent request from Prime Minister David Cameron."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Prime Minister David Cameron", "references": ["David Cameron"] },
+      "entity2": { "entity": "President Barack Obama", "references": ["Barack Obama"] },
+      "justifications": [
+        "The invitation to come to London was almost certainly a consequence of an urgent request from Prime Minister David Cameron."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain", "UK"] },
+      "entity2": { "entity": "United States", "references": ["United States", "U.S."] },
+      "justifications": [
+        "While the U.S. leader remains very popular in Britain, hence the value to Cameron of the invitation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Britain", "references": ["Britain", "UK"] },
+      "entity2": { "entity": "United States", "references": ["U.S.", "United States"] },
+      "justifications": [
+        "While the U.S. leader remains very popular in Britain, hence the value to Cameron of the invitation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "The United States", "references": ["United States", "U.S."] },
+      "entity2": { "entity": "UK's soft power", "references": ["UK's soft power", "UK's global role"] },
+      "justifications": [
+        "But the UK's \"soft power\" role as a complement to the U.S. will take a serious hit."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

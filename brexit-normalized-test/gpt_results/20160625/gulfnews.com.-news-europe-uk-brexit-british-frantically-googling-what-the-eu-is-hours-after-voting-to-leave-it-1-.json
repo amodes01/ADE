@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Brexit campaign leaders",
+        "references": ["leaders of the campaign to exit Europe"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["leave vote", "Brexit"]
+      },
+      "justifications": [
+        "leaders of the campaign to exit Europe are crowing over their victory."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "many Britons",
+        "references": ["many Britons"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["leave vote", "Brexit"]
+      },
+      "justifications": [
+        "many Britons may not even know what they had actually voted for."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "voters who regret Brexit",
+        "references": ["some British voters"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "some British voters say they now regret casting a ballot in favour of Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "woman who regrets Brexit",
+        "references": ["one woman"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Even though I voted to leave, this morning I woke up and I just - the reality did actually hit me."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["leave vote", "Brexit"]
+      },
+      "justifications": [
+        "Google reported sharp upticks in searches not only related to the ballot measure but also about basic questions concerning the implications of the vote."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "British voters",
+        "references": ["Britons"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["leave vote", "Brexit"]
+      },
+      "justifications": [
+        "That confusion over what Brexit might mean for the country's economy appears to have been reflected across the United Kingdom on Thursday."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Brexit campaign leaders",
+        "references": ["leaders of the campaign to exit Europe"]
+      },
+      "entity2": {
+        "entity": "many Britons",
+        "references": ["many Britons"]
+      },
+      "justifications": [
+        "leaders of the campaign to exit Europe are crowing over their victory.",
+        "many Britons may not even know what they had actually voted for."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "British voters",
+        "references": ["some British voters"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "some British voters say they now regret casting a ballot in favour of Brexit."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

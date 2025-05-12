@@ -1,0 +1,97 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "U.K. science", "references": ["U.K. science"] },
+      "justifications": [
+        "I am bitterly disappointed by the Brexit decision-it was a dark day for U.K. science."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "EU scientific collaboration", "references": ["collaborative research", "EU funds", "international projects"] },
+      "justifications": [
+        "The Brexit vote has shocked me, and from the reactions I hear at the conference I am attending, it is creating a lot of confusion and uncertainty among the British and to a lesser extent the European scientific community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "neurodegenerative research", "references": ["neurodegenerative research"] },
+      "justifications": [
+        "If U.K. science falters, neurodegenerative research across the continent may suffer as well."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit decision", "references": ["Brexit decision"] },
+      "target": { "topic": "international scientific collaboration", "references": ["international consortia", "multinational initiatives"] },
+      "justifications": [
+        "Some worry about the future viability of projects that depend on international consortia.",
+        "This setback comes at a time when a growing emphasis on large multinational initiatives has begun to propel neurodegenerative research forward."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Adrian Isaacs", "references": ["Adrian Isaacs"] },
+      "entity2": { "entity": "Brexit decision", "references": ["Brexit decision"] },
+      "justifications": [
+        "I am bitterly disappointed by the Brexit decision-it was a dark day for U.K. science."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bart De Strooper", "references": ["Bart De Strooper"] },
+      "entity2": { "entity": "Brexit decision", "references": ["Brexit decision"] },
+      "justifications": [
+        "The Brexit vote has shocked me, and from the reactions I hear at the conference I am attending, it is creating a lot of confusion and uncertainty among the British and to a lesser extent the European scientific community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rick Livesey", "references": ["Rick Livesey"] },
+      "entity2": { "entity": "Brexit decision", "references": ["Brexit decision"] },
+      "justifications": [
+        "The U.K. runs the risk of sending a message that it is not a credible international partner for scientific collaboration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Michel Goedert", "references": ["Michel Goedert"] },
+      "entity2": { "entity": "Brexit decision", "references": ["Brexit decision"] },
+      "justifications": [
+        "The outcome of last week's referendum cannot be good for scientific research, which is international and must remain so."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Rita Guerreiro", "references": ["Rita Guerreiro"] },
+      "entity2": { "entity": "Brexit decision", "references": ["Brexit decision"] },
+      "justifications": [
+        "Although the U.K. is an island, science is exactly the opposite. We need collaborations to move it forward."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Adrian Isaacs", "references": ["Adrian Isaacs"] },
+      "entity2": { "entity": "Bart De Strooper", "references": ["Bart De Strooper"] },
+      "justifications": [
+        "Adrian Isaacs at University College London wrote to Alzforum.",
+        "Bart De Strooper at KU Leuven in Belgium concurred."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Michel Goedert", "references": ["Michel Goedert"] },
+      "entity2": { "entity": "Rita Guerreiro", "references": ["Rita Guerreiro"] },
+      "justifications": [
+        "Michel Goedert at MRC Laboratory of Molecular Biology, Cambridge, wrote.",
+        "Rita Guerreiro at UCL agreed."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

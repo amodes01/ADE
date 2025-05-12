@@ -1,0 +1,94 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Italy", "references": ["Italy"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "We just did not know it would be Brexit that set the elephant loose."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Italy", "references": ["Italy"]},
+      "target": {"topic": "EU laws", "references": ["EU laws"]},
+      "justifications": [
+        "These steps are impossible under EU laws."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Lorenzo Codogno", "references": ["Lorenzo Codogno"]},
+      "target": {"topic": "EU bail-in rules", "references": ["bail-in rules"]},
+      "justifications": [
+        "The Bank of Italy has called for a complete overhaul of the bail-in rules."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Lorenzo Codogno", "references": ["Lorenzo Codogno"]},
+      "target": {"topic": "EU aid rules", "references": ["state aid rules"]},
+      "justifications": [
+        "There has to be a suspension of the bail-in rules and state aid rules at the highest political level in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Morgan Stanley", "references": ["Morgan Stanley"]},
+      "target": {"topic": "EU economic health", "references": ["eurozone GDP"]},
+      "justifications": [
+        "Morgan Stanley warned in a new report that eurozone GDP would contract by almost as much as British GDP in a 'high stress scenario'."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Italy", "references": ["Italy"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Italy is the first serious casualty of Brexit contagion."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Matteo Renzi", "references": ["Matteo Renzi"]},
+      "entity2": {"entity": "Angela Merkel", "references": ["Angela Merkel"]},
+      "justifications": [
+        "Mr Renzi raised the subject urgently at a meeting with German Chancellor Angela Merkel."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Matteo Renzi", "references": ["Matteo Renzi"]},
+      "entity2": {"entity": "Francois Hollande", "references": ["Francois Hollande"]},
+      "justifications": [
+        "Mr Renzi raised the subject urgently at a meeting with French president Francois Hollande."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Matteo Renzi", "references": ["Matteo Renzi"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "There has to be a suspension of the bail-in rules and state aid rules at the highest political level in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Lorenzo Codogno", "references": ["Lorenzo Codogno"]},
+      "entity2": {"entity": "Italian government", "references": ["Italian government"]},
+      "justifications": [
+        "Unlike the eurozone debt crisis in 2011-2012, there is no serious trouble yet in the sovereign debt markets."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Italian government", "references": ["Italy government"]},
+      "entity2": {"entity": "Italian banks", "references": ["banks"]},
+      "justifications": [
+        "Italy is preparing a €40bn rescue of its financial system as bank shares collapse on the Milan bourse."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

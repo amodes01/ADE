@@ -1,0 +1,42 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Leave campaign", "references": ["Leave campaign"] },
+      "target": { "topic": "truthfulness of claims", "references": ["every single Leave claim I have checked"] },
+      "justifications": [
+        "At every single turn, I found that the Leave campaign's arguments were founded on lies.",
+        "But every single Leave claim I have checked has turned out not to be exaggeration, not to be well-meaning misunderstanding, but to be obviously false."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Remain campaign", "references": ["Remain's campaign"] },
+      "target": { "topic": "truthfulness of claims", "references": ["every claim of theirs I have checked"] },
+      "justifications": [
+        "But every claim of theirs I have checked - even the ones that had pro-Remain friends shouting about how over the top and ridiculous they were has turned out to be more or less sound.",
+        "Their arguments are evidence-based. Their evidence is solid. Their backup studies are detailed and provide sources and reasoning."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Leave campaign", "references": ["Leave campaign"] },
+      "entity2": { "entity": "Remain campaign", "references": ["Remain's campaign"] },
+      "justifications": [
+        "I came into this leaning cautiously to Remain. However, I really hoped to find that my initial impressions of Leave were wildly wrong, and I was hoping they had very strong arguments.",
+        "Unfortunately, \"well, at the end of the day both sides have a good point\" is not what I found."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Remain campaign", "references": ["Remain's campaign"] },
+      "entity2": { "entity": "Leave campaign", "references": ["Leave campaign"] },
+      "justifications": [
+        "Unfortunately, \"well, at the end of the day both sides have a good point\" is not what I found.",
+        "I have found that the Leave campaign's arguments were founded on lies."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

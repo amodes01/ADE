@@ -1,0 +1,59 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Brexit is \"not good\" for the world, as becoming less inclusive and less connected is not the right thing and nations will benefit more by globalisation.",
+        "Brexit is actually a step back in the sense that you are going back from being connected to being on your own.",
+        "Brexit is not something that probably is good for the world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "target": { "topic": "globalization", "references": ["globalisation"] },
+      "justifications": [
+        "I believe that we will benefit more by globalisation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "target": { "topic": "Brexit impact on SBI operations", "references": ["Brexit will have very little impact on SBI operations"] },
+      "justifications": [
+        "Brexit will not have too much of an impact on SBI directly."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Brexit is \"not good\" for the world.",
+        "Brexit is actually a step back in the sense that you are going back from being connected to being on your own.",
+        "Brexit is not something that probably is good for the world."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "entity2": { "entity": "globalization", "references": ["globalisation"] },
+      "justifications": [
+        "I believe that we will benefit more by globalisation."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Arundhati Bhattacharya", "references": ["SBI Chairman Arundhati Bhattacharya"] },
+      "entity2": { "entity": "Brexit impact on SBI operations", "references": ["Brexit will have very little impact on SBI operations"] },
+      "justifications": [
+        "Brexit will not have too much of an impact on SBI directly."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

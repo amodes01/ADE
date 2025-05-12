@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "NATO Secretary General Stoltenberg saying that there can be no business as usual until Russia respects international law."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "international law", "references": ["international law"]},
+      "justifications": [
+        "NATO Secretary General Stoltenberg saying that there can be no business as usual until Russia respects international law."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "United States", "references": ["U.S."]},
+      "target": {"topic": "democracy", "references": ["democracy"]},
+      "justifications": [
+        "Washington's rhetoric about its commitments to democracy is belied by its long history of supporting dictators and repressive regimes in Europe."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "United States", "references": ["U.S."]},
+      "target": {"topic": "support for dictators", "references": ["supporting dictators"]},
+      "justifications": [
+        "Washington's rhetoric about its commitments to democracy is belied by its long history of supporting dictators and repressive regimes in Europe, monarchies like the Saudis."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "NATO", "references": ["NATO"]},
+      "target": {"topic": "wars of conquest", "references": ["wars of conquest"]},
+      "justifications": [
+        "NATO's wars in Afghanistan and the Middle East follow in the tradition of European colonialism."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "NATO", "references": ["NATO"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": [
+        "NATO Secretary General Stoltenberg saying that there can be no business as usual until Russia respects international law."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["U.S."]},
+      "entity2": {"entity": "Poland", "references": ["Poland"]},
+      "justifications": [
+        "the U.S. has had no hesitation in making Poland the eastern hub of NATO."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["U.S."]},
+      "entity2": {"entity": "Saudi Arabia", "references": ["Saudis"]},
+      "justifications": [
+        "Washington's rhetoric about its commitments to democracy is belied by its long history of supporting dictators and repressive regimes in Europe, monarchies like the Saudis."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "United States", "references": ["U.S."]},
+      "entity2": {"entity": "NATO", "references": ["NATO"]},
+      "justifications": [
+        "U.S. and European elites will rely even more heavily on NATO in their effort to hold Europe together and to reinforce U.S. influence."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

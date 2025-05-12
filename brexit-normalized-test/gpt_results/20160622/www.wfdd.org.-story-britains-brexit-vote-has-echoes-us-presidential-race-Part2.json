@@ -1,0 +1,31 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "future of politics", "references": ["future of our politics"] },
+      "target": { "topic": "open global economy", "references": ["open global economy"] },
+      "justifications": [
+        "Does it continue to be a politics that is generally outwardly focused, focused on an open global economy and opportunity and optimism?"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "future of politics", "references": ["future of our politics"] },
+      "target": { "topic": "nationalism", "references": ["nationalistic"] },
+      "justifications": [
+        "Or is it one that is nationalistic and more inward looking and more about closing countries off?"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Wright", "references": ["Wright"] },
+      "entity2": { "entity": "Institution", "references": ["Institution"] },
+      "justifications": [
+        "Wright says the stakes for the future economic cooperation among countries are high."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

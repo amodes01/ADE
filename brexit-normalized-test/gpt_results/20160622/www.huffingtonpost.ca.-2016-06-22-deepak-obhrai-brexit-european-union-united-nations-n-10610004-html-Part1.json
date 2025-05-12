@@ -1,0 +1,81 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Deepak Obhrai", "references": ["Deepak Obhrai"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Canada lost the Security Council seat because of that.",
+        "They forced the European Union [states] to vote for those two, against Canada, and Canada lost because of the European Union ganging up on us as a larger entity."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Deepak Obhrai", "references": ["Deepak Obhrai"]},
+      "target": {"topic": "Britain's exit from the EU", "references": ["Britain's exit from the EU"]},
+      "justifications": [
+        "Britain's exit from the EU will help small countries like Canada."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Paul Heinbecker", "references": ["Paul Heinbecker"]},
+      "target": {"topic": "Conservative foreign policy", "references": ["Conservatives' foreign policy"]},
+      "justifications": [
+        "the Conservatives' foreign policy - from decreasing African aid, to staunchly supporting Israel, to a lack of engagement on climate change and peacekeeping operations - had been unpopular with the international community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Yves Fortier", "references": ["Yves Fortier"]},
+      "target": {"topic": "Canada's international standing", "references": ["Canada has done or not done that a majority of nations disapprove of"]},
+      "justifications": [
+        "the lamentable result was a reflection of things that Canada has done or not done that a majority of nations disapprove of."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Yves Fortier", "references": ["Yves Fortier"]},
+      "target": {"topic": "Canada's international standing", "references": ["it can only be interpreted as a slight to Canada by the international community"]},
+      "justifications": [
+        "It can only be interpreted as a slight to Canada by the international community."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Deepak Obhrai", "references": ["Deepak Obhrai"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Canada lost the Security Council seat because of that.",
+        "They forced the European Union [states] to vote for those two, against Canada, and Canada lost because of the European Union ganging up on us as a larger entity."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Deepak Obhrai", "references": ["Deepak Obhrai"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": [
+        "Britain's exit from the EU will help small countries like Canada."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Paul Heinbecker", "references": ["Paul Heinbecker"]},
+      "entity2": {"entity": "Conservative Party", "references": ["Conservatives"]},
+      "justifications": [
+        "the Conservatives' foreign policy - from decreasing African aid, to staunchly supporting Israel, to a lack of engagement on climate change and peacekeeping operations - had been unpopular with the international community."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Yves Fortier", "references": ["Yves Fortier"]},
+      "entity2": {"entity": "Canada", "references": ["Canada"]},
+      "justifications": [
+        "the lamentable result was a reflection of things that Canada has done or not done that a majority of nations disapprove of.",
+        "It can only be interpreted as a slight to Canada by the international community."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

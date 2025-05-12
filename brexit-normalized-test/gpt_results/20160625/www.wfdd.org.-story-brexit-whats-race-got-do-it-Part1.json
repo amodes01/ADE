@@ -1,0 +1,111 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "target": { "topic": "Brexit", "references": ["leave the EU", "Brexit"] },
+      "justifications": [
+        "The campaign to get the U.K. to leave the EU (also known as the 'Leave' campaign) was spearheaded by the right-wing, populist UK Independence Party, or UKIP.",
+        "For months, UKIP has fought for the United Kingdom's independence from the EU"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "target": { "topic": "Brexit", "references": ["leave the EU", "Brexit"] },
+      "justifications": [
+        "Nigel Farage - the UKIP leader ... is the man who should take a significant chunk of the credit for us having this referendum."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "target": { "topic": "immigration", "references": ["immigration", "immigrants"] },
+      "justifications": [
+        "UKIP has spent the past 10 years 'focusing, obsessively, on the threat from immigrants, from both inside the EU and out.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Areeq Chowdhury", "references": ["Areeq Chowdhury"] },
+      "target": { "topic": "Brexit", "references": ["leave the EU", "Brexit"] },
+      "justifications": [
+        "Areeq Chowdhury ... said last week that it's 'important we remember that this is a referendum that has only been made possible due to a long, hard-fought campaign by those on the far-right and political movements ridden with allegations of bigotry, xenophobia, and racism.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Areeq Chowdhury", "references": ["Areeq Chowdhury"] },
+      "target": { "topic": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "Nigel Farage ... is the man who should take a significant chunk of the credit for us having this referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Anyusha Rose", "references": ["Anyusha Rose"] },
+      "target": { "topic": "Brexit", "references": ["leave the EU", "Brexit"] },
+      "justifications": [
+        "Anyusha Rose points to the Leave campaign as evidence that in the U.K., 'racism is no longer racism - it's legitimate opinion.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Zack Beauchamp", "references": ["Zack Beauchamp"] },
+      "target": { "topic": "immigration", "references": ["immigration", "immigrants"] },
+      "justifications": [
+        "Beauchamp says, 'Over the course of the past 20 years, the percentage of Britons ranking 'immigration/race relations' as among the country's most important issues has gone from near zero percent to about 45 percent.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Timothy B. Lee", "references": ["Timothy B. Lee"] },
+      "target": { "topic": "immigration", "references": ["immigration", "immigrants"] },
+      "justifications": [
+        "Timothy B. Lee, at Vox, argues that there are compelling reasons that British voters might have"
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "Nigel Farage - the UKIP leader"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Areeq Chowdhury", "references": ["Areeq Chowdhury"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "Nigel Farage ... is the man who should take a significant chunk of the credit for us having this referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "entity2": { "entity": "Anyusha Rose", "references": ["Anyusha Rose"] },
+      "justifications": [
+        "Anyusha Rose points to the Leave campaign as evidence that in the U.K., 'racism is no longer racism - it's legitimate opinion.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Areeq Chowdhury", "references": ["Areeq Chowdhury"] },
+      "entity2": { "entity": "Nigel Farage", "references": ["Nigel Farage"] },
+      "justifications": [
+        "Nigel Farage ... is the man who should take a significant chunk of the credit for us having this referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Zack Beauchamp", "references": ["Zack Beauchamp"] },
+      "entity2": { "entity": "UK Independence Party", "references": ["UKIP"] },
+      "justifications": [
+        "Beauchamp says, 'Over the course of the past 20 years, the percentage of Britons ranking 'immigration/race relations' as among the country's most important issues has gone from near zero percent to about 45 percent.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

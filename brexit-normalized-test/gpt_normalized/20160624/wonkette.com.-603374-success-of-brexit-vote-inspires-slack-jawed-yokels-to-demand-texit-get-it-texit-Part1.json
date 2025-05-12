@@ -1,0 +1,102 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Texas Nationalist Movement",
+        "references": [
+          "Texas secession",
+          "TNM"
+        ]
+      },
+      "target": {
+        "topic": "Texas secession",
+        "references": [
+          "Texit vote",
+          "Texas secession"
+        ]
+      },
+      "justifications": [
+        "Miller did not specify what those oppressive \"laws, rules and regulations\" were, exactly, but we'd be willing to bet they have to do with taking away Texans' sacred rights"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Supreme Court",
+        "references": [
+          "justice"
+        ]
+      },
+      "target": {
+        "topic": "Texas secession",
+        "references": [
+          "Texit vote",
+          "Texas secession"
+        ]
+      },
+      "justifications": [
+        "secession may be completely illegal -- as confirmed by the Supreme Court in an 1869 case involving Texas"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Vladimir Putin",
+        "references": [
+          "Putin"
+        ]
+      },
+      "target": {
+        "topic": "Texas secession",
+        "references": [
+          "Texit vote",
+          "Texas secession"
+        ]
+      },
+      "justifications": [
+        "Plus, they have got at least theoretical backing from Vladimir Putin, kinda sorta, if by \"backing\" you mean Putin tried to justify Russia's generous liberation of Crimea from the clutches of Ukraine with some bad history."
+      ],
+      "attitude": "Neutral"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": [
+          "Texas secession",
+          "TNM"
+        ]
+      },
+      "entity2": {
+        "entity": "Supreme Court",
+        "references": [
+          "justice"
+        ]
+      },
+      "justifications": [
+        "secession may be completely illegal -- as confirmed by the Supreme Court in an 1869 case involving Texas"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Texas Nationalist Movement",
+        "references": [
+          "Texas secession",
+          "TNM"
+        ]
+      },
+      "entity2": {
+        "entity": "Vladimir Putin",
+        "references": [
+          "Putin"
+        ]
+      },
+      "justifications": [
+        "Plus, they have got at least theoretical backing from Vladimir Putin"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

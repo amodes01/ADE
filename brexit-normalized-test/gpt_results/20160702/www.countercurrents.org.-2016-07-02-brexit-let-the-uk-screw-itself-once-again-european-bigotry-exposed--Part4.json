@@ -1,0 +1,60 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "European Union", "references": ["European Union"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["No change will come 'from within'. 'The wretched of the Earth' cannot count on the compassion, on kindness and the decency of the Western public, or on its solidarity. They will have to expose what is behind the Brexit charade."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western imperialism", "references": ["Western imperialism"]},
+      "target": {"topic": "colonization", "references": ["colonized countries"]},
+      "justifications": ["Western empires (in the past) and now 'the Empire' have already destroyed most of the world, and the masses in Europe and even in North America have been greatly benefiting from those countless heinous crimes against humanity."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western imperialism", "references": ["Western imperialism"]},
+      "target": {"topic": "decolonization", "references": ["de-colonization struggle"]},
+      "justifications": ["The world will have to return to the unfinished 'business' of the de-colonization struggle if it wants to survive."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western racism", "references": ["European racism"]},
+      "target": {"topic": "racism", "references": ["racism"]},
+      "justifications": ["European racism is as profound, fundamentalist, cultural, institutionalized, as it is vitriolic and ancient."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Western institutions", "references": ["NATO", "EU"]},
+      "target": {"topic": "imperialism", "references": ["imperialism"]},
+      "justifications": ["Our present-day institutions, from NATO to the EU, are helping to sustain such criminal global order."]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Europeans", "references": ["Europeans"]},
+      "target": {"topic": "global inequality", "references": ["ruining and robbing the world"]},
+      "justifications": ["Europeans shout 'more, more and damn more!' And they hate, with naked fanaticism, each and every country on Earth."]
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "China", "references": ["China"]},
+      "justifications": ["And they hate, with naked fanaticism, each and every country on Earth, from China to Russia."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "Russia", "references": ["Russia"]},
+      "justifications": ["And they hate, with naked fanaticism, each and every country on Earth, from China to Russia."]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Europeans", "references": ["Europeans"]},
+      "entity2": {"entity": "Western public", "references": ["Western public"]},
+      "justifications": ["The wretched of the Earth cannot count on the compassion, on kindness and the decency of the Western public."]
+      "attitude": "Negative"
+    }
+  ]
+}

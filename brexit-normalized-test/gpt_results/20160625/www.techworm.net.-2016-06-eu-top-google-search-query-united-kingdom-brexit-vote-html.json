@@ -1,0 +1,66 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "British citizens", "references": ["Britishers", "UK citizens"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave EU", "EU vote"]},
+      "justifications": [
+        "After having voted to leave EU in Brexit vote",
+        "it was after the polls closed when British voters started to think seriously about the implications of their choice"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British citizens", "references": ["Britishers", "UK citizens"]},
+      "target": {"topic": "European Union", "references": ["EU"]},
+      "justifications": [
+        "just hours after deciding to leave EU in a historic vote",
+        "the Britishers seem to have woken from the euphoria surrounding the vote"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Northern Ireland voters", "references": ["Northern Ireland voters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave EU", "EU vote"]},
+      "justifications": [
+        "Both of them voted in favor of remaining in the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Scotland voters", "references": ["Scotland voters"]},
+      "target": {"topic": "Brexit", "references": ["Brexit", "leave EU", "EU vote"]},
+      "justifications": [
+        "Both of them voted in favor of remaining in the EU"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "British citizens", "references": ["Britishers", "UK citizens"]},
+      "target": {"topic": "Brexit referendum research", "references": ["What happens if we leave the EU?", "What is the EU?", "What is Brexit"]},
+      "justifications": [
+        "British voters started to think seriously about the implications of their choice",
+        "the searches for 'what is the eu' and 'what is brexit' started climbing across Britain late into the night"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Northern Ireland voters", "references": ["Northern Ireland voters"]},
+      "entity2": {"entity": "Scottish voters", "references": ["Scotland voters"]},
+      "justifications": [
+        "Both of them voted in favor of remaining in the EU"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "British citizens", "references": ["Britishers", "UK citizens"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": [
+        "just hours after deciding to leave EU in a historic vote",
+        "the Britishers seem to have woken from the euphoria surrounding the vote"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

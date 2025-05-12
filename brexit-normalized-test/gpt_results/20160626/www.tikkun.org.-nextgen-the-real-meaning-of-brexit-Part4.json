@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "global crisis", "references": ["current global crisis"] },
+      "target": { "topic": "revolution", "references": ["complete revolution"] },
+      "justifications": [
+        "the more we see the dimensions of the current global crisis we also see the necessity for a fundamental redesign of the way we inhabit this planet.",
+        "It is not the time to think about slow incremental change, but to think about complete revolution."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "European Union", "references": ["European Union institutions"] },
+      "justifications": [
+        "The Brexit vote was a triple protest: against surging immigration, City of London bankers, and European Union institutions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "immigration", "references": ["surging immigration"] },
+      "justifications": [
+        "The Brexit vote was a triple protest: against surging immigration."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "populist politics", "references": ["anti-immigrant populist politicians"] },
+      "justifications": [
+        "Donald Trump's campaign for the US presidency will receive a huge boost, as will other anti-immigrant populist politicians."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Martin Winiecki", "references": ["Martin Winiecki"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The Brexit vote was a triple protest: against surging immigration, City of London bankers, and European Union institutions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Donald Trump's campaign for the US presidency will receive a huge boost."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "European Union", "references": ["European Union institutions"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The Brexit vote was a triple protest: against surging immigration, City of London bankers, and European Union institutions."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Donald Trump", "references": ["Donald Trump"] },
+      "entity2": { "entity": "Jeffrey Sachs", "references": ["JEFFREY SACHS"] },
+      "justifications": [
+        "Donald Trump's campaign for the US presidency will receive a huge boost, as will other anti-immigrant populist politicians."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

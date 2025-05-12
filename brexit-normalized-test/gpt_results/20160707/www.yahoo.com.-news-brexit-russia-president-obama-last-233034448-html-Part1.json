@@ -1,0 +1,70 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "David Ochmanek", "references": ["David Ochmanek"] },
+      "target": { "topic": "NATO response to Russian invasion", "references": ["no NATO team has been able to successfully stop or even meaningfully impede this invasion"] },
+      "justifications": [
+        "\"no NATO team has been able to successfully stop or even meaningfully impede this invasion.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO alliance"] },
+      "target": { "topic": "Russian invasion of Baltic countries", "references": ["Russian troops could overrun the Baltic countries of Estonia and Latvia"] },
+      "justifications": [
+        "\"Russian troops could overrun the Baltic countries of Estonia and Latvia, NATO members the U.S. is treaty-bound to protect, before NATO could mount a serious response.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "NATO", "references": ["NATO"] },
+      "target": { "topic": "NATO's internal cohesion", "references": ["its internal cohesion has suffered an unprecedented blow with the U.K.'s Brexit referendum"] },
+      "justifications": [
+        "\"its internal cohesion has suffered an unprecedented blow with the U.K.'s Brexit referendum.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ivo Daalder", "references": ["Ivo Daalder"] },
+      "target": { "topic": "Brexit", "references": ["the British vote to leave the E.U."] },
+      "justifications": [
+        "\"The British vote to leave the E.U. is the first time a leading stakeholder in this project has decided to break away, putting its own national interests above those of European cohesion and stability.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ivo Daalder", "references": ["Ivo Daalder"] },
+      "target": { "topic": "European cohesion", "references": ["European cohesion and stability"] },
+      "justifications": [
+        "\"putting its own national interests above those of European cohesion and stability.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Ivo Daalder", "references": ["Ivo Daalder"] },
+      "target": { "topic": "Renationalization of European politics", "references": ["renationalization of European politics"] },
+      "justifications": [
+        "\"once you go down that path, the logic of what I call the renationalization of European politics can take over.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "NATO", "references": ["NATO"] },
+      "entity2": { "entity": "Russia", "references": ["Russia"] },
+      "justifications": [
+        "\"NATO would need to deploy seven brigades... in order to deter a Russian attack on the Baltics.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Russia", "references": ["Russia"] },
+      "entity2": { "entity": "NATO", "references": ["NATO"] },
+      "justifications": [
+        "\"That kind of deterrent 'looks a bit funny,' says Konstantin Sivkov.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

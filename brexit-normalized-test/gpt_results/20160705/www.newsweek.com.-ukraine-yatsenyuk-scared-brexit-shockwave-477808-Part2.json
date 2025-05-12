@@ -1,0 +1,67 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "judicial reforms", "references": ["sweeping judicial reforms"]},
+      "justifications": ["He also praised the sweeping judicial reforms that parliament passed in early June."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "anti-corruption reforms", "references": ["anti-corruption investigators", "the fight against corruption"]},
+      "justifications": ["He also urged better European cooperation with Ukraine's anti-corruption investigators."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "public sector wages", "references": ["public sector workers earn extremely low wages", "bribes are the only way for many people to feed their families"]},
+      "justifications": ["To solve this, Yatsenyuk has asked donors for a top-up fund to increase salaries in the transition period."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "internally displaced persons", "references": ["Ukraine's 1.8 million internally displaced persons", "IDPs"]},
+      "justifications": ["When asked about the status of Ukraine's 1.8 million internally displaced persons, he said, \"The situation is more or less under control,\" a remarkably tone-deaf response."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "legislation inconsistencies", "references": ["inconsistencies in legislation"]},
+      "justifications": ["Conditions are wretched for many IDPs, and those who live on the contact line lack access to water, gas and food and face daily shelling. While the Ukrainian government provides social assistance and pensions to IDPs, those payments were suspended earlier this year due to \"inconsistencies in legislation.\""],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "European cooperation with Ukraine", "references": ["better European cooperation with Ukraine's anti-corruption investigators"]},
+      "justifications": ["He also urged better European cooperation with Ukraine's anti-corruption investigators."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "austerity measures", "references": ["unpopular austerity measures"]},
+      "justifications": ["He had to pass a series of unpopular austerity measures in the midst of a plunging economy."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "target": {"topic": "Russian aggression", "references": ["repelling the Russians"]},
+      "justifications": ["He had to pass a series of unpopular austerity measures in the midst of a plunging economy, and keep the country united while repelling the Russians."],
+      "attitude": "Positive"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "entity2": {"entity": "Yuriy Lutsenko", "references": ["Yuriy Lutsenko"]},
+      "justifications": ["Yatsenyuk said, \"I have full trust in him. He wants to deliver.\""],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Arseniy Yatsenyuk", "references": ["Yatsenyuk"]},
+      "entity2": {"entity": "Poroshenko", "references": ["Poroshenko"]},
+      "justifications": ["Lutsenko was initially criticized for being too loyal to Poroshenko."],
+      "attitude": "Neutral"
+    }
+  ]
+}

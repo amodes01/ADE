@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Institution", "references": ["Institution"]},
+      "target": {"topic": "future economic cooperation among countries", "references": ["future economic cooperation among countries"]},
+      "justifications": ["Wright says the stakes for the future economic cooperation among countries are high."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Wright", "references": ["Wright"]},
+      "target": {"topic": "future economic cooperation among countries", "references": ["future economic cooperation among countries"]},
+      "justifications": ["Wright says the stakes for the future economic cooperation among countries are high."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Wright", "references": ["Wright"]},
+      "target": {"topic": "politics", "references": ["a politics that is generally outwardly focused, focused on an open global economy and opportunity and optimism"]},
+      "justifications": ["Does it continue to be a politics that is generally outwardly focused, focused on an open global economy and opportunity and optimism?"],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Wright", "references": ["Wright"]},
+      "target": {"topic": "politics", "references": ["nationalistic and more inward looking and more about closing countries off"]},
+      "justifications": ["Or is it one that is nationalistic and more inward looking and more about closing countries off?"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Institution", "references": ["Institution"]},
+      "entity2": {"entity": "Wright", "references": ["Wright"]},
+      "justifications": ["Wright says the stakes for the future economic cooperation among countries are high."],
+      "attitude": "Neutral"
+    }
+  ]
+}

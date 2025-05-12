@@ -1,0 +1,48 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["First Minister Nicola Sturgeon"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Sturgeon, a pro-independence nationalist, stressed during her visit to the EU capital on Wednesday that she was keeping an open mind and simply wanted \"all of the options for Scotland\" considered once a new British government starts negotiations on what, in principle, is supposed to be a two-year divorce process."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "Nicola Sturgeon", "references": ["First Minister Nicola Sturgeon"]},
+      "target": {"topic": "Scottish independence", "references": ["independence"]},
+      "justifications": ["Sturgeon kept the secession card firmly off the table, insisting that was not the priority.", "\"We do not come at it from the starting point of independence,\" she told reporters in Brussels."],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU officials", "references": ["EU executive", "EU officials"]},
+      "target": {"topic": "Scottish EU membership", "references": ["Scotland getting special status within the UK to let it still be a member of the EU somehow"]},
+      "justifications": ["An EU official who took part in one of Sturgeon's meetings said. \"They discussed possibly Scotland getting special status within the UK to let it still be a member of the EU somehow.\""],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {"entity": "EU officials", "references": ["EU officials"]},
+      "target": {"topic": "Scotland's Brexit status", "references": ["reverse Greenland", "Scotland's status after Brexit"]},
+      "justifications": ["At its most extreme - and, in the view of officials and experts, deeply implausible - a \"reverse Greenland\" solution might see the Scottish government in Edinburgh take on Britain's EU membership while remaining in the United Kingdom and the UK government in London would, like Greenland in the 1980s, pull England out of the EU while keeping the British state united."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Commission spokesperson", "references": ["spokesman for the European Commission"]},
+      "target": {"topic": "Scottish EU membership", "references": ["Scotland getting special status within the UK to let it still be a member of the EU somehow"]},
+      "justifications": ["\"Scotland is a part of the UK,\" a spokesman for the European Commission said. \"All parts of the UK should sort out what they want to do,\" he added, calling the options \"speculation\"."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["First Minister Nicola Sturgeon"]},
+      "entity2": {"entity": "EU officials", "references": ["EU officials"]},
+      "justifications": ["Sturgeon's warm reception in Brussels amid the shock of Brexit, highlighted the possibility that British withdrawal from the EU could well be accompanied by special EU arrangements for some of the United Kingdom's constituent parts - not just Scotland but also Northern Ireland and Gibraltar."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["First Minister Nicola Sturgeon"]},
+      "entity2": {"entity": "European Commission spokesperson", "references": ["spokesman for the European Commission"]},
+      "justifications": ["\"Scotland is a part of the UK,\" a spokesman for the European Commission said. \"All parts of the UK should sort out what they want to do,\" he added, calling the options \"speculation\"."],
+      "attitude": "Negative"
+    }
+  ]
+}

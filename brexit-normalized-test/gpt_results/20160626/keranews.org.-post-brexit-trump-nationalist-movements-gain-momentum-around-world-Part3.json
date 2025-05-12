@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "nationalism", "references": ["nationalism"]},
+      "justifications": ["nationalism will continue to be a powerful political tool, and it's clear Trump will embrace the theme through the November election, seeing Brexit as fuel."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Trump will embrace the theme through the November election, seeing Brexit as fuel."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Trump"]},
+      "target": {"topic": "borders", "references": ["borders"]},
+      "justifications": ["People want to see borders."]
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Trump will embrace the theme through the November election, seeing Brexit as fuel."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Trump"]},
+      "entity2": {"entity": "Americans", "references": ["Americans"]},
+      "justifications": ["Americans, Americans", "Americans, America first. Make our country great again."],
+      "attitude": "Positive"
+    }
+  ]
+}

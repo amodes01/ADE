@@ -1,0 +1,119 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "EU", "references": ["European Union", "Brussels"] },
+      "justifications": [
+        "In a variety of admittedly imperfect ways Brexit promoted liberty, community, democracy, and the rule of law.",
+        "For Britain the virtues of remaining appeared to this American to pale compared to the likely costs of continued subservience to Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU", "references": ["European Union", "Brussels"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The European Union created a common economic market throughout the continent, an undoubted good, but since then has focused on becoming a meddling Leviathan like that in Washington, D.C."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "liberty", "references": ["liberty"] },
+      "justifications": [
+        "In a variety of admittedly imperfect ways Brexit promoted liberty."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "community", "references": ["community"] },
+      "justifications": [
+        "In a variety of admittedly imperfect ways Brexit promoted liberty, community, democracy, and the rule of law."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "democracy", "references": ["democracy"] },
+      "justifications": [
+        "In a variety of admittedly imperfect ways Brexit promoted liberty, community, democracy, and the rule of law."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit"] },
+      "target": { "topic": "rule of law", "references": ["rule of law"] },
+      "justifications": [
+        "In a variety of admittedly imperfect ways Brexit promoted liberty, community, democracy, and the rule of law."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU", "references": ["European Union", "Brussels"] },
+      "target": { "topic": "rule of law", "references": ["rule of law"] },
+      "justifications": [
+        "No one living under the EU has any assurance that laws made, rules issued, and promises offered will be kept."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU", "references": ["European Union", "Brussels"] },
+      "target": { "topic": "democracy", "references": ["democracy"] },
+      "justifications": [
+        "The EU is known for its \"democratic deficit,\" a hydra-headed, unelected executive and a weak parliament chosen by people usually voting on domestic issues."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU", "references": ["European Union", "Brussels"] },
+      "target": { "topic": "bureaucratic inertia", "references": ["bureaucratic inertia"] },
+      "justifications": [
+        "Democracy will have triumphed over bureaucratic inertia."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Brexiteers", "references": ["Brexiteers"] },
+      "entity2": { "entity": "EU", "references": ["European Union", "Brussels"] },
+      "justifications": [
+        "The Brexiteers, who deserve at least a couple hurrahs."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "EU", "references": ["European Union", "Brussels"] },
+      "entity2": { "entity": "Britain", "references": ["Britain"] },
+      "justifications": [
+        "For Britain the virtues of remaining appeared to this American to pale compared to the likely costs of continued subservience to Brussels."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "British", "references": ["British"] },
+      "entity2": { "entity": "EU", "references": ["European Union", "Brussels"] },
+      "justifications": [
+        "No longer, said the British."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Eurocrats", "references": ["Eurocrats"] },
+      "entity2": { "entity": "EU", "references": ["European Union", "Brussels"] },
+      "justifications": [
+        "The Eurocrats, a gaggle of politicians, bureaucrats, journalists, academics, lobbyists, businessmen, and others, were determined to achieve their ends no matter what the European people thought."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "British", "references": ["British"] },
+      "entity2": { "entity": "Eurocrats", "references": ["Eurocrats"] },
+      "justifications": [
+        "The British were determined to achieve their ends no matter what the European people thought."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

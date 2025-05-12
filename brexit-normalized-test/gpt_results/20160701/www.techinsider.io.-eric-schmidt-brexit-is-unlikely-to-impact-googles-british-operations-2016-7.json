@@ -1,0 +1,92 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "target": {
+        "topic": "Brexit impact on UK operations",
+        "references": ["Brexit", "UK operations"]
+      },
+      "justifications": [
+        "Google has no immediate plans to reduce the size of its UK operations as a result of Brexit.",
+        "\"I think it unlikely that Google would change our allocation based on this.\""
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "target": {
+        "topic": "European regulatory framework for digital business",
+        "references": ["European regulatory framework for digital business"]
+      },
+      "justifications": [
+        "\"I do not want anything to splinter that market further.\"",
+        "\"What I would hope is ... as common a platform as possible in digital.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "entity2": {
+        "entity": "Google",
+        "references": ["Google"]
+      },
+      "justifications": [
+        "Eric Schmidt, executive chairman of Google parent company Alphabet."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Eric Schmidt",
+        "references": ["Eric Schmidt"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Schmidt received an applause from the Viva Technology Conference when he said he did not understand the outcome of the EU referendum."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Vodafone",
+        "references": ["Vodafone"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Firms like Vodafone and easyJet are evaluating whether some jobs may have to be relocated."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Goldman Sachs",
+        "references": ["Goldman Sachs"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Goldman Sachs said some banks may also downsize their UK offices."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

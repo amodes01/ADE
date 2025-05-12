@@ -1,0 +1,36 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Zacks Investment Research", "references": ["Zacks Investment Research"]},
+      "target": {"topic": "independent research", "references": ["independent research"]},
+      "justifications": ["At the center of everything we do is a strong commitment to independent research."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Zacks Investment Research", "references": ["Zacks Investment Research"]},
+      "target": {"topic": "Zacks Rank stock-rating system", "references": ["Zacks Rank stock-rating system"]},
+      "justifications": ["This dedication to giving investors a trading advantage led to the creation of our proven Zacks Rank stock-rating system."],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Zacks Investment Research", "references": ["Zacks Investment Research"]},
+      "target": {"topic": "S&P 500", "references": ["S&P 500"]},
+      "justifications": ["Since 1988 it has more than doubled the S&P 500 with an average gain of +24.10% per year."],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Zacks Investment Research", "references": ["Zacks Investment Research"]},
+      "entity2": {"entity": "S&P 500", "references": ["S&P 500"]},
+      "justifications": ["Since 1988 it has more than doubled the S&P 500 with an average gain of +24.10% per year."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Zacks Investment Research", "references": ["Zacks Investment Research"]},
+      "entity2": {"entity": "Zacks Rank stock-rating system", "references": ["Zacks Rank stock-rating system"]},
+      "justifications": ["This dedication to giving investors a trading advantage led to the creation of our proven Zacks Rank stock-rating system."],
+      "attitude": "Positive"
+    }
+  ]
+}

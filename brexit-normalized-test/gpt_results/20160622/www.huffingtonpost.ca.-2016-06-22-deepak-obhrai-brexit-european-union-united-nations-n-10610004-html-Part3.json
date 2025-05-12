@@ -1,0 +1,134 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Obhrai",
+        "references": ["Obhrai"]
+      },
+      "target": {
+        "topic": "free trade agreements",
+        "references": ["free-trade agreements"]
+      },
+      "justifications": [
+        "We have free-trade agreements with multitudes of countries around the world."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Obhrai",
+        "references": ["Obhrai"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "The European Union acts like a sovereign nation!",
+        "The European Union has grown too big."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Andrew Scheer",
+        "references": ["Andrew Scheer"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Andrew Scheer... penned an op-ed suggesting a Brexit would be better for Britain and better for local decision-making."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Prime Minister Justin Trudeau",
+        "references": ["Justin Trudeau"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Prime Minister Justin Trudeau, however, firmly supports Britain's continued participation in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Prime Minister Justin Trudeau",
+        "references": ["Justin Trudeau"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "We have a great relationship with a strong and united Europe and certainly hope that that continues."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Obhrai",
+        "references": ["Obhrai"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "The European Union acts like a sovereign nation!",
+        "The European Union has grown too big."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Andrew Scheer",
+        "references": ["Andrew Scheer"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Andrew Scheer... penned an op-ed suggesting a Brexit would be better for Britain and better for local decision-making."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Prime Minister Justin Trudeau",
+        "references": ["Justin Trudeau"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Prime Minister Justin Trudeau, however, firmly supports Britain's continued participation in the EU."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Prime Minister Justin Trudeau",
+        "references": ["Justin Trudeau"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "We have a great relationship with a strong and united Europe and certainly hope that that continues."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "UK economy", "references": ["UK economy"] },
+      "justifications": [
+        "investment flows into Britain could fall as much as 22 percent as companies, including American firms, move operations elsewhere or put plans on hold in the wake of a leave vote.",
+        "two major bright spots in the UK economy, financial services and autos, would suffer from a Brexit."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "UK car manufacturing", "references": ["UK car manufacturing"] },
+      "justifications": [
+        "LSE also said annual UK car manufacturing would decline by 181,000 units, or 12 percent, due to higher European tariffs if Britain reverts to World Trade Organization trading status."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "financial firms in Britain", "references": ["financial firms based in Britain"] },
+      "justifications": [
+        "financial firms based in Britain would likely see \"big cuts\" after losing their \"passport\" arrangements to operate in EU countries without having to set up costly local subsidiaries."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "UK jobs", "references": ["cost jobs"] },
+      "justifications": [
+        "JPMorgan CEO Jamie Dimon earlier this month warned staff in Bournemouth, where a quarter of the banking giant's 16,000 UK employees are based, that this would cost jobs."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "Ford Motor Co operations", "references": ["Ford Motor Co", "Ford's European operations"] },
+      "justifications": [
+        "Ford Motor Co... could face tariffs of up to 2.7 percent on UK engine exports and 10 percent on vehicles, potentially costing \"hundreds of millions of dollars every year.\"",
+        "This would significantly impact our business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "Ford profits", "references": ["Profits at Ford's European operations"] },
+      "justifications": [
+        "Profits at Ford's European operations are just starting to return to pre-2008 crisis levels after years of losses and painful plant closures."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "Mars Inc operations", "references": ["Mars Inc.", "Mars Inc's Berninger"] },
+      "justifications": [
+        "Mars Inc. Vice President for Public Affairs Matthias Berninger told Reuters that a post-Brexit Britain would likely want to set its own standards for food safety and chocolate or pet food ingredients, creating problems for a European production network optimized for efficiency over the past 40 years.",
+        "Moving employees between locations would be more problematic with new immigration restrictions that are being advocated by the \"leave\" camp."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "UK pound", "references": ["deterioration of the pound"] },
+      "justifications": [
+        "A long-term deterioration of the pound would also eat into profit margins in the UK which is the M&Ms and Snickers maker's second-largest market worldwide."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["leave vote"] },
+      "target": { "topic": "Mars Inc profitability", "references": ["eat into profitability"] },
+      "justifications": [
+        "\"All of those things are a headache that translates into costs that eat into profitability.\"",
+        "\"It's a slow crash.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "EU membership", "references": ["EU membership"] },
+      "target": { "topic": "US companies in Britain", "references": ["U.S. companies", "UK as a base"] },
+      "justifications": [
+        "For us, EU membership is also a big reason why we have chosen Britain."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "EU exit", "references": ["exit the EU"] },
+      "target": { "topic": "UK economy", "references": ["UK economy"] },
+      "justifications": [
+        "Recent suggestions that the UK should leave the single market if it exits the EU are particularly concerning and potentially hugely damaging."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "JPMorgan CEO Jamie Dimon", "references": ["Jamie Dimon"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "JPMorgan CEO Jamie Dimon earlier this month warned staff in Bournemouth, where a quarter of the banking giant's 16,000 UK employees are based, that this would cost jobs."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ford Motor Co", "references": ["Ford Motor Co"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Ford Motor Co... could face tariffs of up to 2.7 percent on UK engine exports and 10 percent on vehicles, potentially costing \"hundreds of millions of dollars every year.\"",
+        "This would significantly impact our business."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Ford Britain Managing Director Andy Barratt", "references": ["Andy Barratt"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"This would significantly impact our business,\" Ford Britain Managing Director Andy Barratt wrote."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Mars Inc Vice President for Public Affairs Matthias Berninger", "references": ["Matthias Berninger"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Mars Inc. Vice President for Public Affairs Matthias Berninger told Reuters that a post-Brexit Britain would likely want to set its own standards for food safety and chocolate or pet food ingredients, creating problems for a European production network optimized for efficiency over the past 40 years.",
+        "Moving employees between locations would be more problematic with new immigration restrictions that are being advocated by the \"leave\" camp."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "General Electric CEO Jeff Immelt", "references": ["Jeff Immelt"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Recent suggestions that the UK should leave the single market if it exits the EU are particularly concerning and potentially hugely damaging.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Cisco Systems Inc CEO Chuck Robbins", "references": ["Chuck Robbins"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Recent suggestions that the UK should leave the single market if it exits the EU are particularly concerning and potentially hugely damaging.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bloomberg LP chairman Michael Bloomberg", "references": ["Michael Bloomberg"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "\"Recent suggestions that the UK should leave the single market if it exits the EU are particularly concerning and potentially hugely damaging.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

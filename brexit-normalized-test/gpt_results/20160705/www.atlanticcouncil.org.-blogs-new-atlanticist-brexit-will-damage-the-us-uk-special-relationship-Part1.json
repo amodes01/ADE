@@ -1,0 +1,90 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "relationship with Europe", "references": ["relationship with Europe"]},
+      "justifications": ["the situation now is in a whole different category."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "damage to Europe", "references": ["damage Europe"]},
+      "justifications": ["The UK vote to leave the EU will damage Europe."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "damage to US interests in Europe", "references": ["damage US interests in Europe"]},
+      "justifications": ["The UK vote to leave the EU will damage US interests in Europe for many years to come."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "political uncertainty", "references": ["self-inflicted political uncertainty"]},
+      "justifications": ["The self-inflicted political uncertainty will make the UK a considerably less able partner to deal with the genuine pressing issues of the day."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Brexit", "references": ["Brexit"]},
+      "target": {"topic": "weak leadership in the UK", "references": ["Weak and inexperienced new leaders"]},
+      "justifications": ["Weak and inexperienced new leaders will be preoccupied with developing a form of 'no-fault insurance' with the EU to mitigate the downside of leaving."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["David Cameron, who will long be remembered as the author of an ill-conceived referendum designed only for electoral advantage"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "David Cameron", "references": ["David Cameron"]},
+      "entity2": {"entity": "Conservative Party", "references": ["Conservative Party"]},
+      "justifications": ["His Conservative Party colleagues quickly transformed the leadership competition into a sordid little soap opera."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Michael Gove", "references": ["Michael Gove"]},
+      "entity2": {"entity": "Boris Johnson", "references": ["Boris Johnson"]},
+      "justifications": ["the clever/devious Michael Gove somehow prompting the clever, reduced, and frightened Brexit supporter Boris Johnson into heading for the hills himself"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Labour Party", "references": ["Labour Party"]},
+      "justifications": ["The continuously feckless Labour Party grew even less impressive as Labour Members of Parliament indicated no confidence in their leader, Jeremy Corbyn."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Jeremy Corbyn", "references": ["Jeremy Corbyn"]},
+      "entity2": {"entity": "Tony Blair", "references": ["Tony Blair"]},
+      "justifications": ["Corbyn seems intent on bringing former British Prime Minister Tony Blair to justice over his decision to enter the Iraq war."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["the first reaction of Scottish First Minister Nicola Sturgeon following the Brexit vote was a quick trip to Brussels to assure EU leaders that the Scots wanted nothing to do with what was an essentially English decision."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nicola Sturgeon", "references": ["Nicola Sturgeon"]},
+      "entity2": {"entity": "European Union", "references": ["EU"]},
+      "justifications": ["Nicola Sturgeon... to assure EU leaders that the Scots wanted nothing to do with what was an essentially English decision, and to note that the Scots had indicated the same by an overwhelming vote to remain in the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Queen Elizabeth II", "references": ["Queen Elizabeth II"]},
+      "entity2": {"entity": "UK Politicos", "references": ["UK politicos"]},
+      "justifications": ["Even Queen Elizabeth II felt the need to recommend that UK politicos allow 'sufficient room for quiet thinking and contemplation.'"],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Queen Elizabeth II", "references": ["Queen Elizabeth II"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit"]},
+      "justifications": ["It was delicious accidental irony that she delivered these words at the opening of Scotland's Parliament, where the first reaction of Scottish First Minister Nicola Sturgeon following the Brexit vote was a quick trip to Brussels to assure EU leaders that the Scots wanted nothing to do with what was an essentially English decision."],
+      "attitude": "Negative"
+    }
+  ]
+}

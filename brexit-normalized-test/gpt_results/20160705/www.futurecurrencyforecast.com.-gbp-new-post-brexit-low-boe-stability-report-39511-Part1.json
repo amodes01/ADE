@@ -1,0 +1,132 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "M&G",
+        "references": ["M&G"]
+      },
+      "target": {
+        "topic": "UK commercial property market",
+        "references": ["UK commercial property market"]
+      },
+      "justifications": [
+        "Redemptions have now reached a point where M&G believes it can best protect the interests of the funds' shareholders by seeking a temporary suspension in trading."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bank of England",
+        "references": ["Bank of England", "BoE"]
+      },
+      "target": {
+        "topic": "UK financial stability",
+        "references": ["UK financial stability"]
+      },
+      "justifications": [
+        "The current outlook for UK financial stability is challenging."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Bank of England",
+        "references": ["Bank of England", "BoE"]
+      },
+      "target": {
+        "topic": "market stability",
+        "references": ["stability", "necessary support to the markets and the economy"]
+      },
+      "justifications": [
+        "the BoE was ready to provide the necessary support to the markets and the economy to ensure stability"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Bank of England",
+        "references": ["Bank of England", "BoE"]
+      },
+      "target": {
+        "topic": "Countercyclical Capital Buffer (CCyB)",
+        "references": ["Countercyclical Capital Buffer (CCyB)"]
+      },
+      "justifications": [
+        "the BoE had relaxed the Countercyclical Capital Buffer (CCyB)"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Investors",
+        "references": ["Investors"]
+      },
+      "target": {
+        "topic": "prospect of £150bn additional lending",
+        "references": ["prospect of £150 bn additional lending"]
+      },
+      "justifications": [
+        "Investors cheered by prospect of £150 bn additional lending"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Standard Life",
+        "references": ["Standard Life"]
+      },
+      "entity2": {
+        "entity": "Aviva",
+        "references": ["Aviva"]
+      },
+      "justifications": [
+        "Three large UK property funds have now suspended activity today"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "M&G",
+        "references": ["M&G"]
+      },
+      "entity2": {
+        "entity": "Standard Life",
+        "references": ["Standard Life"]
+      },
+      "justifications": [
+        "Three large UK property funds have now suspended activity today"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "M&G",
+        "references": ["M&G"]
+      },
+      "entity2": {
+        "entity": "Aviva",
+        "references": ["Aviva"]
+      },
+      "justifications": [
+        "Three large UK property funds have now suspended activity today"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Mark Carney",
+        "references": ["Governor Mark Carney"]
+      },
+      "entity2": {
+        "entity": "Traders",
+        "references": ["Traders"]
+      },
+      "justifications": [
+        "Traders look to Carney for reassurance"
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

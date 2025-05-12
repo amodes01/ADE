@@ -1,0 +1,49 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Countries", "references": ["Countries"]},
+      "target": {"topic": "trade deals with UK", "references": ["trade talks with Britain"]},
+      "justifications": ["Countries are lining up to enter trade talks with Britain in the wake of the decision to leave the European Union"]
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tony Blair", "references": ["Tony Blair"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["Tony Blair wants... Let us keep the options open"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "European Union", "references": ["EU"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": ["If Britain leaves the EU it will lose sovereign control"]
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "target": {"topic": "UKIP leadership", "references": ["resigned from being leader of UKIP"]},
+      "justifications": ["Nigel Farage has resigned from being leader of UKIP"]
+      "attitude": "Neutral"
+    }
+  ],
+
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Tony Blair", "references": ["Tony Blair"]},
+      "entity2": {"entity": "Brexit supporters", "references": ["Brexit"]},
+      "justifications": ["Tony Blair wants... Let us keep the options open"]
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Nigel Farage", "references": ["Nigel Farage"]},
+      "entity2": {"entity": "UKIP", "references": ["UKIP"]},
+      "justifications": ["Nigel Farage has resigned from being leader of UKIP"]
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "European Union", "references": ["EU"]},
+      "entity2": {"entity": "Britain", "references": ["Britain"]},
+      "justifications": ["If Britain leaves the EU it will lose sovereign control"]
+      "attitude": "Negative"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "target": {"topic": "Fresnillo stock price", "references": ["Fresnillo", "price"]},
+      "justifications": [
+        "Goldman rated Fresnillo (LON:FRES) a 'sell' at 1,194p as recently as 15 June.",
+        "The price is now well over 1,900p, blowing Goldman's call well out of the water for the foreseeable future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "target": {"topic": "Randgold stock price", "references": ["Randgold", "price"]},
+      "justifications": [
+        "The performance that's been mirrored by Randgold in London, up by more than 30% in sterling terms to 9,730p at the last count."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "target": {"topic": "Gold Fields stock price", "references": ["Gold Fields", "price"]},
+      "justifications": [
+        "Goldman also called Gold Fields (JSE:GFI) a sell at R63.8, setting a R50 price target.",
+        "Today's price is R80."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "entity2": {"entity": "Fresnillo", "references": ["Fresnillo"]},
+      "justifications": [
+        "Goldman rated Fresnillo (LON:FRES) a 'sell' at 1,194p as recently as 15 June.",
+        "The price is now well over 1,900p, blowing Goldman's call well out of the water for the foreseeable future."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "entity2": {"entity": "Randgold", "references": ["Randgold"]},
+      "justifications": [
+        "The performance that's been mirrored by Randgold in London, up by more than 30% in sterling terms to 9,730p at the last count."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Goldman Sachs", "references": ["Goldman"]},
+      "entity2": {"entity": "Gold Fields", "references": ["Gold Fields"]},
+      "justifications": [
+        "Goldman also called Gold Fields (JSE:GFI) a sell at R63.8, setting a R50 price target.",
+        "Today's price is R80."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

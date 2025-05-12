@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "France", "references": ["France"]},
+      "target": {"topic": "EU exit", "references": ["any other countries that are contemplating an exit"]},
+      "justifications": ["the major (France and Germany) EU members will want to send a strong message that it will be costly to any other countries that are contemplating an exit."],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Germany", "references": ["Germany"]},
+      "target": {"topic": "EU exit", "references": ["any other countries that are contemplating an exit"]},
+      "justifications": ["the major (France and Germany) EU members will want to send a strong message that it will be costly to any other countries that are contemplating an exit."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "France", "references": ["France"]},
+      "entity2": {"entity": "Germany", "references": ["Germany"]},
+      "justifications": ["the major (France and Germany) EU members will want to send a strong message that it will be costly to any other countries that are contemplating an exit."],
+      "attitude": "Neutral"
+    }
+  ]
+}

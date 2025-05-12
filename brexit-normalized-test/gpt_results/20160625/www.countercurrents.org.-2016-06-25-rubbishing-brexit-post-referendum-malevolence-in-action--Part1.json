@@ -1,0 +1,71 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Sadiq Khan", "references": ["London's Mayor Sadiq Khan"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "Khan could only speak about the hope that financiers and companies would still see London as the premier venue, showing his own, rather atrophied version of the British citizen in action."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": { "entity": "Lord Mandelson", "references": ["former Blair minister and Labour Peer Lord Mandelson"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "A cumulative loss of investment, a contraction, a different set of trading relationships with Europe and the rest of the world; that was former Blair minister and Labour Peer Lord Mandelson's dark prediction in a nutshell."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Tim Farron", "references": ["leader of the Liberal Democrats, Tim Farron"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": [
+        "The leader of the Liberal Democrats, Tim Farron, despite the clear vote for Brexit, decided to ignore the gut and instinct of the pro-leave voter, feeling, instead, that more brain might have been utilised."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Sadiq Khan", "references": ["London's Mayor Sadiq Khan"] },
+      "entity2": { "entity": "Brexiteers", "references": ["Brexiteers"] },
+      "justifications": [
+        "The marketeers were thereby marshalled against the Brexiteers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Lord Mandelson", "references": ["former Blair minister and Labour Peer Lord Mandelson"] },
+      "entity2": { "entity": "Brexiteers", "references": ["Brexiteers"] },
+      "justifications": [
+        "At least Mandelson resisted taking his fist to the leave votes, noting instead an anger in the population against the governing classes."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tim Farron", "references": ["leader of the Liberal Democrats, Tim Farron"] },
+      "entity2": { "entity": "Brexiteers", "references": ["Brexiteers"] },
+      "justifications": [
+        "He does his own bit of rubbishing of the Brexit voter, suggesting that those on the continent and beyond who praised the vote should be a very good reason to rubbish it."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Nigel Farage", "references": ["The UKIP leader, Nigel Farage"] },
+      "entity2": { "entity": "Tim Farron", "references": ["Tim Farron"] },
+      "justifications": [
+        "The UKIP leader, Nigel Farage is, in contrast, ethereally daft, a tin pot Braveheart wrapped in the flag."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Tim Farron", "references": ["leader of the Liberal Democrats, Tim Farron"] },
+      "entity2": { "entity": "Mirror readers", "references": ["Mirror readers"] },
+      "justifications": [
+        "For Farron, the Mirror reader's demographic is fundamentally materialist, a coda for middle class Britain."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

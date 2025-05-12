@@ -1,0 +1,64 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "Saeed, said, 'you might not realise it now, but all these changes are taking place due to Jihad'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "target": {"topic": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "Saeed termed Brexit as the beginning of the end of mighty Europe.",
+        "Saeed also went a step ahead and predicted the fall of European Union in next few years."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "target": {"topic": "Western civilisation", "references": ["western civilisation"]},
+      "justifications": [
+        "Saeed said, 'time is not far when the entire western civilisation would fall.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "entity2": {"entity": "India", "references": ["India"]},
+      "justifications": [
+        "Saeed continues to deliver hate speeches against India and calling youngsters in Pakistan to join jihad against the enemies."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "entity2": {"entity": "United States", "references": ["USA"]},
+      "justifications": [
+        "Saeed held Britain responsible for USA lead actions and said, 'USA is just the hand behind the global policy, the real hand is of UK, and now they are facing the wrath of God.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "entity2": {"entity": "United Kingdom", "references": ["UK", "Britain"]},
+      "justifications": [
+        "Saeed held Britain responsible for USA lead actions and said, 'USA is just the hand behind the global policy, the real hand is of UK, and now they are facing the wrath of God.'",
+        "Saeed termed Brexit as the beginning of the end of mighty Europe."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hafiz Saeed", "references": ["Hafiz Saeed"]},
+      "entity2": {"entity": "Pakistan", "references": ["Pakistan"]},
+      "justifications": [
+        "Despite being labelled as an international terrorist and having an Interpol notice, Hafiz Saeed continues to enjoy a VIP treatment by Pakistani police."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "target": { "topic": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Broun worries, may be the society of the future.", "The Brexit is the kind of trigger that down the road can lead to the horror of a Night of the Animals world."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "target": { "topic": "social and economic inequality", "references": ["social and economic inequality"] },
+      "justifications": ["The world Broun imagines in his extraordinary debut is plagued by social and economic inequality."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "target": { "topic": "class divisions", "references": ["class divisions"] },
+      "justifications": ["Broun imagines a world plagued by social and economic inequality.", "People classified as 'indigent' are kept away from the so-called 'new aristocracy' by the Red Watch."],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "target": { "topic": "NHS", "references": ["NHS"] },
+      "justifications": ["In this nightmarish neoliberal dystopia, access to the NHS is granted according to class.", "Cuthbert, an indigent, mentally ill drug addict, interacts with the NHS's sinister 'psychotherapeutic division'."],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit"] },
+      "justifications": ["Broun worries, may be the society of the future.", "The Brexit is the kind of trigger that down the road can lead to the horror of a Night of the Animals world."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "Prince Harry", "references": ["Prince Harry"] },
+      "justifications": ["In Night of the Animals, a British surveillance state is led by an alternate-universe Prince Harry."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "the monarchy", "references": ["monarchy"] },
+      "justifications": ["In Night of the Animals, a British surveillance state is led by an alternate-universe Prince Harry. He has broken the electoral system, elevated the monarchy."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "middle class", "references": ["middle class"] },
+      "justifications": ["The middle class has been subdued with 'chocolate and lager'."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "British welfare state", "references": ["Britain's welfare state"] },
+      "justifications": ["Britain's welfare state has disappeared under the 'Barenotecy Alimentation Act of 2025 and Positive Disenfranchisement Act of 2028.'"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "Cuthbert", "references": ["Cuthbert"] },
+      "justifications": ["The novel's main character, Cuthbert, is an indigent, mentally ill drug addict."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Bill Broun", "references": ["Bill Broun"] },
+      "entity2": { "entity": "Dr. Bajwa", "references": ["Dr Bajwa"] },
+      "justifications": ["Cuthbert perambulates London from his grim little council flat to the offices of his physician Dr Bajwa, a harried, kindly man who just wants to keep Cuthbert out of the clutches of Equipoise."],
+      "attitude": "Positive"
+    }
+  ]
+}

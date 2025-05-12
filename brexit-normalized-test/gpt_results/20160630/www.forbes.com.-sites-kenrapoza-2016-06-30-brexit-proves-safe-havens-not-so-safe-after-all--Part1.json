@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Jan Dehn", "references": ["Jan Dehn"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "A couple weeks ago, Dehn told me in an informal conversation that the U.K. referendum would result in it staying with the European Union. Instead, it resulted in a 'Brexit' and the resulting market turmoil has shown once again that despite being the world's safe haven, the core economies have rattled the world since the Great Recession of 2008."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Jan Dehn", "references": ["Jan Dehn"]},
+      "target": {"topic": "Developed Markets", "references": ["developed markets"]},
+      "justifications": [
+        "'Investors should accept the facts and reduce their remaining exposure to developed markets,' Dehn said."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "International Monetary Fund (IMF)", "references": ["The IMF"]},
+      "target": {"topic": "U.S. Growth", "references": ["U.S. growth"]},
+      "justifications": [
+        "The International Monetary Fund cut its forecast for U.S. growth recently to 2.2% this year, down from 2.4% in its April 2016 World Economic Outlook."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Vladimir Signorelli", "references": ["Vladimir Signorelli"]},
+      "target": {"topic": "Brexit", "references": ["Brexit"]},
+      "justifications": [
+        "'Unfortunately, hopes that Brexit might shock Berlin & the E.U. into better policy making have been dealt a serious blow by recent pronouncements.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Vladimir Signorelli", "references": ["Vladimir Signorelli"]},
+      "target": {"topic": "EU Policy", "references": ["policies of open immigration and economic austerity"]},
+      "justifications": [
+        "'Nowhere do we find a strong call for the E.U. to rethink the policies of open immigration and economic austerity - the twin engines that arguably drove Brexit to victory.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Vladimir Signorelli", "references": ["Vladimir Signorelli"]},
+      "target": {"topic": "U.S. Leadership", "references": ["U.S. leadership"]},
+      "justifications": [
+        "'And because President Obama supported both modes, there are no helpful voices from the U.S. leadership to encourage a more productive response to last week's referendum.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Jan Dehn", "references": ["Jan Dehn"]},
+      "entity2": {"entity": "International Monetary Fund (IMF)", "references": ["The IMF"]},
+      "justifications": [
+        "The International Monetary Fund cut its forecast for U.S. growth recently to 2.2% this year, down from 2.4% in its April 2016 World Economic Outlook."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "Vladimir Signorelli", "references": ["Vladimir Signorelli"]},
+      "entity2": {"entity": "European Union", "references": ["the E.U."]},
+      "justifications": [
+        "'Unfortunately, hopes that Brexit might shock Berlin & the E.U. into better policy making have been dealt a serious blow by recent pronouncements.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Vladimir Signorelli", "references": ["Vladimir Signorelli"]},
+      "entity2": {"entity": "President Obama", "references": ["President Obama"]},
+      "justifications": [
+        "'And because President Obama supported both modes, there are no helpful voices from the U.S. leadership to encourage a more productive response to last week's referendum.'"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

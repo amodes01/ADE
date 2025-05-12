@@ -1,0 +1,76 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "John Kerry",
+        "references": ["John Kerry"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["UK's historic referendum", "decision by British voters to leave the 28-nation bloc"]
+      },
+      "justifications": [
+        "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "John Kerry",
+        "references": ["John Kerry"]
+      },
+      "target": {
+        "topic": "European unity",
+        "references": ["fears about crumbling European unity"]
+      },
+      "justifications": [
+        "He emphasised the importance of thoughtful cooperation at a time of economic uncertainty and fears about crumbling European unity."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": ["John Kerry"]
+      },
+      "entity2": {
+        "entity": "Britain",
+        "references": ["Britain"]
+      },
+      "justifications": [
+        "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": ["John Kerry"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "US Secretary of State John Kerry has urged Britain and the European Union to manage their divorce responsibly for the sake of global markets and citizens"
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "John Kerry",
+        "references": ["John Kerry"]
+      },
+      "entity2": {
+        "entity": "European Union",
+        "references": ["European Union"]
+      },
+      "justifications": [
+        "He emphasised the importance of thoughtful cooperation at a time of economic uncertainty and fears about crumbling European unity."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

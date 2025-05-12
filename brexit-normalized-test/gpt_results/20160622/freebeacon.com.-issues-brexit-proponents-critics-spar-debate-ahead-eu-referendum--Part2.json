@@ -1,0 +1,72 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Obama", "references": ["Obama"]},
+      "target": {"topic": "Brexit", "references": ["leaving the EU"]},
+      "justifications": ["Obama warning Britain against leaving the EU in April"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Davidson", "references": ["Davidson"]},
+      "target": {"topic": "Brexit", "references": ["leaving the EU"]},
+      "justifications": ["We go to the back of the queue. That's not what we said… that's what Obama said,"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Chris Grayling", "references": ["Chris Grayling"]},
+      "target": {"topic": "Obama's involvement in Brexit debate", "references": ["Obama of playing politics"]},
+      "justifications": ["Chris Grayling, the leader of the British House of Commons, accused Obama of playing politics during remarks on Capitol Hill last month"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Johnson", "references": ["Johnson"]},
+      "target": {"topic": "EU", "references": ["deeply anti-democratic union"]},
+      "justifications": ["Johnson has also lambasted Obama for advocating for Britain to remain in a 'deeply anti-democratic' union"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Rep. Mac Thornberry", "references": ["Rep. Mac Thornberry"]},
+      "target": {"topic": "Obama's involvement in Brexit debate", "references": ["pleading him to remain neutral"]},
+      "justifications": ["A dozen members of the House and Senate, including Rep. Mac Thornberry (R., Texas) and Sen. Ted Cruz (R., Texas), have written Obama in recent days, pleading him to remain neutral in the days ahead of the referendum"],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Sen. Ted Cruz", "references": ["Sen. Ted Cruz"]},
+      "target": {"topic": "Obama's involvement in Brexit debate", "references": ["pleading him to remain neutral"]},
+      "justifications": ["A dozen members of the House and Senate, including Rep. Mac Thornberry (R., Texas) and Sen. Ted Cruz (R., Texas), have written Obama in recent days, pleading him to remain neutral in the days ahead of the referendum"],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Davidson", "references": ["Davidson"]},
+      "justifications": ["Obama warning Britain against leaving the EU in April", "We go to the back of the queue. That's not what we said… that's what Obama said,"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Chris Grayling", "references": ["Chris Grayling"]},
+      "justifications": ["Chris Grayling, the leader of the British House of Commons, accused Obama of playing politics during remarks on Capitol Hill last month"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Johnson", "references": ["Johnson"]},
+      "justifications": ["Johnson has also lambasted Obama for advocating for Britain to remain in a 'deeply anti-democratic' union"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Rep. Mac Thornberry", "references": ["Rep. Mac Thornberry"]},
+      "justifications": ["A dozen members of the House and Senate, including Rep. Mac Thornberry (R., Texas) and Sen. Ted Cruz (R., Texas), have written Obama in recent days, pleading him to remain neutral in the days ahead of the referendum"],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Obama", "references": ["Obama"]},
+      "entity2": {"entity": "Sen. Ted Cruz", "references": ["Sen. Ted Cruz"]},
+      "justifications": ["A dozen members of the House and Senate, including Rep. Mac Thornberry (R., Texas) and Sen. Ted Cruz (R., Texas), have written Obama in recent days, pleading him to remain neutral in the days ahead of the referendum"],
+      "attitude": "Negative"
+    }
+  ]
+}

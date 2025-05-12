@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "New Zealand",
+        "references": [
+          "New Zealand"
+        ]
+      },
+      "target": {
+        "topic": "trade agreement with the UK",
+        "references": [
+          "bilateral trade agreement"
+        ]
+      },
+      "justifications": [
+        "Wellington's olive branch came alongside an offer to discuss a trade agreement with the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "United Kingdom",
+        "references": [
+          "United Kingdom out of the European Union",
+          "London"
+        ]
+      },
+      "target": {
+        "topic": "trade agreement with New Zealand",
+        "references": [
+          "bilateral trade agreement"
+        ]
+      },
+      "justifications": [
+        "Wellington's olive branch came alongside an offer to discuss a trade agreement with the UK."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "New Zealand",
+        "references": [
+          "New Zealand"
+        ]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": [
+          "the case for Brexit"
+        ]
+      },
+      "justifications": [
+        "which would help Britain get out of the starting blocks and begin replacing the trade access lost as a result of the Brexit vote."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "New Zealand",
+        "references": [
+          "New Zealand"
+        ]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": [
+          "United Kingdom out of the European Union",
+          "London"
+        ]
+      },
+      "justifications": [
+        "New Zealand has offered its top trade negotiators to the United Kingdom, relieving the British civil service"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

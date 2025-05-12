@@ -1,0 +1,78 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Idaho Cattle Association", "references": ["Idaho Cattle Association"]},
+      "target": {"topic": "UK's departure from the European Union", "references": ["U.K.'s departure from the European Union"]},
+      "justifications": [
+        "Leaders at the Idaho Cattle Association say the UK's departure from the European Union has sent shock waves through the beef industry."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Idaho Cattle Association", "references": ["Idaho Cattle Association"]},
+      "target": {"topic": "new trade opportunities with the UK post-Brexit", "references": ["This exit of the U.K. from the European Union may give us some opportunity to get into those countries we have not had a relationship with"]},
+      "justifications": [
+        "This exit of the U.K. from the European Union may give us some opportunity to get into those countries we have not had a relationship with"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tucker Shaw", "references": ["Tucker Shaw"]},
+      "target": {"topic": "UK's departure from the European Union", "references": ["the U.K. leaving the E.U"]},
+      "justifications": [
+        "But with the U.K. leaving the E.U and other European countries thinking of following suit, those restrictions may be lifted."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Tucker Shaw", "references": ["Tucker Shaw"]},
+      "target": {"topic": "UK beef import restrictions", "references": ["stricter beef standards"]},
+      "justifications": [
+        "The major reason, stricter beef standards."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Idaho Cattle Association", "references": ["Idaho Cattle Association"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "We have been in negotiations and talking with the European Union through what we call 'T-TIP' negotiations those have been taken completely off the table after the U.K. left the European union."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Idaho Cattle Association", "references": ["Idaho Cattle Association"]},
+      "entity2": {"entity": "UK", "references": ["U.K."]},
+      "justifications": [
+        "Leaders at the Idaho Cattle Association say the UK's departure from the European Union has sent shock waves through the beef industry."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Idaho Cattle Association", "references": ["Idaho Cattle Association"]},
+      "entity2": {"entity": "UK", "references": ["U.K."]},
+      "justifications": [
+        "This exit of the U.K. from the European Union may give us some opportunity to get into those countries we have not had a relationship with."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Tucker Shaw", "references": ["Tucker Shaw"]},
+      "entity2": {"entity": "UK", "references": ["U.K."]},
+      "justifications": [
+        "But with the U.K. leaving the E.U and other European countries thinking of following suit, those restrictions may be lifted."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Tucker Shaw", "references": ["Tucker Shaw"]},
+      "entity2": {"entity": "European Union", "references": ["European Union"]},
+      "justifications": [
+        "The European Union is a very small part of the united states export market."
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

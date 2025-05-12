@@ -1,0 +1,55 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "immigration to Australia", "references": ["migration to Australia", "immigration to Australia"] },
+      "target": { "topic": "Brexit", "references": ["Brexit decision", "Leave"] },
+      "justifications": ["While uncertainty lingers over the UK's future following the historic Brexit decision, more and more British people are looking as far afield as Australia in search of a better life.", "According to Google Analytics data, the number of times people looked for migration to Australia soared in the lead up to the referendum."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "immigration to Australia", "references": ["migration to Australia", "immigration to Australia"] },
+      "target": { "topic": "UK economy", "references": ["economy", "economic turmoil"] },
+      "justifications": ["Professor Withers said British nationals were still eligible to apply to migrate to Australia despite the Brexit decision and would enhance Australia's economy.", "The Brits have traditionally settled well here and in uncertain times a steady flow of immigrants would keep the economy growing."],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "Brexit", "references": ["Brexit decision", "Leave"] },
+      "target": { "topic": "UK migration policy", "references": ["migration policy"] },
+      "justifications": ["Currently the UK's migration policy discriminates against skilled workers from outside the EU including places like Australia."],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Professor Glenn Withers", "references": ["Professor Glenn Withers"] },
+      "entity2": { "entity": "UK", "references": ["the UK"] },
+      "justifications": ["Professor Withers said British nationals were still eligible to apply to migrate to Australia despite the Brexit decision and would enhance Australia's economy."],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": { "entity": "Professor Glenn Withers", "references": ["Professor Glenn Withers"] },
+      "entity2": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "justifications": ["It would be an ironic swipe to Boris Johnson who wants to take back control of our borders if people left the UK for Australia and also after he campaigned that he wanted to make it easier for non-EU migrants to study and work in the UK if it left the EU."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "UK", "references": ["the UK"] },
+      "justifications": ["It would be an ironic swipe to Boris Johnson who wants to take back control of our borders if people left the UK for Australia."],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": { "entity": "Boris Johnson", "references": ["Boris Johnson"] },
+      "entity2": { "entity": "non-EU migrants", "references": ["non-EU migrants"] },
+      "justifications": ["He campaigned that he wanted to make it easier for non-EU migrants to study and work in the UK if it left the EU."],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "right-wing groups in France, Italy, the Netherlands and Denmark", "references": ["right-wing groups in France", "right-wing groups in Italy", "right-wing groups in the Netherlands", "right-wing groups in Denmark"] },
+      "entity2": { "entity": "Brexit", "references": ["Brexit", "referendums"] },
+      "justifications": ["Since the seismic turn of events this week there have been calls for referendums by right-wing groups in France, Italy, the Netherlands and Denmark."],
+      "attitude": "Positive"
+    }
+  ]
+}

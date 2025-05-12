@@ -1,0 +1,244 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "France",
+        "references": ["France"]
+      },
+      "target": {
+        "topic": "threat posed by Russia",
+        "references": ["threat posed by Russia"]
+      },
+      "justifications": [
+        "France, for instance, is more concerned about terrorism in the wake of the attacks in Paris in November of 2015 than the threat posed by Russia"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "target": {
+        "topic": "threat posed by Russia",
+        "references": ["threat posed by Russia"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "target": {
+        "topic": "threat posed by Russia",
+        "references": ["threat posed by Russia"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "target": {
+        "topic": "crisis of Daesh",
+        "references": ["crisis of Daesh"]
+      },
+      "justifications": [
+        "\"And you cannot ask the Baltic States or Poland to be as involved as we are in the south to face the crisis of Daesh\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "target": {
+        "topic": "crisis of Daesh",
+        "references": ["crisis of Daesh"]
+      },
+      "justifications": [
+        "\"And you cannot ask the Baltic States or Poland to be as involved as we are in the south to face the crisis of Daesh\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "target": {
+        "topic": "unity of purpose",
+        "references": ["unity of purpose"]
+      },
+      "justifications": [
+        "\"but that does not mean that we do not share a sense of unity of purpose.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "target": {
+        "topic": "political aspect of the Alliance",
+        "references": ["political aspect of the Alliance"]
+      },
+      "justifications": [
+        "\"Maybe more important than the military aspect of the Alliance is the political aspect of the Alliance.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "US-led coalition",
+        "references": ["US-led coalition"]
+      },
+      "target": {
+        "topic": "effort against ISIS",
+        "references": ["effort against ISIS"]
+      },
+      "justifications": [
+        "At Warsaw, NATO leaders will look for ways in which the Alliance can supplement, not supplant, the US-led coalition's effort against ISIS"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "target": {
+        "topic": "contain the migrant crisis",
+        "references": ["contain the migrant crisis"]
+      },
+      "justifications": [
+        "NATO leaders will look for ways in which the Alliance can supplement, not supplant, the US-led coalition's effort against ISIS and the EU's attempts to contain the migrant crisis"
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "France",
+        "references": ["France"]
+      },
+      "entity2": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "France",
+        "references": ["France"]
+      },
+      "entity2": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "entity2": {
+        "entity": "France",
+        "references": ["France"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "entity2": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "justifications": [
+        "\"You cannot expect France to share the same sense of urgency when it comes to Russia [as] Poland or the Baltic States\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "entity2": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "justifications": [
+        "\"And you cannot ask the Baltic States or Poland to be as involved as we are in the south to face the crisis of Daesh\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "entity2": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "justifications": [
+        "\"And you cannot ask the Baltic States or Poland to be as involved as we are in the south to face the crisis of Daesh\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "entity2": {
+        "entity": "Poland",
+        "references": ["Poland"]
+      },
+      "justifications": [
+        "\"but that does not mean that we do not share a sense of unity of purpose.\""
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "NATO",
+        "references": ["NATO"]
+      },
+      "entity2": {
+        "entity": "Baltic States",
+        "references": ["Baltic States"]
+      },
+      "justifications": [
+        "\"but that does not mean that we do not share a sense of unity of purpose.\""
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Philip Morris International", "references": ["Philip Morris International"]},
+      "target": {"topic": "Brexit", "references": ["Brexit situation"]},
+      "justifications": [
+        "Until the Brexit situation gets clearer, investors in Philip Morris need to be prepared for continued volatility in the company's share price."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Philip Morris International", "references": ["Philip Morris International"]},
+      "entity2": {"entity": "Brexit", "references": ["Brexit situation"]},
+      "justifications": [
+        "Until the Brexit situation gets clearer, investors in Philip Morris need to be prepared for continued volatility in the company's share price."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "The Motley Fool", "references": ["The Motley Fool"]},
+      "entity2": {"entity": "Dan Caplinger", "references": ["Dan Caplinger"]},
+      "justifications": [
+        "Dan Caplinger has no position in any stocks mentioned.",
+        "The Motley Fool has no position in any of the stocks mentioned."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {"entity": "The Motley Fool", "references": ["The Motley Fool"]},
+      "entity2": {"entity": "The Motley Fool", "references": ["The Motley Fool"]},
+      "justifications": [
+        "We Fools may not all hold the same opinions, but we all believe that considering a diverse range of insights makes us better investors."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

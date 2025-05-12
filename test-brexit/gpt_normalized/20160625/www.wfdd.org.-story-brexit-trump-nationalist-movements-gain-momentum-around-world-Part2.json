@@ -1,0 +1,157 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Donald J. Trump"
+        ]
+      },
+      "target": {
+        "topic": "Muslim immigration",
+        "references": [
+          "proposed ban on an entire religion",
+          "Muslim communities",
+          "Islamic migration"
+        ]
+      },
+      "justifications": [
+        "He called for an across-the-board halt of all Muslims entering the country, warning they carried the risk of additional terror attacks.",
+        "Trump even blamed 'Muslim communities,' en masse, for failing to tip off authorities about both the Orlando and San Bernardino attacks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Marine Le Pen",
+        "references": [
+          "Marine Le Pen's National Front"
+        ]
+      },
+      "target": {
+        "topic": "Muslim immigration",
+        "references": [
+          "stop accepting this influx of immigrants",
+          "Islamic migration"
+        ]
+      },
+      "justifications": [
+        "She told NPR that France needed 'to institute a major policy, which would reestablish our own borders. This means we need to stop accepting this influx of immigrants.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": [
+          "Donald J. Trump"
+        ]
+      },
+      "target": {
+        "topic": "Syrian refugees",
+        "references": [
+          "the continued flow of Syrian refugees into Europe",
+          "the continued flow of Syrian refugees into Europe"
+        ]
+      },
+      "justifications": [
+        "Trump blamed 'Muslim communities,' en masse, for failing to tip off authorities about both the Orlando and San Bernardino attacks."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Marine Le Pen",
+        "references": [
+          "Marine Le Pen's National Front"
+        ]
+      },
+      "target": {
+        "topic": "Syrian refugees",
+        "references": [
+          "the continued flow of Syrian refugees into Europe",
+          "the continued flow of Syrian refugees into Europe"
+        ]
+      },
+      "justifications": [
+        "She called the continued flow of Syrian refugees into Europe 'madness' and urged for an end to the open-border policy."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Viktor Orban",
+        "references": [
+          "Viktor Orbán"
+        ]
+      },
+      "target": {
+        "topic": "migration",
+        "references": [
+          "wall",
+          "the continued flow of Syrian refugees into Europe"
+        ]
+      },
+      "justifications": [
+        "He went ahead and built a wall of his own last year in an attempt to stem the flow of migrants from Syria."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Brexit vote",
+        "references": [
+          "Brexit referendum vote"
+        ]
+      },
+      "target": {
+        "topic": "globalization",
+        "references": [
+          "economic globalisation"
+        ]
+      },
+      "justifications": [
+        "The Brexit vote triggered market turmoil around the world, which may be indicative of attempts to stop globalization."
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Donald J. Trump"
+        ]
+      },
+      "entity2": {
+        "entity": "Marine Le Pen",
+        "references": [
+          "Marine Le Pen's National Front"
+        ]
+      },
+      "justifications": [
+        "The idea of nativism - of seeing your country under threat by non-natives, specifically immigrants and Muslims, is something that Marine Le Pen and Donald Trump clearly share."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": [
+          "Donald J. Trump"
+        ]
+      },
+      "entity2": {
+        "entity": "Viktor Orban",
+        "references": [
+          "Viktor Orbán"
+        ]
+      },
+      "justifications": [
+        "He went ahead and built a wall of his own last year in an attempt to stem the flow of migrants from Syria."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

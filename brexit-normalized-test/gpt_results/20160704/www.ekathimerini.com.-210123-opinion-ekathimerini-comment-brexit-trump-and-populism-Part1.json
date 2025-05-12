@@ -1,0 +1,80 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "globalization", "references": ["globalization"]},
+      "justifications": [
+        "many Americans are just as hostile toward globalization"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "immigration", "references": ["immigration"]},
+      "justifications": [
+        "white working-class voters anxious over immigration"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "electoral college", "references": ["electoral college"]},
+      "justifications": [
+        "the electoral college system used in the United States extends her advantage further"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "target": {"topic": "campaign finance", "references": ["nine times more money than Trump"]},
+      "justifications": [
+        "she has raised about nine times more money than Trump"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "target": {"topic": "campaign finance", "references": ["reluctant to spend much of his own money"]},
+      "justifications": [
+        "Trump... reluctant to spend much of his own money on an election he's unlikely to win"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "justifications": [
+        "Trump faces an uphill fight",
+        "Clinton has other formidable advantages"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Republicans", "references": ["Republican officials"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "Republican officials are openly skeptical that Trump is capable of lifting his game"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {"entity": "Hillary Clinton", "references": ["Hillary Clinton"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "Hillary Clinton's Democrats have won the popular vote in five of the last six presidential elections"
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {"entity": "Donald Trump", "references": ["Donald Trump"]},
+      "entity2": {"entity": "Donald Trump", "references": ["Trump"]},
+      "justifications": [
+        "Trump is an imperfect messenger in a hundred different ways"
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

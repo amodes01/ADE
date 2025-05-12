@@ -1,0 +1,59 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "topic": "drought", "references": ["drought", "drought-related fire hazard", "fire season", "drought is the most important reason"] },
+      "target": { "topic": "wildfires", "references": ["wildfires", "fire risk", "fire season"] },
+      "justifications": [
+        "The drought is the most important reason that fire season is growing each year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "topic": "drought", "references": ["drought", "drought-related fire hazard", "fire season", "drought is the most important reason"] },
+      "target": { "topic": "forest management", "references": ["forest lands management", "poor forest lands management"] },
+      "justifications": [
+        "In our mountains, poor forest lands management in our urban forest communities, such as Big Bear, Running Springs and Lake Arrowhead (building foundations within drip lines or right up to the trunks, trees growing through decks, paving over treed areas, etc.), has weakened trees and caused an exacerbation of bark beetle populations."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "automakers", "references": ["automakers", "global corporations", "automakers are aware of product defects"] },
+      "target": { "topic": "product defect awareness", "references": ["product defects", "alert consumers only after injuries mount", "lack of urgency", "tragic accident"] },
+      "justifications": [
+        "What we see over and over again in these situations is that automakers are aware of product defects, but they alert consumers only after injuries mount and regulators finally step in to force a recall.",
+        "Once recalls are issued, these global corporations show a shameful lack of urgency in making sure vehicle owners are aware of the dangers."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": { "topic": "regulators", "references": ["regulators", "regulators say", "investigators"] },
+      "target": { "topic": "recalls", "references": ["recall", "recalls are issued", "regulators finally step in"] },
+      "justifications": [
+        "Automakers need to show more urgency when dangerous defects become apparent.",
+        "Once recalls are issued, these global corporations show a shameful lack of urgency in making sure vehicle owners are aware of the dangers.",
+        "regulators finally step in to force a recall."
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "Timothy Krantz", "references": ["Timothy Krantz", "Professor, Environmental Studies", "University of Redlands"] },
+      "entity2": { "entity": "Wendy McIntyre", "references": ["Wendy McIntyre", "Professor, Environmental Studies", "University of Redlands"] },
+      "justifications": [
+        "One has a situation where the past decade of average or below-average precipitation has resulted in a cumulative fire risk.",
+        "The drought is the most important reason that fire season is growing each year."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": { "entity": "Beth Kennedy", "references": ["Beth Kennedy", "Director of DeafBlind Central", "Central Michigan University"] },
+      "entity2": { "entity": "DeafBlind Central", "references": ["DeafBlind Central", "CMU"] },
+      "justifications": [
+        "Beth Kennedy developed CMU's new online Deafblind Intervener Certificate Program.",
+        "She is available to discuss deafblindness, working with deafblind children and the training of deafblind interveners."
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

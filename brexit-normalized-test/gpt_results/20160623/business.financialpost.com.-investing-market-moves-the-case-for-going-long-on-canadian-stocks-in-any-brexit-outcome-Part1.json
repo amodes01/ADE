@@ -1,0 +1,30 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {"entity": "Steve Belisle", "references": ["Steve Belisle"]},
+      "target": {"topic": "Brexit outcome", "references": ["Brexit outcome"]},
+      "justifications": [
+        "\"There is more downside if there is a leave at this point than upside in a remain scenario,\" Belisle said in a phone interview Wednesday from Montreal."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {"entity": "Steve Belisle", "references": ["Steve Belisle"]},
+      "target": {"topic": "Brexit outcome", "references": ["Brexit outcome"]},
+      "justifications": [
+        "\"If there is a remain, we will probably buy but to a lesser extent.\""
+      ],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {"entity": "Steve Belisle", "references": ["Steve Belisle"]},
+      "entity2": {"entity": "Manulife Asset Management", "references": ["Manulife Asset Management"]},
+      "justifications": [
+        "His team manages about $3 billion. Parent Manulife Asset Management oversees about US$325 billion."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

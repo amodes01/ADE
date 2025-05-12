@@ -1,0 +1,96 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "target": {
+        "topic": "US missile defence system in South Korea",
+        "references": [
+          "US deployment of an advanced missile defence system in South Korea"
+        ]
+      },
+      "justifications": [
+        "Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "China",
+        "references": [
+          "Iran"
+        ]
+      },
+      "target": {
+        "topic": "US missile defence system in South Korea",
+        "references": [
+          "US deployment of an advanced missile defence system in South Korea"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "Russia warned Friday that the US deployment of an advanced missile defence system in South Korea would have 'irreparable consequences'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "China",
+        "references": [
+          "Iran"
+        ]
+      },
+      "entity2": {
+        "entity": "US",
+        "references": [
+          "United States of Europe"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Russia",
+        "references": [
+          "meeting with Russia"
+        ]
+      },
+      "entity2": {
+        "entity": "China",
+        "references": [
+          "Iran"
+        ]
+      },
+      "justifications": [
+        "echoing warnings by China"
+      ],
+      "attitude": "Positive"
+    }
+  ]
+}

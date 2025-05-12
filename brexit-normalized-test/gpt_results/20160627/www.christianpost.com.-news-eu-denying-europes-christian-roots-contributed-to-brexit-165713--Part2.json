@@ -1,0 +1,174 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit"]
+      },
+      "justifications": [
+        "Jonathan and I believe the UK vote is a wake-up call for Britain and its leaders, as well as the United States."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "target": {
+        "topic": "European Union",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Jonathan and I, though disagreeing about the current vote, concur that Brexit contained important lessons."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "target": {
+        "topic": "Christian Civilization",
+        "references": ["Christian Civilization"]
+      },
+      "justifications": [
+        "Churchill saw the Second World War as being for the survival of 'Christian Civilization,' a term he used repeatedly. One doubts he would be excited about the rabid secularism of the current EU and its abandonment of 'Christian Civilization.'"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Obama",
+        "references": ["Obama"]
+      },
+      "target": {
+        "topic": "foreign policy",
+        "references": ["Obama foreign policy"]
+      },
+      "justifications": [
+        "He is concerned for Britain's security in a world where Obama foreign policy has shredded overseas confidence in a friendship with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "target": {
+        "topic": "foreign policy",
+        "references": ["Hillary Clinton's foreign policy flaws"]
+      },
+      "justifications": [
+        "Hillary Clinton's foreign policy flaws, from the casual handling of secrets essential to national security, to failure to grasp what is really going on in certain situations, are painfully obvious right now."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "global issues",
+        "references": ["Donald Trump's undeveloped, unproven, and vague, sometimes even confused, understanding of global issues"]
+      },
+      "justifications": [
+        "And what of Donald Trump's undeveloped, unproven, and vague, sometimes even confused, understanding of global issues?"
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Naïveté about the world and disregard for its member states are the jagged edges of the iceberg sinking the EU 'Titanic.'"
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "entity2": {
+        "entity": "Churchill",
+        "references": ["Churchill"]
+      },
+      "justifications": [
+        "My great-grandfather would have voted 'Remain,' thinks Jonathan."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "entity2": {
+        "entity": "Obama",
+        "references": ["Obama"]
+      },
+      "justifications": [
+        "He is concerned for Britain's security in a world where Obama foreign policy has shredded overseas confidence in a friendship with the United States."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "entity2": {
+        "entity": "EU",
+        "references": ["EU"]
+      },
+      "justifications": [
+        "Jonathan and I, though disagreeing about the current vote, concur that Brexit contained important lessons."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "entity2": {
+        "entity": "Hillary Clinton",
+        "references": ["Hillary Clinton"]
+      },
+      "justifications": [
+        "Hillary Clinton's foreign policy flaws, from the casual handling of secrets essential to national security, to failure to grasp what is really going on in certain situations, are painfully obvious right now."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Jonathan",
+        "references": ["Jonathan"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "Jonathan and I believe the UK vote is a wake-up call for Britain and its leaders, as well as the United States."
+      ],
+      "attitude": "Neutral"
+    }
+  ]
+}

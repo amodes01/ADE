@@ -1,0 +1,230 @@
+{
+  "topical_attitudes": [
+    {
+      "source": {
+        "entity": "James Bloodworth",
+        "references": ["James Bloodworth"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "Bloodworth explains: \"Hostility to immigration - and by extension hostility to Europe - is driven by cultural concerns as much as by economic worries.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "University of Oxford's Migration Observatory",
+        "references": ["University of Oxford's Migration Observatory"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigration"]
+      },
+      "justifications": [
+        "It has pointed out on a number of occasions that cultural concerns better explain negative attitudes towards migration than a person's economic position."
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "target": {
+        "topic": "Leave movement",
+        "references": ["Leave"]
+      },
+      "justifications": [
+        "\"It is dishonourable to suggest, as many have, that Leavers are all racists and bigots: they are not and it is shameful to suggest that they are.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["immigrants"]
+      },
+      "justifications": [
+        "\"...writes about the danger of painting immigrants as monsters and villains: \\\"Leave has been busy threatening us with another monster: a tsunami of faceless foreigners heading for our shores, among them rapists and terrorists.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "Sadiq Khan",
+        "references": ["Sadiq Khan"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["EU residents"]
+      },
+      "justifications": [
+        "Sadiq Khan, the mayor of London, wrote a message on his Facebook page telling EU residents living in London that they are welcome and that the city is grateful for them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "Lauren Hansen",
+        "references": ["Lauren Hansen"]
+      },
+      "target": {
+        "topic": "immigration",
+        "references": ["anti-immigration sentiment"]
+      },
+      "justifications": [
+        "Mayor Khan's comments are especially poignant in this post-Brexit world as the continent's largest city grapples with the tension between an anti-immigration sentiment and the diversity that makes London, and cities like it, thrive both economically and culturally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "source": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Britain's vote to leave the EU"]
+      },
+      "justifications": [
+        "Trump has publicly supported Britain's vote to leave the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "source": {
+        "entity": "John Cassidy",
+        "references": ["John Cassidy"]
+      },
+      "target": {
+        "topic": "Brexit",
+        "references": ["Brexit movement"]
+      },
+      "justifications": [
+        "In an article called \"What Do The Brexit Movement And Donald Trump Have In Common?\" the New Yorker's John Cassidy wrote: \"Certainly, a parallel factor in both men's rise is racism, or, more specifically, nativism.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "source": {
+        "entity": "John Cassidy",
+        "references": ["John Cassidy"]
+      },
+      "target": {
+        "topic": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "In an article called \"What Do The Brexit Movement And Donald Trump Have In Common?\" the New Yorker's John Cassidy wrote: \"Certainly, a parallel factor in both men's rise is racism, or, more specifically, nativism. Trump has presented a nightmarish vision of America overrun by Mexican felons and Muslim terrorists.\""
+      ],
+      "attitude": "Negative"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "entity2": {
+        "entity": "Leave movement",
+        "references": ["Leave"]
+      },
+      "justifications": [
+        "\"It is dishonourable to suggest, as many have, that Leavers are all racists and bigots: they are not and it is shameful to suggest that they are.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "J.K. Rowling",
+        "references": ["J.K. Rowling"]
+      },
+      "entity2": {
+        "entity": "immigrants",
+        "references": ["immigrants"]
+      },
+      "justifications": [
+        "\"...writes about the danger of painting immigrants as monsters and villains: \\\"Leave has been busy threatening us with another monster: a tsunami of faceless foreigners heading for our shores, among them rapists and terrorists.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "James Bloodworth",
+        "references": ["James Bloodworth"]
+      },
+      "entity2": {
+        "entity": "immigrants",
+        "references": ["immigrants"]
+      },
+      "justifications": [
+        "Bloodworth explains: \"Hostility to immigration - and by extension hostility to Europe - is driven by cultural concerns as much as by economic worries.\""
+      ],
+      "attitude": "Negative"
+    },
+    {
+      "entity1": {
+        "entity": "Sadiq Khan",
+        "references": ["Sadiq Khan"]
+      },
+      "entity2": {
+        "entity": "EU residents",
+        "references": ["EU residents"]
+      },
+      "justifications": [
+        "Sadiq Khan, the mayor of London, wrote a message on his Facebook page telling EU residents living in London that they are welcome and that the city is grateful for them."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "Lauren Hansen",
+        "references": ["Lauren Hansen"]
+      },
+      "entity2": {
+        "entity": "Sadiq Khan",
+        "references": ["Mayor Khan"]
+      },
+      "justifications": [
+        "Mayor Khan's comments are especially poignant in this post-Brexit world as the continent's largest city grapples with the tension between an anti-immigration sentiment and the diversity that makes London, and cities like it, thrive both economically and culturally."
+      ],
+      "attitude": "Neutral"
+    },
+    {
+      "entity1": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "entity2": {
+        "entity": "Brexit",
+        "references": ["Britain's vote to leave the EU"]
+      },
+      "justifications": [
+        "Trump has publicly supported Britain's vote to leave the EU."
+      ],
+      "attitude": "Positive"
+    },
+    {
+      "entity1": {
+        "entity": "John Cassidy",
+        "references": ["John Cassidy"]
+      },
+      "entity2": {
+        "entity": "Donald Trump",
+        "references": ["Donald Trump"]
+      },
+      "justifications": [
+        "In an article called \"What Do The Brexit Movement And Donald Trump Have In Common?\" the New Yorker's John Cassidy wrote: \"Certainly, a parallel factor in both men's rise is racism, or, more specifically, nativism. Trump has presented a nightmarish vision of America overrun by Mexican felons and Muslim terrorists.\""
+      ],
+      "attitude": "Negative"
+    }
+  ]
+}

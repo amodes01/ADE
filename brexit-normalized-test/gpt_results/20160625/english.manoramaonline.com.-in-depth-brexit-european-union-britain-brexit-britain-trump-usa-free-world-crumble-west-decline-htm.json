@@ -1,0 +1,24 @@
+{
+  "topical_attitudes": [
+    {
+      "source": { "entity": "unspecified individual", "references": ["He"] },
+      "target": { "topic": "justice", "references": ["justice"] },
+      "justifications": ["He urged the Canadian government to ensure justice"],
+      "attitude": "Positive"
+    },
+    {
+      "source": { "entity": "unspecified individual", "references": ["He"] },
+      "target": { "topic": "rule of law", "references": ["rule of law"] },
+      "justifications": ["He urged the Canadian government to uphold the rule of law"],
+      "attitude": "Positive"
+    }
+  ],
+  "entity_attitudes": [
+    {
+      "entity1": { "entity": "unspecified individual", "references": ["He"] },
+      "entity2": { "entity": "Canadian government", "references": ["Canadian government"] },
+      "justifications": ["He urged the Canadian government to ensure justice and uphold the rule of law"],
+      "attitude": "Positive"
+    }
+  ]
+}
