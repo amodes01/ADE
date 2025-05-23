@@ -74,7 +74,7 @@ def process_folders(base_folder, prompt_file, use_deepseek=False):
 
     all_files = [
         os.path.join(root, file)
-        for root, _, files in os.walk(os.path.join(base_folder, "gpt_split_articles"))
+        for root, _, files in os.walk(os.path.join(base_folder, "article"))
         for file in files if file.endswith(".json")
     ]
 
@@ -115,8 +115,8 @@ if __name__ == "__main__":
     parser.add_argument("--model", choices=["gpt-3.5", "deepseek"], default="gpt-3.5", help="Choose the model to use.")
     args = parser.parse_args()
 
-    base_folder = "./test-musk"
-    prompt_file = "prompt.txt"
+    base_folder = "./Article-Test-Example"
+    prompt_file = "slimmerPrompt.txt"
 
     start_time = time.time()
     process_folders(base_folder, prompt_file, use_deepseek=(args.model == "deepseek"))
