@@ -1,107 +1,69 @@
-Processing completed in 2009.04 seconds
-
-
 {
-  "topical_attitudes": [
-    {
-      "topic": "Brexit Impact on Technology and Science",
-      "justifications": [
-        {
-          "source": "Bill Gates",
-          "attitude": "Negative"
-        },
-        {
-          "source": "Richard Branson",
-          "attitude": "Mixed"
-        },
-        {
-          "source": "Julian Assange",
-          "attitude": "Positive"
-        }
-      ],
-      "attitude": "Positive"
-    },
-    {
-      "topic": "EU Roaming Charges",
-      "justifications": [
-        {
-          "source": "Brookfield's Head of Strategy Rob Hilborn",
-          "attitude": "Negative"
-        },
-        {
-          "source": "Julian Assange",
-          "attitude": "Positive"
-        }
-      ],
-      "attitude": "Neutral"
-    }
-  ],
   "entity_attitudes": [
     {
-      "entity": "Bill Gates",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "Bill Gates",
-          "statement": "Negative about Brexit affecting investment and talent recruitment."
-        }
-      ],
+      "entity1": {
+        "entity": "Bill Gates",
+        "references": ["Bill Gates"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": []
+      },
+      "justifications": ["While ultimately a matter for the British people to decide, it is clear to me that if Britain chooses to be outside of Europe..."],
       "attitude": "Negative"
     },
     {
-      "entity": "Richard Branson",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "Richard Branson",
-          "statement": "Mixed feelings; supports Remain but mentions concerns about funding post-Brexit."
-        }
-      ],
-      "attitude": "Mixed"
+      "entity1": {
+        "entity": "Richard Branson",
+        "references": ["Richard Branson"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": []
+      },
+      "justifications": ["The UK, by comparison, has been less successful... despite backlash against the £130 million agreements leniency."],
+      "attitude": "Negative"
     },
     {
-      "entity": "Sir James Dydon",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "Sir James Dydon",
-          "statement": "Believes the UK can do better economically without EU membership."
-        }
-      ],
+      "entity1": {
+        "entity": "Stephen Hawking",
+        "references": ["Stephen Hawking"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": []
+      },
+      "justifications": ["We now recruit many of our best researchers from continental Europe, including younger ones who have obtained EU grants and have chosen to move with them here."],
       "attitude": "Positive"
     },
     {
-      "entity": "John Caudwell",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "John Caudwell",
-          "statement": "Mixed; supports Remain but notes reliance on EU market for growth."
-        }
-      ],
-      "attitude": "Mixed"
-    },
-    {
-      "entity": "Lord Kalms",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "Lord Kalms",
-          "statement": "Not explicitly stated, but associated with support for Remain."
-        }
-      ],
-      "attitude": "Not explicitly stated"
-    },
-    {
-      "entity": "Julian Assange",
-      "references": ["-"],
-      "justifications": [
-        {
-          "source": "Julian Assange",
-          "statement": "Believes the UK can achieve economic success without EU membership."
-        }
-      ],
-      "attitude": "Positive"
+      "entity1": {
+        "entity": "Nick Bolton",
+        "references": ["Nick Bolton"]
+      },
+      "entity2": {
+        "entity": "United Kingdom",
+        "references": []
+      },
+      "justifications": ["The only thing worse for fundraising than a declining economy is an uncertain one, and that Brexit is likely to cause both: Visit more sites."],
+      "attitude": "Negative"
     }
-  ]
+  ],
+  "topic_relations": [
+    {
+      "topic1": "Trade balance",
+      "topic2": "Brexit",
+      "justifications": ["If you are not spending your days in a Shoreditch café, churning out 'game-changer' apps by the dozen, you have to wonder how the EU's impact on technology affects the average person."],
+      "attitude": "Negative"
+    },
+    {
+      "topic1": "Venture capital",
+      "topic2": "Brexit",
+      "justifications": ["However, it's not actually guaranteed that the government would match the EU's research spending if we vote for Brexit on Thursday. There is a real risk that the recouped funds could be used elsewhere, leaving tech research high and dry."],
+      "attitude": "Negative"
+    }
+  ],
+  "summary": {
+    "text": "The UK was split nearly 50/50 on Brexit, but the same certainly is not true of the technology sector. It seems that, on balance, Britain's tech and science industries would have liked us to stay in Europe, and that makes sense."
+  }
 }

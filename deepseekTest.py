@@ -116,7 +116,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     base_folder = "./Article-Test-Example"
-    prompt_file = "slimmerPrompt.txt"
+    prompt_file = "prompt.txt"
 
     start_time = time.time()
     process_folders(base_folder, prompt_file, use_deepseek=(args.model == "deepseek"))
